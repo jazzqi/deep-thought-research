@@ -1,0 +1,4 @@
+# Temp and system files
+.DS_Store
+*.swp
+*.swo
