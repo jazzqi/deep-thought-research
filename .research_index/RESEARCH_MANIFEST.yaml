@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-17T06:05:49.304664+08:00'
+updated: '2026-07-17T17:00:54.827987+08:00'
 files:
 - path: sentimental/kahneman/2026-07-17-当前市场情绪状态与极端信号分析.md
   agent: kahneman
@@ -808,3 +808,100 @@ files:
   time_horizon: 1w
   collaborators:
   - tech_team
+- path: macro/zhou_jintao/2026-07-17-美联储9月降息叙事再分析-基于修正后美国数据.md
+  agent: zhou_jintao
+  type: report
+  topic: 美联储9月降息叙事再分析-基于修正后美国数据
+  status: final
+  created: '2026-07-17T16:58:48.774911+08:00'
+  updated: '2026-07-17T16:58:48.774911+08:00'
+  tags:
+  - 美联储
+  - 降息
+  - 美国经济
+  - 通胀
+  - 国债收益率
+  - 宏观分析
+  signal: 美联储9月降息概率上升，但通胀粘性构成主要制约
+  confidence: 0.7
+  time_horizon: 2026年7月-9月
+  collaborators:
+  - zhou_jintao
+- path: macro/soros/2026-07-17-美联储9月降息叙事重分析-基于正确美国数据.md
+  agent: soros
+  type: report
+  topic: 美联储9月降息叙事重分析-基于正确美国数据
+  status: final
+  created: '2026-07-17T16:58:49.658241+08:00'
+  updated: '2026-07-17T16:58:49.658241+08:00'
+  tags:
+  - 美联储
+  - 降息
+  - 美元
+  - 风险资产
+  - 美国宏观经济
+  - soros_correction
+  signal: bearish_usd_bullish_risk_assets
+  confidence: 0.55
+  time_horizon: 1-3个月
+  collaborators:
+  - soros
+- path: macro/dalio/2026-07-17-美联储9月降息叙事重分析-勘误与修正.md
+  agent: dalio
+  type: report
+  topic: 美联储9月降息叙事重分析-勘误与修正
+  status: final
+  created: '2026-07-17T16:58:56.101749+08:00'
+  updated: '2026-07-17T16:58:56.101749+08:00'
+  tags:
+  - 美联储
+  - 降息
+  - 美国经济
+  - CPI
+  - 国债收益率
+  - 美元
+  - 勘误
+  signal: 美联储9月降息概率上升，但通胀黏性构成主要制约
+  confidence: 0.65
+  time_horizon: 1-3个月
+  collaborators:
+  - dalio
+- path: sentimental/shiller/2026-07-17-市场情绪状态分析极端信号检测-2025-07-17.md
+  agent: shiller
+  type: analysis
+  topic: 市场情绪状态分析——极端信号检测 2025-07-17
+  status: final
+  created: '2026-07-17T17:00:42.968970+08:00'
+  updated: '2026-07-17T17:00:42.968970+08:00'
+  tags:
+  - 市场情绪
+  - 极端信号
+  - 中国通缩
+  - 美联储降息
+  - 科技股抛售
+  - ISM PMI
+  signal: bearish
+  confidence: 0.75
+  time_horizon: 1-3个月
+  collaborators: []
+- path: sentimental/kahneman/2026-07-17-市场情绪状态与极端信号综合分析.md
+  agent: kahneman
+  type: deep_dive
+  topic: 市场情绪状态与极端信号综合分析
+  status: final
+  created: '2026-07-17T17:00:47.361178+08:00'
+  updated: '2026-07-17T17:00:47.361178+08:00'
+  tags:
+  - 中国宏观
+  - 美国宏观
+  - 通缩
+  - 市场情绪
+  - 极端信号
+  - 制造业PMI
+  - 流动性陷阱
+  - 国债收益率
+  signal: 中国处于极端悲观+通缩螺旋；美国制造业收缩但消费相对韧性，债市曲线正常化
+  confidence: 0.85
+  time_horizon: 1-3个月
+  collaborators:
+  - kahneman
