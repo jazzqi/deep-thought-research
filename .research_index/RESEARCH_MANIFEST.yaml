@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-17T17:00:54.827987+08:00'
+updated: '2026-07-17T18:53:21.130828+08:00'
 files:
 - path: sentimental/kahneman/2026-07-17-当前市场情绪状态与极端信号分析.md
   agent: kahneman
@@ -905,3 +905,398 @@ files:
   time_horizon: 1-3个月
   collaborators:
   - kahneman
+- path: portfolio/cio/2026-07-17-市场情绪综合判断中国通缩螺旋与流动性陷阱双极端信号.md
+  agent: cio
+  type: analysis
+  topic: 市场情绪综合判断：中国通缩螺旋与流动性陷阱双极端信号
+  status: final
+  created: '2026-07-17T17:01:45.090156+08:00'
+  updated: '2026-07-17T17:01:45.090156+08:00'
+  tags:
+  - 中国
+  - 通缩
+  - 流动性陷阱
+  - 市场情绪
+  - 宏观风险
+  - 中美分化
+  - 资产配置
+  signal: bearish_china
+  confidence: 0.85
+  time_horizon: 3-6个月
+  collaborators:
+  - kahneman
+- path: sentimental/shiller/2026-07-17-市场情绪全景分析极端信号检测-2026-07-17.md
+  agent: shiller
+  type: analysis
+  topic: 市场情绪全景分析：极端信号检测 2026-07-17
+  status: final
+  created: '2026-07-17T17:02:54.998120+08:00'
+  updated: '2026-07-17T17:02:54.998120+08:00'
+  tags:
+  - sentiment
+  - extreme_signals
+  - China_deflation
+  - Fed_rate_cut
+  - tech_selloff
+  - market_macro
+  signal: mixed - 中美情绪严重分化，美国面临政策转向节点，中国处于通缩困境
+  confidence: 0.8
+  time_horizon: 1-3个月
+  collaborators: []
+- path: sentimental/kahneman/2026-07-17-全球市场情绪状态扫描与极端信号检测-2026-07-17.md
+  agent: kahneman
+  type: scan
+  topic: 全球市场情绪状态扫描与极端信号检测 2026-07-17
+  status: final
+  created: '2026-07-17T17:03:02.831529+08:00'
+  updated: '2026-07-17T17:03:02.831529+08:00'
+  tags:
+  - sentiment
+  - extreme_signal
+  - China
+  - US
+  - market_scan
+  - flag
+  signal: 中国多项核心指标同步进入极端区域，通缩螺旋风险上升；美国情绪分化，降息预期升温
+  confidence: 0.85
+  time_horizon: 1-3个月
+  collaborators:
+  - kahneman
+- path: macro/dalio/2026-07-17-eventrouter跨进程轮询测试事件分析.md
+  agent: dalio
+  type: analysis
+  topic: EventRouter跨进程轮询测试事件分析
+  status: final
+  created: '2026-07-17T17:29:56.794821+08:00'
+  updated: '2026-07-17T17:29:56.794821+08:00'
+  tags:
+  - EventRouter
+  - 系统测试
+  - 基础设施
+  - 事件路由
+  - pipeline验证
+  signal: neutral
+  confidence: 0.9
+  time_horizon: 即时
+  collaborators:
+  - dalio
+- path: macro/zhou_jintao/2026-07-17-测试事件评估报告-eventrouter跨进程轮询.md
+  agent: zhou_jintao
+  type: analysis
+  topic: 测试事件评估报告 - EventRouter跨进程轮询
+  status: final
+  created: '2026-07-17T17:29:58.424866+08:00'
+  updated: '2026-07-17T17:29:58.424866+08:00'
+  tags:
+  - system
+  - test
+  - EventRouter
+  - infrastructure
+  - heartbeat
+  signal: 无信号 - 系统内部测试事件，非真实宏观叙事
+  confidence: 1.0
+  time_horizon: 瞬时
+  collaborators: []
+- path: macro/soros/2026-07-17-eventrouter测试事件评估报告.md
+  agent: soros
+  type: analysis
+  topic: EventRouter测试事件评估报告
+  status: final
+  created: '2026-07-17T17:30:01.544043+08:00'
+  updated: '2026-07-17T17:30:01.544043+08:00'
+  tags:
+  - EventRouter
+  - 系统测试
+  - 基础设施
+  - 测试事件
+  signal: 无信号（系统测试事件）
+  confidence: 1.0
+  time_horizon: 即时
+  collaborators:
+  - soros
+- path: sentimental/kahneman/2026-07-17-市场情绪状态分析-极端信号检测-20260717.md
+  agent: kahneman
+  type: analysis
+  topic: 市场情绪状态分析-极端信号检测-20260717
+  status: final
+  created: '2026-07-17T18:00:44.366242+08:00'
+  updated: '2026-07-17T18:00:44.366242+08:00'
+  tags:
+  - 情绪分析
+  - 极端信号
+  - 中国市场
+  - 消费者信心
+  - 房地产
+  - 债券市场
+  - 固定资产投资
+  signal: bearish_china
+  confidence: 0.75
+  time_horizon: 1-3个月
+  collaborators:
+  - kahneman
+- path: sentimental/shiller/2026-07-17-2026-07-17-极端市场情绪分析亚洲恐慌共振与结构性恶化.md
+  agent: shiller
+  type: deep_dive
+  topic: 2026-07-17 极端市场情绪分析：亚洲恐慌共振与结构性恶化
+  status: final
+  created: '2026-07-17T18:00:49.772500+08:00'
+  updated: '2026-07-17T18:00:49.772500+08:00'
+  tags:
+  - 市场情绪
+  - 恐慌
+  - 中国股市
+  - 韩国股市
+  - 半导体拥挤交易
+  - 宏观经济恶化
+  - 信贷收缩
+  - 消费者信心
+  signal: bearish
+  confidence: 0.8
+  time_horizon: 1-3个月
+  collaborators:
+  - shiller
+- path: portfolio/cio/2026-07-17-市场情绪综合研判中国三重极端信号与全球风险偏好分析.md
+  agent: cio
+  type: report
+  topic: 市场情绪综合研判：中国三重极端信号与全球风险偏好分析
+  status: final
+  created: '2026-07-17T18:02:29.262364+08:00'
+  updated: '2026-07-17T18:02:29.262364+08:00'
+  tags:
+  - 中国
+  - 情绪分析
+  - 极端信号
+  - 固定资产投资
+  - 房地产信贷
+  - 消费者信心
+  - 债券市场
+  - 中美利差
+  - 风险提示
+  signal: bearish_china
+  confidence: 0.85
+  time_horizon: 3-6个月
+  collaborators:
+  - kahneman
+- path: portfolio/cio/2026-07-17-tech叙事简报-半导体抛售与ai竞赛20260717.md
+  agent: cio
+  type: report
+  topic: Tech叙事简报-半导体抛售与AI竞赛20260717
+  status: final
+  created: '2026-07-17T18:04:58.661505+08:00'
+  updated: '2026-07-17T18:04:58.661505+08:00'
+  tags:
+  - Tech
+  - 半导体
+  - AI
+  - 板块轮动
+  - WAIC
+  - 宏观利率
+  - Kimi K3
+  signal: 科技板块正经历半导体抛售与资金轮动，AI大模型竞赛在中国加速
+  confidence: 0.6
+  time_horizon: 短期（1-4周）
+  collaborators: []
+- path: sector/ai_specialist/2026-07-17-tech-ai叙事变化扫描-2026-07-17.md
+  agent: ai_specialist
+  type: scan
+  topic: Tech-AI叙事变化扫描 2026-07-17
+  status: final
+  created: '2026-07-17T18:05:01.612103+08:00'
+  updated: '2026-07-17T18:05:01.612103+08:00'
+  tags:
+  - AI叙事
+  - AI抛售
+  - AI板块调整
+  - Agentic IDE
+  - 开源大模型
+  - 6G-AI
+  - Meta云服务
+  - Codex生态
+  - Kimi K3
+  - 台积电
+  - WAIC 2026
+  signal: AI叙事从"无限增长"转向"ROI质疑"，多信号指向AI板块调整加速
+  confidence: 0.8
+  time_horizon: 1-4周
+  collaborators:
+  - ai_specialist
+- path: sector/tech_generalist/2026-07-17-tech-ai-narrative-scan-2026-07-17.md
+  agent: tech_generalist
+  type: scan
+  topic: tech-ai-narrative-scan-2026-07-17
+  status: final
+  created: '2026-07-17T18:06:02.027989+08:00'
+  updated: '2026-07-17T18:06:02.027989+08:00'
+  tags:
+  - AI
+  - semiconductor
+  - market-crash
+  - AI-agents
+  - coding-tools
+  - GitHub-trending
+  - 6G
+  - Nvidia
+  - China-AI
+  - Meta-cloud
+  signal: AI基础设施投资回报质疑引发全球股市回调；AI Coding Agent工具链进入成熟期；Nvidia从数据中心向电信基础设施扩张
+  confidence: 0.8
+  time_horizon: 1-4周
+  collaborators:
+  - tech_generalist
+- path: portfolio/cio/2026-07-17-2026年7月全球宏观与市场综合研判系统性风险升温.md
+  agent: cio
+  type: report
+  topic: 2026年7月全球宏观与市场综合研判——系统性风险升温
+  status: final
+  created: '2026-07-17T18:06:21.747904+08:00'
+  updated: '2026-07-17T18:06:21.747904+08:00'
+  tags:
+  - 中国宏观
+  - 美国宏观
+  - 风险预警
+  - 市场情绪
+  - 去杠杆
+  - 全球市场
+  signal: risk-off, 警惕全球同步去杠杆
+  confidence: 0.65
+  time_horizon: 1-3个月
+  collaborators:
+  - macro_view
+  - sentiment_scan
+  - deep_analysis
+  - routine_risk
+- path: portfolio/cio/2026-07-17-2026年7月市场风险综合研判报告.md
+  agent: cio
+  type: report
+  topic: 2026年7月市场风险综合研判报告
+  status: final
+  created: '2026-07-17T18:07:29.982833+08:00'
+  updated: '2026-07-17T18:07:29.982833+08:00'
+  tags:
+  - 中国宏观
+  - 风险事件
+  - 科技股
+  - AI拥挤交易
+  - 跨资产波动
+  signal: risk_off_alert
+  confidence: 0.7
+  time_horizon: 1-3个月
+  collaborators: []
+- path: sentimental/kahneman/2026-07-17-20260717-global-market-panic-extreme-sentiment-analysis.md
+  agent: kahneman
+  type: analysis
+  topic: 20260717-global-market-panic-extreme-sentiment-analysis
+  status: final
+  created: '2026-07-17T18:08:37.739014+08:00'
+  updated: '2026-07-17T18:08:37.739014+08:00'
+  tags:
+  - panic
+  - sentiment
+  - extreme
+  - risk-off
+  - semiconductor
+  - A-shares
+  - global-selloff
+  - crowded-trade
+  signal: bearish
+  confidence: 0.85
+  time_horizon: 1-4 weeks
+  collaborators: []
+- path: sentimental/shiller/2026-07-17-2026年7月市场情绪状态扫描中国深度悲观-vs-美国谨慎观望.md
+  agent: shiller
+  type: scan
+  topic: 2026年7月市场情绪状态扫描——中国深度悲观 vs 美国谨慎观望
+  status: final
+  created: '2026-07-17T18:08:43.738603+08:00'
+  updated: '2026-07-17T18:08:43.738603+08:00'
+  tags:
+  - 情绪分析
+  - 中国市场
+  - 美国市场
+  - 消费者信心
+  - 通缩
+  - 债券市场
+  - 半导体
+  - 宏观风险
+  signal: 中国情绪处于深度悲观区间（消费信心89.9，通缩+信用收缩），尚未达极端恐慌但已接近警戒线；美国情绪中性偏谨慎，无极端信号
+  confidence: 0.85
+  time_horizon: 短期（1-4周）
+  collaborators: []
+- path: portfolio/cio/2026-07-17-全球市场情绪综合研判极端恐慌与拥挤交易逆转.md
+  agent: cio
+  type: report
+  topic: 全球市场情绪综合研判：极端恐慌与拥挤交易逆转
+  status: final
+  created: '2026-07-17T18:09:46.702528+08:00'
+  updated: '2026-07-17T18:09:46.702528+08:00'
+  tags:
+  - 全球市场
+  - 极端恐慌
+  - 半导体拥挤交易
+  - 跨资产联动
+  - 韩国爆仓
+  - AI泡沫
+  - 中国宏观
+  signal: bearish
+  confidence: 0.85
+  time_horizon: 短期（1-4周）
+  collaborators:
+  - kahneman
+- path: macro/zhou_jintao/2026-07-17-美联储9月降息叙事重构分析.md
+  agent: zhou_jintao
+  type: report
+  topic: 美联储9月降息叙事重构分析
+  status: final
+  created: '2026-07-17T18:52:58.269719+08:00'
+  updated: '2026-07-17T18:52:58.269719+08:00'
+  tags:
+  - 美联储
+  - 降息
+  - 美元
+  - 风险资产
+  - 美国宏观
+  - 收益率曲线
+  signal: 美联储9月降息概率上升，美元承压，风险资产短期利好
+  confidence: 0.7
+  time_horizon: 1-3个月
+  collaborators: []
+- path: macro/soros/2026-07-17-美联储9月降息叙事基于正确数据的重新分析.md
+  agent: soros
+  type: report
+  topic: 美联储9月降息叙事—基于正确数据的重新分析
+  status: final
+  created: '2026-07-17T18:53:04.108206+08:00'
+  updated: '2026-07-17T18:53:04.108206+08:00'
+  tags:
+  - 美联储
+  - 降息
+  - 美国宏观
+  - 美元
+  - 风险资产
+  - 勘误
+  signal: 美联储9月降息概率上升但预期已部分定价，美元短期承压但下行空间有限，风险资产谨慎看多
+  confidence: 0.7
+  time_horizon: 1-3个月
+  collaborators:
+  - soros
+- path: macro/dalio/2026-07-17-美联储9月降息叙事重新分析-数据勘误与修正.md
+  agent: dalio
+  type: report
+  topic: 美联储9月降息叙事重新分析-数据勘误与修正
+  status: final
+  created: '2026-07-17T18:53:13.888711+08:00'
+  updated: '2026-07-17T18:53:13.888711+08:00'
+  tags:
+  - 美联储
+  - 降息
+  - 美元
+  - 风险资产
+  - 数据勘误
+  - CPI
+  - 国债收益率
+  - 宏观分析
+  signal: Bearish USD, Bullish Risk Assets (conditional)
+  confidence: 0.6
+  time_horizon: 1-3个月
+  collaborators:
+  - dalio
