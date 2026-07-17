@@ -1,0 +1,810 @@
+version: 1
+updated: '2026-07-17T06:05:49.304664+08:00'
+files:
+- path: sentimental/kahneman/2026-07-17-当前市场情绪状态与极端信号分析.md
+  agent: kahneman
+  type: scan
+  topic: 当前市场情绪状态与极端信号分析
+  status: final
+  created: '2026-07-17T03:01:28.482587+08:00'
+  updated: '2026-07-17T03:01:28.482587+08:00'
+  tags:
+  - 情绪分析
+  - 极端信号
+  - 通缩风险
+  - 消费者信心
+  - 杠杆风险
+  - 宏观扫描
+  signal: 强烈悲观信号 - 多重结构性矛盾并存
+  confidence: 0.85
+  time_horizon: 1-3个月
+  collaborators:
+  - kahneman
+- path: sentimental/shiller/2026-07-17-2026年7月中国市场情绪全景分析通缩螺旋警报.md
+  agent: shiller
+  type: analysis
+  topic: 2026年7月中国市场情绪全景分析：通缩螺旋警报
+  status: final
+  created: '2026-07-17T03:01:47.816347+08:00'
+  updated: '2026-07-17T03:01:47.816347+08:00'
+  tags:
+  - 中国市场
+  - 通缩
+  - 信用收缩
+  - 情绪分析
+  - 极端信号
+  - 债务通缩螺旋
+  signal: bearish
+  confidence: 0.85
+  time_horizon: 1-3个月
+  collaborators: []
+- path: portfolio/cio/2026-07-17-市场情绪综合诊断系统性悲观与多重极端信号.md
+  agent: cio
+  type: analysis
+  topic: 市场情绪综合诊断：系统性悲观与多重极端信号
+  status: final
+  created: '2026-07-17T03:02:48.793515+08:00'
+  updated: '2026-07-17T03:02:48.793515+08:00'
+  tags:
+  - 市场情绪
+  - 通缩
+  - 信贷危机
+  - 杠杆风险
+  - 宏观经济
+  - 防御策略
+  signal: bearish
+  confidence: 0.85
+  time_horizon: 3-6个月
+  collaborators:
+  - kahneman
+- path: sentimental/kahneman/2026-07-17-中国宏观情绪极端信号检测通缩-信用紧缩双螺旋.md
+  agent: kahneman
+  type: deep_dive
+  topic: 中国宏观情绪极端信号检测：通缩-信用紧缩双螺旋
+  status: final
+  created: '2026-07-17T03:04:27.880677+08:00'
+  updated: '2026-07-17T03:04:27.880677+08:00'
+  tags:
+  - 中国宏观经济
+  - 通缩
+  - 信用紧缩
+  - 消费信心
+  - 固定投资
+  - 极端信号
+  signal: bearish
+  confidence: 0.85
+  time_horizon: 3-6个月
+  collaborators: []
+- path: portfolio/cio/2026-07-17-市场情绪综合研判谨慎修复中的多空拉锯.md
+  agent: cio
+  type: report
+  topic: 市场情绪综合研判：谨慎修复中的多空拉锯
+  status: final
+  created: '2026-07-17T03:05:42.436408+08:00'
+  updated: '2026-07-17T03:05:42.436408+08:00'
+  tags:
+  - 市场情绪
+  - 宏观分析
+  - 综合研判
+  - CIO
+  - sentiment synthesis
+  signal: mixed
+  confidence: 0.55
+  time_horizon: 1-3个月
+  collaborators:
+  - sentiment_analyst_1
+  - sentiment_analyst_2
+- path: macro/soros/2026-07-17-美联储9月降息概率上升-宏观叙事分析.md
+  agent: soros
+  type: analysis
+  topic: 美联储9月降息概率上升-宏观叙事分析
+  status: final
+  created: '2026-07-17T03:19:40.316319+08:00'
+  updated: '2026-07-17T03:19:40.316319+08:00'
+  tags:
+  - 美联储
+  - 降息
+  - 美元
+  - 风险资产
+  - 宏观叙事
+  - 货币政策
+  signal: 美联储9月降息概率上升，美元承压，风险资产偏强
+  confidence: 0.5
+  time_horizon: 1-3个月
+  collaborators: []
+- path: macro/zhou_jintao/2026-07-17-美联储9月降息叙事与宏观影响评估.md
+  agent: zhou_jintao
+  type: analysis
+  topic: 美联储9月降息叙事与宏观影响评估
+  status: final
+  created: '2026-07-17T03:19:45.579494+08:00'
+  updated: '2026-07-17T03:19:45.579494+08:00'
+  tags:
+  - 美联储
+  - 降息
+  - 美元
+  - 风险资产
+  - 宏观叙事
+  signal: 美联储鸽派信号增强，9月降息概率上升
+  confidence: 0.5
+  time_horizon: 1-3个月
+  collaborators: []
+- path: macro/dalio/2026-07-17-美联储9月降息叙事评估-美元承压与风险资产走强.md
+  agent: dalio
+  type: analysis
+  topic: 美联储9月降息叙事评估-美元承压与风险资产走强
+  status: final
+  created: '2026-07-17T03:19:59.762072+08:00'
+  updated: '2026-07-17T03:19:59.762072+08:00'
+  tags:
+  - 美联储
+  - 降息
+  - 宏观叙事
+  - 美元
+  - 风险资产
+  - 9月FOMC
+  - USD/CNY
+  signal: 美联储9月降息概率上升，美元承压，风险资产走强
+  confidence: 0.5
+  time_horizon: 2026年7月-9月（约2个月）
+  collaborators: []
+- path: macro/soros/2026-07-17-中国宏观场景分析通缩性衰退中的流动性陷阱.md
+  agent: soros
+  type: analysis
+  topic: 中国宏观场景分析：通缩性衰退中的流动性陷阱
+  status: final
+  created: '2026-07-17T04:01:10.062905+08:00'
+  updated: '2026-07-17T04:01:10.062905+08:00'
+  tags:
+  - 中国宏观
+  - 通缩
+  - 流动性陷阱
+  - 资产负债表衰退
+  - 政策宽松
+  - 信用收缩
+  - GDP放缓
+  - PPI通缩
+  signal: bearish
+  confidence: 0.85
+  time_horizon: 3-6个月
+  collaborators: []
+- path: macro/dalio/2026-07-17-china-macro-regime-analysis-h1-2026-disinflationary-stagnation.md
+  agent: dalio
+  type: deep_dive
+  topic: China Macro Regime Analysis - H1 2026 Disinflationary Stagnation
+  status: final
+  created: '2026-07-17T04:01:34.794358+08:00'
+  updated: '2026-07-17T04:01:34.794358+08:00'
+  tags:
+  - China
+  - macro
+  - deflation
+  - balance-sheet-recession
+  - growth-slowdown
+  - policy
+  - regime-analysis
+  signal: bearish
+  confidence: 0.85
+  time_horizon: 3-6 months
+  collaborators: []
+- path: macro/zhou_jintao/2026-07-17-china-macro-regime-analysis-deflationary-slowdown-with-liquidity-trap.md
+  agent: zhou_jintao
+  type: analysis
+  topic: China Macro Regime Analysis - Deflationary Slowdown with Liquidity Trap
+  status: final
+  created: '2026-07-17T04:01:40.677394+08:00'
+  updated: '2026-07-17T04:01:40.677394+08:00'
+  tags:
+  - China
+  - macro
+  - deflation
+  - slowdown
+  - liquidity trap
+  - policy
+  - CPI
+  - PPI
+  - growth
+  signal: bearish
+  confidence: 0.85
+  time_horizon: 3-6 months
+  collaborators:
+  - zhou_jintao
+- path: portfolio/cio/2026-07-17-中国宏观场景综合判断通缩型信用收缩.md
+  agent: cio
+  type: report
+  topic: 中国宏观场景综合判断：通缩型信用收缩
+  status: final
+  created: '2026-07-17T04:03:04.648725+08:00'
+  updated: '2026-07-17T04:03:04.648725+08:00'
+  tags:
+  - 宏观
+  - 中国
+  - 通缩
+  - 信用收缩
+  - 货币政策
+  - 债券
+  - 风险预警
+  signal: bearish
+  confidence: 0.75
+  time_horizon: 3-6个月
+  collaborators:
+  - macro_team
+- path: sector/tech_generalist/2026-07-17-中国通缩型信用收缩周期下的科技行业子赛道分析.md
+  agent: tech_generalist
+  type: deep_dive
+  topic: 中国通缩型信用收缩周期下的科技行业子赛道分析
+  status: final
+  created: '2026-07-17T04:04:55.003343+08:00'
+  updated: '2026-07-17T04:04:55.003343+08:00'
+  tags:
+  - 宏观
+  - 科技行业
+  - 通缩
+  - AI
+  - 半导体
+  - 消费电子
+  - 互联网
+  - 信用收缩
+  - 资产负债表衰退
+  - 中国科技
+  - 资产配置
+  signal: 通缩延续下科技行业极端分化——看好AI基础设施和半导体设备国产替代，坚决回避消费电子内需、企业SaaS和金融科技
+  confidence: 0.75
+  time_horizon: 6-12个月
+  collaborators:
+  - macro_analyst
+- path: macro/soros/2026-07-17-美联储政策倾向与市场定价gap的反身性分析.md
+  agent: soros
+  type: deep_dive
+  topic: 美联储政策倾向与市场定价Gap的反身性分析
+  status: final
+  created: '2026-07-17T04:05:18.829532+08:00'
+  updated: '2026-07-17T04:05:18.829532+08:00'
+  tags:
+  - 美联储
+  - 利率政策
+  - 市场定价
+  - 反身性
+  - FOMC
+  - 通胀
+  - 降息预期
+  - 宏观分析
+  signal: market-pricing-vs-fed-guidance-gap-widening
+  confidence: 0.75
+  time_horizon: 3-6个月
+  collaborators: []
+- path: portfolio/cio/2026-07-17-协作板pin项分析与市场信号扫描.md
+  agent: cio
+  type: scan
+  topic: 协作板Pin项分析与市场信号扫描
+  status: final
+  created: '2026-07-17T04:07:17.336815+08:00'
+  updated: '2026-07-17T04:07:17.336815+08:00'
+  tags:
+  - 协作板
+  - pin管理
+  - 优先级排序
+  - 市场扫描
+  - 宏观
+  - AI
+  signal: 协作板当前无可直接查询的open pin项，已通过市场数据扫描识别出多项待办优先级信号
+  confidence: 0.85
+  time_horizon: 短期（1-2周）
+  collaborators:
+  - cio
+- path: fundamental/buffett/2026-07-17-china-tail-risk-assessment-portfolio-impact.md
+  agent: buffett
+  type: analysis
+  topic: China tail risk assessment portfolio impact
+  status: final
+  created: '2026-07-17T04:09:53.048305+08:00'
+  updated: '2026-07-17T04:09:53.048305+08:00'
+  tags:
+  - China
+  - tail risk
+  - deflation
+  - credit crunch
+  - portfolio
+  - hedge
+  - macro
+  signal: bearish
+  confidence: 0.8
+  time_horizon: 3-6 months
+  collaborators: []
+- path: sentimental/kahneman/2026-07-17-当前市场情绪状态与极端信号检测分析.md
+  agent: kahneman
+  type: deep_dive
+  topic: 当前市场情绪状态与极端信号检测分析
+  status: final
+  created: '2026-07-17T04:11:09.058018+08:00'
+  updated: '2026-07-17T04:11:09.058018+08:00'
+  tags:
+  - 情绪分析
+  - 极端信号
+  - 通缩
+  - 信用收缩
+  - 中国经济
+  - 宏观风险
+  signal: bearish
+  confidence: 0.85
+  time_horizon: 1-3个月
+  collaborators: []
+- path: sentimental/shiller/2026-07-17-市场情绪极端信号检测中国通缩螺旋与信贷断层分析.md
+  agent: shiller
+  type: deep_dive
+  topic: 市场情绪极端信号检测：中国通缩螺旋与信贷断层分析
+  status: final
+  created: '2026-07-17T04:11:29.297185+08:00'
+  updated: '2026-07-17T04:11:29.297185+08:00'
+  tags:
+  - 中国宏观
+  - 通缩
+  - 信贷收缩
+  - 极端信号
+  - 情绪分析
+  - 固定投资
+  - PPI
+  - CPI
+  signal: bearish
+  confidence: 0.85
+  time_horizon: 1-3个月
+  collaborators: []
+- path: portfolio/cio/2026-07-17-市场情绪综合判断与宏观信号分析.md
+  agent: cio
+  type: analysis
+  topic: 市场情绪综合判断与宏观信号分析
+  status: final
+  created: '2026-07-17T04:12:32.767253+08:00'
+  updated: '2026-07-17T04:12:32.767253+08:00'
+  tags:
+  - 市场情绪
+  - 宏观指标
+  - sentiment_analysis
+  - 中国宏观经济
+  - 通缩压力
+  signal: mixed_bearish
+  confidence: 0.55
+  time_horizon: 1-3个月
+  collaborators:
+  - parallel_sentiment_analysis
+- path: sentimental/kahneman/2026-07-17-china-market-sentiment-extreme-fear-signals-july-2026.md
+  agent: kahneman
+  type: scan
+  topic: china-market-sentiment-extreme-fear-signals-july-2026
+  status: final
+  created: '2026-07-17T04:14:34.671713+08:00'
+  updated: '2026-07-17T04:14:34.671713+08:00'
+  tags:
+  - China
+  - deflation
+  - credit_crunch
+  - extreme_fear
+  - consumer_confidence
+  - macro
+  - sentiment_scan
+  - liquidity_trap
+  signal: extreme_fear
+  confidence: 0.85
+  time_horizon: 1-3 months
+  collaborators: []
+- path: sentimental/shiller/2026-07-17-2026年7月中国市场情绪状态极端通缩与信用塌方双警告.md
+  agent: shiller
+  type: analysis
+  topic: 2026年7月中国市场情绪状态：极端通缩与信用塌方双警告
+  status: final
+  created: '2026-07-17T04:14:42.914450+08:00'
+  updated: '2026-07-17T04:14:42.914450+08:00'
+  tags:
+  - 中国宏观经济
+  - 通缩
+  - 信用收缩
+  - 情绪分析
+  - 极端信号
+  - FDI流出
+  - CPI
+  - PPI
+  - 新贷款
+  signal: bearish
+  confidence: 0.85
+  time_horizon: 1-3个月
+  collaborators: []
+- path: portfolio/cio/2026-07-17-中国市场情绪综合研判通缩螺旋流动性陷阱信心崩塌三重共振.md
+  agent: cio
+  type: analysis
+  topic: 中国市场情绪综合研判：通缩螺旋+流动性陷阱+信心崩塌三重共振
+  status: final
+  created: '2026-07-17T04:15:41.856414+08:00'
+  updated: '2026-07-17T04:15:41.856414+08:00'
+  tags:
+  - 中国市场
+  - 情绪分析
+  - 通缩
+  - 流动性陷阱
+  - 极端信号
+  - 资产配置
+  signal: strong_sell
+  confidence: 0.9
+  time_horizon: 3-6个月
+  collaborators:
+  - kahneman
+- path: macro/dalio/2026-07-17-gpt-56-sol-pro-凸优化突破与ai产业化加速评估.md
+  agent: dalio
+  type: analysis
+  topic: GPT-5.6-Sol-Pro-凸优化突破与AI产业化加速评估
+  status: final
+  created: '2026-07-17T04:42:06.793538+08:00'
+  updated: '2026-07-17T04:42:06.793538+08:00'
+  tags:
+  - AI
+  - GPT-5.6
+  - 凸优化
+  - AI产业化
+  - 宏观叙事
+  - 技术突破
+  - 算力产业链
+  signal: new_narrative_detected
+  confidence: 0.4
+  time_horizon: 3-12个月
+  collaborators: []
+- path: macro/zhou_jintao/2026-07-17-gpt-56-sol-pro-凸优化突破-ai科研能力里程碑.md
+  agent: zhou_jintao
+  type: analysis
+  topic: GPT-5.6-Sol-Pro-凸优化突破-AI科研能力里程碑
+  status: final
+  created: '2026-07-17T04:42:17.675499+08:00'
+  updated: '2026-07-17T04:42:17.675499+08:00'
+  tags:
+  - AI
+  - GPT-5.6
+  - 凸优化
+  - AI科研
+  - 数学突破
+  - 产业化
+  - 叙事分析
+  signal: bullish
+  confidence: 0.4
+  time_horizon: 3-12个月
+  collaborators: []
+- path: macro/soros/2026-07-17-gpt-56-sol-pro-凸优化突破与ai产业化加速影响评估.md
+  agent: soros
+  type: analysis
+  topic: GPT-5.6-Sol-Pro-凸优化突破与AI产业化加速影响评估
+  status: final
+  created: '2026-07-17T04:42:25.356969+08:00'
+  updated: '2026-07-17T04:42:25.356969+08:00'
+  tags:
+  - AI
+  - GPT-5.6
+  - 凸优化
+  - 产业化
+  - 深度研究
+  - 宏观叙事
+  - 数学研究
+  - 算力需求
+  signal: 看多AI科研能力突破及其产业化加速
+  confidence: 0.55
+  time_horizon: 3-12个月
+  collaborators: []
+- path: sentimental/kahneman/2026-07-17-市场情绪极端信号扫描-20260716.md
+  agent: kahneman
+  type: scan
+  topic: 市场情绪极端信号扫描-20260716
+  status: final
+  created: '2026-07-17T05:00:51.471936+08:00'
+  updated: '2026-07-17T05:00:51.471936+08:00'
+  tags:
+  - 情绪扫描
+  - 极端信号
+  - 信用收缩
+  - 通缩
+  - 消费者信心
+  - 中国宏观
+  signal: 极端悲观
+  confidence: 0.85
+  time_horizon: 1-3个月
+  collaborators:
+  - kahneman
+- path: sentimental/shiller/2026-07-17-中国市场价格情绪深度扫描与极端信号检测-20260716.md
+  agent: shiller
+  type: analysis
+  topic: 中国市场价格情绪深度扫描与极端信号检测 20260716
+  status: final
+  created: '2026-07-17T05:00:51.918207+08:00'
+  updated: '2026-07-17T05:00:51.918207+08:00'
+  tags:
+  - 中国
+  - 情绪分析
+  - 通缩
+  - 极端信号
+  - 消费者信心
+  - 信贷紧缩
+  - FDI流出
+  signal: 极端悲观
+  confidence: 0.85
+  time_horizon: 1-3个月
+  collaborators:
+  - shiller
+- path: portfolio/cio/2026-07-17-中国市场价格情绪综合判断-极端悲观三重共振.md
+  agent: cio
+  type: analysis
+  topic: 中国市场价格情绪综合判断-极端悲观三重共振
+  status: final
+  created: '2026-07-17T05:01:41.394313+08:00'
+  updated: '2026-07-17T05:01:41.394313+08:00'
+  tags:
+  - 中国市场
+  - 情绪分析
+  - 极端信号
+  - 通缩
+  - 信用收缩
+  - 资产负债表衰退
+  - CIO综合判断
+  signal: bearish
+  confidence: 0.85
+  time_horizon: 1-3个月
+  collaborators:
+  - kahneman
+  - shiller
+- path: sentimental/kahneman/2026-07-17-当前市场情绪状态分析与极端信号检测.md
+  agent: kahneman
+  type: scan
+  topic: 当前市场情绪状态分析与极端信号检测
+  status: final
+  created: '2026-07-17T05:02:50.562936+08:00'
+  updated: '2026-07-17T05:02:50.562936+08:00'
+  tags:
+  - 市场情绪
+  - 极端信号
+  - 通缩
+  - 信贷紧缩
+  - 资本外流
+  - 消费信心
+  signal: bearish
+  confidence: 0.85
+  time_horizon: 1-3个月
+  collaborators: []
+- path: sentimental/shiller/2026-07-17-中国宏观经济情绪扫描通缩螺旋与信用崩塌的双重极端信号.md
+  agent: shiller
+  type: scan
+  topic: 中国宏观经济情绪扫描：通缩螺旋与信用崩塌的双重极端信号
+  status: final
+  created: '2026-07-17T05:03:16.515174+08:00'
+  updated: '2026-07-17T05:03:16.515174+08:00'
+  tags:
+  - 中国宏观
+  - 通缩
+  - 信用紧缩
+  - 情绪极端
+  - 消费者信心
+  - 新增贷款
+  - FDI
+  - 杠杆风险
+  signal: bearish
+  confidence: 0.85
+  time_horizon: 1-3个月
+  collaborators: []
+- path: portfolio/cio/2026-07-17-市场情绪状态与极端信号综合判断-20260716.md
+  agent: cio
+  type: report
+  topic: 市场情绪状态与极端信号综合判断-20260716
+  status: final
+  created: '2026-07-17T05:04:39.437556+08:00'
+  updated: '2026-07-17T05:04:39.437556+08:00'
+  tags:
+  - 市场情绪
+  - 通缩
+  - 信贷紧缩
+  - 消费者信心
+  - 债券收益率
+  - 极端信号
+  - CIO综合
+  signal: bearish
+  confidence: 0.65
+  time_horizon: 1-3个月
+  collaborators:
+  - parallel_sentiment_analysis
+- path: macro/zhou_jintao/2026-07-17-gpt-56-imo-full-score-ai-reasoning-milestone-analysis.md
+  agent: zhou_jintao
+  type: deep_dive
+  topic: GPT-5.6-IMO-Full-Score-AI-Reasoning-Milestone-Analysis
+  status: final
+  created: '2026-07-17T05:42:15.816548+08:00'
+  updated: '2026-07-17T05:42:15.816548+08:00'
+  tags:
+  - AI
+  - GPT-5.6
+  - IMO
+  - reasoning
+  - AGI
+  - narrative
+  - infrastructure
+  - OpenAI
+  - semiconductor
+  signal: bullish_ai_infrastructure
+  confidence: 0.75
+  time_horizon: 1-12 months
+  collaborators: []
+- path: macro/dalio/2026-07-17-gpt-56-imo-全满分-ai推理能力跃迁分析.md
+  agent: dalio
+  type: analysis
+  topic: GPT-5.6-IMO-全满分-AI推理能力跃迁分析
+  status: final
+  created: '2026-07-17T05:42:17.748232+08:00'
+  updated: '2026-07-17T05:42:17.748232+08:00'
+  tags:
+  - GPT-5.6
+  - AI推理
+  - IMO
+  - 宏观叙事
+  - 技术突破
+  - 生产力冲击
+  - 科技估值
+  signal: GPT-5.6 IMO零人工干预全满分 → AI推理能力质的跃迁，强化"AI加速替代高技能脑力劳动"宏观叙事
+  confidence: 0.65
+  time_horizon: 12-24个月
+  collaborators: []
+- path: macro/soros/2026-07-17-gpt-56-imo全满分-ai推理能力跃升宏观影响评估.md
+  agent: soros
+  type: analysis
+  topic: GPT-5.6-IMO全满分-AI推理能力跃升宏观影响评估
+  status: final
+  created: '2026-07-17T05:42:23.794235+08:00'
+  updated: '2026-07-17T05:42:23.794235+08:00'
+  tags:
+  - AI
+  - GPT-5
+  - 宏观叙事
+  - 推理能力
+  - IMO
+  - 科技变革
+  - 劳动力市场
+  - 算力
+  - 地缘政治
+  signal: bullish_AI_infrastructure
+  confidence: 0.65
+  time_horizon: 6-18个月
+  collaborators: []
+- path: sentimental/kahneman/2026-07-17-market-sentiment-extreme-signals-analysis.md
+  agent: kahneman
+  type: scan
+  topic: market-sentiment-extreme-signals-analysis
+  status: final
+  created: '2026-07-17T06:00:45.241440+08:00'
+  updated: '2026-07-17T06:00:45.241440+08:00'
+  tags:
+  - 市场情绪
+  - 极端信号
+  - 信用收缩
+  - 通缩风险
+  - 杠杆风险
+  - 宏观分析
+  signal: bearish_extreme
+  confidence: 0.75
+  time_horizon: 1-3个月
+  collaborators: []
+- path: sentimental/shiller/2026-07-17-china-market-sentiment-extreme-signal-analysis.md
+  agent: shiller
+  type: deep_dive
+  topic: china-market-sentiment-extreme-signal-analysis
+  status: final
+  created: '2026-07-17T06:00:51.624428+08:00'
+  updated: '2026-07-17T06:00:51.624428+08:00'
+  tags:
+  - China
+  - deflation
+  - credit_crunch
+  - consumer_confidence
+  - sentiment_extreme
+  - macro_warning
+  - real_estate
+  - fixed_income
+  signal: extreme_bearish
+  confidence: 0.85
+  time_horizon: 1-3 months
+  collaborators:
+  - shiller
+- path: portfolio/cio/2026-07-17-cio-synthesis-market-sentiment-extreme-signals-2026-07-16.md
+  agent: cio
+  type: analysis
+  topic: cio-synthesis-market-sentiment-extreme-signals-2026-07-16
+  status: final
+  created: '2026-07-17T06:01:40.378765+08:00'
+  updated: '2026-07-17T06:01:40.378765+08:00'
+  tags:
+  - 情绪分析
+  - 信用收缩
+  - 通缩
+  - 杠杆风险
+  - CIO综合
+  - 极端信号
+  signal: 极端看空
+  confidence: 0.8
+  time_horizon: 短期（1-4周）
+  collaborators:
+  - kahneman
+  - shiller
+- path: portfolio/cio/2026-07-17-cio-synthesis-report-macro-risk-assessment-jul-2026.md
+  agent: cio
+  type: report
+  topic: CIO Synthesis Report - Macro Risk Assessment (Jul 2026)
+  status: final
+  created: '2026-07-17T06:03:07.366990+08:00'
+  updated: '2026-07-17T06:03:07.366990+08:00'
+  tags:
+  - macro
+  - synthesis
+  - risk
+  - deflation
+  - credit
+  - china
+  signal: bearish
+  confidence: 0.7
+  time_horizon: 3-6 months
+  collaborators:
+  - macro_view
+  - sentiment_scan
+  - deep_analysis
+  - routine_risk
+- path: sector/tech_generalist/2026-07-17-tech-ai-narrative-scan-6-hour-signal-detection-2026-07-16.md
+  agent: tech_generalist
+  type: scan
+  topic: Tech-AI Narrative Scan - 6 Hour Signal Detection 2026-07-16
+  status: final
+  created: '2026-07-17T06:04:26.705588+08:00'
+  updated: '2026-07-17T06:04:26.705588+08:00'
+  tags:
+  - AI Agents
+  - xAI
+  - Codex
+  - Open Source
+  - Agent Infrastructure
+  - MCP
+  - GitHub Trending
+  - Narrative Shift
+  signal: 'AI Agent Ecosystem Explosion: xAI Grok-Build enters coding agent market; Codex Skill economy maturing; Agent infrastructure
+    layer standardizing'
+  confidence: 0.85
+  time_horizon: short-term (1-4 weeks)
+  collaborators:
+  - tech_generalist
+- path: sector/ai_specialist/2026-07-17-tech-ai-narrative-scan-july-16-2026.md
+  agent: ai_specialist
+  type: scan
+  topic: Tech-AI Narrative Scan - July 16 2026
+  status: final
+  created: '2026-07-17T06:05:03.262275+08:00'
+  updated: '2026-07-17T06:05:03.262275+08:00'
+  tags:
+  - GPT-5.6 Sol
+  - Kimi K3
+  - xAI Grok Build
+  - Agent Infrastructure
+  - AI Distillation
+  - Self-Hosting
+  - Mathematical Reasoning
+  - Coding Benchmarks
+  - Open Source AI
+  signal: 'Multiple emerging signals: GPT-5.6 Sol mathematical reasoning breakthrough, Kimi K3 Chinese AI closing gap, xAI
+    open-source agent tooling, agent infrastructure ecosystem boom, AI distillation/security concerns rising, self-hosting
+    inference momentum'
+  confidence: 0.8
+  time_horizon: short-term (1-4 weeks)
+  collaborators: []
+- path: portfolio/cio/2026-07-17-tech-sector-narrative-brief-july-2026.md
+  agent: cio
+  type: report
+  topic: tech-sector-narrative-brief-july-2026
+  status: final
+  created: '2026-07-17T06:05:41.437044+08:00'
+  updated: '2026-07-17T06:05:41.437044+08:00'
+  tags:
+  - tech
+  - sector_scan
+  - degraded
+  - narrative_brief
+  - infrastructure_alert
+  signal: tech_scan_failure_degraded
+  confidence: 0.3
+  time_horizon: 1w
+  collaborators:
+  - tech_team
