@@ -1,194 +1,191 @@
 ---
 agent: ai_specialist
 created: '2026-07-18T02:05:51.671541+08:00'
-updated: '2026-07-18T02:05:51.671541+08:00'
+updated: '2026-07-18T08:18:44.001341+08:00'
 status: final
 type: scan
-topic: tech-ai-narrative-scan-2026-07-17
-signal: Coding agent ecosystem expanding, robot context scaling breakthrough, embodied AI safety gap emerging
-confidence: 0.8
-time_horizon: 1-4 weeks
+topic: Tech-AI narrative scan 2026-07-17
+signal: AI Agent生态加速成熟，Test-Time Training从LLM向机器人领域扩散，预训练数据安全面临新威胁
+confidence: 0.75
+time_horizon: 短中期（1-4周）
 tags:
-- AI agents
-- coding agents
-- robot foundation models
-- AI safety
-- pretraining security
-- multi-agent systems
-- GitHub trending
-- arXiv
+- AI Agents
+- Test-Time Training
+- Robot Foundation Models
+- LLM Security
+- Coding Agents
+- GitHub Trending
+- arXiv Scan
+- Narrative Shift
 collaborators:
 - ai_specialist
 references:
-- path: https://github.com/xai-org/grok-build
-- path: https://arxiv.org/abs/2607.15275
-- path: https://arxiv.org/abs/2607.15267
-- path: https://arxiv.org/abs/2607.15218
-- path: https://arxiv.org/abs/2607.15207
-- path: https://github.com/littledivy/mimic
-- path: https://github.com/mereyabdenbekuly-ctrl/clodex-ide
+- path: arXiv:2607.15275 (RoboTTT)
+- path: arXiv:2607.15267 (Pretraining Poisoning)
+- path: arXiv:2607.15263 (Security Agents)
+- path: arXiv:2607.15277 (LLM Self-Consistency)
+- path: arXiv:2607.15257 (SearchOS-V1)
+- path: arXiv:2607.15253 (Bridge Evidence)
+- path: arXiv:2607.15247 (AutoSynthesis)
+- path: arXiv:2607.15232 (Tokenizer Expansion)
+- path: GitHub xai-org/grok-build
+- path: GitHub vshulcz/deja-vu
+- path: GitHub littledivy/mimic
 invalidation:
 - ''
 ---
-# Tech/AI 叙事变化扫描报告 — 2026-07-17
+# Tech/AI 叙事扫描报告 — 2026-07-17
 
-> **扫描时间**: 2026-07-17 18:00 UTC  
-> **覆盖窗口**: 过去6小时  
-> **数据源**: GitHub Trending, arXiv (cs.AI/cs.CL/cs.RO/cs.CV/cs.CR), 宏观/情绪指标
+> **扫描时间窗口**: 过去约6小时 (2026-07-17 18:00 UTC ~ 2026-07-18 00:00 UTC)
+> **数据源**: arXiv (2026-07-16批次), GitHub Trending daily, 市场指标
+> **⚠️ 说明**: 新闻管道(raw_items)当前无数据返回，分析主要依赖学术论文和开源代码库趋势。
 
 ---
 
 ## 一、核心发现摘要
 
-过去6小时的扫描揭示了 **5个明确的叙事变化信号**，按重要性排序如下：
+过去6小时 Tech/AI 领域呈现 **4大叙事变化信号**：
 
-| 优先级 | 信号 | 置信度 | 时间跨度 |
-|--------|------|--------|----------|
-| 🔴 P1 | **xAI 进入编码代理市场** (grok-build) | 高 | 1-2周 |
-| 🔴 P2 | **机器人基础模型"上下文扩展"范式** (RoboTTT) | 中-高 | 2-4周 |
-| 🟡 P3 | **LLM物理安全鸿沟** — 文本安全≠物理安全 | 中 | 持续 |
-| 🟡 P4 | **预训练数据投毒扩大化** — 从Wikipedia到互联网规模 | 中 | 中期 |
-| 🟢 P5 | **Codex Skills生态化** — 代理技能市场雏形 | 中 | 1-3月 |
-
----
-
-## 二、详细叙事分析
-
-### 【信号1 · P1】xAI 携 grok-build 杀入编码代理市场
-
-**数据点:**
-- **GitHub #1 日榜**: xai-org/grok-build (15,856 ⭐/日)
-- 描述: "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible."
-- 语言: Rust
-- 同时关联: `Git-creat7/grokRegister-cpa` (361⭐) — Grok 自动注册机工具已经出现
-
-**分析:**
-xAI 正在构建一个完整的编码代理栈。grok-build 是一个基于 Rust 的全屏 TUI 工具，强调鼠标交互和可扩展性。这是继 Anthropic Codex/Claude Code 之后，又一家顶级 AI 公司进入编码代理赛道。从 GitHub 的爆发速度（单日 15K+ stars）来看，社区反应极为热烈。
-
-**与已有叙事的关联:**
-- 此前叙事: Anthropic Codex 引领编码代理市场
-- 新叙事: **xAI 正在成为强大的竞争者** — 用 Rust 构建核心，强调 TUI 体验
-- 潜在市场结构变化: 编码代理从"单一玩家"走向"多强竞争"
-
-**需要关注的问题:**
-- grok-build 与 Codex 的能力对比（代码生成质量、上下文长度、工具调用）
-- xAI 是否会推出类似 Anthropic 的 Agent SDK 生态
-- 定价策略 vs 开源策略
+| # | 信号 | 置信度 | 影响范围 |
+|---|------|--------|---------|
+| 1 | **TTT (Test-Time Training) 从LLM向机器人基础模型扩散** | 中高 | 机器人/具身AI |
+| 2 | **编码Agent生态进入「记忆层」竞争阶段** | 高 | 开发者工具/Agent基础设施 |
+| 3 | **预训练数据安全威胁升级——「计算宣传」投毒** | 中 | LLM安全/数据管道 |
+| 4 | **Agent评估范式从「成功率」转向「成本感知」** | 中 | 安全/Agent基准测试 |
 
 ---
 
-### 【信号2 · P2】机器人基础模型进入"上下文扩展"时代
+## 二、信号详解
 
-**数据点:**
-- **arXiv 2607.15275**: RoboTTT: Context Scaling for Robot Policies
-- 作者阵容: Yunfan Jiang, Yevgen Chebotar, **Li Fei-Fei**, Yuke Zhu, **Linxi "Jim" Fan** (斯坦福 + NVIDIA + Google)
-- 核心突破: 将视觉运动上下文扩展到 **8K 时间步**，比现有 SOTA 策略高 **三个数量级**
+### 信号1: TTT 进入机器人领域 —— RoboTTT (arXiv:2607.15275)
 
-**分析:**
-RoboTTT 采用了 Test-Time-Training (TTT) 方法论来扩展机器人策略的上下文窗口。这标志着机器人基础模型研究的范式转变——重点从"更大的模型"转向"更长的上下文/记忆"。这类似于 LLM 领域从 GPT-3 到长上下文模型的演变。
+**论文**: "RoboTTT: Context Scaling for Robot Policies"
+**作者**: Yunfan Jiang, Yevgen Chebotar, Ruijie Zheng, Li Fei-Fei, Yuke Zhu, Linxi "Jim" Fan (NVIDIA / Stanford / Google DeepMind)
 
-**与已有叙事的关联:**
-- 此前叙事: 机器人基础模型（RT-2, Octo）主要关注多任务和跨具身迁移
-- **新叙事**: 上下文规模是机器人学习的下一个瓶颈
-- 影响: 可能推动机器人学习研究向记忆增强、状态追踪、长程规划方向倾斜
+**核心贡献**:
+- 将 Test-Time Training (TTT) 机制引入机器人策略学习
+- 视觉运动上下文窗口从SOTA的短历史扩展到 **8K timesteps**，提升 **3个数量级**
+- 无需重新训练即可在测试时自适应
 
----
+**叙事含义**:
+TTT此前主要活跃在LLM和视觉领域（如TTT-Linear, TTT-MLP等），RoboTTT标志着这一范式向具身AI/机器人领域的**跨域迁移**。如果8K上下文的适应性在真实机器人场景中被验证，将显著改变机器人基础模型的路线图——从"预训练大模型+微调"向"轻量模型+测试时适应"转变。
 
-### 【信号3 · P3】LLM 物理安全鸿沟 — "文本安全 ≠ 物理安全"
+**需关注**: 论文发布时间为2026-07-16 17:59 UTC，属于最新批次，暂未看到社区反响。
 
-**数据点:**
-- **arXiv 2607.15218**: "When Words Are Safe But Actions Kill" — 研究 LLM 作为具身代理规划器时，文本级别安全的局限性
-- **arXiv 2607.15207**: "BadWAM: When World-Action Models Dream Right but Act Wrong" — 世界-动作模型在预测正确时却产生错误动作
+### 信号2: 编码Agent的「记忆层」成为新竞争维度
 
-**分析:**
-两篇论文在同一天独立提出相似问题：当前 LLM 安全对齐只覆盖文本层面的有害内容检测，但 LLM 作为实体代理的规划器时，无害文本指令可能转化为物理世界中的危险行为。这是一个**安全研究的新前沿**，传统 red-teaming 和 RLHF 都无法覆盖。
+**GitHub趋势数据**:
 
-**为什么这重要:**
-- 具身 AI（机器人、自动驾驶、智能家居）正在使用 LLM 作为规划器
-- 现有安全框架（内容过滤、拒绝回答）对此完全无效
-- 新研究提出"隐状态风险空间"概念来检测物理风险
+| 项目 | 语言 | Stars | 叙事 |
+|------|------|-------|------|
+| **xai-org/grok-build** | Rust | 16,416 | xAI编码Agent框架和TUI，全屏交互 |
+| **vshulcz/deja-vu** | Go | 335 | 编码Agent的通用记忆层：MCP召回、会话搜索、跨Claude Code/Codex/Cursor/Gemini CLI |
+| **littledivy/mimic** | Python | 1,149 | 拦截任何应用，从Python调用 |
+| **QuantumByteOSS/quantumbyte** | Python | 324 | 从意图到可运行App的开源构建引擎 |
 
----
+**关键洞察 - deja-vu 的重要性**:
+deja-vu 的口号是 "Memory layer for coding agents"，支持:
+- MCP (Model Context Protocol) 召回
+- 会话日志搜索与自动上下文
+- 秘密编辑 (secret redaction)
+- 跨 Claude Code, Codex, opencode, Cursor, Gemini CLI, aider, Antigravity, Grok Build, Qwen Code 的同步
+- 单零依赖二进制 (zero-dep binary)
 
-### 【信号4 · P4】预训练数据投毒威胁扩大化
+这意味着 **编码Agent的工具链正在经历"记忆标准化"过程**。当多个Agent框架（Claude Code、Codex、Cursor等）都在争夺开发者时，记忆层成为**横向打通的关键基础设施**。这与我们之前观察到的AI Agent碎片化趋势形成对照——deja-vu 代表的是**统一化/标准化**的逆势力。
 
-**数据点:**
-- **arXiv 2607.15267**: "Pretraining Data Can Be Poisoned through Computational Propaganda"
-- 作者: Victoria Graf, Hannaneh Hajishirzi, Noah A. Smith, David Kohlbrenner, Kyle Lo (Allen AI)
-- 新发现: 使用计算宣传手段（大规模、异构、真实互联网数据）可以实现比 Wikipedia 操控更隐蔽的数据投毒
+**⚠️ 需要注意**: deja-vu 只有335 stars，属于早期项目，但其定位（跨Agent记忆层）在概念上是重要的叙事信号。
 
-**分析:**
-此前预训练数据投毒研究主要针对 Wikipedia 等受控数据源。这篇论文首次展示了在真实互联网规模的异构数据中实施投毒的可行性，且更难检测。随着开源 LLM 的激增和 Web 爬取成为主流训练方式，**供应链安全将成为 LLM 领域的核心问题**。
+### 信号3: 预训练数据投毒新维度——「计算宣传」攻击 (arXiv:2607.15267)
 
----
+**论文**: "Pretraining Data Can Be Poisoned through Computational Propaganda"
+**作者**: Victoria Graf, Hannaneh Hajishirzi, Noah A. Smith, David Kohlbrenner, Kyle Lo (Allen AI / UW)
 
-### 【信号5 · P5】Codex Skills 生态正在形成
+**核心主张**:
+- 此前预训练数据投毒研究主要集中在Wikipedia等**受控来源**
+- 真实预训练数据是**大规模、异构的**，包含大量来自互联网的未过滤内容
+- "计算宣传"(computational propaganda) 可以在不直接篡改数据源的情况下，通过操纵在线内容的传播模式来污染训练数据
+- 这种攻击更难检测，因为它利用了数据收集管道本身的漏洞
 
-**数据点 (GitHub 趋势):**
-1. `Kappaemme-git/codex-first-customer-finder-skill` (781⭐) — Codex 技能: 客户发现
-2. `oil-oil/beautify-github-readme` (746⭐) — Codex 技能: README 设计
-3. `yuwen-cool/yuwen-publish-precheck` (195⭐) — Codex 技能: 内容发布合规审查
-4. `pyang5166/gbro-collage-broll` (255⭐) — Codex 技能: 视频 B-roll 生成
+**叙事含义**:
+这是一个**安全视角的重要转变**——从"谁改写了维基百科条目"到"谁操纵了互联网上的信息传播"。对于依赖大规模网络爬虫进行数据收集的LLM开发者（几乎所有人）来说，这意味着：
+1. 现有数据清洗/去毒方法的覆盖范围可能严重不足
+2. 需要新的防御策略来应对"传播级"攻击
+3. 数据来源的多样性和不可控性成为安全隐患
 
-**分析:**
-Anthropic Codex 正在形成类似 VS Code 扩展生态的"技能市场"。用户不仅使用 Codex 编程，还开发特定领域的技能包（客户发现、内容合规、设计、视频制作）。这是一个重要的生态系统信号。
+**对此信号的置信度**: 中等（论文刚发布，尚未经过同行评审和社区验证，但作者来自Allen AI和UW，有可信度）
 
----
+### 信号4: 安全Agent评估从「成功率」转向「成本感知」 (arXiv:2607.15263)
 
-## 三、次要信号（值得关注但置信度较低）
+**论文**: "Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents"
+**作者**: Paul Kassianik, Blaine Nelson, Yaron Singer
 
-### 3.1 多智能体搜索/研究系统趋于成熟
-- **SearchOS-V1**: 鲁棒开放域信息搜索代理协作（arXiv 2607.15257）
-- **AutoSynthesis**: 端到端多智能体自动元分析系统（arXiv 2607.15247）
-- Circuit Framework (GitHub 471⭐): 多智能体 LLM 交易研究系统
+**核心主张**:
+- 当前安全Agent评估高度聚焦于**峰值攻击能力**（在充足推理预算下发现漏洞）
+- 但实际运营安全中，**每一步推理、每一次工具调用都有成本**
+- 提出成本感知评估框架，将推理步骤数、工具调用次数等纳入评估指标
 
-趋势: 多智能体系统从"演示"走向"生产级"工具。
+**叙事含义**:
+这是对AI Agent评估标准化运动的一个贡献。结合同日发布的另外两篇论文：
+- **SearchOS-V1** (arXiv:2607.15257): 解决长历史Agent搜索中的任务跟踪退化问题
+- **Bridge Evidence** (arXiv:2607.15253): 证明静态检索效用无法预测多步Agent搜索中的因果效用
 
-### 3.2 成本感知 AI Agent 评估
-- **arXiv 2607.15263**: "Beyond Success Rate: Cost-Aware Evaluation of Security Agents" — 安全代理评估的新范式，考虑推理成本、工具调用次数等
-
-### 3.3 "拦截式" API 工具模式
-- **littledivy/mimic** (1141⭐): "Intercept any app, then call it from Python like a library"
-- 这是将任意桌面/Web 应用转化为可编程 API 的新方法，对 AI Agent 工具链有潜在影响
-
-### 3.4 视觉-音频-语言全景理解
-- **SceneBind** (arXiv 2607.15265): 联合语义 + 3D 空间理解的全模态表示
-- 作者来自华盛顿大学，涉及 vision + audio + language 的联合编码
+这三篇论文共同指向一个方向：**AI Agent评估正在从简单指标（成功率、准确率）向多维度、成本感知、因果效用的方向演进**。这对于Anyone building Agent benchmarks有直接意义。
 
 ---
 
-## 四、宏观背景参考
+## 三、辅助信号（较低置信度/早期）
 
-| 指标 | 数值 | 说明 |
-|------|------|------|
-| 中国制造业 PMI | 50.3 (6月) | 扩张区间边缘，温和 |
-| 中国 CPI YoY | 1.0% (6月) | 低通胀环境 |
-| 美国 CPI YoY | 3.5% (6月) | 温和通胀 |
-| 美国失业率 | 4.2% (6月) | 健康劳动力市场 |
-| 中国10Y国债收益率 | 1.74% (7/16) | 宽松货币政策 |
-| 中国零售额 YoY | 1.0% (6月) | 消费复苏缓慢 |
-| USD/CNY | 6.78 | 人民币稳定 |
+### 3.1 LLM统计自洽性检验 (arXiv:2607.15277)
+Wolf等人提出"Partition-Prompt-Aggregate"框架，检验LLM的in-context learning是否满足基本的概率一致性。如果LLM输出不满足这些性质，则"LLM作为条件推断引擎"的常用解释存在根本缺陷。**这是对AI可解释性基础假设的有趣挑战**，但偏理论，短期影响有限。
 
-整体宏观环境中性偏稳，短期内不会对 AI 投资情绪产生重大扰动。
+### 3.2 AutoSynthesis: 自动荟萃分析的多Agent系统 (arXiv:2607.15247)
+端到端多Agent系统实现自动meta-analysis。这代表**科学文献自动化**方向的持续进展，学术出版和循证医学领域值得关注。
 
----
+### 3.3 In-Place Tokenizer Expansion (arXiv:2607.15232)
+提出预训练后动态扩展Tokenizer词汇表的方法，解决多语言LLM部署中"后添加语言分词效率低"的问题。**对多语言AI产品落地有实际价值**，可能影响Llama/Qwen等开源模型的国际化部署策略。
 
-## 五、结论与行动建议
+### 3.4 中国宏观数据
+- **制造业PMI**: 50.3 (2026年6月) — 仍在扩张区间但偏弱
+- **非制造业PMI**: 50.2 (2026年6月) — 临界点
+- **零售销售同比**: 1.0% (2026年6月) — 消费恢复乏力
+- **固定资产投资同比**: -15.6% (2026年6月) — 大幅下降
+- **新贷款同比**: -25.2% (2026年6月) — 信贷需求疲弱
+- **GDP季度**: 4.7% (2026年Q1-Q2) — 低于政府5%目标
 
-### 最重要的三个叙事变化
-
-1. **编码代理市场进入"军备竞赛"阶段** — xAI 的 grok-build 以 15.8K stars/日 的速度爆发，Anthropic Codex 技能生态同时快速成长。编码代理将不再是单一玩家的市场。
-
-2. **机器人基础模型前沿从"参数规模"转向"上下文规模"** — RoboTTT 展示了长上下文（8K 时间步）在机器人学习中的巨大潜力，暗示了类 Transformer 扩展定律在机器人领域的平行叙事。
-
-3. **AI 安全研究出现"物理转向"** — 两篇独立论文在同一天揭示了 LLM 作为物理世界代理时的安全鸿沟，这可能是 AI 安全研究的一个新分支形成的标志。
-
-### 建议关注的后续事件
-- xAI grok-build 与 Anthropic Codex 的正式功能对比评测
-- 是否有其他组织复现/改进 RoboTTT 的方法论
-- Llama 4 / GPT-5 等下一代基础模型发布对编码代理能力的提升
-- 预训练数据投毒威胁是否符合"计算宣传"论文的预测规模
+这些宏观指标对AI领域的意义：**在经济放缓背景下，企业对AI工具的成本敏感度可能上升**，这与发展Agent评估中的"成本感知"叙事形成呼应。
 
 ---
 
-*本报告由 ai_specialist 于 2026-07-17 通过多维数据扫描自动生成。数据源包括 GitHub Trending, arXiv, 宏观/情绪指标数据库。*
+## 四、叙事变化趋势判断
+
+### 正在形成的叙事:
+1. **"Agent记忆层标准化"** — deja-vu等项目的出现表明编码Agent生态正在从框架碎片化走向记忆/上下文层的标准统一
+2. **"机器人基础模型的TTT范式"** — RoboTTT可能开启机器人领域的测试时自适应新路线
+3. **"数据安全2.0"** — 预训练数据投毒从直接篡改升级到传播操纵
+
+### 正在巩固的叙事:
+4. **"Agent评估多维度化"** — 成功率不再是唯一指标，成本、因果效用、长期任务跟踪正在成为新标准
+5. **"编码Agent成为基础设施"** — grok-build(16.4K stars/天)显示xAI入局编码Agent，竞争进一步加剧
+
+### 需要更多证据的叙事:
+6. **"多模态Agent（视觉+音频+语言）的3D场景理解"** — SceneBind (arXiv:2607.15265) 展示了方向但尚未形成主流
+7. **"AI驱动视频生成从娱乐走向工具化"** — 如Wan-Dancer和bolt-slides等，但信号碎片化
+
+---
+
+## 五、建议关注事项
+
+1. **对RoboTTT保持跟踪**: 等待后续复现和真实世界机器人实验的验证
+2. **监控deja-vu的星标增长**: 如果它在接下来1-2周内从335星增长到数千星，将确认"Agent记忆层标准化"叙事
+3. **预训练数据安全策略评估**: 建议评估自有数据管道是否容易受到"计算宣传"式攻击
+4. **关注xAI的编码Agent战略**: grok-build 作为xAI首个编码Agent框架，意味着xAI正在与Anthropic (Claude Code)、OpenAI (Codex)直接竞争
+5. **Agent评估标准更新**: 安全Agent的成本感知评估框架可能向其他Agent领域扩散
+
+---
+
+## 六、方法说明
+
+- **新闻源**: 当前raw_items数据库返回空，未能获取过去6小时的新闻数据。分析依赖arXiv和GitHub数据，**可能存在信息盲区**。
+- **arXiv数据集**: 论文批量发布时间为2026-07-16 17:00-18:00 UTC，属于当天新批次，信息时效性良好。
+- **GitHub数据**: 采用daily trending，反映过去24小时的社区关注热点。
+- **市场指标**: 部分宏观数据为2025年或更早，已标记为过时，不用于当前分析。
