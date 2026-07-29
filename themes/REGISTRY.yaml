@@ -3,26 +3,149 @@
 # 以 themes/ 下的一级子目录为准，此文件为辅助索引
 
 themes:
-  # - slug: nvda
-  #   name: NVIDIA（AI 芯片龙头）
-  #   status: active
-  #   priority: 1
-  #   created: 2026-07-29
-  #   assets:
-  #     - NVDA
-  #   tags:
-  #     - semiconductors
-  #     - AI
-  #     - growth
+  - slug: nvda
+    name: NVIDIA（AI 芯片龙头）
+    status: active
+    priority: 1
+    created: 2026-07-29
+    assets:
+      - NVDA
+    tags:
+      - semiconductors
+      - AI
+      - GPU
+      - growth
 
-  # - slug: pdd
-  #   name: PDD Holdings（拼多多）
-  #   status: active
-  #   priority: 2
-  #   created: 2026-07-29
-  #   assets:
-  #     - PDD
-  #   tags:
-  #     - e-commerce
-  #     - china
-  #     - consumer
+  - slug: semiconductor
+    name: 半导体产业链
+    status: active
+    priority: 2
+    created: 2026-07-29
+    assets:
+      - NVDA
+      - AMD
+      - INTC
+      - TSM
+    tags:
+      - semiconductors
+      - supply-chain
+      - capex-cycle
+
+  - slug: optical-modules
+    name: 光模块
+    status: active
+    priority: 3
+    created: 2026-07-29
+    assets:
+      - LITE
+      - IIVI
+    tags:
+      - AI-infrastructure
+      - datacenter
+      - connectivity
+
+  - slug: pdd
+    name: PDD Holdings（拼多多）
+    status: active
+    priority: 4
+    created: 2026-07-29
+    assets:
+      - PDD
+    tags:
+      - e-commerce
+      - china
+      - consumer
+      - discount-retail
+
+  - slug: cryptocurrency
+    name: 加密货币
+    status: active
+    priority: 5
+    created: 2026-07-29
+    assets:
+      - BTC
+      - ETH
+    tags:
+      - crypto
+      - blockchain
+      - digital-assets
+      - macro
+
+  - slug: fed
+    name: 美联储
+    status: active
+    priority: 6
+    created: 2026-07-29
+    assets: []
+    tags:
+      - central-bank
+      - monetary-policy
+      - rates
+      - macro
+
+  - slug: qqq
+    name: QQQ ETF（纳斯达克 100）
+    status: active
+    priority: 7
+    created: 2026-07-29
+    assets:
+      - QQQ
+    tags:
+      - index
+      - tech
+      - growth
+      - beta
+
+  - slug: global-macro
+    name: 宏观（全球+美国+中国）
+    status: active
+    priority: 8
+    created: 2026-07-29
+    assets: []
+    tags:
+      - macro
+      - global
+      - china
+      - us
+      - growth
+      - inflation
+
+  - slug: pig-cycle
+    name: 猪周期
+    status: active
+    priority: 9
+    created: 2026-07-29
+    assets:
+      - WH Group
+    tags:
+      - china
+      - consumer
+      - cyclical
+      - agriculture
+
+  - slug: energy
+    name: 能源
+    status: active
+    priority: 10
+    created: 2026-07-29
+    assets:
+      - XOM
+      - CVX
+      - COP
+    tags:
+      - energy
+      - oil
+      - gas
+      - commodity
+
+  - slug: us-iran
+    name: 美伊冲突
+    status: active
+    priority: 11
+    created: 2026-07-29
+    assets: []
+    tags:
+      - geopolitics
+      - middle-east
+      - oil
+      - risk
