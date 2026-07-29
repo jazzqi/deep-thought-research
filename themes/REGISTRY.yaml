@@ -222,14 +222,3 @@ themes:
       - pdd
       - global-macro
 
-# ─── 建议添加（待确认） ──────────────────────────────────────
-#
-# 以下是根据当前覆盖面的自然延伸，建议考虑的主题：
-#
-# - slug: defense
-#   name: 国防军工（全球军费扩张周期）
-#   status: candidate
-#   tags: [defense, geopolitics, capex-cycle]
-#   理由：全球军费开支趋势向上，有独立产业链逻辑，
-#         与 us-iran 等事件驱动互补
-#
