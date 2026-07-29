@@ -1,6 +1,9 @@
 # Theme Registry — 所有活跃投资主题索引
 # 由 Lead Agent 或人类维护
 # 以 themes/ 下的一级子目录为准，此文件为辅助索引
+#
+# Tags 设计原则：每个 tag 应该是该主题相关的现实内容中高频出现的词
+# （新闻标题、研报摘要、数据源字段名）。不用于概念分类，只用于信号匹配。
 
 themes:
   - slug: nvda
@@ -11,10 +14,10 @@ themes:
     assets:
       - NVDA
     tags:
-      - semiconductors
-      - AI
+      - NVIDIA
+      - AI chips
       - GPU
-      - growth
+      - semiconductor
 
   - slug: semiconductor
     name: 半导体产业链
@@ -27,9 +30,11 @@ themes:
       - INTC
       - TSM
     tags:
-      - semiconductors
-      - supply-chain
-      - capex-cycle
+      - semiconductor
+      - chip stocks
+      - fab
+      - foundry
+      - supply chain
 
   - slug: optical-modules
     name: 光模块
@@ -40,9 +45,10 @@ themes:
       - LITE
       - IIVI
     tags:
-      - AI-infrastructure
+      - optical module
       - datacenter
-      - connectivity
+      - AI infrastructure
+      - high-speed interconnect
 
   - slug: pdd
     name: PDD Holdings（拼多多）
@@ -52,10 +58,10 @@ themes:
     assets:
       - PDD
     tags:
-      - e-commerce
-      - china
-      - consumer
-      - discount-retail
+      - Pinduoduo
+      - Temu
+      - Chinese e-commerce
+      - discount retail
 
   - slug: cryptocurrency
     name: 加密货币
@@ -66,10 +72,10 @@ themes:
       - BTC
       - ETH
     tags:
+      - cryptocurrency
       - crypto
       - blockchain
-      - digital-assets
-      - macro
+      - digital asset
 
   - slug: fed
     name: 美联储
@@ -78,10 +84,10 @@ themes:
     created: 2026-07-29
     assets: []
     tags:
-      - central-bank
-      - monetary-policy
-      - rates
-      - macro
+      - Federal Reserve
+      - FOMC
+      - interest rate
+      - monetary policy
 
   - slug: qqq
     name: QQQ ETF（纳斯达克 100）
@@ -91,10 +97,10 @@ themes:
     assets:
       - QQQ
     tags:
-      - index
-      - tech
-      - growth
-      - beta
+      - Nasdaq
+      - tech stocks
+      - growth stocks
+      - index fund
 
   - slug: global-macro
     name: 宏观（全球+美国+中国）
@@ -104,11 +110,11 @@ themes:
     assets: []
     tags:
       - macro
-      - global
-      - china
-      - us
-      - growth
+      - GDP
       - inflation
+      - trade
+      - central bank
+      - global economy
 
   - slug: pig-cycle
     name: 猪周期
@@ -118,10 +124,10 @@ themes:
     assets:
       - WH Group
     tags:
-      - china
-      - consumer
-      - cyclical
-      - agriculture
+      - hog
+      - pork
+      - China agriculture
+      - meat price
 
   - slug: energy
     name: 能源
@@ -133,10 +139,11 @@ themes:
       - CVX
       - COP
     tags:
-      - energy
-      - oil
-      - gas
-      - commodity
+      - crude oil
+      - natural gas
+      - energy sector
+      - OPEC
+      - refining
 
   - slug: us-iran
     name: 美伊冲突
@@ -145,10 +152,11 @@ themes:
     created: 2026-07-29
     assets: []
     tags:
+      - Iran
+      - Middle East
+      - sanctions
+      - crude oil
       - geopolitics
-      - middle-east
-      - oil
-      - risk
 
   - slug: alphabet
     name: Alphabet（Google）
@@ -158,11 +166,11 @@ themes:
     assets:
       - GOOGL
     tags:
-      - big-tech
-      - AI
+      - Google
+      - Alphabet
+      - big tech
       - cloud
-      - search
-      - advertising
+      - AI
 
   - slug: spacex
     name: SpaceX
@@ -171,10 +179,11 @@ themes:
     created: 2026-08-01
     assets: []
     tags:
+      - SpaceX
+      - Starlink
       - space
       - launch
-      - starlink
-      - private-company
+      - rocket
 
   - slug: tesla
     name: Tesla
@@ -184,10 +193,10 @@ themes:
     assets:
       - TSLA
     tags:
+      - Tesla
       - EV
-      - autonomous
+      - self-driving
       - robotaxi
-      - AI
 
   - slug: btc
     name: BTC（比特币）
@@ -197,10 +206,10 @@ themes:
     assets:
       - BTC
     tags:
+      - Bitcoin
+      - BTC
       - crypto
-      - bitcoin
-      - digital-gold
-      - macro
+      - halving
     related_themes:
       - cryptocurrency
 
@@ -214,11 +223,11 @@ themes:
       - TME
       - BILI
     tags:
-      - china
-      - internet
-      - e-commerce
-      - gaming
+      - Chinese tech
+      - China internet
+      - Tencent
+      - Alibaba
+      - Meituan
     related_themes:
       - pdd
       - global-macro
-
