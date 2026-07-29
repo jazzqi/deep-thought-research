@@ -2,8 +2,11 @@
 # 由 Lead Agent 或人类维护
 # 以 themes/ 下的一级子目录为准，此文件为辅助索引
 #
-# Tags 设计原则：每个 tag 应该是该主题相关的现实内容中高频出现的词
-# （新闻标题、研报摘要、数据源字段名）。不用于概念分类，只用于信号匹配。
+# Tags 设计原则：双重角色
+#   1. 频率词 — 在相关新闻/数据中高频出现，用于召回内容
+#   2. 激活词 — 触发 LLM 对该主题的投资分析框架（如"digital-gold"
+#      让 LLM 用 store of value 而非投机框架分析 BTC）
+# 两者缺一不可。
 
 themes:
   - slug: nvda
@@ -15,9 +18,10 @@ themes:
       - NVDA
     tags:
       - NVIDIA
-      - AI chips
       - GPU
-      - semiconductor
+      - AI chips
+      - AI capex cycle
+      - competitive moat
 
   - slug: semiconductor
     name: 半导体产业链
@@ -32,8 +36,8 @@ themes:
     tags:
       - semiconductor
       - chip stocks
-      - fab
       - foundry
+      - capex cycle
       - supply chain
 
   - slug: optical-modules
@@ -48,7 +52,7 @@ themes:
       - optical module
       - datacenter
       - AI infrastructure
-      - high-speed interconnect
+      - bandwidth bottleneck
 
   - slug: pdd
     name: PDD Holdings（拼多多）
@@ -62,6 +66,7 @@ themes:
       - Temu
       - Chinese e-commerce
       - discount retail
+      - consumer downgrade
 
   - slug: cryptocurrency
     name: 加密货币
@@ -76,6 +81,7 @@ themes:
       - crypto
       - blockchain
       - digital asset
+      - Web3
 
   - slug: fed
     name: 美联储
@@ -88,6 +94,8 @@ themes:
       - FOMC
       - interest rate
       - monetary policy
+      - liquidity
+      - easing cycle
 
   - slug: qqq
     name: QQQ ETF（纳斯达克 100）
@@ -100,7 +108,8 @@ themes:
       - Nasdaq
       - tech stocks
       - growth stocks
-      - index fund
+      - tech valuation
+      - beta
 
   - slug: global-macro
     name: 宏观（全球+美国+中国）
@@ -112,9 +121,10 @@ themes:
       - macro
       - GDP
       - inflation
-      - trade
       - central bank
       - global economy
+      - business cycle
+      - monetary divergence
 
   - slug: pig-cycle
     name: 猪周期
@@ -128,6 +138,8 @@ themes:
       - pork
       - China agriculture
       - meat price
+      - cyclical supply-demand
+      - inventory cycle
 
   - slug: energy
     name: 能源
@@ -144,6 +156,8 @@ themes:
       - energy sector
       - OPEC
       - refining
+      - commodity super-cycle
+      - energy transition
 
   - slug: us-iran
     name: 美伊冲突
@@ -157,6 +171,8 @@ themes:
       - sanctions
       - crude oil
       - geopolitics
+      - supply disruption
+      - risk premium
 
   - slug: alphabet
     name: Alphabet（Google）
@@ -171,6 +187,8 @@ themes:
       - big tech
       - cloud
       - AI
+      - search monopoly
+      - ad revenue cycle
 
   - slug: spacex
     name: SpaceX
@@ -184,6 +202,8 @@ themes:
       - space
       - launch
       - rocket
+      - space economy
+      - satellite internet
 
   - slug: tesla
     name: Tesla
@@ -197,6 +217,8 @@ themes:
       - EV
       - self-driving
       - robotaxi
+      - EV adoption curve
+      - margin compression
 
   - slug: btc
     name: BTC（比特币）
@@ -210,6 +232,8 @@ themes:
       - BTC
       - crypto
       - halving
+      - digital gold
+      - store of value
     related_themes:
       - cryptocurrency
 
@@ -228,6 +252,8 @@ themes:
       - Tencent
       - Alibaba
       - Meituan
+      - regulatory cycle
+      - consumer spending
     related_themes:
       - pdd
       - global-macro
