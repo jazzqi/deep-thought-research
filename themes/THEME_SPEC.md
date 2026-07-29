@@ -73,11 +73,8 @@ themes:
 
 ### 3.1 YAML Frontmatter
 
-> **Tags 设计原则（双重角色）：**
-> 1. **频率词** — 在相关新闻/数据中高频出现的词，用于召回内容、匹配数据源
-> 2. **激活词** — 触发 LLM 对该主题的特定投资分析框架（如 `digital gold` 激活 store of value 框架）
->
-> 两者缺一不可。具体设计见 `REGISTRY.yaml` 的 tags 字段。
+> **Tags 唯一来源是 `REGISTRY.yaml`**，index.md frontmatter 不复读 tags/priority/assets/related_themes。
+> 查询 theme 的 tags 统一读 REGISTRY.yaml。
 
 ```yaml
 ---
@@ -94,15 +91,7 @@ sources:                                 # 本次更新引用的来源报告
   - path: fundamental/buffett/2026-07-28-xxx.md
     agent: buffett
     summarized: true
-tags:
-  - NVIDIA       # 频率词：在相关新闻/数据中高频出现，用于召回内容
-  - AI capex     # 激活词：触发 LLM 的投资分析框架（非频率词）
-  - competitive moat
-assets:
-  - NVDA                                  # 关联 ticker
-related_themes:
-  - semiconductor                         # 关联 theme slug
----
+---                                # 不复读 tags/assets/related_themes
 ```
 
 ### 3.2 正文结构

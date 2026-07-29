@@ -6,20 +6,7 @@ lead: synthesis_agent
 created: 2026-07-29
 updated: 2026-07-29T00:00:00+08:00
 sources: []
-tags:
-  - index
-  - tech
-  - growth
-  - beta
-assets:
-  - QQQ
-related_themes:
-  - nvda
-  - semiconductor
-  - fed
-  - global-macro
 ---
-
 # QQQ ETF（纳斯达克 100）
 
 > 首次创建，待 Lead Agent 首次运行后填充内容。

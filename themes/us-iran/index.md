@@ -6,17 +6,7 @@ lead: synthesis_agent
 created: 2026-07-29
 updated: 2026-07-29T00:00:00+08:00
 sources: []
-tags:
-  - geopolitics
-  - middle-east
-  - oil
-  - risk
-assets: []
-related_themes:
-  - energy
-  - global-macro
 ---
-
 # 美伊冲突
 
 > 首次创建，待 Lead Agent 首次运行后填充内容。

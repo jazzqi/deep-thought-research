@@ -6,19 +6,7 @@ lead: synthesis_agent
 created: 2026-08-01
 updated: 2026-08-01T00:00:00+08:00
 sources: []
-tags:
-  - big-tech
-  - AI
-  - cloud
-  - search
-  - advertising
-assets:
-  - GOOGL
-related_themes:
-  - nvda
-  - qqq
 ---
-
 # Alphabet（Google）
 
 > 首次创建，待 Lead Agent 首次运行后填充内容。

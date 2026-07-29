@@ -6,18 +6,7 @@ lead: synthesis_agent
 created: 2026-07-29
 updated: 2026-07-29T00:00:00+08:00
 sources: []
-tags:
-  - crypto
-  - blockchain
-  - digital-assets
-  - macro
-assets:
-  - BTC
-  - ETH
-related_themes:
-  - global-macro
 ---
-
 # 加密货币
 
 > 首次创建，待 Lead Agent 首次运行后填充内容。

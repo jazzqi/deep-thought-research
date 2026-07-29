@@ -6,20 +6,7 @@ lead: synthesis_agent
 created: 2026-08-01
 updated: 2026-08-01T00:00:00+08:00
 sources: []
-tags:
-  - china
-  - internet
-  - e-commerce
-  - gaming
-assets:
-  - BABA
-  - TME
-  - BILI
-related_themes:
-  - pdd
-  - global-macro
 ---
-
 # 中国互联网（BABA/Tencent/Meituan）
 
 > 首次创建，待 Lead Agent 首次运行后填充内容。

@@ -6,16 +6,7 @@ lead: synthesis_agent
 created: 2026-07-29
 updated: 2026-07-29T00:00:00+08:00
 sources: []
-tags:
-  - e-commerce
-  - china
-  - consumer
-  - discount-retail
-assets:
-  - PDD
-related_themes: []
 ---
-
 # PDD Holdings（拼多多）
 
 > 首次创建，待 Lead Agent 首次运行后填充内容。

@@ -6,18 +6,7 @@ lead: synthesis_agent
 created: 2026-07-29
 updated: 2026-07-29T00:00:00+08:00
 sources: []
-tags:
-  - AI-infrastructure
-  - datacenter
-  - connectivity
-assets:
-  - LITE
-  - IIVI
-related_themes:
-  - nvda
-  - semiconductor
 ---
-
 # 光模块
 
 > 首次创建，待 Lead Agent 首次运行后填充内容。

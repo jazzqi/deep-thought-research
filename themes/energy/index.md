@@ -6,20 +6,7 @@ lead: synthesis_agent
 created: 2026-07-29
 updated: 2026-07-29T00:00:00+08:00
 sources: []
-tags:
-  - energy
-  - oil
-  - gas
-  - commodity
-assets:
-  - XOM
-  - CVX
-  - COP
-related_themes:
-  - global-macro
-  - us-iran
 ---
-
 # 能源
 
 > 首次创建，待 Lead Agent 首次运行后填充内容。

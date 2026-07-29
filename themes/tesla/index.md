@@ -6,19 +6,7 @@ lead: synthesis_agent
 created: 2026-08-01
 updated: 2026-08-01T00:00:00+08:00
 sources: []
-tags:
-  - EV
-  - autonomous
-  - robotaxi
-  - AI
-assets:
-  - TSLA
-related_themes:
-  - spacex
-  - nvda
-  - qqq
 ---
-
 # Tesla
 
 > 首次创建，待 Lead Agent 首次运行后填充内容。

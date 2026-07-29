@@ -6,20 +6,7 @@ lead: synthesis_agent
 created: 2026-07-29
 updated: 2026-07-29T00:00:00+08:00
 sources: []
-tags:
-  - semiconductors
-  - supply-chain
-  - capex-cycle
-assets:
-  - NVDA
-  - AMD
-  - INTC
-  - TSM
-related_themes:
-  - nvda
-  - optical-modules
 ---
-
 # 半导体产业链
 
 > 首次创建，待 Lead Agent 首次运行后填充内容。
