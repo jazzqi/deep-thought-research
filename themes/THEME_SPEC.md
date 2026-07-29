@@ -7,27 +7,14 @@
 
 ## 一、背景与动机
 
-### 现状问题
-
-当前 `deep-thought-research` 按 **Agent 维度**组织：
-
-```
-sector/tech_generalist/2026-07-19-xxx.md   ← 按 agent 分
-macro/soros/xxx.md
-sentimental/kahneman/xxx.md
-portfolio/cio/xxx.md
-```
-
-每个 Agent 独立产出，但缺少**按主题聚合**的视角。用户关心的是"NVDA 现在怎么样"，而不是"tech_generalist 今天写了什么"。
-
 ### Theme 的定位
 
 Theme 是：
 
-- **投资主题**——系统主动跟踪的若干个投资方向（数个到十几个）
-- **跨 Agent 的聚合单元**——各 Agent 的产出最终汇聚到 Theme
-- **不断演进的 Big Picture**——不是一次性报告，是活着的文档
-- **人机协作的产物**——Lead Agent 维护，人类 review/override
+- **投资主题**——系统主动跟踪的若干个投资方向（几个到数十个）
+- **跨学科 Agent 的聚合单元**——来自不同维度的多个 Agent 的研究产出最终汇聚到 Theme
+- **不断演进的 Big Picture**——不是一次性报告，是活着的文档，不断追踪预测现实世界
+- **起承转合 - 上下游协作的关键中间产物**——Agent 从多个信息源获取最新消息，形成多视角观点，由 Lead Agent 组织整理成 Theme，后续给到下游 Agent 作为投资决策依据
 
 ---
 
