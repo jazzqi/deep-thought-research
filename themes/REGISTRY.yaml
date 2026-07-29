@@ -204,23 +204,27 @@ themes:
     related_themes:
       - cryptocurrency
 
+  - slug: china-internet
+    name: 中国互联网（BABA/Tencent/Meituan）
+    status: active
+    priority: 16
+    created: 2026-08-01
+    assets:
+      - BABA
+      - TME
+      - BILI
+    tags:
+      - china
+      - internet
+      - e-commerce
+      - gaming
+    related_themes:
+      - pdd
+      - global-macro
+
 # ─── 建议添加（待确认） ──────────────────────────────────────
 #
 # 以下是根据当前覆盖面的自然延伸，建议考虑的主题：
-#
-# - slug: china-internet
-#   name: 中国互联网（BABA/Tencent/Meituan）
-#   status: candidate
-#   tags: [china, internet, e-commerce, gaming]
-#   理由：PDD 有了，但中国互联网是一个完整生态，腾讯阿里美团是
-#         不同的投资逻辑，且目前 narrative/sentiment 覆盖密集
-#
-# - slug: japan
-#   name: 日本（BoJ 政策 + 价值激活）
-#   status: candidate
-#   tags: [macro, japan, rates, value-activation]
-#   理由：宏观层面上全球第三大经济体正在经历结构转型，有独立的
-#         narrative/data 流，dalio/soros 已有相关覆盖
 #
 # - slug: defense
 #   name: 国防军工（全球军费扩张周期）
