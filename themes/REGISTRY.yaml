@@ -1,0 +1,28 @@
+# Theme Registry — 所有活跃投资主题索引
+# 由 Lead Agent 或人类维护
+# 以 themes/ 下的一级子目录为准，此文件为辅助索引
+
+themes:
+  # - slug: nvda
+  #   name: NVIDIA（AI 芯片龙头）
+  #   status: active
+  #   priority: 1
+  #   created: 2026-07-29
+  #   assets:
+  #     - NVDA
+  #   tags:
+  #     - semiconductors
+  #     - AI
+  #     - growth
+
+  # - slug: pdd
+  #   name: PDD Holdings（拼多多）
+  #   status: active
+  #   priority: 2
+  #   created: 2026-07-29
+  #   assets:
+  #     - PDD
+  #   tags:
+  #     - e-commerce
+  #     - china
+  #     - consumer
