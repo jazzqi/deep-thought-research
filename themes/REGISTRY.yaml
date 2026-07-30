@@ -159,6 +159,23 @@ themes:
       - commodity super-cycle
       - energy transition
 
+  - slug: disruptive-innovation
+    name: 颠覆式创新扫描
+    status: active
+    priority: 99
+    created: 2026-08-01
+    assets: []
+    tags:
+      - breakthrough
+      - emerging tech
+      - disruption
+      - paradigm shift
+      - early stage
+      - venture
+    related_themes:
+      - nvda
+      - spacex
+
   - slug: us-iran
     name: 美伊冲突
     status: active
