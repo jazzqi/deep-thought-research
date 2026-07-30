@@ -51,7 +51,7 @@ deep-thought-research/
 │   │   ├── index.md                     ← 定版：当前分析（共识+分歧+预测）
 │   │   ├── log.md                       ← 变更记录
 │   │   └── _history/                    ← 工作现场：Agent 协作产物，自动生成
-│   │       └── YYYY-MM-DD__HHMM__{trigger}__{brief}/
+│   │       └── YYYY-MM-DD_HHMM__{trigger}__{brief}/
 │   │           ├── roundtable/          ← Phase 1 产出
 │   │           │   ├── scratchpad.md
 │   │           │   └── discussion_log.md
@@ -495,7 +495,7 @@ Lead Agent 是**编辑/协调者**的角色，不是主笔、不是决策者，�
 
 ```
 _history/
-└── YYYY-MM-DD__HHMM__{trigger}__{brief}/
+└── YYYY-MM-DD_HHMM__{trigger}__{brief}/
     ├── roundtable/         ← Phase 1 圆桌讨论
     │   ├── scratchpad.md
     │   └── discussion_log.md
@@ -518,7 +518,7 @@ _history/
 | `trigger` | 触发类型 | `timer` / `event` / `manual` |
 | `brief` | 简短描述 | `narrative_update` / `nvda_earnings` / `q3_outlook` |
 
-完整示例：`2026-08-01__1430__event__nvda_earnings`
+完整示例：`2026-08-01_1430__event__nvda_earnings`
 
 ### 6.3 发布流程（SOP）
 
