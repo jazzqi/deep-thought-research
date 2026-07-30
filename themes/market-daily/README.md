@@ -1,0 +1,36 @@
+# 市场每日追踪
+
+> 每日全球金融市场简报，为其他 theme 提供市场全景背景。
+
+## 范围
+
+美股、港股、A股、加密、黄金、油价、其他地区股市。
+
+不深入分析单一 theme（归属对应 theme 处理），不做个股推荐。
+
+## 核心问题
+
+- 当前风险偏好（risk-on/off）？核心驱动力是什么？
+- 各市场之间存在背离吗？背离在扩大还是收敛？
+- 有什么 key event 可能改变 current regime？
+
+## 数据源
+
+- S&P 500 / Nasdaq / DXY / VIX / US10Y — 实时行情
+- BTC / ETH — 主要交易所
+- 恒生 / 沪深 300 — 亚太市场
+- WTI / Brent / 伦敦金 — 商品
+- EIA 库存 / OPEC 动态 — 油市
+
+## 典型参与 Agent
+
+- CIO — 跨资产综合判断
+- tech_generalist — 科技股板块轮动
+- soros / dalio — 宏观联动解读
+
+## 关联主题
+
+- global-macro — 宏观背景
+- fed — 利率端驱动
+- energy — 油价影响
+- cryptocurrency — 加密市场联动
