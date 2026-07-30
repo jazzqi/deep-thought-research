@@ -245,6 +245,12 @@ themes:
     assets: []
     tags:
       - S&P 500
+      - Nasdaq
+      - Hang Seng
+      - CSI 300
+      - Bitcoin
+      - gold
+      - crude oil
       - Treasury yield
       - DXY
       - VIX
