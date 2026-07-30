@@ -16,6 +16,27 @@ Theme 是：
 - **不断演进的 Big Picture**——不是一次性报告，是活着的文档，不断追踪预测现实世界
 - **起承转合 - 上下游协作的关键中间产物**——Agent 从多个信息源获取最新消息，形成多视角观点，由 Lead Agent 组织整理成 Theme，后续给到下游 Agent 作为投资决策依据
 
+### Theme 生态：交叉、派生、影响
+
+Theme 不是孤立存在的。它们之间天然存在复杂关系网络：
+
+| 关系 | 说明 | 例子 |
+|------|------|------|
+| **交叉** | 同一件事影响多个 theme，Agent 跨 theme 取信息 | 美联储加息同时影响 fed、qqq、global-macro、btc |
+| **派生** | 一个 theme 裂变出更具体的子 theme | cryptocurrency → btc |
+| **包含** | 一个 theme 是另一个的子集 | semiconductor 包含 nvda |
+| **合并** | 两个 theme 融合成一个 | 未来可能发生 |
+| **新增** | 跟踪新的投资方向 | market-daily（市场全景） |
+| **消亡** | 主题不再值得跟踪 | archived 状态 |
+
+**Agent 的工作方式不是"各扫门前雪"。** 每个 Agent 阅读多个 theme 的文档，从中获取上下文，再通过自己的 theme 影响其他 theme。例如：
+
+- tech_generalist 在写 `nvda` 的报告时，先读 `semiconductor`、`market-daily` 和 `fed` 的最新动态
+- 自己的产出反过来被 `disruptive-innovation` 和 `ten-bagger-hunting` 引用
+- 形成"互相引用、互相影响"的研究生态
+
+这与现实世界的投资研究部门运作方式一致——行业研究员读宏观报告，宏观分析师看行业数据，基金经理综合所有输入做决策。
+
 ---
 
 ## 二、文件结构
