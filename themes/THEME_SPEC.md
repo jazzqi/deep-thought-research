@@ -45,11 +45,21 @@ Theme 不是孤立存在的。它们之间天然存在复杂关系网络：
 deep-thought-research/
 ├── themes/                              ← 投资主题目录
 │   ├── THEME_SPEC.md                    ← 本规范文件
-│   ├── README.md                        ← 主题索引总览（可选）
+│   ├── REGISTRY.yaml                    ← 主题索引（tags、assets、关联关系）
 │   ├── nvda/                            ← 每个 theme 一个目录
-│   │   ├── README.md                    ← 固定：scope、核心问题、数据源
-│   │   ├── index.md                     ← 演进：Lead Agent 维护的当前分析
-│   │   └── log.md                       ← 变更记录（可选）
+│   │   ├── README.md                    ← 启动文档：scope、核心问题、数据源
+│   │   ├── index.md                     ← 定版：当前分析（共识+分歧+预测）
+│   │   ├── log.md                       ← 变更记录
+│   │   └── _history/                    ← 工作现场：Agent 协作产物，自动生成
+│   │       └── YYYY-MM-DD_HHMM_{trigger}_{brief}/
+│   │           ├── roundtable/          ← Phase 1 产出
+│   │           │   ├── scratchpad.md
+│   │           │   └── discussion_log.md
+│   │           ├── drafts/              ← Phase 2 产出
+│   │           ├── review/              ← Phase 3 产出
+│   │           └── publish_candidate/   ← 定版前的最终版本
+│   │               ├── README.md
+│   │               └── index.md
 │   ├── pdd/
 │   │   └── index.md
 │   ├── fed/
@@ -472,9 +482,64 @@ Lead Agent 是**编辑/协调者**的角色，不是主笔、不是决策者，�
 
 ---
 
-## 六、分步实施计划
+## 六、History 目录与发布流程
 
-### Phase 1：规范 + 目录结构 ✅
+### 6.1 工作区与发布区分离
+
+**工作区 = `_history/`**，Agent 协作的所有中间产物都在此，自动生成，不人工编辑。
+**发布区 = root**（`README.md`、`index.md`、`log.md`），git 追踪变更，每次发布后通过 `git diff` 查看定版变化。
+
+### 6.2 轮次命名
+
+每轮完整的 Phase 1-4 流程结束后，生成一个 `_history/` 子目录：
+
+```
+_history/
+└── YYYY-MM-DD_HHMM_{trigger}_{brief}/
+    ├── roundtable/         ← Phase 1 圆桌讨论
+    │   ├── scratchpad.md
+    │   └── discussion_log.md
+    ├── drafts/             ← Phase 2 接力写作
+    │   ├── section_a_v1.md
+    │   ├── section_b_v1.md
+    │   └── section_b_v2.md
+    ├── review/             ← Phase 3 交叉审查
+    │   ├── agent_a_review.md
+    │   └── agent_b_review.md
+    └── publish_candidate/  ← Phase 4 定版前的最终版本
+        ├── README.md
+        └── index.md
+```
+
+| 段 | 取值 | 示例 |
+|----|------|------|
+| `YYYY-MM-DD` | 轮次启动日期 | `2026-08-01` |
+| `HHMM` | 触发时间（UTC+8） | `1430` |
+| `trigger` | 触发类型 | `timer` / `event` / `manual` |
+| `brief` | 简短描述 | `narrative_update` / `nvda_earnings` / `q3_outlook` |
+
+完整示例：`2026-08-01_1430_event_nvda_earnings`
+
+### 6.3 发布流程（SOP）
+
+Lead Agent 在 Phase 4 执行：
+
+```
+1. 确认 publish_candidate/ 中的 README.md 和 index.md 为终版
+2. 复制到 root：
+   cp publish_candidate/README.md ../README.md
+   cp publish_candidate/index.md   ../index.md
+3. 追加更新日志到 ../log.md
+4. 推送 git commit（此时 git diff 只显示定版变化）
+```
+
+`_history/` 目录由 Agent 自动创建和管理，人类不手动编辑。需要追溯讨论细节时直接进对应轮次的目录查看。
+
+---
+
+## 七、分步实施计划
+
+### Phase 1：规范 + 目录结构 ✅（已完成）
 
 - [x] 编写 THEME_SPEC.md（本文）
 - [x] 创建 themes/ 目录 + 16 个 theme 子目录
