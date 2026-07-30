@@ -141,6 +141,23 @@ themes:
       - cyclical supply-demand
       - inventory cycle
 
+  - slug: ten-bagger-hunting
+    name: 十倍/百倍投资机会扫描
+    status: active
+    priority: 98
+    created: 2026-08-01
+    assets: []
+    tags:
+      - asymmetric return
+      - high growth
+      - early stage
+      - inflection point
+      - compounding
+      - underfollowed
+    related_themes:
+      - disruptive-innovation
+      - spacex
+
   - slug: energy
     name: 能源
     status: active
