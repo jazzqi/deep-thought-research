@@ -237,6 +237,23 @@ themes:
     related_themes:
       - cryptocurrency
 
+  - slug: market-daily
+    name: 市场每日追踪
+    status: active
+    priority: 17
+    created: 2026-08-01
+    assets: []
+    tags:
+      - S&P 500
+      - Treasury yield
+      - DXY
+      - VIX
+      - sector rotation
+      - risk-on risk-off
+    related_themes:
+      - global-macro
+      - fed
+
   - slug: china-internet
     name: 中国互联网（BABA/Tencent/Meituan）
     status: active
