@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-01T16:09:23.246044+08:00'
+updated: '2026-08-01T18:08:05.801746+08:00'
 files:
 - path: macro/dalio/2026-07-19-2026年7月宏观场景分析中美分化加剧.md
   agent: dalio
@@ -1809,3 +1809,62 @@ files:
   collaborators:
   - tech_generalist
   - soros
+- path: portfolio/cio/2026-08-01-marketsentimentsynthesis.md
+  agent: cio
+  type: analysis
+  topic: market_sentiment_synthesis
+  status: final
+  created: '2026-08-01T18:02:33.648841+08:00'
+  updated: '2026-08-01T18:02:33.648841+08:00'
+  tags:
+  - 市场情绪
+  - 极端信号
+  - 宏观风险
+  - 货币政策
+  - 信贷收缩
+  - 投资萎缩
+  - 消费停滞
+  signal: 市场情绪悲观且接近极端，三大需求同时疲软
+  confidence: 0.85
+  time_horizon: short-term
+  collaborators:
+  - kahneman
+  - shiller
+- path: macro/soros/2026-08-01-china-macro-scenario-analysis-2026.md
+  agent: soros
+  type: analysis
+  topic: China Macro Scenario Analysis 2026
+  status: final
+  created: '2026-08-01T18:04:33.078541+08:00'
+  updated: '2026-08-01T18:04:33.078541+08:00'
+  tags:
+  - China
+  - Macro
+  - Growth
+  - Deflation
+  - Policy
+  - Low Rate
+  signal: China Low Growth Deflation Regime
+  confidence: 0.85
+  time_horizon: 3-6 months
+  collaborators: []
+- path: sector/tech_generalist/2026-08-01-macro-scenario-impact-on-tech-sectors.md
+  agent: tech_generalist
+  type: analysis
+  topic: macro-scenario-impact-on-tech-sectors
+  status: final
+  created: '2026-08-01T18:07:57.757658+08:00'
+  updated: '2026-08-01T18:07:57.757658+08:00'
+  tags:
+  - macro
+  - technology
+  - sector-analysis
+  - china
+  - AI
+  - semiconductor
+  - cloud
+  - SaaS
+  signal: 低增长+通缩+宽货币宏观场景对科技行业各子赛道形成差异化冲击，AI基础设施、安全、信创赛道韧性最强
+  confidence: 0.72
+  time_horizon: 1-6个月
+  collaborators: []
