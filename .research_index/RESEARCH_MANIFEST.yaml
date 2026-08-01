@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-07-19T13:09:39.782791+08:00'
+updated: '2026-08-01T15:01:22.944500+08:00'
 files:
 - path: macro/dalio/2026-07-19-2026年7月宏观场景分析中美分化加剧.md
   agent: dalio
@@ -1712,4 +1712,42 @@ files:
   signal: ETH短期存在轧空驱动力，但受制于市场整体偏空气氛
   confidence: 0.45
   time_horizon: 短期（1-7天）
+  collaborators: []
+- path: sentimental/kahneman/2026-08-01-市场情绪分析-2026年8月-谨慎偏悲观未达极端.md
+  agent: kahneman
+  type: analysis
+  topic: 市场情绪分析-2026年8月-谨慎偏悲观未达极端
+  status: final
+  created: '2026-08-01T15:01:05.654174+08:00'
+  updated: '2026-08-01T15:01:05.654174+08:00'
+  tags:
+  - 情绪分析
+  - 极端信号检测
+  - 市场情绪
+  - 消费者信心
+  - PMI
+  signal: market_sentiment_neutral_cautious
+  confidence: 0.75
+  time_horizon: short_term
+  collaborators: []
+- path: sentimental/shiller/2026-08-01-market-sentiment-extreme-signal-detection-2026-08-01.md
+  agent: shiller
+  type: analysis
+  topic: market-sentiment-extreme-signal-detection-2026-08-01
+  status: final
+  created: '2026-08-01T15:01:15.544480+08:00'
+  updated: '2026-08-01T15:01:15.544480+08:00'
+  tags:
+  - market_sentiment
+  - china_economy
+  - extreme_signal
+  - pessimism
+  - credit_contraction
+  - pmi_below_50
+  - consumer_confidence
+  - ai_bubble
+  - korean_crash
+  signal: deep_pessimism_extreme_negative
+  confidence: 0.85
+  time_horizon: short_to_medium_term
   collaborators: []
