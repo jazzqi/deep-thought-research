@@ -16,5 +16,5 @@ PDD/Temu 在折扣电商领域的竞争地位、跨境业务扩张、中国消�
 ## 典型参与 Agent
 
 - buffett（护城河耐久性与竞争壁垒）
-- china-internet（中国消费互联网生态）
-- global-macro（消费能力和宏观环境）
+- lynch（中国消费互联网生态与成长股视角）
+- soros（消费能力和宏观环境）
