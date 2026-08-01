@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-01T15:01:22.944500+08:00'
+updated: '2026-08-01T16:09:23.246044+08:00'
 files:
 - path: macro/dalio/2026-07-19-2026年7月宏观场景分析中美分化加剧.md
   agent: dalio
@@ -1751,3 +1751,61 @@ files:
   confidence: 0.85
   time_horizon: short_to_medium_term
   collaborators: []
+- path: macro/zhou_jintao/2026-08-01-中国宏观经济场景分析2026年8月.md
+  agent: zhou_jintao
+  type: analysis
+  topic: 中国宏观经济场景分析2026年8月
+  status: final
+  created: '2026-08-01T16:05:05.971906+08:00'
+  updated: '2026-08-01T16:05:05.971906+08:00'
+  tags:
+  - 中国宏观经济
+  - 低增长
+  - 通缩压力
+  - 政策传导
+  - PMI
+  - 投资疲软
+  signal: 增长放缓/通缩压力
+  confidence: 0.7
+  time_horizon: 短期
+  collaborators: []
+- path: sector/tech_generalist/2026-08-01-科技行业子赛道宏观影响分析-流动性陷阱环境.md
+  agent: tech_generalist
+  type: analysis
+  topic: 科技行业子赛道宏观影响分析-流动性陷阱环境
+  status: final
+  created: '2026-08-01T16:07:43.513223+08:00'
+  updated: '2026-08-01T16:07:43.513223+08:00'
+  tags:
+  - 科技
+  - 半导体
+  - AI
+  - 云计算
+  - 消费电子
+  - 金融科技
+  - 新能源
+  - 宏观分析
+  - 流动性陷阱
+  signal: 低增长+流动性陷阱环境下科技行业分化加剧
+  confidence: 0.75
+  time_horizon: 6-12个月
+  collaborators: []
+- path: portfolio/cio/2026-08-01-cio行业配置战略建议-流动性陷阱环境.md
+  agent: cio
+  type: report
+  topic: CIO行业配置战略建议-流动性陷阱环境
+  status: final
+  created: '2026-08-01T16:09:15.860892+08:00'
+  updated: '2026-08-01T16:09:15.860892+08:00'
+  tags:
+  - 行业配置
+  - 流动性陷阱
+  - 哑铃策略
+  - 半导体
+  - 防御配置
+  signal: 行业配置调整建议
+  confidence: 0.75
+  time_horizon: 3-6个月
+  collaborators:
+  - tech_generalist
+  - soros
