@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-01T18:08:05.801746+08:00'
+updated: '2026-08-01T20:21:14.488005+08:00'
 files:
 - path: macro/dalio/2026-07-19-2026年7月宏观场景分析中美分化加剧.md
   agent: dalio
@@ -1867,4 +1867,269 @@ files:
   signal: 低增长+通缩+宽货币宏观场景对科技行业各子赛道形成差异化冲击，AI基础设施、安全、信创赛道韧性最强
   confidence: 0.72
   time_horizon: 1-6个月
+  collaborators: []
+- path: fundamental/buffett/2026-08-01-tailriskportfolioimpactassessment2026.md
+  agent: buffett
+  type: analysis
+  topic: tail_risk_portfolio_impact_assessment_2026
+  status: final
+  created: '2026-08-01T20:03:24.437278+08:00'
+  updated: '2026-08-01T20:03:24.437278+08:00'
+  tags:
+  - tail_risk
+  - portfolio_management
+  - china_economy
+  - macro_analysis
+  - risk_assessment
+  signal: medium_risk_hold
+  confidence: 0.7
+  time_horizon: 1-3个月
+  collaborators:
+  - macro_team
+  - risk_team
+- path: portfolio/cio/2026-08-01-协作板-pin-项处理分析.md
+  agent: cio
+  type: analysis
+  topic: 协作板 Pin 项处理分析
+  status: final
+  created: '2026-08-01T20:04:53.325115+08:00'
+  updated: '2026-08-01T20:04:53.325115+08:00'
+  tags:
+  - 协作板
+  - pin管理
+  - 优先级处理
+  - 任务分配
+  signal: 协作板管理流程优化
+  confidence: 0.7
+  time_horizon: 短期
+  collaborators: []
+- path: portfolio/cio/2026-08-01-协作板-pin-项处理决策分析.md
+  agent: cio
+  type: analysis
+  topic: 协作板 Pin 项处理决策分析
+  status: final
+  created: '2026-08-01T20:05:39.790559+08:00'
+  updated: '2026-08-01T20:05:39.790559+08:00'
+  tags:
+  - 协作板
+  - pin管理
+  - 优先级决策
+  - 任务分配
+  - 执行分析
+  signal: 协作板管理决策执行
+  confidence: 0.8
+  time_horizon: 短期
+  collaborators: []
+- path: portfolio/cio/2026-08-01-协作板-pin-项管理完整分析结论.md
+  agent: cio
+  type: report
+  topic: 协作板 Pin 项管理完整分析结论
+  status: final
+  created: '2026-08-01T20:06:24.829562+08:00'
+  updated: '2026-08-01T20:06:24.829562+08:00'
+  tags:
+  - 协作板
+  - pin管理
+  - 完整分析
+  - 决策验证
+  - 框架验证
+  signal: 协作板管理框架验证完成
+  confidence: 0.85
+  time_horizon: 短期
+  collaborators: []
+- path: portfolio/cio/2026-08-01-协作板-pin-项处理最终结论报告.md
+  agent: cio
+  type: report
+  topic: 协作板 Pin 项处理最终结论报告
+  status: final
+  created: '2026-08-01T20:07:07.603488+08:00'
+  updated: '2026-08-01T20:07:07.603488+08:00'
+  tags:
+  - 协作板
+  - pin管理
+  - 最终结论
+  - 任务完成
+  - 执行验证
+  signal: 协作板管理任务完成
+  confidence: 0.9
+  time_horizon: 短期
+  collaborators: []
+- path: macro/dalio/2026-08-01-china-macro-regime-analysis-august-2026.md
+  agent: dalio
+  type: analysis
+  topic: China Macro Regime Analysis August 2026
+  status: final
+  created: '2026-08-01T20:09:13.449080+08:00'
+  updated: '2026-08-01T20:09:13.449080+08:00'
+  tags:
+  - china
+  - macro
+  - deflation
+  - growth_slowdown
+  - policy
+  - PMI
+  signal: weak_growth_deflation_stimulus
+  confidence: 0.75
+  time_horizon: medium_term
+  collaborators: []
+- path: macro/soros/2026-08-01-中国宏观场景分析-2026年中期-通缩性增长放缓.md
+  agent: soros
+  type: analysis
+  topic: 中国宏观场景分析-2026年中期-通缩性增长放缓
+  status: final
+  created: '2026-08-01T20:09:37.989107+08:00'
+  updated: '2026-08-01T20:09:37.989107+08:00'
+  tags:
+  - 宏观经济
+  - 中国
+  - 通缩
+  - 增长放缓
+  - PMI
+  - 政策分析
+  signal: 通缩性增长放缓
+  confidence: 0.8
+  time_horizon: 短期（1-3个月）
+  collaborators: []
+- path: sector/tech_generalist/2026-08-01-中国宏观经济形势对科技行业各子赛道的影响分析.md
+  agent: tech_generalist
+  type: analysis
+  topic: 中国宏观经济形势对科技行业各子赛道的影响分析
+  status: final
+  created: '2026-08-01T20:11:31.838595+08:00'
+  updated: '2026-08-01T20:11:31.838595+08:00'
+  tags:
+  - macro
+  - china
+  - tech_sector
+  - investment_strategy
+  signal: macro_tech_impact
+  confidence: 0.65
+  time_horizon: 6-12 months
+  collaborators: []
+- path: portfolio/cio/2026-08-01-cio战略配置建议2026q3行业暴露调整.md
+  agent: cio
+  type: memo
+  topic: CIO战略配置建议_2026Q3_行业暴露调整
+  status: final
+  created: '2026-08-01T20:13:15.861713+08:00'
+  updated: '2026-08-01T20:13:15.861713+08:00'
+  tags:
+  - CIO_memo
+  - sector_allocation
+  - china_macro
+  - 2026Q3
+  signal: sector_reallocation
+  confidence: 0.72
+  time_horizon: 6-12个月
+  collaborators:
+  - macro_team
+  - tech_generalist
+  - soros
+- path: portfolio/cio/2026-08-01-协作板pin检查任务分析.md
+  agent: cio
+  type: analysis
+  topic: 协作板Pin检查任务分析
+  status: final
+  created: '2026-08-01T20:13:32.108224+08:00'
+  updated: '2026-08-01T20:13:32.108224+08:00'
+  tags:
+  - 任务管理
+  - 协作板
+  - 系统限制
+  - 工具分析
+  signal: 系统工具限制导致任务无法完成
+  confidence: 0.9
+  time_horizon: 即时
+  collaborators: []
+- path: portfolio/cio/2026-08-01-china-macro-scenario-synthesis-august-2026.md
+  agent: cio
+  type: report
+  topic: China Macro Scenario Synthesis - August 2026
+  status: final
+  created: '2026-08-01T20:15:55.113823+08:00'
+  updated: '2026-08-01T20:15:55.113823+08:00'
+  tags:
+  - macro
+  - china
+  - deflation
+  - liquidity_trap
+  - japanification
+  - slowdown
+  - policy
+  signal: negative
+  confidence: 0.8
+  time_horizon: 6-12 months
+  collaborators:
+  - macro_team
+- path: portfolio/cio/2026-08-01-cio战略判断-行业配置建议-2026年8月.md
+  agent: cio
+  type: analysis
+  topic: CIO战略判断-行业配置建议-2026年8月
+  status: final
+  created: '2026-08-01T20:18:11.217137+08:00'
+  updated: '2026-08-01T20:18:11.217137+08:00'
+  tags:
+  - 宏观判断
+  - 行业配置
+  - 流动性陷阱
+  - 通缩
+  - 资产配置
+  signal: 类日本化滞缩型通缩+流动性陷阱
+  confidence: 0.8
+  time_horizon: 6-12个月
+  collaborators: []
+- path: sentimental/kahneman/2026-08-01-market-sentiment-analysis-2026-08-01.md
+  agent: kahneman
+  type: analysis
+  topic: market-sentiment-analysis-2026-08-01
+  status: final
+  created: '2026-08-01T20:19:37.399938+08:00'
+  updated: '2026-08-01T20:19:37.399938+08:00'
+  tags:
+  - 情绪分析
+  - 恐惧贪婪指数
+  - 极端信号
+  - 数据质量
+  signal: 市场情绪处于恐惧区间但数据质量存疑
+  confidence: 0.6
+  time_horizon: 短期（1-7天）
+  collaborators: []
+- path: sector/tech_generalist/2026-08-01-techai叙事变化扫描-2026-07-28.md
+  agent: tech_generalist
+  type: scan
+  topic: Tech/AI叙事变化扫描-2026-07-28
+  status: final
+  created: '2026-08-01T20:21:00.899766+08:00'
+  updated: '2026-08-01T20:21:00.899766+08:00'
+  tags:
+  - AI
+  - market-sell-off
+  - infrastructure
+  - AI-safety
+  - developer-trends
+  - chip-stocks
+  signal: AI市场抛售加剧但基础设施投资持续
+  confidence: 0.75
+  time_horizon: 短期（6小时）
+  collaborators: []
+- path: sector/ai_specialist/2026-08-01-tech-ai-narrative-shifts-2026-07-28.md
+  agent: ai_specialist
+  type: scan
+  topic: tech-ai-narrative-shifts-2026-07-28
+  status: final
+  created: '2026-08-01T20:21:06.957646+08:00'
+  updated: '2026-08-01T20:21:06.957646+08:00'
+  tags:
+  - AI
+  - tech
+  - semiconductors
+  - market sentiment
+  - China AI
+  - infrastructure
+  - safety
+  - humanoid robotics
+  - supply chain
+  signal: AI market sentiment shift, infrastructure competition, China AI rise, safety concerns
+  confidence: 0.75
+  time_horizon: short-term to medium-term
   collaborators: []
