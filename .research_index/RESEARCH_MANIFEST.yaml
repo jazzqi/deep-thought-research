@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-01T20:21:14.488005+08:00'
+updated: '2026-08-01T23:02:31.352936+08:00'
 files:
 - path: macro/dalio/2026-07-19-2026年7月宏观场景分析中美分化加剧.md
   agent: dalio
@@ -2133,3 +2133,21 @@ files:
   confidence: 0.75
   time_horizon: short-term to medium-term
   collaborators: []
+- path: sentimental/shiller/2026-08-01-market-sentiment-analysis-fear-greed-index-27-extreme-fear-boundary.md
+  agent: shiller
+  type: analysis
+  topic: market sentiment analysis fear greed index 27 extreme fear boundary
+  status: final
+  created: '2026-08-01T23:02:23.319739+08:00'
+  updated: '2026-08-01T23:02:23.319739+08:00'
+  tags:
+  - sentiment
+  - fear_greed_index
+  - extreme_fear
+  - macro_analysis
+  - market_risk
+  signal: fear sentiment approaching extreme fear boundary
+  confidence: 0.7
+  time_horizon: short-term 1-3 months
+  collaborators:
+  - shiller
