@@ -19,5 +19,5 @@ lead_agent: soros
 
 ## 典型参与 Agent
 
-- geopolitics（地缘风险：冲突对能源供给与油价的直接冲击）
+- geopolitics_agent（地缘风险：冲突对能源供给与油价的直接冲击）
 - taleb（尾部风险：供应中断的黑天鹅情景审查）

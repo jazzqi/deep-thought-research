@@ -1,6 +1,6 @@
 ---
 slug: geo-conflicts
-lead_agent: geopolitics
+lead_agent: geopolitics_agent
 ---
 # 地缘冲突与黑天鹅
 
@@ -49,7 +49,7 @@ lead_agent: geopolitics
 
 ## 典型参与 Agent
 
-- geopolitics（Lead：冲突/事件概率评估与传导路径分析）
+- geopolitics_agent（Lead：冲突/事件概率评估与传导路径分析）
 - taleb（风控审查：黑天鹅情景压力测试（不 Lead，仅审查））
 - soros（宏观传导：冲突 → 能源价格 → 通胀 → 央行路径）
 - kahneman（情绪面：冲突驱动的恐慌/风险厌恶程度）

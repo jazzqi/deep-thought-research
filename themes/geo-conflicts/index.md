@@ -2,7 +2,7 @@
 name: 地缘冲突与黑天鹅
 slug: geo-conflicts
 status: active
-lead_agent: geopolitics
+lead_agent: geopolitics_agent
 created: 2026-07-29
 updated: 2026-08-03T00:00:00+08:00
 sources: []

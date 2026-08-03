@@ -14,7 +14,7 @@
 | research/sector | tech_generalist | Principal | ai_specialist, software_analyst, silicon_analyst, tech_scout |
 | research/foresight | kevin_kelly | Principal | karpathy |
 | research/crypto | crypto_trader | Principal | — |
-| research/geopolitics | geopolitics | Principal | — |
+| research/geopolitics | geopolitics_agent | Principal | — |
 | risk_management | taleb | Principal | —（风控审查，不 Lead 主题） |
 | executive | ackman | Managing Director | —（跨资产综合） |
 
@@ -41,7 +41,7 @@
 | market-daily | ackman | executive + sentimental + sector + macro | 综合/每日 |
 | qqq | ackman | executive + sector + sentimental | 指数 |
 | market-sentiment | kahneman | sentimental + crypto | 情绪面 |
-| geo-conflicts | geopolitics | geopolitics + risk(taleb 审查) + macro + sentimental + crypto | 地缘/黑天鹅/避险 |
+| geo-conflicts | geopolitics_agent | geopolitics_agent + risk(taleb 审查) + macro + sentimental + crypto | 地缘/黑天鹅/避险 |
 
 ## Lead 挑选规则（D71 Batch 4 #17）
 
