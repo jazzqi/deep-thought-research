@@ -1,3 +1,7 @@
+---
+slug: pdd
+lead_agent: buffett
+---
 # PDD Holdings（拼多多）
 
 > **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新。**

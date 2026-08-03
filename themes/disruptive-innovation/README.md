@@ -1,3 +1,7 @@
+---
+slug: disruptive-innovation
+lead_agent: kevin_kelly
+---
 # 颠覆式创新扫描
 
 > **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新。**
@@ -17,4 +21,3 @@
 
 - ai_specialist（AI/前沿技术趋势评估）
 - karpathy（工程可实现性的现实检验）
-- ten-bagger-hunting（投资机会维度的筛选）

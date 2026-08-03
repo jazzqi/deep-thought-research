@@ -1,3 +1,7 @@
+---
+slug: cryptocurrency
+lead_agent: crypto_trader
+---
 # 加密货币
 
 > **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新。**
@@ -16,5 +20,3 @@
 ## 典型参与 Agent
 
 - ai_specialist（技术基础—区块链/crypto 作为去中心化协议的演进）
-- btc（比特币单独子主题，更聚焦 store of value）
-- global-macro（全球流动性对加密市场的传导）

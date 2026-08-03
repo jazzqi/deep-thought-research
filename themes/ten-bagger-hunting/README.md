@@ -1,3 +1,7 @@
+---
+slug: ten-bagger-hunting
+lead_agent: kevin_kelly
+---
 # 十倍/百倍投资机会扫描
 
 > **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新。**
@@ -16,5 +20,4 @@
 ## 典型参与 Agent
 
 - buffett（护城河分析和安全边际的严格纪律适用于任何规模）
-- disruptive-innovation（技术范式变迁是重要来源）
-- ai_specialist/tech_generalist（前沿领域的早期信号）
+- ai_specialist（前沿领域的早期信号）

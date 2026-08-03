@@ -1,3 +1,7 @@
+---
+slug: market-daily
+lead_agent: ackman
+---
 # 市场每日追踪
 
 > **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新。**
@@ -17,6 +21,6 @@
 
 ## 典型参与 Agent
 
-- CIO（跨资产综合判断）
+- ackman（跨资产综合判断）
 - tech_generalist（科技股板块轮动）
-- soros/dalio（宏观联动解读）
+- soros（宏观联动解读）

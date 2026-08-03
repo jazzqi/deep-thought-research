@@ -1,3 +1,7 @@
+---
+slug: pig-cycle
+lead_agent: buffett
+---
 # 猪周期
 
 > **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新。**
@@ -16,4 +20,3 @@
 ## 典型参与 Agent
 
 - buffett（commodity 周期中是否具有结构竞争优势）
-- global-macro（中国通胀—猪肉在 CPI 中的权重）

@@ -1,3 +1,7 @@
+---
+slug: china-internet
+lead_agent: buffett
+---
 # 中国互联网（BABA/Tencent/Meituan）
 
 > **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新。**
@@ -16,5 +20,3 @@
 ## 典型参与 Agent
 
 - buffett（护城河、资本配置、安全边际）
-- pdd（消费互联网生态联动）
-- global-macro（中国宏观环境）

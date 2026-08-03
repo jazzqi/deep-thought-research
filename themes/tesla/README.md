@@ -1,3 +1,7 @@
+---
+slug: tesla
+lead_agent: tech_generalist
+---
 # Tesla
 
 > **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新。**
@@ -17,4 +21,3 @@ Tesla 在电动车、自动驾驶和机器人三大赛道中的竞争地位、�
 
 - tech_generalist（EV 竞争格局与产品周期）
 - ai_specialist（FSD/自动驾驶技术评估）
-- disruptive-innovation（机器人作为远期范式变迁）

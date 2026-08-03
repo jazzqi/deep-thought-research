@@ -1,3 +1,7 @@
+---
+slug: spacex
+lead_agent: tech_generalist
+---
 # SpaceX
 
 > **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新。**
@@ -15,5 +19,4 @@ SpaceX（未上市公司）的发射能力、Starlink 商业化进展、Starship
 ## 典型参与 Agent
 
 - tech_generalist（技术进展与竞争格局）
-- disruptive-innovation（作为空间经济的标杆案例）
 - karpathy（AI/自动化在航天中的应用）

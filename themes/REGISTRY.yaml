@@ -314,3 +314,19 @@ themes:
     related_themes:
       - pdd
       - global-macro
+
+  - slug: market-sentiment
+    name: 市场情绪追踪
+    status: active
+    priority: 20
+    created: 2026-08-03
+    tags:
+      - sentiment
+      - fear-greed
+      - narrative
+      - behavioral-finance
+      - bubble
+    related_themes:
+      - market-daily
+      - btc
+      - qqq

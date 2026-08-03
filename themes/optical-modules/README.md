@@ -1,3 +1,7 @@
+---
+slug: optical-modules
+lead_agent: tech_generalist
+---
 # 光模块
 
 > **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新。**
@@ -67,4 +71,3 @@ SiPh 方案整体便宜 ~20-25%（光源 CW ~$30 vs 8 颗 EML ~$88）。封装/�
 
 - tech_generalist（技术路线与供应链）
 - ai_specialist（AI 集群架构演进）
-- market-daily（AI 硬件板块每日动态）

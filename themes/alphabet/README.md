@@ -1,3 +1,7 @@
+---
+slug: alphabet
+lead_agent: tech_generalist
+---
 # Alphabet（Google）
 
 > **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新。**
@@ -17,4 +21,3 @@ Alphabet 在 AI 搜索竞争、云计算（GCP）、数字广告市场的地位�
 
 - tech_generalist（技术竞争与产品迭代）
 - buffett（护城河耐久性与反垄断风险）
-- global-macro（广告收入对宏观周期的敏感度）

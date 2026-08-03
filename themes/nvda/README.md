@@ -1,3 +1,7 @@
+---
+slug: nvda
+lead_agent: tech_generalist
+---
 # NVIDIA（AI 芯片龙头）
 
 > **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新，不要将其当作静态 ground truth。**
@@ -17,4 +21,3 @@ NVIDIA 在 AI GPU 和数据中心加速计算领域的竞争地位、产品架�
 
 - tech_generalist（技术架构与竞争格局）
 - buffett（估值与安全边际）
-- market-daily（市场背景与板块轮动）

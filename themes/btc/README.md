@@ -1,3 +1,7 @@
+---
+slug: btc
+lead_agent: crypto_trader
+---
 # BTC（比特币）
 
 > **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新。**
@@ -15,6 +19,5 @@
 
 ## 典型参与 Agent
 
-- cryptocurrency（更广泛的加密生态上下文）
-- global-macro/fed（流动性、利率、美元强弱对 BTC 的传导）
-- market-daily（每日走向和价格表现跟踪）
+- soros（宏观流动性：利率、美元强弱对 BTC 的传导）
+- ai_specialist（链上数据与加密基础设施技术面）

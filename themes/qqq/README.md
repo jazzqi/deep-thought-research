@@ -1,3 +1,7 @@
+---
+slug: qqq
+lead_agent: ackman
+---
 # QQQ ETF（纳斯达克 100）
 
 > **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新。**
@@ -16,4 +20,3 @@ Nasdaq 100 指数跟踪：集中度风险、科技 beta 对宏观因子的敏感
 ## 典型参与 Agent
 
 - tech_generalist（权重重磅股的基本面变化）
-- global-macro/fed（利率路径与流动性对科技估值的传导）

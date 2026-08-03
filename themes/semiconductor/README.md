@@ -1,3 +1,7 @@
+---
+slug: semiconductor
+lead_agent: tech_generalist
+---
 # 半导体产业链
 
 > **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新。**
@@ -15,4 +19,3 @@
 ## 典型参与 Agent
 
 - tech_generalist（周期定位与地缘影响）
-- global-macro（宏观周期对半导体需求的影响）
