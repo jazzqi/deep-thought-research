@@ -46,7 +46,7 @@ lead_agent: soros
 - **fed** — 美国利率路径是全球宏观的核心变量
 - **market-daily** — 每日金融市场的宏观背景快照
 - **energy** — 能源价格是通胀传导链的第一环
-- **us-iran** — 地缘风险通过能源成本影响通胀与政策空间
+- **geo-conflicts** — 地缘风险（战争/制裁/黑天鹅）通过能源成本与避险需求影响通胀与政策空间
 - **qqq/semiconductor** — AI 投资驱动的增长分化
 - **btc/cryptocurrency** — 全球流动性的传感指标
 - **china-internet/pdd** — 中国宏观体制直接塑造其可投资性
