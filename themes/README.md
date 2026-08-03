@@ -41,7 +41,7 @@
 | market-daily | ackman | executive + sentimental + sector + macro | 综合/每日 |
 | qqq | ackman | executive + sector + sentimental | 指数 |
 | market-sentiment | kahneman | sentimental + crypto | 情绪面 |
-| geo-conflicts | geopolitics | geopolitics + risk(taleb 审查) + macro + sentimental | 地缘/黑天鹅 |
+| geo-conflicts | geopolitics | geopolitics + risk(taleb 审查) + macro + sentimental + crypto | 地缘/黑天鹅/避险 |
 
 ## Lead 挑选规则（D71 Batch 4 #17）
 
