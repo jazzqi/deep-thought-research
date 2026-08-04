@@ -1,0 +1,80 @@
+- QQQ估值（本次查询）: QueryLongbridgeByRouteTool(fundamental/valuation/pe, symbol=QQQ.US, force_refresh=true) = PE/PB/PS/股息率均为null，不能推断QQQ估值
+- QQQ一致预期（本次查询）: QueryLongbridgeByRouteTool(fundamental/consensus, symbol=QQQ.US, force_refresh=true) = []
+- 美国宏观指标（本次查询）: QueryIndicatorsTool(category=macro, country=us, time_range=24h, limit=20) = No indicator snapshots found
+- QQQ新闻（2026-08-04 21:52 UTC）: QueryLongbridgeByRouteTool(news/company, symbol=QQQ.US, force_refresh=true) = 新闻称NASDAQ-100涨逾2%、创7月15日以来新高；非QQQ官方行情数据
+- AI/纳指100盈利超预期（2026-08-03）: QueryLongbridgeByRouteTool(news/company, symbol=QQQ.US, force_refresh=true) = Bloomberg AI Value Chain Index平均超预期71%，S&P 500为27%、Nasdaq-100为55%；新闻聚合数据
+- 联储表态（2026-08-03）: QueryLongbridgeByRouteTool(news/company, symbol=QQQ.US, force_refresh=true) = Williams称若通胀未如预期回到2%，联储将采取行动实现价格稳定
+- NVDA FY2027 Q1: QueryLongbridgeByRouteTool(fundamental/financials/income, symbol=NVDA.US, period=quarter, force_refresh=true) = 营收$81.615bn、营业利润$53.536bn、净利润$58.321bn、基本EPS$2.39（报告日2026-04-26）
+- NVDA FY2027 Q1一致预期: QueryLongbridgeByRouteTool(fundamental/consensus, symbol=NVDA.US, force_refresh=true) = 营收实际$81.615bn vs 预期$79.116bn；GAAP EPS实际$2.39 vs预期$1.7413，均Beat
+- MSFT FY2026 Q4: QueryLongbridgeByRouteTool(fundamental/financials/income, symbol=MSFT.US, period=quarter, force_refresh=true) = 营收$90.007bn、营业利润$40.603bn、净利润$35.766bn、基本EPS$4.8094（报告日2026-06-30）
+- AMZN FY2026 Q2: QueryLongbridgeByRouteTool(fundamental/financials/income, symbol=AMZN.US, period=quarter, force_refresh=true) = 营收$200.606bn、营业利润$27.461bn、净利润$62.647bn、基本EPS$5.75（报告日2026-06-30）
+- AAPL FY2026 Q3: QueryLongbridgeByRouteTool(fundamental/financials/income, symbol=AAPL.US, period=quarter, force_refresh=true) = 营收$109.417bn、营业利润$35.695bn、净利润$29.789bn、基本EPS$2.02（报告日2026-06-27）
+
+- Anthropic据报道签署100亿美元、六年期算力采购协议，涉及英伟达支持的Volta Infra及133MW挪威数据中心、Vera Rubin芯片: QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US"}) = 2026-08-04新闻条目原文摘要
+- 英伟达发布Alpamayo 2 Super自动驾驶推理模型并开放商业使用: QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US"}) = 2026-08-04新闻条目原文摘要
+- 英伟达推动cuFile API开源及Storage-Next存储生态: QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US"}) = 2026-08-04新闻条目原文摘要
+- 英伟达盘中报价211.72美元、涨幅近3%（2026-08-04）: QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US"}) = 新闻条目原文摘要；仅作事件背景，不作为独立行情源
+- AMZN分析师共识为Moderate Buy，平均目标价322.56美元；新闻条目称最新EPS 5.75美元、预期1.82美元: QueryLongbridgeByRouteTool(news/company, {"symbol":"AMZN.US"}) = 2026-08-04新闻条目原文摘要；未取得原始财报，数字待核验
+- 新泽西州总检察长起诉Amazon，涉及司机薪酬及工作条件: QueryLongbridgeByRouteTool(news/company, {"symbol":"AMZN.US"}) = 2026-08-04新闻条目原文摘要
+- Jeff Bezos按预先安排的10b5-1计划拟出售约41亿美元Amazon股票: QueryLongbridgeByRouteTool(news/company, {"symbol":"AMZN.US"}) = 2026-08-04新闻条目原文摘要
+- 市场新闻称Amazon与Microsoft两日合计增加1.04万亿美元市值、Apple与Meta减少5100亿美元: QueryLongbridgeByRouteTool(news/company, {"symbol":"MSFT.US"}) = 2026-08-04新闻条目原文摘要；媒体转述，不能替代行情核验
+- Palantir Q2收入同比增长93%、经营现金流21亿美元、资本开支低于收入1%: QueryLongbridgeByRouteTool(news/company, {"symbol":"MSFT.US"}) = 2026-08-04新闻条目原文摘要；非QQQ核心持仓，仅作AI变现对照
+- 美国宏观指标数据库近7日未返回可用快照: QueryIndicatorsTool({"category":"macro","country":"us","limit":20,"time_range":"7d"}) = No indicator snapshots found
+- 最新原始新闻包含“美国拟禁止AI数据中心使用中国零部件”: QueryRawItemsTool({"limit":30,"source":null,"status":null}) = 2026-08-04新闻条目；来源为hackernews，未经监管文件核验
+
+- QQQ相关：NASDAQ-100指数上涨超过2%，创2026-07-15以来新高；QQQ 2026-08-03收盘上涨超过1.7%: QueryLongbridgeByRouteTool(news/company, {"symbol":"QQQ.US","force_refresh":true}) = 新闻摘要，发布时间2026-08-04
+- AI相关公司Q2平均超预期71%，S&P 500及Nasdaq 100公司分别为27%和55%: QueryLongbridgeByRouteTool(news/company, {"symbol":"QQQ.US","force_refresh":true}) = 新闻摘要，发布时间2026-08-03
+- Williams表示若通胀未按预期回到2%，联储将采取行动，并承诺将通胀带回2%目标: QueryLongbridgeByRouteTool(news/company, {"symbol":"QQQ.US","force_refresh":true}) = 新闻摘要，发布时间2026-08-03
+- Anthropic据报道签署100亿美元、六年期算力采购协议，涉及NVIDIA支持的Volta Infra及133MW挪威数据中心/Vera Rubin芯片: QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US","force_refresh":true}) = 新闻摘要，发布时间2026-08-04
+- NVIDIA发布Alpamayo 2 Super自动驾驶推理模型并商业化: QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US","force_refresh":true}) = 新闻摘要，发布时间2026-08-04
+- NVIDIA开源cuFile API并推出Storage-Next存储生态: QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US","force_refresh":true}) = 新闻摘要，发布时间2026-08-04
+- Palantir据报道Q2收入同比增长93%，经营现金流21亿美元，资本开支低于收入1%: QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US","force_refresh":true}) = 新闻摘要，发布时间2026-08-04
+- NVDA盘中上涨近3%至211.72美元: QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US","force_refresh":true}) = 新闻摘要，发布时间2026-08-04
+- AMZN新闻摘要称EPS为5.75美元、预期1.82美元，分析师共识Moderate Buy、平均目标价322.56美元: QueryLongbridgeByRouteTool(news/company, {"symbol":"AMZN.US","force_refresh":true}) = 二手新闻摘要，发布时间2026-08-04
+- 新泽西州检察长起诉Amazon，涉及司机薪酬和工作条件: QueryLongbridgeByRouteTool(news/company, {"symbol":"AMZN.US","force_refresh":true}) = 新闻摘要，发布时间2026-08-04
+- Bezos据报道按预先安排的交易计划出售约41亿美元Amazon股票: QueryLongbridgeByRouteTool(news/company, {"symbol":"AMZN.US","force_refresh":true}) = 新闻摘要，发布时间2026-08-04
+- 宏观指标数据库近7日未返回美国可用指标快照: QueryIndicatorsTool(category="macro", country="us", time_range="7d") = No indicator snapshots found
+- 美国货币/信用指标数据库近7日未返回可用快照: QueryIndicatorsTool(category="monetary_credit", country="us", time_range="7d") = No indicator snapshots found
+- MSFT新闻摘要提及市值3.65万亿美元，但未提供可核验估值倍数: QueryLongbridgeByRouteTool(news/company, {"symbol":"MSFT.US","force_refresh":true}) = 二手新闻摘要，发布时间2026-08-04
+
+
+- Anthropic与NVIDIA支持的Volta Infra据报道签署100亿美元、六年算力采购协议，涉及挪威133MW数据中心及Vera Rubin芯片: query_longbridge_by_route(news/company, {"symbol":"NVDA.US","force_refresh":true}) = 2026-08-04新闻摘要所述
+- NVIDIA发布Alpamayo 2 Super自动驾驶推理模型并开放商业使用: query_longbridge_by_route(news/company, {"symbol":"NVDA.US","force_refresh":true}) = 2026-08-04新闻摘要所述
+- NVIDIA宣布开放cuFile API并推出Storage-Next存储生态: query_longbridge_by_route(news/company, {"symbol":"NVDA.US","force_refresh":true}) = 2026-08-04新闻摘要所述
+- Palantir据新闻摘要称Q2收入同比增长93%、经营现金流21亿美元、资本开支低于收入1%: query_longbridge_by_route(news/company, {"symbol":"NVDA.US","force_refresh":true}) = 2026-08-04新闻摘要所述，未取得原始财报
+- AMZN分析师共识Moderate Buy、平均目标价322.56美元，EPS 5.75美元对比预期1.82美元: query_longbridge_by_route(news/company, {"symbol":"AMZN.US","force_refresh":true}) = 2026-08-04新闻摘要所述，未取得原始财报/一致预期页面
+- 新泽西州总检察长起诉Amazon，涉及司机薪酬与工作条件: query_longbridge_by_route(news/company, {"symbol":"AMZN.US","force_refresh":true}) = 2026-08-04新闻摘要所述
+- Jeff Bezos据报道按预先安排交易计划拟出售约41亿美元Amazon股票: query_longbridge_by_route(news/company, {"symbol":"AMZN.US","force_refresh":true}) = 2026-08-04新闻摘要所述
+- 美国宏观指标数据库近7日未返回可用快照: query_indicators({"category":"macro","country":"us","limit":20,"time_range":"7d"}) = No indicator snapshots found
+- QQQ.US一致预期路由未返回数据: query_longbridge_by_route(fundamental/consensus, {"symbol":"QQQ.US"}) = []
+
+- NVDA最新公司新闻（2026-08-04）: query_longbridge_by_route(news/company, {"symbol":"NVDA.US","force_refresh":true}) = Anthropic据报道签署100亿美元、六年算力采购协议；NVIDIA发布Alpamayo 2 Super并开放商业使用；cuFile API开源及Storage-Next；另有DDN合作；均为新闻摘要，非合同/财报原文
+- MSFT最新公司新闻（2026-08-04）: query_longbridge_by_route(news/company, {"symbol":"MSFT.US","force_refresh":true}) = Palantir AI软件商业化对照报道、ArcelorMittal扩大Azure合作、市场报道微软市值3.65万亿美元及交易评论；未见公司重大监管/诉讼事件；媒体摘要
+- AMZN最新公司新闻（2026-08-04）: query_longbridge_by_route(news/company, {"symbol":"AMZN.US","force_refresh":true}) = 新泽西州总检察长就司机薪酬/工作条件起诉Amazon；Bezos据报道按10b5-1计划出售约41亿美元/1500万股；新闻称盘中跌近3%；二手新闻摘要
+- AAPL最新公司新闻（2026-08-04）: query_longbridge_by_route(news/company, {"symbol":"AAPL.US","force_refresh":true}) = Apple请求法院禁止OpenAI使用其商业秘密并申请初步禁令；新闻另称新CEO召回退休高管、Services业务担忧；均为新闻摘要
+- QQQ最新公司新闻（2026-08-04）: query_longbridge_by_route(news/company, {"symbol":"QQQ.US","force_refresh":true}) = NASDAQ-100涨逾2%创7月15日以来新高；8月3日QQQ收盘涨逾1.7%；均为新闻摘要，非独立行情快照
+- NVDA一致预期（Q1 FY2027）: query_longbridge_by_route(fundamental/consensus, {"symbol":"NVDA.US"}) = 实际营收81.615bn vs 预期79.116bn，GAAP EPS 2.39 vs 1.7413，均Beat；路由同时给出Q2-Q4 FY2027前瞻营收估计91.846bn/103.131bn/116.105bn
+- MSFT一致预期（Q4 FY2026）: query_longbridge_by_route(fundamental/consensus, {"symbol":"MSFT.US"}) = 实际营收90.007bn vs 87.631bn，GAAP EPS 4.81 vs 4.2169，均Beat；Q1-Q3 FY2027营收估计90.625bn/95.493bn/98.010bn
+- AMZN一致预期: query_longbridge_by_route(fundamental/consensus, {"symbol":"AMZN.US"}) = []，未返回可用一致预期
+- AAPL一致预期: query_longbridge_by_route(fundamental/consensus, {"symbol":"AAPL.US"}) = []，未返回可用一致预期
+- 美国宏观近7日快照: query_indicators({"category":"macro","country":"us","limit":20,"time_range":"7d"}) = No indicator snapshots found
+- 原始新闻：美国拟禁止AI数据中心使用中国零部件: query_raw_items({"limit":30,"source":null,"status":null}) = 2026-08-04 hackernews条目；未经监管文件核验，不作为事实定论
+
+- NVIDIA最新公司新闻（2026-08-04）：Anthropic据报道签署100亿美元、六年期算力采购协议；Alpamayo 2 Super商业化；cuFile API/Storage-Next；QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US","count":20}) = 新闻摘要，非合同或财报原文
+- Microsoft最新公司新闻（2026-08-04）：Azure合作及市场评论；QueryLongbridgeByRouteTool(news/company, {"symbol":"MSFT.US","count":20}) = 未见重大监管/诉讼事件，新闻摘要
+- Amazon最新公司新闻（2026-08-04）：新泽西州总检察长起诉Amazon涉及司机薪酬/工作条件；Bezos据报道按10b5-1计划拟出售约41亿美元/1500万股；QueryLongbridgeByRouteTool(news/company, {"symbol":"AMZN.US","count":20}) = 新闻摘要
+- Apple最新公司新闻（2026-08-04）：Apple请求法院禁止OpenAI使用其商业秘密并申请初步禁令；另有新CEO召回退休高管的报道；QueryLongbridgeByRouteTool(news/company, {"symbol":"AAPL.US","count":20}) = 新闻摘要
+- QQQ最新相关新闻（2026-08-04）：NASDAQ-100涨逾2%创7月15日以来新高；QueryLongbridgeByRouteTool(news/company, {"symbol":"QQQ.US","count":20}) = 新闻摘要，非独立行情快照
+- 美国宏观指标近7日：QueryIndicatorsTool({"category":"macro","country":"us","limit":20,"time_range":"7d"}) = No indicator snapshots found
+- Anthropic与Volta Infra签署100亿美元、六年期算力采购协议，挪威数据中心133MW、Vera Rubin芯片: QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US","force_refresh":true}) = 新闻条目，发表于2026-08-04T20:16:29Z
+- NVIDIA发布Alpamayo 2 Super并开放商业使用: QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US","force_refresh":true}) = 新闻条目，发表于2026-08-04T23:06:54Z
+- NVIDIA推进cuFile API开源与Storage-Next存储生态: QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US","force_refresh":true}) = 新闻条目，发表于2026-08-04T23:06:54Z
+- Palantir Q2收入同比增长93%、经营现金流21亿美元、资本开支低于收入1%: QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US","force_refresh":true}) = 新闻摘要，发表于2026-08-04T23:06:13Z
+- Amazon面临新泽西州总检察长关于司机薪酬与工作条件的诉讼: QueryLongbridgeByRouteTool(news/company, {"symbol":"AMZN.US","force_refresh":true}) = 新闻条目，发表于2026-08-04T22:25:03Z
+- Jeff Bezos拟按预先安排交易计划出售约41亿美元/1500万股Amazon股票: QueryLongbridgeByRouteTool(news/company, {"symbol":"AMZN.US","force_refresh":true}) = 新闻摘要，发表于2026-08-04T21:12:03Z
+- Amazon新闻摘要称EPS 5.75美元、预期1.82美元、Moderate Buy、平均目标价322.56美元: QueryLongbridgeByRouteTool(news/company, {"symbol":"AMZN.US","force_refresh":true}) = 新闻摘要，发表于2026-08-04T16:32:37Z
+- Apple请求法院禁止OpenAI使用其所谓商业秘密，并寻求初步禁令: QueryLongbridgeByRouteTool(news/company, {"symbol":"AAPL.US","force_refresh":true}) = 新闻条目，发表于2026-08-04T23:46:20Z
+- Apple新CEO任命/管理层变化相关报道: QueryLongbridgeByRouteTool(news/company, {"symbol":"AAPL.US","force_refresh":true}) = 新闻条目，发表于2026-08-04T23:56:45Z
+- Meta、Anthropic、Google、OpenAI将与白宫会面，背景涉及rogue AI agent事件: QueryLongbridgeByRouteTool(news/company, {"symbol":"META.US","force_refresh":true}) = 新闻条目，发表于2026-08-04T22:34:49Z
+- 有报道称四大科技公司已承诺近2.4万亿美元AI基础设施支出，并质疑现金流与债务市场依赖: QueryLongbridgeByRouteTool(news/company, {"symbol":"META.US","force_refresh":true}) = 新闻摘要，发表于2026-08-04T22:16:54Z
+- 美国近7日宏观指标: QueryIndicatorsTool(macro, {"country":"us","time_range":"7d","limit":20}) = 未返回可用快照
