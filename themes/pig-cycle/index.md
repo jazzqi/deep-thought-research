@@ -2,7 +2,7 @@
 name: 猪周期
 slug: pig-cycle
 status: active
-lead: synthesis_agent
+lead_agent: buffett
 created: 2026-07-29
 updated: 2026-07-29T00:00:00+08:00
 sources: []

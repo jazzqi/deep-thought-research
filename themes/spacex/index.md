@@ -2,7 +2,7 @@
 name: SpaceX
 slug: spacex
 status: active
-lead: synthesis_agent
+lead_agent: tech_generalist
 created: 2026-08-01
 updated: 2026-08-01T00:00:00+08:00
 sources: []

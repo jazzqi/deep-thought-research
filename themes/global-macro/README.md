@@ -40,7 +40,9 @@ lead_agent: soros
 - **情绪** — VIX、MOVE（债市波动）、信用利差、资金流 EPFR、CNN Fear & Greed
 
 ## 典型参与 Agent
-- kahneman（情绪与风险厌恶：恐慌/贪婪指标、尾部风险定价）
+- kahneman（情绪与风险厌恶：恐慌/贪婪指标、尾部风险定价）- zhou_jintao（康波长波与周期嵌套）
+- dalio（债务周期与 regime 分析）
+
 ## 关联主题
 
 - **fed** — 美国利率路径是全球宏观的核心变量

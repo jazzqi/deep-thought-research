@@ -20,3 +20,5 @@ lead_agent: crypto_trader
 ## 典型参与 Agent
 
 - ai_specialist（技术基础—区块链/crypto 作为去中心化协议的演进）
+- soros（全球流动性对加密市场的传导）
+- karpathy（Web3/AI 基础设施技术演进）

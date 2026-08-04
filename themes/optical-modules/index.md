@@ -2,7 +2,7 @@
 name: 光模块
 slug: optical-modules
 status: active
-lead: synthesis_agent
+lead_agent: tech_generalist
 created: 2026-07-29
 updated: 2026-08-01T00:00:00+08:00
 sources:

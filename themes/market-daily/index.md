@@ -2,7 +2,7 @@
 name: 市场每日追踪
 slug: market-daily
 status: active
-lead: synthesis_agent
+lead_agent: ackman
 created: 2026-08-01
 updated: 2026-08-01T00:00:00+08:00
 sources: []

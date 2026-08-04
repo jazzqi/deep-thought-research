@@ -20,3 +20,5 @@ lead_agent: soros
 ## 典型参与 Agent
 
 - soros（反身性：Fed 指引 vs 市场自我实现的预判）
+- dalio（长期债务周期与利率路径）
+- kahneman（市场预期与行为偏差）

@@ -2,7 +2,7 @@
 name: PDD Holdings（拼多多）
 slug: pdd
 status: active
-lead: synthesis_agent
+lead_agent: buffett
 created: 2026-08-01
 updated: 2026-08-01T21:13:44+08:00
 revision: 2026-08-01

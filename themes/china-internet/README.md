@@ -20,3 +20,5 @@ lead_agent: buffett
 ## 典型参与 Agent
 
 - buffett（护城河、资本配置、安全边际）
+- kahneman（消费互联网情绪与行为偏差）
+- soros（中国宏观环境与反身性）

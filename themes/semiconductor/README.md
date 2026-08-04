@@ -19,3 +19,5 @@ lead_agent: tech_generalist
 ## 典型参与 Agent
 
 - tech_generalist（周期定位与地缘影响）
+- soros（宏观周期对半导体需求的影响）
+- taleb（地缘 fab 布局的尾部风险审查）

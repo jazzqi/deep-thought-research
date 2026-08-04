@@ -2,7 +2,7 @@
 name: QQQ ETF（纳斯达克 100）
 slug: qqq
 status: active
-lead: synthesis_agent
+lead_agent: ackman
 created: 2026-07-29
 updated: 2026-07-29T00:00:00+08:00
 sources: []

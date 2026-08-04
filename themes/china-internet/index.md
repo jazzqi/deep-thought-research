@@ -2,7 +2,7 @@
 name: 中国互联网（BABA/Tencent/Meituan）
 slug: china-internet
 status: active
-lead: synthesis_agent
+lead_agent: buffett
 created: 2026-08-01
 updated: 2026-08-01T00:00:00+08:00
 sources: []

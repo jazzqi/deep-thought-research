@@ -2,7 +2,7 @@
 name: 十倍/百倍投资机会扫描
 slug: ten-bagger-hunting
 status: active
-lead: synthesis_agent
+lead_agent: kevin_kelly
 created: 2026-08-01
 updated: 2026-08-01T00:00:00+08:00
 sources: []

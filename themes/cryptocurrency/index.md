@@ -2,7 +2,7 @@
 name: 加密货币
 slug: cryptocurrency
 status: active
-lead: synthesis_agent
+lead_agent: crypto_trader
 created: 2026-07-29
 updated: 2026-07-29T00:00:00+08:00
 sources: []

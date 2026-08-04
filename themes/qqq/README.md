@@ -20,3 +20,5 @@ Nasdaq 100 指数跟踪：集中度风险、科技 beta 对宏观因子的敏感
 ## 典型参与 Agent
 
 - tech_generalist（权重重磅股的基本面变化）
+- soros（利率路径与流动性对科技估值）
+- kahneman（科技股情绪与羊群行为）

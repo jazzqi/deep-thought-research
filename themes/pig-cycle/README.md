@@ -20,3 +20,5 @@ lead_agent: buffett
 ## 典型参与 Agent
 
 - buffett（commodity 周期中是否具有结构竞争优势）
+- soros（中国通胀—猪肉在 CPI 的传导）
+- lynch（成长股视角：行业整合下的龙头企业）

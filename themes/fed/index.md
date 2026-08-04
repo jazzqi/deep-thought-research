@@ -2,7 +2,7 @@
 name: 美联储
 slug: fed
 status: active
-lead: synthesis_agent
+lead_agent: soros
 created: 2026-07-29
 updated: 2026-07-29T00:00:00+08:00
 sources: []

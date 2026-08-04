@@ -2,7 +2,7 @@
 name: NVIDIA（AI 芯片龙头）
 slug: nvda
 status: active
-lead: synthesis_agent
+lead_agent: tech_generalist
 created: 2026-07-29
 updated: 2026-07-29T00:00:00+08:00
 sources: []
