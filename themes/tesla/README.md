@@ -1,6 +1,9 @@
 ---
 slug: tesla
 lead_agent: tech_generalist
+depends_on:
+  - global-macro
+  - market-daily
 ---
 # Tesla
 

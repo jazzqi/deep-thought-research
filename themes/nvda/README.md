@@ -1,6 +1,9 @@
 ---
 slug: nvda
 lead_agent: tech_generalist
+depends_on:
+  - semiconductor
+  - global-macro
 ---
 # NVIDIA（AI 芯片龙头）
 

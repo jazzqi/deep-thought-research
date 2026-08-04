@@ -1,6 +1,7 @@
 ---
 slug: geo-conflicts
 lead_agent: geopolitics_agent
+depends_on: []
 ---
 # 地缘冲突与黑天鹅
 

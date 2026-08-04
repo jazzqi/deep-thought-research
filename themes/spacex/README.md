@@ -1,6 +1,7 @@
 ---
 slug: spacex
 lead_agent: tech_generalist
+depends_on: []
 ---
 # SpaceX
 

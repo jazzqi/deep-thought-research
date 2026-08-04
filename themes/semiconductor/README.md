@@ -1,6 +1,9 @@
 ---
 slug: semiconductor
 lead_agent: tech_generalist
+depends_on:
+  - global-macro
+  - geo-conflicts
 ---
 # 半导体产业链
 

@@ -1,6 +1,7 @@
 ---
 slug: disruptive-innovation
 lead_agent: kevin_kelly
+depends_on: []
 ---
 # 颠覆式创新扫描
 

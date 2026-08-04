@@ -1,6 +1,9 @@
 ---
 slug: china-internet
 lead_agent: buffett
+depends_on:
+  - global-macro
+  - market-sentiment
 ---
 # 中国互联网（BABA/Tencent/Meituan）
 

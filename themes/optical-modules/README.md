@@ -1,6 +1,9 @@
 ---
 slug: optical-modules
 lead_agent: tech_generalist
+depends_on:
+  - semiconductor
+  - global-macro
 ---
 # 光模块
 

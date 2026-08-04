@@ -1,6 +1,8 @@
 ---
 slug: pig-cycle
 lead_agent: buffett
+depends_on:
+  - global-macro
 ---
 # 猪周期
 

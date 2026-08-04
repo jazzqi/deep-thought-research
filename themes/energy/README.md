@@ -1,6 +1,9 @@
 ---
 slug: energy
 lead_agent: soros
+depends_on:
+  - global-macro
+  - geo-conflicts
 ---
 # 能源
 

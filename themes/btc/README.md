@@ -1,6 +1,9 @@
 ---
 slug: btc
 lead_agent: crypto_trader
+depends_on:
+  - global-macro
+  - market-sentiment
 ---
 # BTC（比特币）
 

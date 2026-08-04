@@ -1,6 +1,9 @@
 ---
 slug: alphabet
 lead_agent: tech_generalist
+depends_on:
+  - global-macro
+  - market-daily
 ---
 # Alphabet（Google）
 

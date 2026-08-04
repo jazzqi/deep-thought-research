@@ -1,6 +1,9 @@
 ---
 slug: pdd
 lead_agent: buffett
+depends_on:
+  - china-internet
+  - global-macro
 ---
 # PDD Holdings（拼多多）
 

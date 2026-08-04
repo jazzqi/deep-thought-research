@@ -20,28 +20,42 @@
 
 ## 主题 ↔ Lead 映射表
 
-| 主题 | Lead | 参与团队 | 主题类型 |
-|---|---|---|---|
-| nvda | tech_generalist | sector + fundamental + market-daily | 个股/行业 |
-| semiconductor | tech_generalist | sector + macro + risk | 行业 |
-| optical-modules | tech_generalist | sector + macro | 行业 |
-| alphabet | tech_generalist | sector + fundamental | 个股/行业 |
-| tesla | tech_generalist | sector + foresight | 个股/行业 |
-| spacex | tech_generalist | sector + foresight | 个股/行业（硬科技） |
-| disruptive-innovation | kevin_kelly | foresight + sector | 前瞻/扫描 |
-| ten-bagger-hunting | kevin_kelly | foresight + fundamental + sector | 前瞻/策略扫描 |
-| fed | soros | macro + market-daily | 宏观政策 |
-| global-macro | soros | macro | 宏观 |
-| energy | soros | macro + geopolitics + market-daily | 宏观/商品 |
-| pdd | buffett | fundamental + macro | 个股 |
-| china-internet | buffett | fundamental + macro | 行业 |
-| pig-cycle | buffett | fundamental + macro | 周期 |
-| btc | crypto_trader | crypto + macro + sector | 加密资产 |
-| cryptocurrency | crypto_trader | crypto + sector + macro | 加密行业 |
-| market-daily | ackman | executive + sentimental + sector + macro | 综合/每日 |
-| qqq | ackman | executive + sector + sentimental | 指数 |
-| market-sentiment | kahneman | sentimental + crypto | 情绪面 |
-| geo-conflicts | geopolitics_agent | geopolitics_agent + risk(taleb 审查) + macro + sentimental + crypto | 地缘/黑天鹅/避险 |
+| 主题 | Lead | 参与团队 | 主题类型 | 依赖上游 |
+|---|---|---|---|---|
+| nvda | tech_generalist | sector + fundamental + market-daily | 个股/行业 | semiconductor, global-macro |
+| semiconductor | tech_generalist | sector + macro + risk | 行业 | global-macro, geo-conflicts |
+| optical-modules | tech_generalist | sector + macro | 行业 | semiconductor, global-macro |
+| alphabet | tech_generalist | sector + fundamental | 个股/行业 | global-macro, market-daily |
+| tesla | tech_generalist | sector + foresight | 个股/行业 | global-macro, market-daily |
+| spacex | tech_generalist | sector + foresight | 个股/行业（硬科技） | — |
+| disruptive-innovation | kevin_kelly | foresight + sector | 前瞻/扫描 | — |
+| ten-bagger-hunting | kevin_kelly | foresight + fundamental + sector | 前瞻/策略扫描 | disruptive-innovation |
+| fed | soros | macro + market-daily | 宏观政策 | — |
+| global-macro | soros | macro | 宏观 | — |
+| energy | soros | macro + geopolitics + market-daily | 宏观/商品 | global-macro, geo-conflicts |
+| pdd | buffett | fundamental + macro | 个股 | china-internet, global-macro |
+| china-internet | buffett | fundamental + macro | 行业 | global-macro, market-sentiment |
+| pig-cycle | buffett | fundamental + macro | 周期 | global-macro |
+| btc | crypto_trader | crypto + macro + sector | 加密资产 | global-macro, market-sentiment |
+| cryptocurrency | crypto_trader | crypto + sector + macro | 加密行业 | global-macro, market-sentiment |
+| market-daily | ackman | executive + sentimental + sector + macro | 综合/每日 | — |
+| qqq | ackman | executive + sector + sentimental | 指数 | global-macro, market-daily, semiconductor |
+| market-sentiment | kahneman | sentimental + crypto | 情绪面 | — |
+| geo-conflicts | geopolitics_agent | geopolitics_agent + risk(taleb 审查) + macro + sentimental + crypto | 地缘/黑天鹅/避险 | — |
+
+## 数据蒸馏机制（DISTILLATION）
+
+> 完整协议见 **[DISTILLATION.md](DISTILLATION.md)**（kickstarter，Agent 自发维护，不强制）。
+
+主题之间采用**倒金字塔式数据蒸馏**：上游（L1 宏观/全球）先发布已核验结论，
+下游（L2 行业/资产 → L3 个股/指数）通过 `depends_on` 声明依赖，引用上游 `index.md`
+的结论，避免重复查询原始数据（实例：qqq 因缺上游宏观/估值结论，一轮耗时 19 分钟 vs
+正常 11 分钟）。
+
+- 上表「依赖上游」列 = 各主题 `README.md` frontmatter 的 `depends_on`（建议字段，Agent 维护）
+- `depends_on` 引用的 slug 必须存在于 `themes/` 目录 / REGISTRY.yaml
+- 下游 roundtable/relay 时，Lead 优先用 ReadThemeDocsTool 读取依赖上游的 `index.md`
+- REGISTRY.yaml 的 `related_themes` 与 `depends_on` 双向保持一致
 
 ## Lead 挑选规则（D71 Batch 4 #17）
 

@@ -1,6 +1,7 @@
 ---
 slug: market-daily
 lead_agent: ackman
+depends_on: []
 ---
 # 市场每日追踪
 

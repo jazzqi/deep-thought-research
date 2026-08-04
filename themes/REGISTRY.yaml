@@ -22,6 +22,10 @@ themes:
       - AI chips
       - AI capex cycle
       - competitive moat
+    related_themes:
+      - semiconductor
+      - global-macro
+      - disruptive-innovation
 
   - slug: semiconductor
     name: 半导体产业链
@@ -39,6 +43,12 @@ themes:
       - foundry
       - capex cycle
       - supply chain
+    related_themes:
+      - global-macro
+      - geo-conflicts
+      - nvda
+      - optical-modules
+      - qqq
 
   - slug: optical-modules
     name: 光模块
@@ -53,6 +63,9 @@ themes:
       - datacenter
       - AI infrastructure
       - bandwidth bottleneck
+    related_themes:
+      - semiconductor
+      - global-macro
 
   - slug: pdd
     name: PDD Holdings（拼多多）
@@ -67,6 +80,9 @@ themes:
       - Chinese e-commerce
       - discount retail
       - consumer downgrade
+    related_themes:
+      - china-internet
+      - global-macro
 
   - slug: cryptocurrency
     name: 加密货币
@@ -82,6 +98,9 @@ themes:
       - blockchain
       - digital asset
       - Web3
+    related_themes:
+      - global-macro
+      - market-sentiment
 
   - slug: fed
     name: 美联储
@@ -96,6 +115,8 @@ themes:
       - monetary policy
       - liquidity
       - easing cycle
+    related_themes:
+      - market-daily
 
   - slug: qqq
     name: QQQ ETF（纳斯达克 100）
@@ -110,6 +131,11 @@ themes:
       - growth stocks
       - tech valuation
       - beta
+    related_themes:
+      - global-macro
+      - market-daily
+      - semiconductor
+      - market-sentiment
 
   - slug: global-macro
     name: 宏观（全球+美国+中国）
@@ -125,6 +151,20 @@ themes:
       - global economy
       - business cycle
       - monetary divergence
+    related_themes:
+      - alphabet
+      - btc
+      - china-internet
+      - cryptocurrency
+      - energy
+      - market-daily
+      - nvda
+      - optical-modules
+      - pdd
+      - pig-cycle
+      - qqq
+      - semiconductor
+      - tesla
 
   - slug: pig-cycle
     name: 猪周期
@@ -140,6 +180,8 @@ themes:
       - meat price
       - cyclical supply-demand
       - inventory cycle
+    related_themes:
+      - global-macro
 
   - slug: ten-bagger-hunting
     name: 十倍/百倍投资机会扫描
@@ -175,6 +217,9 @@ themes:
       - refining
       - commodity super-cycle
       - energy transition
+    related_themes:
+      - global-macro
+      - geo-conflicts
 
   - slug: disruptive-innovation
     name: 颠覆式创新扫描
@@ -192,6 +237,7 @@ themes:
     related_themes:
       - nvda
       - spacex
+      - ten-bagger-hunting
 
   - slug: geo-conflicts
     name: 地缘冲突与黑天鹅
@@ -210,6 +256,9 @@ themes:
       - trade-frictions
       - crude oil
       - risk premium
+    related_themes:
+      - energy
+      - semiconductor
 
   - slug: alphabet
     name: Alphabet（Google）
@@ -226,6 +275,9 @@ themes:
       - AI
       - search monopoly
       - ad revenue cycle
+    related_themes:
+      - global-macro
+      - market-daily
 
   - slug: spacex
     name: SpaceX
@@ -241,6 +293,9 @@ themes:
       - rocket
       - space economy
       - satellite internet
+    related_themes:
+      - disruptive-innovation
+      - ten-bagger-hunting
 
   - slug: tesla
     name: Tesla
@@ -256,6 +311,9 @@ themes:
       - robotaxi
       - EV adoption curve
       - margin compression
+    related_themes:
+      - global-macro
+      - market-daily
 
   - slug: btc
     name: BTC（比特币）
@@ -273,6 +331,8 @@ themes:
       - store of value
     related_themes:
       - cryptocurrency
+      - global-macro
+      - market-sentiment
 
   - slug: market-daily
     name: 市场每日追踪
@@ -296,6 +356,10 @@ themes:
     related_themes:
       - global-macro
       - fed
+      - alphabet
+      - market-sentiment
+      - qqq
+      - tesla
 
   - slug: china-internet
     name: 中国互联网（BABA/Tencent/Meituan）
@@ -315,8 +379,9 @@ themes:
       - regulatory cycle
       - consumer spending
     related_themes:
-      - pdd
       - global-macro
+      - market-sentiment
+      - pdd
 
   - slug: market-sentiment
     name: 市场情绪追踪
@@ -333,3 +398,5 @@ themes:
       - market-daily
       - btc
       - qqq
+      - china-internet
+      - cryptocurrency

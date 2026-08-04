@@ -1,6 +1,9 @@
 ---
 slug: cryptocurrency
 lead_agent: crypto_trader
+depends_on:
+  - global-macro
+  - market-sentiment
 ---
 # 加密货币
 

@@ -1,6 +1,7 @@
 ---
 slug: fed
 lead_agent: soros
+depends_on: []
 ---
 # 美联储
 

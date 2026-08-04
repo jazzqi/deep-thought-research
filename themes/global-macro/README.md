@@ -1,6 +1,7 @@
 ---
 slug: global-macro
 lead_agent: soros
+depends_on: []
 ---
 # 全球宏观（global-macro）
 

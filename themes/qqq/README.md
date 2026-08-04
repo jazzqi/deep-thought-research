@@ -1,6 +1,10 @@
 ---
 slug: qqq
 lead_agent: ackman
+depends_on:
+  - global-macro
+  - market-daily
+  - semiconductor
 ---
 # QQQ ETF（纳斯达克 100）
 

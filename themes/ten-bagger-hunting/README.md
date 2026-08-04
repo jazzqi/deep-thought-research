@@ -1,6 +1,8 @@
 ---
 slug: ten-bagger-hunting
 lead_agent: kevin_kelly
+depends_on:
+  - disruptive-innovation
 ---
 # 十倍/百倍投资机会扫描
 

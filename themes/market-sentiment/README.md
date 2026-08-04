@@ -1,6 +1,7 @@
 ---
 slug: market-sentiment
 lead_agent: kahneman
+depends_on: []
 ---
 # 市场情绪追踪
 
