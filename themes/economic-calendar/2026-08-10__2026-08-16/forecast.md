@@ -4,7 +4,7 @@ week: 2026-08-10__2026-08-16
 type: forecast
 lead_agent: ackman
 region_focus: 全球
-created: 2026-08-07T01:40:14+08:00
+created: 2026-08-07T01:54:15+08:00
 sources: []
 ---
 
