@@ -1,0 +1,65 @@
+- 🇺🇸美国7月CPI同比/核心CPI同比/核心CPI环比前值与共识: query_calendar_events(country=null, days=14, importance=high,medium, limit=200) = 3.5%/3.4%；2.6%/2.5%；0.0%/0.2%
+- 🇺🇸美国7月PPI及核心PPI环比前值与共识: query_calendar_events(country=null, days=14, importance=high,medium, limit=200) = -0.3%/0.2%；0.2%/0.3%
+- 🇺🇸美国7月零售销售、除汽车与汽油零售环比前值与共识: query_calendar_events(country=null, days=14, importance=high,medium, limit=200) = 0.2%/0.3%；0.4%/0.3%
+- 🇦🇺澳大利亚8月11日现金利率前值与共识: query_calendar_events(country=null, days=14, importance=high,medium, limit=200) = 4.35%/4.35%
+- 🇺🇸美国10年/2年国债收益率: query_indicators(category=null, country=us, limit=50, time_range=24h) = 4.63%/4.18%（数据日2026-08-05）
+- 美元指数: query_indicators(category=null, country=us, limit=50, time_range=24h) = 119.7034（数据日2026-07-31）
+- 🇺🇸SPY ETF报价: market_quote(symbols=[SPY.US,BZ.US,XAUUSD,USDCNH]) = 772.42美元，较前收+0.50%
+- 原油代理报价异常: market_quote(symbols=[SPY.US,BZ.US,XAUUSD,USDCNH]) = BZ.US 16.50美元；与布伦特常识不符，未采用
+- 🇺🇸美国初请失业金人数: query_indicators(category=null, country=us, limit=50, time_range=24h) = 19.9万人（数据周截至2026-08-01）
+- 🇨🇳中国制造业/非制造业PMI: query_indicators(category=null, country=null, limit=100, time_range=24h) = 49.2/49.0（2026年7月）
+
+- 🇺🇸 美国7月核心CPI同比/环比（2026-08-12日历）：query_calendar_events(days=14, importance=medium, country=null) = 同比前值2.6%、共识2.5%；环比前值0.0%、共识0.2%
+- 🇺🇸 美国7月整体CPI同比（2026-08-12日历）：query_calendar_events(days=14, importance=medium, country=null) = 同源重复条目：前值均3.5%、共识分别3.4%与3.5%，存在冲突
+- 🇺🇸 美国7月零售销售环比（2026-08-14日历）：query_calendar_events(days=14, importance=high, country=null) = 前值0.2%、共识0.3%
+- 🇨🇳 中国7月CPI同比/PPI同比（2026-08-09日历）：query_calendar_events(days=14, importance=medium, country=null) = CPI前值1.0%、共识0.8%；PPI前值4.1%、共识3.8%，原始字段未标正负号
+- 🇦🇺 澳大利亚现金利率（2026-08-11日历）：query_calendar_events(days=14, importance=medium, country=null) = 前值4.35%、共识4.35%
+- 🇯🇵 日本7月国内企业商品物价（2026-08-12日历）：query_calendar_events(days=14, importance=medium, country=null) = 同比前值7.1%、环比前值0.4%，共识缺失
+- 🇪🇺 欧元区二季度GDP季环比修正（2026-08-14日历）：roundtable/round_2_discussion_log.md（参与者据query_calendar_events原始字段核验）= 前值0.4%、共识0.4%
+- 🇬🇧 英国二季度GDP季环比初值（2026-08-13日历）：roundtable/round_2_discussion_log.md（参与者据query_calendar_events原始字段核验）= 前值0.6%、共识缺失
+- SPY.US：market_quote(symbols=[SPY.US,USO.US,GLD.US,FXI.US,AUDUSD.US]) = 772.75美元，较昨收+0.54%，15分钟延迟
+- GLD.US：market_quote(symbols=[SPY.US,USO.US,GLD.US,FXI.US,AUDUSD.US]) = 397.85美元，较昨收+2.10%，15分钟延迟
+- 美元兑人民币：query_indicators(category=exchange_rate, country=null, time_range=7d) = 6.7454（akshare）；非USDCNH，未作为USDCNH替代
+- 10Y/2Y美债、DXY、Brent、S&P 500、Gold、USDCNH当前快照可用性：roundtable/round_2_discussion_log.md（参与者工具核验）= 美债源间冲突；DXY/Brent非同一报告时点；S&P 500、Gold、USDCNH未获可核验当前值
+
+- 未来14日美/中/英/欧/日/澳事件及前值/共识: query_calendar_events(country=null, days=14, importance=high,medium, limit=100) = 原始返回事件列表（2026-08-08查询）
+- 🇺🇸美国7月CPI核心同比: query_calendar_events(country=null, days=14, importance=high,medium, limit=100) = 前值2.6%、共识2.5%
+- 🇺🇸美国7月CPI环比/核心环比: query_calendar_events(country=null, days=14, importance=high,medium, limit=100) = 前值-0.4%/0.0%，共识0.2%/0.2%
+- 🇺🇸美国7月整体CPI同比同源冲突: query_calendar_events(country=null, days=14, importance=high,medium, limit=100) = 前值3.5%、共识3.4%与3.5%两条
+- 🇺🇸美国7月PPI/核心PPI环比: query_calendar_events(country=null, days=14, importance=high,medium, limit=100) = 前值-0.3%/0.2%，共识0.2%/0.3%
+- 🇺🇸美国7月零售销售/除汽车与汽油: query_calendar_events(country=null, days=14, importance=high,medium, limit=100) = 前值0.2%/0.4%，共识0.3%/0.3%
+- 🇺🇸美国10年期国债竞拍: query_calendar_events(country=null, days=14, importance=high,medium, limit=100) = 前次高收益率4.58%、金额390亿美元，共识缺失
+- 🇨🇳中国7月CPI/PPI同比: query_calendar_events(country=null, days=14, importance=high,medium, limit=100) = 前值1.0%/4.1%、共识0.8%/3.8%；PPI原始字段未标正负号
+- 🇦🇺澳大利亚现金利率: query_calendar_events(country=null, days=14, importance=high,medium, limit=100) = 前值4.35%、共识4.35%
+- 🇯🇵日本7月国内企业商品物价: query_calendar_events(country=null, days=14, importance=high,medium, limit=100) = 同比前值7.1%、环比前值0.4%，共识缺失
+- 🇪🇺欧元区二季度GDP季率修正: reference.md既有roundtable核验记录 = 前值0.4%、共识0.4%
+- 🇬🇧英国二季度GDP季率初值: reference.md既有roundtable核验记录 = 前值0.6%、共识缺失
+- 🇺🇸美国10年期/2年期国债收益率: query_indicators(category=market,country=us,limit=20,time_range=24h)及既有核验 = OpenBB 4.63%/4.18%（数据日2026-08-05），另源AKShare 1.7114%/1.2523%（2026-08-07），存在冲突
+- DXY: 既有核验记录 = 119.7034（2026-07-31），非报告时点
+- 🇨🇳人民币兑美元: query_indicators(category=exchange_rate,country=null,limit=20,time_range=7d) = 6.7454（2026-08-07），非USDCNH
+- 🇺🇸美国初请失业金: query_indicators(category=macro,country=us,limit=50,time_range=24h) = 19.9万人（截至2026-08-01周）
+- 🇨🇳中国7月制造业/非制造业PMI: query_indicators(category=pmi,country=china,limit=20,time_range=24h) = 49.2/49.0
+
+- 🇨🇳中国7月CPI同比前值1.0%、共识0.8%: query_calendar_events({"country":"CN","days":14,"importance":"high,medium","limit":100}) = previous 1.0, forecast 0.8
+- 🇨🇳中国7月PPI同比前值4.1%、共识3.8%（原始字段未标正负号）: query_calendar_events({"country":"CN","days":14,"importance":"high,medium","limit":100}) = previous 4.1, forecast 3.8
+- 🇯🇵日本央行7月货币政策会议意见摘要: query_calendar_events({"country":"JP","days":14,"importance":"high,medium","limit":100}) = event_date 2026-08-09, previous/forecast null
+- 🇦🇺澳大利亚现金利率前值4.35%、共识4.35%: query_calendar_events({"country":"AU","days":14,"importance":"high,medium","limit":100}) = previous 4.35, forecast 4.35
+- 🇺🇸美国7月CPI同比前值3.5%、共识3.4%（同源重复条目另有共识3.5%，存在冲突）: query_calendar_events({"country":"US","days":14,"importance":"high,medium","limit":100}) = previous 3.5, forecast 3.4 and duplicate forecast 3.5
+- 🇺🇸美国7月核心CPI同比前值2.6%、共识2.5%；环比前值0.0%、共识0.2%: query_calendar_events({"country":"US","days":14,"importance":"high,medium","limit":100}) = previous/forecast fields
+- 🇺🇸美国7月CPI环比前值-0.4%、共识0.2%: query_calendar_events({"country":"US","days":14,"importance":"high,medium","limit":100}) = previous -0.4, forecast 0.2
+- 🇺🇸美国10年期国债标售规模390亿美元、前次高收益率4.58%: query_calendar_events({"country":"US","days":14,"importance":"high,medium","limit":100}) = previous 4.58, previous amount 390.0
+- 🇺🇸美国联邦储备委员会资产负债表6,748,567百万美元（2026-08-05）: query_indicators({"category":"macro","country":"us","limit":20,"time_range":"24h"}) = fed_balance_sheet 6748567.0
+- 🇺🇸美国布伦特原油价格81.96美元/桶（2026-08-03）: query_indicators({"category":"commodity","country":"","limit":20,"time_range":"24h"}) = crude_oil 81.96
+- 🇺🇸美国7月CPI同比指标3.5（2026-06-01，已过时，不作为当前值）: query_indicators({"category":"macro","country":"us","limit":20,"time_range":"24h"}) = cpi_yoy_us_pct 3.5
+- 近期原始新闻条目未返回与本报告标的/公司相关的可核验重大监管、业务或组织事件: query_raw_items({"limit":20,"source":null,"status":null}) = returned headlines unrelated or insufficient
+- news/company 路由未在可用路由搜索中找到: search_routes({"category":"stock","keyword":"news/company"}) = no route found
+
+- 🇺🇸美国7月核心CPI同比/环比、整体CPI同比/环比（2026-08-12日历）: query_calendar_events(country="", days=14, importance="high,medium", limit=100) = 核心同比前值2.6%、共识2.5%；核心环比前值0.0%、共识0.2%；整体同比前值3.5%、共识3.4%及重复条目3.5%；整体环比前值-0.4%、共识0.2%
+- 🇺🇸美国7月PPI/核心PPI环比、10年期国债竞拍及7月零售销售: query_calendar_events(country="", days=14, importance="high,medium", limit=100) = PPI前值-0.3%、共识0.2%；核心PPI前值0.2%、共识0.3%；10年期前次高收益率4.58%、金额390亿美元；零售销售前值0.2%、共识0.3%
+- 🇨🇳中国7月CPI/PPI同比、货币信贷事件: query_calendar_events(country="", days=14, importance="high,medium", limit=100) = CPI前值1.0%、共识0.8%；PPI前值4.1%、共识3.8%（原始字段不含正负号）；M0/M1/M2、社融和新增贷款部分字段无共识
+- 🇦🇺澳大利亚现金利率与🇯🇵日本企业商品物价: query_calendar_events(country="", days=14, importance="high,medium", limit=100) = 澳大利亚前值/共识4.35%/4.35%；日本企业物价同比/环比前值7.1%/0.4%，共识缺失
+- 🇺🇸美国收益率、美元及信用利差: query_indicators(category=null, country="us", limit=30, time_range="24h") = 10年期4.63%（2026-08-05）、2年期4.18%（2026-08-05）、2s10s 44bp（2026-08-06）、DXY 119.7034（2026-07-31）、高收益债利差275bp/投资级利差78bp（2026-08-05）
+- 🇨🇳中国7月制造业/非制造业PMI与人民币代理: query_indicators(category=null, country="china", limit=30, time_range="24h") = PMI 49.2/49.0（2026年7月）；美元兑在岸人民币6.7454（无明确数据日期，非USDCNH）
+
+- 审查所依据的美国7月CPI/PPI、零售销售、10年期标售及全球事件字段: ReadThemeDocsTool(themes/economic-calendar/_history/2026-08-08__manual__readthemedocstool_1_themes_economic_calendar_template_md_v2/reference.md) = 以文档既有溯源记录为准，含CPI总同比共识3.4%/3.5%冲突、核心CPI环比共识0.2%、核心PPI环比共识0.3%、零售销售环比共识0.3%、10年期标售前次高收益率4.58%/390亿美元
+- 审查所依据的行情可用性: ReadThemeDocsTool(themes/economic-calendar/_history/2026-08-08__manual__readthemedocstool_1_themes_economic_calendar_template_md_v2/reference.md) = 10Y/2Y、DXY、Brent存在不同日期或来源冲突；S&P 500、Gold、USDCNH无可核验报告时点值

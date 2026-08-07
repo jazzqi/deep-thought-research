@@ -1,18 +1,3 @@
----
-name: 周度财经日历预读
-week: 2026-08-10__2026-08-16
-type: forecast
-lead_agent: ackman
-region_focus: 全球
-created: 2026-08-08T01:19:03+08:00
-data_quality: poor
-prev_doc: themes/economic-calendar/2026-08-03__2026-08-09/recap.md
-next_doc: themes/economic-calendar/2026-08-17__2026-08-23/forecast.md
-sources: [_quality]
----
-
-# 周度财经日历预读：2026-08-10 ~ 2026-08-16
-
 # 圆桌观点分布摘要 — economic-calendar
 
 - Session: 2026-08-08_0058__manual__readthemedocstool_1_themes_economic_calendar_template_md_v2
