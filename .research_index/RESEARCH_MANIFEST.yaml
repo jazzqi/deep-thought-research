@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-07T16:32:30.526757+08:00'
+updated: '2026-08-08T02:22:32.553958+08:00'
 files:
 - path: macro/dalio/2026-07-19-2026年7月宏观场景分析中美分化加剧.md
   agent: dalio
@@ -2202,4 +2202,21 @@ files:
   signal: 风险偏好谨慎：能源地缘风险与美国政策重估待验证
   confidence: 0.58
   time_horizon: 未来1—4周
+  collaborators: []
+- path: portfolio/ackman/2026-08-08-economic-calendar-recap-2026-08-03-2026-08-09.md
+  agent: ackman
+  type: report
+  topic: economic-calendar-recap-2026-08-03-2026-08-09
+  status: final
+  created: '2026-08-08T02:22:28.787642+08:00'
+  updated: '2026-08-08T02:22:28.787642+08:00'
+  tags:
+  - economic-calendar
+  - weekly-recap
+  - macro
+  - US
+  - China
+  signal: 就业意外偏弱；对增长和政策路径的再定价待通胀验证
+  confidence: 0.55
+  time_horizon: 2026-08-03至2026-08-09（截至8月7日UTC）
   collaborators: []
