@@ -1,0 +1,35 @@
+- 上周预测成绩单冷启动且无 forecast.md: ReadThemeDocsTool(themes/economic-calendar/2026-08-03__2026-08-09/recap.md) = 无历史预测、综合共识 medium
+- 🇺🇸 美国财政部8月11日至13日标售逾千亿美元国债: query_calendar_events(days=14, importance=high) = 2026-08-10T16:00:00+00:00，前值/共识未提供
+- 🇦🇺 澳洲联储利率决议: query_calendar_events(days=14, importance=high) = 2026-08-11T04:30:00+00:00，前值/共识未提供
+- 🇺🇸 美国8月8日当周首次申请失业救济人数: query_calendar_events(days=14, importance=high) = 2026-08-13T12:30:00+00:00，前值/共识未提供
+- 🇺🇸 美国7月零售销售环比: query_calendar_events(days=14, importance=high) = 2026-08-14T12:30:00+00:00，前值+0.2%、共识+0.3%
+- 🇺🇸 标普500代理SPY: market_quote(symbols=[SPY.US,GLD.US,USO.US]) = 771.52美元，日涨+0.39%
+- 黄金代理GLD: market_quote(symbols=[SPY.US,GLD.US,USO.US]) = 397.81美元，日涨+2.09%
+- 原油代理USO: market_quote(symbols=[SPY.US,GLD.US,USO.US]) = 119.95美元，日涨+0.91%
+- 人民币汇率usd_cny: query_indicators(category=exchange_rate,country=null,time_range=7d) = 6.7454（akshare；工具未确认离岸口径）
+- 🇺🇸 美国7月CPI同比/核心CPI同比: query_calendar_events(days=14, importance=medium) = 2026-08-12T12:30:00+00:00；CPI前值+3.5%、共识+3.4%或+3.5%（重复记录冲突）；核心前值+2.6%、共识+2.5%
+- 🇺🇸 美国7月PPI环比/核心PPI环比: query_calendar_events(days=14, importance=medium) = 2026-08-13T12:30:00+00:00；前值-0.3%/+0.2%，共识+0.2%/+0.3%
+
+- 🇺🇸 10年期国债收益率: query_indicators(category=null,country=us,time_range=24h) = 4.63%，数据日2026-08-05
+- 🇺🇸 2年期国债收益率: query_indicators(category=null,country=us,time_range=24h) = 4.18%，数据日2026-08-05
+- 🇺🇸 2s10s利差: query_indicators(category=null,country=us,time_range=24h) = +44bp，数据日2026-08-06
+- 美元指数: query_indicators(category=null,country=us,time_range=24h) = 119.7034，数据日2026-07-31
+- 布伦特原油代理BNO: market_quote(symbols=[UUP.US,BNO.US,TLT.US,FXI.US,EWJ.US]) = 47.83美元，日涨+0.98%
+- 美元代理UUP: market_quote(symbols=[UUP.US,BNO.US,TLT.US,FXI.US,EWJ.US]) = 28.06美元，日跌-0.46%
+- 长久期美债代理TLT: market_quote(symbols=[UUP.US,BNO.US,TLT.US,FXI.US,EWJ.US]) = 82.53美元，日涨+0.01%
+- 🇯🇵 日本股票代理EWJ: market_quote(symbols=[UUP.US,BNO.US,TLT.US,FXI.US,EWJ.US]) = 96.42美元，日涨+1.34%
+
+- 2026-08-12 12:30 UTC 美国7月CPI：query_calendar_events(days=14, importance=medium, country=null) = 总CPI同比前值3.5%、共识3.4%；核心CPI同比前值2.6%、共识2.5%；总CPI环比前值-0.4%、共识0.2%；核心CPI环比前值0.0%、共识0.2%。
+- 2026-08-12 17:00 UTC 美国10年期国债竞拍：query_calendar_events(days=14, importance=medium, country=null) = 前次高收益率/中标利率4.58%，规模390亿美元；本次无共识。
+- 2026-08-13 12:30 UTC 美国7月PPI：query_calendar_events(days=14, importance=medium, country=null) = 总PPI环比前值-0.3%、共识0.2%；核心PPI环比前值0.2%、共识0.3%；总PPI同比前值5.5%、核心PPI同比前值4.7%，同比共识未提供。
+- 2026-08-13 12:30 UTC 美国初请：query_calendar_events(days=14, importance=high, country=null) = 官方日历时间存在，前值/共识未提供。
+- 2026-08-14 12:30 UTC 美国7月零售：query_calendar_events(days=14, importance=high, country=null) = 总环比前值0.2%、共识0.3%。
+- 美国零售分项与消费者信心：query_calendar_events(days=14, importance=medium, country=null) = 除汽车与汽油环比前值0.4%、共识0.3%；除汽车前值-0.2%、共识0.2%；控制组前值0.5%、共识未提供；密歇根8月信心初值前值55.2、共识53.8。
+- 🇯🇵日本央行意见摘要：query_calendar_events(days=14, importance=high, country=null) = 2026-08-09 23:50 UTC，前值/共识未提供。
+- 🇦🇺澳洲联储：query_calendar_events(days=14, importance=high, country=null) = 2026-08-11 04:30 UTC；现金利率前值4.35%、共识4.35%。
+- 🇨🇳中国7月通胀：query_calendar_events(days=14, importance=medium, country=null) = CPI同比前值1.0%、共识0.8%；PPI同比前值4.1%、共识3.8%。
+- 🇬🇧英国GDP/🇪🇺欧元区GDP：query_calendar_events(days=14, importance=medium, country=null) = 英国二季度GDP季环比前值0.6%、同比前值0.9%，无共识；欧元区二季度GDP季环比修正前值0.4%、共识0.4%，同比修正前值1.0%、无共识。
+- 行情ETF代理：market_quote(symbols=[SPY.US,TLT.US,UUP.US,GLD.US,USO.US]) = SPY 772.41美元；TLT 82.58美元；UUP 28.07美元；GLD 398.20美元；USO 119.80美元（均为工具报告时点，非标普500现货/DXY/现货黄金/布伦特）。
+- 汇率：query_indicators(category=exchange_rate,country=null,time_range=7d) = usd_cny 6.7454（来源akshare）；该字段未标明离岸口径。
+- 债券指标返回：query_indicators(category=bond,country=null,time_range=7d) = bond_10y_yield 1.7114、bond_2y_yield 1.2523、利差0.4591，来源akshare、数据日2026-08-07；因未能核实为美国国债，未用作美国10Y/2Y。
+- 上周回顾：themes/economic-calendar/2026-08-03__2026-08-09/recap.md = 上周为冷启动，forecast.md不存在；初请19.9万人、预期20.2万人；中国制造业PMI49.2、非制造业PMI49.0。

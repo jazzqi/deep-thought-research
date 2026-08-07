@@ -1,0 +1,4 @@
+- 美国核心CPI指数: query_indicators({"category":"macro","country":"us","limit":20,"time_range":"7d"}) = 336.065（数据日2026-06-01；工具未标记超过90天，但该值不是2026年7月读数）
+- 美国联邦储备系统资产负债表: query_indicators({"category":"macro","country":"us","limit":20,"time_range":"7d"}) = 6738190.0（数据日2026-07-29）
+- 中国宏观指标查询: query_indicators({"category":"macro","country":"china","limit":20,"time_range":"7d"}) = 未返回有效指标
+- 最新原始新闻查询: query_raw_items({"limit":30,"source":null,"status":null}) = 返回条目主要为Hacker News，未提供可用于本报告的宏观财经新闻
