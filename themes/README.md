@@ -42,6 +42,7 @@
 | qqq | ackman | executive + sector + sentimental | 指数 | global-macro, market-daily, semiconductor |
 | market-sentiment | kahneman | sentimental + crypto | 情绪面 | — |
 | geo-conflicts | geopolitics_agent | geopolitics_agent + risk(taleb 审查) + macro + sentimental + crypto | 地缘/黑天鹅/避险 | — |
+| economic-calendar | ackman | executive + macro + fundamental + sector + risk | 宏观/日历预读 | market-daily, fed, global-macro |
 
 ## 数据蒸馏机制（DISTILLATION）
 

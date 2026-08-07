@@ -400,3 +400,23 @@ themes:
       - qqq
       - china-internet
       - cryptocurrency
+
+  - slug: economic-calendar
+    name: 周度财经日历预读
+    status: active
+    priority: 21
+    created: 2026-08-07
+    assets: []
+    tags:
+      - economic calendar
+      - CPI
+      - PPI
+      - PMI
+      - nonfarm payrolls
+      - central bank
+      - interest rate decision
+      - GDP
+    related_themes:
+      - market-daily
+      - fed
+      - global-macro
