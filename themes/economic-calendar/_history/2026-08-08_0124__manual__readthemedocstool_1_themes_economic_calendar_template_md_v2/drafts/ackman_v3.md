@@ -1,18 +1,3 @@
----
-name: 周度财经日历预读
-week: 2026-08-10__2026-08-16
-type: forecast
-lead_agent: ackman
-region_focus: 全球
-created: 2026-08-08T01:45:11+08:00
-data_quality: poor
-prev_doc: themes/economic-calendar/2026-08-03__2026-08-09/recap.md
-next_doc: themes/economic-calendar/2026-08-17__2026-08-23/forecast.md
-sources: []
----
-
-# 周度财经日历预读：2026-08-10 ~ 2026-08-16
-
 # 下周全球财经日历预读：通胀、消费与财政供给的三重检验
 
 ## Big Picture

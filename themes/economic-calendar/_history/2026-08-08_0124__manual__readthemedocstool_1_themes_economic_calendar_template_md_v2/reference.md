@@ -1,0 +1,71 @@
+- 🇺🇸 美国 S&P 500 proxy（SPY.US）: market_quote(symbols=["SPY.US","BNO.US","GLD.US"]) = 772.17美元，较前收+0.47%（报价为15分钟延迟）
+- 布伦特原油 proxy（BNO.US）: market_quote(symbols=["SPY.US","BNO.US","GLD.US"]) = 47.65美元，较前收+0.59%（报价为15分钟延迟；ETF非Brent现货/期货本身）
+- 黄金 proxy（GLD.US）: market_quote(symbols=["SPY.US","BNO.US","GLD.US"]) = 397.86美元，较前收+2.10%（报价为15分钟延迟；ETF非金价本身）
+- 🇺🇸 美国7月CPI同比（2026-08-12 12:30 UTC）: query_calendar_events(days=14, importance="medium") = 前值3.5%、预测3.5%
+- 🇺🇸 美国7月核心CPI同比（2026-08-12 12:30 UTC）: query_calendar_events(days=14, importance="medium") = 前值2.6%、预测2.5%
+- 🇺🇸 美国7月核心CPI环比（2026-08-12 12:30 UTC）: query_calendar_events(days=14, importance="medium") = 前值0.0%、预测0.2%
+- 🇺🇸 美国7月PPI环比（2026-08-13 12:30 UTC）: query_calendar_events(days=14, importance="medium") = 前值-0.3%、预测0.2%
+- 🇺🇸 美国7月核心PPI环比（2026-08-13 12:30 UTC）: query_calendar_events(days=14, importance="medium") = 前值0.2%、预测0.3%
+- 🇺🇸 美国7月零售销售环比（2026-08-14 12:30 UTC）: query_calendar_events(days=14, importance="high") = 前值0.2%、预测0.3%
+- 🇨🇳 中国7月CPI同比（2026-08-09 01:30 UTC）: query_calendar_events(days=14, importance="medium") = 前值1.0%、预测0.8%
+- 🇨🇳 中国7月PPI同比（2026-08-09 01:30 UTC）: query_calendar_events(days=14, importance="medium") = 前值4.1%、预测3.8%
+- 🇦🇺 澳大利亚现金利率（2026-08-11 04:30 UTC）: query_calendar_events(days=14, importance="medium") = 前值4.35%、预测4.35%
+- 🇺🇸 美国10年期国债拍卖高收益率（2026-08-12 17:00 UTC）: query_calendar_events(days=14, importance="medium") = 前值4.58%、预测缺失
+- 🇺🇸 美国8月密歇根大学消费者信心初值（2026-08-14 14:00 UTC）: query_calendar_events(days=14, importance="medium") = 前值55.2、预测53.8
+- 日历指标映射候选：calendar_event_mapper(action="lookup", country="US", event_name="美国7月CPI同比") = cpi_yoy_us_pct（US CPI YoY %）
+- 日历指标映射候选：calendar_event_mapper(action="lookup", country="US", event_name="美国7月PPI年率") = us_ppi（US PPI All Commodities）
+
+- 🇺🇸 SPY ETF latest quote: market_quote(symbols=["SPY.US"]) = 772.16 USD, +0.47% vs prior close 768.56 USD.
+- 🇺🇸美国7月CPI（2026-08-12 12:30 UTC）: query_calendar_events(country="US", days=14, importance="medium") = CPI同比前值3.5%、预测同时出现3.4%与3.5%两条；核心CPI同比前值2.6%、预测2.5%；CPI环比前值-0.4%、预测0.2%；核心CPI环比前值0.0%、预测0.2%。
+- 🇺🇸美国7月PPI（2026-08-13 12:30 UTC）: query_calendar_events(country="US", days=14, importance="medium") = PPI同比前值5.5%、核心PPI同比前值4.7%，同比预测未返回；PPI环比前值-0.3%、预测0.2%；核心PPI环比前值0.2%、预测0.3%。
+- 🇺🇸美国7月零售销售（2026-08-14 12:30 UTC）: query_calendar_events(country="US", days=14, importance="high,medium") = 总额环比前值0.2%、预测0.3%（high条目）；除汽车与汽油环比前值0.4%、预测0.3%；控制组环比前值0.5%、预测未返回。
+- 🇨🇳中国7月CPI/PPI（2026-08-09 01:30 UTC）: query_calendar_events(country="CN", days=14, importance="medium") = CPI同比前值1.0%、预测0.8%；PPI同比前值4.1%、预测3.8%；M0/M1/M2、社融、新增人民币贷款预测未返回。
+- 🇦🇺澳大利亚现金利率（2026-08-11 04:30 UTC）: query_calendar_events(country=null, days=14, importance="medium") = 前值4.35%、预测4.35%。
+- 🇬🇧英国二季度GDP初值（2026-08-13 06:00 UTC）: query_calendar_events(country="GB", days=14, importance="medium") = 季环比前值0.6%、同比前值0.9%，预测未返回。
+- 🇪🇺欧元区二季度GDP修正值（2026-08-14 09:00 UTC）: query_calendar_events(country="EU", days=14, importance="medium") = 季环比前值0.4%、预测0.4%；同比前值1.0%、预测未返回。
+- 🇺🇸美国10年期国债竞拍（2026-08-12 17:00 UTC）: query_calendar_events(country="US", days=14, importance="medium") = 前次高收益率4.58%、发行金额390亿美元；本次预测未返回。
+- 🇺🇸10Y/2Y、DXY、Brent、Gold、USDCNH: query_indicators(category="bond", country="us", time_range="24h") 未返回可用数值；行情快照不可用，除SPY代理价外不可编造。
+
+- 🇺🇸美国7月核心CPI环比（2026-08-12 12:30 UTC）前值0.0%、共识+0.2%；同比CPI共识出现3.4%与3.5%冲突：query_calendar_events(days=14, importance=high,medium, country=null) = 日历事件返回值
+- 🇺🇸美国7月核心PPI环比（2026-08-13 12:30 UTC）前值+0.2%、共识+0.3%；整体PPI环比前值-0.3%、共识+0.2%；PPI同比未返回共识：query_calendar_events(days=14, importance=high,medium, country=null) = 日历事件返回值
+- 🇺🇸美国7月零售销售环比（2026-08-14 12:30 UTC）前值+0.2%、共识+0.3%；关联GDP零售控制组前值+0.5%、未返回共识：query_calendar_events(days=14, importance=high,medium, country=null) = 日历事件返回值
+- 🇨🇳中国7月CPI同比前值+1.0%、共识+0.8%；PPI同比前值+4.1%、共识+3.8%：query_calendar_events(days=14, importance=high,medium, country=null) = 日历事件返回值
+- 🇦🇺澳大利亚8月现金利率（2026-08-11）前值4.35%、共识4.35%；🇺🇸美国10年期国债拍卖（2026-08-12）前次高收益率4.58%、规模390亿美元：query_calendar_events(days=14, importance=high,medium, country=null) = 日历事件返回值
+
+- 🇺🇸美国7月CPI年率前值3.5%、日历共识返回3.4%与3.5%两种值；核心CPI年率前值2.6%、共识2.5%；CPI环比前值-0.4%、共识0.2%；核心CPI环比前值0.0%、共识0.2%: query_calendar_events({"days":14,"importance":"high,medium","country":"US"}) = 2026-08-12事件字段
+- 🇺🇸美国8月12日10年期国债竞拍前次中标/高收益率4.58%、总金额390亿美元: query_calendar_events({"days":14,"importance":"high,medium","country":"US"}) = 2026-08-12事件字段
+- 🇨🇳中国7月CPI同比前值1.0%、共识0.8%；PPI同比前值4.1%、共识3.8%: query_calendar_events({"days":14,"importance":"high,medium","country":"CN"}) = 2026-08-09事件字段
+- 🇯🇵日本央行7月货币政策会议审议委员意见摘要预定发布，前值/共识无数值: query_calendar_events({"days":14,"importance":"high,medium","country":"JP"}) = 2026-08-09事件字段
+- 🇦🇺澳大利亚现金利率前值4.35%、共识4.35%: query_calendar_events({"days":14,"importance":"high,medium","country":"AU"}) = 2026-08-11事件字段
+- 🇺🇸美国联储资产负债表6748567.0（来源openbb，2026-08-05）: query_indicators({"category":"macro","country":"us","time_range":"7d"}) = fed_balance_sheet
+- 已返回🇺🇸美国SPY报价772.16美元、前收768.56美元、上涨0.47%（圆桌既有工具记录；本轮无法从可用指标快照复核）: roundtable既有查询记录 = SPY
+- 🇺🇸美国10年/2年期收益率此前返回1.7114%/1.2523%（2026-08-07），与同期环境明显异常，报告不采用: 圆桌既有查询记录 = bond_10y_yield/bond_2y_yield
+- 🇺🇸美国7月CPI、PPI、零售销售及美国财政部8月11-13日标售逾千亿美元国债列入未来日历；PPI与零售销售共识字段在圆桌既有记录中部分缺失: query_calendar_events({"days":14,"importance":"high,medium","country":""}) = events
+
+- 🇺🇸美国7月核心CPI环比前值0.0%、市场共识+0.2%；核心CPI同比前值2.6%、共识2.5%: query_calendar_events(country=US,days=14,importance=high,medium) = 日历字段
+- 🇺🇸美国7月零售销售环比前值+0.2%、共识+0.3%；剔除汽车与汽油前值+0.4%、共识+0.3%: query_calendar_events(country=US,days=14,importance=high,medium) = 日历字段
+- 🇨🇳中国7月CPI同比前值1.0%、共识0.8%；PPI同比前值4.1%、共识3.8%: query_calendar_events(country=CN,days=14,importance=high,medium) = 日历字段
+- 🇦🇺澳大利亚现金利率前值及共识4.35%: query_calendar_events(country=AU,days=14,importance=high,medium) = 日历字段
+- 🇬🇧英国二季度GDP季环比前值0.6%、同比前值0.9%: query_calendar_events(country=GB,days=14,importance=high,medium) = 日历字段
+- 🇪🇺欧元区二季度GDP季环比前值0.4%、同比前值1.0%，季环比共识0.4%: query_calendar_events(country=EU,days=14,importance=high,medium) = 日历字段
+- 🇺🇸美国10年期国债竞拍前次高收益率4.58%、发行规模390亿美元: query_calendar_events(country=US,days=14,importance=high,medium) = 日历字段
+- 🇺🇸SPY报价772.16美元、前收768.56美元、涨幅0.47%: 圆桌既有查询记录 = 工具返回值（仅作SPY代理，不替代标普500指数）
+- 🇺🇸美国10年期/2年期收益率1.7114%/1.2523%: 圆桌既有query_indicators记录 = 标注日期2026-08-07但数值异常，正文不采用
+
+- 🇺🇸美国7月CPI（8月12日）：QueryCalendarEventsTool(country=US, days=14, importance=high,medium) = 核心CPI同比前值2.6%、共识2.5%；核心CPI环比前值0.0%、共识+0.2%；总体CPI同比前值3.5%、共识返回3.4%与3.5%两条冲突记录；总体CPI环比前值-0.4%、共识+0.2%。
+- 🇺🇸美国7月PPI（8月13日）：QueryCalendarEventsTool(country=US, days=14, importance=high,medium) = 总体PPI同比前值5.5%、核心PPI同比前值4.7%、同比共识缺失；总体PPI环比前值-0.3%、共识+0.2%；核心PPI环比前值+0.2%、共识+0.3%。
+- 🇺🇸美国7月零售销售（8月14日）：QueryCalendarEventsTool(country=US, days=14, importance=high,medium) = 总额环比前值+0.2%、共识+0.3%；除汽车与汽油环比前值+0.4%、共识+0.3%；控制组环比前值+0.5%、共识缺失；除汽车环比前值-0.2%、共识+0.2%。
+- 🇺🇸美国10年期国债竞拍（8月12日）：QueryCalendarEventsTool(country=US, days=14, importance=high,medium) = 前次中标/高收益率4.58%，发行额390亿美元，共识缺失。
+- 🇺🇸美国财政部国债标售（8月11—13日）：QueryCalendarEventsTool(country=US, days=14, importance=high,medium) = 日历列示标售逾1,000亿美元，前值及共识缺失。
+- 🇨🇳中国7月CPI/PPI（8月9日）：QueryCalendarEventsTool(country=CN, days=14, importance=high,medium) = CPI同比前值1.0%、共识0.8%；PPI同比前值4.1%、共识3.8%。
+- 🇨🇳中国7月货币信贷：QueryCalendarEventsTool(country=CN, days=14, importance=high,medium) = M0/M1/M2同比前值11.8%/4.0%/8.0%，1—7月社融增量前值208,400亿元、新增人民币贷款前值107,200亿元；相关共识缺失。
+- 🇦🇺澳大利亚8月现金利率（8月11日）：QueryCalendarEventsTool(country='', days=14, importance=high,medium) = 前值4.35%、共识4.35%。
+- 🇯🇵日本央行7月会议意见摘要（8月9日）：QueryCalendarEventsTool(country='', days=14, importance=high,medium) = 前值与共识均缺失。
+- 🇬🇧英国二季度GDP初值（8月13日）：QueryCalendarEventsTool(country='', days=14, importance=high,medium) = 季环比前值+0.6%、同比前值+0.9%，共识缺失。
+- 🇪🇺欧元区二季度GDP修正值（8月14日）：QueryCalendarEventsTool(country='', days=14, importance=high,medium) = 季环比前值+0.4%、共识+0.4%；同比前值+1.0%、共识缺失。
+- 行情快照：QueryCalendarEventsTool及本轮可用指标接口未返回可交叉验证的🇺🇸10年/2年期国债、DXY、S&P500指数、Brent、黄金、USDCNH实时价格；不采用此前异常的美债收益率记录。
+
+
+- 当前可核验宏观快照：query_indicators(category="macro",country="us",limit=20,time_range="7d") = fed_balance_sheet 6748567.0（2026-08-05）、cpi_yoy_us_pct 3.5（2026-06-01；已标注陈旧）；未返回可用10Y/2Y/DXY等行情。
+- 最新原始新闻交叉查询：query_raw_items(limit=30,status="processed",source=null) = 返回条目主要为Hacker News、Solidot及科技新闻，未返回可用于本宏观日历的重大监管/公司事件。
+- 审查结论依据：ReadThemeDocsTool(themes/economic-calendar/_history/2026-08-08_0124__manual__readthemedocstool_1_themes_economic_calendar_template_md_v2/drafts/current.md,offset=0/6000) = 完整稿内容及后段风险、分歧、来源声明。
