@@ -1,53 +1,3 @@
----
-name: 地缘冲突与黑天鹅
-slug: geo-conflicts
-status: active
-lead_agent: geopolitics_agent
-created: 2026-07-29
-updated: 2026-08-08T15:35:36+08:00
-revision: 2026-08-08
-sources:
-  - path: 2026-08-08_1510__manual__query_raw_items_source_source_telegram_financial_express_sou/reference.md
-    agent: theme_update
-    summarized: false
----
-
-# 地缘冲突与黑天鹅
-
-## Big Picture
-
-当前地缘格局不是所有战线同步升级，而是由霍尔木兹的高凸性能源风险、俄乌的慢变量制裁风险、红海与也门的航运外溢风险共同构成分化体系。霍尔木兹连接军事威慑、原油出口、商船保险、港口装运和全球通胀，是最可能把政治标题迅速转化为资产价格跳变的节点。2026年8月8日，市场同时收到美方寻求摆脱伊朗战事、霍尔木兹通行安排可能改善，以及也门西部冲突升级、俄罗斯炼厂遭袭等相反信号。核心矛盾不在于是否出现谈判，而在于谈判能否持续改变船东复航、战争险承保、AIS流量和能源装运。黄金强于BTC，说明传统避险和储备需求仍占主导；BTC上涨则仍混合了流动性与风险偏好因素。
-
-## 各维度分析
-
-### 叙事/情绪面
-
-**soros 视角：** 目前更值得交易的不是“原油应该上涨还是下跌”，而是新闻冲击与实物确认之间的时间差。谈判新闻压低近端价格，冲突新闻又通过保险和航运风险保留上行尾部，市场可能处于低波动缓和叙事与高凸性供给风险并存的状态。组合上应使用有限成本的尾部保护，而不是用现货追逐单一方向。
-
-### 基本面
-
-- **霍尔木兹实时通航、AIS和港口装运：** 本轮没有可用实时序列，无法确认商业通行是否已恢复。 - **战争险费率与船东承保：** 本轮没有可用数据，无法量化航运风险溢价。 - **原油期限结构与期权偏斜：** 本轮只取得新闻价格代理，无法计算市场隐含升级概率或精确地缘溢价。 - **VIX、美元、美债和日元多周期行情：** 本轮没有取得可靠完整序列，相关资产只作机制分析，不作方向性事实断言。 - **实际利率、通胀预期与央行购金：** 本轮没有取得可用宏观序列，黄金公允锚无法定量拆解。 - **俄乌制裁执行与俄罗斯出口量：** 本轮取得了制裁和能源设施新闻，但没有取得足以确认出口实质下降的完整数据。 - **公司财务、估值与分析师一致预期：** 本主题是跨资产地缘风险报告，不对应单一上市公司或标的，因此不适用公司财务和估值维度；正文不对个别公司盈利作无来源推断。
-
-### 宏观背景
-
-本轮没有取得可用的实时实际利率、美元、原油完整期限结构、期权偏斜或战争险费率，因此无法给出精确地缘溢价美元值。原油跌破82美元/桶只能作为缓和定价的方向代理，不能直接等同于供需公允锚。
-
-## 预测时间线
-
-| 时间窗 | 预测 | 置信度 | 提出者 | 提出日期 | 验证 |
-|--------|------|--------|--------|----------|------|
-| （待添加） |  |  |  |  |  |
-
-## 分歧地图
-
-| 维度 | 观点 A | 观点 B | 分歧根因 |
-|------|--------|--------|---------|
-| （待添加） |  |  |  |
-
-> **审查意见**：25 条（详见 _history/review/）
-
-## 数据来源
-
 - 伊朗/霍尔木兹相关新闻：2026-08-08，Al Jazeera 标题称三方麦加防务 pact 签署且霍尔木兹协议临近；NPR 标题称伊朗拟禁止美国使用霍尔木兹；2026-07-27 Hacker News 条目称油轮触雷且伊朗拦截六艘船: query_raw_items(keyword=iran/hormuz, source=telegram:Financial_Express/bbc_world/aljazeera/npr_world) = headlines
 - 俄乌相关新闻：2026-08-08，Al Jazeera/NPR 报道美国参议院通过俄罗斯制裁法案；BBC 报道俄无人机袭击乌克兰医护人员；NYT 报道俄军袭击加剧且乌方防空请求未获满足: query_raw_items(keyword=ukraine, source=telegram:Financial_Express/bbc_world/aljazeera/nyt_world/npr_world) = headlines
 - 中东缓和价格信号：2026-08-08，Financial Express 条目称布伦特暗盘跌破82美元、日内跌超1.6%；BlockBeats 条目称阿曼与伊朗霍尔木兹谈判取得进展: query_raw_items(keyword=原油, source=telegram:Financial_Express) = headlines
@@ -108,12 +58,16 @@ sources:
 - BTCUSDT周线：来源工具 binance_get_klines({"symbol":"BTCUSDT","interval":"1w","limit":40}) = 最新收盘64974.3美元；前一周收盘63550.0美元
 - PAXGUSDT日线：来源工具 binance_get_klines({"symbol":"PAXGUSDT","interval":"1d","limit":40}) = 最新收盘4336.65美元；样本高点4360.8美元、低点3958.4美元
 - PAXGUSDT周线：来源工具 binance_get_klines({"symbol":"PAXGUSDT","interval":"1w","limit":40}) = 最新收盘4336.65美元；前一周收盘4071.17美元
+- 宏观/波动率/期权偏斜/战争险/霍尔木兹AIS与装运数据：本轮未取得可用序列，无法定量拆分公允锚与地缘溢价
+- 美军高层寻找摆脱伊朗战事的途径（2026-08-08 06:48:54 UTC）: query_raw_items({"keyword":"伊朗","source":"telegram:Financial_Express","limit":30}) = 1条匹配
+- 也门西部地区军事冲突升级（2026-08-08 06:21:35 UTC）: query_raw_items({"keyword":null,"source":"telegram:Financial_Express","limit":30}) = 1条条目
+- 俄罗斯克拉斯诺达尔边疆区伊尔斯基炼油厂遭无人机袭击后起火，造成五人受伤（2026-08-08 06:48:54 UTC）: query_raw_items({"keyword":null,"source":"telegram:Financial_Express","limit":30}) = 1条条目
+- 利比亚扎维耶炼油厂未装料石脑油罐遭无人机击中、局势已控制（2026-08-08 06:53:37 UTC）: query_raw_items({"keyword":null,"source":"telegram:Financial_Express","limit":30}) = 1条条目
+- 布伦特原油暗盘跌破82美元、日内跌超1.6%（2026-08-08 06:21:35 UTC）: query_raw_items({"keyword":null,"source":"telegram:Financial_Express","limit":30}) = 1条条目
+- 南海部分海域军事训练、禁止驶入航行警告（2026-08-08 06:21:35 UTC）: query_raw_items({"keyword":"南海","source":"telegram:Financial_Express","limit":30}) = 1条匹配
+- 霍尔木兹谈判取得进展（2026-08-08 01:06:13 UTC，blockbeats）: query_raw_items({"keyword":"霍尔木兹","source":null,"limit":30}) = 1条匹配
+- 美国制裁两家伊朗加密交易平台、指控协助规避制裁（2026-08-08 03:06:13 UTC，blockbeats）: query_raw_items({"keyword":"伊朗","source":null,"limit":30}) = 1条匹配
 
-## 更新日志
-
-| 日期 | 操作者 | 变更摘要 |
-|------|--------|---------|
-| 2026-08-08 15:35 | theme_publish | 更新（query_raw_items_source_source_telegram_financial_express_sou） |
-| 2026-07-29 | 人类 | 创建 theme 骨架（us-iran） |
-| 2026-08-03 | 人类 | 扩展为地缘冲突与黑天鹅主题（geo-conflicts） |
-| 2026-08-08 | 人类 | 冷启动：template.md v1（情景树/风险溢价分解/传导链 13 节行文格式）+ README v2 重构 + 专属 flow |
+- 2026-08-08 06:48:54 UTC 美军高层寻找摆脱伊朗战事途径；2026-08-08 06:21:35 UTC 也门西部军事冲突升级；2026-08-08 06:48:54 UTC 俄罗斯伊尔斯基炼油厂遭无人机袭击后起火并致5人受伤；2026-08-08 06:53:37 UTC 利比亚扎维耶炼油厂未装料石脑油罐遭无人机击中且局势已控制；2026-08-08 06:21:35 UTC 布伦特原油暗盘跌破82美元/桶、日内跌超1.6%: query_raw_items({"source":"telegram:Financial_Express","limit":30}) = 以上条目
+- 交叉核验：telegram:Financial_Express 最新查询未返回匹配条目（本次工具返回 No raw items found），无法用当前新闻库独立复核稿中所引 2026-08-08 快讯: query_raw_items({"keyword":"Iran,Hormuz,红海,伊朗","source":"telegram:Financial_Express","limit":30,"status":null}) = No raw items found
+- 主题稿完整内容与历史 reference.md：ReadThemeDocsTool(themes/geo-conflicts/_history/2026-08-08_1510__manual__query_raw_items_source_source_telegram_financial_express_sou/drafts/current.md; reference.md) = 已读取，用于审查，不新增行情或宏观事实
