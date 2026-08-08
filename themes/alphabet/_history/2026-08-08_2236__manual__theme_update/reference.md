@@ -1,0 +1,83 @@
+- GOOGL.US最新价/日变动: market_quote({"symbols":["GOOGL.US"]}) = 354.30美元，较前收357.75下跌0.96%，成交量1985.99万
+- GOOGL.US日线技术状态: market_kline({"symbol":"GOOGL.US","period":"1d","count":120,"secondary_period":"1w","secondary_count":52,"indicators":"ema21,ema60,macd,rsi14,boll20"}) = 收354.30；EMA21 352.37>EMA60 351.64，多头排列第25日；RSI14 50.75；区间高384.48(08-05)、低314.90(07-23)，距高-13.2%；20日波动率3.2%，波动分位93
+- 美国宏观指标快照: query_indicators({"category":"macro","country":"us","time_range":"24h","limit":20}) = Fed资产负债表6748567.0（数据日2026-08-05）；CPI同比3.5%、核心CPI336.065等为2026-06-01数据，已标注偏旧，不用于当前值
+- 美国7月CPI日历: query_calendar_events({"country":"US","days":14,"importance":"high,medium","limit":50}) = 2026-08-12发布，CPI同比前值3.5%/预测3.5%，核心CPI同比前值2.6%/预测2.5%，核心CPI环比预测0.2%
+- 美国10年期国债竞拍日历: query_calendar_events({"country":"US","days":14,"importance":"high,medium","limit":50}) = 2026-08-12，前次中标/高收益率4.58%，本次规模390亿美元
+- Google近14日新闻线索: query_raw_items({"keyword":"Google","source":"telegram:Financial_Express","limit":100}) = 当前该源无返回；hackernews/solidot结果包括2026-07-26欧盟约10.2亿美元罚款、2026-08-05/06 DeepMind负责人卸任/AI组织调整、2026-08-04 Teads在纽约法院起诉Alphabet、2026-08-05多位AI研究人员离开Google等，均需作为新闻线索而非已核实财报事实
+
+- GOOGL.US最新价: market_quote({"symbols":["GOOGL.US"]}) = 354.30美元，较前收357.75跌0.96%，成交量1985.99万
+- GOOGL.US日线技术状态: market_kline({"symbol":"GOOGL.US","period":"1d","secondary_period":"1w","count":120,"secondary_count":52,"indicators":"ema21,ema60,macd,rsi14,boll20"}) = EMA21 352.37 > EMA60 351.64；RSI14 50.75；ATR14 12.86；关键算法位上方375.27/384.48、下方341.36/314.90；判定上升·中位
+- 美国联储资产负债表: query_indicators({"category":"macro","country":"us","time_range":"7d"}) = 6,748,567（数据日2026-08-05）
+- 美国7月核心CPI同比预期: query_calendar_events({"country":"US","days":14,"importance":"high,medium"}) = 2026-08-12发布，前值2.6%，预测2.5%
+- 美国7月CPI同比预期: query_calendar_events({"country":"US","days":14,"importance":"high,medium"}) = 2026-08-12发布，前值3.5%，预测3.4%（同一查询另有重复条目预测3.5%，存在日历口径不一致）
+- 美国7月核心CPI环比预期: query_calendar_events({"country":"US","days":14,"importance":"high,medium"}) = 2026-08-12发布，前值0.0%，预测0.2%
+- 美国7月CPI环比预期: query_calendar_events({"country":"US","days":14,"importance":"high,medium"}) = 2026-08-12发布，前值-0.4%，预测0.2%
+- 美国10年期国债竞拍: query_calendar_events({"country":"US","days":14,"importance":"high,medium"}) = 2026-08-12，前次中标/高收益率4.58%，规模390亿美元
+- Google Pixel 11芯片/手机发布会: query_calendar_events({"country":"US","days":14,"importance":"high,medium"}) = 2026-08-12 22:00 UTC，高重要性事件
+- Alphabet近期原始新闻检索: query_raw_items({"keyword":"Alphabet OR Google OR antitrust OR AI OR Gemini","limit":50}) = 未返回原始条目；因此本轮不把历史主题index中的监管、诉讼、人事及财务数字重新表述为当前已核验事实
+- 数据路由检索: search_routes({"category":"stock","keyword":"fundamental financials income consensus news company"}) = 未找到匹配路由；本轮无法用Longbridge路由核验最新财报/一致预期/公司新闻
+
+- Alphabet Q2 2026营收: query_longbridge_by_route(fundamental/consensus, {"symbol":"GOOGL.US"}) = 119796000000美元，较一致预期116976077690美元高约28.20亿美元；该路由显示Q2 GAAP净利润112107000000美元、EPS 9.11美元，但未提供一次性收益拆分。
+- Alphabet Q3 2026一致预期: query_longbridge_by_route(fundamental/consensus, {"symbol":"GOOGL.US"}) = 营收126982452080美元、GAAP EPS 2.9985美元（未公布实际值）。
+- Alphabet Q4 2026一致预期: query_longbridge_by_route(fundamental/consensus, {"symbol":"GOOGL.US"}) = 营收140966862120美元、GAAP EPS 3.3322美元（未公布实际值）。
+- Alphabet 2025全年营收与净利润: query_longbridge_by_route(fundamental/financials/income, {"symbol":"GOOGL.US"}) = 营收402836000000美元、经营利润129039000000美元、净利润132170000000美元；该路由未返回现金流和自由现金流。
+- Alphabet近期公司新闻: query_longbridge_by_route(news/company, {"symbol":"GOOGL.US","force_refresh":true}) = 2026-08-08报道含AI图像市场竞争、DeepMind WeatherNext开源/气旋预测能力、机构持仓变化及分析师平均目标价约410.09/419.86美元；新闻摘要并非公司公告，目标价口径不统一。
+- Alphabet近期新闻: query_raw_items(keyword="Alphabet", limit=30) = 2026-08-04报道资本开支超过经营现金流、2026-08-04 Teads在纽约起诉Google和Alphabet、2026-08-06拟发行最多250亿美元债券、2026-08-07披露持有SpaceX 5.512亿股A类股票；均为新闻数据库条目，需以公司/法院/监管原文交叉核验。
+- 美国7月CPI日程: query_calendar_events({"country":"US","days":14,"importance":"high,medium"}) = 2026-08-12公布，CPI同比前值3.5%、预测3.4%，核心CPI同比前值2.6%、预测2.5%，CPI环比前值-0.4%、预测0.2%，核心CPI环比前值0.0%、预测0.2%；均为未发布的日历预测。
+- 美国宏观现值: query_indicators({"category":"macro","country":"us","time_range":"7d"}) = 美联储资产负债表2026-08-05为6748567.0（单位由数据库未明确说明）；CPI等最新返回值发布日期为2026-06-01且标记偏旧，不用于当前判断。
+
+- GOOGLUSDT 实时价格（2026-08-08查询）: binance_get_price({"symbol":"GOOGLUSDT"}) = 355.5 USDT（加密交易所合成/非传统股票行情，不能视为NASDAQ官方报价）
+- Alphabet FY2025营收: query_longbridge_by_route(fundamental/financials/income,{"symbol":"GOOGL.US"}) = 402,836,000,000美元
+- Alphabet FY2025经营利润: query_longbridge_by_route(fundamental/financials/income,{"symbol":"GOOGL.US"}) = 129,039,000,000美元
+- Alphabet FY2025净利润: query_longbridge_by_route(fundamental/financials/income,{"symbol":"GOOGL.US"}) = 132,170,000,000美元
+- Alphabet Q2 2026营收实际/预期: query_longbridge_by_route(fundamental/consensus,{"symbol":"GOOGL.US"}) = 119,796,000,000/116,976,077,690美元
+- Alphabet Q2 2026 EBIT实际/预期: query_longbridge_by_route(fundamental/consensus,{"symbol":"GOOGL.US"}) = 40,770,000,000/40,291,787,650美元
+- Alphabet Q2 2026 GAAP净利润及EPS实际/预期: query_longbridge_by_route(fundamental/consensus,{"symbol":"GOOGL.US"}) = 112,107,000,000美元、9.11美元/35,487,427,990美元、2.8991美元
+- Alphabet Q3 2026营收/EPS一致预期: query_longbridge_by_route(fundamental/consensus,{"symbol":"GOOGL.US"}) = 126,982,452,080美元/2.9985美元
+- Alphabet Q4 2026营收/EPS一致预期: query_longbridge_by_route(fundamental/consensus,{"symbol":"GOOGL.US"}) = 140,966,862,120美元/3.3322美元
+- Alphabet Q1 2027营收/EPS一致预期: query_longbridge_by_route(fundamental/consensus,{"symbol":"GOOGL.US"}) = 136,261,166,480美元/3.3965美元
+- 分析师平均目标价: query_longbridge_by_route(news/company,{"symbol":"GOOGL.US"}) = 410.09美元（新闻摘要，2026-08-08）
+- 分析师平均目标价: query_longbridge_by_route(news/company,{"symbol":"GOOGL.US"}) = 419.86美元（新闻摘要，2026-08-08）
+- DeepMind WeatherNext报道: query_longbridge_by_route(news/company,{"symbol":"GOOGL.US"}) = 2026-08-08报道称气旋预警时间提前一天并计划开源
+- 机构目标价/持仓新闻: query_longbridge_by_route(news/company,{"symbol":"GOOGL.US"}) = 2026-08-08新闻摘要称评级Buy、目标价410.09/419.86美元；新闻摘要不等同统一一致预期
+- 美国7月CPI日历预期: query_calendar_events({"country":"US","days":14,"importance":"high,medium"}) = 2026-08-12公布，CPI同比3.4%（前值3.5%）、核心CPI同比2.5%（前值2.6%）、CPI环比0.2%（前值-0.4%）、核心CPI环比0.2%（前值0.0%）
+- 美国国债标售日历: query_calendar_events({"country":"US","days":14,"importance":"high,medium"}) = 2026-08-10列示美国财政部将于8月11日至13日标售逾千亿美元国债
+
+- 2026年资本开支1950亿—2050亿美元: read_theme_docs_tool(themes/alphabet/_history/2026-08-08_2236__manual__theme_update/drafts/current.md,offset=0) = 当前稿记录的二手新闻数字；本轮未取得公司原始指引，标记为待核验
+- 2026-08-04资本开支超过经营现金流、2026-08-06最多250亿美元债券及约1150亿美元认购、2026-08-04 Teads诉讼、2026-08-07 SpaceX持股报道: read_theme_docs_tool(themes/alphabet/_history/2026-08-08_2236__manual__theme_update/roundtable/discussion_log.md,offset=0) = 圆桌记录的待核验二手新闻；本轮query_raw_items未返回原始条目
+
+- 2026-08-10至2026-08-13美国财政部计划标售逾千亿美元国债: query_calendar_events(country=US,days=14,importance=high,medium) = 事件日期2026-08-10，事件名“美国财政部：定于8月11日至13日标售逾千亿美元国债”
+- 2026-08-12美国7月CPI预期：同比3.4%、环比0.2%，核心同比2.5%、环比0.2%: query_calendar_events(country=US,days=14,importance=high,medium) = previous/forecast分别为3.5%/3.4%、-0.4%/0.2%、2.6%/2.5%、0.0%/0.2%
+- 2026-08-12美国10年期国债竞拍规模390亿美元，前次高收益率4.58%: query_calendar_events(country=US,days=14,importance=high,medium) = event_date=2026-08-12, previous=390.0亿美元、4.58%
+- 2026-08-12谷歌芯片发布会并推出Pixel 11系列手机（待发生事件）: query_calendar_events(country=US,days=14,importance=high,medium) = event_date=2026-08-12T22:00:00+00:00
+- 2026-08-08 Alphabet相关原始新闻检索无结果: query_raw_items(keyword=Alphabet OR Google OR Gemini OR Waymo OR antitrust,limit=50,source=null,status=null) = No raw items found
+
+- 2026-08-08 独立检索 Alphabet 相关新闻：QueryRawItemsTool(keyword=Alphabet,limit=100) 返回 85 条，包含 2026-08-07 Alphabet 持有 SpaceX 5.512 亿股、2026-08-06 最高 250 亿美元债券融资、2026-08-04 Teads 起诉及 2026-08-04 资本开支超过经营现金流等条目 = 返回结果
+- 2026-08-08 独立检索 Google 相关新闻：QueryRawItemsTool(keyword=Google,limit=100) 返回 100 条，包含 2026-08-05 Demis Hassabis 卸任/Google AI 重组、2026-08-05 Jeff Dean 等研究人员离开创业、2026-08-06 Gemini/DeepMind 相关报道、2026-08-01 Google Earth AI 功能回滚等条目 = 返回结果
+- Alphabet 个股最新新闻（截至 2026-08-08）：QueryLongbridgeByRouteTool(news/company,{"symbol":"GOOGL.US","force_refresh":true}) = 最新 10 条包括 xAI Image 2.0 竞争、Berkshire 持仓、机构买卖、WeatherNext 气旋预警提前一天等
+- Alphabet Q2 2026 经营现金流：QueryLongbridgeByRouteTool(fundamental/financials/cashflow,{"symbol":"GOOGL.US","period":"q2"}) = 39,069,000,000 美元
+- Alphabet Q2 2026 自由现金流：QueryLongbridgeByRouteTool(fundamental/financials/cashflow,{"symbol":"GOOGL.US","period":"q2"}) = -5,724,750,000 美元
+- Alphabet Q2 2026 资产负债表：QueryLongbridgeByRouteTool(fundamental/financials/balance,{"symbol":"GOOGL.US","period":"q2"}) = 总资产 921,983,000,000 美元、总负债 281,503,000,000 美元、股东权益 640,480,000,000 美元；该路由未返回现金余额
+- Alphabet Q2 2026 一致预期与实际：QueryLongbridgeByRouteTool(fundamental/consensus,{"symbol":"GOOGL.US"}) = 营收实际 119,796,000,000 美元、预期 116,976,077,690 美元；EBIT 实际 40,770,000,000 美元、预期 40,291,787,650 美元；GAAP 净利润实际 112,107,000,000 美元、预期 35,487,427,990 美元；GAAP EPS 实际 9.11、预期 2.8991
+- Alphabet Q3 2026 一致预期：QueryLongbridgeByRouteTool(fundamental/consensus,{"symbol":"GOOGL.US"}) = 营收 126,982,452,080 美元、EBIT 42,461,664,940 美元、GAAP EPS 2.9985
+- Alphabet 当前 PE：QueryLongbridgeByRouteTool(fundamental/valuation/pe,{"symbol":"GOOGL.US"}) = 25.71；工具同时返回历史高点 30.45、低点 25.71、中位数 27.84
+- Alphabet 机构评级历史最新点（2026-08-05）：QueryLongbridgeByRouteTool(analyst/rating_detail,{"symbol":"GOOGL.US"}) = Buy 13、Hold 6、Sell 0、Strong Buy 45；目标价时间序列最新 2026-08-03 平均 428.04055 美元、最高 515、最低 340、价格 354.3
+- Alphabet 2026-08-08 Longbridge 新闻摘要目标价线索：QueryLongbridgeByRouteTool(news/company,{"symbol":"GOOGL.US"}) = 平均目标价 410.09 美元与 419.86 美元的摘要，均非统一模型/覆盖样本披露
+- DeepMind WeatherNext 新闻：QueryLongbridgeByRouteTool(news/company,{"symbol":"GOOGL.US"}) = 2026-08-08 发布摘要称气旋预测预警提前一天并计划开源；属于新闻摘要，非公司原始公告
+
+- Alphabet Q2 2026 营收 119,796,000,000 美元、经营利润 40,770,000,000 美元、净利润 112,107,000,000 美元、基本 EPS 9.1077（2026-06-30，非预测）: query_longbridge_by_route(fundamental/financials/income,{"symbol":"GOOGL.US","period":"quarter"}) = Q2 2026 record
+- Alphabet Q2 2026 经营现金流 39,069,000,000 美元、自由现金流 -5,724,750,000 美元（2026-06-30，非预测）: query_longbridge_by_route(fundamental/financials/cashflow,{"symbol":"GOOGL.US","period":"quarter"}) = Q2 2026 record
+- Alphabet Q2 2026 营收实际值 119,796,000,000 美元、一致预期 116,976,077,690 美元；EPS 实际值 9.11、一致预期 2.8991；EBIT 实际值 40,770,000,000 美元、一致预期 40,291,787,650 美元: query_longbridge_by_route(fundamental/consensus,{"symbol":"GOOGL.US"}) = Q2 2026 released record
+- Alphabet Q3 2026 一致预期营收 126,982,452,080 美元、GAAP EPS 2.9985；Q4 2026 营收 140,966,862,120 美元、GAAP EPS 3.3322；Q1 2027 营收 136,261,166,480 美元、GAAP EPS 3.3965: query_longbridge_by_route(fundamental/consensus,{"symbol":"GOOGL.US"}) = unreleased estimates
+- Alphabet 公司新闻平均目标价 410.09 美元、评级 Buy（2026-08-08 条目）: query_longbridge_by_route(news/company,{"symbol":"GOOGL.US","force_refresh":true}) = company news item 295297611
+- Alphabet 公司新闻平均目标价 419.86 美元、评级 Buy（2026-08-08 条目）: query_longbridge_by_route(news/company,{"symbol":"GOOGL.US","force_refresh":true}) = company news item 295296535
+- 2026-08-07 原始新闻称 Alphabet 披露持有 SpaceX 5.512 亿股 A 类股票: query_raw_items({"keyword":"Alphabet","limit":50,"source":null,"status":null}) = blockbeats item
+- 2026-08-06 原始新闻称 Alphabet 债券发行吸引约 1,150 亿美元认购需求，并寻求筹集最多 250 亿美元: query_raw_items({"keyword":"Alphabet","limit":50,"source":null,"status":null}) = blockbeats items
+- 2026-08-04 原始新闻称 Alphabet 上季度资本开支超过经营现金流: query_raw_items({"keyword":"Alphabet","limit":50,"source":null,"status":null}) = hackernews item
+- 2026-08-04 原始新闻称 Teads 在纽约法院起诉 Google 和 Alphabet: query_raw_items({"keyword":"Alphabet","limit":50,"source":null,"status":null}) = 36kr item
+- 2026-08-06 原始新闻称 Google 将 AI 权力移回 Sergey Brin，DeepMind 的 Demis Hassabis 退居次位；2026-08-05 另有报道指 Demis Hassabis 卸任: query_raw_items({"keyword":"Google","limit":50,"source":null,"status":null}) = hackernews/solidot items
+- 2026-08-05 原始新闻称 Jeff Dean 等 Google 顶级 AI 研究人员离职创业: query_raw_items({"keyword":"Google","limit":50,"source":null,"status":null}) = hackernews item
+- 2026-08-01 原始新闻称 Google Earth AI 功能因政策违规回滚/发布后撤回: query_raw_items({"keyword":"Google","limit":50,"source":null,"status":null}) = blockbeats/solidot items
+- 2026-08-06 原始新闻称 Google 15 亿美元印度数据中心项目面临水资源和野生动物争议: query_raw_items({"keyword":"Google","limit":50,"source":null,"status":null}) = hackernews item
+- 2026-08-05 原始新闻称银行拟转让由 Google 支持的 Anthropic 数据中心 150 亿美元债务: query_raw_items({"keyword":"Google","limit":50,"source":null,"status":null}) = hackernews item
+- news/company 路由参数要求 symbol，可用 GOOGL.US，并支持 force_refresh=True: inspect_route(news/company) = route documentation
