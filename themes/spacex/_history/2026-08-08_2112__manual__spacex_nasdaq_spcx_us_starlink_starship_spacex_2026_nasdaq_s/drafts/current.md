@@ -1,19 +1,4 @@
----
-name: SpaceX
-slug: spacex
-status: active
-lead_agent: tech_generalist
-created: 2026-08-01
-updated: 2026-08-08T21:35:09+08:00
-revision: 2026-08-08
-sources:
-  - path: 2026-08-08_2112__manual__spacex_nasdaq_spcx_us_starlink_starship_spacex_2026_nasdaq_s/reference.md
-    agent: theme_update
-    summarized: false
----
-
-# spacex
-
+## Big Picture
 
 SpaceX（NASDAQ: SPCX.US）已经从单一火箭公司转变为“发射基础设施＋卫星互联网＋深科技期权”的综合平台：发射业务提供进入轨道的能力与现金流基础，Starlink通过卫星网络向消费者、企业、航空、海事和政府客户收费，Starship则代表重型运载、低成本复用和大规模部署的长期上行期权。2026年上市后首份财报显示，Q2营收78.14亿美元，同比增长92%，毛利率为55.3%，但仍录得1.40亿美元经营亏损；AI云合同、Terafab和潜在并购又把公司推向更高资本开支与更远期的估值叙事。核心矛盾因此不是“能否增长”，而是收入增长能否转化为可持续自由现金流。约168亿美元Terafab首期投资、AI业务扩张、Starlink卫星部署和Starship研发同时进行，可能放大长期期权，也可能造成资本配置失控。SPCX当前是高增长基本面、巨量解禁供给和远期技术期权的混合资产，不能用单一市盈率或单一目标价判断。
 
