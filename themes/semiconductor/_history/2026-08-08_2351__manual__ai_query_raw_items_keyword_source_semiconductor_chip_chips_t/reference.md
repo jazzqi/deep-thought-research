@@ -1,0 +1,104 @@
+- NVDA.US最新价: market_quote({"symbols":["NVDA.US"]}) = 223.96美元，较昨收+2.27%（工具返回时点）
+- AMD.US最新价: market_quote({"symbols":["AMD.US"]}) = 483.36美元，较昨收-1.21%（工具返回时点）
+- TSM.US最新价: market_quote({"symbols":["TSM.US"]}) = 420.04美元，较昨收+0.44%（工具返回时点）
+- ASML.US最新价: market_quote({"symbols":["ASML.US"]}) = 1740.99美元，较昨收+2.15%（工具返回时点）
+- MU.US最新价: market_quote({"symbols":["MU.US"]}) = 877.57美元，较昨收-0.44%（工具返回时点）
+- NVDA.US日线技术状态: market_kline({"symbol":"NVDA.US","period":"1d","count":120,"secondary_period":"1w","secondary_count":52,"indicators":"ema21,ema60,macd,rsi14"}) = 上升·高位；收223.96，EMA21=207.73、EMA60=204.55、RSI14=64.42；周线EMA21<EMA60盘整
+- TSM.US日线技术状态: market_kline({"symbol":"TSM.US","period":"1d","count":120,"secondary_period":"1w","secondary_count":52,"indicators":"ema21,ema60,macd,rsi14"}) = 盘整·中位；收420.04，EMA21=413.50、EMA60=412.29、RSI14=52.23；周线EMA21<EMA60盘整
+- 美国联储资产负债表: query_indicators({"category":"monetary_credit","country":"us","time_range":"7d"}) = 6748567.0，数据日期2026-08-05
+- 美国CPI同比: query_indicators({"category":"macro","country":"us","time_range":"7d"}) = 3.5%，数据日期2026-06-01；工具标记相对陈旧，不作为当前强结论
+- TSMC相关新闻: query_raw_items({"keyword":"TSMC","limit":30,"source":"telegram:Financial_Express"}) = 工具未返回该源结果；其他源返回2026-07-21关于2027年芯片制造价格上调、2026-07-16关于提高销售及资本开支展望、2026-07-17关于扩大美国投资等标题
+- HBM相关新闻: query_raw_items({"keyword":"HBM","limit":30,"source":"telegram:Financial_Express"}) = 工具未返回该源结果；数据库返回2026-07-29 SK海力士电话会称未见AI投资放缓、HBM4量产出货及高资本开支，2026-08-04多条关于2027年DRAM/HBM产能售罄和Rubin Ultra调整HBM配置的报道标题
+- AI capex相关新闻: query_raw_items({"keyword":"AI capex","limit":30,"source":"telegram:Financial_Express"}) = 工具未返回该源结果；数据库返回2026-07-17关于云厂商密集披露财报聚焦AI capex与ROI、2026-07-26关于债券市场对AI capex预算焦虑的报道标题
+- 长鑫相关新闻: query_raw_items({"keyword":"长鑫","limit":30,"source":"telegram:Financial_Express"}) = 工具未返回该源结果；数据库返回2026-08-04关于惠普/华硕/宏碁少量使用长鑫内存、2026-08-04关于考虑在北京建设第二座DRAM晶圆厂、2026-08-05关于苹果要求降价遭拒等标题
+- 出口管制相关新闻: query_raw_items({"keyword":"出口管制","limit":30,"source":"telegram:Financial_Express"}) = 工具未返回该源结果；数据库返回2026-07-24关于中国商务部将14家欧盟实体列入出口管制管控名单、2026-06-22关于将10家美国实体列入名单的标题
+- 估值/一致预期/财务/公司新闻路由: search_routes(stock,相关关键词) = 未找到；因此本轮未采用公司财务、估值或一致预期数字。
+
+- NVDA.US 最新价/涨跌: market_quote({"symbols":["NVDA.US","AMD.US","TSM.US","ASML.US","MU.US"]}) = 223.96美元，较昨收+2.27%（查询时点）
+- AMD.US 最新价/涨跌: market_quote({"symbols":["NVDA.US","AMD.US","TSM.US","ASML.US","MU.US"]}) = 483.36美元，较昨收-1.21%（查询时点）
+- TSM.US 最新价/涨跌: market_quote({"symbols":["NVDA.US","AMD.US","TSM.US","ASML.US","MU.US"]}) = 420.04美元，较昨收+0.44%（查询时点）
+- ASML.US 最新价/涨跌: market_quote({"symbols":["NVDA.US","AMD.US","TSM.US","ASML.US","MU.US"]}) = 1740.99美元，较昨收+2.15%（查询时点）
+- MU.US 最新价/涨跌: market_quote({"symbols":["NVDA.US","AMD.US","TSM.US","ASML.US","MU.US"]}) = 877.57美元，较昨收-0.44%（查询时点）
+- 美国联储资产负债表: query_indicators({"category":"macro","country":"us","limit":10,"time_range":"24h"}) = 6748567.0，数据日期2026-08-05；其余可用宏观快照中CPI/PPI/消费者信心数据日期2026-06-01，已标记陈旧，不用于当前判断
+- 半导体相关新闻检索: query_raw_items(关键词覆盖semiconductor/chip/TSMC/HBM/DRAM/AI capex/export control，source=telegram:Financial_Express/longbridge/reuters) = 未找到匹配原始新闻；不可据此断言近期事件
+- Longbridge路由探索: search_routes(category=stock, keyword=financials/consensus/valuation/news/company及NVDA) = 未找到路由；公司财务、估值、一致预期和公司新闻数据缺失
+
+- 美国联储资产负债表: query_indicators(country=us, category=macro, time_range=24h) = 6748567.0，数据日期2026-08-05
+- NVDA.US最新价/涨跌: market_quote(symbols=[NVDA.US]) = 223.96美元，日涨幅+2.27%
+- AMD.US最新价/涨跌: market_quote(symbols=[AMD.US]) = 483.36美元，日跌幅-1.21%
+- TSM.US最新价/涨跌: market_quote(symbols=[TSM.US]) = 420.04美元，日涨幅+0.44%
+- ASML.US最新价/涨跌: market_quote(symbols=[ASML.US]) = 1740.99美元，日涨幅+2.15%
+- MU.US最新价/涨跌: market_quote(symbols=[MU.US]) = 877.57美元，日跌幅-0.44%
+- MRVL.US最新价/涨跌: market_quote(symbols=[MRVL.US]) = 218.72美元，日涨幅+3.89%
+- AVGO.US最新价/涨跌: market_quote(symbols=[AVGO.US]) = 427.76美元，日涨幅+1.71%
+- GLW.US最新价/涨跌: market_quote(symbols=[GLW.US]) = 165.68美元，日涨幅+5.41%
+- LITE.US最新价/涨跌: market_quote(symbols=[LITE.US]) = 890.17美元，日涨幅+6.22%
+- SMCI.US最新价/涨跌: market_quote(symbols=[SMCI.US]) = 31.13美元，日涨幅+5.96%
+- 近期半导体/AI/出口管制新闻: query_raw_items(source=telegram:Financial_Express/longbridge/reuters, keyword=semiconductor/chip/TSMC/HBM/AI capex/DRAM/export control) = 未找到原始新闻
+- 公司财务、估值、一致预期与公司新闻路由: search_routes(category=stock, keyword=financials/consensus/valuation/analyst/news/company) = 未找到相关路由，数据缺失
+- DRAM/NAND现货价、合约价、库存天数、产能利用率: 本轮工具未取得，数据缺失
+
+- 当前工具未取得云厂商最新AI资本开支金额、全年指引、AI收入/ROI或削减计划: query_raw_items(keyword='AI capex',source='telegram:Financial_Express',limit=30) = 未返回该源结果；结构化财务/一致预期路由亦未找到
+- DRAM/NAND现货价、合约价、库存天数、产能利用率: query_raw_items(keyword='DRAM,NAND',source='telegram:Financial_Express',limit=30) = 未取得可核验数值
+- 当前工具未取得NVDA、AMD、TSM、ASML、MU、MRVL、AVGO最新财务、估值、一致预期: search_routes(category='stock',keyword='financials,consensus,valuation,analyst') = 未找到相关路由
+- 美国联储资产负债表: query_indicators(category='monetary_credit',country='us',limit=10,time_range='7d') = 6748567.0，数据日期2026-08-05
+- 近期半导体新闻: query_raw_items(keyword='semiconductor,chip,TSMC,Samsung,SK hynix,HBM,CoWoS,ASML,AI capex,DRAM,NAND,export control',source='telegram:Financial_Express',limit=50) = 未返回原始条目；正文仅保留此前 discussion_log/reference.md 已记录并注明来源层级的标题信息，不将其当作公司正式指引
+
+- 美国联储资产负债表（数据日期 2026-08-05）: query_indicators(category=macro,country=us,time_range=30d) = 6,748,567.0
+- 美国 CPI 同比（数据日期 2026-06-01，工具标记陈旧）: query_indicators(category=macro,country=us,time_range=30d) = 3.5%
+- 美国 GDP（数据日期 2026-04-01，工具标记陈旧）: query_indicators(category=macro,country=us,time_range=30d) = 32,475.21
+- 半导体/HBM/DRAM/TSMC/长鑫实时原始新闻: query_raw_items(keyword=semiconductor,chip,HBM,DRAM,TSMC,AI capex,长鑫,CXMT,source=telegram:Financial_Express,limit=30) = No raw items found
+- 半导体/HBM/DRAM/出口管制原始新闻: query_raw_items(keyword=semiconductor,chip,HBM,DRAM,TSMC,export control,AI capex,source=all,limit=30) = No raw items found
+- Longbridge 新闻、财务、估值、一致预期路由搜索: search_routes(category=stock,keyword=news,company,financials,consensus,valuation,analyst) = 未找到相关路由
+
+- 美国联邦储备体系资产负债表：query_indicators(category=macro,country=us,limit=10,time_range=7d) = 6,748,567.0（数据日期 2026-08-05；工具标注非过时）
+- 美国 CPI 同比：query_indicators(category=macro,country=us,limit=10,time_range=7d) = 3.5%（数据日期 2026-06-01；工具标注 68 天前，未用于当前边际判断）
+- 中国出口：query_indicators(category=macro,country=china,limit=10,time_range=7d) = 359,703,900,000（数据日期 2026-04-01；工具标注过时，未用于当前边际判断）
+- 半导体/AI/HBM/TSMC/NVIDIA/长鑫等关键词实时新闻：query_raw_items(keyword=TSMC,NVIDIA,HBM,DRAM,CXMT,export control,AI capex,source=telegram:Financial_Express) = No raw items found
+- 半导体/AI/HBM/DRAM/出口管制关键词全源新闻：query_raw_items(keyword=semiconductor,chip,HBM,DRAM,TSMC,NVIDIA,AI capex,长鑫,CXMT,export control) = No raw items found
+- 股票新闻/财务/估值/一致预期路由搜索：search_routes(category=stock,keyword=news company financials consensus valuation analyst) = 未找到相关路由
+
+- NVIDIA/HBM相关近期新闻：2026-08-07 英伟达拟下调Rubin Ultra HBM配置；2026-08-03 SemiAnalysis称主线版本HBM或降至192GB: query_raw_items(keyword='HBM',limit=30) = 原始新闻条目
+- JEDEC新SPHBM4标准、三星zHBM/zNAND-O/BV-NAND新闻：2026-08-08: query_raw_items(keyword='HBM',limit=30) = 原始新闻条目
+- SK海力士2026-08-08拟推710亿美元股东回报、2026-08-07拟投资384亿美元扩产、2026-08-05中微设备测试相关新闻: query_raw_items(keyword='SK海力士',limit=20) = 原始新闻条目
+- TSMC 2026-07-21拟于2027年上调芯片制造价格最高10%、2026-07-16提高销售/支出展望及美国投资相关新闻: query_raw_items(keyword='TSMC',limit=20) = 原始新闻条目
+- 美国联储资产负债表：2026-08-05 = 6,748,567.0: query_indicators(category='macro',country='us',time_range='24h',limit=20)
+- 美国CPI同比：2026-06-01 = 3.5%，工具标记数据较旧，不用于当前边际判断: query_indicators(category='macro',country='us',time_range='24h',limit=20)
+- 中国进出口指标：2026-04-01，工具标记超过90天过时，不用于当前判断: query_indicators(category='macro',country='china',time_range='24h',limit=20)
+
+- 2026-08-07 AMD收购AI推理芯片初创公司Taalas相关报道: query_raw_items({"keyword":"AMD","limit":20,"source":null,"status":null}) = AMD宣布收购AI推理芯片公司Taalas等条目
+- 2026-08-06至2026-08-04 AMD Q2及数据中心业务相关报道: query_raw_items({"keyword":"AMD","limit":20,"source":null,"status":null}) = AMD Q2数据中心营收翻倍、AMD二季度营收115.36亿美元等条目（新闻报道，非正式财报核验）
+- 2026-08-07 NVIDIA Vera白皮书、2026-08-04 Alpamayo 2、2026-07-31与SSI长期战略合作等近期条目: query_raw_items({"keyword":"NVIDIA","limit":20,"source":null,"status":null}) = 对应新闻标题
+- 2026-08-08 JEDEC新SPHBM4标准、三星zHBM/zNAND-O/BV-NAND及SK海力士2026-08-07拟投资384亿美元扩产、2026-08-08股东回报相关条目: query_raw_items({"keyword":"HBM","limit":30,"source":null,"status":null}) / query_raw_items({"keyword":"SK海力士","limit":20,"source":null,"status":null}) = 对应新闻标题
+- 2026-08-07华为半导体首席科学家访谈、2026-08-04中国半导体法律定义变化、2026-07-31美国DoC与7家公司签署8.74亿美元半导体研发意向书、2026-07-27韩国公布9500亿美元半导体合作计划: query_raw_items({"keyword":"semiconductor","limit":30,"source":null,"status":null}) = 对应新闻标题
+- 2026-07-28 Lattice Semiconductor完成收购AMI: query_raw_items({"keyword":"semiconductor","limit":30,"source":null,"status":null}) = 对应新闻标题
+- 2026-07-21 TSMC拟于2027年上调芯片制造价格最高10%、2026-07-17扩大美国投资、2026-07-16上调销售及资本开支展望相关报道: query_raw_items({"keyword":"TSMC","limit":20,"source":null,"status":null}) = 对应新闻标题（媒体标题，非公司正式文件核验）
+- 云厂商最新AI capex金额、全年指引、AI收入、ROI与利用率: query_raw_items({"keyword":"AI capex","limit":30,"source":null,"status":null}) = 未取得可核验数值；search_routes({"category":"stock","keyword":"news company"}) = 未找到相关公司新闻路由
+
+- 2026-08-08 AMD收购AI推理芯片初创公司Taalas相关报道: query_raw_items({"keyword":"AMD","limit":30,"source":null,"status":null}) = 对应新闻条目
+- 2026-08-06至2026-08-04 AMD Q2及数据中心业务相关报道（含二季度营收115.36亿美元、数据中心营收翻倍等媒体标题，非正式财报核验）: query_raw_items({"keyword":"AMD","limit":30,"source":null,"status":null}) = 对应新闻条目
+- 2026-08-07至2026-07-18 NVIDIA相关产品、合作与融资风险条目（含Vera、SSI合作、OpenAI数据中心融资讨论）: query_raw_items({"keyword":"NVIDIA","limit":50,"source":null,"status":null}) = 对应新闻条目
+- 2026-07-21 TSMC拟于2027年上调芯片制造价格最高10%、2026-07-17扩大美国投资、2026-07-16上调销售及资本开支展望: query_raw_items({"keyword":"TSMC","limit":50,"source":null,"status":null}) = 对应新闻标题（媒体标题，非公司正式文件核验）
+- 2026-08-07 SK海力士拟投资384亿美元扩产、2026-08-08股东回报及HBM相关条目: query_raw_items({"keyword":"SK Hynix","limit":50,"source":null,"status":null}) = 对应新闻条目
+- 2026-08-08 JEDEC新SPHBM4标准及三星zHBM/zNAND-O/BV-NAND相关条目: query_raw_items({"keyword":"Samsung HBM","limit":50,"source":null,"status":null}) = 对应新闻条目
+- 2026-08-04至2026-07-27长鑫科技上市、产品/扩产与市值情绪相关条目；2026-07-31盘中市值突破4万亿元: query_raw_items({"keyword":"长鑫科技","limit":50,"source":null,"status":null}) = 对应新闻条目（媒体/资讯源，需正式披露复核）
+- 美国联邦储备体系资产负债表: query_indicators({"category":"macro","country":"us","limit":30,"time_range":"24h"}) = 6748567.0，数据日期2026-08-05
+- 美国ISM PMI: query_indicators({"category":"pmi","country":"us","limit":20,"time_range":"24h"}) = 48.7，数据日期2025-09-02，工具标记过时，不用于当前判断
+- 美国CPI同比: query_indicators({"category":"macro","country":"us","limit":30,"time_range":"24h"}) = 3.5%，数据日期2026-06-01，工具标记陈旧，不用于当前边际判断
+- 2026-08-08独立检索半导体近期新闻: query_raw_items({"keyword":"semiconductor","limit":100,"source":null,"status":null}) = 近14-30日返回华为半导体首席科学家访谈、中国半导体法律定义变化、美国DoC半导体研发意向等条目
+
+- 2026-08-07 AMD收购AI推理芯片初创公司Taalas相关报道: query_raw_items({"keyword":"AMD","limit":20,"source":null,"status":null}) = 原始条目返回该事件标题
+- 2026-08-06至2026-08-04 AMD Q2及数据中心业务相关报道: query_raw_items({"keyword":"AMD","limit":20,"source":null,"status":null}) = 返回“AMD Q2数据中心营收翻倍”“AMD二季度营收115.36亿美元”等新闻标题；未以正式财报核验
+- 2026-08-07至2026-07-27 NVIDIA近期事件: query_raw_items({"keyword":"NVIDIA","limit":30,"source":null,"status":null}) = 返回Vera白皮书、与SSI长期战略合作、AI芯片循环融资争议、拟支持OpenAI数据中心租约等标题
+- 2026-08-08三星新存储技术: query_raw_items({"keyword":"Samsung","limit":30,"source":null,"status":null}) = 返回三星发布zHBM、zNAND-O、BV-NAND标题
+- 2026-08-08 SK海力士股东回报及扩产: query_raw_items({"keyword":"SK Hynix","limit":30,"source":null,"status":null}) = 返回拟710亿美元股东回报、拟投资384亿美元扩产等标题
+- 2026-07-21 TSMC价格及资本开支事件: query_raw_items({"keyword":"TSMC","limit":30,"source":null,"status":null}) = 返回2027年芯片制造价格最高上调10%、提高销售及支出展望、扩大美国投资等标题
+- 2026-07-15 ASML Q2财报标题: query_raw_items({"keyword":"ASML","limit":30,"source":null,"status":null}) = 返回Q2净销售93亿欧元、净利润29亿欧元及上调全年营收指引标题；未以正式财报核验
+- 2026-07-28至2026-07-29半导体市场回撤: query_raw_items({"keyword":"chip","limit":100,"source":null,"status":null}) = 返回芯片股单日/阶段性大幅下跌、AI担忧及韩国KOSPI下挫等标题
+- 2026-07-27 CXMT上市及股价异动: query_raw_items({"keyword":"chip","limit":100,"source":null,"status":null}) = 返回CXMT上市首日上涨472%及中国芯片股上涨470%标题；未以交易所数据核验
+- 2026-07-26中国AI模型及芯片出口管制: query_raw_items({"keyword":"chip","limit":100,"source":null,"status":null}) = 返回中国考虑收紧AI模型和芯片出口管制标题
+- 2026-08-08 HBM相关新闻：JEDEC发布SPHBM4标准、三星发布zHBM/zNAND-O/BV-NAND；英伟达被报道评估下调Rubin Ultra HBM配置，以应对供应与供电约束；来源：query_raw_items(keyword=HBM,limit=30,source=null,status=null) = 对应新闻条目
+- 2026-07-29 SK海力士被报道Q2营业利润60.5万亿韩元、HBM4量产出货；来源：query_raw_items(keyword=HBM,limit=30,source=null,status=null) = 对应新闻条目（媒体转述，需正式财报复核）
+- 2026-07-21至2026-07-17 TSMC相关新闻：被报道2027年晶圆制造价格最高上调10%，并扩大美国投资至2650亿美元；来源：query_raw_items(keyword=TSMC,limit=30,source=null,status=null) = 对应新闻条目（媒体报道，需公司公告复核）
+- 2026-07-31至2026-07-27 NVIDIA相关新闻：被报道存在约7500亿美元AI交易/融资与循环融资担忧，并涉及OpenAI数据中心租赁支持讨论；来源：query_raw_items(keyword=NVIDIA,limit=30,source=null,status=null) = 对应新闻条目（标题级线索，需原始报道与公司披露核验）
+- 2026-08-03 ASML相关新闻：有报道质疑其对芯片制造的垄断优势减弱；来源：query_raw_items(keyword=ASML,limit=20,source=null,status=null) = 对应新闻条目（观点性报道，需与公司财报及订单核验）
