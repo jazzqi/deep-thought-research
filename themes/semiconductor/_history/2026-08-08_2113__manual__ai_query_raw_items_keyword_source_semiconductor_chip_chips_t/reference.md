@@ -1,0 +1,131 @@
+- HBM4/SPHBM4及三星新存储技术新闻（2026-08-08）: query_raw_items(keyword=HBM,source=telegram:Financial_Express) = JEDEC发布SPHBM4标准、三星发布zHBM/zNAND-O/BV-NAND等标题
+- Rubin Ultra可能调整HBM配置（2026-08-07至2026-08-03）: query_raw_items(keyword=HBM,source=telegram:Financial_Express) = 多条BlockBeats/36kr标题，未获公司公告确认
+- SK海力士AI投资/HBM4/资本支出报道（2026-07-29）: query_raw_items(keyword=HBM,source=telegram:Financial_Express) = 电话会与财报相关标题，利润数字口径疑似异常，未采用
+- TSMC涨价与AI展望报道（2026-07-21至2026-07-16）: query_raw_items(keyword=TSMC,source=longbridge) = 2027年涨价、上调销售/支出展望及美国投资扩张标题
+- ASML Q2 2026及全年指引报道（2026-07-15）: query_raw_items(keyword=ASML,source=longbridge) = Q2销售/净利润高于指引、上调全年营收指引标题
+- NVDA.US最新价（2026-08-08查询）: market_quote(symbols=NVDA.US) = 223.96美元，日涨2.27%
+- NVDA.US技术状态（2026-08-08查询）: market_kline(symbol=NVDA.US,period=1d,count=120,indicators=ema21,ema60,macd,rsi14,boll20) = EMA21 207.73美元、EMA60 204.55美元、RSI14 64.42，判定上升·高位
+- TSM.US最新价（2026-08-08查询）: market_quote(symbols=TSM.US) = 420.04美元，日涨0.44%
+- TSM.US技术状态（2026-08-08查询）: market_kline(symbol=TSM.US,period=1d,count=120,indicators=ema21,ema60,macd,rsi14,boll20) = EMA21 413.50美元、EMA60 412.29美元、RSI14 52.23，判定盘整·中位
+- 美国联储资产负债表（2026-08-05）: query_indicators(category=macro,country=us,time_range=24h) = 6748567.0，openbb
+- 美国CPI同比百分比（2026-06-01，数据较旧）: query_indicators(category=macro,country=us,time_range=24h) = 3.5，akshare
+- 中国进出口（2026-04-01，数据过时）: query_indicators(category=macro,country=china,time_range=24h) = 进出口数据均标记过时
+- 公司财务/估值/一致预期/公司新闻路由: search_routes(category=stock,keyword=financials/consensus/valuation/news/company及NVDA) = 未找到相关路由，相关数字缺失
+
+- 中国制造业PMI（2026年07月份）: query_indicators(category=pmi,country=china,time_range=7d) = 49.2
+- 中国非制造业PMI（2026年07月份）: query_indicators(category=pmi,country=china,time_range=7d) = 49.0
+- 美国联储资产负债表（2026-08-05）: query_indicators(category=macro,country=us,time_range=7d) = 6748567.0
+- NVDA.US 最新价与日涨跌: market_quote(symbols=[NVDA.US,AMD.US,INTC.US,TSM.US,ASML.US]) = 223.96美元，+2.27%
+- AMD.US 最新价与日涨跌: market_quote(symbols=[NVDA.US,AMD.US,INTC.US,TSM.US,ASML.US]) = 483.36美元，-1.21%
+- INTC.US 最新价与日涨跌: market_quote(symbols=[NVDA.US,AMD.US,INTC.US,TSM.US,ASML.US]) = 101.65美元，+1.84%
+- TSM.US 最新价与日涨跌: market_quote(symbols=[NVDA.US,AMD.US,INTC.US,TSM.US,ASML.US]) = 420.04美元，+0.44%
+- ASML.US 最新价与日涨跌: market_quote(symbols=[NVDA.US,AMD.US,INTC.US,TSM.US,ASML.US]) = 1740.99美元，+2.15%
+- 近期半导体新闻扫描: query_raw_items(keyword=semiconductor chip chips TSMC 台积电 Samsung SK hynix HBM CoWoS ASML foundry export control AI capex 数据中心资本开支,source=telegram:Financial_Express/longbridge/reuters) = 未返回新闻条目
+- 上市公司基本面/估值/一致预期路由探索: search_routes(category=stock,keyword=financials consensus valuation analyst news company)；list_routes(category=stock) = 未找到可用路由
+
+- 中国制造业PMI（2026年07月）: query_indicators(category=pmi,country=china,time_range=7d) = 49.2
+- 中国非制造业PMI（2026年07月）: query_indicators(category=pmi,country=china,time_range=7d) = 49.0
+- 美国联储资产负债表（2026-08-05）: query_indicators(category=macro,country=us,time_range=7d) = 6748567.0
+- NVDA.US最新价及日变动（查询时）: market_quote(symbols=[NVDA.US,AMD.US,INTC.US,TSM.US,ASML.US]) = 223.96美元，+2.27%
+- AMD.US最新价及日变动（查询时）: market_quote(symbols=[NVDA.US,AMD.US,INTC.US,TSM.US,ASML.US]) = 483.36美元，-1.21%
+- INTC.US最新价及日变动（查询时）: market_quote(symbols=[NVDA.US,AMD.US,INTC.US,TSM.US,ASML.US]) = 101.65美元，+1.84%
+- TSM.US最新价及日变动（查询时）: market_quote(symbols=[NVDA.US,AMD.US,INTC.US,TSM.US,ASML.US]) = 420.04美元，+0.44%
+- ASML.US最新价及日变动（查询时）: market_quote(symbols=[NVDA.US,AMD.US,INTC.US,TSM.US,ASML.US]) = 1740.99美元，+2.15%
+- 近期半导体新闻扫描未返回数据: query_raw_items(keyword=semiconductor chip TSMC 台积电 Samsung SK hynix HBM CoWoS ASML foundry export control AI capex,source=telegram:Financial_Express/longbridge/reuters) = No raw items found
+- 公司财务/估值/一致预期/新闻路由探索未找到有效路由: search_routes(category=stock,keyword=financials/consensus/valuation/news) = 未找到相关路由
+
+- NVDA FY2026 revenue 215,938,000,000、operating income 130,387,000,000、net income 120,067,000,000、basic EPS 4.90: query_longbridge_by_route(fundamental/financials/income, {"symbol":"NVDA.US","period":"annual"}) = returned values
+- NVDA PE current 33.37x, historical high 50.46x, low 33.37x, median 44.41x: query_longbridge_by_route(fundamental/valuation/pe, {"symbol":"NVDA.US"}) = returned values
+- NVDA consensus Q1 2027 revenue estimate 79,115,709,670 and EPS estimate 1.7413; Q1 actual revenue 81,615,000,000 and EPS 2.39, both Beat: query_longbridge_by_route(fundamental/consensus, {"symbol":"NVDA.US"}) = returned values
+- TSM FY2025 revenue 122,929,615,854.4129、operating income 62,508,728,189.9645、net income 54,786,776,757.9251、basic EPS 10.5646: query_longbridge_by_route(fundamental/financials/income, {"symbol":"TSM.US","period":"annual"}) = returned values
+- TSM PE current 29.84x, historical high 34.44x, low 29.84x, median 31.72x: query_longbridge_by_route(fundamental/valuation/pe, {"symbol":"TSM.US"}) = returned values
+- TSM company news 2026-08-07: Taiwan July exports missed forecasts but AI demand remained solid; report also cited consensus Buy and average target $496.25 (secondary article): query_longbridge_by_route(news/company, {"symbol":"TSM.US"}) = returned headlines
+- NVDA company news 2026-08-08: Reuters-reported article said NVIDIA may invest up to $3bn in Lancium, first $2bn for 20% stake, subject to thresholds; company response unavailable: query_longbridge_by_route(news/company, {"symbol":"NVDA.US"}) = returned headline
+- NVDA company news 2026-08-08: Firebird AI factory plans over 70,000 GPUs by 2027, powered by NVIDIA and Dell; article says supported by NVIDIA/CoreWeave investments: query_longbridge_by_route(news/company, {"symbol":"NVDA.US"}) = returned headline
+- AMD company news 2026-08-08: Q2 2026 revenue reported $11.5bn, +50%, data-center sales +107%, Q3 outlook approximately $13bn; secondary report: query_longbridge_by_route(news/company, {"symbol":"AMD.US"}) = returned headline
+- AMD company news 2026-08-07: AMD acquired Taalas to strengthen custom AI inference chips, according to secondary report: query_longbridge_by_route(news/company, {"symbol":"AMD.US"}) = returned headline
+- Micron company news 2026-08-08: Citi lowered price target 18% to $1,150 from $1,400, maintained Buy; article forecasts DRAM/NAND prices peak Q2 next year then fade in 2027: query_longbridge_by_route(news/company, {"symbol":"MU.US"}) = returned headline
+- US Fed balance sheet 6,748,567.0 on 2026-08-05: query_indicators({"category":"macro","country":"us","limit":20,"time_range":"7d"}) = returned value
+- Recent raw news scan via telegram:Financial_Express, longbridge, reuters for semiconductor keywords returned no raw items; broad scan returned Hacker News 2026-08-07 Huawei semiconductor chief scientist interview, 2026-08-04 China semiconductor legal definition change, and 2026-07-17 TSMC US investment expansion to $265bn: query_raw_items = no items for specified sources; broad keyword scan returned these items
+
+- 中国2026年7月制造业PMI=49.2、非制造业PMI=49.0: query_indicators(category=pmi,country=china,time_range=7d) = manufacturing_pmi 49.2 / non_manufacturing_pmi 49.0，数据期2026年7月
+- AMD 2026年第二季度收入115.36亿美元、同比增长50%: query_raw_items(keyword=AMD,limit=30) = 36kr《AMD二季度营收115.36亿美元》，2026-08-04
+- AMD数据中心收入同比增长107%、第三季度收入展望约130亿美元: query_raw_items(keyword=AMD,limit=30) = blockbeats《AMD Q2数据中心营收翻倍》及当前稿既有新闻记录，2026-08-05（公司新闻二次转述，待正式财报核验）
+- AMD收购AI推理芯片公司Taalas: query_raw_items(keyword=AMD,limit=30) = blockbeats/hackernews，2026-08-06至2026-08-07
+- 英伟达2026财年收入2159.38亿美元、营业利润1303.87亿美元、净利润1200.67亿美元、基本EPS 4.90美元、PE 33.37倍: 主题当前稿既有Longbridge查询结果（本轮路由搜索未能复现，财年口径需复核）
+- TSMC 2025财年收入1229.30亿美元、营业利润625.09亿美元、净利润547.87亿美元、基本EPS 10.5646美元、PE 29.84倍: 主题当前稿既有Longbridge查询结果（本轮路由搜索未能复现，财年口径需复核）
+- 英伟达2027财年第一季度收入816.15亿美元、预期791.16亿美元，GAAP EPS 2.39美元、预期1.7413美元: 主题当前稿既有Longbridge一致预期查询结果（本轮路由搜索未能复现，财年口径需复核）
+- 英伟达可能投资Lancium最多30亿美元: 主题当前稿既有Reuters二次转述新闻记录（本轮query_raw_items未返回可复核条目）
+- Citi将Micron目标价由1400美元下调18%至1150美元并预期DRAM/NAND价格下一年第二季度见顶、2027年回落: 主题当前稿既有公司新闻二次转述记录（本轮query_raw_items未返回可复核条目）
+- 近期行业重大事件扫描: query_raw_items(keyword=semiconductor chip chips AMD Nvidia TSMC Micron HBM Samsung SK hynix Intel export control,limit=50) = semiconductor关键词无条目；AMD关键词返回2026-08-04至2026-08-07 AMD财报、Taalas收购等；Nvidia关键词返回2026-07-27至2026-08-05产品/生态新闻，未返回管理层变动、监管处罚或正式财报条目
+- 公司news/company与financials/consensus/valuation/analyst路由: search_routes(category=stock,keyword=news company financials consensus valuation analyst) = 未找到可用路由，故本轮不新增公司财务或估值数字
+
+- AMD收购Taalas以强化AI推理芯片布局（2026-08-07）: query_raw_items(keyword=AMD,limit=20) = blockbeats/solidot/hackernews相关新闻
+- AMD 2026年第二季度营收115.36亿美元、同比增长50%: query_raw_items(keyword=AMD,limit=20) = 36kr新闻（2026-08-04；二次转述，待正式财报复核）
+- CoWoS封装产能告急、台积电扩大外包产能（2026-08-04）: query_raw_items(keyword=CoWoS,limit=15) = 36kr
+- 台积电2027年晶圆制造价格最高上调10%的报道（2026-07-21）: query_raw_items(keyword=TSMC,limit=20) = hackernews
+- 台积电扩大美国半导体投资至2650亿美元的报道（2026-07-17）: query_raw_items(keyword=TSMC,limit=20) = hackernews
+- SK海力士称未看到AI投资放缓、协商2027年HBM供应与定价（2026-07-29）: query_raw_items(keyword=HBM,limit=20) = blockbeats
+- SK海力士HBM4量产出货、2026年下半年扩充HBM4产能（2026-07-28/29）: query_raw_items(keyword=HBM,limit=20) = blockbeats/36kr
+- 英伟达可能下调Rubin Ultra HBM配置以缓解供应压力（2026-08-03至08-07）: query_raw_items(keyword=HBM,limit=20) = blockbeats/36kr
+- 三星预计2026年第三季度HBM4销售额环比增长2倍以上（2026-07-30）: query_raw_items(keyword=HBM,limit=20) = 36kr
+- 中国2026年7月制造业PMI 49.2、非制造业PMI 49.0: query_indicators(category=pmi,country=china,time_range=7d) = akshare
+- 美国联储资产负债表6748567.0（2026-08-05）: query_indicators(category=macro,country=us,time_range=7d) = openbb
+- 近30天半导体重大事件扫描（截至2026-08-08）: query_raw_items(keyword=semiconductor,limit=30), query_raw_items(keyword=TSMC,limit=20), query_raw_items(keyword=Nvidia,limit=20), query_raw_items(keyword=AMD,limit=20), query_raw_items(keyword=HBM,limit=20) = 返回AI、HBM、CoWoS、TSMC投资与AMD收购等新闻；未发现所返回条目中的管理层变动或监管处罚
+- 近30天出口管制扫描（截至2026-08-08）: query_raw_items(keyword=export control,limit=15) = hackernews报道中国考虑收紧AI模型与芯片出口管制（2026-07-21/26）；未取得正式政策文本，状态待核验
+- Intel Foundry与Fortinet定制ASIC合作报道（2026-07-21）: query_raw_items(keyword=Intel foundry,limit=15) = hackernews
+- 英伟达2026财年财务、2027财年Q1一致预期与PE，以及TSMC 2025财年财务与PE: 当前稿既有Longbridge记录，本轮路由检索未能复现，均标注为待正式接口复核，不作为单独低估依据
+
+
+- 中国2026年7月制造业PMI=49.2、非制造业PMI=49.0: query_indicators(category=pmi,country=china,limit=20,time_range=24h) = manufacturing_pmi 49.2 / non_manufacturing_pmi 49.0
+- AMD Q2 2026营收约115亿美元、同比+50%、数据中心收入同比+107%、Q3展望约130亿美元: query_longbridge_by_route(news/company,{"symbol":"AMD.US","force_refresh":true}) = 2026-08-08 AMD Q2 earnings transcript/news（二次新闻摘要，正式公告口径仍需核验）
+- AMD收购Taalas强化定制AI推理芯片: query_longbridge_by_route(news/company,{"symbol":"AMD.US","force_refresh":true}) = 2026-08-07 M&A News摘要
+- NVIDIA拟向Lancium投资最多30亿美元，首笔20亿美元对应20%股权（报道，未获公司确认）: query_longbridge_by_route(news/company,{"symbol":"NVDA.US","force_refresh":true}) = Reuters/The Information相关摘要，2026-08-08
+- Firebird计划到2027年部署超过7万枚NVIDIA GPU（新闻摘要，计划而非已出货）: query_longbridge_by_route(news/company,{"symbol":"NVDA.US","force_refresh":true}) = 2026-08-08 Firebird AI factory摘要
+- SpaceX据新闻摘要将AI平台专用NVIDIA硬件，交易金额未披露: query_longbridge_by_route(news/company,{"symbol":"NVDA.US","force_refresh":true}) = 2026-08-08摘要，未核验正式合同
+- TSMC相关最新公司新闻含台湾7月出口不及预期但AI需求仍稳、TSMC共识Buy及平均目标价496.25美元（二次文章）: query_longbridge_by_route(news/company,{"symbol":"TSM.US","force_refresh":true}) = 2026-08-07
+- Micron目标价由1400美元下调18%至1150美元，文章预计DRAM/NAND明年Q2见顶、2027年回落（分析师观点，非实际价格序列）: query_longbridge_by_route(news/company,{"symbol":"MU.US","force_refresh":true}) = 2026-08-08 Citi摘要
+- 2026-08-08 Intel公司人事：Greg Ernst将离职，Dean Jarnac任执行副总裁兼首席销售官: query_longbridge_by_route(news/company,{"symbol":"INTC.US","force_refresh":true}) = 2026-08-08公司新闻摘要
+- 2026-08-08 JEDEC发布SPHBM4标准、三星发布zHBM/zNAND-O/BV-NAND标题: query_raw_items(keyword=HBM,limit=50,source=null,status=null) = hackernews条目；未核验官方公告正文
+- 2026-08-07至08-08 Nvidia/AMD/存储板块价格异动新闻：NVDA 8月7日常规交易约+1.81%至222.94美元，AMD约-1.97%至479.66美元；Micron盘后约-5%: query_longbridge_by_route(news/company,{"symbol":"NVDA.US/AMD.US/MU.US","force_refresh":true}) = 2026-08-08市场新闻摘要（非独立行情接口）
+- 近30天重大事件独立扫描：AMD、Nvidia、TSMC、HBM、semiconductor关键词: query_raw_items(keyword=AMD/Nvidia/TSMC/HBM/semiconductor,limit=50,source=null,status=null) = 返回AMD Q2/Taalas、Nvidia Lancium与HBM配置、HBM4/标准、TSMC投资等；不得表述为无重大新闻
+
+
+- 2026-08-08 AMD Q2 2026营收约115亿美元、同比增长50%，数据中心销售同比增长107%，Q3营收展望约130亿美元: QueryLongbridgeByRouteTool(news/company, {"symbol":"AMD.US","count":30}) = Longbridge新闻二次转述，需以AMD正式财报复核
+- 2026-08-07 AMD收购Taalas以强化AI推理芯片能力: QueryLongbridgeByRouteTool(news/company, {"symbol":"AMD.US","count":30}) = Longbridge新闻条目，未提供交易金额/正式公告全文
+- 2026-08-08 英伟达拟向Lancium投资至多30亿美元、首笔20亿美元对应20%股权（报道，双方未立即回应Reuters）: QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US","count":30}) = Longbridge新闻转引Reuters/Information
+- 2026-08-08 Microsoft、Amazon业绩及主要科技公司上调资本开支被报道支持AI基础设施投资持续: QueryLongbridgeByRouteTool(news/company, {"symbol":"MSFT.US","count":30}), QueryLongbridgeByRouteTool(news/company, {"symbol":"AMZN.US","count":30}) = Longbridge新闻二次转述；未获取具体云厂商capex指引金额
+- 2026-08-08 AWS被报道出现CPU资源等待时间延长，agentic AI推高CPU需求: QueryLongbridgeByRouteTool(news/company, {"symbol":"AMZN.US","count":30}) = Longbridge新闻条目，非Amazon正式披露
+- 2026-08-08 有估值分析师质疑Microsoft、Amazon、Meta、Google集体过度投资AI、商业模式与回报不清晰: QueryLongbridgeByRouteTool(news/company, {"symbol":"MSFT.US","count":30}) = Longbridge新闻转述观点，不等同于财务事实
+- 2026-08-08 Nvidia拟投资Lancium等电力基础设施报道: QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US","count":30}) = Longbridge新闻；说明电力约束进入产业链事件，但交易仍未获公司正式确认
+
+- AMD 2026年第二季度营收115.36亿美元、同比增长50%: query_raw_items(keyword=AMD,limit=50) = 36Kr条目（2026-08-04）二次转述，非正式财报；需复核
+- AMD数据中心营收同比增长107%: query_raw_items(keyword=AMD,limit=50) = BlockBeats条目（2026-08-05）二次转述，非正式财报；需复核
+- AMD宣布收购AI推理芯片公司Taalas: query_raw_items(keyword=AMD,limit=50) = solidot/blockbeats/hackernews条目（2026-08-06至08-07）
+- TSMC 2027年晶圆制造价格最高可能上调10%: query_raw_items(keyword=TSMC,limit=50) = hackernews条目（2026-07-21，媒体转述）
+- TSMC扩大美国半导体投资至2650亿美元: query_raw_items(keyword=TSMC,limit=50) = hackernews条目（2026-07-17，媒体条目）
+- 中国制造业PMI/非制造业PMI当前工具返回数据: query_indicators(category=pmi,country=china,limit=20,time_range=7d) = 本次未返回PMI；稿内2026年7月PMI 49.2/49.0来自既有工作记录，当前调用无法复现，需正式来源复核
+- 美国ISM PMI: query_indicators(category=pmi,country=us,limit=20,time_range=7d) = 48.7（2025-09-02，标记⚠️过时340天），不得作为2026-08-08当前判断
+- 英伟达近期新闻扫描: query_raw_items(keyword=Nvidia,limit=50) = 2026-07-27至08-05条目，包括OpenAI数据中心2500亿美元融资担保讨论、约7500亿美元交易/循环融资风险报道、得州数据中心500亿美元租赁报道、CUDA威胁等
+- 英伟达与OpenAI融资/循环交易相关近期事件: query_raw_items(keyword=Nvidia,limit=50) = hackernews条目（2026-07-27至07-31）；来源为新闻条目，需公司/监管文件核验
+- SK海力士近期供应链事件: query_raw_items(keyword=SK hynix,limit=50) = hackernews条目（2026-08-04至08-05），包括HBM/高带宽Flash标准发布及三星、SK海力士测试中国芯片工具
+- 半导体行业近期新闻扫描: query_raw_items(keyword=semiconductor,limit=100) = 2026-07-27至08-07条目；近30天未能通过工具获得完整公司news/company路由结果（search_routes(category=stock,keyword=news,company)未命中）
+
+- 中国2026年7月制造业PMI=49.2、非制造业PMI=49.0: query_indicators(category=pmi,country=china,limit=20,time_range=24h) = manufacturing_pmi 49.2 / non_manufacturing_pmi 49.0
+- NVIDIA公司新闻（2026-08-08）：据Reuters转述拟向Lancium投资最多30亿美元，首期20亿美元换20%股权，双方当时未回应: query_longbridge_by_route(news/company,{"symbol":"NVDA.US"}) = Reuters标题/摘要
+- NVIDIA公司新闻（2026-08-08）：Firebird计划到2027年部署超过70,000枚GPU，获得NVIDIA/CoreWeave支持: query_longbridge_by_route(news/company,{"symbol":"NVDA.US"}) = 标题/摘要
+- AMD公司新闻（2026-08-08）：Q2 2026营收约115亿美元、数据中心销售同比增长107%、Q3展望约130亿美元: query_longbridge_by_route(news/company,{"symbol":"AMD.US"}) = 公司Q2业绩稿/新闻摘要（二次转述，正式财报口径仍需核验）
+- AMD公司新闻（2026-08-07）：收购Taalas以推进AI推理芯片: query_longbridge_by_route(news/company,{"symbol":"AMD.US"}) = 新闻标题/摘要
+- TSMC公司新闻（2026-08-07）：台湾7月出口低于预期但AI需求仍稳；另有新闻摘要提及共识买入及平均目标价496.25美元: query_longbridge_by_route(news/company,{"symbol":"TSM.US"}) = 新闻标题/摘要（二次转述）
+- Micron公司新闻（2026-08-08）：Citi将目标价从1400美元下调18%至1150美元，并预计DRAM/NAND价格次年Q2见顶、2027年回落: query_longbridge_by_route(news/company,{"symbol":"MU.US"}) = 新闻标题/摘要（二次转述）
+- Intel公司新闻（2026-08-08）：Greg Ernst离职、任命Dean Jarnac为执行副总裁兼首席销售官: query_longbridge_by_route(news/company,{"symbol":"INTC.US"}) = 公司新闻摘要
+- 近30天重大新闻独立扫描：AMD相关结果包含Q2业绩及Taalas收购；NVIDIA结果包含Lancium投资报道、Firebird 70,000 GPU计划及资金关联/估值争议；TSMC结果包含台湾7月出口不及预期但AI需求稳；Micron结果包含Citi下调目标价及周期见顶预期；Intel结果包含高管变动: query_raw_items(keyword=AMD/NVIDIA/TSMC/Micron/Intel/semiconductor/chip,limit=100) 与 query_longbridge_by_route(news/company,{"symbol":...}) = 返回上述条目
+
+- AMD Q2 2026 earnings transcript: revenue approximately $11.5B, revenue growth 50%, data-center sales growth 107%, Q3 outlook approximately $13B, Helios AI platform production status: query_longbridge_by_route(news/company, {"symbol":"AMD.US","count":30}) = published 2026-08-08
+- AMD acquisition of Taalas, an AI inference-chip startup: query_longbridge_by_route(news/company, {"symbol":"AMD.US","count":30}) = published 2026-08-07
+- NVIDIA reportedly to invest up to $3B in Lancium, including an initial $2B for 20% stake; Reuters item says company responses were pending: query_longbridge_by_route(news/company, {"symbol":"NVDA.US","count":30}) = published 2026-08-08
+- Firebird launched an Armenia AI factory powered by NVIDIA and Dell, with plans to deploy over 70,000 GPUs by 2027: query_longbridge_by_route(news/company, {"symbol":"NVDA.US","count":30}) = published 2026-08-08
+- SpaceX reportedly committed to build its AI platform exclusively on NVIDIA hardware; deal value undisclosed: query_longbridge_by_route(news/company, {"symbol":"NVDA.US","count":30}) = published 2026-08-08
+- Intel appointed Dean Jarnac as Executive Vice President and Chief Sales Officer; Greg Ernst will leave Intel after 27 years: query_longbridge_by_route(news/company, {"symbol":"INTC.US","count":30}) = published 2026-08-08
+- TSMC-related news feed included Taiwan July exports missing forecasts while AI demand remained solid: query_longbridge_by_route(news/company, {"symbol":"TSM.US","count":30}) = published 2026-08-07
+- Recent semiconductor headline scan returned Huawei chief scientist interview, China legal-definition change for semiconductors, South Korea $950B semiconductor partnerships, and TSMC US investment report: query_raw_items(keyword="semiconductor", source=null, limit=50, status=null) = items dated 2026-07-15 to 2026-08-07
