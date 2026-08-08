@@ -1,0 +1,13 @@
+- Grok相关进展（2026-08-08）：Grok Imagine Image 2.0；xAI Grok Build 1.0新增远程工作区命令: query_raw_items({keyword:'grok',source:'telegram:Financial_Express'}) = 结果含 hackernews 条目
+- Agentic AI（2026-08-07）：Goldman Sachs在规模化软件工程中使用Agentic AI: query_raw_items({keyword:'agentic ai',source:'telegram:Financial_Express'}) = 结果含 hackernews 条目
+- CRISPR（2026-07-25）：CRISPR酶通过破坏DNA杀死癌细胞: query_raw_items({keyword:'crispr',source:'telegram:Financial_Express'}) = 结果含 hackernews 条目
+- GLP-1（2026-08-07）：GLP-1体重管理追踪器；（2026-07-01）Medicare开始覆盖减重GLP-1药物: query_raw_items({keyword:'glp-1',source:'telegram:Financial_Express'}) = 结果含 hackernews 条目
+- 核聚变（2026-07-20）：离子束装备商获超亿元融资并称批量导入光通信、核聚变、量子计算头部客户；（2026-06-18）旭光电子称核聚变相关产品尚未交付实现收入: query_raw_items({keyword:'核聚变',source:'telegram:Financial_Express'}) = 结果含 36kr 条目
+- 人形机器人（2026-07-24）：小鹏人形机器人小批量试生产，量产产线进入最后联调；（2026-07-31）行业出现电量焦虑并探索换电: query_raw_items({keyword:'人形机器人',source:'telegram:Financial_Express'}) = 结果含 36kr 条目
+- Robotaxi（2026-07-30）：Amazon Zoox获准开始无人工控制的付费Robotaxi；（2026-08-05）Robotaxi获准在伦敦运营: query_raw_items({keyword:'robotaxi',source:'telegram:Financial_Express'}) = 结果含 hackernews 条目
+- 量子（2026-08-07）：出现关于多项格问题多项式时间量子算法的论文/主张，仍需学术验证: query_raw_items({keyword:'quantum',source:'telegram:Financial_Express'}) = 结果含 hackernews 条目
+- 合成生物（2026-07-27）：安琪酵母拟投建合成生物中试验证基地: query_raw_items({keyword:'合成生物',source:'telegram:Financial_Express'}) = 结果含 36kr 条目
+- 脑机接口（2026-07-31）：涉及脑机接口等488项国家标准将实施；（2026-07-28）南京熊猫称无成熟产品及销售收入: query_raw_items({keyword:'脑机接口',source:'36kr'}) = 结果含 36kr 条目
+- 美国宏观（2026-08-05）：美联储资产负债表为6748567.0，单位未在返回结果明确说明；美国CPI同比3.5%数据日期2026-06-01且工具标记为较旧: query_indicators({category:'macro',country:'us',limit:20,time_range:'24h'}) = 返回7项指标
+- 美国货币信用与情绪/债券数据：工具未返回有效指标: query_indicators({category:'monetary_credit',country:'us',limit:20,time_range:'24h'}); query_indicators({category:'sentiment',country:'us',limit:10,time_range:'24h'}); query_indicators({category:'bond',country:'us',limit:10,time_range:'24h'})
+- 港美股估值/一致预期/财务/公司新闻路由：以 fundamental,valuation,consensus,news,company,financials 搜索未找到可用路由: search_routes({category:'stock',keyword:'...'}) = 未找到相关路由

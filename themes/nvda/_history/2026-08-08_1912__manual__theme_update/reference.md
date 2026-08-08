@@ -1,0 +1,10 @@
+- NVDA.US最新价: market_quote({"symbols":["NVDA.US"]}) = 223.96，较昨收+2.27%，成交量1.06亿
+- NVDA.US日线技术状态: market_kline({"symbol":"NVDA.US","period":"1d","secondary_period":"1w","count":120,"secondary_count":52,"indicators":"ema21,ema60,macd,rsi14,boll20"}) = EMA21 207.73 > EMA60 204.55；RSI14 64.42；布林上轨224.05；日线上升·高位，周线EMA21<EMA60盘整
+- NVIDIA FY2027 Q1财务: query_longbridge_by_route(fundamental/financials/income,{"symbol":"NVDA.US","period":"quarter"}) = 营收81.615bn、经营利润53.536bn、净利润58.321bn、基本EPS 2.39；稀释EPS、经营现金流、自由现金流等返回0/缺失，不能视为真实零值
+- NVIDIA一致预期及业绩: query_longbridge_by_route(fundamental/consensus,{"symbol":"NVDA.US"}) = FY2027 Q1营收81.615bn vs预期79.116bn、GAAP EPS2.39 vs预期1.7413；Q2-Q4营收预期91.846bn/103.131bn/116.105bn，EPS预期2.0573/2.3397/2.6555
+- NVDA估值: query_longbridge_by_route(fundamental/valuation/pe,{"symbol":"NVDA.US"}) = 当前PE33.37，历史中位44.41，高点50.46
+- NVDA公司新闻（Firebird）: query_longbridge_by_route(news/company,{"symbol":"NVDA.US"}) = 2026-08-08报道称Firebird在亚美尼亚启动AI工厂，计划2027年部署逾70,000枚GPU，由NVIDIA/Dell供货并获NVIDIA/CoreWeave投资支持；订单与投资结构未由工具验证为正式公告
+- NVDA公司新闻（Lancium）: query_longbridge_by_route(news/company,{"symbol":"NVDA.US"}) = Reuters转载/报道NVIDIA拟最高30亿美元投资Blackstone支持的Lancium，首笔20亿美元约20%股权，追加10亿美元取决于条件；NVIDIA与Lancium未即时回应置评
+- NVDA公司新闻（SpaceX）: query_longbridge_by_route(news/company,{"symbol":"NVDA.US"}) = 新闻称SpaceX AI平台明年专用NVIDIA硬件，交易金额未披露，应作为需求信号而非已确认收入
+- 美国宏观现状: query_indicators({"category":"macro","country":"us","limit":20,"time_range":"7d"}) = Fed资产负债表6,748,567百万美元（2026-08-05）；CPI主要数据为2026-06-01且已陈旧，不用于当前判断
+- 美国未来宏观事件: query_calendar_events({"country":"US","days":30,"importance":"high,medium","limit":50}) = 2026-08-12美国7月CPI同比预期3.4%-3.5%、核心CPI同比预期2.5%，以及10年期国债竞拍前次高收益率4.58%；均待发布

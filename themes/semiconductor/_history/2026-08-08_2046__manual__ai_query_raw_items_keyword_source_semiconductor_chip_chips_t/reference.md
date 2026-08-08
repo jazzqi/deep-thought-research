@@ -1,0 +1,36 @@
+- NVIDIA FY2027 Q1（报告日2026-04-26）营收816.15亿美元、营业利润535.36亿美元、净利润583.21亿美元、基本EPS 2.39美元: query_longbridge_by_route(fundamental/financials/income, {"symbol":"NVDA.US","period":"quarter"}) = returned values
+- NVIDIA FY2027 Q1一致预期：营收791.16亿美元，实际816.15亿美元；GAAP EPS实际2.39美元、预期1.7413美元，均为Beat: query_longbridge_by_route(fundamental/consensus, {"symbol":"NVDA.US"}) = returned values
+- NVIDIA PE当前33.37x，历史高/低/中位分别50.46x/33.37x/44.41x: query_longbridge_by_route(fundamental/valuation/pe, {"symbol":"NVDA.US"}) = returned values
+- NVIDIA公司新闻（2026-08-08）：拟向Lancium投资最高30亿美元，首期20亿美元约持股20%，该公司为OpenAI Stargate提供电力；Longbridge标题/描述并提示Reuters请求置评: query_longbridge_by_route(news/company, {"symbol":"NVDA.US"}) = returned news
+- NVIDIA公司新闻（2026-08-08）：Firebird计划到2027年部署超过7万枚GPU，采用NVIDIA与Dell方案；Longbridge: query_longbridge_by_route(news/company, {"symbol":"NVDA.US"}) = returned news
+- TSMC公司新闻（2026-08-07）：台湾7月出口不及预期但AI需求仍稳；另有市场消息称DRAM短缺可能影响部分先进封装交付，均为Longbridge新闻摘要，未获公司独立确认: query_longbridge_by_route(news/company, {"symbol":"TSM.US"}) = returned news
+- 2026-08-08 HBM新闻：JEDEC发布SPHBM4标准；三星发布zHBM、zNAND-O、BV-NAND等技术: query_raw_items(keyword="HBM", limit=20) = hackernews items
+- 2026-08-04至2026-08-07 HBM新闻：多条行业报道指向2027年DRAM/HBM供给紧张、NVIDIA评估降低Rubin Ultra HBM配置；SK海力士称HBM4已量产出货并计划扩产: query_raw_items(keyword="HBM", limit=20) = blockbeats/36kr items
+- 2026-07-21 TSMC新闻：媒体报道其拟自2027年提高芯片制造价格，幅度最高10%（另有最高25%的报道）: query_raw_items(keyword="TSMC", limit=20) = hackernews items
+- 美国指标：美联储资产负债表2026-08-05为6,748,567（数据库原始单位），其余CPI等快照为2026-06-01且系统标记过时，不用于当前判断: query_indicators(category="macro", country="us", time_range="7d") = returned values
+- 2026-08-08 NVIDIA相关新闻：NVIDIA股价盘后约上涨2%，报道称SpaceX将专用NVIDIA硬件但交易金额未披露；Longbridge新闻摘要: query_longbridge_by_route(news/company, {"symbol":"NVDA.US"}) = returned news
+
+- NVIDIA FY2027第一季度营收: QueryLongbridgeByRouteTool（prompt已有接力稿数据；具体路由参数未提供） = 816.15亿美元
+- NVIDIA FY2027第一季度营业利润: QueryLongbridgeByRouteTool（prompt已有接力稿数据；具体路由参数未提供） = 535.36亿美元
+- NVIDIA FY2027第一季度净利润: QueryLongbridgeByRouteTool（prompt已有接力稿数据；具体路由参数未提供） = 583.21亿美元
+- NVIDIA FY2027第一季度基本每股收益: QueryLongbridgeByRouteTool（prompt已有接力稿数据；具体路由参数未提供） = 2.39美元
+- NVIDIA FY2027第一季度营收一致预期: QueryLongbridgeByRouteTool（prompt已有接力稿数据；具体路由参数未提供） = 791.16亿美元
+- NVIDIA FY2027第一季度GAAP EPS一致预期: QueryLongbridgeByRouteTool（prompt已有接力稿数据；具体路由参数未提供） = 1.7413美元
+- NVIDIA FY2027第二至第四季度营收一致预期: QueryLongbridgeByRouteTool（prompt已有接力稿数据；具体路由参数未提供） = 918.46/1031.31/1161.05亿美元
+- NVIDIA当前PE及历史高位/低位/中位数: QueryLongbridgeByRouteTool（prompt已有接力稿数据；具体路由参数未提供） = 33.37/50.46/33.37/44.41倍
+- NVIDIA拟向Lancium投资最高金额及首期金额: QueryRawItemsTool（keyword=semiconductor,chip,TSMC,NVIDIA,HBM,AI；source=telegram:Financial_Express；查询日期2026-08-08） = 最高30亿美元，首期约20亿美元
+- 美国7月核心CPI年率预期: QueryCalendarEvents（country=US,days=30,importance=high,medium） = 2.5%（前值2.6%，事件日期2026-08-12）
+- 美国7月CPI年率预期: QueryCalendarEvents（country=US,days=30,importance=high,medium） = 3.4%（前值3.5%，事件日期2026-08-12）
+- 近期重大事件扫描: QueryRawItemsTool（keyword=semiconductor,chip,TSMC,NVIDIA,HBM,AI；source=telegram:Financial_Express/longbridge；查询日期2026-08-08） = 数据库未返回原始条目；正文对接力稿已提供的新闻均保留为待独立核验报道，不将其升级为正式公告
+
+- 近期半导体重大事件扫描（2026-08-08）：QueryRawItemsTool(keyword="semiconductor,chip,TSMC,NVIDIA,HBM,CoWoS,export control", source="telegram:Financial_Express", limit=40) = 未返回原始条目
+- 近期半导体新闻补充扫描（2026-08-08）：QueryRawItemsTool(keyword="NVIDIA,TSMC,HBM,semiconductor,chip", source="", limit=50) = 未返回原始条目
+- 美国未来14日事件：QueryCalendarEvents(country="US", days=14, importance="high,medium", limit=20) = 2026-08-11至13美国财政部拟标售逾千亿美元国债；数据库返回的未来事件未确认美国7月CPI发布时间/数值
+- 美国宏观快照：query_indicators(category="macro", country="us", time_range="7d", limit=20) = 美联储资产负债表6,748,567（数据库原始单位，2026-08-05）；CPI等其他快照为2026-06-01并被标记过时，不用于当前判断
+- 近期重大公司事件扫描（2026-08-08）：QueryLongbridgeByRouteTool(news/company) 本轮未能成功取得新增可复核结果；正文仅保留既有 reference.md 已记录的报道，并标注未独立确认
+
+- 近期半导体新闻扫描（查询时间2026-08-08）：query_raw_items(keyword="semiconductor", limit=50, source=null, status=null) = 返回包括 Huawei 半导体首席科学家访谈（2026-08-07）、中国半导体法律定义变化（2026-08-04）、TSMC美国投资扩大至2650亿美元（2026-07-17）等条目
+- 近期NVIDIA新闻扫描（查询时间2026-08-08）：query_raw_items(keyword="NVIDIA", limit=30, source=null, status=null) = 返回NVIDIA Vera白皮书（2026-08-05）、CUDA面临AI coding agents威胁（2026-08-03）、与SSI长期战略合作（2026-07-31）、Texas数据中心500亿美元租赁（2026-07-28）、中国审查相关会面（2026-07-28）、约7500亿美元交易引发循环投资担忧（2026-07-27）等条目
+- 近期TSMC新闻扫描（查询时间2026-08-08）：query_raw_items(keyword="TSMC", limit=30, source=null, status=null) = 返回2026-07-21最高10%/25%涨价报道、2026-07-19亚利桑那扩建、2026-07-17美国投资扩大至2650亿美元、2026-07-16上调销售和资本开支展望等条目
+- 近期HBM新闻扫描（查询时间2026-08-08）：query_raw_items(keyword="HBM", limit=30, source=null, status=null) = 返回JEDEC发布SPHBM4标准及三星发布zHBM/zNAND-O/BV-NAND（2026-08-08）、SK海力士HBM4量产出货及扩产报道（2026-07-28至29）、三星预计Q3 HBM4销售额环比增长逾两倍（2026-07-30）、2027年DRAM/HBM供给紧张及Rubin Ultra可能降配报道（2026-08-03至07）
+- 新闻路由独立检索：search_routes(category="stock", keyword="news,company") = 未找到匹配路由；因此未能通过该工具成功执行news/company二次核验

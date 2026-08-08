@@ -1,0 +1,39 @@
+- Grok相关最新条目：Grok Imagine Image 2.0（2026-08-08）、Grok Build 1.0远程工作区命令（2026-08-07），来源 query_raw_items(keyword=grok, source=telegram:Financial_Express) = 返回源实际含 hackernews/blockbeats，未得到 Financial_Express 条目
+- Agentic AI：Goldman Sachs在规模化软件工程中使用Agentic AI（2026-08-07），来源 query_raw_items(keyword=agentic ai, source=telegram:Financial_Express) = 返回 hackernews
+- CRISPR：CRISPR酶可通过破坏DNA杀死癌细胞（2026-07-25），来源 query_raw_items(keyword=crispr, source=telegram:Financial_Express) = 返回 hackernews
+- GLP-1：GLP-1减重追踪器（2026-08-07）、Medicare开始覆盖减重用途GLP-1（2026-07-01），来源 query_raw_items(keyword=glp-1, source=telegram:Financial_Express) = 返回 hackernews/solidot
+- 核聚变：离子束设备商已批量导入光通信、核聚变、量子计算头部客户（2026-07-20）；旭光电子称2026年初至今核聚变相关产品尚未交付实现收入（2026-06-18），来源 query_raw_items(keyword=核聚变, source=telegram:Financial_Express) = 返回 36kr
+- 人形机器人：小鹏人形机器人小批量试生产、量产产线进入最后联调（2026-07-24）；行业出现电量焦虑并探索换电（2026-07-31），来源 query_raw_items(keyword=人形机器人, source=telegram:Financial_Express) = 返回 36kr/nytimes_chinese
+- Robotaxi：Zoox获准开展无人工控制的付费Robotaxi（2026-07-30）；伦敦Robotaxi获运营许可（2026-08-05），来源 query_raw_items(keyword=robotaxi, source=telegram:Financial_Express) = 返回 hackernews/36kr
+- 脑机接口：南京熊猫披露暂无成熟产品及销售收入（2026-07-28）；脑虎科技启动GCP注册临床试验（2026-07-07），来源 query_raw_items(keyword=脑机接口, source=telegram:Financial_Express) = 返回 36kr
+- AI制药：字节AI制药开启拆分融资，报道指向AI4S产业化阶段（2026-06-10），来源 query_raw_items(keyword=AI 制药, source=telegram:Financial_Express) = 返回 36kr
+- 美国宏观：美联储资产负债表 6,748,567.0（2026-08-05），来源 query_indicators(category=macro, country=us, time_range=7d) = openbb；美国CPI同比3.5%（2026-06-01，68天前，非最新），同源工具并标注时效风险
+- 实时报价：NVDA.US 223.96美元、日涨2.27%（行情有15分钟延迟）；TSLA.US 328.58美元、日涨2.83%；LLY.US 1,185.71美元、日跌0.52%；NVO.US 47.26美元、日涨2.81%，来源 market_quote(symbols=NVDA.US,TSLA.US,LLY.US,NVO.US)
+- 估值、财务、一致预期及公司新闻路由：search_routes/list_routes 未发现 stock 路由，当前数据缺失，不能据此量化市场定价
+
+- Goldman Sachs 将 Agentic AI 用于规模化软件工程（2026-08-07）: query_raw_items(keyword='agentic ai',source='telegram:Financial_Express') = Hacker News 条目（工具返回来源为 hackernews）
+- Agentic AI 安全讨论包含 7,020 次试验，框架选择解释力有限（2026-07-31）: query_raw_items(keyword='agentic ai',source='telegram:Financial_Express') = Hacker News 条目
+- Zoox 获准无人工控制付费 Robotaxi 运营（2026-07-30）: query_raw_items(keyword='robotaxi',source='telegram:Financial_Express') = Hacker News 条目
+- Robotaxi 获准在伦敦运营（2026-08-05）: query_raw_items(keyword='robotaxi',source='telegram:Financial_Express') = Hacker News 条目
+- NVIDIA Alpamayo 2 开放自动驾驶商业授权（2026-08-05）: query_raw_items(keyword='robotaxi',source='telegram:Financial_Express') = 36Kr 条目
+- 小鹏人形机器人小批量试生产、产线联调（2026-07-24）: query_raw_items(keyword='人形机器人',source='36kr') = 36Kr 条目
+- 人形机器人出现电量焦虑、探索换电路线（2026-07-31）: query_raw_items(keyword='人形机器人',source='36kr') = 36Kr 条目
+- CRISPR 酶选择性杀伤癌细胞（2026-07-25）: query_raw_items(keyword='crispr',source='telegram:Financial_Express') = Hacker News 条目
+- 字节 AI 制药启动拆分融资（2026-06-10）: query_raw_items(keyword='AI 制药',source='36kr') = 36Kr 条目
+- Medicare 开始覆盖减重 GLP-1 药物（2026-07-01）: query_raw_items(keyword='GLP-1',source='hackernews') = Hacker News 条目
+- 核聚变相关产品尚未交付实现收入（2026-06-18）: query_raw_items(keyword='核聚变',source='telegram:Financial_Express') = 36Kr 条目
+- 离子束设备批量导入光通信、核聚变和量子计算头部客户（2026-07-20）: query_raw_items(keyword='核聚变',source='telegram:Financial_Express') = 36Kr 条目
+- IBM 声称达到量子优势（2026-08-03）: query_raw_items(keyword='quantum',source='hackernews') = Hacker News 条目
+- 南京熊猫尚无脑机接口成熟产品及销售收入（2026-07-28）: query_raw_items(keyword='脑机接口',source='36kr') = 36Kr 条目
+- 美国宏观指标：查询返回 0 个指标（7d）: query_indicators(category='monetary_credit',country='us',time_range='7d') = 0 indicators
+- 全市场情绪指标：查询返回 0 个指标（7d）: query_indicators(category='sentiment',country='',time_range='7d') = 0 indicators
+- Longbridge 股票估值/一致预期/新闻路由：搜索未找到可用路由: search_routes(category='stock',keyword='fundamental valuation consensus news company') = 未找到路由
+
+- Agentic AI进入软件工程：Hacker News新闻（2026-08-07）= How Goldman Sachs Is Using Agentic AI for Software Engineering at Scale
+- Agentic AI安全试验：Hacker News新闻（2026-07-31）= Framework choice explains ~0.06% of agentic AI security outcome (7,020 trials)
+- Robotaxi监管/商业化：Hacker News新闻（2026-07-30）= Amazon's Zoox wins first US approval for paid robotaxis with no human controls
+- Robotaxi伦敦许可：Hacker News新闻（2026-08-05）= Robotaxis granted licence to operate in London
+- Robotaxi模型：36kr新闻（2026-08-05）= 英伟达发布Alpamayo 2 Super自动驾驶模型，开放商业授权助推Robotaxi规模化部署
+- 量子计算进展：Hacker News新闻（2026-08-06）= D-Wave shows off its new entry in quantum computing race
+- 美国宏观指标：query_indicators(category=monetary_credit,country=us,time_range=7d)=返回0项指标，当前缺少可用宏观数据
+- 美国市场情绪：query_indicators(category=sentiment,country=us,time_range=7d)=返回0项指标，当前缺少可用情绪数据

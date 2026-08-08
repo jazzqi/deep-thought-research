@@ -1,0 +1,13 @@
+- Grok 相关：hackernews 最新条目为《Grok Imagine Image 2.0》（2026-08-08），并有《xAI's Grok Build 1.0 ships an undocumented remote-workspace command》（2026-08-07）: query_raw_items({"keyword":"grok","source":"telegram:Financial_Express","limit":10}) = 条目返回源实际包含 hackernews/blockbeats，未见 telegram:Financial_Express
+- Agentic AI：Goldman Sachs 使用 Agentic AI 进行规模化软件工程（2026-08-07）；Agentic AI 能耗讨论（2026-08-06）: query_raw_items({"keyword":"agentic ai","source":"hackernews","limit":10}) = 返回对应标题与日期
+- CRISPR：CRISPR 酶通过撕裂 DNA 杀死癌细胞（2026-07-25）: query_raw_items({"keyword":"crispr","source":"telegram:Financial_Express","limit":10}) = 返回 hackernews 条目
+- GLP-1：GLP-1 减重追踪器（2026-08-07）；劳动市场影响讨论（2026-08-06）: query_raw_items({"keyword":"glp-1","source":"telegram:Financial_Express","limit":10}) = 返回 hackernews/solidot 条目
+- 核聚变：离子束装备商已批量导入光通信、核聚变、量子计算头部客户（2026-07-20）；旭光电子称2026年初至今核聚变相关产品尚未交付实现收入（2026-06-18）: query_raw_items({"keyword":"核聚变","source":"telegram:Financial_Express","limit":10}) = 返回36kr条目
+- 人形机器人：小鹏人形机器人小批量试生产、量产产线进入最后联调（2026-07-24）；行业出现电量焦虑（2026-07-31）: query_raw_items({"keyword":"人形机器人","source":"telegram:Financial_Express","limit":10}) = 返回36kr条目
+- Robotaxi：Zoox 获得无人工控制付费Robotaxi首个美国批准（2026-07-30）；伦敦Robotaxi获运营许可（2026-08-05）: query_raw_items({"keyword":"robotaxi","source":"telegram:Financial_Express","limit":10}) = 返回hackernews条目
+- 量子：2026-08-06至08-08出现格点问题多项式时间量子算法主张及D-Wave进展条目: query_raw_items({"keyword":"quantum","source":"telegram:Financial_Express","limit":10}) = 返回hackernews条目
+- 脑机接口：南京熊猫称无成熟产品且无相关销售收入（2026-07-28）；Neuralink估值突破420亿美元（2026-07-22）: query_raw_items({"keyword":"脑机接口","source":"telegram:Financial_Express","limit":10}) = 返回36kr条目
+- AI制药：字节AI制药拆分融资，报道指AI4S进入产业化阶段（2026-06-10）: query_raw_items({"keyword":"AI 制药","source":"telegram:Financial_Express","limit":10}) = 返回36kr条目
+- 美国宏观：美国联储资产负债表 6,748,567（数据日期2026-08-05）: query_indicators({"category":"macro","country":"us","limit":10,"time_range":"7d"}) = fed_balance_sheet 6748567.0，数据新鲜度3天
+- 美国宏观：美国CPI同比3.5%（数据日期2026-06-01，查询时68天前，非90天但明显滞后）: query_indicators({"category":"macro","country":"us","limit":10,"time_range":"7d"}) = cpi_yoy_us_pct 3.5
+- 行情快照（15分钟延迟）：NVDA.US 223.96，日涨幅+2.27%；TSLA.US 328.58，+2.83%；LLY.US 1185.71，-0.52%；NVO.US 47.26，+2.81%；RXRX.US 3.22，+1.26%: market_quote({"symbols":["NVDA.US","TSLA.US","LLY.US","NVO.US","RXRX.US"]}) = 对应报价

@@ -1,0 +1,13 @@
+- NVDA.US 实时报价: market_quote({"symbols":["NVDA.US","AMD.US","TSM.US","ASML.US","MU.US"]}) = 223.96美元，+2.27%（工具返回快照）
+- AMD.US 实时报价: market_quote({"symbols":["NVDA.US","AMD.US","TSM.US","ASML.US","MU.US"]}) = 483.36美元，-1.21%（工具返回快照）
+- TSM.US 实时报价: market_quote({"symbols":["NVDA.US","AMD.US","TSM.US","ASML.US","MU.US"]}) = 420.04美元，+0.44%（工具返回快照）
+- ASML.US 实时报价: market_quote({"symbols":["NVDA.US","AMD.US","TSM.US","ASML.US","MU.US"]}) = 1740.99美元，+2.15%（工具返回快照）
+- MU.US 实时报价: market_quote({"symbols":["NVDA.US","AMD.US","TSM.US","ASML.US","MU.US"]}) = 877.57美元，-0.44%（工具返回快照）
+- NVDA.US 日线趋势: market_kline({"symbol":"NVDA.US","period":"1d","count":120,"indicators":"ema21,ema60,macd,rsi14","secondary_period":"1w","secondary_count":52}) = 收223.96美元；EMA21 207.73美元 > EMA60 204.55美元；RSI14 64.42；规则判定上升·高位
+- TSM.US 日线趋势: market_kline({"symbol":"TSM.US","period":"1d","count":120,"indicators":"ema21,ema60,macd,rsi14","secondary_period":"1w","secondary_count":52}) = 收420.04美元；EMA21 413.50美元 > EMA60 412.29美元；RSI14 52.23；规则判定盘整·中位
+- MU.US 日线趋势: market_kline({"symbol":"MU.US","period":"1d","count":120,"indicators":"ema21,ema60,macd,rsi14","secondary_period":"1w","secondary_count":52}) = 收877.57美元；EMA21 897.02美元 > EMA60 867.61美元；RSI14 47.64；规则判定盘整·中位、缩量回调
+- 美国联储资产负债表: query_indicators({"category":"macro","country":"us","time_range":"7d","limit":20}) = 6748567.0，数据日期2026-08-05，来源openbb
+- 美国ISM PMI: query_indicators({"category":"pmi","country":"us","time_range":"7d","limit":10}) = 48.7，数据日期2025-09-02，来源akshare；工具标记⚠️过时，不用于当前判断
+- 美国7月核心CPI年率预定事件: query_calendar_events({"country":"US","days":30,"importance":"high,medium","limit":30}) = 事件日期2026-08-12，前值2.6%，预测2.5%，实际值未发布
+- 半导体相关新闻: query_raw_items({"keyword":"semiconductor OR chip OR TSMC OR 台积电 OR Samsung OR SK hynix OR HBM OR CoWoS OR ASML OR foundry OR export control OR AI capex","source":"telegram:Financial_Express","limit":30}) = No raw items found；longbridge、reuters同类查询亦无结果
+- 上市公司基本面/估值/一致预期/公司新闻路由: search_routes({"category":"stock","keyword":"financials/consensus/valuation/news/company/NVDA"}) = 未找到相关路由；暂无有效公司财务、估值、一致预期与最新新闻数据

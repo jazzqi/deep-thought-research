@@ -1,0 +1,104 @@
+- Agentic AI 在高盛软件工程规模化使用：query_raw_items({"keyword":"agentic AI","source":"longbridge"}) = 新闻标题“How Goldman Sachs Is Using Agentic AI for Software Engineering at Scale”，2026-08-07
+- Robotaxi 获准在伦敦运营：query_raw_items({"keyword":"robotaxi","source":"hackernews"}) = “Robotaxis granted licence to operate in London”，2026-08-05
+- Zoox 获准开展无人工控制付费Robotaxi：query_raw_items({"keyword":"robotaxi","source":"hackernews"}) = “Amazon's Zoox wins first US approval for paid robotaxis with no human controls”，2026-07-30
+- 英伟达发布Alpamayo 2 Super并开放商业授权：query_raw_items({"keyword":"robotaxi","source":"36kr"}) = 新闻标题，2026-08-05
+- 人形机器人小鹏小批量试生产、产线联调：query_raw_items({"keyword":"人形机器人","source":"36kr"}) = 新闻标题，2026-07-24
+- 人形机器人存在电量焦虑：query_raw_items({"keyword":"人形机器人","source":"36kr"}) = 新闻标题，2026-07-31
+- 核聚变相关产品尚未交付实现收入：query_raw_items({"keyword":"核聚变","source":"36kr"}) = 旭光电子新闻标题，2026-06-18
+- 核聚变离子束装备已批量导入头部客户：query_raw_items({"keyword":"核聚变","source":"36kr"}) = 新闻标题，2026-07-20
+- AI制药进入产业化阶段的报道：query_raw_items({"keyword":"AI 制药","source":"36kr"}) = 字节AI制药拆分融资新闻标题，2026-06-10
+- AI药物发现平台ReefIQ发布：query_raw_items({"keyword":"AI drug","source":"longbridge"}) = MindWalk新闻标题，2026-06-22
+- CRISPR选择性杀死癌细胞报道：query_raw_items({"keyword":"crispr","source":"hackernews"}) = 新闻标题，2026-07-25
+- 脑机接口公司缺乏成熟产品与收入：query_raw_items({"keyword":"脑机接口","source":"36kr"}) = 南京熊猫澄清新闻标题，2026-07-28
+- 脑机接口跨地域上千人同步脑电采集：query_raw_items({"keyword":"脑机接口","source":"36kr"}) = 新闻标题，2026-07-23
+- NVDA 实时报价：market_quote({"symbols":["NVDA.US"]}) = 223.96美元，日涨幅2.27%，2026-08-08查询
+- NVDA 当前PE：query_longbridge_by_route(fundamental/valuation/pe,{"symbol":"NVDA.US"}) = 33.37倍；历史高50.46倍、中位44.41倍
+- NVDA FY2026营收和净利润：query_longbridge_by_route(fundamental/financials/income,{"symbol":"NVDA.US","period":"annual"}) = 营收215,938,000,000美元、净利润120,067,000,000美元
+- NVDA一致预期Q1 FY2027：query_longbridge_by_route(fundamental/consensus,{"symbol":"NVDA.US"}) = 营收81,615,000,000美元实际、预期79,115,709,670美元，Beat；GAAP EPS 2.39美元实际、预期1.7413美元，Beat
+- NVDA近期新闻涉及AI工厂、能源投资和客户绑定：query_longbridge_by_route(news/company,{"symbol":"NVDA.US"}) = 2026-08-08多条新闻，包括拟向Lancium投资最高30亿美元、Firebird计划2027年部署逾70,000枚GPU、SpaceX使用英伟达硬件
+- TSLA当前PE：query_longbridge_by_route(fundamental/valuation/pe,{"symbol":"TSLA.US"}) = 256.36倍；历史高395.36倍、中位317.85倍
+- TSLA一致预期Q2 FY2026：query_longbridge_by_route(fundamental/consensus,{"symbol":"TSLA.US"}) = 营收28,236,000,000美元实际、预期26,428,492,190美元，Beat；GAAP EPS 0.32美元实际、预期0.3203美元，Miss
+- TSLA近期新闻含FSD法律责任与卖方评级：query_longbridge_by_route(news/company,{"symbol":"TSLA.US"}) = 2026-08-08新闻称FSD驾驶者收到超速罚单且仍需人类监督；Jefferies维持Hold、目标价350美元
+- NVO当前PE：query_longbridge_by_route(fundamental/valuation/pe,{"symbol":"NVO.US"}) = 10.66倍；历史高15.04倍、中位13.38倍
+- 美国7月CPI预定发布：query_calendar_events({"country":"US","days":14,"importance":"high,medium"}) = 2026-08-12，美国7月CPI年率预期3.4%、核心CPI年率预期2.5%
+- 美国宏观指标数据库无可用美国指标快照：query_indicators({"category":"monetary_credit","country":"us","time_range":"7d"}) = 0 indicators
+
+- Goldman Sachs 使用 Agentic AI 进行规模化软件工程（2026-08-07）: query_raw_items(keyword='agentic ai',source='hackernews',limit=10) = Hacker News 标题与日期
+- Zoox 获准开始付费、无人工控制 Robotaxi（2026-07-30）: query_raw_items(keyword='robotaxi',source='telegram:Financial_Express',limit=10) = 返回 Hacker News 条目
+- Robotaxi 获准在伦敦运营（2026-08-05）: query_raw_items(keyword='robotaxi',source='telegram:Financial_Express',limit=10) = 返回 Hacker News 条目
+- 英伟达 Alpamayo 2 Super 自动驾驶模型开放商业授权（2026-08-05）: query_raw_items(keyword='robotaxi',source='telegram:Financial_Express',limit=10) = 返回 36kr 条目
+- CRISPR 酶选择性杀死癌细胞（2026-07-25）: query_raw_items(keyword='crispr',source='hackernews',limit=10) = Hacker News 条目
+- Grok Imagine Image 2.0（2026-08-08）: query_raw_items(keyword='grok',source='telegram:Financial_Express',limit=10) = 返回 Hacker News 条目
+- xAI Grok Build 1.0 发布 remote-workspace 命令（2026-08-07）: query_raw_items(keyword='grok',source='telegram:Financial_Express',limit=10) = 返回 Hacker News 条目
+- NVDA.US 223.96 美元、较前收盘+2.27%（查询时点，15分钟延迟）: market_quote(symbols=['NVDA.US','TSLA.US','NVO.US','LLY.US','CRSP.US') = 实时报价
+- TSLA.US 328.58 美元、较前收盘+2.83%（查询时点，15分钟延迟）: market_quote(symbols=['NVDA.US','TSLA.US','NVO.US','LLY.US','CRSP.US') = 实时报价
+- NVO.US 47.26 美元、较前收盘+2.81%（查询时点，15分钟延迟）: market_quote(symbols=['NVDA.US','TSLA.US','NVO.US','LLY.US','CRSP.US') = 实时报价
+- LLY.US 1185.71 美元、较前收盘-0.52%（查询时点，15分钟延迟）: market_quote(symbols=['NVDA.US','TSLA.US','NVO.US','LLY.US','CRSP.US') = 实时报价
+- CRSP.US 53.52 美元、较前收盘+3.64%（查询时点，15分钟延迟）: market_quote(symbols=['NVDA.US','TSLA.US','NVO.US','LLY.US','CRSP.US') = 实时报价
+- 美国货币信用分类查询无有效指标: query_indicators(category='monetary_credit',country='us',limit=10,time_range='7d') = 0 indicators
+- 全市场情绪分类查询无有效指标: query_indicators(category='sentiment',country='',limit=10,time_range='24h') = 0 indicators
+
+- 美国联储资产负债表: query_indicators({category:"monetary_credit",country:"us",time_range:"7d"}) = 6748567.0（数据日期2026-08-05）
+- 美国CPI同比: query_indicators({category:"macro",country:"us",time_range:"7d"}) = 3.5（数据日期2026-06-01；工具标记数据较旧，不用于当前判断）
+- Goldman Sachs规模化使用Agentic AI进行软件工程: query_raw_items({keyword:"agentic ai",source:"telegram:Financial_Express"}) = 未返回该source结果；query_raw_items({keyword:"agentic ai",source:"hackernews"}) = How Goldman Sachs Is Using Agentic AI for Software Engineering at Scale（2026-08-07）
+- Agentic AI安全测试覆盖7020次试验: query_raw_items({keyword:"agentic ai",source:"hackernews"}) = Framework choice explains ~0.06% of agentic AI security outcome (7,020 trials)（2026-07-31）
+- Robotaxi伦敦获运营许可: query_raw_items({keyword:"robotaxi",source:"telegram:Financial_Express"}) = 未返回该source结果；query_raw_items({keyword:"robotaxi",source:"hackernews"}) = Robotaxis granted licence to operate in London（2026-08-05）
+- Zoox获准无人工控制开展付费Robotaxi: query_raw_items({keyword:"robotaxi",source:"hackernews"}) = Amazon's Zoox wins first US approval for paid robotaxis with no human controls（2026-07-30）
+- NVIDIA开放Alpamayo 2 Super自动驾驶模型商业授权: query_raw_items({keyword:"robotaxi",source:"telegram:Financial_Express"}) = 未返回该source结果；query_raw_items({keyword:"robotaxi",source:"36kr"}) = 英伟达发布Alpamayo 2 Super自动驾驶模型，开放商业授权助推Robotaxi规模化部署（2026-08-05）
+- 小鹏人形机器人小批量试生产、产线联调: query_raw_items({keyword:"人形机器人",source:"36kr"}) = 小鹏人形机器人正小批量试生产，量产产线进入最后联调阶段（2026-07-24）
+- 人形机器人电量焦虑/探索换电: query_raw_items({keyword:"人形机器人",source:"36kr"}) = 人形机器人现“电量焦虑”，行业正在积极探索换电等不同路线（2026-07-31）
+- 字节AI制药拆分融资: query_raw_items({keyword:"AI 制药",source:"36kr"}) = 独家｜字节 AI 制药开启拆分融资，AI4S 进入产业化阶段（2026-06-10）
+- CRISPR酶选择性杀死癌细胞报道: query_raw_items({keyword:"crispr",source:"hackernews"}) = CRISPR enzyme kills cancer cells by shredding their DNA（2026-07-25）
+- 核聚变供应链批量导入客户: query_raw_items({keyword:"核聚变",source:"36kr"}) = 离子束装备商获超亿元融资，已批量导入光通信、核聚变、量子计算头部客户（2026-07-20）
+- 核聚变相关产品尚未交付形成收入: query_raw_items({keyword:"核聚变",source:"36kr"}) = 11天6板旭光电子：2026年初至今，公司可控核聚变相关产品尚未交付实现收入（2026-06-18）
+- 固态电池材料量产计划: query_raw_items({keyword:"solid state battery",source:"solidot"}) = 未返回结果；query_raw_items({keyword:"solid state battery",source:"36kr"}) = 住友化学计划量产电动车固态电池材料（2026-07-21）
+- 脑机接口标准与商业化反证: query_raw_items({keyword:"脑机接口",source:"36kr"}) = 8月1日起涉及脑机接口等488项国家标准将实施（2026-07-31）；南京熊猫：公司尚无与脑机接口相关的成熟产品，亦未形成相关销售收入（2026-07-28）
+- 脑机接口注册临床试验: query_raw_items({keyword:"脑机接口",source:"36kr"}) = 脑虎科技“三全”脑机接口系统正式启动GCP注册临床试验（2026-07-07）
+- 量子计算设备客户与容错路线图: query_raw_items({keyword:"量子计算",source:"36kr"}) = 离子束设备批量导入光通信、核聚变和量子计算头部客户（2026-07-20）；IBM仍按计划在2029年前交付首台大规模容错量子计算机（2026-07-14）
+- Longbridge估值/财务/一致预期/公司新闻: search_routes({category:"stock",keyword:"AI,robotics,biotech,energy,valuation,consensus,news"}) = 未找到相关路由；本轮未使用具体公司估值或一致预期数字
+
+- Agentic AI 企业采用案例：query_raw_items(keyword=agentic AI, source=hackernews) = “How Goldman Sachs Is Using Agentic AI for Software Engineering at Scale”（2026-08-07）；未披露任务成功率、续费率、每任务成本或财务回报。
+- Robotaxi 许可进展：query_raw_items(keyword=robotaxi, source=hackernews) = Zoox 获准启动无人工控制付费 Robotaxi（2026-07-30）；Robotaxis 获准在伦敦运营（2026-08-05）；许可不等于盈利规模化。
+- 自动驾驶模型商业授权：query_raw_items(keyword=robotaxi, source=36kr) = 英伟达发布 Alpamayo 2 Super 自动驾驶模型并开放商业授权（2026-08-05）。
+- CRISPR 研究进展：query_raw_items(keyword=CRISPR, source=hackernews) = CRISPR 酶可通过破坏 DNA 杀死癌细胞（2026-07-25）；条目未提供临床终点、监管批准或商业收入。
+- AI 制药产业化信号：query_raw_items(keyword=AI 制药, source=telegram:Financial_Express) = 字节 AI 制药开启拆分融资，AI4S 进入产业化阶段（2026-06-10）；未提供候选药临床终点或销售收入。
+- 核聚变产业证据：query_raw_items(keyword=核聚变, source=telegram:Financial_Express) = 未返回条目；补充 query_raw_items(keyword=核聚变, source=36kr) 显示旭光电子相关产品截至2026年初尚未交付实现收入（2026-06-18），并有融资、磁体研发等工程进展，未证明持续净发电或并网收入。
+- 美国宏观数据：query_indicators(category=monetary_credit, country=us, time_range=7d) = 0 indicators；本稿不使用未检索到的利率/流动性数值。
+- 美国未来事件：query_calendar_events(country=US, days=30, importance=high,medium) = 2026-08-11至13美国财政部计划标售逾千亿美元国债；纽约联储7月通胀预期将于2026-08-10发布，前值1年3.7%、3年3.3%。
+- NVIDIA 公司新闻：query_longbridge_by_route(path=news/company, params={"symbol":"NVDA.US","count":10}) = 报道英伟达拟投资最多30亿美元于Lancium（2026-08-08，Reuters条目称首笔20亿美元约持股20%，交易尚待公司确认）；Firebird计划到2027年部署逾7万块GPU（2026-08-08）；SpaceX拟扩大采用NVIDIA硬件（2026-08-08）。
+- Tesla 公司新闻：query_longbridge_by_route(path=news/company, params={"symbol":"TSLA.US","count":10}) = Colorado一名使用FSD的车主因超速被罚，警方认定仍需人类监督（2026-08-08）；Jefferies维持Hold、目标价350美元（2026-08-08）；条目另报8月7日股价上涨3.31%，但短期价格不作为范式迁移证据。
+- 估值与财务：本轮未成功取得可核验的最新财务、估值及一致预期路由数据；不写具体PE、收入、利润或目标价共识结论。
+- NVIDIA公司新闻：query_longbridge_by_route(news/company,{"symbol":"NVDA.US","count":10}) = 2026-08-08报道称NVIDIA可能向Lancium投资最多30亿美元，交易尚待确认；另有Firebird计划2027年部署逾70,000枚GPU的报道（部分条目时间晚于本报告截点，未用于当前时点判断）
+- Tesla公司新闻：query_longbridge_by_route(news/company,{"symbol":"TSLA.US","count":10}) = 2026-08-08报道称Colorado一名使用FSD的车主以64英里/小时行驶于限速45英里/小时道路并收罚单，警方认定仍需人类监督；Jefferies维持Hold、目标价350美元
+- NVDA估值：既有Longbridge查询记录 fundamental/valuation/pe({"symbol":"NVDA.US"}) = PE 33.37倍；历史高50.46倍、中位44.41倍
+- NVDA FY2026财务：既有Longbridge查询记录 fundamental/financials/income({"symbol":"NVDA.US","period":"annual"}) = 营收215,938,000,000美元、净利润120,067,000,000美元
+- NVDA一致预期：既有Longbridge查询记录 fundamental/consensus({"symbol":"NVDA.US"}) = Q1 FY2027营收实际81,615,000,000美元、预期79,115,709,670美元；GAAP EPS实际2.39美元、预期1.7413美元
+- TSLA估值：既有Longbridge查询记录 fundamental/valuation/pe({"symbol":"TSLA.US"}) = PE 256.36倍；历史高395.36倍、中位317.85倍
+- TSLA一致预期：既有Longbridge查询记录 fundamental/consensus({"symbol":"TSLA.US"}) = Q2 FY2026营收实际28,236,000,000美元、预期26,428,492,190美元；GAAP EPS实际0.32美元、预期0.3203美元
+- 美国联储资产负债表：query_indicators({"category":"monetary_credit","country":"us","time_range":"7d"}) = 6,748,567.0，数据日期2026-08-05
+- 美国7月CPI前瞻：query_calendar_events({"country":"US","days":14,"importance":"high,medium"}) = 2026-08-12，年率预期3.4%、核心CPI年率预期2.5%
+- 美国货币信用其他指标：query_indicators({"category":"monetary_credit","country":"us","time_range":"7d"}) = 无有效指标返回，不据此判断当前利率或流动性
+
+- NVIDIA公司新闻：query_longbridge_by_route(news/company,{"symbol":"NVDA.US","count":10}) = 2026-08-08报道Firebird计划到2027年部署逾70,000枚GPU；报道NVIDIA拟向Lancium投资最多30亿美元，交易尚待确认；SpaceX拟扩大采用NVIDIA硬件。
+- Tesla公司新闻：query_longbridge_by_route(news/company,{"symbol":"TSLA.US","count":10}) = 2026-08-08报道Colorado一名使用FSD的车主因超速被罚，警方认定仍需人类监督；Jefferies维持Hold、目标价350美元。
+- 美国宏观数据：query_indicators({"category":"monetary_credit","country":"us","limit":10,"time_range":"7d"}) = 返回10个快照但0个有效指标，不据此编造当前利率/流动性判断。
+- 美国未来事件：query_calendar_events({"country":"US","days":14,"importance":"high,medium","limit":20}) = 2026-08-10至13纽约联储通胀预期、美国财政部标售逾千亿美元国债等事件；均为预定事件，非已实现数据。
+
+- 本轮最终整合沿用的 Agentic AI、Robotaxi、人形机器人、AI 制药、CRISPR、核聚变、固态电池、脑机接口、量子计算新闻与日期：ReadThemeDocsTool(themes/disruptive-innovation/_history/2026-08-08_1955__manual__demo_product_query_raw_items_keyword_source_grok_agentic_ai/reference.md) = 已有 query_raw_items 溯源条目
+- 本轮最终整合沿用的 NVDA、TSLA 财务、估值、分析师一致预期及公司新闻：ReadThemeDocsTool(themes/disruptive-innovation/_history/2026-08-08_1955__manual__demo_product_query_raw_items_keyword_source_grok_agentic_ai/reference.md) = 已有 query_longbridge_by_route 溯源条目
+- 本轮最终整合沿用的美国宏观指标与未来事件：ReadThemeDocsTool(themes/disruptive-innovation/_history/2026-08-08_1955__manual__demo_product_query_raw_items_keyword_source_grok_agentic_ai/reference.md) = 已有 query_indicators/query_calendar_events 溯源条目
+
+- Agentic AI 最新新闻：Goldman Sachs规模化软件工程案例（2026-08-07），安全框架与7,020次试验（2026-07-31）: query_raw_items(keyword='agentic AI', limit=30, source=null, status=null) = hackernews条目
+- Robotaxi 最新新闻：Zoox获准无人工控制付费运营（2026-07-30）、伦敦Robotaxi获运营许可（2026-08-05）、NVIDIA Alpamayo 2 Super开放商业授权（2026-08-05）、Uber拟投入100亿美元（2026-08-05）: query_raw_items(keyword='robotaxi', limit=30, source=null, status=null) = hackernews/36kr条目
+- NVIDIA 最新新闻：Alpamayo 2 Super、数据中心/芯片与AI基础设施相关条目: query_raw_items(keyword='NVIDIA', limit=30, source=null, status=null) = hackernews条目
+- Tesla 最新新闻：Tesla/SpaceX拟投入168亿美元建设Terafab（2026-08-06/07）、盈利下滑与自由现金流转负报道（2026-07-23/24）、FSD超速罚单与致命事故报道: query_raw_items(keyword='Tesla', limit=30, source=null, status=null) = hackernews条目
+- 人形机器人最新新闻：三菱计划每月1,000台、人形机器人相关美国限制及部署争议（截至2026-08-08）: query_raw_items(keyword='humanoid robot', limit=30, source=null, status=null) = hackernews/longbridge条目
+- 固态电池最新新闻：GOTION完成2GWh全固态电池产线设计、Donut Lab固态电池说法被质疑: query_raw_items(keyword='solid-state battery', limit=30, source=null, status=null) = longbridge/hackernews条目
+- 核聚变最新新闻：Proxima Fusion获4.11亿欧元融资、融资增长与交付缺口报道: query_raw_items(keyword='fusion', limit=30, source=null, status=null) = 36kr/hackernews条目
+- 量子计算最新新闻：D-Wave新产品/路线竞争、低量子比特路线融资、微软技术争议: query_raw_items(keyword='quantum computing', limit=25, source=null, status=null) = hackernews/longbridge条目
+- 脑机接口新闻检索结果为空: query_raw_items(keyword='brain computer interface', limit=30, source=null, status=null) = No raw items found
+
+- NVIDIA公司新闻交叉核验: query_longbridge_by_route(news/company,{"symbol":"NVDA.US"}) = 2026-08-08 09:48 UTC Reuters转引报道称拟向Lancium投资最高30亿美元，NVIDIA与Lancium未立即回应；同路由另有Firebird计划2027年部署逾70,000枚GPU，发布时间2026-08-08 18:29 UTC（晚于本审查截止时间，不能用于12:19 UTC时点）
+- Tesla公司新闻交叉核验: query_longbridge_by_route(news/company,{"symbol":"TSLA.US"}) = 2026-08-08 03:44 UTC报道FSD驾驶者因64 mph/45区间超速收到罚单，警方称仍需人工监督；2026-08-08 01:55 UTC Jefferies维持Hold、目标价350美元
+- Novo Nordisk公司新闻交叉核验: query_longbridge_by_route(news/company,{"symbol":"NVO.US"}) = 2026-08-08 00:07 UTC/00:34 UTC报道美国法官驳回复配药房对Lilly与Novo的反垄断诉讼；2026-08-07 21:48 UTC报道Lilly上半年药品收入427.73亿美元、Novo总收入约270亿美元（聚合新闻，需原始财报核验）
+- Robotaxi最新原始新闻交叉核验: query_raw_items({"keyword":"robotaxi","limit":20,"source":"telegram:Financial_Express"}) = 2026-08-05伦敦许可、2026-07-30 Zoox付费无人工控制许可、2026-08-05 Alpamayo商业授权；另有2026-08-05 Uber pledges $10B to win robotaxi race，稿件未覆盖

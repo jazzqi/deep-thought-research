@@ -1,0 +1,21 @@
+- HBM供给与需求新闻：query_raw_items(keyword='HBM',source='longbridge',limit=20)=2026-07-24至2026-08-08多条报道，包括SK海力士未见AI投资放缓、2027年供应/定价协商、三星HBM4销售预期、英伟达可能调整Rubin Ultra HBM配置；具体报道口径未独立核验
+- TSMC扩产/涨价新闻：query_raw_items(keyword='TSMC',source='longbridge',limit=15)=2026-06-21至2026-07-21，包含2027年涨价最高10%/25%两种媒体口径、美国扩产与AI展望
+- ASML财务新闻：query_raw_items(keyword='ASML',source='longbridge',limit=20)=2026-06-19至2026-07-27，包含Q2 2026净销售93亿欧元、净利润29亿欧元（Hacker News转述，需二次确认）及中国市场/供应链挑战
+- AI capex新闻：query_raw_items(keyword='AI capex',source='longbridge',limit=20)=2026-06-13至2026-07-26，包含债券市场对AI capex预算焦虑、Google削减AI capex观点及大型云厂商财报关注点
+- NVDA行情：market_quote(symbols=['NVDA.US'])=223.96美元，较前收+2.27%，工具快照2026-08-07
+- NVDA技术位置：market_kline(symbol='NVDA.US',period='1d',count=120,secondary_period='1w',secondary_count=52,indicators='ema21,ema60,macd,rsi14')=日线上升·高位，收盘223.96美元，RSI14 64.4196
+- TSM行情：market_quote(symbols=['TSM.US'])=420.04美元，较前收+0.44%，工具快照2026-08-07
+- TSM技术位置：market_kline(symbol='TSM.US',period='1d',count=120,secondary_period='1w',secondary_count=52,indicators='ema21,ema60,macd,rsi14')=日线盘整·中位，收盘420.04美元，RSI14 52.2307
+- ASML行情：market_quote(symbols=['ASML.US'])=1740.99美元，较前收+2.15%，工具快照2026-08-07
+- MU行情：market_quote(symbols=['MU.US'])=877.57美元，较前收-0.44%，工具快照2026-08-07
+- 美国联储资产负债表：query_indicators(category='macro',country='us',limit=20,time_range='7d')=6748567.0，数据日期2026-08-05，来源openbb
+- 美国CPI同比：query_indicators(category='macro',country='us',limit=20,time_range='7d')=3.5%，数据日期2026-06-01，工具标记68天滞后，不用于当前精确判断
+- 美国7月核心CPI日历：query_calendar_events(country='US',days=14,importance='high,medium',limit=30)=2026-08-12公布，previous 2.6%，forecast 2.5%
+- Longbridge结构化股票路由：search_routes(category='stock',keyword='financials,consensus,valuation,news')及income/consensus/valuation/fundamental/company news搜索均未找到路由；list_routes(category='stock')亦无路由，故公司财务/估值/一致预期数据缺失
+
+- HBM相关新闻：query_raw_items(keyword='HBM', source='telegram:Financial_Express') = 2026-08-08 JEDEC发布SPHBM4标准；2026-08-07报道英伟达拟下调Rubin Ultra HBM配置；2026-08-04多条报道指向2027年DRAM/HBM产能已售罄；2026-07-29 SK海力士称未看到AI投资放缓并已实现HBM4量产出货；2026-07-30三星预计第三季度HBM4销售额环比增长2倍以上
+- TSMC相关新闻：query_raw_items(keyword='TSMC', source='telegram:Financial_Express') = 2026-07-21报道台积电可能自2027年起提高芯片制造价格；2026-07-19报道台积电加速美国亚利桑那工厂建设；2026-07-17报道台积电扩大美国投资至2650亿美元；2026-07-16报道台积电上调销售及支出展望以受益于AI趋势
+- AI资本开支相关新闻：query_raw_items(keyword='AI capex', source='telegram:Financial_Express') = 2026-07-26债券市场对AI资本开支预算的担忧上升；2026-07-25报道Google资本开支压力；2026-07-17报道市场关注Google、微软、亚马逊AI资本开支增速与ROI
+- 出口管制相关新闻：query_raw_items(keyword='出口管制', source='telegram:Financial_Express') = 2026-07-24中国商务部将14家欧盟实体列入出口管制管控名单；2026-06-22将10家美国实体列入出口管制管控名单
+- 宏观指标查询：query_indicators(category='macro,monetary_credit,bond,sentiment,pmi', country='us', time_range='7d') = 找到29个快照但0个指标；query_indicators(category='macro,pmi,monetary_credit,bond,sentiment', country='china', time_range='7d') = 找到23个快照但0个指标，未取得可用于本轮的有效宏观数值
+- 上市公司路由探索：search_routes(category='stock', keyword='financials,consensus,valuation,analyst,news,company')及分别查询consensus/valuation/news/financial均未找到匹配路由，未取得结构化财务、估值或一致预期数据

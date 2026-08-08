@@ -1,0 +1,69 @@
+- Grok 相关进展：Grok Imagine Image 2.0（2026-08-08），Grok Build 1.0 增加未文档化 remote-workspace 命令（2026-08-07）: query_raw_items(keyword='grok',source='telegram:Financial_Express',limit=10) = 新闻结果实际来源含 hackernews/blockbeats
+- Agentic AI：Goldman Sachs 大规模用于软件工程（2026-08-07）；Agentic AI 能耗讨论（2026-08-06）: query_raw_items(keyword='agentic ai',source='telegram:Financial_Express',limit=10) = 新闻结果实际来源 hackernews
+- CRISPR：CRISPR 酶杀死癌细胞、DNA shredding（2026-07-25）；CRISPR gRNA 设计 pipeline 可由序列到 3D 模型（2026-06-29）: query_raw_items(keyword='crispr',source='hackernews',limit=10) = 5 items
+- GLP-1：减重追踪器（2026-08-07）；GLP-1 对劳动市场影响（2026-08-06）；GLP-1/GIP/NPY2 triple agonist Phase 2（2026-07-20）: query_raw_items(keyword='glp-1',source='longbridge',limit=10) = 新闻结果实际来源 hackernews/solidot
+- 核聚变：离子束装备已批量导入光通信、核聚变、量子计算头部客户（2026-07-20）；旭光电子相关产品截至2026年尚未交付实现收入（2026-06-18）: query_raw_items(keyword='核聚变',source='36kr',limit=10) = 10 items
+- 人形机器人：小鹏人形机器人小批量试生产、产线联调（2026-07-24）；行业出现电量焦虑并探索换电（2026-07-31）: query_raw_items(keyword='人形机器人',source='longbridge',limit=10) = 新闻结果实际来源 36kr/nytimes_chinese
+- Robotaxi：伦敦获运营许可（2026-08-05）；Zoox 获准开始无人工控制付费服务（2026-07-30）；英伟达 Alpamayo 2 开放商业授权（2026-08-05）: query_raw_items(keyword='robotaxi',source='longbridge',limit=10) = 新闻结果实际来源 hackernews/36kr
+- 量子：近期出现多项声称多项格问题多项式时间算法的报道（2026-08-06至08-08），以及 D-Wave 新进展（2026-08-06）: query_raw_items(keyword='quantum',source='hackernews',limit=10) = 10 items
+- 美国货币信用指标：未返回有效指标（0 indicators）: query_indicators(category='monetary_credit',country='us',limit=10,time_range='7d') = 0 indicators
+- AI/半导体/机器人/生物科技估值与一致预期路由：未找到匹配路由: search_routes(category='stock',keyword='AI semiconductor robotics biotech GLP-1 valuation consensus') = no route
+
+- Agentic AI规模化软件工程报道（2026-08-07）: query_raw_items(keyword=agentic ai,source=telegram:Financial_Express) = hackernews条目《How Goldman Sachs Is Using Agentic AI for Software Engineering at Scale》
+- Robotaxi伦敦许可报道（2026-08-05）: query_raw_items(keyword=robotaxi,source=telegram:Financial_Express) = hackernews条目《Robotaxis granted licence to operate in London》
+- Zoox无人工控制付费运营审批报道（2026-07-30）: query_raw_items(keyword=robotaxi,source=telegram:Financial_Express) = hackernews条目《Amazon's Zoox wins first US approval for paid robotaxis with no human controls》
+- 英伟达Alpamayo 2商业授权报道（2026-08-05）: query_raw_items(keyword=robotaxi,source=telegram:Financial_Express) = 36kr条目《英伟达发布Alpamayo 2 Super自动驾驶模型，开放商业授权助推Robotaxi规模化部署》
+- 小鹏人形机器人小批量试生产报道（2026-07-24）: query_raw_items(keyword=人形机器人,source=telegram:Financial_Express) = 36kr条目《小鹏人形机器人正小批量试生产，量产产线进入最后联调阶段》
+- 人形机器人电量焦虑报道（2026-07-31）: query_raw_items(keyword=人形机器人,source=telegram:Financial_Express) = 36kr条目《人形机器人现“电量焦虑”，行业正在积极探索换电等不同路线》
+- Medicare覆盖减重GLP-1报道（2026-07-01）: query_raw_items(keyword=GLP-1,source=telegram:Financial_Express) = hackernews条目《Medicare starts covering GLP-1 drugs for weight loss》
+- GLP-1脱发及视神经风险报道（2026-07-24/2026-07-15）: query_raw_items(keyword=GLP-1,source=telegram:Financial_Express) = solidot/hackernews相关条目
+- AI制药拆分融资报道（2026-06-10）: query_raw_items(keyword=AI 制药,source=telegram:Financial_Express) = 36kr条目《字节 AI 制药开启拆分融资，AI4S 进入产业化阶段》
+- 核聚变设备批量导入客户报道（2026-07-20）: query_raw_items(keyword=核聚变,source=telegram:Financial_Express) = 36kr条目《离子束装备商获超亿元融资，已批量导入光通信、核聚变、量子计算头部客户》
+- 旭光电子核聚变产品尚未交付实现收入报道（2026-06-18）: query_raw_items(keyword=核聚变,source=telegram:Financial_Express) = 36kr条目《11天6板旭光电子：2026年初至今，公司可控核聚变相关产品尚未交付实现收入》
+- 最新美股报价（工具返回时点）: market_quote(symbols=[MSFT.US,NVDA.US,TSLA.US,UBER.US,LLY.US]) = MSFT.US 499.99美元、NVDA.US 223.96美元、TSLA.US 328.58美元、UBER.US 75.02美元、LLY.US 1185.71美元；仅为15分钟延迟报价，不代表估值
+- 美国宏观指标：query_indicators(category=monetary_credit/bond/sentiment,country=us,time_range=7d) = 返回0 indicators，宏观利率/流动性/风险偏好数据缺失
+- 上市公司财务/估值/一致预期/公司新闻：search_routes(category=stock,keyword=fundamental valuation consensus news company) = 未找到匹配路由；相关数据缺失
+
+- Agentic AI 用于规模化软件工程（2026-08-07）: query_raw_items(keyword=agentic AI,source=hackernews,limit=10) = Hacker News 标题“ How Goldman Sachs Is Using Agentic AI for Software Engineering at Scale”
+- Robotaxi 获伦敦运营许可报道（2026-08-05）: query_raw_items(keyword=robotaxi,source=hackernews,limit=10) = “Robotaxis granted licence to operate in London”
+- Zoox 获无人工控制付费 Robotaxi 审批报道（2026-07-30）: query_raw_items(keyword=robotaxi,source=hackernews,limit=10) = “Amazon's Zoox wins first US approval for paid robotaxis with no human controls”
+- 英伟达 Alpamayo 2 开放自动驾驶模型商业授权（2026-08-05）: query_raw_items(keyword=robotaxi,source=36kr,limit=10) = “英伟达发布Alpamayo 2 Super自动驾驶模型，开放商业授权助推Robotaxi规模化部署”
+- 小鹏人形机器人小批量试生产、量产线联调报道（2026-07-24）: query_raw_items(keyword=人形机器人,source=36kr,limit=10) = “小鹏人形机器人正小批量试生产，量产产线进入最后联调阶段”
+- 人形机器人电量焦虑报道（2026-07-31）: query_raw_items(keyword=人形机器人,source=36kr,limit=10) = “人形机器人现‘电量焦虑’，行业正在积极探索换电等不同路线”
+- 离子束装备批量导入头部客户报道（2026-07-20）: query_raw_items(keyword=核聚变,source=36kr,limit=10) = “离子束装备商获超亿元融资，已批量导入光通信、核聚变、量子计算头部客户”
+- 旭光电子核聚变相关产品尚未交付实现收入报道（2026-06-18）: query_raw_items(keyword=核聚变,source=36kr,limit=10) = “11天6板旭光电子：2026年初至今，公司可控核聚变相关产品尚未交付实现收入”
+- GLP-1 减重药 Medicare 覆盖报道（2026-07-01）: query_raw_items(keyword=GLP-1,source=telegram:Financial_Express,limit=10) = 未返回该 source；同关键词结果含 Hacker News“Medicare starts covering GLP-1 drugs for weight loss”（2026-07-01）
+- 美国宏观指标: query_indicators(category=monetary_credit,country=us,limit=10,time_range=7d) = 返回 0 个美国指标，当前利率、流动性和风险偏好数据缺失
+
+- Microsoft FY2026 revenue 331.839 billion USD、operating income 155.237 billion USD、net income 133.749 billion USD、basic EPS 17.95: query_longbridge_by_route(fundamental/financials/income, {"symbol":"MSFT.US","period":"annual"})
+- Microsoft Q4 FY2026 revenue 90.007 billion USD、GAAP EPS 4.81，均高于一致预期 revenue 87.631 billion USD、EPS 4.2169；一致预期 Q1 FY2027 revenue 90.663 billion USD、EPS 4.7224: query_longbridge_by_route(fundamental/consensus, {"symbol":"MSFT.US"})
+- Microsoft 公司新闻称分析师 Moderate Buy、平均目标价 558.87 USD，并提及 Azure 增长、AI 需求与资本开支担忧: query_longbridge_by_route(news/company, {"symbol":"MSFT.US"})
+- Tesla FY2025 revenue 94.827 billion USD、operating income 4.355 billion USD、net income 3.794 billion USD、basic EPS 1.08；FY2024 revenue 97.690 billion USD、net income 7.130 billion USD: query_longbridge_by_route(fundamental/financials/income, {"symbol":"TSLA.US","period":"annual"})
+- Tesla Q2 FY2026 revenue 28.236 billion USD，高于一致预期 26.428 billion USD；GAAP EPS 0.32 低于预期 0.3203，operating income 0.398 billion USD 低于预期 1.369 billion USD: query_longbridge_by_route(fundamental/consensus, {"symbol":"TSLA.US"})
+- Tesla 公司新闻提及 Jefferies 维持 Hold、目标价 350 USD；另有 FSD 用户超速罚单事件，反映 Level 2 法律责任与监管风险: query_longbridge_by_route(news/company, {"symbol":"TSLA.US"})
+- Eli Lilly 公司新闻称 2026H1 revenue 42.773 billion USD，其中 tirzepatide 27.693 billion USD、同比增长 88%；另一条新闻称 Q2 revenue 22.97 billion USD、EPS 8.38、公司将 2026 revenue outlook 上调至 85–87 billion USD: query_longbridge_by_route(news/company, {"symbol":"LLY.US"})
+- Eli Lilly 与 Novo Nordisk 赢得美国复方药房反垄断诉讼，法院认定原告未证明竞争损害；仍可能上诉: query_longbridge_by_route(news/company, {"symbol":"LLY.US"})
+- 美国宏观指标查询（7d）返回 0 个有效指标，利率、流动性与风险偏好数据缺失: query_indicators({"category":"monetary_credit","country":"us","limit":10,"time_range":"7d"})
+
+- 美国联邦储备资产负债表 6,748,567.0（2026-08-05）: query_indicators({"category":"macro","country":"us","limit":10,"time_range":"7d"}) = 6748567.0
+- Microsoft 最新新闻：Q2 EPS 4.74 USD、收入 90.01 billion USD，分析师 Moderate Buy、平均目标价 558.87 USD（2026-08-08）: query_longbridge_by_route(news/company,{"symbol":"MSFT.US","count":10})
+- Microsoft AI 基础设施新闻：Azure 增长、Copilot traction 与 AI 资本开支支撑投资周期（2026-08-08）: query_longbridge_by_route(news/company,{"symbol":"MSFT.US","count":10})
+- Tesla FSD 用户在 45 mph 区域以 64 mph 收到罚单，警方认定仍需人类监督（2026-08-08）: query_longbridge_by_route(news/company,{"symbol":"TSLA.US","count":10})
+- Jefferies 维持 Tesla Hold，目标价 350 USD（2026-08-08）: query_longbridge_by_route(news/company,{"symbol":"TSLA.US","count":10})
+- Tesla 2026-08-07 股价上涨 3.31%，新闻同时列出分析师平均目标价 382.28 USD及监管、利润率风险（2026-08-07）: query_longbridge_by_route(news/company,{"symbol":"TSLA.US","count":10})
+- Eli Lilly 与 Novo Nordisk 赢得复方 GLP-1 反垄断诉讼，法院认为未证明竞争损害，但原告考虑上诉（2026-08-08）: query_longbridge_by_route(news/company,{"symbol":"LLY.US","count":10})
+- Eli Lilly 2026 年上半年收入 42.773 billion USD，tirzepatide 收入约 27.693 billion USD，同比增长 88%（2026-08-07）: query_longbridge_by_route(news/company,{"symbol":"LLY.US","count":10})
+- Eli Lilly Q2 2026 收入 22.97 billion USD、EPS 8.38 USD，2026 年收入指引上调至 85—87 billion USD（2026-08-07）: query_longbridge_by_route(news/company,{"symbol":"LLY.US","count":10})
+- 查询最新宏观新闻 raw items 未返回条目；当前稿中 Agentic AI、Robotaxi、人形机器人、核聚变等事件沿用 roundtable 已记录的 Hacker News/36Kr 新闻来源，未新增未经工具验证的数字: query_raw_items({"keyword":"agentic AI OR robotaxi OR humanoid robot OR GLP-1 OR fusion","limit":20,"source":null,"status":null}) = no raw items found
+
+- 美国联储资产负债表（2026-08-05）: query_indicators({category:monetary_credit,country:us,time_range:7d}) = 6,748,567.0；同次查询未返回有效指标条数，政策利率/实际利率/信用利差数据缺失
+- Microsoft Q2 收入、EPS、分析师共识与目标价（新闻发布于2026-08-08）: query_longbridge_by_route(news/company,{symbol:MSFT.US}) = 90.01 billion USD、4.74 USD、Moderate Buy、558.87 USD
+- Microsoft AI基础设施新闻（2026-08-08）: query_longbridge_by_route(news/company,{symbol:MSFT.US}) = JPMorgan将2026年TMT债券发行预期从450 billion USD上调至540 billion USD，AI资本开支是驱动因素
+- Tesla FSD法律责任新闻（2026-08-08）: query_longbridge_by_route(news/company,{symbol:TSLA.US}) = Colorado司机在FSD下以64 mph驶入45 mph区域仍被追责，车辆仍需人类监督
+- Tesla分析师评级新闻（2026-08-08）: query_longbridge_by_route(news/company,{symbol:TSLA.US}) = Jefferies维持Hold，目标价350 USD
+- Eli Lilly 2026年上半年收入与tirzepatide收入（新闻发布于2026-08-07）: query_longbridge_by_route(news/company,{symbol:LLY.US}) = 42.773 billion USD、27.693 billion USD，同比+88%
+- Eli Lilly Q2收入、EPS及2026年指引（新闻发布于2026-08-07）: query_longbridge_by_route(news/company,{symbol:LLY.US}) = 22.97 billion USD、8.38 USD、2026年收入85-87 billion USD
+- Lilly与Novo GLP-1反垄断诉讼（新闻发布于2026-08-08）: query_longbridge_by_route(news/company,{symbol:LLY.US/NVO.US}) = 法院驳回复方药房Strive Specialties诉讼，原告考虑上诉
+- Novo Nordisk 2026年上半年收入（新闻发布于2026-08-07）: query_longbridge_by_route(news/company,{symbol:NVO.US}) = 约27 billion USD，同比+13%
+- Uber Q2收入及分析师共识（新闻发布于2026-08-08）: query_longbridge_by_route(news/company,{symbol:UBER.US}) = 收入14.2 billion USD（略低预期）、Moderate Buy、目标价104.23 USD；Q2 EPS 0.81 USD
+- NVIDIA-Lancium电力基础设施投资报道（新闻发布于2026-08-08）: query_longbridge_by_route(news/company,{symbol:NVDA.US}) = NVIDIA拟投资最多3 billion USD，首期2 billion USD约20%股权，Lancium为Stargate AI园区供电并已 확보4 GW电力资源
