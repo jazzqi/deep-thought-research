@@ -1,19 +1,4 @@
----
-name: SpaceX
-slug: spacex
-status: active
-lead_agent: tech_generalist
-created: 2026-08-01
-updated: 2026-08-08T20:14:59+08:00
-revision: 2026-08-08
-sources:
-  - path: 2026-08-08_1951__manual__spacex_starlink_starship_query_raw_items_keyword_source_spac/reference.md
-    agent: theme_update
-    summarized: false
----
-
-# spacex
-
+## Big Picture
 
 SpaceX 不是单一火箭公司，而是由 Falcon 发射平台、Starlink 低轨卫星通信网络和 Starship 重型运载系统组成的垂直整合太空基础设施平台。Falcon 提供成熟的发射能力和客户入口，Starlink 将卫星、终端、地面网络与通信服务转化为经常性收入，Starship 则试图以大运力和全系统复用重写发射成本及太空基础设施规模。三条业务线成熟度并不同步：Falcon 的运营能力最可验证，Starlink 已进入多场景商业化但公开财务验证不足，Starship 仍在从试飞成功走向可重复复用。当前核心矛盾是，市场已经提前为 Starlink 的平台价值、Starship 的长期期权以及 AI 基础设施叙事定价，但 SpaceX 的公开收入、利润、自由现金流、用户数、ARPU、分析师一致预期及可审计估值文件仍然缺失。我们应将其拆分为“已验证的发射底座、待财务验证的通信网络、尚未完成运营闭环的重型运载器”，避免把远期目标直接当作当前现金流。
 

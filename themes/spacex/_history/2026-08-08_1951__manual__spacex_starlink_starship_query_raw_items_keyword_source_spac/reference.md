@@ -1,0 +1,85 @@
+- SpaceX新闻：ARK Invest买入SpaceX（约230万美元，报道日期2026-08-07/08）；来源 query_raw_items(keyword=spacex,source=telegram:Financial_Express,limit=30) = blockbeats标题
+- SpaceX新闻：贝莱德持有5100万股A类普通股，报道日期2026-08-07；来源 query_raw_items(keyword=spacex,source=telegram:Financial_Express,limit=30) = blockbeats标题
+- SpaceX新闻：淡马锡持有980万股A类股票，报道日期2026-08-07；来源 query_raw_items(keyword=spacex,source=telegram:Financial_Express,limit=30) = blockbeats标题
+- SpaceX新闻：SpaceX盘中现报127.96美元，报道日期2026-08-07；来源 query_raw_items(keyword=spacex,source=telegram:Financial_Express,limit=30) = blockbeats标题
+- SpaceX新闻：Argus Research评级升为买入、目标价160美元，报道日期2026-08-07；来源 query_raw_items(keyword=spacex,source=telegram:Financial_Express,limit=30) = blockbeats标题
+- SpaceX新闻：Bernstein目标价239美元上调至248美元，报道日期2026-08-07；来源 query_raw_items(keyword=spacex,source=telegram:Financial_Express,limit=30) = blockbeats标题
+- SpaceX新闻：美国银行重申看多、目标价235美元，报道日期2026-08-07；来源 query_raw_items(keyword=spacex,source=telegram:Financial_Express,limit=30) = blockbeats标题
+- SpaceX新闻：年内或有超过40亿股进入流通，报道日期2026-08-06；来源 query_raw_items(keyword=spacex,source=telegram:Financial_Express,limit=30) = blockbeats标题
+- SpaceX新闻：Tesla与SpaceX拟投资168亿美元建设Terafab芯片工厂，报道日期2026-08-07；来源 query_raw_items(keyword=spacex,source=telegram:Financial_Express,limit=30) = hackernews标题
+- Starlink新闻：AI ambitions burning through Starlink revenue，报道日期2026-08-05；来源 query_raw_items(keyword=starlink,source=telegram:Financial_Express,limit=30) = hackernews标题
+- Starlink新闻：拒绝乌克兰请求在俄罗斯境内深度打击启用Starlink，报道日期2026-08-07；来源 query_raw_items(keyword=starlink,source=hackernews,limit=20) = hackernews标题
+- Starlink新闻：NASA使用Starlink传输Artemis III影像，报道日期2026-07-17；来源 query_raw_items(keyword=starlink,source=hackernews,limit=20) = hackernews标题
+- Starship新闻：第13次试飞发送卫星且整体保持完整，报道日期2026-07-25；来源 query_raw_items(keyword=starship,source=hackernews,limit=20) = hackernews标题
+- Starship新闻：专家警告现有隔热瓦技术可能不适合快速复用，报道日期2026-07-28；来源 query_raw_items(keyword=starship,source=hackernews,limit=20) = hackernews标题
+- Starship新闻：下一次Starship考虑塔架捕获，报道日期2026-07-26；来源 query_raw_items(keyword=starship,source=hackernews,limit=20) = hackernews标题
+- SpaceX/发射新闻：FAA拟豁免部分规定以加快SpaceX及Blue Origin发射审批，报道日期2026-07-29；来源 query_raw_items(keyword=发射,source=telegram:Financial_Express,limit=20) = 36kr标题
+- Starship新闻：第13次试飞发动机点火故障后中止，报道日期2026-07-17；来源 query_raw_items(keyword=星舰,source=telegram:Financial_Express,limit=20) = 36kr标题
+- Starship新闻：第13次试飞成功，报道日期2026-07-25；来源 query_raw_items(keyword=星舰,source=telegram:Financial_Express,limit=20) = 36kr标题
+- 概念股行情：RKLB.US最新价82.83美元，较前收+9.46%，成交量2424.49万股（报价时间工具返回，约2026-08-08）；来源 market_quote(symbols=['RKLB.US','ASTS.US'])
+- 概念股行情：ASTS.US最新价71.94美元，较前收+6.80%，成交量1439.71万股（报价时间工具返回，约2026-08-08）；来源 market_quote(symbols=['RKLB.US','ASTS.US'])
+- RKLB技术快照：日线收盘82.83美元，EMA21=74.5724美元、EMA60=84.0092美元，判定下降·低位；来源 market_kline(symbol=RKLB.US,period=1d,count=120,secondary_period=1w,secondary_count=52,indicators=ema21,ema60,macd,rsi14)
+- ASTS技术快照：日线收盘71.94美元，EMA21=65.8467美元、EMA60=74.4472美元，判定下降·低位；来源 market_kline(symbol=ASTS.US,period=1d,count=120,secondary_period=1w,secondary_count=52,indicators=ema21,ema60,macd,rsi14)
+- 美国宏观指标：query_indicators(category=monetary_credit,country=us,limit=10,time_range=7d)返回0个指标；宏观数据缺失，不作数值判断
+- 美国日历：美国7月CPI同比预期3.4%、核心CPI同比预期2.5%，发布日期2026-08-12；来源 query_calendar_events(country=US,days=30,importance=high,medium,limit=50)
+- 美国日历：美国财政部2026-08-11至08-13标售逾千亿美元国债；来源 query_calendar_events(country=US,days=30,importance=high,medium,limit=50)
+
+- SpaceX相关新闻：2026-08-08检索结果包括“South Korea space agency shares Moon images after SpaceX rocket debris crash”（BBC World）、“SpaceX 10GW in 2027 – Why It's Real, Will Drive $300B ARR for SpaceX”（Hacker News）、“Tesla and SpaceX to invest $16.8B for Terafab chip factory in Texas”（Hacker News）及多条机构持股/目标价报道: query_raw_items(keyword=SpaceX,source=telegram:Financial_Express,limit=20) = 结果实际包含BBC World、Hacker News、BlockBeats、Solidot等来源，新闻日期覆盖2026-08-07至2026-08-08
+- Starlink相关新闻：2026-08-05 Hacker News标题为“SpaceX's AI ambitions burning through Starlink revenue”；2026-07-17 Hacker News标题为“NASA Taps SpaceX's Starlink to Deliver Artemis III Imagery from Orion”；2026-07-14 Hacker News标题称Starlink Gen 3计划覆盖100K颗卫星: query_raw_items(keyword=Starlink,source=telegram:Financial_Express,limit=20) = 上述新闻条目
+- Starship进展：2026-07-25 Hacker News标题为“Lucky 13 Starship sends out satellites and stays intact”；2026-07-26标题称SpaceX考虑下一次Starship进行塔架捕获；2026-07-28标题称专家警告当前隔热瓦技术可能不适合快速复用；2026-07-17标题称因部分发动机未启动而取消发射: query_raw_items(keyword=Starship,source=telegram:Financial_Express,limit=20) = 上述新闻条目
+- SpaceX估值信号报道：2026-08-07 BlockBeats条目分别提及“现报127.96美元”、贝莱德持有5100万股A类普通股、淡马锡持有980万股A类股票、Alphabet持有5.512亿股A类股票、Argus目标价160美元、伯恩斯坦目标价248美元、美国银行目标价235美元；这些结果与SpaceX未上市口径冲突，不能作为已核验的公开市场价格、机构持仓或估值: query_raw_items(keyword=SpaceX,source=telegram:Financial_Express,limit=20) = 相关报道
+- 公开市场代理报价（15分钟延迟）：RKLB.US最新价82.83美元，前收75.67美元，涨幅9.46%，成交量2424.49万股，成交额19.65亿美元；ASTS.US最新价71.94美元，前收67.36美元，涨幅6.80%，成交量1439.71万股，成交额10.17亿美元: market_quote(symbols=[RKLB.US,ASTS.US]) = 实时报价
+- 宏观指标：美国货币/信用、债券及情绪查询未返回可用指标值，因此本轮不使用宏观数值: query_indicators(category=monetary_credit/bond/sentiment,country=us或空,limit=20,time_range=24h或7d) = 0 indicators
+
+- 新闻进展：SpaceX相关条目（2026-08-08）: query_raw_items(keyword='SpaceX',limit=30,source=null) = BBC World“韩国航天机构分享SpaceX火箭残骸撞击月球照片”；BlockBeats/Hacker News另有解禁、Terafab、机构持股与目标价标题；均为标题级信息，未核验公司公告、交易所记录或监管文件
+- Starlink事件：query_raw_items(keyword='Starlink',limit=30,source=null) = 2026-08-07乌克兰部分请求被拒、2026-08-05 AI投入可能消耗Starlink收入、2026-07-17 NASA采用Starlink传输Artemis III影像、2026-07-15价格上调；未提供审计收入、用户数、ARPU、利润或自由现金流
+- Starship里程碑：query_raw_items(keyword='Starship',limit=30,source=null) = 2026-07-25第13次试飞发送卫星并保持完整、2026-07-26拟尝试塔架捕获、2026-07-17发动机未正常启动导致发射取消、2026-07-28专家质疑隔热瓦适合快速复用、2026-08-02海上回收挑战；未提供官方遥测、稳定入轨、双级回收或复飞周转数据
+- 美国宏观指标：query_indicators(category='monetary_credit',country='us',limit=10,time_range='7d') = 0 indicators；无法据此判断当前贴现率或流动性方向
+- 美国未来宏观事件：query_calendar_events(country='US',days=14,importance='high,medium',limit=30) = 2026-08-10纽约联储通胀预期数据待发布；2026-08-11至13日美国财政部计划标售逾千亿美元国债；2026-08-12美国7月CPI同比预测3.4%、核心同比预测2.5%，实际值未发布
+- RKLB.US公司新闻：query_longbridge_by_route(news/company,{"symbol":"RKLB.US"}) = 2026-08-07盘中约81.89美元、夜盘约83.88美元；新闻称一致目标价111.13美元；该新闻为概念股市场信息，非SpaceX财务数据
+- ASTS.US公司新闻：query_longbridge_by_route(news/company,{"symbol":"ASTS.US"}) = 2026-08-07发射3颗BlueBird、目标2027年初部署45颗、全年收入指引1.5亿—2亿美元；同期夜盘约72.54美元；与SpaceX商业模式不同
+- RKLB.US一致预期：query_longbridge_by_route(fundamental/consensus,{"symbol":"RKLB.US","count":20}) = Q1 2026实际收入200,348,000美元、GAAP净亏损45,022,000美元；Q2 2026预期收入230,944,920美元、GAAP净亏损49,531,800美元
+- ASTS.US一致预期：query_longbridge_by_route(fundamental/consensus,{"symbol":"ASTS.US","count":20}) = Q1 2026实际收入14,735,000美元、GAAP净亏损191,012,000美元；Q2 2026预期收入34,396,430美元、GAAP净亏损61,416,000美元
+
+- SpaceX相关事件：韩国航天机构分享月球图像，背景为SpaceX火箭残骸撞击月球报道（2026-08-08）: query_raw_items({keyword:"spacex",source:"bbc_world",limit:30}) = South Korea space agency shares Moon images after SpaceX rocket debris crash
+- SpaceX相关估值/交易情绪：新闻标题称SpaceX盘中报127.96美元、总市值重新站上1.5万亿美元、年内或有超过40亿股进入流通（2026-08-06至2026-08-07；未经监管文件核验）: query_raw_items({keyword:"spacex",limit:30}) = 对应blockbeats标题
+- SpaceX相关资本开支：Tesla与SpaceX计划为德州Terafab芯片工厂首期投资168亿美元（2026-08-06至2026-08-07；新闻标题，未取得公司原始披露）: query_raw_items({keyword:"spacex",limit:30}) = Tesla and SpaceX to initially spend $16.8B for Terafab chip plant in Texas
+- Starlink事件：NASA采用Starlink传输Artemis III影像（2026-07-17）: query_raw_items({keyword:"starlink",limit:30}) = NASA Taps SpaceX's Starlink to Deliver Artemis III Imagery from Orion
+- Starlink事件：AI雄心可能消耗Starlink收入（2026-08-05；评论/报道，不能等同财务披露）: query_raw_items({keyword:"starlink",limit:30}) = SpaceX's AI ambitions burning through Starlink revenue
+- Starlink事件：Musk拒绝为乌克兰在俄境内深度打击启用Starlink（2026-08-07）: query_raw_items({keyword:"starlink",limit:30}) = Musk Refuses Ukrainian Request to Enable Starlink for Deep Strikes Inside Russia
+- Starlink事件：美国政府豁免越南制造Starlink路由器（2026-07-28）: query_raw_items({keyword:"starlink",limit:30}) = 美国政府豁免了 Starlink 的越南造路由器
+- Starship里程碑：第13次试飞完成卫星释放并保持完整（2026-07-25），此前因发动机未启动取消（2026-07-17），后续拟尝试塔架捕获（2026-07-26），海上回收和隔热瓦快速复用仍受质疑（2026-07-28至2026-08-02）: query_raw_items({keyword:"starship",limit:30}) = 对应hackernews标题
+- RKLB行情：2026-08-07盘中约81.89美元，夜盘约83.88美元: query_longbridge_by_route(news/company,{symbol:"RKLB.US"}) = Space Sector Surges Intraday.../Night Session...
+- RKLB一致预期及实际财报：2026年Q1实际收入200.3480百万美元、GAAP净亏损45.0220百万美元；Q2收入预期230.94492百万美元、GAAP净亏损预期49.5318百万美元: query_longbridge_by_route(fundamental/consensus,{symbol:"RKLB.US"}) = Q1/Q2 2026 details
+- ASTS事件：2026-08-07发射三颗BlueBird，目标2027年初部署45颗，全年收入指引1.5亿至2亿美元: query_longbridge_by_route(news/company,{symbol:"ASTS.US"}) = AST SpaceMobile’s Latest BlueBird Launch Raises the Stakes Ahead of Q2 Earnings
+- ASTS一致预期及实际财报：2026年Q1实际收入14.7350百万美元、GAAP净亏损191.0120百万美元；Q2收入预期34.39643百万美元、GAAP净亏损预期61.4160百万美元: query_longbridge_by_route(fundamental/consensus,{symbol:"ASTS.US"}) = Q1/Q2 2026 details
+- SpaceX及RKLB市场一致预期（新闻报道，非原始模型）：SpaceX Moderate Buy目标价229.54美元，RKLB Strong Buy目标价111.13美元（2026-08-08）: query_longbridge_by_route(news/company,{symbol:"RKLB.US"}) = Why SpaceX and Rocket Lab Stocks Are Jumping Today
+
+- 美国宏观指标查询（2026-08-08）: query_indicators(category=monetary_credit,country=us,time_range=7d) = 0 indicators，数据缺失
+- SpaceX相关新闻（2026-08-08）: query_raw_items(keyword=spacex,source=telegram:Financial_Express) = 返回条目实际来源含 bbc_world/blockbeats/hackernews/solidot；包括火箭残骸撞月、Terafab 168亿美元报道、127.96美元股价及未经核验的机构持股/目标价标题
+- Starlink相关新闻（2026-08-08）: query_raw_items(keyword=starlink,source=hackernews) = AI消耗Starlink收入、乌克兰深度打击请求、NASA采用Starlink传输Artemis III影像、越南路由器豁免、价格上调等标题
+- Starship相关新闻（2026-08-08）: query_raw_items(keyword=starship,source=hackernews) = 第13次试飞卫星释放且保持完整、发动机未启动导致取消、塔架捕获计划、热防护和海上回收挑战等标题
+- RKLB/ASTS空间股行情新闻（2026-08-08）: query_longbridge_by_route(path=news/company,params={symbol:RKLB.US}) = RKLB夜盘约83.88美元、盘中约81.89美元；相关报道还转述RKLB Strong Buy目标价111.13美元
+- ASTS空间股行情及业务新闻（2026-08-08）: query_longbridge_by_route(path=news/company,params={symbol:ASTS.US}) = ASTS夜盘约72.54美元；2026-08-07三颗BlueBird发射、目标2027年初45颗、全年收入指引1.5亿—2亿美元（新闻转述）
+- SpaceX公司新闻主动查询: query_longbridge_by_route(path=news/company,params={symbol:SPACEX.US}) = 数据路由要求上市证券代码，SpaceX代码未获核验，不能作为公司新闻原始披露
+
+- 最新SpaceX新闻条目：韩国航天机构分享SpaceX火箭残骸撞击月球照片（2026-08-08）: query_raw_items({"keyword":"SpaceX","source":"bbc_world","limit":30}) = 标题级条目，未含公司公告或监管调查原文
+- 最新SpaceX新闻条目：Tesla与SpaceX拟为德州Terafab芯片工厂首期投入168亿美元（2026-08-07）: query_raw_items({"keyword":"SpaceX","limit":50}) = Hacker News标题，未核验公司原始披露
+- 最新SpaceX新闻条目：SpaceX AI投入可能消耗Starlink收入（2026-08-05）: query_raw_items({"keyword":"Starlink","limit":30}) = Hacker News标题，非审计财务披露
+- 最新Starlink新闻条目：Musk拒绝乌克兰在俄境内深度打击启用Starlink（2026-08-07）: query_raw_items({"keyword":"Starlink","limit":30}) = Hacker News标题，未核验官方声明
+- 最新Starship新闻条目：第13次试飞发送卫星并保持完整（2026-07-25）及发动机未启动导致取消发射（2026-07-17）: query_raw_items({"keyword":"Starship","limit":30}) = Hacker News标题，未提供官方遥测或复飞数据
+- SpaceX公司新闻交叉核验：未找到可确认的news/company路由: search_routes({"category":"stock","keyword":"news,company"}) = 未找到相关路由；无法取得SpaceX原始公司新闻/财报
+
+- 审查交叉核验：2026-08-08最新SpaceX条目包括BBC World关于火箭残骸撞月后韩国航天机构分享月球图像、Terafab 168亿美元报道、SpaceX 10GW/2027及3000亿美元ARR标题、解禁及机构持仓/目标价标题；来源 query_raw_items(keyword="SpaceX",limit=50,source=null,status=null) = 标题级新闻，未提供公司原始披露
+- 审查交叉核验：SpaceX公司新闻无法通过可确认的Longbridge news/company证券代码取得；来源 query_longbridge_by_route(path="news/company",params={"symbol":"SPACEX.US"}) = 路由要求上市证券代码，结果不可作为SpaceX原始披露
+- 审查交叉核验：Starlink相关条目仅支持产品/治理/资本配置线索，不提供审计收入、用户数、ARPU、利润、资本开支或自由现金流；来源 query_raw_items(keyword="Starlink",limit=50,source=null,status=null) = 标题级新闻
+- 审查交叉核验：RKLB.US与ASTS.US可交易且有公开市场信息，但与SpaceX商业模式和财务阶段不同；来源 query_longbridge_by_route(path="news/company",params={"symbol":"RKLB.US"或"ASTS.US"}) = 概念股新闻/行情，不构成SpaceX估值锚
+- 最新SpaceX相关新闻条目：query_raw_items(keyword='SpaceX', limit=50, source=null, status=null) = BBC World 2026-08-08 05:38:57 UTC“South Korea space agency shares Moon images after SpaceX rocket debris crash”；同时有BlockBeats/Hacker News/Solidot标题涉及SpaceX股价、机构持股、Terafab及火箭撞月；这些是新闻数据库条目，不等于官方公司或监管披露。
+- 美国宏观快照：query_indicators(category='macro', country='us', limit=20, time_range='7d') = fed_balance_sheet 6748567.0（数据日期2026-08-05，3天前）；CPI、消费者信心、PPI、core CPI为2026-06-01且工具标记较旧，GDP为2026-04-01且工具标记过时；本审查不使用这些过时指标判断当前贴现率。
+- 路由核验：search_routes(category='stock', keyword='news company')及search_routes(category='stock', keyword='news,新闻,company')均未找到匹配路由；list_routes(category='stock')返回该分类无路由，因此本轮无法以Longbridge结构化company/news核验SpaceX事件或一致预期。
+- Starship第13次试飞及发动机故障等日期和结果：本审查仅能引用主题草稿中记录的query_raw_items标题级线索，当前未取得官方遥测、许可证、回收或复飞原始文件；不得将其写成已独立验证事实。
+
+- 2026-08-08 SpaceX最新新闻标题包括韩国航天机构分享月球图像（火箭残骸撞击月球）、Terafab首期16.8亿美元、10GW/2027与3000亿美元ARR叙事及解禁/机构持股/目标价报道；均为标题级、未核验公司公告或监管文件: query_raw_items(keyword="SpaceX",limit=50,source=null,status=null) = 50 items
+- 2026-08-08美国货币/信用指标查询未返回可用指标值: query_indicators(category="monetary_credit",country="us",limit=20,time_range="7d") = 0 indicators
+- 2026-08-08美国债券指标查询未返回可用指标值: query_indicators(category="bond",country="us",limit=20,time_range="7d") = 0 indicators
+- SpaceX公司新闻路由未能通过路由搜索确认，无法用Longbridge核验SpaceX公司新闻: search_routes(category="stock",keyword="news,company,新闻") = no route found
