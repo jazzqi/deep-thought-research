@@ -1,0 +1,86 @@
+- FDA 首款 mRNA 流感疫苗获批（新闻日期 2026-08-06/07，来源为 FDA 关键词检索）: query_raw_items(keyword=FDA, source=telegram:Financial_Express) = 未命中；检索结果实际来自 solidot/hackernews，需二次核验，暂不作为确定事实
+- Lilly 收购 Centessa Pharmaceuticals 以推进睡眠-觉醒障碍治疗（2026-06-22）: query_raw_items(keyword=pharmaceutical, source=longbridge) = 新闻标题出现
+- Novo Nordisk 计划自 2027 年起在美国将 GLP-1 药价最高下调 50%（2026-06-22）: query_raw_items(keyword=GLP-1, source=telegram:Financial_Express) = 未命中；检索结果来自 longbridge，需二次核验
+- Hengrui Pharma HRS-7535 口服小分子 GLP-1 在中国 2 型糖尿病关键 III 期取得积极顶线结果（2026-06-22）: query_raw_items(keyword=GLP-1, source=telegram:Financial_Express) = 未命中；检索结果来自 longbridge，需二次核验
+- Vertex povetacicept IgA 肾病 BLA 获 FDA 接受加速批准审评（2026-06-22）: query_raw_items(keyword=FDA, source=telegram:Financial_Express) = 未命中；检索结果来自 longbridge，需二次核验
+- Erasca 临床参与者死亡引发安全担忧，股价单日下跌 48%（2026-06-22）: query_raw_items(keyword=clinical trial, source=telegram:Financial_Express) = 未命中；检索结果来自 longbridge，需二次核验
+- LLY.US 实时报价 1,185.71 美元，较前收盘下跌 0.52%（行情时间由工具返回）: market_quote(symbols=[LLY.US,NVO.US,PFE.US,MRK.US,ABBV.US]) = last 1185.71, prev 1191.94, change -6.23 (-0.52%)
+- NVO.US 实时报价 47.26 美元，较前收盘上涨 2.81%（行情时间由工具返回）: market_quote(symbols=[LLY.US,NVO.US,PFE.US,MRK.US,ABBV.US]) = last 47.26, prev 45.97, change +1.29 (+2.81%)
+- PFE.US 实时报价 26.76 美元，较前收盘上涨 2.14%（行情时间由工具返回）: market_quote(symbols=[LLY.US,NVO.US,PFE.US,MRK.US,ABBV.US]) = last 26.76, prev 26.20, change +0.56 (+2.14%)
+- MRK.US 实时报价 128.58 美元，较前收盘上涨 0.16%（行情时间由工具返回）: market_quote(symbols=[LLY.US,NVO.US,PFE.US,MRK.US,ABBV.US]) = last 128.58, prev 128.37, change +0.21 (+0.16%)
+- ABBV.US 实时报价 246.04 美元，较前收盘上涨 0.89%（行情时间由工具返回）: market_quote(symbols=[LLY.US,NVO.US,PFE.US,MRK.US,ABBV.US]) = last 246.04, prev 243.87, change +2.17 (+0.89%)
+- 美国货币与信用指标、美国风险偏好指标: query_indicators(category=monetary_credit/sentiment,country=us,time_range=7d) = 0 indicators; 宏观数据缺失
+- 上市公司财务/估值/一致预期/公司新闻路由: search_routes/list_routes(category=stock) = 未找到可用 stock 路由；相关估值和一致预期数据缺失
+
+- FDA批准首款mRNA流感疫苗（新闻标题级线索，未完成FDA一手文件核验，2026-08-06）: query_raw_items(keyword=FDA,source=无/返回hackernews与solidot) = 标题“FDA approves first mRNA flu shot, from Moderna”
+- FDA批准首款口服PCSK9抑制剂（新闻标题级线索，未完成FDA一手文件核验，2026-07-16至2026-07-19）: query_raw_items(keyword=FDA,source=无/返回hackernews) = 多条相关标题
+- Novo Nordisk拟自2027年在美国将GLP-1药物价格最高下调50%（Longbridge标题级线索，执行条件未核验，2026-06-22）: query_raw_items(keyword=GLP-1,source=longbridge) = 标题“Novo Nordisk To Slash GLP-1 Drug Prices By Up To 50% In US Starting 2027”
+- Hengrui口服小分子GLP-1受体激动剂HRS-7535中国关键III期取得积极top-line结果（新闻标题级线索，2026-06-22）: query_raw_items(keyword=GLP-1,source=longbridge) = 相关标题
+- 美国上市公司最新报价（工具为15分钟延迟，日期以工具返回为准）: market_quote(symbols=[LLY.US,NVO.US,PFE.US,MRK.US,ABBV.US) = LLY.US 1185.71美元，NVO.US 47.26美元，PFE.US 26.76美元，MRK.US 128.58美元，ABBV.US 246.04美元
+- 美国宏观利率/流动性指标: query_indicators(category=monetary_credit,country=us,time_range=24h) = 0 indicators（数据缺失）
+- 美国风险偏好指标: query_indicators(category=sentiment,country=us,time_range=24h) = 0 indicators（数据缺失）
+- 上市公司基本面/估值/一致预期/分析师/新闻路由: search_routes(category=stock,keyword=financials,consensus,valuation,analyst,news) = 未找到相关路由（数据缺失）
+- IRA drug pricing关键词新闻: query_raw_items(keyword=IRA drug pricing,source=longbridge) = 无原始项目（数据缺失）
+
+- 2026-08-07 FDA批准首款mRNA流感疫苗（新闻标题级，未获FDA原始公告核验）: query_raw_items(keyword=FDA,limit=30,source=null,status=null) = solidot标题《FDA 批准首款 mRNA 流感疫苗上市》
+- 2026-08-06 FDA批准首款mRNA流感疫苗（新闻标题级，未获FDA原始公告核验）: query_raw_items(keyword=FDA,limit=30,source=null,status=null) = hackernews标题《FDA approves first mRNA flu shot, from Moderna》
+- 2026-07-16 FDA批准首款口服PCSK9抑制剂（新闻标题级，未获FDA原始公告核验）: query_raw_items(keyword=FDA,limit=30,source=null,status=null) = hackernews标题《FDA Approves First Oral Therapy That Inhibits PCSK9》
+- 2026-06-22 Vertex povetacicept用于IgA肾病的BLA获FDA受理并寻求加速批准（Longbridge标题级，非批准）: query_raw_items(keyword=FDA,limit=30,source=null,status=null) = longbridge标题《Vertex Announces US FDA Acceptance Of Biologics License Application For Accelerated Approval Of Povetacicept In IgA Nephropathy》
+- 2026-06-22恒瑞HRS-7535口服小分子GLP-1中国关键III期积极topline（新闻标题级）: query_raw_items(keyword=GLP-1,limit=30,source=null,status=null) = longbridge标题《Hengrui's Phase III clinical trial succeeds...》
+- 2026-06-22 Novo拟自2027年起在美国将GLP-1药价最高下调50%（新闻标题级，执行条件缺失）: query_raw_items(keyword=GLP-1,limit=30,source=null,status=null) = longbridge标题《Novo Nordisk To Slash GLP-1 Drug Prices By Up To 50% In US Starting 2027》
+- 2026-07-01 Medicare开始覆盖减重GLP-1（新闻标题级，覆盖范围和资格条件未核验）: query_raw_items(keyword=GLP-1,limit=30,source=null,status=null) = hackernews标题《Medicare starts covering GLP-1 drugs for weight loss》
+- 2026-06-22 FDA拟启动加速早期临床试验试点（新闻标题级）: query_raw_items(keyword=FDA,limit=30,source=null,status=null) = hackernews标题《FDA to launch pilot program to speed up early-stage clinical trials》
+- 2026-06-22 Erasca临床参与者死亡相关安全担忧（Longbridge标题级；未取得股价跌幅原始行情）: query_raw_items(keyword=FDA,limit=30,source=null,status=null) = longbridge标题《FDA claims Amgen drug data were ‘manipulated’; Erasca slides despite ‘home run’ results》
+- LLY/NVO/PFE/MRK/ABBV最新财务、估值、一致预期及公司news: search_routes(category=stock,keyword=financials,consensus,valuation,analyst,news) = 未找到相关路由，数据缺失
+- IRA最新量化数据及上述公司估值数字: query_raw_items/query_indicators = 本轮未取得足够可核验数据，数据缺失
+
+- 2026-06-22 恒瑞医药 HRS-7535 中国关键III期积极topline、Vertex povetacicept IgA肾病BLA获FDA受理、Novo计划2027年美国GLP-1价格最高下调50%、Erasca临床参与者死亡相关担忧、Merck拟收购Terns及Shionogi收购Apnimed部分权益、礼来拟收购Centessa等: QueryRawItemsTool/QueryLongbridgeByRouteTool(主题新闻检索；当前raw_items未返回可复核条目，稿件沿用工作稿中已记录的Longbridge标题线索) = 新闻标题级线索，未完成一手文件核验
+- 2026-08-06 Moderna首款mRNA流感疫苗FDA批准、2026-07-16至18首款口服PCSK9抑制剂FDA批准: QueryRawItemsTool(关键词=FDA,GLP-1,drug approval,clinical trial,biotech,pharma；source=telegram:Financial_Express；limit=100) = 本轮无raw items返回；仅可作为工作稿记录的二手标题线索，不作已核验事实
+- 临床阶段参考成功率 Phase 1→2约50%、Phase 2→3约40%、Phase 3→获批约60%: template.md(主题特有纪律) = 参考基准，非个案预测
+- 美国联储资产负债表 6,748,567（2026-08-05）: discussion_log.md记录的query_indicators(country=us) = 仅作流动性背景，不直接推出生物医药估值方向
+- LLY、NVO、PFE、MRK、ABBV最新财务、估值、一致预期: search_routes(category=stock,keyword=financials,consensus,valuation,analyst,news/company) = 未找到相关路由，数据缺失
+
+- FDA批准首款Moderna mRNA流感疫苗（新闻条目日期2026-08-06）: query_raw_items(keyword=FDA,limit=50,source=null,status=null) = Hacker News标题“FDA approves first mRNA flu shot, from Moderna”
+- FDA批准首款mRNA流感疫苗（新闻条目日期2026-08-07）: query_raw_items(keyword=FDA,limit=50,source=null,status=null) = Solidot标题“FDA 批准首款 mRNA 流感疫苗上市”
+- FDA批准首款口服PCSK9抑制剂（新闻条目日期2026-07-16）: query_raw_items(keyword=FDA,limit=50,source=null,status=null) = Hacker News标题“FDA Approves First Oral Therapy That Inhibits PCSK9”
+- Vertex宣布FDA接受povetacicept IgA肾病BLA并申请加速批准（新闻条目日期2026-06-22）: query_raw_items(keyword=FDA,limit=50,source=null,status=null) = Longbridge标题“Vertex Announces US FDA Acceptance Of Biologics License Application For Accelerated Approval Of Povetacicept In IgA Nephropathy”
+- FDA拟启动加速早期临床试验试点（新闻条目日期2026-06-22）: query_raw_items(keyword=FDA,limit=50,source=null,status=null) = Hacker News标题“FDA to launch pilot program to speed up early-stage clinical trials”
+- Lilly拟以63亿美元收购Centessa（新闻条目日期2026-06-22）: query_raw_items(keyword=Eli Lilly,limit=30,source=null,status=null) = Longbridge标题“Eli Lilly to buy Centessa in $6.3 billion deal for sleep medicines”
+- Novo Nordisk拟自2027年起在美国将GLP-1价格最高下调50%（新闻条目日期2026-06-22）: query_raw_items(keyword=Novo Nordisk,limit=30,source=null,status=null) = Longbridge标题“Novo Nordisk To Slash GLP-1 Drug Prices By Up To 50% In US Starting 2027”
+- Novo Nordisk披露临床试验数据泄露/网络攻击相关事件（新闻条目日期2026-06-12至2026-06-16）: query_raw_items(keyword=Novo Nordisk,limit=30,source=null,status=null) = Hacker News多条标题涉及clinical trials data breach、cyberattack及勒索声称
+- biotech领域近期临床与融资/上市动态（新闻条目日期2026-06-21至2026-08-01）: query_raw_items(keyword=biotech,limit=50,source=null,status=null) = Longbridge/Hacker News条目包括Legend Biotech 2.25亿美元ADS增发、Avalyn Pharma IPO定价、PrimeGen 15亿美元SPAC等；未据此推导公司估值或阶段结论
+
+- Eli Lilly Q2 2026营收同比增长48%、全年营收指引850亿–870亿美元、调整后EPS指引35.50–36.50美元: query_longbridge_by_route(path=news/company, params={"symbol":"LLY.US","count":20}) = 新闻条目295305077（2026-08-09），标题/描述级，非财报原文
+- Lilly与Novo在美国联邦法院驳回复方GLP-1药房反垄断诉讼: query_longbridge_by_route(path=news/company, params={"symbol":"LLY.US","count":20}) = 新闻条目295259705/295257563（2026-08-08），新闻描述级
+- Novo Nordisk 2026年上半年总营收约270亿美元、同比增长13%（新闻描述级）: query_longbridge_by_route(path=news/company, params={"symbol":"NVO.US","count":20}) = 新闻条目295246045（2026-08-07）
+- Pfizer Q2 2026营收约150亿美元、调整后EPS 0.77美元、全年营收指引605亿–625亿美元、COVID营收预期约40亿美元: query_longbridge_by_route(path=news/company, params={"symbol":"PFE.US","count":20}) = 新闻条目294978007（2026-08-05），新闻转述财报/电话会，非原始10-Q
+- Pfizer终止MET-224o与PF-07976016口服减重药开发: query_longbridge_by_route(path=news/company, params={"symbol":"PFE.US","count":20}) = 新闻条目294976468（2026-08-05），新闻描述级，需公司公告核验
+- Merck Q2 2026营收166.1亿美元: query_longbridge_by_route(path=news/company, params={"symbol":"MRK.US","count":20}) = 新闻条目294969453（2026-08-05），新闻描述级
+- Merck ENFLONSIA扩展适应症sBLA获FDA受理，PDUFA目标日期2027-03-22: query_longbridge_by_route(path=news/company, params={"symbol":"MRK.US","count":20}) = 新闻条目295093390（2026-08-06），公司新闻转述级
+- AbbVie估值存在DCF约低估45%与P/E相对高估的分歧: query_longbridge_by_route(path=news/company, params={"symbol":"ABBV.US","count":20}) = 新闻条目295294852（2026-08-08），第三方估值文章，非一致预期
+- Vertex Q2 2026营收33亿美元、同比增长12%、全年营收指引131亿–132亿美元、现金136亿美元，并推进约88亿美元收购Crinetics: query_longbridge_by_route(path=news/company, params={"symbol":"VRTX.US","count":20}) = 新闻条目294833239（2026-08-04），新闻/电话会转述级
+- Vertex股价2026-08-06收于484.83美元，较52周高点低9.15%: query_longbridge_by_route(path=news/company, params={"symbol":"VRTX.US","count":20}) = 新闻条目295012163（2026-08-06），行情转述级
+- Moderna mFLUSIVA获FDA批准，适用50岁及以上人群，新闻称较传统疫苗保护效果高26.6%且错过2026采购周期、预计2027年下半年产生商业收入: query_longbridge_by_route(path=news/company, params={"symbol":"MRNA.US","count":20}) = 新闻条目295156417（2026-08-07），新闻描述级，FDA原始文件未核验
+- Moderna CEO Stephane Bancel于2026-08-05出售499,246股、约956万美元: query_longbridge_by_route(path=news/company, params={"symbol":"MRNA.US","count":20}) = 新闻条目295273422（2026-08-08），EDGAR披露转述级
+- Erasca投资者证券欺诈诉讼指控涉及ERAS-0015数据/安全性，2026-08-10为首席原告申请截止日；新闻称披露后市值减少28亿美元: query_longbridge_by_route(path=news/company, params={"symbol":"ERAS.US","count":20}) = 新闻条目294545990及同类条目（2026-07-29至2026-08-06），诉讼律所新闻稿转述，指控未经裁判确认
+
+- Eli Lilly Q2 2026营收同比增长48%、全年营收指引850亿–870亿美元、调整后EPS指引35.50–36.50美元（2026-08-09）: query_longbridge_by_route(path=news/company, params={"symbol":"LLY.US","force_refresh":true}) = 新闻标题/描述295305077
+- Lilly与Novo在美国联邦法院驳回复方GLP-1药房反垄断诉讼（2026-08-08）: query_longbridge_by_route(path=news/company, params={"symbol":"LLY.US","force_refresh":true}) = 新闻条目295259705/295257563
+- Novo Nordisk 2026年上半年总营收约270亿美元、同比增长13%（2026-08-07）: query_longbridge_by_route(path=news/company, params={"symbol":"NVO.US","force_refresh":true}) = 新闻条目295246045
+- Pfizer Q2 2026营收约150亿美元、调整后EPS 0.77美元、全年营收指引605亿–625亿美元、COVID营收预期约40亿美元（2026-08-05）: query_longbridge_by_route(path=news/company, params={"symbol":"PFE.US","force_refresh":true}) = 新闻条目294978007
+- Pfizer终止MET-224o与PF-07976016口服减重药开发（2026-08-05）: query_longbridge_by_route(path=news/company, params={"symbol":"PFE.US","force_refresh":true}) = 新闻条目294976468
+- Merck Q2 2026营收166.1亿美元（2026-08-05）: query_longbridge_by_route(path=news/company, params={"symbol":"MRK.US","force_refresh":true}) = 新闻条目294969453
+- Merck ENFLONSIA扩展适应症sBLA获FDA受理，PDUFA目标日期2027-03-22（2026-08-06）: query_longbridge_by_route(path=news/company, params={"symbol":"MRK.US","force_refresh":true}) = 新闻条目295093390
+- Vertex Q2 2026营收33亿美元、同比增长12%、全年营收指引131亿–132亿美元、现金136亿美元，并推进约88亿美元收购Crinetics（2026-08-04）: query_longbridge_by_route(path=news/company, params={"symbol":"VRTX.US","force_refresh":true}) = 新闻条目294833239
+- Moderna mFLUSIVA获FDA批准，适用50岁及以上人群，预计2027年下半年产生商业收入（2026-08-07）: query_longbridge_by_route(path=news/company, params={"symbol":"MRNA.US","force_refresh":true}) = 新闻条目295156417
+- Moderna CEO Stephane Bancel于2026-08-05出售499,246股、约956万美元: query_longbridge_by_route(path=news/company, params={"symbol":"MRNA.US","force_refresh":true}) = 新闻条目295273422
+- Erasca投资者证券欺诈诉讼指控涉及ERAS-0015数据/安全性，2026-08-10为首席原告申请截止日；新闻称披露后市值减少28亿美元（2026-07-29至2026-08-06）: query_longbridge_by_route(path=news/company, params={"symbol":"ERAS.US","force_refresh":true}) = 新闻条目294545990及同类条目
+- FDA批准首款mRNA流感疫苗、Moderna mFLUSIVA，新闻发布时间2026-08-07: query_raw_items(keyword=FDA,limit=50) = [solidot] FDA 批准首款 mRNA 流感疫苗上市；[hackernews] FDA approves first mRNA flu shot, from Moderna
+- Moderna mRNA流感疫苗获FDA批准但等待CDC建议，新闻发布时间2026-08-07: query_longbridge_by_route(news/company,{"symbol":"MRNA.US","force_refresh":true}) = Moderna mRNA flu shot wins FDA approval but awaits CDC recommendations
+- Eli Lilly 2026年Q2收入229.74亿美元、GAAP净利润70.95亿美元、GAAP EPS 7.94美元，均高于一致预期；数据期Q2 2026: query_longbridge_by_route(fundamental/consensus,{"symbol":"LLY.US"}) = actual revenue 22974000000, actual net_income 7095000000, actual EPS 7.94
+- Eli Lilly 2026年Q2业绩后上调全年收入指引至850-870亿美元、非GAAP EPS至35.50-36.50美元，新闻发布时间2026-08-09: query_longbridge_by_route(news/company,{"symbol":"LLY.US","force_refresh":true}) = Eli Lilly and Company Q2 Earnings Call Highlights
+- Eli Lilly与Novo Nordisk在美国配制GLP-1反垄断诉讼中获胜，德州联邦法官驳回案件，新闻发布时间2026-08-08: query_longbridge_by_route(news/company,{"symbol":"LLY.US","force_refresh":true}) = Lilly and Novo Win a Key GLP-1 Antitrust Fight
+- Vertex 2026年Q2收入33亿美元、同比增长12%，全年收入指引131-132亿美元；现金136亿美元，并推进约88亿美元收购Crinetics，新闻发布时间2026-08-04: query_longbridge_by_route(news/company,{"symbol":"VRTX.US","force_refresh":true}) = Vertex Pharma Analyst Conference Call
+- Vertex 2026-08-08股价上涨2.49%至496.07美元，52周高点533.67美元: query_longbridge_by_route(news/company,{"symbol":"VRTX.US","force_refresh":true}) = Vertex Pharmaceuticals Inc. Stock Outperforms Competitors On Strong Trading Day
+- Vertex 2026年Q2收入、GAAP净利润及EPS一致预期数据：query_longbridge_by_route(fundamental/consensus,{"symbol":"VRTX.US"}) = actual revenue 11998287880.6408, actual net_income 3208542252.6599, actual EPS 0.7261（该路由返回值与新闻口径存在显著不一致，需回查公司文件，不能直接混用）
+- Moderna CEO Stephane Bancel于2026-08-05出售499,246股、约956万美元: query_longbridge_by_route(news/company,{"symbol":"MRNA.US","force_refresh":true}) = Moderna CEO Stephane Bancel disposes of 499,246 shares for $9.56 million
