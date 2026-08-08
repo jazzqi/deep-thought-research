@@ -21,6 +21,7 @@ depends_on:
 
 ## 典型参与 Agent
 
-- tech_generalist（周期定位与地缘影响）
+- tech_generalist（周期定位与地缘影响，Lead）
+- ai_specialist（AI 需求侧：云 capex 传导、GPU/ASIC 竞争、推理成本）
 - soros（宏观周期对半导体需求的影响）
 - taleb（地缘 fab 布局的尾部风险审查）
