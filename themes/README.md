@@ -45,6 +45,7 @@
 | economic-calendar | ackman | executive + macro + fundamental + sector + risk | 宏观/日历预读 | market-daily, fed, global-macro |
 | ai-industry | ai_specialist | sector + fundamental + foresight | 行业 | semiconductor, nvda, alphabet, global-macro, market-sentiment, disruptive-innovation |
 | biopharma | pharma_specialist | sector + fundamental + macro + risk + advisory | 行业 | global-macro, disruptive-innovation |
+| ai-second-order | kevin_kelly | foresight + sector + fundamental + macro | 前瞻/衍生机会 | ai-industry, disruptive-innovation, ten-bagger-hunting, semiconductor, global-macro, market-sentiment |
 
 ## 数据蒸馏机制（DISTILLATION）
 

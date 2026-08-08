@@ -467,6 +467,32 @@ themes:
       - market-sentiment
       - disruptive-innovation
 
+  - slug: ai-second-order
+    name: AI 二阶效应与衍生投资机会
+    status: active
+    priority: 24
+    created: 2026-08-09
+    assets: []
+    tags:
+      - AI second-order effects
+      - AI adoption
+      - AI applications
+      - AI for science
+      - agentic AI
+      - digital employee
+      - AI video
+      - embodied AI
+      - paradigm shift
+      - disruptive innovation
+    related_themes:
+      - ai-industry
+      - disruptive-innovation
+      - ten-bagger-hunting
+      - semiconductor
+      - global-macro
+      - market-sentiment
+      - biopharma
+
   - slug: biopharma
     name: 全球生物医药
     status: active
