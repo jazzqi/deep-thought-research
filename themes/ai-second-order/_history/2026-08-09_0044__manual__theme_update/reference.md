@@ -1,0 +1,38 @@
+- OpenAI Astra: A Paradigm Shift from Answers to Assignments（2026-08-08）: query_raw_items(keyword=AI,source=hackernews) = 新闻标题，未验证产品状态或商业化
+- 欧盟《人工智能法案》透明度规则正式生效（2026-08-03）: query_raw_items(keyword=人工智能) = 新闻标题，未验证法规原文与执行范围
+- 韩国国家人工智能算力中心正式开工（2026-08-04）: query_raw_items(keyword=人工智能) = 新闻标题，未验证投资金额/产能
+- LG董事长与黄仁勋拟会面讨论实体AI和智能工厂（未来事件）: query_calendar_events(country=,days=30,importance=high,medium) = 事件，无实际结果
+- DeepSeek拟上调API服务定价、DeepSeek-V4-Flash拟公测（未来事件）: query_calendar_events(country=,days=30,importance=high,medium) = 事件，无实际结果
+- 美国联储资产负债表 6,748,567（2026-08-05）: query_indicators(category=macro,country=us,time_range=24h) = 6748567.0
+- 美国CPI同比3.5%（2026-06-01，工具标注非90天但已滞后）: query_indicators(category=macro,country=us,time_range=24h) = 3.5
+- 美国核心CPI指数336.065（2026-06-01，工具标注非90天但已滞后）: query_indicators(category=macro,country=us,time_range=24h) = 336.065
+- 中国进出口（2026-04-01，工具标注过时）: query_indicators(category=macro,country=china,time_range=24h) = 出口359703900000、进口270641300000
+- 美国7月CPI与核心CPI预期（2026-08-12未来事件）: query_calendar_events(country=US,days=30,importance=high,medium) = 总CPI同比预期3.4%、核心CPI同比预期2.5%
+
+- 2026-08-08 AI相关新闻标题：OpenAI Astra: A Paradigm Shift from Answers to Assignments、captain-miao herding coding agents、How AI Layoffs Can Trigger an Economic Spiral、DARPA Lift Challenge直播: query_raw_items(keyword=AI,limit=30) = 标题列表；仅为新闻/社区信号，未验证商业化或因果
+- 美国联储资产负债表（2026-08-05）: query_indicators(category=macro,country=us,time_range=7d) = 6748567.0
+- 美国CPI同比（2026-06-01，工具标注68天前，滞后）: query_indicators(category=macro,country=us,time_range=7d) = 3.5
+- 美国消费者信心（2026-06-01，工具标注68天前，滞后）: query_indicators(category=macro,country=us,time_range=7d) = 49.5
+- 美国财政部8月11日至13日标售逾千亿美元国债（未来事件）: query_calendar_events(country=US,days=14,importance=high,medium) = event_date 2026-08-10, event_name该事件
+- 美国7月CPI年率（未来事件，预测3.4%，实际未发布）: query_calendar_events(country=US,days=14,importance=high,medium) = 2026-08-12, previous 3.5, forecast 3.4, actual null
+- 美国7月核心CPI年率（未来事件，预测2.5%，实际未发布）: query_calendar_events(country=US,days=14,importance=high,medium) = 2026-08-12, previous 2.6, forecast 2.5, actual null
+- 美国10年期国债竞拍（未来事件，前次高收益率4.58%）: query_calendar_events(country=US,days=14,importance=high,medium) = 2026-08-12, previous 4.58, actual null
+- 公司新闻/财报/一致预期路由探索: search_routes(category=stock,keyword=news company,financials,consensus) = 未找到相关路由；本轮无可靠公司估值、现金流、资本开支或分析师一致预期数据
+- 2026-08-07 Goldman Sachs使用Agentic AI进行规模化软件工程（新闻条目）: query_raw_items({"keyword":"agentic","limit":30}) = Hacker News标题，未提供收入、任务成功率或成本数据
+- 2026-08-07 Gemini Robotics 2扩展Google机器人AI能力（新闻条目）: query_raw_items({"keyword":"robotics","limit":30}) = Hacker News标题，未提供量产、订单或现金流数据
+- 2026-07-30 Google DeepMind推出Gemini Robotics ER2模型（新闻条目）: query_raw_items({"keyword":"robotics","limit":30}) = BlockBeats标题，未提供商业化数据
+- 2026-08-04 AI² Robotics考虑赴港IPO（新闻条目）: query_raw_items({"keyword":"robotics","limit":30}) = BlockBeats标题，未提供招股书、收入或估值
+- 2026-08-06 The energy use of agentic AI（新闻条目）: query_raw_items({"keyword":"agentic","limit":30}) = Hacker News标题，未提供统一可审计能耗数据
+- 2026-08-05 美国联储资产负债表: query_indicators({"category":"macro","country":"us","time_range":"24h","limit":20}) = 6748567.0（2026-08-05，单位未在返回值明确）
+- 2026-08-12 美国7月核心CPI同比预期: query_calendar_events({"country":"US","days":30,"importance":"high,medium","limit":50}) = 2.5%，前值2.6%，实际值尚未公布
+- 2026-08-12 美国7月CPI同比预期: query_calendar_events({"country":"US","days":30,"importance":"high,medium","limit":50}) = 3.4%，前值3.5%，实际值尚未公布
+- 2026-08-11至13美国财政部标售逾千亿美元国债: query_calendar_events({"country":"US","days":30,"importance":"high,medium","limit":50}) = 日历事件，未提供每场标售金额拆分
+- 2026-06-01美国CPI同比3.5%: query_indicators({"category":"macro","country":"us","time_range":"24h","limit":20}) = 3.5%，数据已陈旧（68天），不作为当前结论
+
+- 2026-08-08 AI相关新闻：49IDE管理多代理、Amazon在加州建设数据中心、OpenAI Astra、AI裁员经济影响等: query_raw_items(keyword=null,limit=50,source=null,status=null) = 新闻标题，未提供经审计收入/部署/能耗数据
+- 美国联储资产负债表（2026-08-05）: query_indicators(category=macro,country=us,limit=20,time_range=24h) = 6748567.0
+- 美国CPI同比（2026-06-01）: query_indicators(category=macro,country=us,limit=20,time_range=24h) = 3.5%，工具标记滞后，不作为当前通胀结论
+- 2026-08-12美国7月CPI同比预期3.4%、核心CPI同比预期2.5%: query_calendar_events(country=US,days=14,importance=high,medium,limit=50) = actual null
+- 2026-08-12美国10年期国债竞拍前次高收益率4.58%、本次规模390亿美元: query_calendar_events(country=US,days=14,importance=high,medium,limit=50) = actual null
+- 2026-08-10至13美国财政部标售逾千亿美元国债: query_calendar_events(country=US,days=14,importance=high,medium,limit=50) = 日历事件，实际结果未公布
+- 上市公司news/company、financials、consensus路由未检索到可用结果: search_routes(category=stock,keyword=news,company,financials,consensus) = 未找到路由
