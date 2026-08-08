@@ -1,0 +1,67 @@
+- FDA首款mRNA流感疫苗批准: query_raw_items(keyword=FDA, limit=20, source=telegram:Financial_Express)未命中；query_raw_items(keyword=FDA, limit=20, source=null) = solidot/Hacker News headlines, 2026-08-06至07
+- GLP-1价格变化与临床: query_raw_items(keyword=GLP-1, limit=20, source=null) = Novo price headline、Hengrui Phase III headline, 2026-06-22
+- Erasca安全事件: query_raw_items(keyword=clinical trial, limit=20, source=null) = Longbridge headline, 2026-06-22
+- Merck/Terns交易: query_raw_items(keyword=M&A, limit=20, source=null) = Longbridge headline, 2026-06-22
+- LLY.US最新价: market_quote(symbols=['LLY.US','NVO.US','PFE.US','MRK.US','ABBV.US']) = 1185.71，日变化-0.52%
+- NVO.US最新价: market_quote(symbols=['LLY.US','NVO.US','PFE.US','MRK.US','ABBV.US']) = 47.26，日变化+2.81%
+- PFE.US最新价: market_quote(symbols=['LLY.US','NVO.US','PFE.US','MRK.US','ABBV.US']) = 26.76，日变化+2.14%
+- MRK.US最新价: market_quote(symbols=['LLY.US','NVO.US','PFE.US','MRK.US','ABBV.US']) = 128.58，日变化+0.16%
+- ABBV.US最新价: market_quote(symbols=['LLY.US','NVO.US','PFE.US','MRK.US','ABBV.US']) = 246.04，日变化+0.89%
+- 美国7月CPI日历: query_calendar_events(country=US,days=30,importance=high,medium) = 2026-08-12，核心CPI同比前值2.6%、预测2.5%，CPI同比前值3.5%、预测3.5%
+- 美国宏观指标: query_indicators(category=monetary_credit,country=us,time_range=24h) = 0 indicators; query_indicators(category=sentiment,country='',time_range=24h) = 0 indicators
+
+- FDA批准首款mRNA流感疫苗（新闻发布日期2026-08-06/2026-08-07）: query_raw_items(keyword=FDA,source=telegram:Financial_Express) = hackernews/solidot转述，未取得FDA原始公告，状态待核验
+- FDA批准首款口服PCSK9抑制剂（新闻发布日期2026-07-16）: query_raw_items(keyword=FDA,source=telegram:Financial_Express) = hackernews标题，未取得FDA原始公告
+- FDA启动加速早期临床试验试点（2026-06-22）: query_raw_items(keyword=FDA,source=telegram:Financial_Express) = hackernews标题
+- Erasca临床试验参与者死亡引发安全担忧、股价单日下跌48%（2026-06-22）: query_raw_items(keyword=clinical trial,source=reuters) = longbridge标题；未取得公司公告或监管原文
+- 恒瑞HRS-7535口服小分子GLP-1中国糖尿病关键III期取得积极顶线（2026-06-22）: query_raw_items(keyword=GLP-1,source=telegram:Financial_Express) = longbridge标题
+- 诺和诺德计划自2027年起美国GLP-1药价最高下调50%（2026-06-22）: query_raw_items(keyword=GLP-1,source=telegram:Financial_Express) = longbridge标题；未取得公司公告或合同条款
+- Medicare开始覆盖减重GLP-1（2026-07-01）: query_raw_items(keyword=GLP-1,source=telegram:Financial_Express) = hackernews标题，未取得CMS原文
+- 美国专利悬崖图谱研究（2026-07-15）: query_raw_items(keyword=patent cliff,source=hackernews) = hackernews标题，缺少具体药品与金额数据
+- 生物医药公司估值/一致预期/财务路由: search_routes(category=stock,keyword=financials/consensus/valuation/news) = 未找到；query_indicators(country=us,category=monetary_credit/sentiment) = 0 indicators，无法量化市场定价与宏观背景
+- FDA批准Moderna首款mRNA流感疫苗（新闻时间2026-08-06/07）: query_raw_items(keyword=FDA,source=longbridge) = FDA approves first mRNA flu shot, from Moderna；solidot转述同一事件
+- FDA批准首款覆盖发作性睡病1型完整症状药物（新闻时间2026-08-07）: query_raw_items(keyword=FDA,source=longbridge) = FDA Approves First Drug to Treat the Full Range of Narcolepsy Type 1 Symptoms
+- FDA批准首款口服PCSK9抑制剂（新闻时间2026-07-16）: query_raw_items(keyword=FDA,source=longbridge) = FDA Approves First Oral Therapy That Inhibits PCSK9
+- 恒瑞HRS-7535口服小分子GLP-1中国关键III期积极顶线（新闻时间2026-06-22）: query_raw_items(keyword=GLP-1,source=longbridge) = Hengrui Pharma disclosed positive top-line results...
+- Novo Nordisk计划自2027年起美国GLP-1药价最高下调50%（新闻时间2026-06-22）: query_raw_items(keyword=GLP-1,source=longbridge) = Novo Nordisk To Slash GLP-1 Drug Prices By Up To 50% In US Starting 2027
+- Medicare开始覆盖减重用GLP-1（新闻时间2026-07-01）: query_raw_items(keyword=GLP-1,source=longbridge) = Medicare starts covering GLP-1 drugs for weight loss
+- FDA拟启动加速早期临床试验试点（新闻时间2026-06-22）: query_raw_items(keyword=FDA,source=longbridge) = FDA to launch pilot program to speed up early-stage clinical trials
+- Erasca临床参与者死亡及FDA数据争议相关报道（新闻时间2026-06-22）: query_raw_items(keyword=FDA,source=longbridge) = FDA claims Amgen drug data were ‘manipulated’; Erasca slides despite ‘home run’ results
+- 美国生物医药公司财务、估值、一致预期和公司新闻路由本轮未成功取得: search_routes(category=stock,keyword=financials,consensus,valuation,analyst,news company) = 未找到相关路由；query_indicators(country=us,category=monetary_credit) = 0 indicators
+- 本轮生物医药宏观/利率及公司级财务估值数据缺失，不据此编造数值: query_indicators(country=us,category=monetary_credit,time_range=7d) = 0 indicators
+
+- 本轮接力改写沿用已核验新闻与数据缺口：query_raw_items(keyword=FDA/GLP-1/clinical trial, source=longbridge/telegram:Financial_Express) = 2026-06-22至2026-08-07相关标题；部分为转述，未取得FDA/CMS原始公告，状态待核验
+- 本轮未新增上市公司财务、估值及一致预期数据：search_routes(category=stock, keyword=financials,consensus,valuation,analyst,news) = 未找到可用路由；query_indicators(country=us, category=monetary_credit/sentiment) = 0 indicators
+- 恒瑞医药HRS-7535在中国糖尿病关键III期研究取得积极顶线结果（2026-06-22）: QueryLongbridgeByRouteTool(news/company，原稿记录的新闻日期与事件) = 媒体报道为积极顶线；正式监管状态待核验
+- Novo Nordisk计划自2027年起在美国将GLP-1药价最高下调50%（2026-06-22）: QueryLongbridgeByRouteTool(news/company，原稿记录的新闻日期与事件) = 公司计划/媒体报道，正式定价与收入指引待核验
+- FDA批准Moderna首款mRNA流感疫苗（2026-08-06至2026-08-07）: QueryRawItemsTool(keyword=biopharma,biotech,pharmaceutical；原稿记录的新闻来源) = 原稿所引新闻报道；FDA原始公告、标签和上市后要求待核验
+- FDA批准首款口服PCSK9抑制剂（2026-07-16）: QueryRawItemsTool(keyword=biopharma,biotech,pharmaceutical；原稿记录的新闻来源) = 原稿所引新闻报道；正式FDA文件待核验
+- Erasca临床参与者死亡及FDA数据争议、股价单日下跌48%（2026-06-22）: QueryLongbridgeByRouteTool(news/company，原稿记录的新闻日期与事件) = 媒体报道；正式安全性与监管处置待核验
+- Merck拟收购Terns Pharmaceuticals、Shionogi取得Apnimed相关权益等交易线索（2026-06-22）: QueryLongbridgeByRouteTool(news/company，原稿记录的新闻日期与事件) = 媒体/交易线索；正式公告、条款和完成状态待核验
+- 生物医药公司最新财务、估值和分析师一致预期: search_routes(category=stock,keyword=financials/consensus/valuation/news) = 未找到可用路由；公司级数字数据缺失
+- 近期生物医药原始新闻检索: QueryRawItemsTool(keyword=biopharma,biotech,pharmaceutical,source=空,status=空) = No raw items found（本轮工具结果）
+- FDA mRNA流感疫苗新闻条目：QueryRawItemsTool(keyword=Moderna, source=null, limit=50) = FDA approves first mRNA flu shot, from Moderna（2026-08-06）；另有FDA批准首款mRNA流感疫苗条目（2026-08-07）
+- FDA首个覆盖发作性睡病1型完整症状药物新闻条目：QueryRawItemsTool(keyword=FDA, source=null, limit=50) = FDA Approves First Drug to Treat the Full Range of Narcolepsy Type 1 Symptoms（2026-08-07）
+- FDA首款口服PCSK9抑制剂新闻条目：QueryRawItemsTool(keyword=FDA, source=null, limit=50) = FDA Approves First Oral Therapy That Inhibits PCSK9（2026-07-16）
+- Novo Nordisk美国GLP-1药价最高下调50%的报道：QueryRawItemsTool(keyword=Nvovo Nordisk, source=null, limit=50) = Novo Nordisk To Slash GLP-1 Drug Prices By Up To 50% In US Starting 2027（2026-06-22）
+- Novo Nordisk网络攻击及临床试验数据泄露新闻：QueryRawItemsTool(keyword=Novo Nordisk, source=null, limit=50) = Hacking group claims major hack of Novo Nordisk and attempted $25M extortion（2026-06-16）；Novo Nordisk discloses breach of clinical trials data（2026-06-12）
+- Lilly收购Centessa新闻：QueryRawItemsTool(keyword=Lilly, source=null, limit=50) = Lilly to acquire Centessa Pharmaceuticals to advance treatments for sleep-wake disorders（2026-06-22）；Eli Lilly to buy Centessa in $6.3 billion deal（2026-06-22）
+- Lilly收购AtaiBeckley新闻：QueryRawItemsTool(keyword=Lilly, source=null, limit=50) = Eli Lilly to buy psychedelics maker AtaiBeckley for $2.8B（2026-07-16）
+- FDA与Amgen数据争议、Erasca事件新闻：QueryRawItemsTool(keyword=FDA, source=null, limit=50) = FDA claims Amgen drug data were ‘manipulated’; Erasca slides despite ‘home run’ results（2026-06-22）
+
+- Eli Lilly 2026年Q2收入同比增长48%，公司上调2026年收入指引至850亿–870亿美元、非GAAP EPS至35.50–36.50美元；并披露retatrutide III期积极结果: query_longbridge_by_route(news/company, {"symbol":"LLY.US","count":20}) = Longbridge新闻295305077，2026-08-09
+- Eli Lilly与Novo Nordisk赢得美国复配GLP-1反垄断诉讼，得州联邦法官驳回Strive Specialties诉求，原告考虑上诉: query_longbridge_by_route(news/company, {"symbol":"LLY.US","count":20}) = Longbridge新闻295259705/295257563，2026-08-08
+- Moderna CEO Stephane Bancel于2026-08-05出售499,246股，交易金额约956万美元，披露后仍持有6,440,260股直接普通股: query_longbridge_by_route(news/company, {"symbol":"MRNA.US","count":20}) = Longbridge新闻295273422，2026-08-08
+- Moderna mFLUSIVA获FDA批准但仍待CDC建议；报道指适用50岁以上人群，预计商业收入可能延至2027年下半年: query_longbridge_by_route(news/company, {"symbol":"MRNA.US","count":20}) = Longbridge新闻295219760/295156417，2026-08-07
+- Roivant FY27 Q1 GAAP净亏损2.9061亿美元、收入144万美元，现金39亿美元，目标2026年9月底前推出brepocitinib: query_longbridge_by_route(news/company, {"symbol":"MRNA.US","count":20}) = Longbridge新闻295095744，2026-08-06
+- Merck的ENFLONSIA RSV预防适应症补充BLA获FDA受理，PDUFA目标日期2027-03-22，EMA同步受理: query_longbridge_by_route(news/company, {"symbol":"MRK.US","count":20}) = Longbridge新闻295093390，2026-08-06
+- Merck 2026年Q2收入166.1亿美元，HPV疫苗销售11.69亿美元、同比增长4%: query_longbridge_by_route(news/company, {"symbol":"MRK.US","count":20}) = Longbridge新闻294969453/294964368，2026-08-05
+- Novo Nordisk新闻流显示媒体称其GLP-1相关产品增速放缓、核心产品面临tirzepatide竞争；相关收入数字为二手媒体报道，需公司财报复核: query_longbridge_by_route(news/company, {"symbol":"NVO.US","count":20}) = Longbridge新闻295246045/295156868，2026-08-07
+- 2026-06-22 Erasca 早期癌症试验患者死亡、股价单日下跌48%的新闻条目: query_raw_items(keyword=Erasca, limit=20, source=null, status=null) = Longbridge 条目标题包括“Erasca Shares Plunge 48% After Trial Patient Death”及“FDA claims Amgen drug data were ‘manipulated’”
+- 2026-06-22 恒瑞医药披露口服小分子GLP-1受体激动剂HRS-7535中国2型糖尿病关键III期积极顶线结果: query_raw_items(keyword=HRS-7535, limit=20, source=null, status=null) = Longbridge 条目
+- 2026-06-22至2026-08-01 独立新闻检索未发现 Moderna influenza vaccine 相关原始条目；检索 biopharma/biotech/pharmaceutical 主要返回旧闻或泛行业条目: query_raw_items(keyword=biopharma/biotech/pharmaceutical, limit=50/50/50, source=null, status=null) = 结果如上
+
+- 2026-08-09 Eli Lilly Q2 2026 revenue +48%; raised FY2026 revenue guidance to USD 85–87bn and non-GAAP EPS guidance to USD 35.50–36.50; positive retatrutide Phase 3 results and Medicare GLP-1 Bridge Program reported: QueryLongbridgeByRouteTool(news/company, {"symbol":"LLY.US","force_refresh":true}) = 해당 뉴스 항목
+- 2026-08-08 U.S. federal judge dismissed Strive Specialties antitrust lawsuit against Eli Lilly and Novo Nordisk; appeal consideration remains: QueryLongbridgeByRouteTool(news/company, {"symbol":"LLY.US","force_refresh":true}) = 해당 뉴스 항목
+- 2026-08-08 Moderna CEO Stephane Bancel sold 499,246 shares for approximately USD 9.56m on 2026-08-05, weighted-average prices USD 56.21–58.79: QueryLongbridgeByRouteTool(news/company, {"symbol":"MRNA.US","force_refresh":true}) = 해당新闻项目
+- 2026-08-07 Moderna mFLUSIVA mRNA influenza vaccine reported FDA approval for adults aged 50+, with commercial revenue expected from H2 2027 because it missed the 2026 procurement cycle; source description also reports 26.6% higher protective effect versus traditional vaccines, pending verification: QueryLongbridgeByRouteTool(news/company, {"symbol":"MRNA.US","force_refresh":true}) = 해당新闻项目

@@ -1,19 +1,4 @@
----
-name: 全球生物医药
-slug: biopharma
-status: active
-lead_agent: pharma_specialist
-created: 2026-08-08
-updated: 2026-08-09T01:20:15+08:00
-revision: 2026-08-09
-sources:
-  - path: 2026-08-09_0055__manual__query_raw_items_keyword_source_biopharma_biotech_pharmaceuti/reference.md
-    agent: theme_update
-    summarized: false
----
-
-# biopharma
-
+## Big Picture
 
 全球生物医药正从“平台和管线叙事驱动”进入“临床验证、监管兑现、支付约束与现金流重估”阶段。企业以高研发投入换取专利保护和定价权，再通过适应症扩张、生产放量、渠道覆盖和生命周期管理实现回报；但从临床读出到股东回报之间，仍有注册性证据、监管标签、制造供应、支付覆盖、患者依从性和净价等连续门槛，任何一环失败都可能使远期市场空间迅速折价。
 
