@@ -436,3 +436,33 @@ themes:
       - market-daily
       - fed
       - global-macro
+
+  - slug: ai-industry
+    name: 全球 AI 产业
+    status: active
+    priority: 22
+    created: 2026-08-08
+    assets:
+      - NVDA
+      - AVGO
+      - MSFT
+      - GOOGL
+      - META
+      - AMZN
+    tags:
+      - AI industry
+      - artificial intelligence
+      - foundation models
+      - AI capex cycle
+      - agentic AI
+      - AI infrastructure
+      - AI bubble
+      - large language models
+      - generative AI
+    related_themes:
+      - semiconductor
+      - nvda
+      - alphabet
+      - global-macro
+      - market-sentiment
+      - disruptive-innovation
