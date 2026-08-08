@@ -1,19 +1,4 @@
----
-name: 地缘冲突与黑天鹅
-slug: geo-conflicts
-status: active
-lead_agent: geopolitics_agent
-created: 2026-07-29
-updated: 2026-08-08T17:57:02+08:00
-revision: 2026-08-08
-sources:
-  - path: 2026-08-08_1732__manual__query_raw_items_source_source_telegram_financial_express_sou/reference.md
-    agent: theme_update
-    summarized: false
----
-
-# geo-conflicts
-
+## Big Picture
 
 地缘冲突正在从单一战场事件演变为能源通道、制裁体系、航运安全、网络攻击与科技供应链相互叠加的风险网络。当前第一触发器是霍尔木兹：2026 年 8 月 8 日的新闻同时显示，阿曼与伊朗谈判及霍尔木兹协议预期升温，但伊朗仍被报道拟限制美国使用该海峡；此前还出现油轮触雷与伊朗拦截船只事件。俄乌冲突则通过无人机袭击、能源制裁和船运风险外溢。朝鲜半岛与台海暂未出现同等强度的即时军事跃迁，但网络攻击、南海军事训练、海上执法与芯片管制可能先于传统战争信号影响资产价格。核心矛盾不是冲突必然升级或缓和，而是有限摩擦能否继续被隔离；若航运实物流、能源设施或第三方国家持续被卷入，风险溢价将非线性重估。
 
