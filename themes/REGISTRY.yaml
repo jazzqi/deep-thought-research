@@ -269,19 +269,31 @@ themes:
     status: active
     priority: 12
     created: 2026-08-01
+    updated: 2026-08-08
     assets:
       - GOOGL
     tags:
       - Google
       - Alphabet
+      - Gemini
+      - AI search
+      - AI Mode
+      - AI Overviews
+      - TPU
+      - Google Cloud
+      - GCP
       - big tech
-      - cloud
-      - AI
       - search monopoly
+      - zero-click
       - ad revenue cycle
+      - AI capex cycle
+      - digital advertising
     related_themes:
       - global-macro
       - market-daily
+      - nvda
+      - semiconductor
+      - disruptive-innovation
 
   - slug: spacex
     name: SpaceX
