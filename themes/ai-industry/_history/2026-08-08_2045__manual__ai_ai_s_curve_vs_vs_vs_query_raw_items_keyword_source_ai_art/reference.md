@@ -32,3 +32,54 @@
 - 2026-08-08 OpenAI近期条目：Astra因网络安全能力顾虑放慢发布；Hugging Face事件披露细节更新；微软披露/媒体报道其AI收入约70%来自OpenAI；另有美国劳工调查和Apple商业秘密诉讼条目: QueryRawItemsTool(keyword='OpenAI', limit=50, source='telegram:Financial_Express', status=null) = 相关hackernews/blockbeats条目
 - 2026-08-08 Anthropic近期条目：建设自研芯片团队；与AI云初创签署100亿美元算力协议；考虑追加360亿美元债务融资；获报道任命全球事务主管；欧盟AI法案执法权生效: QueryRawItemsTool(keyword='Anthropic', limit=50, source='telegram:Financial_Express', status=null) = 相关hackernews/36kr/blockbeats条目
 - 2026-08-08 AI近期条目：苹果与阿里巴巴合作、千问AI功能上线Mac；ByteDance据报道建设面向Anthropic的最高10T参数模型；中国模型阻止OpenAI网络攻击: QueryRawItemsTool(keyword='AI', limit=50, source='telegram:Financial_Express', status=null) = 相关telegram/hackernews/blockbeats条目
+
+- NVIDIA Q1 FY2027 revenue: query_longbridge_by_route(fundamental/financials/income, {"symbol":"NVDA.US","period":"quarter"}) = 81,615,000,000 USD
+- NVIDIA Q1 FY2027 GAAP net income: query_longbridge_by_route(fundamental/financials/income, {"symbol":"NVDA.US","period":"quarter"}) = 58,321,000,000 USD
+- NVIDIA Q1 FY2027 GAAP EPS: query_longbridge_by_route(fundamental/financials/income, {"symbol":"NVDA.US","period":"quarter"}) = 2.39 USD
+- NVIDIA Q1 FY2027 consensus revenue: query_longbridge_by_route(fundamental/consensus, {"symbol":"NVDA.US"}) = 79,115,709,670 USD
+- NVIDIA Q1 FY2027 consensus GAAP EPS: query_longbridge_by_route(fundamental/consensus, {"symbol":"NVDA.US"}) = 1.7413 USD
+- NVIDIA Q2-Q4 FY2027 consensus revenue: query_longbridge_by_route(fundamental/consensus, {"symbol":"NVDA.US"}) = 91,846,098,240 / 103,131,206,160 / 116,105,105,040 USD
+- Microsoft Q4 FY2026 revenue: query_longbridge_by_route(fundamental/financials/income, {"symbol":"MSFT.US","period":"quarter"}) = 90,007,000,000 USD
+- Microsoft Q4 FY2026 GAAP EPS: query_longbridge_by_route(fundamental/financials/income, {"symbol":"MSFT.US","period":"quarter"}) = 4.81 USD (the draft's 4.74 is normalized EPS, not GAAP EPS)
+- Alphabet Q2 FY2026 revenue: query_longbridge_by_route(fundamental/financials/income, {"symbol":"GOOGL.US","period":"quarter"}) = 119,796,000,000 USD
+- Alphabet Q2 FY2026 basic EPS: query_longbridge_by_route(fundamental/financials/income, {"symbol":"GOOGL.US","period":"quarter"}) = 9.1077 USD
+- Microsoft average analyst target price: query_longbridge_by_route(news/company, {"symbol":"MSFT.US"}) = 558.87 USD (news summary)
+- Alphabet average analyst target price: query_longbridge_by_route(news/company, {"symbol":"GOOGL.US"}) = 419.86 USD (news summary)
+- NVIDIA/Lancium reported investment: query_longbridge_by_route(news/company, {"symbol":"NVDA.US"}) = up to 3 billion USD; Reuters summary says NVIDIA and Lancium had not immediately responded, 2026-08-08
+- Alphabet 2026 capex guidance: query_raw_items(keyword="Alphabet", limit=30) = 195-205 billion USD, headline dated 2026-07-22; recent scan also found Alphabet capex exceeded operating cash flow last quarter, 2026-08-04
+- OpenAI Astra delayed for cyber capability concerns: query_raw_items(keyword="OpenAI", limit=30) = 2026-08-07 headlines
+- OpenAI/Hugging Face incident: query_raw_items(keyword="OpenAI", limit=30) = multiple 2026-08-06 to 2026-08-08 headlines
+- Google AI leadership shakeup / Demis Hassabis stepping aside / Jeff Dean reported departure: query_raw_items(keyword="Google", limit=30) = headlines dated 2026-08-05 to 2026-08-06
+- Meta New Mexico youth-safety judgment: query_raw_items(keyword="Meta", limit=30) = 567 million USD judgment headlines dated 2026-08-07 to 2026-08-08
+- Microsoft AI revenue dependence on OpenAI: query_raw_items(keyword="Microsoft", limit=30) = filings-related headlines claiming around 70%, dated 2026-08-05 to 2026-08-06; requires primary filing verification
+- Anthropic chip design and financing/compute reports: query_raw_items(keyword="Anthropic", limit=30) = own chip team headline 2026-08-06 and 10 billion USD compute agreement / 36 billion USD debt headlines 2026-08-04
+- AWS CPU shortage linked to agentic AI: query_longbridge_by_route(news/company, {"symbol":"AMZN.US"}) = headline/summary dated 2026-08-08
+
+- 2026-08-08 OpenAI近期重大新闻：Astra因网络安全能力顾虑放慢发布，Hugging Face事件披露细节更新: QueryRawItemsTool(keyword='OpenAI', limit=50) = 对应标题与发布时间
+- 2026-08-08 Anthropic近期重大新闻：自研芯片团队、100亿美元算力协议、可能追加360亿美元债务融资、全球事务主管任命、欧盟AI法案执法权生效: QueryRawItemsTool(keyword='Anthropic', limit=50) = 对应标题与发布时间
+- 2026-08-08 NVIDIA/Lancium报道：拟投资最多30亿美元，Reuters摘要称双方未立即回应: QueryLongbridgeByRouteTool(news/company, {"symbol":"NVDA.US","force_refresh":true}) = 对应新闻条目
+- 2026-08-08 Google AI agent开发工具代理间攻击漏洞，据报道已修复: QueryLongbridgeByRouteTool(news/company, {"symbol":"GOOGL.US","force_refresh":true}) = 对应新闻条目
+- 2026-08-08 Meta近期新闻包含AI模型网络安全事件及新墨西哥州5.67亿美元判决，报道提示或有多州后续风险: QueryLongbridgeByRouteTool(news/company, {"symbol":"META.US","force_refresh":true}) = 对应新闻条目
+- 2026-08-08 Microsoft Q2新闻口径：营收900.07亿美元、EPS 4.74美元、共识Moderate Buy、平均目标价558.87美元: QueryLongbridgeByRouteTool(news/company, {"symbol":"MSFT.US","force_refresh":true}) = 对应新闻条目
+- 2026-08-08 Alphabet新闻口径：营收约1198亿美元、EPS 9.11美元、共识Buy、平均目标价419.86美元: QueryLongbridgeByRouteTool(news/company, {"symbol":"GOOGL.US","force_refresh":true}) = 对应新闻条目
+- 2026-08-08 美国联储资产负债表: query_indicators(country='us', category='macro', time_range='24h') = 6748567.0（数据日期2026-08-05）
+- 2026-08-08 美国宏观货币信用查询: query_indicators(country='us', category='monetary_credit', time_range='24h') = 0个有效指标
+- 2026-08-08 美国宏观查询另返回GDP 32475.21（数据日期2026-04-01，129天前，工具标记过时），不用于当前判断: query_indicators(country='us', category='macro', time_range='24h') = 过时数据
+
+- 2026-08-08 独立近期重大事件扫描：AI 关键词返回苹果—阿里合作、ByteDance 据报道构建面向 Anthropic 的最高 10T 参数模型、中国模型阻止 OpenAI 网络攻击、OpenAI Hugging Face 事件细节更新等: query_raw_items(keyword='AI', limit=100, source=null, status=null) = 条目
+- 2026-08-08 独立近期重大事件扫描：OpenAI Astra 因网络安全能力顾虑放慢发布、Hugging Face 事件、OpenAI/Anthropic agent 安全事件、微软 AI 收入约 70% 来自 OpenAI 的媒体/文件披露等: query_raw_items(keyword='OpenAI', limit=50, source=null, status=null) = 条目
+- 2026-08-08 独立近期重大事件扫描：Anthropic 自研芯片团队、约100亿美元算力协议、考虑追加约360亿美元债务融资、欧盟 AI 法案执法权等: query_raw_items(keyword='Anthropic', limit=50, source=null, status=null) = 条目
+- 2026-08-08 独立近期重大事件扫描：Alphabet 2026 年资本开支 1950亿—2050亿美元、资本开支超过上一季度经营现金流、相关监管/产品事件；工作区既有扫描另记录 Google AI 领导层变动（Jeff Dean 离开、Demis Hassabis 卸任/变动）的新闻条目，需在正文核实并覆盖: query_raw_items(keyword='Alphabet', limit=50, source=null, status=null) = 条目
+- 2026-08-08 独立近期重大事件扫描：NVIDIA 近期出现 AI 泡沫/循环融资讨论及产品、数据中心相关报道；本轮未取得可确认的 Lancium 投资原始财报: query_raw_items(keyword='NVIDIA', limit=50, source=null, status=null) = 条目
+- 财务口径复核：Microsoft Q4 FY2026 GAAP EPS 为 4.81 美元，而稿件写 4.74 美元且未标注为 normalized EPS: query_longbridge_by_route(fundamental/financials/income, {"symbol":"MSFT.US","period":"quarter"}) = 4.81 USD
+
+- 2026-08-08独立审查新闻扫描：OpenAI Astra暂缓、Hugging Face事件及中国模型阻止OpenAI网络攻击相关条目: QueryRawItemsTool(keyword='OpenAI', limit=30, source=null, status=null) = 多条2026-08-06至2026-08-08条目
+- 2026-08-08独立审查新闻扫描：Anthropic自研芯片团队、100亿美元算力协议、可能追加360亿美元债务融资、全球事务主管任命等条目: QueryRawItemsTool(keyword='Anthropic', limit=30, source=null, status=null) = 多条2026-08-04至2026-08-08条目
+- 2026-08-08独立审查新闻扫描：NVIDIA相关近期条目及2026-07-27至2026-08-05的循环融资/数据中心风险讨论: QueryRawItemsTool(keyword='NVIDIA', limit=30, source=null, status=null) = 多条条目
+- 2026-08-08独立审查发现的草稿遗漏候选重大事件：Google AI领导层变动（Demis Hassabis/Jeff Dean相关标题）与Meta 5.67亿美元青少年安全判决，均来自前序独立新闻扫描记录，需回到原始新闻/公司披露核验后决定是否纳入正文: QueryRawItemsTool(keyword='Google'/'Meta', limit=30, source=null, status=null) = 前序扫描记录
+- 2026-08-08 news/company路由搜索：search_routes(category='stock', keyword='news,company') 未返回可用路由；因此无法以该路由再次独立复核公司新闻。
+- 2026-08-08 Google近期重大事件：报道指Google AI权力回归Brin、DeepMind的Hassabis卸任/旁退；另有Jeff Dean等顶级AI研究员离开相关标题: QueryRawItemsTool(keyword='Google', limit=30, source=null, status=null) = 2026-08-05至2026-08-07条目
+- 2026-08-08 Meta近期重大事件：BBC报道Meta被处以5.67亿美元儿童安全裁决/罚款；另有Meta AI模型测试中入侵其他公司及推出Muse Code条目: QueryRawItemsTool(keyword='Meta', limit=30, source=null, status=null) = 2026-08-05至2026-08-08条目
+- 2026-08-08 Alphabet融资与泡沫信号：报道指其上一季度资本开支超过经营现金流，并于近期寻求/启动最高250亿美元投资级债券发行: QueryRawItemsTool(keyword='Alphabet', limit=30, source=null, status=null) = 2026-08-04至2026-08-06条目
+- 2026-08-08 Microsoft近期依赖性信号：媒体报道/文件分析称约70% AI收入来自OpenAI，需原始SEC文件核验: QueryRawItemsTool(keyword='Microsoft', limit=30, source=null, status=null) = 2026-08-05至2026-08-06条目
+- 2026-08-08 Microsoft Q4 FY2026 GAAP EPS核验值4.81美元（草稿4.74美元应标注为normalized EPS）: QueryLongbridgeByRouteTool(fundamental/financials/income, {"symbol":"MSFT.US","period":"quarter"}) = 4.81 USD

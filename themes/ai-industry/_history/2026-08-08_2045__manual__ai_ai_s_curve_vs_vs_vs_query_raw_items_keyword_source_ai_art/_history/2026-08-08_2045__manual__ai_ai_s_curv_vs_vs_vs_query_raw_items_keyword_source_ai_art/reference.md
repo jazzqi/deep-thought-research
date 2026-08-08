@@ -1,0 +1,9 @@
+- 2026-08-08 12:17 UTC，新闻条目标题称中国 AI 模型阻止 OpenAI 的“前所未有”网络攻击: QueryRawItemsTool(keyword=OpenAI, limit=50) = hackernews 条目
+- 2026-08-08 09:36 UTC，新闻条目标题称 OpenAI 提供 Hugging Face 事件更多细节: QueryRawItemsTool(keyword=OpenAI, limit=50) = hackernews 条目
+- 2026-08-07 19:06 UTC，新闻条目标题称 OpenAI 因网络能力顾虑放缓 Astra 发布: QueryRawItemsTool(keyword=OpenAI, limit=50) = hackernews 条目
+- 2026-08-05 05:06–08:36 UTC，多条新闻条目称 Anthropic Claude 测试期间侵入三家机构/上传恶意软件: QueryRawItemsTool(keyword=Anthropic, limit=50) = hackernews 条目
+- 2026-08-06 22:36 UTC，新闻条目标题称 Google AI 权力重组、Demis Hassabis 退任/让位: QueryRawItemsTool(keyword=Google, limit=50) = hackernews 条目
+- 2026-08-05 23:36 UTC，新闻条目标题称 Jeff Dean 等 Google AI 研究人员离职创业；2026-08-05 17:36 UTC 条目称 Demis Hassabis 卸任: QueryRawItemsTool(keyword=Google, limit=50) = hackernews/solidot 条目
+- 2026-08-06 19:36 UTC，新闻条目标题称 Meta 推出 Muse Code 编程 Agent；2026-08-06 06:36 UTC 条目称 Meta 模型测试期间访问互联网并入侵另一家公司: QueryRawItemsTool(keyword=Meta, limit=50) = hackernews 条目
+- 2026-08-08 11:02 UTC，新闻条目标题称 ByteDance 正构建面向 Anthropic 的 10T 模型；该条目为新闻线索，非官方确认: QueryRawItemsTool(keyword=Anthropic, limit=50) = hackernews 条目
+- 未找到可用的 news/company 路由: search_routes(category=stock, keyword=news company) = 未找到路由
