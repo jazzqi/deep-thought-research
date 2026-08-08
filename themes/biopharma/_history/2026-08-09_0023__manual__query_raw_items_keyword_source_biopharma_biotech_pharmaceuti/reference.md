@@ -1,0 +1,89 @@
+- FDA批准首款mRNA流感疫苗（2026-08-06/07）: query_raw_items(keyword=FDA, source=solidot/hackernews) = FDA approves first mRNA flu shot, from Moderna / FDA 批准首款 mRNA 流感疫苗上市
+- FDA批准覆盖1型嗜睡症全症状的新药（2026-08-07）: query_raw_items(keyword=FDA, source=hackernews) = FDA Approves First Drug to Treat the Full Range of Narcolepsy Type 1 Symptoms
+- GLP-1口服小分子/三重激动剂研发及Novo价格新闻（2026-06-20至22）: query_raw_items(keyword=GLP-1, source=longbridge/hackernews) = BI 303470 Phase 2; Hengrui Phase III positive; Novo Nordisk US price cut headline
+- 美国7月CPI日历前值/预期（事件日2026-08-12）: query_calendar_events(country=US, days=30, importance=high,medium) = CPI同比前值3.5%、预期3.5%；核心CPI同比前值2.6%、预期2.5%
+- 美国联储资产负债表（2026-08-05）: query_indicators(category=macro, country=us, time_range=24h) = 6748567.0（工具口径）
+- LLY.US最新价（行情快照）: market_quote(symbols=[LLY.US]) = 1185.71美元，日涨跌-0.52%（查询时点）
+- NVO.US最新价（行情快照）: market_quote(symbols=[NVO.US]) = 47.26美元，日涨跌+2.81%（查询时点）
+- PFE.US最新价（行情快照）: market_quote(symbols=[PFE.US]) = 26.76美元，日涨跌+2.14%（查询时点）
+- MRNA.US最新价（行情快照）: market_quote(symbols=[MRNA.US]) = 59.17美元，日涨跌+9.86%（查询时点）
+- ABBV.US最新价（行情快照）: market_quote(symbols=[ABBV.US]) = 246.04美元，日涨跌+0.89%（查询时点）
+
+- 2026-08-06 FDA批准Moderna首款mRNA流感疫苗: query_raw_items(keyword=FDA, source=hackernews) = 新闻报道确认；批准不等于商业成功
+- 2026-06-22 Novo Nordisk计划自2027年起在美国将GLP-1药价最高下调50%: query_longbridge_by_route(news/company?symbol=NVO.US) = Longbridge新闻报道，待公司正式定价与指引核实
+- 2026-06-22 Amgen皮下注射Tepezza Phase 3结果积极: query_longbridge_by_route(news/company?symbol=AMGN.US) = Longbridge新闻报道；仍待监管申请/审评
+- 2026-06-22 Ultragenyx完成GSDIa基因疗法Phase 3研究: query_longbridge_by_route(news/company?symbol=RARE.US) = Longbridge新闻报道；完成研究不等于阳性读出
+- 2026-06-22 Dyne启动DM1和DMD两项Phase 3试验并计划为DMD寻求美国加速批准: query_longbridge_by_route(news/company?symbol=DYN.US) = Longbridge新闻报道
+- 2026-06-22 Aura Biosciences膀胱癌Phase 3项目推进、预计年中数据；黑色素瘤项目预计2027年第四季度数据: query_longbridge_by_route(news/company?symbol=AURA.US) = Longbridge新闻报道
+- 2026-06-22 Enanta RSV项目规划Phase 3: query_longbridge_by_route(news/company?symbol=ENTA.US) = Longbridge新闻报道；规划阶段不等于临床验证
+- 2026-06-22 Merck拟以63亿美元收购Terns Pharmaceuticals: query_longbridge_by_route(news/company?symbol=TERN.US) = Longbridge新闻报道，交易状态/最终条款需以正式公告为准
+- 美国7月核心CPI预期同比2.5%、CPI预期同比3.4%，发布日期2026-08-12: query_calendar_events(country=US, days=30, importance=high,medium) = 日历预测；尚未公布实际值
+- 美国7月核心CPI前值同比2.6%、CPI前值同比3.5%，发布日期2026-08-12: query_calendar_events(country=US, days=30, importance=high,medium) = 日历前值
+- 美国7月核心CPI预期环比0.2%、CPI预期环比0.2%，发布日期2026-08-12: query_calendar_events(country=US, days=30, importance=high,medium) = 日历预测；尚未公布实际值
+- Phase 1→2约50%、Phase 2→3约40%、Phase 3→获批约60%: 主题模板/行业基准 = 参考先验，非单项目预测
+- LLY/NVO/PFE/ABBV/MRNA等公司最新财务、估值与一致预期: search_routes(stock, financials,consensus,valuation,analyst,news company) = 未找到可用路由；数据缺失
+- FDA批准Moderna首款mRNA流感疫苗（2026-08-06至2026-08-07新闻报道）: query_raw_items(keyword='FDA', source='hackernews/solidot') = 新闻报道为批准事件
+- FDA批准首个覆盖1型嗜睡症完整症状谱药物（2026-08-07）: query_raw_items(keyword='FDA', source='hackernews/solidot') = 新闻报道为批准事件
+- FDA批准首个口服PCSK9抑制剂（2026-07-16）: query_raw_items(keyword='PCSK9', source='hackernews/solidot') = 新闻报道为批准事件
+- Novo Nordisk计划自2027年起美国GLP-1药价最高下调50%（2026-06-22报道）: query_raw_items(keyword='GLP-1', source='longbridge') = 媒体报道，正式定价与指引待核实
+- 恒瑞口服小分子GLP-1 HRS-7535中国关键III期顶线积极（2026-06-22报道）: query_raw_items(keyword='GLP-1', source='longbridge') = 新闻报道，尚不等于获批或商业化
+- Erasca临床试验参与者死亡后股价单日下跌48%（2026-06-22报道）: query_raw_items(keyword='Erasca', source='longbridge') = 新闻报道
+- Medicare自2026-07-01开始覆盖减重用途GLP-1（2026-07-01报道）: query_raw_items(keyword='GLP-1', source='hackernews') = 新闻报道，覆盖细则待核实
+- 美国2026年7月CPI日历预测：核心同比2.5%、总体同比3.4%、环比均0.2%，发布日期2026-08-12: query_calendar_events(country='US', days=14, importance='high,medium') = 预测值，实际值未公布
+- Amgen皮下注射Tepezza Phase 3积极、Ultragenyx GSDIa完成Phase 3、Dyne启动DM1/DMD Phase 3、Aura膀胱癌Phase 3、Enanta RSV规划Phase 3: query_raw_items(keyword='clinical trial', source='longbridge') = 项目进展新闻，完整终点与监管状态待核实
+- Merck拟收购Terns、Lilly拟以63亿美元收购Centessa（2026-06-22报道）: query_raw_items(keyword='acquisition', source='longbridge') = 媒体报道，正式公告、条款与完成状态待核实
+
+- FDA批准Moderna首款mRNA流感疫苗（2026-08-06至2026-08-07报道）: query_raw_items(keyword='FDA,mRNA flu vaccine,Moderna',source=null,limit=30) = 新闻报道，正式FDA文件/标签未在本轮工具返回
+- Erasca临床试验参与者死亡后股价单日下跌48%（2026-06-22）: query_longbridge_by_route(path='news/company',params='{"symbol":"ERAS.US"}') = 新闻报道，具体事件与价格变动需以公司公告/交易所数据复核
+- Novo Nordisk计划自2027年起美国GLP-1最高降价50%（2026-06-22报道）: query_raw_items(keyword='GLP-1,Novo Nordisk,price cut',source=null,limit=30) = 媒体报道，正式定价与公司指引缺失
+- 恒瑞HRS-7535中国关键Phase 3积极顶线结果（2026-06-22报道）: query_raw_items(keyword='HRS-7535,恒瑞,GLP-1,Phase 3',source=null,limit=30) = 媒体报道，正式监管文件与完整数据缺失
+- 美国Medicare自2026-07-01覆盖减重用途GLP-1（媒体报道）: query_raw_items(keyword='Medicare,GLP-1,weight loss',source=null,limit=30) = 媒体报道，CMS正式规则与覆盖细则缺失
+- 行业临床成功率参考：Phase 1→2约50%、Phase 2→3约40%、Phase 3→获批约60%: 主题模板/既有研究基准 = 参考先验，非单项目实测概率
+- 美国2026年8月12日公布的2026年7月CPI市场预测：核心CPI同比2.5%、总体CPI同比3.4%、两者环比0.2%: query_calendar_events(country='US',days=14,importance='high,medium',limit=50) = 日历预测，实际值尚未公布
+- LLY、NVO、PFE、ABBV、MRNA最新财务、估值与分析师一致预期: search_routes(category='stock',keyword='financials,consensus,valuation,analyst')及query_longbridge_by_route = 数据缺失，本稿不输出公司级估值或目标价
+- Merck拟收购Terns、Lilly拟以63亿美元收购Centessa（媒体报道）: query_raw_items(keyword='Merck Terns,Lilly Centessa',source=null,limit=30) = 媒体报道，正式公告、交易完成状态和条款缺失
+
+- 2026-08-09 Eli Lilly Q2公司新闻：Q2营收同比增长48%，全年营收指引850亿–870亿美元，调整后EPS指引35.50–36.50美元；描述称由MOUNJARO/ZEPBOUND需求驱动，并提及retatrutide Phase 3结果与Medicare GLP-1 Bridge Program: query_longbridge_by_route(news/company,{"symbol":"LLY.US","force_refresh":true}) = 新闻标题/描述级，非10-Q原文
+- 2026-08-08 Lilly与Novo在美国联邦法院赢得复方GLP-1反垄断诉讼驳回，但原告考虑上诉: query_longbridge_by_route(news/company,{"symbol":"LLY.US","force_refresh":true}) = 新闻描述级
+- 2026-08-07 Novo Nordisk 2026年上半年总营收约270亿美元、同比增长13%；同一新闻描述称Lilly上半年营收427.73亿美元: query_longbridge_by_route(news/company,{"symbol":"NVO.US","force_refresh":true}) = 新闻描述级，非财报原文
+- 2026-08-05 Pfizer Q2营收约150亿美元、调整后EPS 0.77美元、全年营收指引605亿–625亿美元、COVID营收预期约40亿美元；并披露终止MET-224o与PF-07976016口服减重药开发: query_longbridge_by_route(news/company,{"symbol":"PFE.US","force_refresh":true}) = 新闻/电话会转述级
+- 2026-08-06 Merck ENFLONSIA扩展适应症sBLA获FDA受理，PDUFA目标日期2027-03-22，支持数据包括Phase 3 SMART: query_longbridge_by_route(news/company,{"symbol":"MRK.US","force_refresh":true}) = 公司新闻转述级
+- 2026-08-07 BioInvent的BI-1808+Keytruda获FDA Fast Track，ASCO 2026数据，进一步数据预期2026年下半年: query_longbridge_by_route(news/company,{"symbol":"MRK.US","force_refresh":true}) = 新闻描述级
+- 2026-08-08 AbbVie第三方估值文章给出DCF约低估45%、P/E相对高估，且提及Apogee收购带来的指引/执行风险: query_longbridge_by_route(news/company,{"symbol":"ABBV.US","force_refresh":true}) = 第三方估值文章，非一致预期
+- 2026-08-06 Moderna首款mRNA流感疫苗FDA批准：仅有Hacker News标题级条目，尚未用FDA原始文件核验: query_raw_items(keyword="Moderna",limit=30,source=null,status=null) = 标题条目
+- 2026-06-22 Amgen皮下Tepezza Phase 3结果积极；同期新闻标题称FDA声称Amgen药物数据被操纵，需核验是否为同一项目/正式监管行动: query_raw_items(keyword="Amgen",limit=30,source=null,status=null) = Longbridge标题级
+- 2026-06-22 Ultragenyx GSDIa基因疗法完成Phase 3研究，同时UX111 BLA获FDA受理，且出现股东诉讼/数据争议相关标题: query_raw_items(keyword="Ultragenyx",limit=30,source=null,status=null) = Longbridge标题级
+- 2026-06-22 Dyne启动DM1的Phase 3 HARMONIA与DMD的Phase 3 FORZETTO，并计划DMD BLA加速批准；另有ACHIEVE注册扩展队列完成入组: query_raw_items(keyword="Dyne Therapeutics",limit=30,source=null,status=null) = Longbridge标题级
+- 2026-06-22 Aura bel-sar膀胱癌Phase 3年中数据、黑色素瘤Q4 2027数据；同期公司CEO transition及2.99亿美元公开发行标题: query_raw_items(keyword="Aura Biosciences",limit=30,source=null,status=null) = Longbridge标题级
+- 2026-06-22 Erasca ERAS-0015出现Phase 1 NSCLC 62%响应数据标题，但同时有早期癌症试验患者死亡、专利侵权主张及股价单日下跌48%标题: query_raw_items(keyword="Erasca",limit=30,source=null,status=null) = Longbridge标题级
+- 2026-08-05 Pfizer终止MET-224o与PF-07976016，新闻描述为基于Phase IIa数据与市场变化: query_longbridge_by_route(news/company,{"symbol":"PFE.US","force_refresh":true}) = 新闻描述级
+- 2026-08-09—2026-08-07公司最新新闻显示稿件原有“本轮未取得最新财务/重大事件”表述已过时，至少应更新LLY、NVO、PFE、MRK、ABBV的近期事件与财务线索: query_longbridge_by_route(news/company,{"symbol":"LLY.US/NVO.US/PFE.US/MRK.US/ABBV.US","force_refresh":true}) = 各公司最新新闻结果
+- 2026-08-09 Eli Lilly Q2新闻：Q2营收同比增长48%，全年营收指引850亿–870亿美元，调整后EPS指引35.50–36.50美元，MOUNJARO/ZEPBOUND驱动，retatrutide Phase III结果及Medicare GLP-1 Bridge Program: query_longbridge_by_route(news/company, {"symbol":"LLY.US","force_refresh":true}) = 新闻描述级
+- 2026-08-08 Lilly与Novo赢得美国复方GLP-1反垄断诉讼驳回，但原告考虑上诉: query_longbridge_by_route(news/company, {"symbol":"LLY.US","force_refresh":true}) = 新闻描述级
+- 2026-08-07 Novo Nordisk上半年总营收约270亿美元、同比增长13%: query_longbridge_by_route(news/company, {"symbol":"NVO.US","force_refresh":true}) = 新闻描述级，非财报原文
+- 2026-08-05 Pfizer Q2营收约150亿美元、调整后EPS 0.77美元、全年营收指引605亿–625亿美元，COVID营收预期约40亿美元；终止MET-224o与PF-07976016: query_longbridge_by_route(news/company, {"symbol":"PFE.US","force_refresh":true}) = 新闻/电话会转述级
+- 2026-08-06 Merck ENFLONSIA扩展适应症sBLA获FDA受理，PDUFA目标日期2027-03-22: query_longbridge_by_route(news/company, {"symbol":"MRK.US","force_refresh":true}) = 公司新闻转述级
+- 2026-08-08 AbbVie第三方估值文章称DCF约低估45%、P/E相对高估，并提及Apogee收购执行风险: query_longbridge_by_route(news/company, {"symbol":"ABBV.US","force_refresh":true}) = 第三方文章，非一致预期
+- 2026-08-07 Moderna mRNA流感疫苗mFLUSIVA获FDA批准，报道指适用50岁以上、商业收入预计2027年下半年: query_longbridge_by_route(news/company, {"symbol":"MRNA.US","force_refresh":true}) = 新闻描述级，FDA原始文件未核验
+- 2026-08-08 Moderna CEO Stephane Bancel出售499,246股、约956万美元: query_longbridge_by_route(news/company, {"symbol":"MRNA.US","force_refresh":true}) = 新闻描述级，需以SEC申报核验
+- 2026-08-07 Pfizer终止两项口服减重药开发: query_longbridge_by_route(news/company, {"symbol":"PFE.US","force_refresh":true}) = 新闻描述级
+- 2026-08-07-08 Lilly/Novo GLP-1相关诉讼及近期业绩新闻: query_raw_items(keyword="Lilly"/"Novo", source="longbridge")及query_longbridge_by_route(news/company, {"symbol":"LLY.US/NVO.US","force_refresh":true}) = 新闻标题/描述级
+- Eli Lilly 2026年Q2营收同比增长48%，全年营收指引850亿–870亿美元，调整后EPS指引35.50–36.50美元，主要由MOUNJARO/ZEPBOUND驱动: query_longbridge_by_route(news/company, {"symbol":"LLY.US","force_refresh":true}) = 公司新闻描述级数据，2026-08-09
+- Lilly与Novo在复方GLP-1反垄断诉讼中获美国联邦法官驳回案件，但原告考虑上诉: query_longbridge_by_route(news/company, {"symbol":"LLY.US","force_refresh":true}) = 新闻描述级，2026-08-08
+- Novo Nordisk 2026年上半年总营收约270亿美元、同比增长13%；新闻同时称Lilly上半年营收427.73亿美元: query_longbridge_by_route(news/company, {"symbol":"NVO.US","force_refresh":true}) = 新闻描述级，2026-08-07
+- Pfizer 2026年Q2营收约150亿美元、调整后EPS 0.77美元、全年营收指引605亿–625亿美元，并预计COVID营收约40亿美元: query_longbridge_by_route(news/company, {"symbol":"PFE.US","force_refresh":true}) = 新闻/电话会转述级，2026-08-05至08-06
+- Pfizer终止MET-224o与PF-07976016口服减重药开发，理由涉及Phase IIa数据和市场变化: query_longbridge_by_route(news/company, {"symbol":"PFE.US","force_refresh":true}) = 新闻描述级，2026-08-05
+- Merck ENFLONSIA扩展适应症sBLA获FDA受理，PDUFA目标日期2027-03-22，依据包括Phase 3 SMART数据: query_longbridge_by_route(news/company, {"symbol":"MRK.US","force_refresh":true}) = 公司新闻转述级，2026-08-06
+- BioInvent的BI-1808联合Keytruda获FDA Fast Track，进一步数据预计2026年下半年: query_longbridge_by_route(news/company, {"symbol":"MRK.US","force_refresh":true}) = 新闻描述级，2026-08-07
+- AbbVie第三方文章称DCF约低估45%，但P/E相对高估，并提及Apogee收购带来的指引/执行风险: query_longbridge_by_route(news/company, {"symbol":"ABBV.US","force_refresh":true}) = 第三方估值文章，非一致预期，2026-08-08
+- Erasca近期新闻包含早期癌症试验患者死亡、股价单日下跌48%、专利侵权主张及ERAS-0015 Phase 1 NSCLC 62%响应数据: query_raw_items(keyword="Erasca", limit=50, source=null, status=null) = Longbridge新闻条目，2026-06-22
+
+- Moderna CEO Stephane Bancel于2026-08-05出售499,246股、约956万美元: query_longbridge_by_route(news/company,{"symbol":"MRNA.US","force_refresh":true}) = 标题及摘要披露
+- Moderna mFLUSIVA获FDA批准且等待CDC建议，新闻发布时间2026-08-07: query_longbridge_by_route(news/company,{"symbol":"MRNA.US","force_refresh":true}) = 标题及摘要披露
+- Eli Lilly 2026年Q2收入同比增长48%，上调2026年收入指引至850-870亿美元、non-GAAP EPS至35.50-36.50美元: query_longbridge_by_route(news/company,{"symbol":"LLY.US","force_refresh":true}) = Q2 earnings call highlights
+- 2026-08-08美国联邦法官驳回复配药房对Lilly/Novo的GLP-1反垄断诉讼，原告考虑上诉: query_longbridge_by_route(news/company,{"symbol":"LLY.US","force_refresh":true}) = antitrust fight标题及摘要
+- Novo Nordisk与Eli Lilly 2026年上半年GLP-1业务表现分化，Longbridge标题级报道披露Lilly tirzepatide收入约276.93亿美元、Novo总收入约270亿美元: query_longbridge_by_route(news/company,{"symbol":"NVO.US","force_refresh":true}) = H1 2026 landscape报道
+- Pfizer于2026-08-05披露终止MET-224o及PF-07976016口服减重药开发，并有此前候选因安全性/耐受性终止的报道: query_longbridge_by_route(news/company,{"symbol":"PFE.US","force_refresh":true}) = Pfizer stopped oral weight loss drugs
+- Pfizer 2026年Q2收入约150亿美元、调整后EPS 0.77美元，并将全年收入指引上调至605-625亿美元、COVID收入预期约40亿美元: query_longbridge_by_route(news/company,{"symbol":"PFE.US","force_refresh":true}) = Q2 earnings call transcript摘要
+- Amgen的Repatha欧洲高风险心血管适应症扩展获EMA CHMP积极意见，基于Phase 3 VESALIUS-CV，发布时间2026-08-08: query_longbridge_by_route(news/company,{"symbol":"AMGN.US","force_refresh":true}) = CHMP positive opinion
+- Moderna CEO于2026-08-05的股份出售、Lilly/Pfizer最新财报与管线变化、Lilly/Novo反垄断裁决和Amgen Repatha监管进展均未在drafts/current.md中提及: 独立交叉核验结论 = 重大近期事件遗漏

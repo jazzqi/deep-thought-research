@@ -1,19 +1,4 @@
----
-name: 全球生物医药
-slug: biopharma
-status: active
-lead_agent: pharma_specialist
-created: 2026-08-08
-updated: 2026-08-09T00:52:33+08:00
-revision: 2026-08-09
-sources:
-  - path: 2026-08-09_0023__manual__query_raw_items_keyword_source_biopharma_biotech_pharmaceuti/reference.md
-    agent: theme_update
-    summarized: false
----
-
-# biopharma
-
+## Big Picture
 
 全球生物医药正处于“创新仍强、商业化分化、估值重新要求现金流兑现”的阶段，而不是行业普遍性牛市。行业核心商业模型是以高研发投入换取专利保护和长期定价权：大型药企依靠成熟产品现金流支持研发和并购，中小 biotech 则通过临床验证、授权或被收购实现价值兑现。当前主线仍集中于 GLP-1、肿瘤 ADC/双抗、罕见病以及部分 RNA/基因治疗，但市场已从“有管线就给予高估值”转向同时检验疗效幅度、生产能力、支付覆盖、医生处方和患者留存。
 
