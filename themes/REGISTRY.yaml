@@ -259,6 +259,10 @@ themes:
     related_themes:
       - energy
       - semiconductor
+      - global-macro
+      - market-daily
+      - fed
+      - market-sentiment
 
   - slug: alphabet
     name: Alphabet（Google）

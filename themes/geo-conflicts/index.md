@@ -4,15 +4,19 @@ slug: geo-conflicts
 status: active
 lead_agent: geopolitics_agent
 created: 2026-07-29
-updated: 2026-08-03T00:00:00+08:00
+updated: 2026-08-08T00:00:00+08:00
 sources: []
 ---
 # 地缘冲突与黑天鹅
 
-> 首次创建，待 Lead Agent 首次运行后填充内容。
-> 原 us-iran 主题扩展：覆盖主要地缘冲突（美伊/俄乌/大国关系线）+ 黑天鹅事件，服务资本市场投资决策。
+> 首次冷启动：主题框架与报告行文格式已就绪（template.md v1），待 Lead Agent（geopolitics_agent）首次运行后填充内容。
+> 报告结构蓝本见 `template.md`（13 节 SEED FORMAT），写作硬规则见 `themes/WRITING_GUIDE.md` + 本主题 template。
 
 ## Big Picture
+
+（待 Lead 首轮运行填充）
+
+## 共识
 
 （待填充）
 
@@ -27,6 +31,10 @@ sources: []
 （待填充）
 
 ### 市场传导
+
+（待填充）
+
+### 避险资产联动
 
 （待填充）
 
@@ -47,4 +55,5 @@ sources: []
 | 日期 | 操作者 | 变更摘要 |
 |------|--------|---------|
 | 2026-07-29 | 人类 | 创建 theme 骨架（us-iran） |
-| 2026-08-03 | 人类 | 扩展为地缘冲突与黑天鹅主题（geo-conflicts），覆盖美伊/俄乌/大国关系线+黑天鹅 |
+| 2026-08-03 | 人类 | 扩展为地缘冲突与黑天鹅主题（geo-conflicts） |
+| 2026-08-08 | 人类 | 冷启动：template.md v1（情景树/风险溢价分解/传导链 13 节行文格式）+ README v2 重构 + 专属 flow |
