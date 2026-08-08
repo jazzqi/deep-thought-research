@@ -44,6 +44,7 @@
 | geo-conflicts | geopolitics_agent | geopolitics_agent + risk(taleb 审查) + macro + sentimental + crypto | 地缘/黑天鹅/避险 | — |
 | economic-calendar | ackman | executive + macro + fundamental + sector + risk | 宏观/日历预读 | market-daily, fed, global-macro |
 | ai-industry | ai_specialist | sector + fundamental + foresight | 行业 | semiconductor, nvda, alphabet, global-macro, market-sentiment, disruptive-innovation |
+| biopharma | pharma_specialist | sector + fundamental + macro + risk + advisory | 行业 | global-macro, disruptive-innovation |
 
 ## 数据蒸馏机制（DISTILLATION）
 

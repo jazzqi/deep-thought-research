@@ -466,3 +466,37 @@ themes:
       - global-macro
       - market-sentiment
       - disruptive-innovation
+
+  - slug: biopharma
+    name: 全球生物医药
+    status: active
+    priority: 23
+    created: 2026-08-08
+    assets:
+      - LLY
+      - NVO
+      - PFE
+      - MRK
+      - ABBV
+      - AMGN
+    tags:
+      - biopharma
+      - biotech
+      - pharmaceutical
+      - FDA
+      - EMA
+      - clinical trial
+      - drug approval
+      - patent cliff
+      - GLP-1
+      - ADC
+      - immuno-oncology
+      - cell gene therapy
+      - M&A
+      - license
+      - IRA drug pricing
+    related_themes:
+      - global-macro
+      - disruptive-innovation
+      - ten-bagger-hunting
+      - market-sentiment
