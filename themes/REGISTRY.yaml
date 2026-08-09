@@ -115,8 +115,16 @@ themes:
       - monetary policy
       - liquidity
       - easing cycle
+      - FOMC calendar
+      - dot plot
+      - QT
+      - rate path
+      - Fed members
+      - inflation
+      - employment
     related_themes:
       - market-daily
+      - global-macro
 
   - slug: qqq
     name: QQQ ETF（纳斯达克 100）
