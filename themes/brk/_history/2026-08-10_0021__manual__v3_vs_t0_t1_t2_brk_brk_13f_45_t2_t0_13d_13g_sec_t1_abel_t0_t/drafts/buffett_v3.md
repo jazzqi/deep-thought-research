@@ -1,19 +1,4 @@
----
-name: 伯克希尔哈撒韦（Berkshire Hathaway / 巴菲特投资动向）
-slug: brk
-status: active
-lead_agent: buffett
-created: 2026-08-09
-updated: 2026-08-10T00:46:01+08:00
-revision: 2026-08-10
-sources:
-  - path: 2026-08-10_0021__manual__v3_vs_t0_t1_t2_brk_brk_13f_45_t2_t0_13d_13g_sec_t1_abel_t0_t/reference.md
-    agent: theme_update
-    summarized: false
----
-
-# brk
-
+## Big Picture
 
 伯克希尔哈撒韦是由保险浮存金、铁路、能源、制造与服务业务共同供给现金，并通过资本配置实现复利的综合平台。对外部投资者而言，BRK 的核心价值不是机械复制其历史持仓，而是观察管理层何时从现金防御转向股票、产业并购或回购，再寻找被市场重新定价的具体标的。本轮最重要的线索是 Alphabet（GOOGL）投资传闻与 Taylor Morrison（TMHC）现金收购传闻，但截至 2026 年 8 月 9 日，当前检索没有取得相应 SEC 原始文件或公司正式公告。GOOGL 因而只能作为资本开支压力下的回撤观察机会，TMHC 只能作为待文件确认的事件套利线索。最大机会是 AI 投入最终转化为 Alphabet 的增量现金流；最大尾部风险是市场先为 Abel 时代的积极资本配置支付溢价，而每股内在价值增长无法覆盖资本机会成本。
 

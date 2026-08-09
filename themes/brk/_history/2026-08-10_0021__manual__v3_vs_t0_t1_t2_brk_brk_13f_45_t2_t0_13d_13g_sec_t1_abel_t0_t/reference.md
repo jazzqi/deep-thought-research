@@ -1,0 +1,56 @@
+- GOOGL.US最新价: market_quote({symbols:["GOOGL.US"]}) = 354.30美元，日涨跌-0.96%，2026-08-09
+- OXY.US最新价: market_quote({symbols:["OXY.US"]}) = 55.91美元，日涨跌-0.23%，2026-08-09
+- BRK.B.US最新价: market_quote({symbols:["BRK.B.US"]}) = 521.80美元，日涨跌-0.54%，2026-08-09
+- AAPL.US最新价: market_quote({symbols:["AAPL.US"]}) = 313.33美元，日涨跌+0.29%，2026-08-09
+- CB.US最新价: market_quote({symbols:["CB.US"]}) = 350.31美元，日涨跌-1.05%，2026-08-09
+- GOOGL.US日线技术摘要: market_kline({symbol:"GOOGL.US",period:"1d",count:120,secondary_period:"1w",secondary_count:52,indicators:"ema21,ema60,macd,rsi14"}) = 收354.30；EMA21 352.37>EMA60 351.64；RSI14 50.75；距区间高-13.2%；关键下方341.36/314.90；2026-08-09
+- OXY.US日线技术摘要: market_kline({symbol:"OXY.US",period:"1d",count:120,secondary_period:"1w",secondary_count:52,indicators:"ema21,ema60,macd,rsi14"}) = 收55.91；EMA21 55.09>EMA60 55.00；RSI14 53.65；距区间高-16.7%；关键下方53.75/53.66；2026-08-09
+- 伯克希尔相关近期新闻: query_raw_items({keyword:"Berkshire",limit:30,source:"telegram:Financial_Express"}) = 无结果；全源结果显示最近可验证条目包括2026-07-17“Buffett reveals he was behind Berkshire's $31B bet on Google”、2026-06-22“Dissolves Share Stake In Amazon, UnitedHealth”、2026-06-01“to buy Taylor Morrison for $6.8B in cash”，来源为hackernews/longbridge，非T0文件确认
+- 巴菲特相关近期新闻: query_raw_items({keyword:"Buffett",limit:30,source:"telegram:Financial_Express"}) = 无结果；全源最近相关条目为2026-07-17 Alphabet投资披露及2026-07-19 CNBC采访标题，来源hackernews
+- 13F/T0查询: query_raw_items({keyword:"13F",limit:30,source:null}) = 无结果；telegram Financial Express关键词13D/13G/SEC filing/acquisition/tender offer查询无结果
+- 美国宏观快照: query_indicators({category:"macro",country:"us",limit:20,time_range:"7d"}) = fed_balance_sheet 6,748,567.0（2026-08-05）；CPI同比3.5%（2026-06-01，已过时），其他宏观数据含过时项，不作为当前核心判断
+- 公司财务/估值/一致预期/公司新闻路由探索: search_routes({category:"stock",keyword:"financials,consensus,valuation,news"})及中文/基础关键词 = 未找到相关路由；因此本轮无法核验GOOGL/OXY等标的财务、估值、一致预期和公司重大新闻。
+
+- GOOGL.US最新价/涨跌: market_quote({"symbols":["GOOGL.US","OXY.US","BRK.B.US","CB.US","AAPL.US"]}) = 354.30美元，-0.96%（2026-08-09查询）
+- OXY.US最新价/涨跌: market_quote({"symbols":["GOOGL.US","OXY.US","BRK.B.US","CB.US","AAPL.US"]}) = 55.91美元，-0.23%（2026-08-09查询）
+- BRK.B.US最新价/涨跌: market_quote({"symbols":["GOOGL.US","OXY.US","BRK.B.US","CB.US","AAPL.US"]}) = 521.80美元，-0.54%（2026-08-09查询）
+- CB.US最新价/涨跌: market_quote({"symbols":["GOOGL.US","OXY.US","BRK.B.US","CB.US","AAPL.US"]}) = 350.31美元，-1.05%（2026-08-09查询）
+- AAPL.US最新价/涨跌: market_quote({"symbols":["GOOGL.US","OXY.US","BRK.B.US","CB.US","AAPL.US"]}) = 313.33美元，+0.29%（2026-08-09查询）
+- T0文件检索: query_raw_items({"keyword":"13D 13G SEC filing SC 13D acquisition tender offer 收购要约 增持公告","source":"telegram:Financial_Express"}) = 未找到原始新闻条目
+- BRK近期动向新闻检索: query_raw_items({"keyword":"Buffett Berkshire BRK Alphabet Google OXY AAPL BAC KO AXP CVX Chubb Taylor Morrison Abel","source":"telegram:Financial_Express"}) = 未找到原始新闻条目
+- Longbridge BRK动向新闻检索: query_raw_items({"keyword":"Buffett Berkshire BRK Alphabet Google OXY AAPL BAC KO AXP CVX Chubb Taylor Morrison Abel","source":"longbridge"}) = 未找到原始新闻条目
+- 持仓标的财务/估值/一致预期/新闻路由探索: search_routes({"category":"stock","keyword":"financials,consensus,valuation,news"}) = 未找到相关路由，故不编造财务、估值或一致预期数字
+- 美国宏观指标查询: query_indicators({"category":"macro,bond,monetary_credit","country":"us","time_range":"7d"}) = 29个快照、0个可用指标
+
+- 伯克希尔2026Q2净买入股票约200亿美元、Alphabet投资约100亿美元、Taylor Morrison收购约68亿美元、股票回购约45亿美元: QueryRawItemsTool/Longbridge新闻摘要(keyword=berkshire,alphabet,taylor morrison,buyback; source=longbridge/telegram:Financial_Express) = 相关新闻摘要（原始SEC文件未取得）
+- 伯克希尔季度末现金约364.7亿美元（不同新闻摘要存在364.7亿美元/365.5亿美元口径冲突，待10-Q核验）: QueryRawItemsTool(keyword=berkshire cash,source=longbridge/telegram:Financial_Express) = 新闻摘要，口径待核验
+- 伯克希尔2026Q2经营收益约129.8亿美元、净利润约256.7亿美元: QueryRawItemsTool(keyword=berkshire second quarter earnings,source=longbridge) = 新闻摘要，待10-Q核验
+- Alphabet 2026Q2收入119.7960亿美元、基本每股收益9.1077美元、报告日2026-06-30: QueryLongbridgeByRouteTool(path=stock/fundamental/financials,params={"symbol":"GOOGL.US"}) = 返回值，但净利润口径与新闻不一致，未采用
+- Alphabet 2026Q2收入同比增长24%: QueryRawItemsTool(keyword=Alphabet earnings 2026-07-22,source=longbridge) = 新闻摘要
+- Alphabet 2026年资本开支指引1950亿—2050亿美元: QueryRawItemsTool(keyword=Alphabet capital expenditure 1950 2050,source=longbridge) = 新闻摘要
+- Alphabet Google Cloud销售额同比增长82%至248亿美元、TPU向外部客户销售: QueryRawItemsTool(keyword=Google Cloud 82% 248 billion TPU,source=longbridge) = 新闻摘要
+- Alphabet分析师平均目标价419.86美元、共识Buy: QueryLongbridgeByRouteTool(path=stock/news/company,params={"symbol":"GOOGL.US"}) = 新闻摘要中的一致预期，未取得独立一致预期样本
+- TMHC FY2025收入81.2148亿美元、净利润7.825亿美元、基本EPS 7.77美元；FY2024收入81.68136亿美元、净利润8.83309亿美元、基本EPS 8.27美元: QueryLongbridgeByRouteTool(path=stock/fundamental/financials,params={"symbol":"TMHC.US"}) = 年度利润表
+- CB可能买入2,916,288股的新闻日期为2026-06-21，早于本轮近30日窗口: QueryRawItemsTool(keyword=Chubb Berkshire 2916288,source=longbridge) = 历史新闻摘要
+- Alphabet相关媒体信号集中于2026-07-16至2026-07-17，未取得SEC 13D/13G、13F原件或交易确认文件: QueryRawItemsTool(keyword=Buffett Berkshire Alphabet 31B,source=hackernews/longbridge) = 媒体标题/摘要
+- 2026-08-09前30日未发现BRK针对AAPL、BAC、OXY、KO、AXP、CVX、CB、TMHC的有效13D/13G或SEC突发申报: QueryRawItemsTool(keyword=13D 13G SEC Berkshire Buffett,source=telegram:Financial_Express) = 未返回匹配条目，非“未发生”的证明
+- 2026-08-09 T0检索结果: query_raw_items({"keyword":"13D 13G SEC filing SC 13D acquisition tender offer 收购要约 增持公告","source":"telegram:Financial_Express"}) = 未找到原始新闻条目
+- 2026-08-09 BRK相关近30日检索结果: query_raw_items({"keyword":"Buffett Berkshire BRK Alphabet Google OXY AAPL BAC KO AXP CVX Chubb Taylor Morrison Abel","source":"telegram:Financial_Express"}) = 未找到原始新闻条目
+- 2026-08-09机会标的财务/估值/一致预期路由检索: search_routes({"category":"stock","keyword":"financials,consensus,valuation,analyst,news company"}) = 未找到相关路由；本轮不新增可核验估值或一致预期数字
+- 2026-08-09新闻检索: query_raw_items({"keyword":"Berkshire OR Buffett OR Alphabet OR Google OR Taylor Morrison","source":null,"limit":50}) = No raw items found; existing draft historical news claims remain unverified by current query
+
+- Berkshire/Alphabet相关新闻：2026-07-17 Hacker News 条目标题为“Buffett reveals he was behind Berkshire’s $31B bet on Google”；2026-06-21 Longbridge 条目称 Alphabet AI 融资计划扩大至 847.5 亿美元、Berkshire 参与 100 亿美元: query_raw_items({"keyword":"Berkshire","limit":50,"source":null,"status":null}) = 条目列表
+- Alphabet近期事件：2026-08-06 条目称发行最高250亿美元债券；2026-08-06 条目称债券发行获得约1150亿美元认购需求；2026-08-04 条目称资本开支超过上一季度经营现金流；2026-08-04 条目称 Teads 在纽约法院起诉 Google/Alphabet；2026-08-01 条目称因政策违规回滚 Google Earth AI图像生成功能；2026-08-07 条目称 Alphabet 披露持有 SpaceX 5.512亿股A类股票: query_raw_items({"keyword":"Alphabet","limit":50,"source":null,"status":null}) = 条目列表
+- Taylor Morrison相关新闻：2026-06-01 Hacker News 条目标题为“Berkshire Hathaway to buy Taylor Morrison for $6.8B in cash”: query_raw_items({"keyword":"Taylor Morrison","limit":50,"source":null,"status":null}) = 条目列表
+- Chubb相关新闻：2026-06-21 Longbridge 条目称 Berkshire Hathaway Inc Purchases 2,916,288 Shares of Chubb Limited: query_raw_items({"keyword":"Chubb","limit":30,"source":null,"status":null}) = 条目列表
+- Amazon近期相关新闻：2026-08-04 Hacker News 条目称 Jeff Bezos filed to sell $4B in Amazon；2026-08-03 条目称 Amazon completes $50B investment in OpenAI；2026-07-30 条目称 Zoox获准开展付费无人驾驶出租车业务: query_raw_items({"keyword":"Amazon","limit":30,"source":null,"status":null}) = 条目列表
+
+- 独立近14-30日新闻核验（Berkshire/ Buffett/Abel/Alphabet/Taylor Morrison/BRK/GOOGL/TMHC）: query_raw_items({"keyword":"Berkshire Buffett Abel Alphabet Taylor Morrison BRK GOOGL TMHC","limit":100,"source":null,"status":null}) = No raw items found；不能据此证明无事件，仅证明当前数据库未返回条目
+- 草稿路径独立读取核验: ReadThemeDocsTool({"path":"themes/brk/_history/2026-08-10_0021__manual__v3_vs_t0_t1_t2_brk_brk_13f_45_t2_t0_13d_13g_sec_t1_abel_t0_t/drafts/current.md","offset":0及8000}) = 完整稿12035字符
+- 公司新闻/财务路由独立搜索: search_routes({"category":"stock","keyword":"news company"}) = 未找到路由；search_routes({"category":"stock","keyword":"fundamental financials"}) = 未找到路由
+
+- BRK Q2 2026经营收益约129.8亿美元、股票回购约45亿美元、净股票购买约200亿美元、Alphabet普通股投资约100亿美元: query_longbridge_by_route(news/company, {"symbol":"BRK.B.US","force_refresh":true}) = 2026-08-09新闻摘要（来源链接longportapp.cn/news/295324840；摘要称具体数字，需以SEC原文复核）
+- BRK Q2 2026净利润约256.7亿美元、现金/美国国债约364.7亿美元、Taylor Morrison收购约68亿美元: query_longbridge_by_route(news/company, {"symbol":"TMHC.US","force_refresh":true}) = 2026-08-09新闻摘要（来源链接longportapp.cn/news/295316684；摘要称具体数字，需以SEC原文复核）
+- Alphabet 2026-08-06发行最高250亿美元债券、约1150亿美元认购需求，2026-08-04资本开支超过上一季度经营现金流，2026-08-04遭Teads在纽约法院起诉，2026-08-01回滚Google Earth AI图像功能，2026-08-07披露持有SpaceX 5.512亿股A类股票: query_raw_items({"keyword":"Alphabet","limit":50,"source":null,"status":null}) = 近期新闻条目（媒体摘要，需以公司公告/监管原文复核）
+- GOOGL.US价格354.30美元、2026-08-09日跌0.96%: 已有reference记录的market_quote数据（需与当前行情重新核验）
+- BRK.B.US价格521.80美元、2026-08-09日跌0.54%: 已有reference记录的market_quote数据（需与当前行情重新核验）

@@ -1,0 +1,7 @@
+- Berkshire/Alphabet新闻标题（2026-07-17）: query_raw_items(keyword=Berkshire, limit=30, source=null) = Hacker News条目“Buffett reveals he was behind Berkshire's $31B bet on Google”及“Warren Buffett Initiates Berkshire Hathaway's Investment in Alphabet”
+- Berkshire/Taylor Morrison新闻标题（2026-06-01）: query_raw_items(keyword=Berkshire, limit=30, source=null) = Hacker News条目“Berkshire Hathaway to buy Taylor Morrison for $6.8B in cash”
+- Berkshire/Alphabet融资新闻标题（2026-06-21）: query_raw_items(keyword=Berkshire, limit=30, source=null) = Longbridge条目“Alphabet expands AI financing plan to $84.75 billion, Berkshire enters with $10 billion”
+- Berkshire/Chubb历史持仓新闻标题（2026-06-21）: query_raw_items(keyword=Berkshire, limit=30, source=null) = Longbridge条目“Berkshire Hathaway Inc Purchases 2,916,288 Shares of Chubb Limited $CB”
+- Berkshire/Amazon与UnitedHealth持仓新闻标题（2026-06-22）: query_raw_items(keyword=Berkshire, limit=30, source=null) = Longbridge条目“Berkshire Hathaway Dissolves Share Stake In Amazon, UnitedHealth”
+- Berkshire相关近30日原始条目: query_raw_items(keyword=Berkshire, limit=30, source=telegram:Financial_Express) = 未返回条目
+- 美国宏观指标: query_indicators(category=monetary_credit, country=us, limit=10, time_range=30d) = 0 indicators returned; current US macro data unavailable from this query
