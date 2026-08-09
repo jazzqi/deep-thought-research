@@ -1,70 +1,3 @@
----
-name: 美联储
-slug: fed
-status: active
-lead_agent: soros
-created: 2026-07-29
-updated: 2026-08-09T13:25:50+08:00
-revision: 2026-08-09
-sources:
-  - path: 2026-08-09_1308__manual__theme_update/reference.md
-    agent: theme_update
-    summarized: false
----
-
-# 美联储
-
-## Big Picture
-
-美联储不是单一资产，而是全球金融体系的核心定价器：它通过联邦基金利率、资产负债表和政策沟通，影响美元流动性、国债收益率、企业融资成本与风险资产估值。当前主线并非“降息何时开始”这么简单，而是通胀仍高于目标、就业出现边际降温、财政持续发债，以及央行独立性风险同时作用于短端和长端利率。若通胀继续回落且就业恶化，Fed可以通过降息缓冲增长；若能源、关税和财政供给令通胀预期重新上行，降息将被迫后延，甚至重新讨论收紧。核心矛盾因此是：Fed能否在不重新点燃通胀预期、不损害政策信誉的前提下，转向宽松。对投资者而言，真正需要判断的不是一次会议或一次数据，而是名义增长、实际利率、财政融资与政策信用能否共同支持资产价格。
-
-## 各维度分析
-
-### 叙事/情绪面
-
-（本轮无此维度内容）
-
-### 基本面
-
-本报告研究对象是美联储及其政策路径，不是上市公司或可交易公司股票，因此不存在公司营收、利润、资产负债表、PE估值或分析师一致预期等公司层面数据。当前工具也未提供可归属于某一公司标的的财报和估值对象。
-同理，本轮新闻查询未返回可独立复核的Fed近期原始新闻条目，因此有关官员表态和政治压力的内容应区分为已有稿件中的报道线索，而非本轮重新核验的事实。相关缺口不能用宏观指标替代；如后续研究转向具体股票，应另行补充公司财务、估值、一致预期及公司新闻数据。
-
-### 宏观背景
-
-### 通胀仍高于目标是政策约束
-
-最新可用美国CPI同比为3.5%，显著高于2%的目标；核心CPI同比最新预测为2.5%，前值为2.6%。若7月核心CPI环比为0.2%，这意味着环比动能较前值0.0%回升，而不是无条件地支持宽松。总CPI同比预测仍处于3.4%—3.5%，因此更准确的描述是“核心通胀可能改善，但总体通胀仍偏高”。
-能源CPI同比前值为15.7%，说明能源分项仍是总通胀判断中的重要风险源。能源价格本身未必会导致Fed立即改变政策，但如果通过运输、商品成本和工资谈判形成二阶传导，核心通胀回落就可能中断。
-
-### 通胀预期尚未回到支持激进宽松的水平
-
-纽约联储7月调查的1年通胀预期前值为3.7%，3年通胀预期前值为3.3%。两者均高于2%目标，但它们是前值，而不是2026年8月10日即将公布的新数据，不能据此断言预期正在继续上升。它们只能说明，若Fed过早降息，仍面临通胀预期再次脱锚的风险。
-
-### 需求尚未显示明显坍塌
-
-7月零售销售日历预测为环比增长0.3%，前值为0.2%，实际值将在8月14日公布。预测不等于事实，但若消费保持韧性，Fed就没有必要仅因单月核心通胀改善而迅速转向；若零售销售显著低于预期，增长风险权重才会提高。
-
-### 就业证据仍不完整
-
-当前稿件引用的失业率4.1%、非农就业人数158,858、初请失业金199,000和续请失业金1,801,000，未能在本轮查询中重新获得完整指标来源，因此我们不把这些数字作为本次独立核验的核心事实。
-当前仍缺少连续数月新增非农、工资增速、劳动参与率、职位空缺、工时及修正后的就业趋势。没有完整就业组合，不能严谨判断Fed是否已经面临“必须牺牲通胀控制来保护就业”的局面。7月成屋销售预测为年化407万户、环比降幅预测为0.7%，也只能作为住房需求的前瞻线索，不能替代完整就业与消费数据。
-
-## 预测时间线
-
-| 时间窗 | 预测 | 置信度 | 提出者 | 提出日期 | 验证 |
-|--------|------|--------|--------|----------|------|
-| （待添加） |  |  |  |  |  |
-
-## 分歧地图
-
-| 维度 | 观点 A | 观点 B | 分歧根因 |
-|------|--------|--------|---------|
-| （待添加） |  |  |  |
-
-> **审查意见**：28 条（详见 _history/review/）
-
-## 数据来源
-
 - 美联储资产负债表: query_indicators(category=macro,country=us,time_range=24h) = 6748567.0，数据日2026-08-05
 - 美国CPI同比百分比: query_indicators(category=macro,country=us,time_range=24h) = 3.5，数据日2026-06-01（工具标记数据较旧）
 - 美国GDP: query_indicators(category=macro,country=us,time_range=24h) = 32475.21，数据日2026-04-01（工具标记过时）
@@ -125,10 +58,21 @@ sources:
 - 2026-08-06特朗普在Warsh成为Fed主席后多次联系他: query_raw_items({"keyword":"Warsh","limit":30,"source":null,"status":null}) = Hacker News条目；仅为转引新闻，未由官方来源确认
 - 2026-08-07美国7月就业意外减少: query_raw_items({"keyword":"rate","limit":30,"source":"fed_rss","status":null}) = 本次指定fed_rss查询未返回该条；不得将搜索结果标题作为独立确认事实
 - 美国宏观指标快照: query_indicators({"category":"macro","country":"us","limit":50,"time_range":"24h"}) = CPI同比3.5（数据日2026-06-01，69天前）；Fed资产负债表6,748,567（数据日2026-08-05）；GDP 32,475.21（数据日2026-04-01，工具标记过时）；核心CPI 336.065（指数，非同比百分比）
+- 2026-08-08特朗普再次推动解雇Fed理事Lisa Cook：query_raw_items({"keyword":"Lisa Cook","limit":20,"source":null,"status":null}) = Al Jazeera/NPR条目；同查询返回2026-06-29最高法院暂不允许解雇Cook条目
+- 2026-06-29最高法院暂不允许解雇Fed理事Lisa Cook：query_raw_items({"keyword":"Lisa Cook","limit":20,"source":null,"status":null}) = Hacker News/Bloomberg Economics条目
+- 2026-08-06特朗普在Warsh成为Fed主席后多次联系他：query_raw_items({"keyword":"Warsh","limit":20,"source":null,"status":null}) = Hacker News条目
+- 2026-08-06 Kevin Warsh坚持精简Fed沟通、市场出现反弹：query_raw_items({"keyword":"Warsh","limit":20,"source":null,"status":null}) = Hacker News条目
+- 2026-08-05 Kashkari称现在是开始逐步上调利率的时候：query_raw_items({"keyword":"Kashkari","limit":20,"source":null,"status":null}) = Hacker News条目；同查询返回2026-06-26其称通胀广泛时Fed或需加息的Bloomberg Economics条目
+- 2026-08-05 Schmid称通胀过高、需要更紧政策：query_raw_items({"keyword":"Schmid","limit":20,"source":null,"status":null}) = Hacker News条目
+- 美国宏观快照：query_indicators({"category":"macro","country":"us","limit":50,"time_range":"7d"}) = CPI同比3.5（数据日2026-06-01，工具提示滞后）；Fed资产负债表6,748,567（数据日2026-08-05）；GDP 32,475.21（数据日2026-04-01，工具标记过时）；核心CPI 336.065（指数而非同比百分比）
 
-## 更新日志
-
-| 日期 | 操作者 | 变更摘要 |
-|------|--------|---------|
-| 2026-08-09 13:25 | theme_publish | 更新（theme_update） |
-| 2026-07-29 | 人类 | 创建 theme 骨架 |
+- 美国CPI同比：query_indicators(category=macro,country=us,limit=30,time_range=7d) = 3.5，数据日期2026-06-01，工具标记滞后
+- 美联储资产负债表：query_indicators(category=monetary_credit,country=us,limit=30,time_range=7d) = 未返回；同期macro查询值为6,748,567.0，数据日期2026-08-05
+- 2026-08-08特朗普再次推动解雇Fed理事Lisa Cook：query_raw_items(keyword="Lisa Cook",limit=20,source=null,status=null) = Al Jazeera/NPR条目
+- 2026-06-29最高法院暂不允许解雇Lisa Cook：query_raw_items(keyword="Lisa Cook",limit=20,source=null,status=null) = Hacker News/Bloomberg Economics条目
+- 2026-08-06特朗普在Warsh成为Fed主席后多次联系他：query_raw_items(keyword="Warsh",limit=20,source=null,status=null) = Hacker News条目，未由官方来源确认
+- 2026-08-06 Kevin Warsh坚持精简Fed沟通、市场出现反弹：query_raw_items(keyword="Warsh",limit=20,source=null,status=null) = Hacker News条目
+- 2026-08-05 Kashkari称现在是开始逐步上调利率的时候：query_raw_items(keyword="Kashkari",limit=20,source=null,status=null) = Hacker News条目
+- 2026-08-05 Schmid称通胀过高、需要更紧政策：query_raw_items(keyword="Schmid",limit=20,source=null,status=null) = Hacker News条目
+- 2026-07-08 Warsh首次会议纪要显示Fed存在分歧：query_raw_items(keyword="Warsh",limit=20,source=null,status=null) = Bloomberg Economics条目
+- 2026-07-14 Warsh称对高通胀“零容忍”：query_raw_items(keyword="Warsh",limit=20,source=null,status=null) = Bloomberg Economics条目
