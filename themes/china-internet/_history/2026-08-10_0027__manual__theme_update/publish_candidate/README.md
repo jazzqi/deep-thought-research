@@ -1,0 +1,27 @@
+---
+slug: china-internet
+lead_agent: buffett
+depends_on:
+  - global-macro
+  - market-sentiment
+---
+# 中国互联网（BABA/Tencent/Meituan）
+
+> **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新。**
+
+## 范围
+
+中国互联网板块：Tencent（社交+游戏）、Alibaba（电商+云）、Meituan（本地服务）、以及其他重要互联网平台的竞争地位和投资逻辑。
+
+## 分析框架
+
+- **监管周期** — 从强监管到常态化后的行业稳态、监管对商业模式的长期影响
+- **资本配置** — 回购/分红纪律 vs 再投资倾向、股东回报意识的变化
+- **护城河评估** — 社交网络效应（Tencent）、交易平台网络（Alibaba/Meituan）的耐久性
+- **消费大环境** — 中国消费者信心、支出倾向、以及这对互联网平台货币化的影响
+
+## 典型参与 Agent
+
+- buffett（护城河、资本配置、安全边际）
+- kahneman（消费互联网情绪与行为偏差）
+- soros（中国宏观环境与反身性）

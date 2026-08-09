@@ -1,0 +1,128 @@
+- 中国CPI同比: query_indicators({category:null,country:china,time_range:24h}) = 0.5（2026年7月）
+- 中国CPI环比: query_indicators({category:null,country:china,time_range:24h}) = -0.1（2026年7月）
+- 中国制造业PMI: query_indicators({category:null,country:china,time_range:24h}) = 49.2（2026年7月）
+- 中国非制造业PMI: query_indicators({category:null,country:china,time_range:24h}) = 49.0（2026年7月）
+- 中国零售销售同比: query_indicators({category:null,country:china,time_range:24h}) = 1.0（2026年6月）
+- 中国GDP同比: query_indicators({category:null,country:china,time_range:24h}) = 4.7（2026年一至二季度）
+- 中国M2同比: query_indicators({category:null,country:china,time_range:24h}) = 8.0（2026年6月）
+- 中国10年期国债收益率: query_indicators({category:null,country:china,time_range:24h}) = 1.7114（2026-08-07）
+- 9988.HK现价: market_quote({symbols:["9988.HK"]}) = 123.80港元（截至工具最新报价）
+- 0700.HK现价: market_quote({symbols:["0700.HK"]}) = 478.80港元（截至工具最新报价）
+- 3690.HK现价: market_quote({symbols:["3690.HK"]}) = 92.20港元（截至工具最新报价）
+- 9988.HK技术状态: market_kline({symbol:"9988.HK",period:"1d",secondary_period:"1w",count:120,secondary_count:52,indicators:"ema21,ema60,macd,rsi14"}) = 日线上升·中位，周线EMA21<EMA60盘整，RSI14=61.95
+- 0700.HK技术状态: market_kline({symbol:"0700.HK",period:"1d",secondary_period:"1w",count:120,secondary_count:52,indicators:"ema21,ema60,macd,rsi14"}) = 日线上升·中位，周线EMA21<EMA60盘整，RSI14=55.70
+- 3690.HK技术状态: market_kline({symbol:"3690.HK",period:"1d",secondary_period:"1w",count:120,secondary_count:52,indicators:"ema21,ema60,macd,rsi14"}) = 日线上升·高位，周线EMA21<EMA60盘整，RSI14=65.52
+- 阿里FY2026收入/经营利润/净利润: query_longbridge_by_route(fundamental/financials/income,{symbol:"9988.HK",period:"half"}) = 1,134,892,906,043.052/69,826,174,354.3423/117,410,589,664.231（报告期截至2026-03-30；字段单位/口径需复核）
+- 阿里FY2026经营现金流/自由现金流: query_longbridge_by_route(fundamental/financials/cashflow,{symbol:"9988.HK",period:"half"}) = 84,493,628,853.3015/-42,077,329,384.5851（报告期截至2026-03-30；自由现金流为负，数据口径需复核）
+- 阿里一致预期: query_longbridge_by_route(fundamental/consensus,{symbol:"9988.HK"}) = Q2 2027收入313,208,884,933.9848、归母净利润24,683,044,859.8270；数据返回未提供目标价
+- 腾讯Q2财报日历: query_calendar_events({country:"CN",days:30,importance:"high,medium",limit:50}) = 2026-08-12 12:00 UTC腾讯二季报与电话会
+- 阿里重大新闻: query_longbridge_by_route(news/company,{symbol:"9988.HK"}) = 2026-08-08苹果官网显示中国用户可将Apple智能与阿里千问连接；2026-08-09相关中文支持文档被移除；同路由称卖方一致目标价约185.56-185.61港元，但需注意新闻聚合来源与口径
+- 腾讯重大新闻: query_longbridge_by_route(news/company,{symbol:"0700.HK"}) = 2026-08-06腾讯云Agent Memory 2.0.0上线；2026-08-06报道DeepSeek拟显著提高API价格、V4将发布；2026-08-07南向资金对腾讯出现净卖出报道
+- 美团重大新闻: query_longbridge_by_route(news/company,{symbol:"3690.HK"}) = 2026-08-07自营硬折扣社区超市“快乐猴”门店已超过40家；2026-08-08闪购与淘宝闪购展开星巴克折扣竞争；2026-08-08报道美团参与宇树科技上市并可能获得投资收益；以上为新闻聚合描述，财务影响尚未核实
+
+- 中国出口: query_indicators(country=china, category=macro, time_range=24h) = 359703900000.0，数据日期2026-04-01，已过时，未用于当前判断
+- 腾讯现价: market_quote(symbols=['0700.HK']) = 478.80港元（2026-08-09）
+- 阿里现价: market_quote(symbols=['9988.HK']) = 123.80港元（2026-08-09）
+- 美团现价: market_quote(symbols=['3690.HK']) = 92.20港元（2026-08-09）
+- 腾讯日线趋势: market_kline(symbol='0700.HK', period='1d', count=120, indicators='ema21,ema60,macd,rsi14') = 收478.80，EMA21 467.74>EMA60 464.54，RSI14 55.70，上升·中位；周线EMA21<EMA60、盘整
+- 阿里日线趋势: market_kline(symbol='9988.HK', period='1d', count=120, indicators='ema21,ema60,macd,rsi14') = 收123.80，EMA21 116.63>EMA60 116.18，RSI14 61.95，上升·中位；周线EMA21<EMA60、盘整
+- 美团日线趋势: market_kline(symbol='3690.HK', period='1d', count=120, indicators='ema21,ema60,macd,rsi14') = 收92.20，EMA21 87.87>EMA60 83.00，RSI14 65.52，上升·高位；周线EMA21<EMA60、盘整
+- 腾讯近期新闻: query_raw_items(keyword='腾讯', limit=30) = 2026-07-21腾讯称将大规模部署国产化算力、预计Q4部署NPO超级节点；2026-07-27 TDSQL-C架构2.0商业化计费；2026-08-04发布Hy ASR 3.0 preview；未提供财务数字
+- 阿里近期新闻: query_raw_items(keyword='阿里', limit=30) = 2026-08-08苹果与阿里合作、千问AI功能上线Mac；2026-08-09苹果中国官网删除相关手册并有客服回应；2026-07-21欧盟对阿里罚款5.5亿欧元（新闻源报道，未取得官方原文）；2026-08-04阿里云容器服务Agent开启商业化收费
+- 美团近期新闻: query_raw_items(keyword='美团', limit=30) = 2026-07-27美团AI“小团”升级；2026-07-31美团遭南向资金净卖出6.36亿港元；2026-06-16深圳监管部门约谈美团、淘宝闪购、京东外卖
+- 腾讯财报日历: query_calendar_events(country='CN', days=14, importance='high,medium') = 腾讯二季报与电话会，2026-08-12 12:00 UTC，尚未发布
+- 宏观数据当前缺失: query_indicators(country=china, category=macro, time_range=24h) 仅返回已过时的2026-04-01进出口数据；当前工具未返回可用的CPI/PMI/零售最新值
+- 基本面/估值/一致预期路由: search_routes(category='stock', keyword='fundamental,financials,consensus,company news')及中文关键词检索均未找到可用路由，故未编造财务、估值或一致预期数字
+
+- 腾讯最新价: market_quote({"symbols":["0700.HK"]}) = 478.80港元，较昨收-0.08%
+- 阿里最新价: market_quote({"symbols":["9988.HK"]}) = 123.80港元，较昨收-0.48%
+- 美团最新价: market_quote({"symbols":["3690.HK"]}) = 92.20港元，较昨收0.00%
+- 腾讯日线技术特征: market_kline({"symbol":"0700.HK","period":"1d","count":120,"secondary_period":"1w","secondary_count":52,"indicators":"ema21,ema60,macd,rsi14"}) = EMA21 467.74 > EMA60 464.54，RSI14 55.70；周线EMA21<EMA60、盘整
+- 阿里日线技术特征: market_kline({"symbol":"9988.HK","period":"1d","count":120,"secondary_period":"1w","secondary_count":52,"indicators":"ema21,ema60,macd,rsi14"}) = EMA21 116.63 > EMA60 116.18，RSI14 61.95；周线EMA21<EMA60、盘整
+- 美团日线技术特征: market_kline({"symbol":"3690.HK","period":"1d","count":120,"secondary_period":"1w","secondary_count":52,"indicators":"ema21,ema60,macd,rsi14"}) = EMA21 87.87 > EMA60 83.00，RSI14 65.52；周线EMA21<EMA60、盘整
+- 近14-30天相关新闻: query_raw_items({"keyword":"China internet OR Alibaba OR Tencent OR PDD OR JD OR Meituan OR regulation","limit":50}) = No raw items found；无法据此确认近期监管、合作或经营事件
+- 财报/估值/一致预期路由检索: search_routes({"category":"stock","keyword":"fundamental financials income cash flow consensus news company"}) = 未找到路由；本轮无法取得可核验的最新财务、FCF、估值及一致预期数字
+
+- 腾讯二季报发布时间：Query_calendar_events({"country":"CN","days":14,"importance":"high,medium"}) = 2026-08-12 12:00 UTC
+- 腾讯FY2025收入：QueryLongbridgeByRouteTool(fundamental/financials/income,{"symbol":"700.HK","period":"annual"}) = 821.650bn（数据库原始数值，币种未在返回中标明）
+- 腾讯FY2025经营现金流/自由现金流：QueryLongbridgeByRouteTool(fundamental/financials/cashflow,{"symbol":"700.HK","period":"annual"}) = 返回0/0，未采用
+- 阿里FY2025经营现金流/自由现金流：QueryLongbridgeByRouteTool(fundamental/financials/cashflow,{"symbol":"9988.HK","period":"annual"}) = 331.224bn/161.536bn（数据库原始数值，币种未在返回中标明）
+- 腾讯估值PE：QueryLongbridgeByRouteTool(fundamental/valuation/pe,{"symbol":"700.HK"}) = 16.19x（高24.39x、中位21.31x）
+- 阿里估值PE：QueryLongbridgeByRouteTool(fundamental/valuation/pe,{"symbol":"9988.HK"}) = 17.75x（高22.19x、中位20.04x）
+- 腾讯Q2 2026一致预期：QueryLongbridgeByRouteTool(fundamental/consensus,{"symbol":"700.HK"}) = 收入235.241bn、GAAP净利66.887bn、经调整净利78.044bn（均未发布实际值）
+- 阿里与苹果千问合作相关报道及支持页移除：QueryLongbridgeByRouteTool(news/company,{"symbol":"9988.HK"}) = 2026-08-08报道苹果中国官网出现相关手册，2026-08-09报道该手册被移除；官方合作状态未确认
+- 腾讯近期南向资金与AI新闻：QueryLongbridgeByRouteTool(news/company,{"symbol":"700.HK"}) = 2026-08-07南向资金对腾讯出现净卖出；2026-08-06腾讯云Agent Memory 2.0上线
+- 美团即时零售/硬折扣新闻：QueryLongbridgeByRouteTool(news/company,{"symbol":"3690.HK"}) = 2026-08-07 Happy Monkey门店超过40家；2026-08-07/08闪购折扣扩展至星巴克、苹果教育产品
+- 美团近期业务规模新闻：QueryLongbridgeByRouteTool(news/company,{"symbol":"3690.HK"}) = 2026-08-07报道已合作16万医疗机构、25万药房，服务4.3亿用户；均为新闻描述，非公司财报核验
+- 未来宏观观察：Query_calendar_events({"country":"CN","days":14,"importance":"high,medium"}) = 2026-08-17公布7月社零、工业增加值等，2026-08-20公布LPR
+
+- 腾讯FY2025总收入821650052055.36、营业利润268461541205.979、净利润245743277834.102、基本每股收益26.3982: query_longbridge_by_route(fundamental/financials/income, {"symbol":"700.HK"}) = 返回FY2025财务数据（路由未明确币种，现金流字段为0，未采用现金流值）
+- 阿里FY2026总收入1134892906043.052、营业利润69826174354.342、净利润117410589664.231、基本每股收益6.0982: query_longbridge_by_route(fundamental/financials/income, {"symbol":"9988.HK"}) = 返回FY2026财务数据（现金流字段为0，未采用现金流值）
+- 美团收入财务路由未返回有效数据: query_longbridge_by_route(fundamental/financials/income, {"symbol":"3690.HK"}) = 空结果
+- 2026-08-07腾讯与阿里南向资金分别净卖出（沪股通腾讯905百万港元、阿里701百万港元；深股通腾讯1283百万港元、阿里984百万港元）: query_longbridge_by_route(news/company, {"symbol":"700.HK","count":20})及{ "symbol":"9988.HK","count":20 } = Longbridge新闻295211148
+- 2026-08-06腾讯云Agent Memory 2.0上线: query_longbridge_by_route(news/company, {"symbol":"700.HK","count":20}) = Longbridge新闻295072240
+- 2026-08-07腾讯跟随OpenClaw概念走强: query_longbridge_by_route(news/company, {"symbol":"700.HK","count":20}) = Longbridge新闻295166499
+- 2026-08-09苹果中国官网移除“在Mac上使用千问与Apple智能”支持文档: query_longbridge_by_route(news/company, {"symbol":"9988.HK","count":20}) = Longbridge新闻295310577
+- 2026-08-08新闻称Apple智能可接入阿里千问，并称中国网信办公布包括Apple智能在内的七项移动端生成式人工智能服务登记信息: query_longbridge_by_route(news/company, {"symbol":"9988.HK","count":20}) = Longbridge新闻295301645
+- 2026-08-09广发证券给予阿里买入、目标价184.91港元；新闻显示一致目标价185.56港元: query_longbridge_by_route(news/company, {"symbol":"9988.HK","count":20}) = Longbridge新闻295320852
+- 2026-08-07招商证券维持阿里买入、目标价175港元；新闻显示一致目标价185.61港元: query_longbridge_by_route(news/company, {"symbol":"9988.HK","count":20}) = Longbridge新闻295189034
+- 2026-08-07美团快乐猴新增北京和天津门店，全国超过40家，采用硬折扣: query_longbridge_by_route(news/company, {"symbol":"3690.HK","count":20}) = Longbridge新闻295255236
+- 2026-08-07美团闪购上线覆盖超过3100家授权经销商的苹果教育优惠即时配送: query_longbridge_by_route(news/company, {"symbol":"3690.HK","count":20}) = Longbridge新闻295215804
+- 2026-08-07美团CatPaw定制模型能力上线: query_longbridge_by_route(news/company, {"symbol":"3690.HK","count":20}) = Longbridge新闻295216495
+- 2026-08-07新闻称美团已合作160000家医疗机构、250000家药房，服务用户约430000000（未由财报核验）: query_longbridge_by_route(news/company, {"symbol":"3690.HK","count":20}) = Longbridge新闻295248272
+- 2026-08-08Unitree上市新闻称美团约投资420000000元、预计投资收益4800000000元（新闻口径，不能计入持续经营现金流）: query_longbridge_by_route(news/company, {"symbol":"3690.HK","count":20}) = Longbridge新闻295292992
+- 2026-08-08星巴克即时零售折扣竞争扩大至高客单价咖啡: query_longbridge_by_route(news/company, {"symbol":"3690.HK","count":20}) = Longbridge新闻295297367
+- 2026-08-09新闻称下周腾讯将公布业绩: query_longbridge_by_route(news/company, {"symbol":"700.HK","count":20}) = Longbridge新闻295319749
+- 2026-08-09中国出口359703900000、进口270641300000（数据日期2026-04-01且超过90天，标记过时，未用于当前结论）: query_indicators(category="macro", country="china", time_range="24h") = cn_exports/cn_imports
+
+- 腾讯FY2025收入821.650bn、营业利润268.462bn、净利润245.743bn、基本EPS26.3982: QueryLongbridgeByRouteTool(fundamental/financials/income, {"symbol":"700.HK","period":"annual","force_refresh":true}) = returned FY2025 actuals
+- 腾讯FY2025经营现金流与自由现金流字段均为0，数据源不完整: QueryLongbridgeByRouteTool(fundamental/financials/cashflow, {"symbol":"700.HK","period":"annual","force_refresh":true}) = FY2025 OCF 0, FCF 0
+- 腾讯PE 16.19x，历史高点24.39x、中位数21.31x: QueryLongbridgeByRouteTool(fundamental/valuation/pe, {"symbol":"700.HK","force_refresh":true}) = {"current":16.19,"high":24.39,"low":16.19,"median":21.31}
+- 腾讯Q2 2026一致预期收入235.241bn、GAAP净利润66.887bn、经调整净利润78.044bn，尚未发布实际值: QueryLongbridgeByRouteTool(fundamental/consensus, {"symbol":"700.HK","force_refresh":true}) = Q2 2026 estimates
+- 腾讯预计2026-08-12发布二季报: QueryCalendarEventsTool({"country":"CN","days":30,"importance":"high,medium"}) = 腾讯二季报与电话会 2026-08-12
+- 2026-08-07南向资金净卖出腾讯：沪股通905m港元、深股通1.283bn港元: QueryLongbridgeByRouteTool(news/company, {"symbol":"700.HK","force_refresh":true}) = southbound funds net sell
+- 2026-08-06腾讯云Agent Memory 2.0上线: QueryLongbridgeByRouteTool(news/company, {"symbol":"700.HK","force_refresh":true}) = Tencent Cloud Agent Memory 2.0
+- 阿里FY2026收入1,134.893bn、营业利润69.826bn、净利润117.411bn、基本EPS6.0982: QueryLongbridgeByRouteTool(fundamental/financials/income, {"symbol":"9988.HK","period":"annual","force_refresh":true}) = returned FY2026 actuals
+- 阿里FY2026经营现金流84.494bn、自由现金流-42.077bn: QueryLongbridgeByRouteTool(fundamental/financials/cashflow, {"symbol":"9988.HK","period":"annual","force_refresh":true}) = FY2026 OCF/FCF
+- 阿里FY2025经营现金流331.224bn、自由现金流161.536bn: QueryLongbridgeByRouteTool(fundamental/financials/cashflow, {"symbol":"9988.HK","period":"annual","force_refresh":true}) = FY2025 OCF/FCF
+- 阿里PE17.75x，历史高点22.19x、中位数20.04x: QueryLongbridgeByRouteTool(fundamental/valuation/pe, {"symbol":"9988.HK","force_refresh":true}) = {"current":17.75,"high":22.19,"low":17.75,"median":20.04}
+- 阿里一致目标价185.56-185.61港元，广发目标价184.91、招商目标价175: QueryLongbridgeByRouteTool(news/company, {"symbol":"9988.HK","force_refresh":true}) = analyst news 2026-08-07/09
+- 苹果中国官网曾显示Apple智能接入阿里千问，后于2026-08-09删除手册: QueryLongbridgeByRouteTool(news/company, {"symbol":"9988.HK","force_refresh":true}) = Apple/Qwen news 2026-08-08/09
+- 美团FY2025收入398.772bn、营业利润-33.921bn、净利润-25.526bn、基本EPS-4.2873: QueryLongbridgeByRouteTool(fundamental/financials/income, {"symbol":"3690.HK","period":"annual","force_refresh":true}) = returned FY2025 actuals
+- 美团FY2025经营现金流-15.099bn、自由现金流-16.962bn；FY2024 OCF61.860bn、FCF34.493bn: QueryLongbridgeByRouteTool(fundamental/financials/cashflow, {"symbol":"3690.HK","period":"annual","force_refresh":true}) = FY2025/FY2024 OCF/FCF
+- 美团PE -255.1x，因亏损不适用传统PE: QueryLongbridgeByRouteTool(fundamental/valuation/pe, {"symbol":"3690.HK","force_refresh":true}) = {"current":-255.1,"high":18.65,"low":-255.1,"median":-17.5}
+- 美团Q2 2026一致预期收入116.512bn、GAAP净亏损2.321bn、经调整净利润0.540bn: QueryLongbridgeByRouteTool(fundamental/consensus, {"symbol":"3690.HK","force_refresh":true}) = Q2 2026 estimates
+- 美团2026-08-07推进快乐猴硬折扣超40店、医疗合作新闻称16万机构/25万药房/4.3亿用户、闪购覆盖3100家苹果授权经销商、CatPaw上线: QueryLongbridgeByRouteTool(news/company, {"symbol":"3690.HK","force_refresh":true}) = company news 2026-08-07
+- 2026-08-08闪购平台星巴克折扣低至正常价五折以下或12.9元: QueryLongbridgeByRouteTool(news/company, {"symbol":"3690.HK","force_refresh":true}) = instant retail competition news
+- 中国宏观可用指标仅出口/进口2026-04-01数据且已过时，不用于当前判断: QueryIndicatorsTool({"category":"macro","country":"china","limit":20,"time_range":"24h"}) = stale snapshots
+- 未来数据事件：2026-08-17中国7月社零、工业增加值，2026-08-20一年期/五年期LPR: QueryCalendarEventsTool({"country":"CN","days":30,"importance":"high,medium"}) = calendar events
+
+- 2026-08-02字节系移动互联网用户时长占比升至40.1%、首超腾讯系: query_raw_items({"keyword":"腾讯","limit":50,"source":null,"status":null}) = BlockBeats新闻，未在稿件竞争格局中讨论
+- 2026-08-04腾讯混元发布Hy ASR 3.0 preview: query_raw_items({"keyword":"腾讯","limit":50,"source":null,"status":null}) = BlockBeats/36Kr新闻，作为AI产品进展交叉核验
+- 2026-07-21欧盟据报道对阿里罚款5.5亿欧元: query_raw_items({"keyword":"阿里","limit":50,"source":null,"status":null}) = 主题工作区既有reference记录；draft未覆盖该监管风险，需核验官方原文
+- 美团FY2025收入398.772bn、营业利润-33.921bn、净利润-25.526bn、基本EPS-4.2873: query_longbridge_by_route(fundamental/financials/income,{"symbol":"3690.HK","period":"annual","force_refresh":true}) = 数据库返回实际值
+- 美团FY2025经营现金流-15.099bn、自由现金流-16.962bn；FY2024经营现金流61.860bn、自由现金流34.493bn: query_longbridge_by_route(fundamental/financials/cashflow,{"symbol":"3690.HK","period":"annual","force_refresh":true}) = 数据库返回实际值
+- 美团PE -255.1x（亏损，传统PE不适用）: query_longbridge_by_route(fundamental/valuation/pe,{"symbol":"3690.HK","force_refresh":true}) = 数据库返回值
+- 美团Q2 2026一致预期收入116.512bn、GAAP净亏损2.321bn、经调整净利润0.540bn: query_longbridge_by_route(fundamental/consensus,{"symbol":"3690.HK","force_refresh":true}) = 未发布实际值的一致预期
+- 中国CPI同比0.5%、CPI环比-0.1%、制造业PMI49.2、非制造业PMI49.0、零售销售同比1.0%、GDP同比4.7%、M2同比8.0（均为2026年最新可用期）: query_indicators({"category":null,"country":"china","time_range":"24h","limit":20}) = 数据库返回值，draft错误称当前仅有过时进出口数据
+
+
+- 腾讯将于2026-08-12公布Q2业绩: query_longbridge_by_route(news/company, {"symbol":"700.HK","force_refresh":true}) = 2026-08-09新闻摘要确认12日发布
+- 腾讯云Agent Memory 2.0上线: query_longbridge_by_route(news/company, {"symbol":"700.HK","force_refresh":true}) = 2026-08-06 15:55 UTC
+- 腾讯与阿里2026-08-07南向资金净卖出: query_longbridge_by_route(news/company, {"symbol":"700.HK/9988.HK","force_refresh":true}) = 腾讯沪股通905m+深股通1283m港元；阿里沪股通701m+深股通984m港元
+- 苹果中国官网删除“Apple智能接入阿里千问”手册: query_longbridge_by_route(news/company, {"symbol":"9988.HK","force_refresh":true}) = 2026-08-09 09:15 UTC新闻
+- 苹果与阿里千问在Mac上线/曾出现在官网: query_longbridge_by_route(news/company, {"symbol":"9988.HK","force_refresh":true}) = 2026-08-08 20:44 UTC新闻
+- 广发证券维持阿里买入、目标价184.91港元，平均目标价185.56港元: query_longbridge_by_route(news/company, {"symbol":"9988.HK","force_refresh":true}) = 2026-08-09 17:05 UTC新闻（晚于稿件截止时间）
+- 招商证券维持阿里买入、目标价175港元，一致目标价185.61港元: query_longbridge_by_route(news/company, {"symbol":"9988.HK","force_refresh":true}) = 2026-08-07 14:05 UTC
+- 美团快乐猴门店超过40家、2026-08-07新增北京天津3店: query_longbridge_by_route(news/company, {"symbol":"3690.HK","force_refresh":true}) = 2026-08-07 23:38 UTC
+- 美团与16万家医疗机构、25万家药房合作，服务4.3亿用户: query_longbridge_by_route(news/company, {"symbol":"3690.HK","force_refresh":true}) = 2026-08-07 22:16 UTC新闻摘要（公司高管表述，非财报核验）
+- 美团约投资Unitree 4.2亿元、预期投资收益48亿元: query_longbridge_by_route(news/company, {"symbol":"3690.HK","force_refresh":true}) = 2026-08-08 14:06 UTC新闻摘要（新闻口径，非公司公告）
+- 中国出口与进口数据: query_indicators({"category":"macro","country":"china","time_range":"30d","limit":20}) = 2026-04-01，分别359,703,900,000与270,641,300,000，系统标记过时，不应作当前判断
+
+- 2026-08-09独立核验新闻：阿里苹果千问支持文档被移除；广发证券目标价184.91港元、共识均价185.56港元；招商证券目标价175港元、共识185.61港元: query_longbridge_by_route(news/company,{"symbol":"9988.HK"}) = 对应新闻条目及发布时间
+- 2026-08-08美团参与宇树科技上市、投资约4.2亿元及新闻估算收益48亿元；2026-08-07快乐猴超过40家；2026-08-07/08闪购星巴克折扣、苹果教育优惠、医疗合作规模: query_longbridge_by_route(news/company,{"symbol":"3690.HK"}) = 对应新闻条目及发布时间
+- 2026-08-07腾讯南向资金净卖出、OpenClaw概念走强；2026-08-06腾讯云Agent Memory 2.0上线: query_longbridge_by_route(news/company,{"symbol":"700.HK"}) = 对应新闻条目及发布时间
+- 阿里FY2026经营现金流84,493,628,853.3015、自由现金流-42,077,329,384.5851（报告期截至2026-03-30，路由口径/单位待复核）: query_longbridge_by_route(fundamental/financials/cashflow,{"symbol":"9988.HK","period":"annual"}) = 返回值
+- 阿里FY2026收入1,134,892,906,043.052、营业利润69,826,174,354.3423、净利润117,410,589,664.231、EPS6.0982（报告期截至2026-03-30，路由口径/单位待复核）: query_longbridge_by_route(fundamental/financials/income,{"symbol":"9988.HK","period":"annual"}) = 返回值
+- 中国宏观指标查询仅返回出口359,703,900,000和进口270,641,300,000，数据日期2026-04-01且标记过时: query_indicators({"category":"macro","country":"china","limit":20,"time_range":"24h"}) = 返回值
+- 美团收入与现金流年度路由本轮返回空结果: query_longbridge_by_route(fundamental/financials/income,{"symbol":"3690.HK","period":"annual"})及query_longbridge_by_route(fundamental/financials/cashflow,{"symbol":"3690.HK","period":"annual"}) = []
