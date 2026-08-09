@@ -1,69 +1,3 @@
----
-name: 十倍/百倍投资机会扫描
-slug: ten-bagger-hunting
-status: active
-lead_agent: kevin_kelly
-created: 2026-08-01
-updated: 2026-08-10T01:12:15+08:00
-revision: 2026-08-10
-sources:
-  - path: 2026-08-10_0056__manual__theme_update/reference.md
-    agent: theme_update
-    summarized: false
----
-
-# 十倍/百倍投资机会扫描
-
-## Big Picture
-
-十倍股不是热门行业的同义词，而是能够在较长时间内扩大可服务市场、维持竞争优势，并把收入增长转化为每股自由现金流增长的企业。本主题覆盖人工智能基础设施、企业软件、机器人、平台型消费和金融科技等方向。它们的共同商业叙事是：技术范式变化或网络效应打开新市场，企业依靠生态、数据、客户流程、品牌、规模或资本配置形成复利。
-当前的核心矛盾在于，候选公司的增长故事正在快速兑现为收入，但估值、资本强度、利润质量、股本稀释和监管风险也同步上升。Palantir 的 AI 软件商业化、Nvidia 的算力生态、MercadoLibre 的平台协同、Duolingo 的用户增长和 CoreWeave 的 GPU 云需求，都提供了真实的增长线索；但高增长并不等于高质量的每股回报。部分公司仍需要大量资本开支、补贴或融资才能维持扩张，部分公司的利润又落后于收入和用户增长。
-本轮仍未取得所有候选公司的最新完整正式财报、完全稀释市值、自由现金流、净现金/债务和独立一致预期。近期原始新闻查询也未返回可供本轮重新核验的公司新闻条目。因此，我们不把媒体热度、市场预期或单季度收入增长直接等同于十倍回报，正式买入名单仍暂为空。
-
-## 各维度分析
-
-### 叙事/情绪面
-
-十倍股不是热门行业的同义词，而是能够在较长时间内扩大可服务市场、维持竞争优势，并把收入增长转化为每股自由现金流增长的企业。本主题覆盖人工智能基础设施、企业软件、机器人、平台型消费和金融科技等方向。它们的共同商业叙事是：技术范式变化或网络效应打开新市场，企业依靠生态、数据、客户流程、品牌、规模或资本配置形成复利。
-
-### 基本面
-
-### 1. Nvidia（NVDA）：AI 基础设施生态的高质量观察对象
-
-**ai_specialist 视角：** Nvidia 的潜在壁垒不只是 GPU 性能，而是 CUDA、开发者工具、网络、系统级互联、存储和软件生态的协同。近期公司新闻路由的既有工作稿线索还出现“Nvidia 据报道拟向数据中心电力基础设施开发商 Lancium 投资最多 30 亿美元”的报道。若属实，竞争边界可能进一步从芯片和软件延伸至算力中心的电力、土地与系统部署。
-但该投资目前只是新闻报道，尚未在本轮核验为 Nvidia 正式公告；Google 向外部客户销售 TPU 的报道则提示超大规模云厂商自研芯片可能增强竞争。本轮也未取得 NVDA 最新完整收入、净利润、自由现金流、完全稀释市值和一致预期，因此不能据此确认合理 PE 或买入价格。
-三至五年十倍需要推理需求持续增长，同时网络、CPU、存储和软件收入占比提升，并维持较高利润率。失效条件包括云厂商资本开支下滑、客户自研 ASIC 加速、出口管制扩大、毛利率下降和 CUDA 替代加速。当前状态为**待核验，不是可买入候选**。
-**soros 视角：** Nvidia 的重要变量是资本开支周期能否从“少数超大客户集中投入”扩散为更广泛的企业级生产力支出。只要客户相信 AI 基础设施能带来收入或成本优势，算力采购会形成正反馈；但一旦投资回报率无法验证，云厂商可能同时压低采购、加快自研芯片并提高利用率要求。Nvidia 的生态壁垒很强，却不能自动消除周期性和客户集中风险，必须观察订单增长是否开始脱离少数客户的资本开支计划。
-
-### 2. Palantir（PLTR）：商业化兑现更强，但估值风险最高
-
-**ai_specialist 视角：** Palantir 的潜在壁垒来自 Foundry/AIP 对数据治理、权限管理、业务流程和 AI 应用部署的整合。若产品真正嵌入客户运营流程，切换成本可能高于普通模型 API；但项目制收入、政府预算周期、隐私争议和客户集中度仍需最新正式披露验证。
-近期工作稿中的新闻线索显示，Palantir 2026 年第二季度收入约 **19.35 亿美元**，同比增长 **93%**，并将全年收入指引上调至约 **81.5 亿美元**。另有报道显示，股价在业绩后大幅上涨，市场讨论的远期盈利估值约 **90 倍**，部分媒体引用的一致目标价为 **197.21 美元**。这些信息来自既有新闻聚合线索，不等同于本报告已核验的公司正式财报或独立一致预期数据库，不能直接作为估值模型输入。
-若未来三至五年实现十倍，Palantir 必须从政府软件供应商扩展成跨行业高频运营系统，并把 AI 使用量转化为可重复订阅和自由现金流。失效条件是政府及企业订单放缓、净留存率下降、隐私或合规事件导致续约受损，以及高估值无法由现金流兑现支撑。当前状态为**增长事实值得核验，但不足以形成主题级候选**。
-**soros 视角：** Palantir 面临最典型的“叙事兑现—估值透支”矛盾。收入高增长会吸引更多客户和人才，进一步强化平台地位；但约 90 倍远期盈利估值意味着市场要求公司连续多年保持极高增长和利润率。任何合同确认延迟、政府订单波动或商业客户转化不及预期，都可能触发预期反转。对于这种标的，关键不是证明产品有价值，而是证明未来增长仍显著高于市场已经计入价格的增长。
-
-### 3. Tesla（TSLA）：转型潜力大，但汽车基本面与新业务兑现仍不充分
-
-### 宏观背景
-
-十倍路径必须从当前市值反推。若企业未来收入增长五倍、净利率翻倍、估值倍数扩张两倍，理论上才接近十倍；若当前估值已经提前透支高增长，即使收入达到目标，股东回报也可能远低于十倍。没有经过核验的当前市值、收入和利润基准时，任何具体目标都属于伪精确。
-
-## 预测时间线
-
-| 时间窗 | 预测 | 置信度 | 提出者 | 提出日期 | 验证 |
-|--------|------|--------|--------|----------|------|
-| （待添加） |  |  |  |  |  |
-
-## 分歧地图
-
-| 维度 | 观点 A | 观点 B | 分歧根因 |
-|------|--------|--------|---------|
-| （待添加） |  |  |  |
-
-> **审查意见**：11 条（详见 _history/review/）
-
-## 数据来源
-
 - 美国联储资产负债表（2026-08-05）: query_indicators(country='us', category='macro', time_range='30d') = 6748567.0
 - 美国CPI同比（2026-06-01，已标记较旧）: query_indicators(country='us', category='macro', time_range='30d') = 3.5
 - 中国出口（2026-04-01，已标记过时）: query_indicators(country='china', category='macro', time_range='30d') = 359703900000.0
@@ -124,10 +58,31 @@ sources:
 - 近期公司新闻原始条目: query_raw_items(keyword='Palantir,Tesla,Nvidia,CoreWeave,MercadoLibre,Duolingo,CrowdStrike',limit=30) = 未返回条目；稿中相关公司数据为既有工作稿线索，尚未由本轮工具重新核验
 
 - 2026-08-09 Nvidia公司新闻：据报道拟向Lancium投资最多30亿美元；Google开始向外部客户销售TPU: query_longbridge_by_route(news/company, {"symbol":"NVDA.US"}) = 对应新闻条目
+- 2026-08-09 Palantir公司新闻：Q2收入约19.4亿美元、同比增长93%；全年收入指引约81.5亿美元；市场报道约90倍远期盈利估值: query_longbridge_by_route(news/company, {"symbol":"PLTR.US"}) = 对应新闻条目
+- 2026-08-10 Tesla公司新闻：据报道今年日本交付网点增加60%: query_longbridge_by_route(news/company, {"symbol":"TSLA.US"}) = 对应新闻条目
+- 2026-08-09 Tesla公司新闻：电池业务扩张、新德州工厂及SpaceX消耗更多AI算力；2026-08-08 FSD用户超速罚单事件: query_longbridge_by_route(news/company, {"symbol":"TSLA.US"}) = 对应新闻条目
+- 2026-08-09 CoreWeave公司新闻：Q2预期收入约25.5–25.6亿美元、同比约110%–111%、预期每股亏损约1.22美元、资本开支约300–350亿美元、债务约250亿美元；8月11日财报: query_longbridge_by_route(news/company, {"symbol":"CRWV.US"}) = 对应新闻条目
+- 2026-08-06 MercadoLibre公司新闻：Q2收入约102亿美元、同比约50%，净利润同比下降11%，营业利润同比下降17%；GMV约增长44%: query_longbridge_by_route(news/company, {"symbol":"MELI.US"}) = 对应新闻条目
+- 2026-08-06 Duolingo公司新闻：Q2收入2.9845亿美元同比增长18%，GAAP净利润3316万美元同比下降26%，DAU 5870万同比增长23%，付费订阅1270万同比增长17%，授权回购4亿美元: query_longbridge_by_route(news/company, {"symbol":"DUOL.US"}) = 对应新闻条目
+- 2026-08-07 CrowdStrike公司新闻：CEO George Kurtz于8月4–5日出售2万股、约406万美元；另有约5亿美元Delta诉讼风险报道: query_longbridge_by_route(news/company, {"symbol":"CRWD.US"}) = 对应新闻条目
+- 2026-08-10独立原始新闻检索：Nvidia、Palantir、Tesla、CoreWeave、Duolingo、CrowdStrike均返回近期条目，MercadoLibre未返回: query_raw_items(keyword=各公司名, limit=30, source=null, status=null) = 查询结果
+- 美国CPI同比3.5（数据日期2026-06-01，已陈旧），美联储资产负债表6748567（数据日期2026-08-05）: query_indicators(category=macro, country=us, limit=20, time_range=24h) = 指标结果
 
-## 更新日志
-
-| 日期 | 操作者 | 变更摘要 |
-|------|--------|---------|
-| 2026-08-10 01:12 | theme_publish | 更新（theme_update） |
-| 2026-08-01 | 人类 | 创建 theme 骨架 |
+- 2026-08-09 Palantir Q2收入约19.35亿美元、同比增长93%，全年收入指引约81.5亿美元: query_longbridge_by_route(news/company,{"symbol":"PLTR.US"}) = 新闻295300760摘要
+- 2026-08-09 Palantir报道估值约90倍远期盈利、共识目标价197.21美元: query_longbridge_by_route(news/company,{"symbol":"PLTR.US"}) = 新闻295325005摘要
+- 2026-08-09 Palantir新闻称市值约4130亿美元、约51倍指引销售额: query_longbridge_by_route(news/company,{"symbol":"PLTR.US"}) = 新闻295313918摘要
+- 2026-08-04至2026-08-09 Palantir近期新闻包括Q2业绩后股价大涨、NHS承认其可访问可识别患者数据、美国国务院寻求其就言论自由提供建议: query_raw_items(keyword="Palantir",limit=30) = blockbeats/hackernews条目
+- 2026-08-09 Nvidia据报道拟向Lancium投资最多30亿美元: query_longbridge_by_route(news/company,{"symbol":"NVDA.US"}) = 新闻295324996摘要
+- 2026-08-08 Google开始向外部客户销售TPU，构成Nvidia竞争线索: query_longbridge_by_route(news/company,{"symbol":"NVDA.US"}) = 新闻295304894摘要
+- 2026-07-27至2026-08-05 Nvidia近期原始新闻涉及约7500亿美元AI交易/循环融资争议、CUDA受到AI coding agents挑战、Vera/Alpamayo等产品进展: query_raw_items(keyword="Nvidia",limit=30) = hackernews条目
+- 2026-08-10 Tesla新闻称今年日本交付网点增加60%: query_longbridge_by_route(news/company,{"symbol":"TSLA.US"}) = 新闻295330194摘要
+- 2026-08-06 Tesla与SpaceX确认德州Terafab芯片工厂首期投资约168亿美元: query_raw_items(keyword="Tesla",limit=30) = hackernews条目
+- 2026-08-09 Tesla Auburn车库爆炸导致两名消防员受伤: query_raw_items(keyword="Tesla",limit=30) = hackernews条目
+- 2026-08-08 Tesla FSD用户在科罗拉多因64英里/小时（限速45）收到罚单，警方强调驾驶员责任: query_longbridge_by_route(news/company,{"symbol":"TSLA.US"}) = 新闻295275304摘要
+- 2026-08-09 CoreWeave Q2市场预期收入约25.6亿美元、同比增长110%，资本开支约300-350亿美元、债务约250亿美元: query_longbridge_by_route(news/company,{"symbol":"CRWV.US"}) = 新闻295312058摘要
+- 2026-08-04至2026-08-05 CoreWeave宣布/报道首次进入亚太并计划在印尼建设三座数据中心: query_raw_items(keyword="CoreWeave",limit=30) = blockbeats/36kr条目
+- 2026-07-30 CoreWeave因投资者反对调整与Anthropic合约挂钩的债务安排: query_raw_items(keyword="CoreWeave",limit=30) = hackernews条目
+- 2026-08-04 Nvidia、Cisco、CrowdStrike等推动起草AI网络安全指南: query_raw_items(keyword="CrowdStrike",limit=20) = 36kr条目
+- 2026-08-07 CrowdStrike CEO George Kurtz于8月4-5日出售2万股、约406万美元: query_longbridge_by_route(news/company,{"symbol":"CRWD.US"}) = 新闻295160398摘要
+- 2026-08-09美国联储资产负债表为6,748,567百万美元（2026-08-05数据）: query_indicators(country="us",category="macro",time_range="7d") = 6748567.0
+- 美国CPI同比3.5%（2026-06-01，系统标记过时）: query_indicators(country="us",category="macro",time_range="7d") = 3.5
