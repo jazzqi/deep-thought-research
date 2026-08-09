@@ -1,19 +1,3 @@
----
-name: 美联储
-slug: fed
-status: active
-lead_agent: soros
-created: 2026-07-29
-updated: 2026-08-09T19:41:55+08:00
-revision: 2026-08-09
-sources:
-  - path: 2026-08-09_1915__manual__12_fomc_fomc_readthemedocstool_themes_fed_template_md_v2_9_q/reference.md
-    agent: theme_update
-    summarized: false
----
-
-# 美联储
-
 ## Big Picture
 
 美联储是美国金融体系的核心定价器：通过联邦基金利率、资产负债表和政策沟通，影响短端利率、长端期限溢价、美元、信用条件与风险资产估值。当前政策仍处于限制性利率下的观察期，而非已确认的连续降息周期。2026年7月FOMC将目标区间维持在3.50%—3.75%，6月SEP联邦基金利率中值为3.8%；最新可用美国CPI同比为3.5%，核心CPI同比为2.6%，均未回到2%目标附近。核心矛盾是就业若持续恶化，降息必要性上升；但通胀、财政发债和期限溢价若保持黏性，过早宽松可能令长端利率和通胀预期重新上行。我们判断，9月15—16日会议按兵不动仍是基准，连续降息尚未被当前可核实数据确认。市场期货/OIS路径缺失，无法量化市场与我们的偏差；组合上不宜把短端降息简单等同于长债上涨。
@@ -29,18 +13,6 @@ sources:
 - **我们建议的组合倾向：** 在期货/OIS定价缺失的情况下保持中短久期和防御性美元敞口；长久期、成长股、EM与信用资产的宽松交易须等待通胀和就业的连续确认。
 
 ## 各维度分析
-
-### 叙事/情绪面
-
-（本轮无此维度内容）
-
-### 基本面
-
-美联储是美国金融体系的核心定价器：通过联邦基金利率、资产负债表和政策沟通，影响短端利率、长端期限溢价、美元、信用条件与风险资产估值。当前政策仍处于限制性利率下的观察期，而非已确认的连续降息周期。2026年7月FOMC将目标区间维持在3.50%—3.75%，6月SEP联邦基金利率中值为3.8%；最新可用美国CPI同比为3.5%，核心CPI同比为2.6%，均未回到2%目标附近。核心矛盾是就业若持续恶化，降息必要性上升；但通胀、财政发债和期限溢价若保持黏性，过早宽松可能令长端利率和通胀预期重新上行。我们判断，9月15—16日会议按兵不动仍是基准，连续降息尚未被当前可核实数据确认。市场期货/OIS路径缺失，无法量化市场与我们的偏差；组合上不宜把短端降息简单等同于长债上涨。
-
-### 宏观背景
-
-美联储是美国金融体系的核心定价器：通过联邦基金利率、资产负债表和政策沟通，影响短端利率、长端期限溢价、美元、信用条件与风险资产估值。当前政策仍处于限制性利率下的观察期，而非已确认的连续降息周期。2026年7月FOMC将目标区间维持在3.50%—3.75%，6月SEP联邦基金利率中值为3.8%；最新可用美国CPI同比为3.5%，核心CPI同比为2.6%，均未回到2%目标附近。核心矛盾是就业若持续恶化，降息必要性上升；但通胀、财政发债和期限溢价若保持黏性，过早宽松可能令长端利率和通胀预期重新上行。我们判断，9月15—16日会议按兵不动仍是基准，连续降息尚未被当前可核实数据确认。市场期货/OIS路径缺失，无法量化市场与我们的偏差；组合上不宜把短端降息简单等同于长债上涨。
 
 ### 1. 政策基准与会议时间表
 
@@ -227,20 +199,10 @@ Lisa Cook相关报道不能被解读为已经完成解雇。当前稿件保留�
 
 **独立性风险的市场传导：** 如果市场认为政策决定受到政治指令影响，首先受损的可能是通胀预期和美元政策信用，而非单次会议利率本身。随后可能通过期限溢价、美元风险溢价和长端收益率传导至金融条件。该链条当前仍是风险情景，不能写成已实现事实。
 
-## 预测时间线
-
-| 时间窗 | 预测 | 置信度 | 提出者 | 提出日期 | 验证 |
-|--------|------|--------|--------|----------|------|
-| 2026-08-11至13 | 财政部完成逾千亿美元国债标售，10年期拍卖前次中标收益率为4.58%是供需比较基准 | 拍卖中标收益率、投标倍数、尾差、间接投标比例 | 若需求弱且10年期收益率上行，长端风险上升 | 我们共识 |  |
-| 2026-08-12 | 7月核心CPI同比预测为2.5%，环比预测为0.2%；实际值将决定通胀是否继续改善 | CPI同比、核心同比、环比、住房和核心服务 | 若核心环比高于0.2%，按兵不动概率上升 | nick_timiraos |  |
-| 2026-08-13 | 7月PPI环比预测为0.2%，核心PPI环比预测为0.3%；初请数据同步公布 | PPI、核心PPI、首次及续请 | 生产端与就业同时偏强，宽松路径后移 | 我们共识 |  |
-| 2026-08-14 | 7月零售销售环比预测为0.3%，密歇根信心预测为53.8 | 零售控制组、核心零售、消费者信心与预期 | 消费韧性支持维持限制性政策；消费明显走弱则提高降息概率 | 我们共识 |  |
-| 2026-09-15至16 | 9月FOMC以按兵不动为基准，SEP将是年内路径主要再定价窗口 | 利率决议、SEP、点阵图、发布会 | 若点阵图中值下移且就业风险上修，降息路径确认 | nick_timiraos |  |
-| 2026年内 | 连续降息需要通胀连续改善与就业同步恶化，单一CPI数据不足以触发 | 核心PCE、失业率、非农、初请、通胀预期 | 若两条线未同时满足，维持中短久期 | 我们共识 |  |
-
 ## 预测对账
 
 本轮为接力写作第3/4轮，沿用前稿的基准判断，并将可核验事实与待核验线索重新分离。
+
 | 上次预测 | 当前落点/验证状态 | 结果 |
 |---|---|---|
 | 9月会议为下一次关键窗口，并包含SEP | 2026-09-15至16，日历与历史稿一致 | 命中 |
@@ -249,87 +211,55 @@ Lisa Cook相关报道不能被解读为已经完成解雇。当前稿件保留�
 | 期货/OIS路径可量化 | 本轮仍未返回期货/OIS数据 | 未验证，不能计算命中率 |
 | 核心PCE可用于判断2%目标进展 | 当前核心PCE仍数据缺失 | 未验证 |
 | 长端收益率可能受财政供给与期限溢价影响 | 8月11—13日国债标售已列入日历；投标倍数和期限溢价分解仍缺失 | 机制待验证 |
+
 **累计命中率：** 当前历史预测没有统一的样本数量、发布日期和验证规则，无法严谨计算百分比。后续应为每条预测登记提出日期、验证日期、可观测阈值和结果，避免用事后叙述替代命中率。
+
+## 预测时间线
+
+| 时间窗 | 可证伪预测 | 关键验证数据 | 基准反应 | 提出者 |
+|---|---|---|---|---|
+| 2026-08-11至13 | 财政部完成逾千亿美元国债标售，10年期拍卖前次中标收益率为4.58%是供需比较基准 | 拍卖中标收益率、投标倍数、尾差、间接投标比例 | 若需求弱且10年期收益率上行，长端风险上升 | 我们共识 |
+| 2026-08-12 | 7月核心CPI同比预测为2.5%，环比预测为0.2%；实际值将决定通胀是否继续改善 | CPI同比、核心同比、环比、住房和核心服务 | 若核心环比高于0.2%，按兵不动概率上升 | nick_timiraos |
+| 2026-08-13 | 7月PPI环比预测为0.2%，核心PPI环比预测为0.3%；初请数据同步公布 | PPI、核心PPI、首次及续请 | 生产端与就业同时偏强，宽松路径后移 | 我们共识 |
+| 2026-08-14 | 7月零售销售环比预测为0.3%，密歇根信心预测为53.8 | 零售控制组、核心零售、消费者信心与预期 | 消费韧性支持维持限制性政策；消费明显走弱则提高降息概率 | 我们共识 |
+| 2026-09-15至16 | 9月FOMC以按兵不动为基准，SEP将是年内路径主要再定价窗口 | 利率决议、SEP、点阵图、发布会 | 若点阵图中值下移且就业风险上修，降息路径确认 | nick_timiraos |
+| 2026年内 | 连续降息需要通胀连续改善与就业同步恶化，单一CPI数据不足以触发 | 核心PCE、失业率、非农、初请、通胀预期 | 若两条线未同时满足，维持中短久期 | 我们共识 |
 
 ## 分歧地图
 
-| 维度 | 观点 A | 观点 B | 分歧根因 | 状态 |
-|------|--------|--------|---------|------|
-| 分歧维度 | 观点A | 观点B | 分歧根因 | — |
-| 9月政策 | nick_timiraos 视角：** 按兵不动是60%基准，数据尚未支持连续降息 | dalio 视角：** 若财政供给推高期限溢价，实际金融条件可能继续偏紧，政策需观察金融系统反馈 | 对就业降温速度和长端传导的权重不同 | — |
-| 通胀风险 | nick_timiraos 视角：** 关注连续性，单月核心CPI改善不构成转向 | taleb 视角：** 能源、财政和预期冲击可能造成非线性再通胀 | 对尾部通胀概率的估计不同 | — |
-| 点阵图 | nick_timiraos 视角：** 只使用官方2026年6月SEP中值3.8%，不做伪精确推算 | dalio 视角：** 点阵图应被用来识别政策regime变化，但当前成员信息不足以推算 | 对信息不完整时模型输出边界的处理不同 | — |
-| 独立性风险 | nick_timiraos 视角：** 在正式法律文件或投票资格变化前不改判 | ackman 视角：** 政治施压可能先通过政策信誉和期限溢价影响市场 | 对制度风险提前定价速度的判断不同 | — |
-
-> **审查意见**：16 条（详见 _history/review/）
+| 分歧维度 | 观点A | 观点B | 分歧根因 |
+|---|---|---|---|
+| 9月政策 | **nick_timiraos 视角：** 按兵不动是60%基准，数据尚未支持连续降息 | **dalio 视角：** 若财政供给推高期限溢价，实际金融条件可能继续偏紧，政策需观察金融系统反馈 | 对就业降温速度和长端传导的权重不同 |
+| 通胀风险 | **nick_timiraos 视角：** 关注连续性，单月核心CPI改善不构成转向 | **taleb 视角：** 能源、财政和预期冲击可能造成非线性再通胀 | 对尾部通胀概率的估计不同 |
+| 点阵图 | **nick_timiraos 视角：** 只使用官方2026年6月SEP中值3.8%，不做伪精确推算 | **dalio 视角：** 点阵图应被用来识别政策regime变化，但当前成员信息不足以推算 | 对信息不完整时模型输出边界的处理不同 |
+| 独立性风险 | **nick_timiraos 视角：** 在正式法律文件或投票资格变化前不改判 | **ackman 视角：** 政治施压可能先通过政策信誉和期限溢价影响市场 | 对制度风险提前定价速度的判断不同 |
 
 ## 数据来源
 
-- 2026-09-15 FOMC事件: query_calendar_events(country=US, days=180, importance=high,medium, limit=200) = event_date 2026-09-15T00:00:00+00:00, event_name FOMC会议（September 2026）
-- 2026-10-27 FOMC事件: query_calendar_events(country=US, days=180, importance=high,medium, limit=200) = event_date 2026-10-27T00:00:00+00:00, event_name FOMC会议（October 2026）
-- 2026-12-08 FOMC事件: query_calendar_events(country=US, days=180, importance=high,medium, limit=200) = event_date 2026-12-08T00:00:00+00:00, event_name FOMC会议（December 2026）
-- 2027-01-26 FOMC事件: query_calendar_events(country=US, days=180, importance=high,medium, limit=200) = event_date 2027-01-26T00:00:00+00:00, event_name FOMC会议（January 2027）
-- 2026-08-12美国7月核心CPI同比: query_calendar_events(country=US, days=180, importance=high,medium, limit=200) = previous 2.6, forecast 2.5, actual null
-- 2026-08-12美国7月CPI同比: query_calendar_events(country=US, days=180, importance=high,medium, limit=200) = previous 3.5, forecast 3.4, actual null
-- 2026-08-12美国7月核心CPI环比: query_calendar_events(country=US, days=180, importance=high,medium, limit=200) = previous 0.0, forecast 0.2, actual null
-- 2026-08-12美国7月CPI环比: query_calendar_events(country=US, days=180, importance=high,medium, limit=200) = previous -0.4, forecast 0.2, actual null
-- 2026-08-14美国7月零售销售环比: query_calendar_events(country=US, days=180, importance=high,medium, limit=200) = previous 0.2, forecast 0.3, actual null
-- 2026-08-14美国8月密歇根大学消费者信心初值: query_calendar_events(country=US, days=180, importance=high,medium, limit=200) = previous 55.2, forecast 53.8, actual null
-- 美国Fed资产负债表: query_indicators(category=macro, country=us, limit=50, time_range=7d) = 6748567.0, data 2026-08-05, source openbb
-- 美国CPI同比: query_indicators(category=macro, country=us, limit=50, time_range=7d) = 3.5, data 2026-06-01, source akshare, ⚠️ 69天前
-- 美国GDP: query_indicators(category=macro, country=us, limit=50, time_range=7d) = 32475.21, data 2026-04-01, source openbb, ⚠️ 130天前
-- 美国ISM PMI: query_indicators(category=pmi, country=us, limit=30, time_range=7d) = 48.7, data 2025-09-02, source akshare, ⚠️ 341天前
-- Fed/ Powell/ Warsh/ FOMC新闻: query_raw_items(keyword=Fed OR Powell OR Warsh OR FOMC, limit=100) = 无结果
-
-- 2026-08-12 美国7月核心CPI同比: 日历工具 query_calendar_events(country=US, days=180, importance=high,medium) = 前值2.6%，预测2.5%，实际待公布
-- 2026-08-12 美国7月CPI同比: 日历工具 query_calendar_events(country=US, days=180, importance=high,medium) = 前值3.5%，预测3.4%，实际待公布
-- 2026-08-12 美国7月核心CPI环比: 日历工具 query_calendar_events(country=US, days=180, importance=high,medium) = 前值0.0%，预测0.2%，实际待公布
-- 2026-08-12 美国7月CPI环比: 日历工具 query_calendar_events(country=US, days=180, importance=high,medium) = 前值-0.4%，预测0.2%，实际待公布
-- 2026-08-13 美国7月PPI同比: 日历工具 query_calendar_events(country=US, days=180, importance=high,medium) = 前值5.5%，预测缺失，实际待公布
-- 2026-08-13 美国7月核心PPI同比: 日历工具 query_calendar_events(country=US, days=180, importance=high,medium) = 前值4.7%，预测缺失，实际待公布
-- 2026-08-13 美国8月8日当周首次申请失业救济人数: 日历工具 query_calendar_events(country=US, days=180, importance=high,medium) = 前值缺失，预测缺失，实际待公布
-- 2026-08-14 美国7月零售销售环比: 日历工具 query_calendar_events(country=US, days=180, importance=high,medium) = 前值0.2%，预测0.3%，实际待公布
-- 2026-08-14 美国7月零售销售（除汽车与汽油）环比: 日历工具 query_calendar_events(country=US, days=180, importance=high,medium) = 前值0.4%，预测0.3%，实际待公布
-- 2026-08-14 美国8月密歇根大学消费者信心指数初值: 日历工具 query_calendar_events(country=US, days=180, importance=high,medium) = 前值55.2，预测53.8，实际待公布
-- 2026-08-05 美联储资产负债表: query_indicators(category=macro,country=us,time_range=24h) = 6748567.0
-- 2026-06-01 美国CPI同比: query_indicators(category=macro,country=us,time_range=24h) = 3.5（⚠️ 69天前，过时）
-- 2026-04-01 美国GDP: query_indicators(category=macro,country=us,time_range=24h) = 32475.21（⚠️ 130天前，过时）
-- 2026-08-09 Fed/Powell/Warsh/FOMC相关新闻: query_raw_items(keyword=Fed OR Powell OR Warsh OR FOMC,limit=100) = 无结果
-- 2026-08-11至2026-08-13 美国财政部国债标售: query_calendar_events(country=US, days=180, importance=high,medium) = 逾千亿美元，具体分券数据缺失
-
-- 联邦基金目标区间（2026-07-28至29 FOMC后）: query_fomc(force_refresh=true) = 3.50%–3.75%
-- 2026-07-28至29 FOMC决议维持目标区间: query_fomc = 维持不变，官方声明 monetary20260729a.htm
-- 2026年6月SEP联邦基金利率中值: query_fomc = 3.8%，官方投影 fomcprojtabl20260617.pdf
-- 美联储资产负债表（2026-08-05）: query_indicators(category=macro,country=us,time_range=24h) = 6,748,567百万美元
-- 美国CPI同比（数据日2026-06-01）: query_indicators(category=macro,country=us,time_range=24h) = 3.5%，工具标注数据偏旧
-- 美国核心CPI同比（数据日2026-06-01）: query_indicators(category=macro,country=us,time_range=24h) = 2.6%，工具标注数据偏旧
-- 美国GDP（数据日2026-04-01）: query_indicators(category=macro,country=us,time_range=24h) = 32,475.21，工具标注过时
-- 2026-08-12美国7月CPI同比前值/预测: query_calendar_events(country=US,days=180,importance=high,medium) = 3.5%/3.4%
-- 2026-08-12美国7月核心CPI同比前值/预测: query_calendar_events(country=US,days=180,importance=high,medium) = 2.6%/2.5%
-- 2026-08-12美国7月核心CPI环比前值/预测: query_calendar_events(country=US,days=180,importance=high,medium) = 0.0%/0.2%
-- 2026-08-14美国7月零售销售环比前值/预测: query_calendar_events(country=US,days=180,importance=high,medium) = 0.2%/0.3%
-- 2026-08-14美国8月密歇根消费者信心初值前值/预测: query_calendar_events(country=US,days=180,importance=high,medium) = 55.2/53.8
-- 2026-08-13美国7月PPI同比前值: query_calendar_events(country=US,days=180,importance=high,medium) = 5.5%
-- 2026-08-13美国8月8日当周初请失业救济: query_calendar_events(country=US,days=180,importance=high,medium) = 实际值缺失，前值/预测缺失
-- 2026-08-10美国财政部8月11至13日标售国债: query_calendar_events(country=US,days=180,importance=high,medium) = 逾千亿美元
-- 近期政治/官员新闻标题: query_raw_items(keyword=Fed,limit=50) = 2026-08-08特朗普再次推动解雇Fed理事Lisa Cook；2026-08-06 Kevin Warsh维持精简Fed沟通；2026-08-05 Kashkari称现在是开始缓慢上调利率的时候；2026-08-05 Schmid称通胀过高、需要更紧政策；均为新闻标题/转引，非完整官方讲话文本
-- 未来FOMC会议日期与SEP属性: session既有query_fomc记录 = 2026-09-15至16（SEP）、2026-10-27至28、2026-12-08至09（SEP）、2027-01-26至27、2027-03-16至17（SEP）、2027-04-27至28、2027-06-08至09（SEP）、2027-07-27至28；更远至2027-08-09的会议日期工具未返回
-- 2年期/10年期美债及2s10s（既有session工具快照）: query_indicators(country=us,time_range=7d) = 2026-08-06分别4.25%/4.69%，2026-08-07利差+46bp；当前轮未重新返回，待复核
-- 联邦基金期货/OIS隐含路径: 既有session查询 = 数据缺失，工具未返回
-
-- 2026-07-28至29 FOMC最近会议、2026-09-15至16下一次会议及声明URL: 历史核验/ReadThemeDocsTool(themes/fed/_history/2026-08-09_1915__manual__12_fomc_fomc_readthemedocstool_themes_fed_template_md_v2_9_q/drafts/current.md) = 会议日期；官方声明URL=https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm
-- 联邦基金目标区间3.50%—3.75%（2026-07-29）: 历史核验/ReadThemeDocsTool(themes/fed/_history/2026-08-09_1915__manual__12_fomc_fomc_readthemedocstool_themes_fed_template_md_v2_9_q/drafts/current.md) = 3.50%—3.75%
-- 2026年6月SEP联邦基金利率中值3.8%: 历史核验/ReadThemeDocsTool(themes/fed/_history/2026-08-09_1915__manual__12_fomc_fomc_readthemedocstool_themes_fed_template_md_v2_9_q/drafts/current.md) = 3.8%
-- 美联储资产负债表规模6,748,567百万美元（2026-08-05）: query_indicators(category=macro,country=us,time_range=7d) = 6748567.0
-- 美国CPI同比3.5%、核心CPI同比2.6%（2026-06-01，已标记较旧）: query_indicators(category=macro,country=us,time_range=7d) = 3.5%, 2.6%
-- 美国2年期收益率4.25%、10年期收益率4.69%（2026-08-06），2s10s +46bp（2026-08-07）: 历史核验/ReadThemeDocsTool(themes/fed/_history/2026-08-09_1915__manual__12_fomc_fomc_readthemedocstool_themes_fed_template_md_v2_9_q/drafts/current.md) = 4.25%, 4.69%, +46bp
-- 美国7月CPI/核心CPI同比预测3.4%/2.5%，环比预测0.2%/0.2%，发布日期2026-08-12: query_calendar_events(country=US,days=30,importance=high,medium) = previous/forecast fields
-- 美国7月PPI同比前值5.5%、核心PPI同比前值4.7%，核心PPI环比预测0.3%，发布日期2026-08-13: query_calendar_events(country=US,days=30,importance=high,medium) = previous/forecast fields
+- 美国联邦基金目标区间3.50%—3.75%、2026年7月28—29日会议维持不变、2026年6月SEP中值3.8%：前稿已核验信息；本轮未返回新的FOMC结构化结果。
+- 美联储资产负债表6,748,567百万美元，数据日2026-08-05：`query_indicators(category=macro,country=us,limit=30,time_range=7d)`。
+- 美国CPI同比3.5%，数据日2026-06-01：`query_indicators(category=macro,country=us,limit=30,time_range=7d)`；工具标记为滞后数据。
+- 美国核心CPI指数336.065，数据日2026-06-01：`query_indicators(category=macro,country=us,limit=30,time_range=7d)`；该序列不是同比百分比，不能直接与2%目标比较。
+- 美国PPI指数286.827，数据日2026-06-01：`query_indicators(category=macro,country=us,limit=30,time_range=7d)`。
+- 美国GDP32,475.21，数据日2026-04-01：`query_indicators(category=macro,country=us,limit=30,time_range=7d)`；工具标记为过时数据。
+- 2026-09-15至16、10-27至28、12-08至09、2027-01-26至27、03-16至17、04-27至28、06-08至09、07-27至28 FOMC日期：前稿中官方FOMC日历查询结果。
+- 美国7月CPI同比前值3.5%、预测3.4%与3.5%两条记录：`query_calendar_events(country=US,days=30,importance=high,medium,limit=100)`。
+- 美国7月核心CPI同比前值2.6%、预测2.5%：`query_calendar_events(country=US,days=30,importance=high,medium,limit=100)`。
+- 美国7月CPI环比前值-0.4%、预测0.2%：`query_calendar_events(country=US,days=30,importance=high,medium,limit=100)`。
+- 美国7月核心CPI环比前值0.0%、预测0.2%：`query_calendar_events(country=US,days=30,importance=high,medium,limit=100)`。
+- 美国7月PPI同比前值5.5%、核心PPI同比4.7%；PPI环比前值-0.3%、预测0.2%；核心PPI环比前值0.2%、预测0.3%：`query_calendar_events(country=US,days=30,importance=high,medium,limit=100)`。
+- 美国7月零售销售环比前值0.2%、预测0.3%；除汽车与汽油预测0.3%；控制组前值0.5%：`query_calendar_events(country=US,days=30,importance=high,medium,limit=100)`。
+- 美国8月密歇根大学消费者信心前值55.2、预测53.8：`query_calendar_events(country=US,days=30,importance=high,medium,limit=100)`。
+- 美国财政部2026年8月11—13日标售逾千亿美元国债：`query_calendar_events(country=US,days=30,importance=high,medium,limit=100)`。
+- 美国2026年8月12日10年期国债拍卖，规模390亿美元，前次中标收益率4.58%：`query_calendar_events(country=US,days=30,importance=high,medium,limit=100)`。
+- 近14—30日Fed相关新闻原始条目：`query_raw_items(keyword="Fed OR FOMC OR Powell OR Warsh OR inflation OR CPI",limit=50)` = 未返回条目；不据此确认官员身份、讲话、投票或独立性事件。
+- 2年期美债收益率4.25%、10年期4.69%、2s10s利差+46bp，数据日分别为2026-08-06和2026-08-07：前稿既有市场快照，本轮未重新返回原始市场路由，沿用并标注为前稿数据。
 
 ## 更新日志
 
-| 日期 | 操作者 | 变更摘要 |
-|------|--------|---------|
-| 2026-08-09 19:41 | theme_publish | 更新（12_fomc_fomc_readthemedocstool_themes_fed_template_md_v2_9_q） |
-| 2026-08-09 13:25 | theme_publish | 更新（theme_update） |
-| 2026-07-29 | 人类 | 创建 theme 骨架 |
+- 2026-08-09：nick_timiraos接力改写第3/4轮。
+- 本轮重新查询美国宏观指标、未来30日经济日历及Fed相关新闻。
+- 近14—30日Fed相关新闻查询未返回原始条目；删除将转引标题当作官方事实的表述，保留为待核验线索。
+- 补充7月CPI、PPI、初请、零售销售、密歇根信心和国债拍卖的事件窗口。
+- 补充政策路径概率、反应函数、组合含义、证伪触发器与预测对账。
+- QT细节、核心PCE、期货/OIS路径、完整委员名单与投票记录仍为数据缺失。
