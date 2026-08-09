@@ -1,19 +1,4 @@
----
-name: 伯克希尔哈撒韦（Berkshire Hathaway / 巴菲特投资动向）
-slug: brk
-status: active
-lead_agent: buffett
-created: 2026-08-09
-updated: 2026-08-09T21:39:48+08:00
-revision: 2026-08-09
-sources:
-  - path: 2026-08-09_2112__manual__brk_query_raw_items_keyword_source_buffett_berkshire_brk_13f/reference.md
-    agent: theme_update
-    summarized: false
----
-
-# brk
-
+## Big Picture
 
 伯克希尔哈撒韦不是单一行业公司，而是以保险浮存金和经营现金流为资本来源，通过铁路、能源、制造、服务业务及上市股权投资进行长期资本配置的综合企业。其真正的产品不是某一只股票，而是低成本资金、分散经营、税务效率、长期声誉和危机时期的流动性选择权。2026年市场叙事已从“巴菲特继续囤积现金”转向“接班后的伯克希尔开始部署现金”，Alphabet投资、回购恢复及潜在住房并购成为主要催化剂。核心矛盾也因此改变：不再只是现金是否足够，而是Abel能否在巴菲特退休后以高于机会成本的回报率配置资本，并维持保险承保与回购纪律。我们判断，最大机会是现金和浮存金继续复利、资本部署提速；最大尾部风险是市场已经为“接班平稳”和“现金终将高回报使用”支付溢价，而新管理层尚未证明能够复制巴菲特的资本配置能力。
 
