@@ -534,3 +534,68 @@ themes:
       - disruptive-innovation
       - ten-bagger-hunting
       - market-sentiment
+
+  - slug: brk
+    name: 伯克希尔哈撒韦（Berkshire Hathaway / 巴菲特投资动向）
+    status: active
+    priority: 25
+    created: 2026-08-09
+    assets:
+      - BRK.A
+      - BRK.B
+    tags:
+      - Berkshire Hathaway
+      - Warren Buffett
+      - 巴菲特
+      - 伯克希尔
+      - 13F
+      - value investing
+      - stock picking
+      - portfolio moves
+      - shareholder letter
+      - AGM
+      - share buyback
+      - insurance float
+    related_themes:
+      - global-macro
+      - market-daily
+      - market-sentiment
+      - alphabet
+      - energy
+
+  - slug: justin-sun
+    name: 孙宇晨（Justin Sun）动向与投资情报
+    status: active
+    priority: 25
+    created: 2026-08-09
+    assets:
+      - TRX
+      - BTT
+      - HTX
+      - SUN
+      - JST
+      - USDD
+    tags:
+      - Justin Sun
+      - 孙宇晨
+      - 孙割
+      - TRON
+      - TRX
+      - HTX
+      - 火币
+      - Poloniex
+      - BitTorrent
+      - BTT
+      - USDD
+      - stablecoin
+      - WLFI
+      - TRUMP token
+      - crypto whale
+      - market mover
+      - attention economy
+    related_themes:
+      - cryptocurrency
+      - btc
+      - global-macro
+      - market-sentiment
+      - geo-conflicts

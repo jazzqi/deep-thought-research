@@ -46,6 +46,8 @@
 | ai-industry | ai_specialist | sector + fundamental + foresight | 行业 | semiconductor, nvda, alphabet, global-macro, market-sentiment, disruptive-innovation |
 | biopharma | pharma_specialist | sector + fundamental + macro + risk + advisory | 行业 | global-macro, disruptive-innovation |
 | ai-second-order | kevin_kelly | foresight + sector + fundamental + macro | 前瞻/衍生机会 | ai-industry, disruptive-innovation, ten-bagger-hunting, semiconductor, global-macro, market-sentiment |
+| brk | buffett | fundamental + macro + sentimental + risk(taleb 审查) | 个股/人物情报/资金动向 | global-macro, market-daily, market-sentiment |
+| justin-sun | crypto_trader | crypto + sentimental + macro + geopolitics + risk(taleb 审查) | 人物情报/资金动向 | cryptocurrency, btc, global-macro, market-sentiment, geo-conflicts |
 
 ## 数据蒸馏机制（DISTILLATION）
 
