@@ -1,54 +1,3 @@
----
-name: 宏观（全球+美国+中国）
-slug: global-macro
-status: active
-lead_agent: soros
-created: 2026-07-29
-updated: 2026-08-09T13:22:14+08:00
-revision: 2026-08-09
-sources:
-  - path: 2026-08-09_1308__manual__theme_update/reference.md
-    agent: theme_update
-    summarized: false
----
-
-# 宏观（全球+美国+中国）
-
-## Big Picture
-
-全球宏观交易的核心标的不是单一公司，而是一组由美元、美国国债、实际利率、黄金、工业品和区域风险资产组成的资产体系。其“商业模型”可以理解为货币与财政信用定价：央行通过政策利率和资产负债表影响资金成本，政府通过债券发行把财政支出转化为市场久期供给，企业和居民部门再决定流动性能否转化为信贷、投资与消费。当前主线已从“全球是否同步软着陆”转向“通胀能否持续回落、财政供给是否推高期限溢价、宽货币能否传导至私人部门需求”。美国面临通胀高于目标与财政融资压力并存，中国面临货币总量与信用需求背离，地缘冲突则提供能源与通胀路径上的尾部风险。未来资产表现更可能分化，而不是由“全球同步降息”这一单一叙事驱动。
-本主题没有单一公司的营收、利润、估值倍数或分析师一致预期，因此不能虚构公司财务数据。对宏观资产而言，基本面替代变量是通胀、增长、财政融资、信用传导、实际利率和风险溢价；估值则应围绕现金流久期、无风险利率和风险溢价变化展开。当前可验证的核心矛盾是：短端政策利率可能存在下行空间，但长端利率未必同步下降。
-
-## 各维度分析
-
-### 叙事/情绪面
-
-全球宏观交易的核心标的不是单一公司，而是一组由美元、美国国债、实际利率、黄金、工业品和区域风险资产组成的资产体系。其“商业模型”可以理解为货币与财政信用定价：央行通过政策利率和资产负债表影响资金成本，政府通过债券发行把财政支出转化为市场久期供给，企业和居民部门再决定流动性能否转化为信贷、投资与消费。当前主线已从“全球是否同步软着陆”转向“通胀能否持续回落、财政供给是否推高期限溢价、宽货币能否传导至私人部门需求”。美国面临通胀高于目标与财政融资压力并存，中国面临货币总量与信用需求背离，地缘冲突则提供能源与通胀路径上的尾部风险。未来资产表现更可能分化，而不是由“全球同步降息”这一单一叙事驱动。
-
-### 基本面
-
-本主题没有单一公司的营收、利润、估值倍数或分析师一致预期，因此不能虚构公司财务数据。对宏观资产而言，基本面替代变量是通胀、增长、财政融资、信用传导、实际利率和风险溢价；估值则应围绕现金流久期、无风险利率和风险溢价变化展开。当前可验证的核心矛盾是：短端政策利率可能存在下行空间，但长端利率未必同步下降。
-
-### 宏观背景
-
-全球宏观交易的核心标的不是单一公司，而是一组由美元、美国国债、实际利率、黄金、工业品和区域风险资产组成的资产体系。其“商业模型”可以理解为货币与财政信用定价：央行通过政策利率和资产负债表影响资金成本，政府通过债券发行把财政支出转化为市场久期供给，企业和居民部门再决定流动性能否转化为信贷、投资与消费。当前主线已从“全球是否同步软着陆”转向“通胀能否持续回落、财政供给是否推高期限溢价、宽货币能否传导至私人部门需求”。美国面临通胀高于目标与财政融资压力并存，中国面临货币总量与信用需求背离，地缘冲突则提供能源与通胀路径上的尾部风险。未来资产表现更可能分化，而不是由“全球同步降息”这一单一叙事驱动。
-
-## 预测时间线
-
-| 时间窗 | 预测 | 置信度 | 提出者 | 提出日期 | 验证 |
-|--------|------|--------|--------|----------|------|
-| （待添加） |  |  |  |  |  |
-
-## 分歧地图
-
-| 维度 | 观点 A | 观点 B | 分歧根因 |
-|------|--------|--------|---------|
-| （待添加） |  |  |  |
-
-> **审查意见**：17 条（详见 _history/review/）
-
-## 数据来源
-
 - 美国CPI同比3.5%（数据日期2026-06-01）: query_indicators({category:'macro',country:'us',limit:30,time_range:'24h'}) = 3.5，⚠️数据滞后69天
 - 美国核心CPI指数336.065（数据日期2026-06-01）: query_indicators({category:'macro',country:'us',limit:30,time_range:'24h'}) = 336.065，⚠️数据滞后69天
 - 美国PPI指数286.827（数据日期2026-06-01）: query_indicators({category:'macro',country:'us',limit:30,time_range:'24h'}) = 286.827，⚠️数据滞后69天
@@ -109,10 +58,14 @@ sources:
 - 汇丰及经济学家预期美国通胀年率略有放缓、核心分项可能降温: query_raw_items(keyword=CPI,source=telegram:Financial_Express,limit=50,status=null) = 2026-08-09新闻
 - 美国CPI同比: query_indicators(category=macro,country=us,limit=20,time_range=7d) = 3.5，数据日期2026-06-01（工具标记69天前，过时）
 - 美联储资产负债表: query_indicators(category=macro,country=us,limit=20,time_range=7d) = 6748567.0，数据日期2026-08-05
+- 中国出口: query_indicators(category=macro,country=china,limit=20,time_range=7d) = 359703900000.0，数据日期2026-04-01（工具标记130天前，过时）
+- 中国进口: query_indicators(category=macro,country=china,limit=20,time_range=7d) = 270641300000.0，数据日期2026-04-01（工具标记130天前，过时）
+- 中国7月CPI同比/环比及PPI同比: query_raw_items(keyword=CPI,limit=30,source=telegram:Financial_Express,status=null) = CPI同比0.5%、环比-0.1%，PPI同比-3.5%（条目摄取时间2026-08-09；原始数据发布日期需进一步核验）
+- 伊朗与霍尔木兹近期事件: query_raw_items(keyword=Iran,limit=30,source=null,status=null) = 2026-08-08至2026-08-09条目包括伊朗要求解除美国封锁以重开霍尔木兹、阿联酋称伊朗袭击ADNOC油轮、谈判未必导致海峡重开
+- Lisa Cook任职风险: query_raw_items(keyword=Lisa Cook,limit=20,source=null,status=null) = 2026-08-08 NPR/Al Jazeera报道特朗普再次推动解雇美联储理事Lisa Cook；2026-06-29条目称最高法院暂不允许解雇
+- 俄罗斯制裁: query_raw_items(keyword=sanctions,limit=20,source=null,status=null) = 2026-08-08多条报道美国参议院通过可能影响印度和中国的俄罗斯能源制裁法案
 
-## 更新日志
-
-| 日期 | 操作者 | 变更摘要 |
-|------|--------|---------|
-| 2026-08-09 13:22 | theme_publish | 更新（theme_update） |
-| 2026-07-29 | 人类 | 创建 theme 骨架 |
+- 2026-08-09 伊朗/霍尔木兹局势：Al Jazeera报道伊朗要求解除美国封锁以重开霍尔木兹海峡；Al Jazeera另报道阿联酋称伊朗在霍尔木兹袭击ADNOC油轮、无人员伤亡；BBC报道谈判虽被称为积极但伊朗警告协议不会自动开放海峡: query_raw_items(keyword='Hormuz',limit=30,source=null,status=null) = 对应新闻条目
+- 2026-08-08 美国联邦储备委员会治理风险：NPR与Al Jazeera报道特朗普再次推动解雇美联储理事Lisa Cook；Hacker News条目报道Kevin Warsh将维持偏紧/精简的美联储表述: query_raw_items(keyword='Fed',limit=30,source=null,status=null) = 对应新闻条目
+- 2026-08-09 中国7月CPI/PPI已出现实际新闻数据：CPI同比0.5%、环比-0.1%、PPI同比-3.5%，同时核心CPI同比0.9%、环比0.3%；原始发布日期/官方口径需进一步核验: query_raw_items(keyword='CPI',limit=30,source='telegram:Financial_Express',status=null) = 对应新闻条目
+- 2026-08-08至2026-08-09 DeepSeek重大产品/定价新闻：DeepSeek V4-Flash发布，且媒体报道计划大幅上调AI服务/API价格: query_raw_items(keyword='DeepSeek',limit=30,source=null,status=null) = 对应新闻条目
