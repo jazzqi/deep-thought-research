@@ -1,0 +1,99 @@
+- TRXUSDT最新价 $0.3298，24小时涨幅 0.344%，24小时高 $0.33025、低 $0.32844，成交量 52,692,683 TRX、成交额 17,359,904.1849 USDT（2026-08-09）: binance_get_ticker({symbol:"TRXUSDT"}) = 当前快照\n- TRXUSDT日线最近一根收盘价 $0.32979，最高 $0.33025，最低 $0.32876（对应截至2026-08-09的日线序列）: binance_get_klines({symbol:"TRXUSDT",interval:"1d",limit:60}) = K线\n- TRXUSDT周线最近一根收盘价 $0.32979，最近周高 $0.33110、周低 $0.32526（截至2026-08-09）: binance_get_klines({symbol:"TRXUSDT",interval:"1w",limit:30}) = K线\n- BTTUSDT交易对不存在，无法取得行情: binance_get_ticker({symbol:"BTTUSDT"}) = INVALID_SYMBOL\n- 美国宏观指标查询返回19个快照但0个可用指标（2026-08-09）: query_indicators({category:"monetary_credit",country:"us",limit:20,time_range:"7d"}) = 0 indicators\n- 全球情绪指标查询返回20个快照但0个可用指标（2026-08-09）: query_indicators({category:"sentiment",country:"",limit:20,time_range:"7d"}) = 0 indicators\n- 主题上游市场情绪文档将当前状态定义为“指数偏强、主题性风险偏好修复、整体仍脆弱”（更新至2026-08-09）: read_theme_docs_tool({path:"themes/market-sentiment/index.md",offset:0}) = 上游结论\n
+- 2026-08-06 BlockBeats报道“个人财富反超王健林”，Justin Sun回应“内心没有波澜，只有警醒”: query_raw_items({keyword:"Justin Sun",source:"telegram:Financial_Express"}) = 新闻条目（仅言论/媒体描述，未提供资产明细）
+- 2026-07-08报道Justin Sun在Lido质押规模增至约4.3亿美元、年化质押收益约950万美元: query_raw_items({keyword:"Justin Sun",source:"telegram:Financial_Express"}) = BlockBeats新闻条目（未由本轮链上接口独立验证）
+- 2026-06-10报道Justin Sun从Poloniex提取1.2万枚ETH: query_raw_items({keyword:"Justin Sun",source:"telegram:Financial_Express"}) = BlockBeats新闻条目（未由本轮链上接口独立验证）
+- 2026-08-03 HTX上线GRVT、GILD、UNH永续合约: query_raw_items({keyword:"HTX",source:"longbridge"}) = BlockBeats新闻条目；属于交易所产品动作，非孙宇晨个人投资证明
+- 2026-07-28 HTX上线CXMT（长鑫科技）永续合约；2026-07-27上线ISRG、TWLO、LUNR、EUL永续合约: query_raw_items({keyword:"HTX",source:"longbridge"}) = BlockBeats新闻条目；属于合约品种扩展，非现货上币证明
+- 2026-07-16 HTX DAO完成Q2销毁，累计销毁超100万亿枚HTX: query_raw_items({keyword:"HTX",source:"longbridge"}) = BlockBeats新闻条目；HTX为信号源而非二阶核心机会
+- 2026-07-07 WLFI财库地址向Binance转入1.7亿枚WLFI: query_raw_items({keyword:"WLFI",source:"telegram:Financial_Express"}) = BlockBeats新闻条目；转入交易所可能增加供给压力，不能直接视为政策受益信号
+
+- 2026-08-09 TRXUSDT现价0.32962美元，24小时涨幅0.252%，最高0.33025美元、最低0.32844美元、成交额17,569,318.96美元: binance_get_ticker({symbol:"TRXUSDT"}) = price 0.32962, price_change_percent 0.252, high 0.33025, low 0.32844, quote_volume 17569318.95714
+- 2026-08-09 BTCUSDT现价65,221.6美元，24小时涨幅0.241%，最高65,279.9美元、最低64,700美元、成交额2,313,530,572.02美元: binance_get_ticker({symbol:"BTCUSDT"}) = price 65221.6, price_change_percent 0.241, high 65279.9, low 64700.0, quote_volume 2313530572.02
+- 2026-08-09 ETHUSDT现价1,925.49美元，24小时涨幅0.158%，最高1,926.84美元、最低1,911.1美元、成交额1,957,049,728.52美元: binance_get_ticker({symbol:"ETHUSDT"}) = price 1925.49, price_change_percent 0.158, high 1926.84, low 1911.1, quote_volume 1957049728.52
+- 2026-07-08 Justin Sun在Lido质押规模增至约4.3亿美元、年化质押收益约950万美元: query_raw_items({keyword:"Justin Sun",source:"telegram:Financial_Express"}) = blockbeats条目
+- 2026-06-10 Justin Sun从Poloniex提取1.2万枚ETH: query_raw_items({keyword:"Justin Sun",source:"telegram:Financial_Express"}) = blockbeats条目
+- 2026-08-03 HTX上线GRVT、GILD、UNH永续合约: query_raw_items({keyword:"HTX",source:null}) = blockbeats条目
+- 2026-07-29至2026-08-05 GRVT获Coinbase路线图、Binance Alpha、Bitget/Bithumb/Coinbase/Upbit等相关上线或计划上线消息: query_raw_items({keyword:"GRVT",source:null}) = blockbeats条目
+- 2026-07-07 WLFI财库地址向Binance转入1.7亿枚WLFI: query_raw_items({keyword:"WLFI",source:null}) = blockbeats条目
+- 2026-08-05美国联储资产负债表6748567.0（数据日期）: query_indicators({category:"macro",country:"us",time_range:"7d"}) = fed_balance_sheet 6748567.0
+- 2026-08-12美国7月CPI及核心CPI预定发布，headline同比预测3.4%、核心同比预测2.5%、核心CPI环比预测0.2%: query_calendar_events({country:"US",days:14,importance:"high,medium"}) = calendar events
+- BTTUSDT、HTUSDT在Binance ticker查询返回INVALID_SYMBOL，当前工具无可核验行情: binance_get_ticker({symbol:"BTTUSDT"/"HTUSDT"}) = INVALID_SYMBOL
+- 当前query_indicators未提供可用美国实时利率/风险偏好指标: query_indicators({category:"monetary_credit",country:"us",time_range:"7d"}) = 0 indicators
+
+- Justin Sun在Lido质押规模增至4.3亿美元、年化质押收益约950万美元（2026-07-08）: query_raw_items(keyword=Justin Sun,limit=30) = BlockBeats条目
+- Justin Sun从Poloniex提取1.2万枚ETH（2026-06-10）: query_raw_items(keyword=Justin Sun,limit=30) = BlockBeats条目
+- WLFI财库地址向Binance转入1.7亿枚WLFI（2026-07-07）: query_raw_items(keyword=WLFI,limit=30) = BlockBeats条目
+- GRVT相关交易所接入：Coinbase路线图（2026-07-08）、Coinbase充值待解锁、Bitget现货、Binance Alpha、Bithumb现货、Binance/Bitget/HTX永续、Upbit现货（2026-07-29至2026-08-05）: query_raw_items(keyword=GRVT,limit=30) = BlockBeats条目
+- HTX于2026-08-03上线GRVT、GILD、UNH永续合约: query_raw_items(keyword=GILD,limit=20) = BlockBeats条目
+- TRXUSDT现价0.32969美元，24小时涨跌幅+0.283%，24小时成交额17664437.06596美元（工具时间戳对应2026-08-10）: binance_get_ticker(symbol=TRXUSDT) = Binance
+- GRVTUSDT现价0.2914美元，24小时涨跌幅-1.254%，24小时最高0.3099美元、最低0.2729美元，24小时成交额66399762.6756美元（工具时间戳对应2026-08-10）: binance_get_ticker(symbol=GRVTUSDT) = Binance
+- BTCUSDT现价65237.1美元，24小时涨跌幅+0.271%，24小时成交额2314592541.08美元（工具时间戳对应2026-08-10）: binance_get_ticker(symbol=BTCUSDT) = Binance
+- ETHUSDT现价1925.02美元，24小时涨跌幅+0.115%，24小时成交额1948808812.74美元（工具时间戳对应2026-08-10）: binance_get_ticker(symbol=ETHUSDT) = Binance
+- 美国联储资产负债表6748567.0（2026-08-05）: query_indicators(category=macro,country=us,limit=20,time_range=24h) = OpenBB
+- 美国7月CPI预计2026-08-12公布：同比前值3.5%、预期3.4%；核心CPI同比前值2.6%、预期2.5%；核心CPI环比前值0.0%、预期0.2%: query_calendar_events(country=US,days=14,importance=high,medium,limit=30) = economic calendar
+
+- BTCUSDT 现价 65,206.7 美元、24小时涨幅 0.224%、24小时成交额 2,322,240,612.58 美元（查询时点）: binance_get_ticker({"symbol":"BTCUSDT"}) = {"price":65206.7,"price_change_percent":0.224,"quote_volume":2322240612.58}
+- ETHUSDT 现价 1,924.18 美元、24小时涨幅 0.056%、24小时成交额 1,952,798,280.78 美元（查询时点）: binance_get_ticker({"symbol":"ETHUSDT"}) = {"price":1924.18,"price_change_percent":0.056,"quote_volume":1952798280.78}
+- GRVTUSDT 现价 0.2921 美元、24小时跌幅 1.251%、24小时高点 0.3099 美元、低点 0.2729 美元、24小时成交额 66,416,888.343 美元（查询时点）: binance_get_ticker({"symbol":"GRVTUSDT"}) = {"price":0.2921,"price_change_percent":-1.251,"high":0.3099,"low":0.2729,"quote_volume":66416888.343}
+- TRXUSDT 现价 0.32977 美元、24小时涨幅 0.307%、24小时成交额 17,682,968.54503 美元（查询时点）: binance_get_ticker({"symbol":"TRXUSDT"}) = {"price":0.32977,"price_change_percent":0.307,"quote_volume":17682968.54503}
+- WLFI财库地址向Binance转入1.7亿枚WLFI（2026-07-07）: query_raw_items({"keyword":"WLFI","source":"telegram:Financial_Express"}) = blockbeats headline
+- Coinbase将Grvt添加到上币路线图（2026-07-08）: query_raw_items({"keyword":"GRVT","source":"telegram:Financial_Express"}) = blockbeats headline
+- Binance Alpha将于7月30日上线GRVT、Bitget上线GRVT现货、Bithumb上线GRVT韩元交易对（2026-07-29至2026-07-31）: query_raw_items({"keyword":"GRVT","source":"telegram:Financial_Express"}) = blockbeats headlines
+- Binance上线GRVT永续、HTX上线GRVT/GILD/UNH永续（2026-07-31至2026-08-03）: query_raw_items({"keyword":"GRVT","source":"telegram:Financial_Express"}) = blockbeats headlines
+- Upbit上线GRVT韩元/BTC/USDT交易对，GRVT短时涨超15%（2026-08-05）: query_raw_items({"keyword":"GRVT","source":"telegram:Financial_Express"}) = blockbeats headlines
+- 美国联储资产负债表 6,748,567.0（数据日期2026-08-05）: query_indicators({"category":"macro","country":"us"}) = fed_balance_sheet 6748567.0
+- 美国7月CPI同比预期3.4%、核心CPI同比预期2.5%、核心CPI环比预期0.2%，发布日期2026-08-12: query_calendar_events({"country":"US","days":14,"importance":"high,medium"}) = calendar events
+- 美国CPI同比3.5%、核心CPI 336.065等指标数据日期2026-06-01，查询结果标记为过时，不用于当前判断: query_indicators({"category":"macro","country":"us"}) = stale warning
+- 本轮 query_raw_items 未检索到 Justin Sun/孙宇晨关键词的有效新闻条目；news/company 仅支持股票 symbol，无法对个人主体发起有效查询: query_raw_items/news route result = no raw items / route limitation
+
+- BTCUSDT 现价及24小时统计（2026-08-09查询）: binance_get_ticker({"symbol":"BTCUSDT"}) = 现价65218.1美元，24小时涨幅0.254%，高65279.9美元，低64700.0美元，成交量35754.818 BTC，成交额2323418670.33 USDT
+- ETHUSDT 现价及24小时统计（2026-08-09查询）: binance_get_ticker({"symbol":"ETHUSDT"}) = 现价1924.56美元，24小时涨幅0.131%，高1926.84美元，低1911.1美元，成交量1016355.94 ETH，成交额1950557438.83 USDT
+- TRXUSDT 现价及24小时统计（2026-08-09查询）: binance_get_ticker({"symbol":"TRXUSDT"}) = 现价0.32976美元，24小时涨幅0.319%，高0.33025美元，低0.32844美元，成交量5374209?（工具返回53674209.0）TRX，成交额17684515.68129 USDT
+- GRVTUSDT 现价及24小时统计（2026-08-09查询）: binance_get_ticker({"symbol":"GRVTUSDT"}) = 现价0.2919美元，24小时跌幅1.849%，高0.3099美元，低0.2729美元，成交量229120458 GRVT，成交额66372582.2258 USDT
+- 美国联储资产负债表（数据日期2026-08-05）: query_indicators({"category":"macro","country":"us","time_range":"24h"}) = 6748567.0
+- 美国7月CPI、核心CPI和环比数据预期（发布日期2026-08-12）: query_calendar_events({"country":"US","days":14,"importance":"high,medium"}) = CPI同比预期3.4%，核心CPI同比预期2.5%，核心CPI环比预期0.2%
+- 美国财政部国债标售日程（2026-08-11至2026-08-13）: query_calendar_events({"country":"US","days":14,"importance":"high,medium"}) = 逾千亿美元国债标售
+- 2026-07-08孙宇晨Lido质押规模约4.3亿美元、年化收益约950万美元: 历史工作稿/圆桌引用BlockBeats报道（本轮工具未返回对应原始条目）
+- 2026-06-10孙宇晨从Poloniex提取约1.2万枚ETH: 历史工作稿/圆桌引用BlockBeats报道（本轮工具未返回对应原始条目）
+- 2026-07-07 WLFI财库向Binance转入1.7亿枚WLFI: 历史工作稿/圆桌引用BlockBeats报道（本轮工具未返回对应原始条目）
+- 2026-08-03 HTX上线GRVT、GILD、UNH永续，2026-07-28上线CXMT永续: 历史工作稿/圆桌资料引用交易所/新闻报道（本轮query_raw_items未返回原始条目）
+
+- 2026-08-06 个人财富报道及Justin Sun回应: query_raw_items(keyword=Justin Sun, limit=50) = BlockBeats条目，未提供财富具体数值
+- 2026-07-08 Lido质押规模约4.3亿美元、年化收益约950万美元: query_raw_items(keyword=Justin Sun, limit=50) = BlockBeats条目
+- 2026-06-10 Justin Sun从Poloniex提取约1.2万枚ETH: query_raw_items(keyword=Poloniex, limit=30) = BlockBeats条目
+- 2026-08-03 HTX上线GRVT、GILD、UNH永续合约: query_raw_items(keyword=HTX, limit=30) = BlockBeats条目
+- 2026-07-28 HTX上线CXMT永续合约: query_raw_items(keyword=HTX, limit=30) = BlockBeats条目
+- 2026-08-05 Upbit将上线GRVT韩元、BTC、USDT交易对，GRVT受影响短时涨超15%: query_raw_items(keyword=GRVT, limit=30) = BlockBeats条目
+- 2026-07-31 Binance将上线GRVT永续合约、Bitget上线U本位GRVT永续、Bithumb上线GRVT韩元交易对: query_raw_items(keyword=GRVT, limit=30) = BlockBeats条目
+- 2026-07-29 Coinbase将上线GRVT（充值待项目方解锁转账）、Binance Alpha与Bitget上线GRVT相关交易: query_raw_items(keyword=GRVT, limit=30) = BlockBeats条目
+- 2026-07-07 WLFI财库地址向Binance转入1.7亿枚WLFI: query_raw_items(keyword=WLFI, limit=30) = BlockBeats条目
+- query_indicators(category=onchain,country='',limit=30,time_range=24h) 返回0条指标；本轮没有工具可核验地址级余额、交易所净流入、质押净流入、资金费率或未平仓量。
+- 本轮数据路由目录仅提供港股/美股/A股/新加坡市场路由，未提供加密货币现货报价路由；草稿中的BTC、ETH、GRVT、TRX价格数字无法由当前工具独立复核。
+
+- 2026-08-06 08:06 UTC，BlockBeats报道“个人财富反超王健林，Justin Sun回应”：QueryRawItemsTool(keyword="Justin Sun", limit=50, source=null, status=null) = 1条匹配记录
+- 2026-07-08 12:32 UTC，BlockBeats报道Justin Sun在Lido质押规模增至4.3亿美元、年化质押收益约950万美元：QueryRawItemsTool(keyword="Justin Sun", limit=50, source=null, status=null) = 1条匹配记录
+- 2026-06-10 03:15 UTC，BlockBeats报道Justin Sun从Poloniex提取1.2万枚ETH：QueryRawItemsTool(keyword="Justin Sun", limit=50, source=null, status=null) = 1条匹配记录
+- 2026-08-03 07:08 UTC，BlockBeats报道火币HTX已上线GRVT、GILD、UNH永续合约：QueryRawItemsTool(keyword="HTX", limit=50, source=null, status=null) = 1条匹配记录
+- 2026-07-28 08:14 UTC，BlockBeats报道火币HTX已上线CXMT永续合约：QueryRawItemsTool(keyword="HTX", limit=50, source=null, status=null) = 1条匹配记录
+- 2026-07-25 07:36 UTC，BlockBeats报道上市公司Tron Inc.增持超15万枚TRX，持仓总量突破7.067亿枚：QueryRawItemsTool(keyword="TRON", limit=50, source=null, status=null) = 1条匹配记录
+- 2026-07-16 06:02 UTC，BlockBeats报道HTX DAO完成Q2销毁，HTX累计销毁超100万亿枚：QueryRawItemsTool(keyword="HTX", limit=50, source=null, status=null) = 1条匹配记录
+- 2026-07-07 15:06 UTC，BlockBeats报道WLFI财库地址向Binance转入1.7亿枚WLFI：QueryRawItemsTool(keyword="WLFI", limit=50, source=null, status=null) = 1条匹配记录
+
+- 2026-08-09至2026-08-10独立关键词检索：Justin Sun返回2026-08-06财富回应、2026-07-08 Lido质押报道、2026-06-10 Poloniex提取ETH报道；孙宇晨中文关键词无条目: query_raw_items({keyword:"Justin Sun"/"孙宇晨",limit:50,source:null,status:null}) = 4/0条
+- 2026-08-03 HTX上线GRVT、GILD、UNH永续；2026-07-28上线CXMT永续: query_raw_items({keyword:"HTX",limit:50,source:null,status:null}) = BlockBeats条目
+- 2026-07-25 Tron Inc.增持超15万枚TRX、持仓总量突破7.067亿枚: query_raw_items({keyword:"TRON Inc",limit:30,source:null,status:null}) = BlockBeats条目
+- 2026-07-16 HTX DAO完成Q2销毁、累计销毁超100万亿枚HTX: query_raw_items({keyword:"HTX",limit:50,source:null,status:null}) = BlockBeats条目
+- 2026-07-07 WLFI财库地址向Binance转入1.7亿枚WLFI: query_raw_items({keyword:"WLFI",limit:30,source:null,status:null}) = BlockBeats条目
+- 2026-06-10 Justin Sun从Poloniex提取1.2万枚ETH: query_raw_items({keyword:"Poloniex",limit:30,source:null,status:null}) = BlockBeats条目
+- 未找到可用的news/company路由：search_routes({category:"stock",keyword:"news,company"}) = 未找到路由；该独立核验路径不可用于个人主体
+
+- 2026-08-06 个人财富报道中 Justin Sun 回应: QueryRawItemsTool(keyword='Justin Sun', limit=100, source=null, status=null) = BlockBeats 条目，未提供可核验的财富金额或法律结论
+- 2026-07-08 Justin Sun 在 Lido 质押规模约 4.3 亿美元、年化收益约 950 万美元: QueryRawItemsTool(keyword='Justin Sun', limit=100, source=null, status=null) = BlockBeats 条目
+- 2026-06-10 Justin Sun 从 Poloniex 提取约 1.2 万枚 ETH: QueryRawItemsTool(keyword='Justin Sun', limit=100, source=null, status=null) = BlockBeats 条目
+- 2026-08-03 HTX 上线 GRVT、GILD、UNH 永续合约: QueryRawItemsTool(keyword='HTX', limit=100, source=null, status=null) = BlockBeats 条目
+- 2026-07-28 HTX 上线 CXMT 永续合约: QueryRawItemsTool(keyword='HTX', limit=100, source=null, status=null) = BlockBeats 条目
+- 2026-07-07 WLFI 财库地址向 Binance 转入 1.7 亿枚 WLFI: QueryRawItemsTool(keyword='WLFI', limit=100, source=null, status=null) = BlockBeats 条目
+- 2026-07-25 Tron Inc 增持超 15 万枚 TRX，持仓总量突破 7.067 亿枚: QueryRawItemsTool(keyword='TRON', limit=100, source=null, status=null) = BlockBeats 条目
+- 2026-07-11 稳定币总发行量近月减少约 139 亿美元、Tron 链上 USDT 逆势创新高: QueryRawItemsTool(keyword='TRON USDT stablecoin', limit=50, source=null, status=null) = BlockBeats 条目
+- 2026-07-09 Tether 在 Tron 网络铸造 10 亿枚 USDT: QueryRawItemsTool(keyword='TRON USDT stablecoin', limit=50, source=null, status=null) = BlockBeats 条目
+- 2026-07-16 HTX DAO 完成 Q2 销毁，累计销毁超 100 万亿枚: QueryRawItemsTool(keyword='HTX', limit=100, source=null, status=null) = BlockBeats 条目

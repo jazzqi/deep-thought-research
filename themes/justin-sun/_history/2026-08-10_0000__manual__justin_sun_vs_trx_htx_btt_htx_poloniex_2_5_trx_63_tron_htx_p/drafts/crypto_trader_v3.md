@@ -1,19 +1,4 @@
----
-name: 孙宇晨（Justin Sun）动向与投资情报
-slug: justin-sun
-status: active
-lead_agent: crypto_trader
-created: 2026-08-09
-updated: 2026-08-10T00:27:54+08:00
-revision: 2026-08-10
-sources:
-  - path: 2026-08-10_0000__manual__justin_sun_vs_trx_htx_btt_htx_poloniex_2_5_trx_63_tron_htx_p/reference.md
-    agent: theme_update
-    summarized: false
----
-
 # 孙宇晨（Justin Sun）信号雷达：二阶机会发现
-
 
 ## Big Picture
 
