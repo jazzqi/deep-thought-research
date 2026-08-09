@@ -1,0 +1,27 @@
+---
+slug: cryptocurrency
+lead_agent: crypto_trader
+depends_on:
+  - global-macro
+  - market-sentiment
+---
+# 加密货币
+
+> **⚠️ 重要提示：本文档的初始版本是基于大语言模型的历史数据创建。Agent 应根据最新信息持续更新。**
+
+## 范围
+
+广义加密货币市场：BTC、ETH 及主要 L1/L2、DeFi、稳定币、监管框架演变、机构 adoption、Web3 基础设施。
+
+## 分析框架
+
+- **资产周期** — 牛熊周期定位、BTC 减半效应、ETH 升级叙事、altcoin 流动性轮动
+- **链上基本面** — TVL、活跃地址、交易量、稳定币供应/流动、DEX vs CEX volume
+- **资金流** — ETF 净流入/流出、机构配置、风险投资对基础设施的投资节奏
+- **监管** — 全球主要经济体的监管框架（美国/欧盟/亚洲）对市场结构的影响
+
+## 典型参与 Agent
+
+- ai_specialist（技术基础—区块链/crypto 作为去中心化协议的演进）
+- soros（全球流动性对加密市场的传导）
+- karpathy（Web3/AI 基础设施技术演进）
