@@ -1,0 +1,93 @@
+- 2026-08-09 TRXUSDT现价0.32981美元、24小时涨幅0.274%、高0.33025美元、低0.32824美元、成交额18154434.658美元: binance_get_ticker({symbol:"TRXUSDT"}) = 结果
+- 2026-08-09 BTTUSDT行情不可用: binance_get_ticker({symbol:"BTTUSDT"}) = INVALID_SYMBOL
+- 2026-08-06 孙宇晨回应个人财富排名: query_raw_items({keyword:"Justin Sun",source:"telegram:Financial_Express"}) = 未命中；query_raw_items({keyword:"Justin Sun",source:"longbridge"}) = 未命中；query_raw_items({keyword:"Justin Sun",source:null}) = BlockBeats条目
+- 2026-07-08 孙宇晨在Lido质押规模约4.3亿美元、年化质押收益约950万美元: query_raw_items({keyword:"Justin Sun",source:"telegram:Financial_Express"}) = BlockBeats条目
+- 2026-06-10 孙宇晨从Poloniex提取1.2万枚ETH: query_raw_items({keyword:"Justin Sun",source:"telegram:Financial_Express"}) = BlockBeats条目
+- 2026-07-25 Tron Inc.增持超过15万枚TRX、持仓突破7.067亿枚: query_raw_items({keyword:"TRX",source:"telegram:Financial_Express"}) = BlockBeats条目
+- 2026-08-03 HTX上线GRVT、GILD、UNH永续合约: query_raw_items({keyword:"HTX",source:"telegram:Financial_Express"}) = BlockBeats条目
+- 2026-07-16 HTX DAO完成Q2销毁、累计销毁超100万亿枚: query_raw_items({keyword:"HTX",source:"telegram:Financial_Express"}) = BlockBeats条目
+- 2026-07-07 WLFI财库地址向Binance转入1.7亿枚WLFI: query_raw_items({keyword:"WLFI",source:"telegram:Financial_Express"}) = BlockBeats条目
+- 2026-08-09 美国联储资产负债表6748567.0，数据日期2026-08-05: query_indicators({category:"macro",country:"us",time_range:"24h"}) = fed_balance_sheet
+- 2026-08-09 market_kline返回TRX.US收盘1.05美元，但与Binance TRXUSDT 0.32981美元不一致，疑似标的/数据源口径错误: market_kline({symbol:"TRX.US",period:"1d",secondary_period:"1w"}) = 结果
+
+- 2026-08-06 Justin Sun回应个人财富反超王健林: query_raw_items(keyword='Justin Sun', source='telegram:Financial_Express') = BlockBeats标题，个人财富反超王健林，回应称“内心没有波澜，只有警醒”
+- 2026-07-08 Justin Sun在Lido质押规模约4.3亿美元、年化收益约950万美元: query_raw_items(keyword='Justin Sun', source='telegram:Financial_Express') = BlockBeats标题
+- 2026-06-10 Justin Sun从Poloniex提取1.2万枚ETH: query_raw_items(keyword='Justin Sun', source='telegram:Financial_Express') = BlockBeats标题
+- 2026-07-07 WLFI财库地址向Binance转入1.7亿枚WLFI: query_raw_items(keyword='WLFI', source='telegram:Financial_Express') = BlockBeats标题
+- 2026-07-25 Tron Inc.增持超15万枚TRX、持仓总量突破7.067亿枚: query_raw_items(keyword='TRON', source='telegram:Financial_Express') = BlockBeats标题
+- Binance TRXUSDT/BTTUSDT实时行情: binance_get_ticker(symbol='TRXUSDT'/'BTTUSDT') = 本轮工具执行失败；未将无法核验的价格写入结论
+- 美国宏观指标与市场情绪: query_indicators(country='us', category='monetary_credit'; country='', category='sentiment') = 返回0个有效指标；宏观/情绪未纳入定量结论
+- 关联实体公司新闻路由: search_routes(category='stock', keyword='company news,news/company') = 未找到路由；未编造财务、估值或一致预期数据
+
+- Justin Sun Lido质押规模约4.3亿美元、年化收益约950万美元（2026-07-08）: query_raw_items(keyword=Justin Sun, limit=30) = BlockBeats报道
+- Justin Sun从Poloniex提取1.2万枚ETH（2026-06-10）: query_raw_items(keyword=Justin Sun, limit=30) = BlockBeats报道
+- WLFI财库地址向Binance转入1.7亿枚WLFI（2026-07-07）: query_raw_items(keyword=WLFI, limit=20) = BlockBeats报道
+- Tron Inc.增持超过15万枚TRX，持仓总量突破7.067亿枚（2026-07-25）: query_raw_items(keyword=TRX, limit=20) = BlockBeats报道
+- HTX上线GRVT、GILD、UNH永续合约（2026-08-03）: query_raw_items(keyword=HTX, limit=20) = BlockBeats报道
+- HTX上线CXMT永续合约（2026-07-28）: query_raw_items(keyword=HTX, limit=20) = BlockBeats报道
+- HTX上线ISRG、TWLO、LUNR、EUL永续合约（2026-07-27）: query_raw_items(keyword=HTX, limit=20) = BlockBeats报道
+- HTX DAO完成Q2销毁，累计销毁超过100万亿枚HTX（2026-07-16）: query_raw_items(keyword=HTX, limit=20) = BlockBeats报道
+- Justin Sun回应个人财富排名，称内心只有警醒（2026-08-06）: query_raw_items(keyword=Justin Sun, limit=30) = BlockBeats报道
+- 近期宏观情绪指标: query_indicators(category=sentiment, country=null, limit=10, time_range=24h) = 0条有效指标，数据缺失
+- TRX/BTC/ETH实时24小时行情: binance_get_ticker(symbol=TRXUSDT/BTCUSDT/ETHUSDT) = 工具执行错误，本稿不使用价格与涨跌幅
+- 孙宇晨关联公司财务、估值与分析师一致预期: query_longbridge_by_route/news route search及可用路由查询未取得有效数据，本稿标注数据缺失
+
+- Justin Sun回应个人财富排名，称“内心没有波澜，只有警醒”，并强调年轻人叙事（2026-08-06）: query_raw_items(keyword='Justin Sun', source='telegram:Financial_Express'不可用后改查全源) = BlockBeats条目
+- Justin Sun在Lido质押规模约4.3亿美元、年化收益约950万美元（2026-07-08）: query_raw_items(keyword='Justin Sun', source='telegram:Financial_Express'不可用后改查全源) = BlockBeats条目
+- Justin Sun从Poloniex提取1.2万枚ETH（2026-06-10）: query_raw_items(keyword='Justin Sun', source='telegram:Financial_Express'不可用后改查全源) = BlockBeats条目
+- Tron Inc.增持超过15万枚TRX，持仓总量突破7.067亿枚（2026-07-25）: query_raw_items(keyword='TRON', source='全源') = BlockBeats条目
+- 美国联邦储备资产负债表6,748,567（数据日2026-08-05）: query_indicators(category='macro', country='us', time_range='24h') = openbb快照
+- 美国GDP 32,475.21（数据日2026-04-01，已标记为超过90天过时，不用于当前判断）: query_indicators(category='macro', country='us', time_range='24h') = openbb快照
+- TRXUSDT、BTCUSDT、ETHUSDT实时24小时行情: binance_get_ticker(symbol='TRXUSDT/BTCUSDT/ETHUSDT') = 工具执行错误，数据缺失
+- 孙宇晨关联实体财报、估值、分析师一致预期及公司新闻路由: search_routes(category='stock', keyword='news company')及Longbridge查询 = 未找到可用路由/数据缺失
+- SEC新裁决、追加指控、和解、WLFI解冻等截至2026-08-09新增事件: query_raw_items(keyword='Justin Sun/TRON/WLFI', 全源) = 未找到可核验新增条目
+
+- TRXUSDT 价格约 0.32981 美元、24小时涨幅约 0.274%（2026-08-09）: 历史记忆/本轮 Binance 行情工具查询（symbol=TRXUSDT） = 约0.32981美元、+0.274%；实时 ticker 本轮返回错误，需复核
+- Lido 质押规模约 4.3 亿美元、年化收益约 950 万美元（2026-07-08）: 历史稿引用 BlockBeats报道 = 约4.3亿美元、约950万美元
+- 从 Poloniex 提取 1.2 万枚 ETH（2026-06-10）: 历史稿引用 BlockBeats报道 = 12,000 ETH
+- WLFI 财库地址向 Binance 转入 1.7 亿枚 WLFI（2026-07-07）: 历史稿引用 BlockBeats报道 = 170,000,000 WLFI
+- Tron Inc. 增持超过 15 万枚 TRX、持仓总量突破 7.067 亿枚（2026-07-25）: query_raw_items(keyword=TRX,source=telegram:Financial_Express) 返回 BlockBeats条目 = 标题所述
+- HTX DAO 季度销毁累计超过 100 万亿枚 HTX（2026-07-16）: 历史稿引用报道，未获本轮原始条目独立返回 = 标题所述，待一手来源复核
+- 美国联邦储备资产负债表 6,748,567（数据日 2026-08-05）: query_indicators(category=macro,country=us,time_range=24h) = 6748567.0
+- 美国 GDP 32,475.21（数据日 2026-04-01）: query_indicators(category=macro,country=us,time_range=24h) = 32475.21，工具标记过时，不用于当前判断
+- 美国 CPI、核心CPI、PPI、消费者信心为2026-06-01快照: query_indicators(category=macro,country=us,time_range=24h) = 分别3.5、336.065、286.827、49.5，工具标记非实时，不用于当前判断
+- 孙宇晨/Justin Sun相关新闻本轮 query_raw_items 未返回结果；TRX关键词仅返回Tron Inc.增持与Binance TRON钱包维护条目: query_raw_items(keyword=孙宇晨/Justin Sun/TRX,source=telegram:Financial_Express) = 前者无结果，后者3条中相关2条
+- Binance TRXUSDT、ETHUSDT ticker本轮查询返回错误: binance_get_ticker(symbol=TRXUSDT/ETHUSDT) = Error executing tool
+- 孙宇晨关联实体财报、估值及分析师一致预期本轮未取得有效数据: query_longbridge_by_route/search_routes = 数据缺失
+
+- Justin Sun Lido 质押规模约4.3亿美元、年化质押收益约950万美元（报道时间2026-07-08）: query_raw_items(keyword='Justin Sun', limit=50) = BlockBeats 标题/时间
+- Justin Sun 从 Poloniex 提取1.2万枚ETH（报道时间2026-06-10）: query_raw_items(keyword='Poloniex', limit=50) = BlockBeats 标题/时间
+- 上市公司 Tron Inc. 增持超15万枚TRX、持仓总量突破7.067亿枚（报道时间2026-07-25）: query_raw_items(keyword='TRX', limit=50) = BlockBeats 标题/时间
+- Binance 将于2026-07-23进行TRON网络钱包维护、暂停充提约1小时（报道时间2026-07-22）: query_raw_items(keyword='TRX', limit=50) = BlockBeats 标题/时间
+- HTX上线GRVT、GILD、UNH永续合约（报道时间2026-08-03）: query_raw_items(keyword='HTX', limit=50) = BlockBeats 标题/时间
+- HTX上线CXMT永续合约（报道时间2026-07-28）: query_raw_items(keyword='HTX', limit=50) = BlockBeats 标题/时间
+- HTX上线ISRG、TWLO、LUNR、EUL永续合约（报道时间2026-07-27）: query_raw_items(keyword='HTX', limit=50) = BlockBeats 标题/时间
+- HTX DAO完成Q2销毁、HTX累计销毁超100万亿枚（报道时间2026-07-16）: query_raw_items(keyword='HTX', limit=50) = BlockBeats 标题/时间
+- WLFI财库地址向Binance转入1.7亿枚WLFI（报道时间2026-07-07）: query_raw_items(keyword='WLFI', limit=50) = BlockBeats 标题/时间
+- Justin Sun回应个人财富排名（报道时间2026-08-06）: query_raw_items(keyword='Justin Sun', limit=50) = BlockBeats 标题/时间
+
+- 2026-08-06 孙宇晨回应个人财富排名：“内心没有波澜，只有警醒”，并强调年轻人叙事: query_raw_items(keyword="Justin Sun", limit=50, source=null, status=null) = BlockBeats 条目（2026-08-06 08:06:14 UTC）
+- 2026-07-08 报道孙宇晨在 Lido 质押规模约 4.3 亿美元、年化质押收益约 950 万美元: query_raw_items(keyword="Justin Sun", limit=50, source=null, status=null) = BlockBeats 条目（2026-07-08 12:32:08 UTC）
+- 2026-06-10 报道孙宇晨从 Poloniex 提取 1.2 万枚 ETH: query_raw_items(keyword="Justin Sun", limit=50, source=null, status=null) = BlockBeats 条目（2026-06-10 03:15:41 UTC）
+- 2026-08-03 HTX 已上线 GRVT、GILD、UNH 永续合约: query_raw_items(keyword="HTX", limit=50, source=null, status=null) = BlockBeats 条目（2026-08-03 07:08:18 UTC）
+- 2026-07-28 HTX 已上线 CXMT 永续合约: query_raw_items(keyword="HTX", limit=50, source=null, status=null) = BlockBeats 条目（2026-07-28 08:14:30 UTC）
+- 2026-07-27 HTX 已上线 ISRG、TWLO、LUNR、EUL 永续合约: query_raw_items(keyword="HTX", limit=50, source=null, status=null) = BlockBeats 条目（2026-07-27 08:12:37 UTC）
+- 2026-07-16 HTX DAO 完成 Q2 销毁，累计销毁超过 100 万亿枚 HTX: query_raw_items(keyword="HTX", limit=50, source=null, status=null) = BlockBeats 条目（2026-07-16 06:02:08 UTC）
+- 2026-07-25 上市公司 Tron Inc. 增持超过 15 万枚 TRX，持仓总量突破 7.067 亿枚: query_raw_items(keyword="TRON", limit=30, source=null, status=null) = BlockBeats 条目（2026-07-25 07:36:08 UTC）
+- 2026-07-22 Binance 将进行 TRON 网络钱包维护，暂停充提约 1 小时: query_raw_items(keyword="TRON", limit=30, source=null, status=null) = 未在本次查询结果中返回该条目，草稿所引来源需另行核验
+
+- 2026-08-09 Justin Sun相关新闻：个人财富回应（2026-08-06）、Lido质押约4.3亿美元及年化收益约950万美元（2026-07-08）、从Poloniex提取1.2万枚ETH（2026-06-10）: query_raw_items({"keyword":"Justin Sun","limit":50,"source":null,"status":null}) = 4条相关原始新闻，来源均为BlockBeats
+- 2026-08-09 TRON相关新闻：Tron Inc.增持超15万枚TRX、持仓突破7.067亿枚（2026-07-25）；Binance TRON钱包维护（2026-07-22）: query_raw_items({"keyword":"TRON","limit":50,"source":null,"status":null}) = 返回相关原始新闻
+- 2026-08-09 HTX相关新闻：HTX上线GRVT/GILD/UNH永续合约（2026-08-03）、CXMT（2026-07-28）、ISRG/TWLO/LUNR/EUL（2026-07-27）、HTX DAO Q2销毁累计超100万亿枚HTX（2026-07-16）: query_raw_items({"keyword":"HTX","limit":50,"source":null,"status":null}) = 返回21条相关原始新闻
+- 2026-08-09 WLFI相关新闻：WLFI财库地址向Binance转入1.7亿枚WLFI（2026-07-07）: query_raw_items({"keyword":"WLFI","limit":50,"source":null,"status":null}) = 1条原始新闻，来源BlockBeats
+- 2026-08-09 TRX相关个股新闻检索：新闻包含TRX约0.33美元、期货市场约60%偏空倾向等技术分析内容（2026-08-09），但该路由将TRX识别为TRX Gold而非TRON代币，不能用于孙宇晨主题的TRX行情: query_longbridge_by_route(news/company,{"symbol":"TRX.US"}) = 返回10条，标的识别为TRX Gold Corporation
+- 2026-08-09 宏观/估值数据：本审查未将稿件中的宏观数值作为新增判断依据；未取得HTX、Poloniex、TRON、USDD、BitTorrent的可验证财务、储备或一致预期数据: query_longbridge_by_route(news/company,{"symbol":"700.HK"}) = 返回非相关公司新闻，不能作为主题数据来源
+
+- 2026-08-06 孙宇晨回应个人财富排名：“内心没有波澜，只有警醒” — query_raw_items(keyword=Justin Sun,limit=50,source=null,status=null) = BlockBeats 原始条目
+- 2026-07-08 孙宇晨在 Lido 质押规模约 4.3 亿美元、年化质押收益约 950 万美元 — query_raw_items(keyword=Justin Sun,limit=50,source=null,status=null) = BlockBeats 原始条目
+- 2026-06-10 孙宇晨从 Poloniex 提取 1.2 万枚 ETH — query_raw_items(keyword=Justin Sun,limit=50,source=null,status=null) = BlockBeats 原始条目
+- 2026-08-03 HTX 上线 GRVT、GILD、UNH 永续合约；2026-07-28 上线 CXMT 永续合约；2026-07-27 上线 ISRG、TWLO、LUNR、EUL 永续合约 — query_raw_items(keyword=HTX,limit=50,source=null,status=null) = BlockBeats 原始条目
+- 2026-07-16 HTX DAO 完成 Q2 销毁，累计销毁超 100 万亿枚 HTX — query_raw_items(keyword=HTX,limit=50,source=null,status=null) = BlockBeats 原始条目
+- 2026-07-25 Tron Inc. 增持超 15 万枚 TRX，持仓总量突破 7.067 亿枚 — query_raw_items(keyword=TRON,limit=50,source=null,status=null) = BlockBeats 原始条目
+- 2026-07-22/23 Binance 将进行 TRON 网络钱包维护，暂停充提约 1 小时 — query_raw_items(keyword=TRON,limit=50,source=null,status=null) = BlockBeats 原始条目
+- 2026-07-07 WLFI 财库地址向 Binance 转入 1.7 亿枚 WLFI — query_raw_items(keyword=WLFI,limit=50,source=null,status=null) = BlockBeats 原始条目
