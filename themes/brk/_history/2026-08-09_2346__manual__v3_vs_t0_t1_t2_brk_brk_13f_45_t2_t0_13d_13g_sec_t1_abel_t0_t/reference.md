@@ -1,0 +1,79 @@
+- Warren Buffett 透露 Berkshire 的 Alphabet 投资、约310亿美元押注（2026-07-17）: query_raw_items({keyword:'buffett',limit:30,source:null,status:null}) = hackernews headlines
+- 近30日未检索到 Financial Express 关于 Berkshire 的13D/13G/SEC filing/收购要约条目: query_raw_items({keyword:'13D OR 13G OR SEC filing OR acquisition OR tender offer OR Berkshire',limit:30,source:'telegram:Financial_Express',status:null}) = no raw items
+- GOOGL.US 最新报价（数据接口返回时点为2026-08-09）：market_quote({symbols:['GOOGL.US']}) = 354.30美元，较前收盘-0.96%
+- GOOGL.US 日线技术摘要：market_kline({symbol:'GOOGL.US',period:'1d',count:80,secondary_period:'1w',secondary_count:52,indicators:'ema21,ema60,macd,rsi14'}) = EMA21 352.36、EMA60 358.52、RSI14 50.7537、距区间高-13.2%、下降·中位
+- Alphabet 2026Q2营收1198亿美元（2026-07-22）: query_raw_items({keyword:'Alphabet',limit:30,source:null,status:null}) = 36kr headline（仅作新闻记录，未取得原始财报路由）
+- Alphabet 2026年资本开支指引1950亿—2050亿美元（2026-07-22）: query_raw_items({keyword:'Alphabet',limit:30,source:null,status:null}) = hackernews headline
+- Alphabet 2026-08-06启动最高250亿美元美元投资级债券发行、认购需求约1150亿美元: query_raw_items({keyword:'Alphabet',limit:30,source:null,status:null}) = blockbeats headlines
+- OXY.US 最新报价（数据接口返回时点为2026-08-09）：market_quote({symbols:['OXY.US']}) = 55.91美元，较前收盘-0.23%
+- OXY.US 日线技术摘要：market_kline({symbol:'OXY.US',period:'1d',count:80,secondary_period:'1w',secondary_count:52,indicators:'ema21,ema60,macd,rsi14'}) = EMA21 55.09、EMA60 55.48、RSI14 53.7077、下降·中位
+- 美国联储资产负债表（2026-08-05）: query_indicators({category:'macro',country:'us',limit:20,time_range:'7d'}) = 6748567.0（数据库原始单位）
+
+- 2026-08-09 T0检索：未发现Financial Express关于Berkshire/13D/13G/SEC filing/SC 13D/acquisition/tender offer/收购要约/增持公告的有效条目: query_raw_items(keyword='13D OR 13G OR SEC filing OR SC 13D OR acquisition OR tender offer OR 收购要约 OR 增持公告',source='telegram:Financial_Express',limit=50,status=null) = No raw items found
+- 2026-08-09 Berkshire相关实时检索：未发现Financial Express有效条目: query_raw_items(keyword='buffett OR berkshire OR BRK OR 巴菲特 OR 伯克希尔 OR 13F OR Apple OR OXY OR Occidental OR Abel',source='telegram:Financial_Express',limit=50,status=null) = No raw items found
+- 2026-07-17 巴菲特主导伯克希尔投资Alphabet、约310亿美元标题: query_raw_items(keyword='Buffett',source='hackernews',limit=30,status=null) = Hacker News headlines
+- 2026-06-21 Berkshire参与Alphabet AI融资约100亿美元标题: query_raw_items(keyword='Berkshire',source='longbridge',limit=30,status=null) = Longbridge headline; secondary source, no first-party filing verified
+- 2026-06-01 Berkshire拟以现金68亿美元收购Taylor Morrison标题: query_raw_items(keyword='Berkshire',source='longbridge',limit=30,status=null) = Longbridge/Hacker News headline; transaction documents not verified in current tools
+- 2026-06-21 Berkshire买入Chubb 2,916,288股标题: query_raw_items(keyword='Berkshire',source='longbridge',limit=30,status=null) = Longbridge headline; outside 2026-07-01至2026-08-09 window and SEC filing not verified
+- 2026-07-22 Alphabet季度营收1,198亿美元、同比增长24%标题: query_raw_items(keyword='Alphabet',source='longbridge',limit=30,status=null) = raw news database headline; company financial route unavailable
+- 2026-07-22 Alphabet将2026年资本开支指引上调至1,950亿—2,050亿美元标题: query_raw_items(keyword='Alphabet',source='longbridge',limit=30,status=null) = raw news database headline
+- 2026-08-04 Alphabet资本开支超过季度经营现金流标题: query_raw_items(keyword='Alphabet',source='longbridge',limit=30,status=null) = raw news database headline
+- 2026-08-09美国联储资产负债表6,748,567.0（数据库原始单位，2026-08-05）: query_indicators(category='macro',country='us',limit=20,time_range='7d') = fed_balance_sheet 6748567.0
+- 2026-08-09美国CPI同比3.5%（数据2026-06-01，工具标记滞后）: query_indicators(category='macro',country='us',limit=20,time_range='7d') = cpi_yoy_us_pct 3.5
+- 2026-08-09公司基本面/估值/一致预期路由未检索到: search_routes(category='stock',keyword='financials,consensus,valuation,analyst,news,company')及分别搜索 financial/valuation/consensus/news/company = 未找到相关路由
+
+- GOOGL.US最新报价（2026-08-09）: 历史主题reference.md记录的行情接口 = 354.30美元，较前收盘-0.96%
+- OXY.US最新报价（2026-08-09）: 历史主题reference.md记录的行情接口 = 55.91美元，较前收盘-0.23%
+- 美国联储资产负债表（2026-08-05）: query_indicators(category='macro',country='us',limit=20,time_range='7d') = 6748567.0（数据库原始单位）
+- 美国CPI同比（数据日期2026-06-01，工具标记滞后）: query_indicators(category='macro',country='us',limit=20,time_range='7d') = 3.5%
+- 2026-07-01至2026-08-09未发现Berkshire相关T0条目: query_raw_items(keyword='13D OR 13G OR SEC filing OR SC 13D OR acquisition OR tender offer OR 收购要约 OR 增持公告',source='telegram:Financial_Express',limit=50,status=null) = No raw items found
+- 2026-07-17巴菲特主导伯克希尔投资Alphabet约310亿美元标题: query_raw_items(keyword='Buffett',source='hackernews',limit=30,status=null) = Hacker News headline，未取得一手文件
+- 2026-06-01伯克希尔拟以现金约68亿美元收购Taylor Morrison标题: query_raw_items(keyword='Berkshire',source='longbridge',limit=30,status=null) = Longbridge/Hacker News headline，交易文件未核验
+
+- 美国联储资产负债表（2026-08-05）: query_indicators(category='macro',country='us',limit=10,time_range='7d') = 6748567.0（数据库原始单位）
+- 美国CPI同比（数据日期2026-06-01，工具标记滞后）: query_indicators(category='macro',country='us',limit=10,time_range='7d') = 3.5%
+- 2026-07-22 Alphabet第二季度营收标题: query_raw_items(keyword='Alphabet',limit=30,source=null,status=null) = 1198亿美元，同比增长24%（36kr，新闻标题，未取得原始财报路由）
+- 2026-07-22 Alphabet资本开支指引标题: query_raw_items(keyword='Alphabet',limit=30,source=null,status=null) = 1950亿—2050亿美元（Hacker News，新闻标题）
+- 2026-08-04 Alphabet资本开支超过季度经营现金流标题: query_raw_items(keyword='Alphabet',limit=30,source=null,status=null) = Hacker News headline
+- 2026-08-06 Alphabet债券发行标题: query_raw_items(keyword='Alphabet',limit=30,source=null,status=null) = 最高250亿美元发行、约1150亿美元认购需求（BlockBeats，新闻标题）
+- 2026-07-24 Alphabet监管罚款标题: query_raw_items(keyword='Alphabet',limit=30,source=null,status=null) = EU fines Alphabet $1B US for Google Play, search infractions（Hacker News，新闻标题，未取得监管原文）
+- 2026-08-07 Alphabet持有SpaceX股份标题: query_raw_items(keyword='Alphabet',limit=30,source=null,status=null) = 5.512亿股A类股票（BlockBeats，新闻标题，未取得公司文件）
+
+- Berkshire Q2 2026 operating earnings: 来源 query_longbridge_by_route(news/company, {"symbol":"BRK.B.US"}) = 12.98 billion USD, published 2026-08-09; news summary also reports Q2 net stock purchases约20 billion USD、Alphabet投资约10 billion USD、回购约4.5 billion USD。
+- Berkshire Q2 2026 cash/reserves: 来源 query_longbridge_by_route(news/company, {"symbol":"BRK.B.US"}) = 364.7 billion USD（另一条摘要为365.5 billion USD，另有36.55/36.47 billion明显单位冲突，未用后者）；published 2026-08-09。
+- Berkshire Q2 2026 net income: 来源 query_longbridge_by_route(news/company, {"symbol":"BRK.B.US"}) = 25.667 billion USD，同比+107%；published 2026-08-09。该为新闻摘要，需以SEC 8-K/10-Q原文复核。
+- Berkshire Q2 2026 Taylor Morrison交易: 来源 query_longbridge_by_route(news/company, {"symbol":"BRK.B.US"}) = 6.8 billion USD现金收购摘要；published 2026-08-09，正式合并文件未取得。
+- Alphabet Q2 2026 revenue/EPS: 来源 query_longbridge_by_route(fundamental/financials/income, {"symbol":"GOOGL.US","period":"quarter"}) = revenue 119.796 billion USD、basic EPS 9.1077、report_date 2026-06-30；该路由同时返回net_income 112.107 billion USD，与新闻摘要及会计常识存在明显口径疑点，净利润未采用。
+- Alphabet Q2 2026 news: 来源 query_raw_items(keyword="Alphabet", limit=30) = 2026-07-22营收1198亿美元、同比+24%标题；2026-07-22资本开支指引1950亿—2050亿美元标题；2026-08-08新闻摘要称Google Cloud销售额同比+82%至248亿美元、开始向外部客户销售TPU；均需以Alphabet正式财报复核。
+- Alphabet analyst consensus: 来源 query_longbridge_by_route(news/company, {"symbol":"GOOGL.US"}) = 新闻摘要报告平均目标价419.86美元、共识Buy；published 2026-08-09，未取得独立consensus路由原始明细。
+- Alphabet近期重大事件: 来源 query_raw_items(keyword="Alphabet", limit=30) = 2026-07-24 EU fines Alphabet 1B US标题；2026-08-04 Teads起诉Google/Alphabet标题；2026-08-06债券发行最高250亿美元及约1150亿美元认购需求标题；均为新闻条目，法律/融资细节需官方文件复核。
+- Taylor Morrison财务: 来源 query_longbridge_by_route(fundamental/financials/income, {"symbol":"TMHC.US","period":"annual"}) = FY2025 revenue 8.12148 billion USD、net income 782.5 million USD、EPS 7.77；FY2024 revenue 8.168136 billion USD、net income 883.309 million USD、EPS 8.27；report_date 2025-12-31。
+
+- 2026-07-17 Buffett Initiates Berkshire Hathaway's Investment in Alphabet标题: query_raw_items(keyword='Alphabet',limit=50,source=null,status=null) = Hacker News原始条目，标题级线索，非SEC原文
+- 2026-06-01 Berkshire Hathaway to buy Taylor Morrison for $6.8B in cash标题: query_raw_items(keyword='Taylor Morrison',limit=20,source=null,status=null) = Hacker News原始条目，标题级线索，非合并协议
+- 2026-06-22 Berkshire Hathaway Dissolves Share Stake In Amazon, UnitedHealth标题: query_raw_items(keyword='Berkshire Hathaway',limit=100,source='telegram:Financial_Express',status=null) = Longbridge原始新闻条目，未附13F原文
+- 2026-06-21 Berkshire Hathaway Inc Purchases 2,916,288 Shares of Chubb Limited标题: query_raw_items(keyword='Berkshire Hathaway',limit=100,source='telegram:Financial_Express',status=null) = Longbridge原始新闻条目，未附SEC文件
+- 2026-07-22 Alphabet第二季度营收1198亿美元，同比增长24%；2026-07-22 Alphabet hikes 2026 capex spend to $195B-$205B；2026-08-04 Alphabet's capex exceeded its operating cash flow last quarter；2026-08-06 Alphabet seeks/starts bond issuance up to $25B；2026-07-24 EU fines Alphabet $1B标题: query_raw_items(keyword='Alphabet',limit=50,source=null,status=null) = 原始新闻条目，媒体/标题级信息
+- 2026-08-04 Teads在纽约法院起诉Google和Alphabet标题: query_raw_items(keyword='Alphabet',limit=50,source=null,status=null) = 36Kr原始新闻条目，诉讼标题级信息
+
+- 独立复核最近新闻：query_raw_items({keyword:'Berkshire OR Alphabet OR Taylor Morrison OR Abel',limit:50,source:null,status:null}) = No raw items found；该结果不能证明事件未发生，仅表示该原始新闻检索无匹配。
+- Berkshire Q2资本部署新闻：query_longbridge_by_route(news/company,{"symbol":"GOOGL.US","count":20}) = 2026-08-09摘要称现金约365.5B、回购约4.5B、净增持股票约20B、Alphabet投资约10B、经营收益约12.98B；为新闻摘要，非逐项SEC证券明细。
+- Berkshire Q2财报/现金新闻：query_longbridge_by_route(news/company,{"symbol":"TMHC.US","count":20}) = 2026-08-09摘要称现金约364.7B、净利润约25.67B、Taylor Morrison收购约6.8B、回购约4.5B；为新闻摘要，正式交易文件未取得。
+- Alphabet近期公司新闻：query_longbridge_by_route(news/company,{"symbol":"GOOGL.US","count":20}) = 2026-08-08摘要称Google Cloud销售额同比增长82%至24.8B、开始向外部客户销售TPU；2026-08-09摘要称Q2 EPS 9.11美元、营收119.8B；均需以公司原始财报复核。
+- Taylor Morrison独立公司新闻复核：query_longbridge_by_route(news/company,{"symbol":"TMHC.US","count":20}) = 返回结果主要为Berkshire相关新闻，未取得TMHC正式8-K、合并协议或现金对价文件。
+
+- 2026-08-09独立检索Berkshire近30日新闻：query_raw_items({"keyword":"Berkshire Hathaway","limit":50,"source":null,"status":null}) = 17条；可见近期条目包括2026-07-17 Hacker News“Warren Buffett Initiates Berkshire Hathaway's Investment in Alphabet”，以及2026-06-22 Longbridge“Dissolves Share Stake In Amazon, UnitedHealth”（均为标题级/二手线索，非SEC原文）。
+- 2026-08-09独立检索Taylor Morrison新闻：query_raw_items({"keyword":"Taylor Morrison","limit":50,"source":null,"status":null}) = 3条；最近可见2026-06-21 Longbridge住房并购猜测、2026-06-01 Hacker News拟以68亿美元现金收购标题；未发现2026-07-11至08-09期间的新交易完成/监管结果原始条目。
+- 2026-08-09独立检索Abel新闻：query_raw_items({"keyword":"Abel","limit":50,"source":null,"status":null}) = 50条，但结果主要为Hacker News无关“label”标题，不能作为Abel管理层新闻证据；检索噪音显示关键词命中存在严重误报风险。
+- 2026-08-09独立检索公司新闻路由：search_routes({"category":"stock","keyword":"news,company"}) = 未找到可用路由；因此无法用news/company独立核验BRK/GOOGL最近30日公司新闻。
+- 2026-08-09读取工作区：themes/brk/drafts/current.md及session相对路径未能通过ReadThemeDocsTool定位；本次审查可见全文主要来自注入稿与themes/brk/index.md，无法确认稿件截断后的尾部内容是否已覆盖反指条件。
+- Berkshire Hathaway Q2 2026 operating earnings: query_longbridge_by_route(news/company, {"symbol":"BRK.B.US","count":30}) = 12.98 billion USD, published 2026-08-09；同批摘要报告Q2净股票买入约20 billion USD、Alphabet投资约10 billion USD、回购约4.5 billion USD。
+- Berkshire Hathaway Q2 2026 net income: query_longbridge_by_route(news/company, {"symbol":"BRK.B.US","count":30}) = 25.667 billion USD，同比增长107%，published 2026-08-09；为新闻摘要，需SEC原文复核。
+- Berkshire Hathaway Q2 2026 cash/reserves: query_longbridge_by_route(news/company, {"symbol":"BRK.B.US","count":30}) = 364.7 billion USD（同批另有365.5 billion USD口径），published 2026-08-09；新闻摘要间存在口径差异，需SEC原文校准。
+- Berkshire Hathaway Q2 2026 Taylor Morrison交易: query_longbridge_by_route(news/company, {"symbol":"BRK.B.US","count":30}) = 约6.8 billion USD现金收购摘要，published 2026-08-09；正式合并文件未取得。
+- Alphabet Q2 2026 revenue/EPS: query_longbridge_by_route(fundamental/financials/income, {"symbol":"GOOGL.US","period":"quarter"}) = revenue 119.796 billion USD、basic EPS 9.1077、report_date 2026-06-30；同一路由net_income 112.107 billion USD疑似口径错误，未采用。
+- Alphabet Q2 2026 and recent events: query_longbridge_by_route(news/company, {"symbol":"GOOGL.US","count":30}) = Q2 EPS约9.11美元、收入约119.8 billion USD；Google Cloud同比增长82%至24.8 billion USD、开始向外部客户销售TPU；均为新闻摘要，需公司原始财报复核。
+- Alphabet analyst consensus: query_longbridge_by_route(news/company, {"symbol":"GOOGL.US","count":30}) = Buy、平均目标价419.86美元，published 2026-08-09；未取得独立consensus路由样本、发布日期及分布。
+- Alphabet recent regulatory/financing news: query_raw_items({"keyword":"Alphabet","limit":50,"source":null,"status":null}) = 2026-07-24欧盟罚款标题、2026-08-04 Teads诉讼标题、2026-08-06最高250亿美元债券发行标题；均未取得官方文件，金额与责任不能据此定量入模。
+- Taylor Morrison FY2025/FY2024 financials: query_longbridge_by_route(fundamental/financials/income, {"symbol":"TMHC.US","period":"annual"}) = FY2025 revenue 8.12148 billion USD、net income 782.5 million USD、EPS 7.77；FY2024 revenue 8.168136 billion USD、net income 883.309 million USD、EPS 8.27；report_date 2025-12-31。
+- Recent independent news scan: query_raw_items({"keyword":"Berkshire Hathaway","limit":50,"source":null,"status":null}) = 17条近30日相关条目；query_raw_items({"keyword":"Taylor Morrison","limit":50,"source":null,"status":null}) = 3条，均未提供正式合并协议/监管结果；query_raw_items({"keyword":"Abel","limit":50,"source":null,"status":null}) = 结果含大量label误报，不能作为管理层原话证据。
