@@ -536,7 +536,7 @@ themes:
       - market-sentiment
 
   - slug: brk
-    name: 伯克希尔哈撒韦（Berkshire Hathaway / 巴菲特投资动向）
+    name: 伯克希尔哈撒韦（Berkshire Hathaway / 巴菲特投资动向 → 机会发现）
     status: active
     priority: 25
     created: 2026-08-09
@@ -550,7 +550,10 @@ themes:
       - 伯克希尔
       - 13F
       - value investing
-      - stock picking
+      - stock picks
+      - follow strategy
+      - 跟风
+      - 跟随策略
       - portfolio moves
       - shareholder letter
       - AGM
