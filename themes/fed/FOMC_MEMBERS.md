@@ -12,32 +12,32 @@
 
 ---
 
-## 当前委员会成员（2026）
+## 当前委员会成员
 
-| 姓名 | 职位/机构 | 最新言论/立场（日期+来源） | 鹰/鸽 |
-|------|----------|--------------------------|--------|
-| Kevin Warsh | Chairman / Board of Governors | 数据缺失 | — |
-| John C. Williams | Vice Chair / New York | 数据缺失 | — |
-| Michael S. Barr | 成员 / Board of Governors | 数据缺失 | — |
-| Michelle W. Bowman | 成员 / Board of Governors | 数据缺失 | — |
-| Lisa D. Cook | 成员 / Board of Governors | 数据缺失 | — |
-| Beth M. Hammack | 成员 / Cleveland | 数据缺失 | — |
-| Philip N. Jefferson | 成员 / Board of Governors | 数据缺失 | — |
-| Neel Kashkari | 成员 / Minneapolis | 数据缺失 | — |
-| Lorie K. Logan | 成员 / Dallas | 数据缺失 | — |
-| Anna Paulson | 成员 / Philadelphia | 数据缺失 | — |
-| Jerome H. Powell | 成员 / Board of Governors | 数据缺失 | — |
-| Christopher J. Waller | 成员 / Board of Governors | 数据缺失 | — |
+| 中文名 | 姓名 | 职位/机构 | 最新言论/立场（日期+来源） | 鹰/鸽 |
+|--------|------|----------|--------------------------|--------|
+| 凯文·沃什 | Kevin Warsh | Chairman / Board of Governors | 数据缺失 | — |
+| 约翰·威廉姆斯 | John C. Williams | Vice Chair / New York | 数据缺失 | — |
+| 迈克尔·巴尔 | Michael S. Barr | 成员 / Board of Governors | 数据缺失 | — |
+| 米歇尔·鲍曼 | Michelle W. Bowman | 成员 / Board of Governors | 数据缺失 | — |
+| 莉萨·库克 | Lisa D. Cook | 成员 / Board of Governors | 数据缺失 | — |
+| 贝丝·哈马克 | Beth M. Hammack | 成员 / Cleveland | 数据缺失 | — |
+| 菲利普·杰斐逊 | Philip N. Jefferson | 成员 / Board of Governors | 数据缺失 | — |
+| 尼尔·卡什卡利 | Neel Kashkari | 成员 / Minneapolis | 数据缺失 | — |
+| 洛里·洛根 | Lorie K. Logan | 成员 / Dallas | 数据缺失 | — |
+| 安娜·保尔森 | Anna Paulson | 成员 / Philadelphia | 数据缺失 | — |
+| 杰罗姆·鲍威尔 | Jerome H. Powell | 成员 / Board of Governors | 数据缺失 | — |
+| 克里斯托弗·沃勒 | Christopher J. Waller | 成员 / Board of Governors | 数据缺失 | — |
 
 ## 候补成员（Alternates）
 
-| 姓名 | 职位/机构 |
-|------|----------|
-| Thomas I. Barkin | Richmond |
-| Mary C. Daly | San Francisco |
-| Austan D. Goolsbee | Chicago |
-| Sushmita Shukla | New York / First Vice President |
-| Cheryl Venable | Atlanta / Interim President |
+| 中文名 | 姓名 | 职位/机构 |
+|--------|------|----------|
+| 托马斯·巴尔金 | Thomas I. Barkin | Richmond |
+| 玛丽·戴利 | Mary C. Daly | San Francisco |
+| 奥斯坦·古尔斯比 | Austan D. Goolsbee | Chicago |
+| 苏什米塔·舒克拉 | Sushmita Shukla | New York / First Vice President |
+| 谢丽尔·维纳布尔 | Cheryl Venable | Atlanta / Interim President |
 
 ---
 
