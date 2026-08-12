@@ -1,0 +1,68 @@
+- 美国 7 月 CPI：query_raw_items(keyword="CPI", source="telegram:Financial_Express", limit=20) = 同比 3.4%、环比 0.1%；核心 CPI 同比 2.5%、环比 0.2%（2026-08-12 报道）。
+- 2026-08-12 市场反应：query_raw_items(keyword="CPI", source="telegram:Financial_Express", limit=20) = CPI 后 SOFR 期货收益率日内下跌 4–5bp，收益率与美元走低；9 月加息定价约 45%（新闻转述，非实时利率曲线）。
+- 美股/黄金/布伦特代理 ETF：market_quote(symbols=["SPY.US","GLD.US","BNO.US"]) = SPY 772.03 美元（+0.19%）、GLD 405.18 美元（+1.05%）、BNO 50.86 美元（-0.20%），15 分钟延迟报价。
+- 长久期美债/美元代理 ETF：market_quote(symbols=["TLT.US","UUP.US"]) = TLT 82.28 美元（+0.11%）、UUP 28.17 美元（+0.11%），15 分钟延迟报价。
+- 未来 14 天高重要级事件：query_calendar_events(days=14, importance="high") = 美国 8 月 13 日当周初请、8 月 14 日 7 月零售销售（前值 0.2%、预测 0.3%）；另列谷歌 Pixel 发布会，非宏观主轴。
+- 美国 PPI：query_calendar_events(country="US", days=14, importance="high,medium") = 8 月 13 日 7 月 PPI 环比前值 -0.3%、预测 0.2%；核心 PPI 环比前值 0.2%、预测 0.3%。
+- 中国实体数据：query_calendar_events(country="CN", days=14, importance="high,medium") = 8 月 17 日公布 7 月社零同比前值 1.0%、固定资产投资累计同比前值 -5.7%、工业增加值同比前值 5.3%，均无共识。
+- 中国 LPR：query_calendar_events(country="CN", days=14, importance="high,medium") = 8 月 20 日 1 年期 LPR 前值 3.0%、5 年期 LPR 前值 3.5%，共识缺失。
+- 欧元区 GDP：query_calendar_events(country="EU", days=14, importance="high,medium") = 8 月14日二季度 GDP 季环比修正值前值/预测均为 0.4%。
+- 日本 GDP：query_calendar_events(country="JP", days=14, importance="high,medium") = 8 月16日公布二季度实际 GDP 初值，季环比前值 0.5%、年化季环比前值 1.8%，共识缺失。
+
+- 2026-08-17 中国7月社会消费品零售总额同比前值: query_calendar_events(days=14,country=null,importance="high,medium") = 1.0%，预测值未返回
+- 2026-08-17 中国7月规模以上工业增加值同比（单月）前值: query_calendar_events(days=14,country=null,importance="high,medium") = 5.3%，预测值未返回
+- 2026-08-17 中国7月城镇固定资产投资同比（年初至今）前值: query_calendar_events(days=14,country=null,importance="high,medium") = -5.7%，预测值未返回
+- 2026-08-20 中国8月LPR前值: query_calendar_events(days=14,country=null,importance="high,medium") = 1年期3.0%、5年期3.5%，预测值未返回
+- 2026-08-18 英国6月ILO失业率及含红利三个月平均工资同比前值: query_calendar_events(days=14,country=null,importance="high,medium") = 4.9%、4.3%，预测值未返回
+- 2026-08-19 英国7月CPI/核心CPI同比前值: query_calendar_events(days=14,country=null,importance="high,medium") = 2.6%/2.6%，预测值未返回
+- 2026-08-19 日本7月未季调贸易账前值: query_calendar_events(days=14,country=null,importance="high,medium") = -4,069亿日元，预测值未返回
+- 2026-08-12 SPY.US/GLD.US报价: market_quote(symbols=["SPY.US","GLD.US"]) = 771.77美元（+0.16%）/405.50美元（+1.13%）
+- 2026-08-12 地缘风险线索: query_raw_items(source="telegram:Financial_Express",limit=50) = 巴基斯坦正斡旋延长美伊60天停火框架；阿曼及波斯湾出现油污/船舶事件报道，需持续跟踪对能源运输及Brent风险溢价的影响
+
+- 全球财经日历（2026-08-16至2026-08-20主要事件、前值/共识字段）: query_calendar_events(days=14, importance=high,medium, country=null) = 日本二季度实际GDP季环比前值0.5%、年化前值1.8%；中国7月社零同比前值1.0%、工业增加值单月同比前值5.3%、固定资产投资累计同比前值-5.7%；英国6月ILO失业率前值4.9%、含红利三个月平均工资同比前值4.3%、7月总体/核心CPI同比前值均2.6%；加拿大7月CPI同比前值2.8%、普通核心CPI同比前值2.6%、央行核心CPI同比前值2.1%；欧元区7月HICP/核心HICP终值前值与共识均未返回；中国8月1年期/5年期LPR前值3.0%/3.5%。
+- 美国增长与通胀交叉验证事件（2026-08-13至2026-08-14）: query_calendar_events(days=14, importance=high,medium, country=null) = 美国7月PPI环比前值-0.3%、预测0.2%，核心PPI环比前值0.2%、预测0.3%；美国7月零售销售环比前值0.2%、预测0.3%；美国8月密歇根大学消费者信心初值前值55.2、预测53.8。
+- 美国权益与黄金代理行情（2026-08-12查询）: market_quote(symbols=[SPY.US,GLD.US]) = SPY 771.79美元、较前收+0.16%；GLD 405.37美元、较前收+1.10%。
+- 地缘风险新闻（2026-08-12）: query_raw_items(source=telegram:Financial_Express,limit=50) = 消息称巴基斯坦正寻求延长美伊60天停火期限；同时报道波斯湾油轮遇袭相关油污/泄漏风险。仅作为日历外风险观察，未经独立验证。
+- 上期recap承接: read_theme_docs_tool(path=themes/economic-calendar/2026-08-10__2026-08-16/recap.md) = 文件不存在，故无法取得观察清单及成绩单，正式报告须披露该限制。
+- 行情快照数据缺口（2026-08-12）: query_indicators(category=bond,country=us,time_range=24h) = 返回0个指标；本次可用工具未获得10Y/2Y美债、DXY、Brent、USDCNH当前水平，不能填入数值。
+
+- 美国7月PPI环比前值-0.3%、共识+0.2%；核心PPI环比前值+0.2%、共识+0.3%；同比前值分别5.5%和4.7%: query_calendar_events({"days":14,"importance":"high,medium"}) = 2026-08-13事件字段
+- 美国7月零售销售环比前值+0.2%、共识+0.3%；除汽车与汽油前值+0.4%、共识+0.3%；除汽车前值-0.2%、共识+0.2%: query_calendar_events({"days":14,"importance":"high,medium"}) = 2026-08-14事件字段
+- 美国8月密歇根大学消费者信心初值前值55.2、共识53.8: query_calendar_events({"days":14,"importance":"high,medium"}) = 2026-08-14事件字段
+- 美国截至8月8日当周初请失业救济人数: query_calendar_events({"days":14,"importance":"high,medium"}) = 前值/共识缺失
+- 中国7月社零同比前值1.0%、工业增加值单月同比前值5.3%、固投年初至今同比前值-5.7%: query_calendar_events({"days":14,"importance":"high,medium"}) = 2026-08-17事件字段
+- 中国8月一年期/五年期LPR前值3.0%/3.5%，MLF规模及利率前值/共识缺失: query_calendar_events({"days":14,"importance":"high,medium"}) = 2026-08-17至20事件字段
+- 日本二季度实际GDP季环比前值0.5%、年化季率前值1.8%: query_calendar_events({"days":14,"importance":"high,medium"}) = 2026-08-16事件字段
+- 加拿大7月CPI总体同比前值2.8%、普通核心同比2.6%、央行核心同比2.1%、总体环比-0.4%: query_calendar_events({"days":14,"importance":"high,medium"}) = 2026-08-17事件字段
+- 欧元区二季度GDP季环比修正前值/共识均为0.4%、同比前值1.0%: query_calendar_events({"days":14,"importance":"high,medium"}) = 2026-08-14事件字段
+- 英国失业率前值4.9%、含红利三个月平均工资同比前值4.3%；英国7月总体/核心CPI前值均2.6%: query_calendar_events({"days":14,"importance":"high,medium"}) = 日历事件字段
+- 日本7月贸易账未季调前值-4069亿日元: query_calendar_events({"days":14,"importance":"high,medium"}) = 2026-08-19事件字段
+- 美国CPI同比3.4%、核心CPI同比2.5%: query_indicators({"category":"macro","country":"us","time_range":"24h"}) = cpi_yoy_us_pct 3.4（数据日期2026-07-01，42天前）
+- 美国联邦储备资产负债表6748567百万美元: query_indicators({"category":"macro","country":"us","time_range":"24h"}) = fed_balance_sheet 6748567.0（数据日期2026-08-05）
+- 2026-08-12全球新闻含美国4个月国债竞拍得标利率3.755%、投标倍数3.16及美伊停火延长斡旋: query_raw_items({"limit":50,"source":"telegram:Financial_Express"}) = 2026-08-12新闻条目
+- 美国7月PPI环比前值-0.3%、预测+0.2%；核心PPI环比前值+0.2%、预测+0.3%；同比前值分别5.5%、4.7%: query_calendar_events(country=null,days=14,importance=high,medium,limit=100) = 对应事件记录
+- 美国7月零售销售环比前值+0.2%、预测+0.3%；除汽车与汽油环比前值+0.4%、预测+0.3%；除汽车环比前值-0.2%、预测+0.2%: query_calendar_events(country=null,days=14,importance=high,medium,limit=100) = 对应事件记录
+- 美国8月密歇根消费者信心前值55.2、预测53.8: query_calendar_events(country=null,days=14,importance=high,medium,limit=100) = 对应事件记录
+- 日本二季度实际GDP季环比前值0.5%、年化季率前值1.8%；名义GDP季率前值0.6%: query_calendar_events(country=null,days=14,importance=high,medium,limit=100) = 对应事件记录
+- 中国7月社零同比前值1.0%、工业增加值单月同比前值5.3%、固投年初至今同比前值-5.7%、LPR前值1年3.0%/5年3.5%（LPR由历史稿列示）: query_calendar_events(country=CN,days=14,importance=high,medium,limit=100) = 对应事件记录
+- 英国失业率前值4.9%、含红利工资同比前值4.3%、总体/核心CPI前值均2.6%（历史稿列示）: query_calendar_events(country=GB,days=14,importance=high,medium,limit=100) = 对应事件记录
+- 欧元区二季度GDP季环比前值及预测均0.4%、同比前值1.0%: query_calendar_events(country=EU,days=14,importance=high,medium,limit=100) = 对应事件记录
+- 2026-08-12美国4个月国债竞拍得标利率3.755%、投标倍数3.16: query_raw_items(source=telegram:Financial_Express,keyword=null,limit=50) = 对应快讯
+- 2026-08-12巴基斯坦斡旋延长美伊60天停火协议: query_raw_items(source=telegram:Financial_Express,keyword=null,limit=50) = 对应快讯
+- 2026-08-12 VIX短暂触及七个月低点，报14.84: query_raw_items(source=telegram:Financial_Express,keyword=null,limit=50) = 对应快讯
+
+- 美国7月PPI环比/核心PPI环比：query_calendar_events(country="US", days=14, importance="high,medium") = 前值-0.3%/+0.2%，共识+0.2%/+0.3%，事件时间2026-08-13 12:30 UTC
+- 美国7月零售销售/除汽车与汽油环比：query_calendar_events(country="US", days=14, importance="high,medium") = 前值+0.2%/+0.4%，共识+0.3%/+0.3%，事件时间2026-08-14 12:30 UTC
+- 美国8月密歇根信心初值：query_calendar_events(country="US", days=14, importance="high,medium") = 前值55.2，共识53.8，事件时间2026-08-14 14:00 UTC
+- 中国7月社零/工业增加值/固定资产投资：query_calendar_events(country="CN", days=14, importance="high,medium") = 前值同比+1.0%/+5.3%/-5.7%，共识均未提供，事件时间2026-08-17 02:00 UTC
+- 中国8月1年期/5年期LPR：query_calendar_events(country="CN", days=14, importance="high,medium") = 前值3.0%/3.5%，共识未提供，事件时间2026-08-20 01:00 UTC
+- 英国6月失业率/含红利三个月平均工资同比：query_calendar_events(country="GB", days=14, importance="high,medium") = 前值4.9%/4.3%，共识未提供，事件时间2026-08-18 06:00 UTC
+- 英国7月总体/核心CPI同比：query_calendar_events(country="GB", days=14, importance="high,medium") = 前值2.6%/2.6%，共识未提供，事件时间2026-08-19 06:00 UTC
+- 日本二季度实际GDP季环比/年化季环比初值：query_calendar_events(country="JP", days=14, importance="high,medium") = 前值+0.5%/+1.8%，共识未提供，事件时间2026-08-16 23:50 UTC
+- 加拿大7月总体CPI同比、普通核心同比、央行核心同比：query_calendar_events(country="CA", days=14, importance="high,medium") = 前值2.8%/2.6%/2.1%，共识未提供，事件时间2026-08-17 12:30 UTC
+- 欧元区二季度GDP季环比修正：query_calendar_events(country="EU", days=14, importance="high,medium") = 前值+0.4%、共识+0.4%，事件时间2026-08-14 09:00 UTC
+- 欧元区7月总体/核心HICP终值：query_calendar_events(country="EU", days=14, importance="high,medium") = 前值与共识均未提供，事件时间2026-08-19 09:00 UTC
+- 美国8月费城联储制造业指数：query_calendar_events(country="US", days=14, importance="high,medium") = 前值41.4、共识未提供，事件时间2026-08-20 12:30 UTC
+
+- 2026-08-12 审查独立核验—美国 CPI 同比: query_indicators(category="macro", country="us", time_range="7d", limit=20) = cpi_yoy_us_pct 3.4，原始数据日期 2026-07-01（距查询 42 天；月度发布仍在常规45天新鲜度阈值内）。
+- 2026-08-12 审查独立新闻扫描: query_raw_items(keyword="Federal Reserve CPI PPI retail sales China retail sales industrial production MLF LPR", limit=50) = 未返回条目；query_raw_items(keyword="Japan GDP UK CPI Canada CPI eurozone HICP", limit=50) = 未返回条目，故未能用原始新闻库独立确认或发现日历外重大遗漏。

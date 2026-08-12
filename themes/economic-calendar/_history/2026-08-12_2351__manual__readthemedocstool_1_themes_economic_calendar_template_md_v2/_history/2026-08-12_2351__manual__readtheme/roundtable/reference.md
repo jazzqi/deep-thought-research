@@ -1,0 +1,7 @@
+- 2026-08-12 13:18 UTC CME FedWatch预期9月加息25bp概率42.1%，前一日48.4%: query_raw_items(keyword='Fed', limit=30, source=null, status=null) = 42.1% / 48.4%
+- 2026-08-12 13:43 UTC Federated Hermes观点称符合预期的CPI不足以促使美联储改变政策方向，第四季度加息可能性仍存在: query_raw_items(keyword='Fed', limit=30, source='telegram:Financial_Express', status=null) = 原始新闻摘要
+- 2026-08-12 14:06 UTC NPR报道7月通胀因汽油和食品价格下降而缓和，降低9月加息必要性: query_raw_items(keyword='Fed', limit=30, source='npr_world', status=null) = 原始新闻摘要
+- 2026-08-12 09:17 UTC NYT报道特朗普关税已促使部分加拿大企业迁往美国: query_raw_items(keyword='tariff', limit=20, source='nyt_world', status=null) = 原始新闻摘要
+- 2026-08-01 00:36 UTC新闻条目称美国财政部对日元市场进行历史性干预: query_raw_items(keyword='Treasury', limit=30, source='hackernews', status=null) = 原始新闻摘要
+- 2026-08-02 02:06 UTC新闻条目称美国财政部长Bessent与美联储协助日元扭转数月跌势: query_raw_items(keyword='Treasury', limit=30, source='hackernews', status=null) = 原始新闻摘要
+- 2026-06-05 17:33 UTC美联储官方RSS称Jerome Powell任临时主席，直至Kevin Warsh宣誓就任新主席: query_raw_items(keyword='Powell', limit=20, source='fed_rss', status=null) = 原始新闻摘要
