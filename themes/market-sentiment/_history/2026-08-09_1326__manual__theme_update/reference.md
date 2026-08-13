@@ -1,0 +1,12 @@
+- 美国联邦储备系统资产负债表: query_indicators({category: "macro", country: "us", time_range: "24h"}) = 6748567.0，数据日期2026-08-05
+- 美国CPI同比: query_indicators({category: "macro", country: "us", time_range: "24h"}) = 3.5，数据日期2026-06-01，系统标记69天前
+- 美国核心CPI: query_indicators({category: "macro", country: "us", time_range: "24h"}) = 336.065，数据日期2026-06-01，系统标记69天前
+- 美国GDP: query_indicators({category: "macro", country: "us", time_range: "24h"}) = 32475.21，数据日期2026-04-01，系统标记130天前、过时
+- 中国出口: query_indicators({category: "macro", country: "china", time_range: "24h"}) = 359703900000.0，数据日期2026-04-01，系统标记130天前、过时
+- 中国进口: query_indicators({category: "macro", country: "china", time_range: "24h"}) = 270641300000.0，数据日期2026-04-01，系统标记130天前、过时
+- BTCUSDT 24小时行情: binance_get_ticker({symbol: "BTCUSDT"}) = 64759.9美元，24小时跌233.0美元/-0.359%，高65163.0、低64700.0，时间戳1786253229976
+- ETHUSDT 24小时行情: binance_get_ticker({symbol: "ETHUSDT"}) = 1913.44美元，24小时跌2.82美元/-0.147%，高1925.85、低1911.1，时间戳1786253229609
+- 未来14天美国7月CPI同比: query_calendar_events({country: "US", days: 14, importance: "high,medium"}) = 2026-08-12发布，前值3.5、预测3.5
+- 未来14天美国7月核心CPI同比: query_calendar_events({country: "US", days: 14, importance: "high,medium"}) = 2026-08-12发布，前值2.6、预测2.5
+- 未来14天美国财政部国债标售: query_calendar_events({country: "US", days: 14, importance: "high,medium"}) = 2026-08-11至13日标售逾千亿美元国债
+- 近期新闻: query_raw_items({limit: 30}) = 2026-08-09上海暴雨导致高速限速、快递/长途客运/部分轨交暂停；市场相关标题包括“黄仁勋带崩海力士”、DeepSeek API涨价及V4-Flash公测（calendar），以及比特币BIP-110算力支持不足、上线8小时仅产生两个区块（blockbeats）

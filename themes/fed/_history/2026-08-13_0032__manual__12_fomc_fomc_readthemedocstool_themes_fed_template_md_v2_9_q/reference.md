@@ -1,0 +1,10 @@
+- 模板规范: themes/fed/template.md = ReadThemeDocsTool(themes/fed/template.md, offset=0/8000) = 报告结构v2
+- 美国未来高重要事件: query_calendar_events(country=US, days=180, importance=high, limit=200) = 2026-08-13初请失业金（前值/预测缺失）；2026-08-14零售销售环比前值0.2%、预测0.3%；2026-09-15、2026-10-27、2026-12-08、2027-01-26 FOMC
+- 美国未来中重要事件: query_calendar_events(country=US, days=180, importance=high,medium, limit=200) = 2026-08-13 PPI同比前值5.5%、核心PPI同比4.7%、核心PPI环比前值0.2%预测0.3%、PPI环比前值-0.3%预测0.2%；2026-08-14零售控制组前值0.5%、核心零售前值-0.2%、除汽车与汽油前值0.4%预测0.3%、密歇根信心前值55.2预测53.8
+- 美国CPI同比: query_indicators(country=us, category=macro, time_range=7d) = 3.4，数据日期2026-07-01
+- 联储资产负债表: query_indicators(country=us, category=macro, time_range=7d) = 6748567.0，数据日期2026-08-05
+- FOMC成员官方追踪底稿: ReadThemeDocsTool(themes/fed/FOMC_MEMBERS.md) = 数据抓取2026-08-10，成员最新言论/立场均为数据缺失
+- 官员新闻: query_raw_items(keyword=Fed OR Powell OR Warsh OR FOMC) = 无结果
+- 美国债券收益率: query_indicators(country=us, category=bond, time_range=7d) = 0 indicators
+- 美国美元指数: query_indicators(country=us, category=exchange_rate, time_range=7d) = 0 indicators
+- FOMC结构化信息/SEP: 本轮工具集无 query_fomc，数据缺失（工具未返回）

@@ -1,0 +1,104 @@
+- 美国联储资产负债表: query_indicators({category=macro,country=us,time_range=24h}) = 6748567.0，数据日期2026-08-05，来源openbb；工具标注4天前
+- 美国CPI同比: query_indicators({category=macro,country=us,time_range=24h}) = 3.5，数据日期2026-06-01，来源akshare；工具标注69天前且不应视为当前数据
+- 美国GDP: query_indicators({category=macro,country=us,time_range=24h}) = 32475.21，数据日期2026-04-01，来源openbb；工具标注130天前过时
+- 美国PPI: query_indicators({category=macro,country=us,time_range=24h}) = 286.827，数据日期2026-06-01，来源openbb；工具标注69天前
+- 美国核心CPI: query_indicators({category=macro,country=us,time_range=24h}) = 336.065，数据日期2026-06-01，来源openbb；工具标注69天前
+- 2026-08-12美国7月核心CPI同比: query_calendar_events({country=US,days=180,importance=high,medium}) = 前值2.6，预测2.5，实际待公布
+- 2026-08-12美国7月CPI同比: query_calendar_events({country=US,days=180,importance=high,medium}) = 前值3.5，预测3.4，实际待公布
+- 2026-08-12美国7月核心CPI环比: query_calendar_events({country=US,days=180,importance=high,medium}) = 前值0.0，预测0.2，实际待公布
+- 2026-08-12美国7月CPI环比: query_calendar_events({country=US,days=180,importance=high,medium}) = 前值-0.4，预测0.2，实际待公布
+- 2026-08-13美国7月核心PPI同比: query_calendar_events({country=US,days=180,importance=high,medium}) = 前值4.7，预测缺失，实际待公布
+- 2026-08-13美国7月PPI同比: query_calendar_events({country=US,days=180,importance=high,medium}) = 前值5.5，预测缺失，实际待公布
+- 2026-08-14美国7月零售销售环比: query_calendar_events({country=US,days=180,importance=high,medium}) = 前值0.2，预测0.3，实际待公布
+- 2026-08-14美国8月密歇根大学消费者信心指数初值: query_calendar_events({country=US,days=180,importance=high,medium}) = 前值55.2，预测53.8，实际待公布
+- 2026-09-15美国FOMC会议: query_calendar_events({country=US,days=180,importance=high,medium}) = 日期事件，其他字段缺失
+- 2026-10-27美国FOMC会议: query_calendar_events({country=US,days=180,importance=high,medium}) = 日期事件，其他字段缺失
+- 2026-12-08美国FOMC会议: query_calendar_events({country=US,days=180,importance=high,medium}) = 日期事件，其他字段缺失
+- 2027-01-26美国FOMC会议: query_calendar_events({country=US,days=180,importance=high,medium}) = 日期事件，其他字段缺失
+- 2026-08-05 Fed官员Kashkari言论标题“now is the time to start slowly moving rates up”: query_raw_items({keyword=Fed}) = hackernews转引，具体原文/官方确认缺失
+- 2026-08-05 Fed官员Schmid言论标题“calls for tighter monetary policy, inflation too high”: query_raw_items({keyword=Fed}) = hackernews转引，具体原文/官方确认缺失
+- 2026-08-06 Kevin Warsh消息标题“to stick with lean Fed messaging despite market backlash”: query_raw_items({keyword=Warsh}) = hackernews转引，具体原文/官方确认缺失
+- 2026-08-08 特朗普再次推动解雇Fed Governor Lisa Cook: query_raw_items({keyword=Fed}) = Al Jazeera/NPR新闻标题，法律状态与一手文件未返回
+- 2026-08-04/07/09美元指数及美债收益率: query_indicators({category=bond/exchange_rate,country=us}) = 工具返回0 indicators，数据缺失
+- FOMC当前政策利率、最近决议票数/SEP/QT细节、期货/OIS市场定价、完整FOMC成员立场: query_indicators/query_raw_items = 数据缺失或不足，不能编造
+
+- 2026-07-28至29最近一次FOMC会议、2026-09-15至16下一次会议、2026年未来会议日历及SEP安排: Roundtable历史查询记录(query_fomc/FOMC官方日历，具体参数未保留) = 会议日期如正文；7月决议结果/目标区间/投票分歧未返回
+- 有效联邦基金利率: QueryIndicatorsTool(category=monetary_credit,country=us,历史记录) = 3.63%，数据日期2026-07-01（不得替代目标区间）
+- 2026年6月SEP联邦基金利率中位数: Roundtable历史查询记录(FOMC官方数据) = 3.8%
+- Fed资产负债表: QueryIndicatorsTool(category=macro,country=us,limit=40,time_range=24h) = 6748567.0，数据日期2026-08-05；单位及QT分项未明确
+- CPI同比: QueryIndicatorsTool(category=macro,country=us,limit=40,time_range=24h) = 3.5%，数据日期2026-06-01，标记过时
+- 核心CPI: QueryIndicatorsTool(category=macro,country=us,limit=40,time_range=24h) = 数据库返回336.065（未提供可直接使用的同比口径）；日历7月核心CPI前值2.6%、预测2.5%、实际未发布
+- CPI 7月同比/环比: QueryCalendarEvents(country=US,days=180,importance=high,medium) = 前值3.5%/环比-0.4%，预测3.5%/0.2%，实际未发布
+- 失业率、非农、初请、续请: Roundtable历史查询记录(QueryIndicatorsTool，具体参数未保留) = 失业率4.1%、非农158858（数据日期2026-07-01）；初请199000（2026-08-01）、续请1801000（2026-07-25）
+- 7月PPI: QueryCalendarEvents(country=US,days=180,importance=high,medium) = PPI同比前值5.5%、核心PPI同比4.7%，环比前值-0.3%/0.2%，核心环比0.2%/预测0.3%，实际未发布
+- 7月零售销售: QueryCalendarEvents(country=US,days=180,importance=high,medium) = 前值0.2%、预测0.3%，实际未发布；控制组前值0.5%、预测缺失
+- 2年/10年美债收益率及美元指数: Roundtable历史查询记录(QueryIndicatorsTool，具体参数未保留) = 2Y 4.25%、10Y 4.69%、数据日期2026-08-06；美元指数119.7034、数据日期2026-07-31（偏旧）；2s10s +0.46个百分点
+- Fed官员与独立性新闻: QueryRawItems(keyword=Fed,limit=30) = 2026-08-08 NPR/Al Jazeera标题称特朗普再次推动解雇Lisa Cook；2026-08-06 Hacker News标题称Kevin Warsh维持精简沟通；2026-08-05 Hacker News标题称Kashkari主张逐步上调利率、Schmid主张更紧政策；均为新闻转引，未作为官方言论确认
+- 未来美国数据日历: QueryCalendarEvents(country=US,days=180,importance=high,medium,limit=100) = 2026-08-12 7月CPI、2026-08-13 7月PPI/初请、2026-08-14 7月零售销售；具体前值/预测见正文
+- 美国财政部国债发行安排: QueryCalendarEvents(country=US,days=180,importance=high,medium) = 2026-08-11至13标售逾千亿美元国债（事件标题，金额口径由日历提供）
+- 期货/OIS/互换隐含概率: QueryIndicatorsTool(category=bond,country=us,limit=20,time_range=24h) = 未返回；市场隐含降息次数与概率数据缺失
+- 美国CPI同比3.5%（数据日2026-06-01）: query_indicators(category=macro,country=us,time_range=7d) = 3.5
+- 美国核心CPI指标值336.065（数据日2026-06-01，工具未返回同比口径）: query_indicators(category=macro,country=us,time_range=7d) = 336.065
+- 美国生产者价格指数286.827（数据日2026-06-01，工具未返回同比口径）: query_indicators(category=macro,country=us,time_range=7d) = 286.827
+- 美国联储资产负债表6748567（数据日2026-08-05，工具未明确单位）: query_indicators(category=macro,country=us,time_range=7d) = 6748567.0
+- 美国7月CPI同比前值3.5%、预测3.4%（发布日期2026-08-12，实际待公布）: query_calendar_events(country=US,days=14,importance=high,medium) = previous 3.5, forecast 3.4, actual null
+- 美国7月核心CPI同比前值2.6%、预测2.5%（发布日期2026-08-12，实际待公布）: query_calendar_events(country=US,days=14,importance=high,medium) = previous 2.6, forecast 2.5, actual null
+- 美国7月CPI环比前值-0.4%、预测0.2%（发布日期2026-08-12，实际待公布）: query_calendar_events(country=US,days=14,importance=high,medium) = previous -0.4, forecast 0.2, actual null
+- 美国7月核心CPI环比前值0.0%、预测0.2%（发布日期2026-08-12，实际待公布）: query_calendar_events(country=US,days=14,importance=high,medium) = previous 0.0, forecast 0.2, actual null
+- 美国7月PPI同比前值5.5%、核心PPI同比前值4.7%（发布日期2026-08-13，实际待公布）: query_calendar_events(country=US,days=14,importance=high,medium) = previous 5.5/4.7, actual null
+- 美国7月零售销售环比前值0.2%、预测0.3%（发布日期2026-08-14，实际待公布）: query_calendar_events(country=US,days=14,importance=high,medium) = previous 0.2, forecast 0.3, actual null
+- 美国7月密歇根消费者信心指数初值前值55.2、预测53.8（发布日期2026-08-14，实际待公布）: query_calendar_events(country=US,days=14,importance=high,medium) = previous 55.2, forecast 53.8, actual null
+- 美国10年期国债竞拍前次中标利率4.58%、规模390亿美元（发布日期2026-08-12，待公布）: query_calendar_events(country=US,days=14,importance=high,medium) = previous 4.58/390.0
+- 美国财政部2026-08-11至13日标售逾千亿美元国债: query_calendar_events(country=US,days=14,importance=high,medium) = event_date 2026-08-10T16:00:00+00:00
+- 2026-08-13美国首次申请失业救济人数事件（实际和预测缺失）: query_calendar_events(country=US,days=14,importance=high,medium) = actual null, forecast null
+- 2026-08-06联邦基金利率3.63%、2年期国债4.25%、10年期国债4.69%、2s10s+0.46个百分点；2026-08-07美元指数119.7034: 既有工作稿/历史记忆，原始查询工具参数未在本轮可复核，按数据缺口处理
+- 2026-06 SEP联邦基金利率中位数3.8%: 既有工作稿/历史记忆，原始查询工具参数未在本轮可复核，按历史锚点处理
+- 2026-09-15至16下一次FOMC、2026-07-28至29上次会议: 既有工作稿/历史日历记录；本轮query_calendar_events未返回FOMC事件，日期待官方日历复核
+
+- 2026-06 SEP联邦基金利率中位数3.8%: 历史记忆/前稿已核验官方FOMC库(2026-06 SEP) = 3.8%
+- 2026-09-15至16及未来12个月FOMC会议日期与SEP月份: 历史记忆/前稿已核验官方FOMC库 = 2026-09-15~16、10-27~28、12-08~09、2027-01-26~27、03-16~17、04-27~28、06-08~09、07-27~28
+- 2026-08-05 Fed资产负债表: query_indicators(category=macro,country=us,time_range=7d) = 6748567（工具未明确单位）
+- 2026-06 CPI同比3.5%: query_indicators(category=macro,country=us,time_range=7d) = 3.5
+- 2026-06 CPI指数332.568、核心CPI指数336.065: query_indicators(category=macro,country=us,time_range=7d) = 332.568、336.065
+- 2026-08-12美国7月CPI同比前值3.5%、预测3.4%，核心CPI同比前值2.6%、预测2.5%，环比前值-0.4%/0.0%、预测0.2%/0.2%: query_calendar_events(country=US,days=30,importance=high,medium) = 对应事件记录
+- 2026-08-13美国7月PPI同比前值5.5%、核心PPI同比4.7%，环比前值-0.3%/0.2%、预测0.2%/0.3%: query_calendar_events(country=US,days=30,importance=high,medium) = 对应事件记录
+- 2026-08-14美国7月零售销售环比前值0.2%、预测0.3%，除汽车与汽油前值0.4%、预测0.3%，密歇根信心前值55.2、预测53.8: query_calendar_events(country=US,days=30,importance=high,medium) = 对应事件记录
+- 2026-08-11至13美国财政部标售逾千亿美元国债: query_calendar_events(country=US,days=30,importance=high,medium) = 对应事件记录
+- 2026-08-12美国10年期国债竞拍前次中标/高收益率4.58%、总金额390亿美元: query_calendar_events(country=US,days=30,importance=high,medium) = 对应事件记录
+- 前稿记录的2026-08-06美国2年期收益率4.25%、10年期4.69%、2s10s+0.46个百分点、2026-07-31美元指数119.7034: 前稿/历史工作稿来源记录 = 对应数值（本轮未重新返回）
+- 2026-06核心CPI约2.6%、CPI同比3.5%及2026-07-01有效联邦基金利率3.63%: 前稿/历史工作稿来源记录 = 对应数值（本轮未重新返回）
+
+- CPI同比3.5%（美国，数据日2026-06-01）: query_indicators(category=macro,country=us,time_range=7d) = 3.5
+- 核心CPI同比约2.6%（美国，数据日2026-06-01）: query_calendar_events(country=US,days=180,importance=high,medium) = previous 2.6
+- 失业率4.1%、非农158,858（美国，工具标注数据日2026-07-01）: drafts/current.md历史工作稿中的指标查询记录 = 4.1%, 158,858
+- 初请失业金199,000（美国，2026-08-01）与续请1,801,000（截至2026-07-25）: drafts/current.md历史工作稿中的指标查询记录 = 199,000; 1,801,000
+- 美国7月CPI（2026-08-12）预测同比3.4%、核心同比2.5%、环比0.2%、核心环比0.2%，实际待公布: query_calendar_events(country=US,days=180,importance=high,medium) = previous/forecast
+- 美国7月PPI（2026-08-13）预测核心环比0.3%、PPI环比0.2%，实际待公布: query_calendar_events(country=US,days=180,importance=high,medium) = previous/forecast
+- 美国7月零售销售（2026-08-14）预测环比0.3%，实际待公布；控制组前值0.5%: query_calendar_events(country=US,days=180,importance=high,medium) = previous/forecast
+- 8月密歇根消费者信心初值（2026-08-14）预测53.8、前值55.2，实际待公布: query_calendar_events(country=US,days=180,importance=high,medium) = previous/forecast
+- Fed资产负债表6,748,567（数据日2026-08-05，单位及QT分项未返回）: query_indicators(category=macro,country=us,time_range=7d) = 6748567.0
+- 2026年8月11日至13日美国财政部标售逾千亿美元国债: query_calendar_events(country=US,days=180,importance=high,medium) = event
+- 2026年8月12日10年期国债竞拍前值/高收益率4.58%、规模390亿美元: query_calendar_events(country=US,days=180,importance=high,medium) = previous
+- 2026年7月FOMC会议2026-07-28至29、下一次2026-09-15至16（含SEP）及后续会议日期: themes/fed/_history/2026-08-09_1640__manual__12_fomc_fomc_readthemedocstool_themes_fed_template_md_v1_que/roundtable/discussion_log.md = official FOMC calendar work record
+- 2026年6月SEP联邦基金利率中位数3.8%: themes/fed/_history/2026-08-09_1640__manual__12_fomc_fomc_readthemedocstool_themes_fed_template_md_v1_que/roundtable/discussion_log.md = official SEP work record
+- 2年期美债4.25%、10年期4.69%、2s10s +0.46个百分点（2026-08-06/07）: drafts/current.md历史工作稿中的OpenBB代理市场查询记录 = values
+- 美元指数119.7034（2026-07-31，偏旧）: drafts/current.md历史工作稿中的OpenBB代理市场查询记录 = value
+- 近期Fed/FOMC/Warsh/Cook原始新闻: query_raw_items(keyword=Fed OR FOMC OR Warsh OR Cook,limit=30) = no raw items found
+
+- 美国CPI同比: query_indicators({"category":"macro","country":"us","limit":30,"time_range":"24h"}) = 3.5，数据日期2026-06-01；工具标记数据较旧
+- 美国核心CPI序列: query_indicators({"category":"macro","country":"us","limit":30,"time_range":"24h"}) = 336.065，数据日期2026-06-01；这是指数序列，不是同比百分比
+- 美联储资产负债表: query_indicators({"category":"macro","country":"us","limit":30,"time_range":"24h"}) = 6748567.0，数据日期2026-08-05
+- 2026-08-08特朗普再次推动解雇Fed理事Lisa Cook: query_raw_items({"keyword":"Lisa Cook","limit":30,"source":null,"status":null}) = Al Jazeera/NPR新闻条目
+- 2026-08-05 Kashkari关于逐步上调利率的标题: query_raw_items({"keyword":"Kashkari","limit":20,"source":null,"status":null}) = Hacker News条目
+- 2026-08-05 Schmid关于通胀过高、需要更紧政策的标题: query_raw_items({"keyword":"Schmid","limit":20,"source":null,"status":null}) = Hacker News条目
+- 2026-08-06 Warsh维持精简沟通的标题: query_raw_items({"keyword":"Warsh","limit":20,"source":null,"status":null}) = Hacker News条目
+- 2026-07-29 FOMC声明投票比例9-3的新闻标题: query_raw_items({"keyword":"FOMC","limit":30,"source":null,"status":null}) = BlockBeats条目；非官方一手来源，不能单独确认决议
+- 2026-06-29最高法院关于Lisa Cook暂留任的新闻条目: query_raw_items({"keyword":"Lisa Cook","limit":30,"source":null,"status":null}) = Bloomberg Economics条目；与Al Jazeera/NPR的2026-08-08报道共同构成需核验的法律背景
+
+- 美国CPI同比: query_indicators({"category":"macro","country":"us","limit":50,"time_range":"24h"}) = 3.5，数据日期2026-06-01，工具标记69天前
+- 美国核心CPI: query_indicators({"category":"macro","country":"us","limit":50,"time_range":"24h"}) = 336.065（指数值，数据日期2026-06-01，工具标记69天前）
+- 美国联储资产负债表: query_indicators({"category":"macro","country":"us","limit":50,"time_range":"24h"}) = 6748567.0，数据日期2026-08-05
+- 美国GDP: query_indicators({"category":"macro","country":"us","limit":50,"time_range":"24h"}) = 32475.21，数据日期2026-04-01，工具标记130天前，不用于当前判断
+- 美国PPI: query_indicators({"category":"macro","country":"us","limit":50,"time_range":"24h"}) = 286.827（指数值，数据日期2026-06-01，工具标记69天前）
+- 美国消费者信心: query_indicators({"category":"macro","country":"us","limit":50,"time_range":"24h"}) = 49.5，数据日期2026-06-01，工具标记69天前
+- 近期Fed/FOMC/Lisa Cook/Warsh原始新闻: query_raw_items({"keyword":"Fed OR Federal Reserve OR FOMC OR Lisa Cook OR Warsh","limit":50,"source":null,"status":null}) = No raw items found

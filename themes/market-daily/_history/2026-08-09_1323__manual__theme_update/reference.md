@@ -1,0 +1,17 @@
+- SPY.US latest: market_quote(symbols=["SPY.US","QQQ.US","TLT.US","GLD.US","000001.CN"]) = 773.26, +0.61%
+- QQQ.US latest: market_quote(symbols=["SPY.US","QQQ.US","TLT.US","GLD.US","000001.CN"]) = 723.03, +1.17%
+- TLT.US latest: market_quote(symbols=["SPY.US","QQQ.US","TLT.US","GLD.US","000001.CN"]) = 82.76, +0.29%
+- GLD.US latest: market_quote(symbols=["SPY.US","QQQ.US","TLT.US","GLD.US","000001.CN"]) = 398.47, +2.26%
+- US 10-year Treasury yield (2026-08-06): query_indicators(country="us") = 4.69%
+- US 2-year Treasury yield (2026-08-06): query_indicators(country="us") = 4.25%
+- US high-yield spread (2026-08-06): query_indicators(country="us") = 2.71%
+- VIX (2026-08-06): query_indicators(country="us") = 15.15
+- US July CPI calendar consensus (release 2026-08-12): query_calendar_events(country="US",days=14,importance="high,medium") = CPI YoY 3.5% (prior 3.5%), core CPI YoY 2.5% (prior 2.6%)
+- China July CPI YoY: query_indicators(country="china") = 0.5%
+- China July manufacturing PMI: query_indicators(country="china") = 49.2
+- China 10-year government yield (2026-08-07): query_indicators(country="china") = 1.7114%
+- China July activity-data releases (2026-08-17): query_calendar_events(country="CN",days=14,importance="high,medium") = retail sales, fixed-asset investment, industrial production
+
+- 未来美国宏观/供给窗口（8月11—13日美债标售；8月12日美国7月CPI与10年期国债拍卖；8月13日PPI）: query_calendar_events(country="US", days=14, importance="high,medium") = 日历事件；CPI核心同比预测2.5%、核心环比预测0.2%、总CPI同比预测3.4%（另有同名条目预测3.5%，口径存在冲突）
+- 中国未来窗口（8月12日腾讯二季报；8月17日7月零售、固投、工业增加值及MLF）: query_calendar_events(country="CN", days=14, importance="high,medium") = 日历事件
+- 上海暴雨导致局部交通与物流中断、美国7月CPI预期相关新闻: query_raw_items(source="telegram:Financial_Express", keyword=null, limit=50) = 2026-08-09新闻流

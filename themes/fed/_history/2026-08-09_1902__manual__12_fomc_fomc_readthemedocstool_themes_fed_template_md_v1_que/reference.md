@@ -1,0 +1,34 @@
+- 2026-08-12 July US headline CPI: previous 3.5%, forecast 3.5%, actual pending: query_calendar_events(country=US, days=180, importance=high,medium) = returned event
+- 2026-08-12 July US core CPI: previous 2.6%, forecast 2.5%, actual pending: query_calendar_events(country=US, days=180, importance=high,medium) = returned event
+- 2026-08-14 July US retail sales m/m: previous 0.2%, forecast 0.3%, actual pending: query_calendar_events(country=US, days=180, importance=high,medium) = returned event
+- 2026-09-15 FOMC meeting: query_calendar_events(country=US, days=180, importance=high,medium) = returned event
+- 2026-10-27 FOMC meeting: query_calendar_events(country=US, days=180, importance=high,medium) = returned event
+- 2026-12-08 FOMC meeting: query_calendar_events(country=US, days=180, importance=high,medium) = returned event
+- 2027-01-26 FOMC meeting: query_calendar_events(country=US, days=180, importance=high,medium) = returned event
+- Fed balance sheet = 6748567.0, data date 2026-08-05: query_indicators(category=macro,country=us,limit=50,time_range=7d) = returned snapshot
+- US CPI yoy = 3.5, data date 2026-06-01, stale warning: query_indicators(category=macro,country=us,limit=50,time_range=7d) = returned snapshot
+- US GDP = 32475.21, data date 2026-04-01, stale warning: query_indicators(category=macro,country=us,limit=50,time_range=7d) = returned snapshot
+- US ISM PMI = 48.7, data date 2025-09-02, stale warning: query_indicators(category=pmi,country=us,limit=50,time_range=7d) = returned snapshot
+- 2026-08-05 Kashkari statement summary: query_raw_items(keyword=Fed,limit=50) = HN item, secondary/unofficial
+- 2026-08-05 Schmid statement summary: query_raw_items(keyword=Fed,limit=50) = HN item, secondary/unofficial
+- 2026-08-06 Warsh lean messaging report: query_raw_items(keyword=Fed,limit=50) = HN item, secondary/unofficial
+- 2026-08-08 Trump renewed effort to fire Lisa Cook: query_raw_items(keyword=Fed,limit=50) = NPR/Al Jazeera items
+
+- CPI同比（美国）: query_indicators(country=us, category=null, time_range=7d) = 3.5（数据日期2026-06-01，69天前）
+- 失业率（美国）: query_indicators(country=us, category=null, time_range=7d) = 4.1（数据日期2026-07-01）
+- 初请失业金: query_indicators(country=us, category=null, time_range=7d) = 199000（数据日期2026-08-01）
+- 续请失业金: query_indicators(country=us, category=null, time_range=7d) = 1801000（数据日期2026-07-25）
+- 非农就业: query_indicators(country=us, category=null, time_range=7d) = 158858（数据日期2026-07-01；指标口径需人工复核）
+- 有效联邦基金利率: query_indicators(country=us, category=null, time_range=7d) = 3.63（数据日期2026-07-01；不能替代目标区间）
+- 美联储资产负债表: query_indicators(country=us, category=null, time_range=7d) = 6748567（数据日期2026-08-05，单位按工具返回）
+- 2年期美债收益率: query_indicators(country=us, category=null, time_range=7d) = 4.25（数据日期2026-08-06）
+- 10年期美债收益率: query_indicators(country=us, category=null, time_range=7d) = 4.69（数据日期2026-08-06）
+- 2s10s利差: query_indicators(country=us, category=null, time_range=7d) = 0.46（数据日期2026-08-07）
+- 美元指数: query_indicators(country=us, category=null, time_range=7d) = 119.7034（数据日期2026-07-31）
+- 企业信用利差: query_indicators(country=us, category=null, time_range=7d) = 0.78（数据日期2026-08-06）
+- 高收益债利差: query_indicators(country=us, category=null, time_range=7d) = 2.71（数据日期2026-08-06）
+- 未来美国事件: query_calendar_events(country=US, days=180, importance=high,medium) = 2026-08-12美国7月核心CPI同比前值2.6、预测2.5、实际缺失；2026-08-12美国7月CPI同比前值3.5、预测3.5、实际缺失；2026-08-13美国7月PPI同比前值5.5、预测缺失、实际缺失；2026-08-14美国7月零售销售环比前值0.2、预测0.3、实际缺失
+- 官员言论新闻: query_raw_items(keyword='Fed OR Powell OR Warsh OR FOMC', limit=100) = 无原始新闻返回，成员立场数据缺失
+- 市场期货/OIS隐含路径: query_indicators(country=us, category=null, time_range=7d) = 未返回，市场隐含概率及定价偏差不可计算
+- 核心PCE/PCE: query_indicators(country=us, category=null, time_range=7d) = 未返回可用当前值
+- 联邦基金目标区间、逐名FOMC投票、QT月度上限与实际进度、主席及现任理事名单: 当前工具查询 = 数据缺失（工具未返回）

@@ -1,0 +1,15 @@
+- SPY现价/日变动: market_quote(symbols=[SPY.US]) = 773.26美元，+0.61%
+- GLD现价/日变动: market_quote(symbols=[GLD.US]) = 398.47美元，+2.26%
+- USO现价/日变动: market_quote(symbols=[USO.US]) = 117.98美元，-0.75%
+- 美国7月CPI日历字段: query_calendar_events(days=14,importance=high,medium,country=US) = 总体同比前值3.5%、共识出现3.4%和3.5%两条记录；核心同比前值2.6%、共识2.5%；总体/核心环比前值-0.4%/0.0%、共识均0.2%
+- 美国7月PPI日历字段: query_calendar_events(days=14,importance=high,medium,country=US) = 同比前值5.5%、核心同比4.7%；环比前值-0.3%、核心环比0.2%，共识0.2%/0.3%
+- 美国7月零售销售环比: query_calendar_events(days=14,importance=high,medium,country=US) = 前值0.2%、共识0.3%
+- 美国8月密歇根大学消费者信心初值: query_calendar_events(days=14,importance=high,medium,country=US) = 前值55.2、共识53.8
+- 美国10年期国债竞拍: query_calendar_events(days=14,importance=high,medium,country=US) = 8月12日，前次高收益率4.58%、金额390亿美元
+- 霍尔木兹状态: query_raw_items(source=telegram:Financial_Express,limit=50,status=processed) = 2026-08-09伊朗外长称霍尔木兹海峡未重新开放、伊美未谈判
+- 美国宏观快照（不用于当前值判断）: query_indicators(category=macro,country=us,time_range=24h) = CPI同比3.5%，数据期2026-06-01、已69天；美联储资产负债表6,748,567，数据期2026-08-05
+
+- 2026-08-10至2026-08-13重点日历事件及前值/预测：query_calendar_events(days=14, importance=high,medium, country=all) = 美国7月CPI同比前值3.5%、预测3.4%，核心同比前值2.6%、预测2.5%，总体环比前值-0.4%、预测0.2%，核心环比前值0.0%、预测0.2%；美国7月PPI同比前值5.5%、核心同比4.7%，环比前值-0.3%、预测0.2%，核心环比前值0.2%、预测0.3%；美国10年期国债拍卖前次中标收益率4.58%、规模390亿美元；美国7月成屋销售409万户、预测406万户；英国二季度GDP同比前值0.9%、环比0.6%；日本7月企业商品价格指数同比7.1%、环比0.4%；德国7月CPI同比2.8%、环比0.8%；澳大利亚政策利率前值/预测4.35% = query_calendar_events(days=14, importance=high,medium, country=null)。
+- 2026-08-05美国联邦储备系统资产负债表：6,748,567.0 = query_indicators(category=macro, country=us, time_range=24h)。
+- 2026-08-09伊朗外长称霍尔木兹海峡未重新开放、当前未与美国谈判 = query_raw_items(keyword=iran/Hormuz, source=telegram:Financial_Express/blockbeats)。
+- 2026-08-09近期原始新闻扫描包含美国贸易/产业、地缘政治与风险资产观点，但未获得可核验的10Y/2Y/DXY/S&P500/Brent/Gold/USDCNH连续行情序列 = query_raw_items(keyword=null, limit=50)。

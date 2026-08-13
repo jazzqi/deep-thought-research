@@ -1,0 +1,13 @@
+- 2026-07-30 FOMC目标区间3.50%-3.75%，9-3维持不变，哈玛克、卡什卡利、洛根支持加息: query_raw_items(keyword=Fed OR FOMC, limit=100) = BlockBeats/Financial Express items
+- 2026-06 SEP联邦基金利率中位数3.8: 历史记忆（待当前工具复核） = 3.8
+- 2026-08-12美国CPI日历预期：核心CPI环比前值0.0%、预测0.2%；核心同比前值2.6%、预测2.5%；总体CPI环比前值-0.4%、预测0.2%；同比前值3.5%、预测3.4%: query_calendar_events(country=US,days=180,importance=high,medium) and historical memory = listed values
+- 2026-08-13美国7月PPI：同比前值5.5%、核心同比4.7%、核心环比前值0.2%预测0.3%、总体环比前值-0.3%预测0.2%: query_calendar_events(country=US,days=180,importance=high,medium) = listed values
+- 2026-08-14美国7月零售销售环比前值0.2%预测0.3%，除汽车与汽油前值0.4%预测0.3%，密歇根消费者信心前值55.2预测53.8: query_calendar_events(country=US,days=180,importance=high,medium) = listed values
+- 2026-09-15、2026-10-27、2026-12-08、2027-01-26 FOMC事件: query_calendar_events(country=US,days=180,importance=high,medium) = listed dates (calendar only gives start dates; full meeting windows/SEP not returned)
+- 2026-08-05 Fed资产负债表6748567.0（工具单位未明确）: query_indicators(category=macro,country=us,time_range=24h) = 6748567.0
+- 2026-08-12 CME FedWatch 9月加息25bp概率42.1%: query_raw_items(keyword=Fed,limit=50) = telegram:Financial_Express item
+- 2026-08-12 美国7月CPI报道：通胀缓和、降低9月加息必要性: query_raw_items(keyword=Fed,limit=50) = NPR item
+- 2026-08-12 Collins表示若通胀仍高可支持9月加息，但其当前无票: query_raw_items(keyword=Fed,limit=50) = telegram:Financial_Express item
+- 2026-08-06 Warsh坚持精简Fed沟通: query_raw_items(keyword=Warsh,limit=50) = Hacker News转引Financial Times，未官方确认
+- 2026-08-08特朗普再次推动解雇Lisa Cook，NPR称此前解雇努力被最高法院否决: query_raw_items(keyword=Fed,limit=50) = NPR item
+- 2026-08-03 Williams称若通胀不能按预期回归2%将采取行动: query_raw_items(keyword=Fed,limit=50) = BlockBeats转引，非官方一手

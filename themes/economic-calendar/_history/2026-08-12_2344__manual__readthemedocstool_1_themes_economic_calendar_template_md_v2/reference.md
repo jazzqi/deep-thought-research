@@ -1,0 +1,30 @@
+- 报告模板与写作规范: ReadThemeDocsTool(themes/economic-calendar/template.md; themes/WRITING_GUIDE.md) = 已读取；指定上周recap路径不存在
+- 美国7月零售销售环比（2026-08-14 12:30 UTC，日历高重要）: query_calendar_events(days=14, importance=high) = 前值+0.2%，市场预测+0.3%，尚未公布
+- 美国7月核心PPI环比（2026-08-13 12:30 UTC）: query_calendar_events(days=14, importance=medium) = 前值+0.2%，市场预测+0.3%，尚未公布
+- 美国7月PPI环比（2026-08-13 12:30 UTC）: query_calendar_events(days=14, importance=medium) = 前值-0.3%，市场预测+0.2%，尚未公布
+- 美国8月密歇根大学消费者信心初值（2026-08-14 14:00 UTC）: query_calendar_events(days=14, importance=medium) = 前值55.2，市场预测53.8，尚未公布
+- 中国7月社会消费品零售总额同比（2026-08-17 02:00 UTC）: query_calendar_events(days=14, importance=medium) = 前值+1.0%，市场预测缺失
+- 中国7月固定资产投资累计同比（2026-08-17 02:00 UTC）: query_calendar_events(days=14, importance=medium) = 前值-5.7%，市场预测缺失
+- 中国7月规模以上工业增加值同比（2026-08-17 02:00 UTC）: query_calendar_events(days=14, importance=medium) = 前值+5.3%，市场预测缺失
+- 中国8月LPR（2026-08-20 01:00 UTC）: query_calendar_events(days=14, importance=medium) = 1年期前值3.0%、5年期前值3.5%，市场预测缺失
+- 英国7月CPI同比（2026-08-19 06:00 UTC）: query_calendar_events(days=14, importance=medium) = 前值+2.6%，市场预测缺失
+- 英国7月核心CPI同比（2026-08-19 06:00 UTC）: query_calendar_events(days=14, importance=medium) = 前值+2.6%，市场预测缺失
+- 英国6月ILO失业率（2026-08-18 06:00 UTC）: query_calendar_events(days=14, importance=medium) = 前值4.9%，市场预测缺失
+- 欧元区第二季度GDP季环比修正（2026-08-14 09:00 UTC）: query_calendar_events(days=14, importance=medium) = 前值+0.4%、市场预测+0.4%，尚未公布
+- 日本7月商品贸易帐（2026-08-19 23:50 UTC）: query_calendar_events(days=14, importance=medium) = 前值-4,069亿日元，市场预测缺失
+- 澳大利亚7月失业率（2026-08-20 01:30 UTC）: query_calendar_events(days=14, importance=medium) = 前值4.4%，市场预测缺失
+- SPY.US: market_quote(symbols=[SPY.US]) = 772.16美元，前收770.56美元，+0.21%，15分钟延迟报价
+- 霍尔木兹/美伊局势: query_raw_items(source=telegram:Financial_Express, limit=80) = 2026-08-12报道称巴基斯坦斡旋延长美伊60天停火；同时阿曼环境局报告近海船只搁浅后油污抵达东南海岸。均为新闻源陈述，尚非航运量/保费的量化确认。
+- 美国原油库存: query_raw_items(source=telegram:Financial_Express, limit=80) = 2026-08-12快讯称EIA美国原油库存增加1,742万桶，布伦特/WTI期货走弱；未获得油价现货水平。
+
+- 美国7月CPI：query_raw_items(keyword="CPI", source="telegram:Financial_Express", limit=20) = CPI同比3.4%、核心CPI同比2.5%、CPI环比0.1%、核心CPI环比0.2%；新闻称汽油环比-2.9%（2026-08-12）
+- 美国7月PPI/核心PPI：query_calendar_events(country="", days=14, importance="high,medium") = 2026-08-13 12:30 UTC，PPI环比前值-0.3%、预测0.2%，核心PPI环比前值0.2%、预测0.3%
+- 美国7月零售销售：query_calendar_events(country="US", days=14, importance="high") = 2026-08-14 12:30 UTC，环比前值0.2%、预测0.3%
+- 中国7月实体活动及LPR：query_calendar_events(country="CN", days=14, importance="high,medium") = 2026-08-17 02:00 UTC，社零同比前值1.0%、工业增加值同比前值5.3%、固定资产投资累计同比前值-5.7%；2026-08-20 01:00 UTC，1年LPR前值3.0%、5年LPR前值3.5%
+- 英国GDP/劳动力/通胀：query_calendar_events(country="GB", days=14, importance="high,medium") = 2026-08-13二季度GDP季率前值0.6%、6月GDP月率前值0.1%；2026-08-18失业率前值4.9%、工资年率前值4.3%；2026-08-19 CPI及核心CPI同比前值均2.6%
+- 日本GDP：query_calendar_events(country="JP", days=14, importance="high,medium") = 2026-08-16 23:50 UTC，二季度实际GDP季率前值0.5%、年化季率前值1.8%
+- 美股/黄金/油价代理：market_quote(symbols=["SPY.US","GLD.US","BNO.US"]) = SPY 772.21美元（+0.21%）、GLD 405.54美元（+1.14%）、BNO 50.81美元（-0.29%）
+- 美债/美元：query_indicators(country="us", category=null, time_range="24h") = 10年期4.65%、2年期4.19%、美元指数119.0649，数据日均为2026-08-07；不可视为实时
+- 人民币：query_indicators(country="", category="exchange_rate", time_range="24h") = usd_cny 6.74385（未明确CNH口径）
+- 中国宏观状态：query_indicators(country="china", category=null, time_range="24h") = 2026年7月CPI同比0.5%、PPI同比3.5%、制造业PMI 49.2、非制造业PMI 49.0；2026-08-12中国10年国债1.7141%、2年国债1.2451%
+- 新闻风险：query_raw_items(source="telegram:Financial_Express", keyword="", limit=50) = 2026-08-12消息称巴基斯坦调解方寻求延长美伊60天停火；亦有阿曼原油泄漏新闻。仅作地缘/供给风险观察，未经独立验证。
