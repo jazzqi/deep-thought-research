@@ -1,0 +1,127 @@
+- 当前联邦基金目标区间（截至2026-07-28）: query_fomc(force_refresh=false) = 3.50–3.75%
+- 2026-07-28至29 FOMC会议: query_fomc(force_refresh=false) = 已决议、无SEP；声明链接存在；具体投票分歧工具未返回
+- 2026-06 SEP联邦基金利率中位数: query_fomc(force_refresh=false) = 3.8%
+- 下一次FOMC会议（含SEP）2026-09-15至16: query_fomc(force_refresh=false) = sep_meeting=true
+- 后续FOMC会议2026-10-27至28、2026-12-08至09（含SEP）、2027-01-26至27、2027-03-16至17（含SEP）: query_fomc(force_refresh=false) = 会议日期
+- 2026-07美国CPI同比: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 3.4%，previous 3.5%，forecast 3.4%，发布日期2026-08-12
+- 2026-07美国CPI环比: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 0.1%，previous -0.4%，forecast 0.1%，发布日期2026-08-12
+- 2026-07美国核心CPI同比: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 2.5%，previous 2.6%，forecast 2.5%，发布日期2026-08-12
+- 2026-07美国核心CPI环比: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 0.2%，previous 0.0%，forecast 0.2%，发布日期2026-08-12
+- 2026-07美国JOLTS职位空缺: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 735.9万，previous 759.4万，forecast 740.0万，发布日期2026-08-04
+- 2026-07美国ISM制造业PMI: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 55.6，previous 53.3，forecast 54.0，发布日期2026-08-03
+- 2026-07美国ISM非制造业指数: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 54.1，previous 54.0，forecast 54.5，发布日期2026-08-05
+- 2026-08-01当周初请失业金: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 19.9万，previous 19.7万，forecast 20.2万，发布日期2026-08-06
+- 2026-07-25当周续请失业金: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 180.1万，previous 178.2万，forecast 179.0万，发布日期2026-08-06
+- 2026-07密歇根消费者信心终值: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 55.2，previous 54.4，forecast 54.0，发布日期2026-07-31
+- 2026-07密歇根1年通胀预期: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 4.2，previous 4.2，发布日期2026-07-31
+- 2026-07密歇根5年通胀预期: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 3.3，previous 3.3，发布日期2026-07-31
+- 2026-07平均时薪同比/环比、非农就业、失业率: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual均数据缺失（工具返回actual为null）
+- 2026-07 PPI同比/环比、核心PPI同比/环比: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual均数据缺失（工具返回actual为null；事件日期2026-08-13）
+- 2026-07零售销售环比及核心口径: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual数据缺失（工具返回actual为null；预定2026-08-14）
+- PCE/核心PCE、GDP、SLOOS、SOFR/RRP、期货/OIS、美元指数: query_indicators(country=us,category=macro/inflation/monetary_credit/bond/exchange_rate) = 未返回可用当前指标；不可据此编造
+- 美联储资产负债表: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 6.74万亿美元（截至2026-07-29，发布日期2026-07-30）
+- 美国2Y/10Y收益率及10Y-2Y利差: query_indicators(country=us,category=bond,time_range=7d) = 2026-08-12分别1.2451%、1.7141%、0.469个百分点；来源akshare
+- 官员立场：Williams称当前利率恰当、若通胀不回归2%将行动（2026-08-03，36kr/BlockBeats转引）；Hammack称现在必须加息（2026-08-13，telegram/BlockBeats转引）；Barkin称许多人认为当前利率足够紧、但加息可能必要（2026-08-13，BlockBeats）；Collins称若通胀高企愿支持9月加息（2026-08-12，telegram/BlockBeats）；来源ReadThemeDocsTool读取themes/fed/_history/.../roundtable/fomc_member_news.md及query_raw_items(keyword=Fed OR Powell OR Warsh OR FOMC)
+- CME FedWatch 9月加息概率报道: query_raw_items(keyword=Fed OR Powell OR Warsh OR FOMC) = 2026-08-12约42.1%，媒体转引，非直接期货数据，须标注来源层级
+
+- 政策区间: query_fomc(force_refresh=false, lookahead_days=365, lookback_days=120) = 2026-07-28至29后目标区间3.50–3.75%
+- 2026年6月SEP联邦基金利率中位数: query_fomc(force_refresh=false, lookahead_days=365, lookback_days=120) = 3.8%
+- 下一次及未来FOMC日期/SEP: query_fomc(force_refresh=false, lookahead_days=365, lookback_days=120) = 2026-09-15~16(SEP), 2026-10-27~28, 2026-12-08~09(SEP), 2027-01-26~27, 2027-03-16~17(SEP), 2027-04-27~28, 2027-06-08~09(SEP), 2027-07-27~28
+- 7月CPI同比/环比: query_calendar_events(country=US, days=180, lookback_days=14, limit=200) = actual 3.4%/0.1% (2026-08-12)
+- 7月核心CPI同比/环比: query_calendar_events(country=US, days=180, lookback_days=14, limit=200) = actual 2.5%/0.2% (2026-08-12)
+- 6月JOLTS职位空缺: query_calendar_events(country=US, days=180, lookback_days=14, limit=200) = actual 7.359m (2026-08-04)
+- 初请/续请: query_calendar_events(country=US, days=180, lookback_days=14, limit=200) = actual 199000/1801000 (2026-08-06)
+- 7月ISM制造/非制造: query_calendar_events(country=US, days=180, lookback_days=14, limit=200) = actual 55.6/54.1 (2026-08-03/05)
+- 密歇根信心及通胀预期: query_calendar_events(country=US, days=180, lookback_days=14, limit=200) = 7月终值信心55.2、1年通胀预期4.2%、5年3.3% (2026-07-31); 8月初值actual缺失
+- 7月非农/失业率/平均时薪: query_calendar_events(country=US, days=180, lookback_days=14, limit=200) = actual均缺失
+- 美国市场指标: query_indicators(country=us, category=null, time_range=7d) = 2Y 4.19%(2026-08-07), 10Y 4.72%(2026-08-10), 2s10s 0.48(2026-08-11), DXY 119.0649(2026-08-07)
+- 9月加息概率新闻快照: query_raw_items(keyword='Fed OR Powell OR Warsh OR FOMC', limit=50) = Financial Express转引CME FedWatch，2026-08-12约42.1%，非直接期货/OIS原始数据
+- 成员言论: read_theme_docs_tool(themes/fed/_history/.../roundtable/fomc_member_news.md) = 2026-08-03 Williams支持7月决定并称若通胀不回落将采取行动；2026-08-12 Collins称若通胀持续高企可支持9月加息（媒体转引，且当期无票）；2026-08-13 Barkin称利率或已足够紧但价格压力根深蒂固时可能需需求走弱或加息；2026-08-13 Hammack被媒体转引为认为当前政策不够限制性、主张加息，非官方原文核验
+
+- 2026-07 FOMC目标区间3.50–3.75%，2026-07-28至29会议；query_fomc({lookahead_days:365,lookback_days:120}) = 3.50–3.75%
+- 2026-06 SEP联邦基金利率中位数3.8%；query_fomc({lookahead_days:365,lookback_days:120}) = 3.8
+- 下一次FOMC 2026-09-15至16（SEP）；query_fomc({lookahead_days:365,lookback_days:120}) = 2026-09-15/16
+- 后续FOMC：2026-10-27/28、2026-12-08/09（SEP）、2027-01-26/27、2027-03-16/17（SEP）、2027-04-27/28、2027-06-08/09（SEP）、2027-07-27/28；query_fomc({lookahead_days:365,lookback_days:120}) = meetings
+- 2026-07 CPI同比3.4%、环比0.1%；核心CPI同比2.5%、环比0.2%；query_calendar_events({country:US,days:180,lookback_days:14,limit:200}) = actual
+- 2026-06 JOLTS职位空缺735.9万；2026-08-01初请19.9万；2026-07-25续请180.1万；query_calendar_events({country:US,days:180,lookback_days:14,limit:200}) = actual
+- 2026-07 ISM制造业55.6、非制造业54.1；2026-07密歇根信心终值55.2；query_calendar_events({country:US,days:180,lookback_days:14,limit:200}) = actual
+- 2026-08-07美元指数119.0649、2Y收益率4.19%、2026-08-10 10Y收益率4.72%、2s10s利差0.48%；query_indicators({country:us,time_range:24h}) = snapshots
+- 2026-08-12新闻转引CME FedWatch 9月加息概率42.1%，非直接期货/OIS原始报价；query_raw_items({keyword:Fed OR Powell OR Warsh OR FOMC}) = item
+- 2026-08-13哈马克新闻转引称当前必须加息；2026-08-13巴尔金称利率可能足够紧但也可能需要加息；2026-08-12柯林斯称若通胀高企愿支持9月加息；ReadThemeDocsTool(roundtable/fomc_member_news.md)与query_raw_items({keyword:Fed OR Powell OR Warsh OR FOMC}) = items
+- 2026-07 CPI同比/环比3.4%/0.1%，核心CPI同比/环比2.5%/0.2%: query_calendar_events({country:US,days:180,importance:high,medium,limit:200,lookback_days:14}) = actual，2026-08-12发布
+- 2026-06 JOLTS职位空缺735.9万（前值759.4万、预测740.0万）: query_calendar_events({country:US,days:180,importance:high,medium,limit:200,lookback_days:14}) = actual，2026-08-04发布
+- 2026-07 ADP就业4.4万人、ISM制造业55.6、ISM非制造业54.1: query_calendar_events({country:US,days:180,importance:high,medium,limit:200,lookback_days:14}) = actual，2026-08-05发布
+- 截至2026-08-01初请19.9万人、截至2026-07-25续请180.1万人: query_calendar_events({country:US,days:180,importance:high,medium,limit:200,lookback_days:14}) = actual，2026-08-06发布
+- 2026-07密歇根消费者信心55.2、1年/5年通胀预期4.2%/3.3%: query_calendar_events({country:US,days:180,importance:high,medium,limit:200,lookback_days:14}) = actual，2026-07-31发布
+- 2026-07非农、失业率、平均时薪、劳动参与率actual为空: query_calendar_events({country:US,days:180,importance:high,medium,limit:200,lookback_days:14}) = actual null，事件日期2026-08-07
+- 2026-07 PPI/核心PPI及环比actual为空: query_calendar_events({country:US,days:180,importance:high,medium,limit:200,lookback_days:14}) = actual null，事件日期2026-08-13
+- 2026-07零售销售预测0.3%、actual为空: query_calendar_events({country:US,days:180,importance:high,medium,limit:200,lookback_days:14}) = forecast 0.3%, actual null，事件日期2026-08-14
+- 2026-07-28至29 FOMC目标区间3.50%—3.75%；2026-06 SEP联邦基金利率中值3.8%；下次会议2026-09-15至16含SEP: query_fomc({force_refresh:false,lookback_days:120,lookahead_days:365}) = structured official data
+- 美联储资产负债表6,748,567百万美元，数据日2026-08-05: query_indicators({category:macro,country:us,limit:50,time_range:24h}) = fed_balance_sheet 6748567.0
+- 近期市场转引：CME FedWatch 2026-09加息概率42.1%，非直接期货/OIS接口: query_raw_items({keyword:Fed OR Powell OR Warsh OR FOMC,limit:50}) = telegram:Financial_Express，2026-08-12
+- 巴尔金2026-08-13关于当前利率足够紧缩/价格压力根深蒂固的表述为媒体转引: query_raw_items({keyword:Fed OR Powell OR Warsh OR FOMC,limit:50}) = blockbeats，2026-08-13
+- 柯林斯2026-08-12称若通胀高企可支持9月加息，且当前非票委身份为媒体转引: query_raw_items({keyword:Fed OR Powell OR Warsh OR FOMC,limit:50}) = blockbeats/telegram:Financial_Express，2026-08-12
+- 2026-07-28至29 FOMC目标区间3.50%—3.75%、下一次会议2026-09-15至16且含SEP: query_fomc({force_refresh:false,lookback_days:120,lookahead_days:365}) = target_range 3.50–3.75%, next SEP meeting 2026-09-15~16
+- 2026年6月SEP联邦基金利率中值3.8%: query_fomc({force_refresh:false,lookback_days:120,lookahead_days:365}) = sep_fed_funds_median 3.8
+- 2026-08-05美联储资产负债表6,748,567百万美元: query_indicators({category:"macro",country:"us",limit:30,time_range:"24h"}) = fed_balance_sheet 6748567.0
+- 2026-07 CPI同比/环比3.4%/0.1%、核心CPI同比/环比2.5%/0.2%（2026-08-12公布）: query_calendar_events({country:"US",days:30,importance:"high,medium",limit:200,lookback_days:14}) = actual
+- 2026-06 PCE同比3.7%、核心PCE同比3.2865%（2026-07-30公布）: query_calendar_events({country:"US",days:30,importance:"high,medium",limit:200,lookback_days:14}) = actual
+- 2026-06 JOLTS职位空缺735.9万（2026-08-04公布）: query_calendar_events({country:"US",days:30,importance:"high,medium",limit:200,lookback_days:14}) = actual 7.359, previous 7.594, forecast 7.4
+- 2026-07 ADP就业4.4万人（2026-08-05公布）: query_calendar_events({country:"US",days:30,importance:"high,medium",limit:200,lookback_days:14}) = actual 4.4, previous 9.8, forecast 6.5
+- 2026-07 ISM制造业PMI/就业分项55.6/52.8、非制造业54.1: query_calendar_events({country:"US",days:30,importance:"high,medium",limit:200,lookback_days:14}) = actual
+- 截至2026-08-01初请19.9万人、截至2026-07-25续请180.1万人（2026-08-06公布）: query_calendar_events({country:"US",days:30,importance:"high,medium",limit:200,lookback_days:14}) = actual
+- 2026-07密歇根信心终值55.2、1年/5年通胀预期4.2%/3.3%（2026-07-31公布）: query_calendar_events({country:"US",days:30,importance:"high,medium",limit:200,lookback_days:14}) = actual
+- 2026-07非农、失业率、平均时薪实际值: query_calendar_events({country:"US",days:30,importance:"high,medium",limit:200,lookback_days:14}) = actual null
+- 2026-07 PPI、核心PPI及截至2026-08-01续请实际值: query_calendar_events({country:"US",days:30,importance:"high,medium",limit:200,lookback_days:14}) = actual null
+- FOMC/Warsh/Powell近期原始新闻: query_raw_items({keyword:"Fed OR Powell OR Warsh OR FOMC",limit:50,source:null,status:null}) = returned no directly relevant official items; Barkin and Collins items were media/secondary reports
+- FOMC成员名单: read_theme_docs_tool({path:"themes/fed/FOMC_MEMBERS.md",offset:0}) = 2026-08-10 official tracking draft
+- 2026-08-13 Barkin媒体转引称当前利率可能足够紧，也存在价格压力根深蒂固需需求减弱或加息的观点: query_raw_items({keyword:"Fed OR Powell OR Warsh OR FOMC",limit:50}) = BlockBeats secondary report
+- 2026-08-12 Collins媒体转引称若通胀高企可最早支持9月加息，且当前无FOMC投票权: query_raw_items({keyword:"Fed OR Powell OR Warsh OR FOMC",limit:50}) = BlockBeats/telegram secondary report
+- 2026-08-12 CME FedWatch媒体转引9月加息25bp概率42.1%: query_raw_items({keyword:"Fed OR Powell OR Warsh OR FOMC",limit:50}) = telegram/Financial_Express secondary report; not direct futures data
+- 未来美国宏观事件（含8月14日零售销售、8月13日PPI）: query_calendar_events({country:"US",days:30,importance:"high,medium",limit:200,lookback_days:14}) = event calendar; actual null where not released
+- 2026-07-28至29 FOMC目标区间3.50%—3.75%，含发布会，会议纪要尚未返回: query_fomc({"force_refresh":false,"lookahead_days":365,"lookback_days":120}) = target_range 3.50–3.75%, minutes_release null
+- 2026-06 SEP联邦基金利率中位数3.8%: query_fomc({"force_refresh":false,"lookahead_days":365,"lookback_days":120}) = sep_fed_funds_median 3.8
+- 下一次FOMC为2026-09-15至16，含SEP: query_fomc({"force_refresh":false,"lookahead_days":365,"lookback_days":120}) = sep_meeting true
+- 2026-07 CPI同比3.4%、环比0.1%（2026-08-12公布）: query_calendar_events({"country":"US","days":30,"lookback_days":14,"importance":"high,medium","limit":200}) = actual 3.4, 0.1
+- 2026-07 核心CPI同比2.5%、环比0.2%（2026-08-12公布）: query_calendar_events({"country":"US","days":30,"lookback_days":14,"importance":"high,medium","limit":200}) = actual 2.5, 0.2
+- 2026-06 JOLTS职位空缺735.9万（2026-08-04公布）: query_calendar_events({"country":"US","days":30,"lookback_days":14,"importance":"high,medium","limit":200}) = actual 7.359 million
+- 2026-07 ADP就业新增4.4万人（2026-08-05公布）: query_calendar_events({"country":"US","days":30,"lookback_days":14,"importance":"high,medium","limit":200}) = actual 4.4 ten-thousand
+- 截至2026-08-01初请失业金19.9万人、截至2026-07-25续请180.1万人（2026-08-06公布）: query_calendar_events({"country":"US","days":30,"lookback_days":14,"importance":"high,medium","limit":200}) = actual 19.9, 180.1 ten-thousand
+- 2026-07 ISM制造业PMI55.6、就业分项52.8（2026-08-03公布）: query_calendar_events({"country":"US","days":30,"lookback_days":14,"importance":"high,medium","limit":200}) = actual 55.6, 52.8
+- 2026-07 ISM非制造业指数54.1（2026-08-05公布）: query_calendar_events({"country":"US","days":30,"lookback_days":14,"importance":"high,medium","limit":200}) = actual 54.1
+- 2026-07密歇根消费者信心55.2、1年通胀预期4.2%、5年通胀预期3.3%（2026-07-31公布）: query_calendar_events({"country":"US","days":30,"lookback_days":14,"importance":"high,medium","limit":200}) = actual 55.2, 4.2, 3.3
+- 美联储资产负债表截至2026-08-05为6,748,567百万美元: query_indicators({"category":"macro","country":"us","limit":30,"time_range":"24h"}) = fed_balance_sheet 6748567.0
+- 2026-08-13巴尔金称许多人认为当前利率足够紧缩，但价格压力根深蒂固时可能需需求减弱或加息: query_raw_items({"keyword":"Fed OR FOMC OR Powell OR Warsh OR inflation OR CPI","limit":40,"source":null,"status":null}) = BlockBeats 2026-08-13 12:47:34
+- 市场数据：联邦基金期货、OIS、互换、收益率曲线未由工具返回，市场隐含概率不可严谨计算: query_indicators/query_raw_items = 未返回结构化市场定价
+- 官方FOMC成员图谱（抓取2026-08-10）列出Warsh、Williams、Barr、Bowman、Cook、Hammack、Jefferson、Kashkari、Logan、Paulson、Powell、Waller及候补: ReadThemeDocsTool(themes/fed/FOMC_MEMBERS.md) = 官方图谱
+
+- 2026-08-13美国日历返回7月PPI同比/环比、核心PPI同比/环比actual均为空: query_calendar_events({country:US,days:180,importance:high,lookback_days:14,limit:200}) = data missing
+- 2026-08-14美国7月零售销售环比前值0.2%、预测0.3%，actual为空: query_calendar_events({country:US,days:180,importance:high,lookback_days:14,limit:200}) = forecast 0.3%, actual null
+- 2026-08-12美国7月CPI同比/环比3.4%/0.1%，核心同比/环比2.5%/0.2%: query_calendar_events({country:US,days:180,importance:high,medium,lookback_days:14,limit:200}) = actual
+- 2026-08-04美国6月JOLTS职位空缺735.9万，前值759.4万、预测740万: query_calendar_events({country:US,days:180,importance:high,medium,lookback_days:14,limit:200}) = actual/previous/forecast
+- 2026-08-05美国7月ADP就业4.4万人，前值9.8万、预测6.5万: query_calendar_events({country:US,days:180,importance:high,medium,lookback_days:14,limit:200}) = actual/previous/forecast
+- 2026-08-03/05美国7月ISM制造业/非制造业55.6/54.1，制造业就业52.8: query_calendar_events({country:US,days:180,importance:high,medium,lookback_days:14,limit:200}) = actual
+- 2026-08-06美国截至8月1日初请19.9万人、截至7月25日续请180.1万人: query_calendar_events({country:US,days:180,importance:high,medium,lookback_days:14,limit:200}) = actual
+- 2026-08-05美联储资产负债表6748567百万美元: query_indicators({category:macro,country:us,limit:30,time_range:7d}) = 6748567.0
+- 2026-08-10官方FOMC成员图谱: read_theme_docs_tool({path:themes/fed/FOMC_MEMBERS.md,offset:0}) = current committee roster
+- 2026-08-13 Fed/Powell/Warsh/FOMC原始新闻查询无返回，成员近期一手言论及投票细节缺失: query_raw_items({keyword:Fed OR FOMC OR Powell OR Warsh,limit:50}) = no raw items
+- 2026-08-13官方会议状态: query_fomc({force_refresh:false,lookback_days:120,lookahead_days:365}) = 2026-07-28~29 target range 3.50-3.75%; next meeting 2026-09-15~16 with SEP; minutes release unavailable
+
+- 2026-08-13 FOMC相关最新新闻：query_raw_items(keyword='Fed OR FOMC OR Powell OR Warsh OR Bowman OR Waller',limit=100,source=null,status=null) = Hammack被转引称当前政策不够限制性并主张加息；Barkin称当前利率可能足够紧但价格压力根深蒂固时可能需要加息；另有Lisa D. Cook遭政治解职施压的NPR/Al Jazeera报道
+- 2026-08-13 FOMC官方会议状态：query_fomc(force_refresh=false,limit=20,lookahead_days=365,lookback_days=120) = 2026-07-28至29目标区间3.50–3.75%、声明和发布会链接存在、纪要链接与发布日期仍为空；2026-09-15至16为下一次含SEP会议
+- 2026-08-13美国宏观指标快照：query_indicators(category='macro',country='us',limit=30,time_range='7d') = 联储资产负债表6,748,567百万美元（数据日2026-08-05）；其他返回指标中GDP数据标记为134天前过时，不用于当前判断
+- 2026-07-28 FOMC目标利率区间3.50%–3.75%，下一次会议2026-09-15至16且含SEP：query_fomc({force_refresh:false,lookback_days:120,lookahead_days:365}) = 3.50%–3.75%；2026-09-15至16含SEP
+- 2026-06 SEP联邦基金利率中值：query_fomc({force_refresh:false,lookback_days:120,lookahead_days:365}) = 3.8%
+- 2026-08-12美国7月CPI同比/环比：query_calendar_events({country:US,days:30,importance:high,medium,lookback_days:30,limit:200}) = 3.4%/0.1%
+- 2026-08-12美国7月核心CPI同比/环比：query_calendar_events({country:US,days:30,importance:high,medium,lookback_days:30,limit:200}) = 2.5%/0.2%
+- 2026-07-30美国6月核心PCE同比：query_calendar_events({country:US,days:30,importance:high,medium,lookback_days:30,limit:200}) = 3.3%
+- 2026-08-04美国6月JOLTS职位空缺：query_calendar_events({country:US,days:30,importance:high,medium,lookback_days:30,limit:200}) = 7.359百万，前值7.594百万
+- 2026-08-05美国7月ADP就业：query_calendar_events({country:US,days:30,importance:high,medium,lookback_days:30,limit:200}) = 4.4万人
+- 2026-08-06美国初请/续请失业金：query_calendar_events({country:US,days:30,importance:high,medium,lookback_days:30,limit:200}) = 19.9万人/180.1万人
+- 2026-08-03美国7月ISM制造业PMI：query_calendar_events({country:US,days:30,importance:high,medium,lookback_days:30,limit:200}) = 55.6
+- 2026-08-05美国7月ISM非制造业指数：query_calendar_events({country:US,days:30,importance:high,medium,lookback_days:30,limit:200}) = 54.1
+- 2026-08-05美国联储资产负债表：query_indicators({category:macro,country:us,limit:30,time_range:7d}) = 6,748,567百万美元，数据日2026-08-05
+- 2026-08-13美联储官员Barkin讲话：query_raw_items({keyword:Fed OR FOMC OR Powell OR Warsh,limit:100,source:null,status:null}) = 现行利率可能足够抑制通胀，但根深蒂固价格压力可能需要需求走弱或加息
+- 2026-08-13美联储官员Hammack讲话：query_raw_items({keyword:Fed OR FOMC OR Powell OR Warsh,limit:100,source:null,status:null}) = 称当前需要加息、政策不够限制性
+- 2026-08-10关于Lisa Cook解职争议：query_raw_items({keyword:Fed OR FOMC OR Powell OR Warsh,limit:100,source:null,status:null}) = Trump再次推动解职，新闻称其此前解职努力被最高法院挡下；法律现状需法院/官方文件核验
+- 2026-07-29 FOMC反对票线索：read_theme_docs_tool({path:themes/fed/_history/2026-08-13_2159__manual__12_fomc_fomc_readthemedocstool_themes_fed_template_md_v2_9_q/roundtable/fomc_member_news.md,offset:8000}) = 新闻转引称Logan、Hammack、Kashkari支持加息并投反对票；非官方材料，须标注待官方核验

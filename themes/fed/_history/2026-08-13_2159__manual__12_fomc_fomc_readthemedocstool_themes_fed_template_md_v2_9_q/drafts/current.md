@@ -1,19 +1,3 @@
----
-name: 美联储
-slug: fed
-status: active
-lead_agent: soros
-created: 2026-07-29
-updated: 2026-08-13T22:28:14+08:00
-revision: 2026-08-13
-sources:
-  - path: 2026-08-13_2159__manual__12_fomc_fomc_readthemedocstool_themes_fed_template_md_v2_9_q/reference.md
-    agent: theme_update
-    summarized: false
----
-
-# 美联储
-
 ## Big Picture
 
 **当前政策位置：** 美联储联邦基金目标区间为 **3.50%—3.75%**，2026年7月28—29日会议按兵不动；截至2026年8月5日资产负债表为 **6.748567万亿美元**，QT细节仍缺失。**核心判断：** 未来1—3个月按兵不动是基准，9月降息与加息均未被数据确认。7月核心CPI同比2.5%、环比0.2%，总体CPI同比3.4%、环比0.1%，短期通胀改善；但6月核心PCE同比3.2865%，仍显著高于2%目标。就业需求边际降温，却缺少官方7月非农、失业率和工资实际值。**与市场定价的偏差：** 联邦基金期货、OIS和互换曲线未返回，无法计算市场隐含路径；媒体转引的9月加息概率不具备直接定价效力。**一句话组合含义：** 中短久期与流动性优先，等待核心通胀和官方就业同步确认后，再增加长久期、成长股、EM与信用敞口。
@@ -26,21 +10,10 @@ sources:
 - **共识：** 增长放缓但尚未确认衰退。二季度实际GDP年化增长1.5%，但7月ISM制造业PMI为55.6、非制造业指数为54.1，活动仍处扩张区间。
 - **共识：** 劳动力需求边际走弱，但尚不足以触发快速宽松。JOLTS职位空缺降至735.9万，ADP仅增4.4万人，续请失业金升至180.1万人；官方7月非农、失业率和工资实际值仍缺失。
 - **组合共识：** 暂不追逐单一降息叙事；中短久期优于长久期，长久期交易需要通胀与就业两条线同时改善。
+
 - **少数派（taleb）：** 能源、财政发债供给或通胀预期冲击可能重新推高长端利率并推迟降息；但当前缺少完整的10年期国债拍卖需求、期限溢价和能源价格验证，该风险仍属于待验证尾部情景。
 
 ## 各维度分析
-
-### 叙事/情绪面
-
-- **共识：** 我们判断2026年7月28—29日FOMC维持3.50%—3.75%的政策区间，当前政策仍具限制性。 - **共识：** 我们认为2026年9月15—16日会议是最近最重要的再定价窗口，因为该会议包含SEP和点阵图；在会议召开前，不能把降息或加息写成基准事实。 - **共识：** 7月CPI降低了立即加息压力，但没有消除加息风险。总体CPI同比3.4%、环比0.1%，核心CPI同比2.5%、环比0.2%，均未显示新的全面加速。 - **共识：** 增长放缓但尚未确认衰退。二季度实际GDP年化增长1.5%，但7月ISM制造业PMI为55.6、非制造业指数为54.1，活动仍处扩张区间。 - **共识：** 劳动力需求边际走弱，但尚不足以触发快速宽松。JOLTS职位空缺降至735.9万，ADP仅增4.4万人，续请失业金升至180.1万人；官方7月非农、失业率和工资实际值仍缺失。 - **组合共识：** 暂不追逐单一降息叙事；中短久期优于长久期，长久期交易需要通胀与就业两条线同时改善。
-
-### 基本面
-
-若核心通胀回落令短端收益率下降，而财政发债和期限溢价抬高长端，曲线可能陡峭化，降息对住房和成长股估值的支持弱于历史经验。当前10年期收益率、拍卖投标倍数、尾差、间接投标比例和期限溢价分解未由本轮工具完整返回，因此不能断言财政供给已经主导长端。
-
-### 宏观背景
-
-**当前政策位置：** 美联储联邦基金目标区间为 **3.50%—3.75%**，2026年7月28—29日会议按兵不动；截至2026年8月5日资产负债表为 **6.748567万亿美元**，QT细节仍缺失。**核心判断：** 未来1—3个月按兵不动是基准，9月降息与加息均未被数据确认。7月核心CPI同比2.5%、环比0.2%，总体CPI同比3.4%、环比0.1%，短期通胀改善；但6月核心PCE同比3.2865%，仍显著高于2%目标。就业需求边际降温，却缺少官方7月非农、失业率和工资实际值。**与市场定价的偏差：** 联邦基金期货、OIS和互换曲线未返回，无法计算市场隐含路径；媒体转引的9月加息概率不具备直接定价效力。**一句话组合含义：** 中短久期与流动性优先，等待核心通胀和官方就业同步确认后，再增加长久期、成长股、EM与信用敞口。
 
 ### 1. 政策基准与会议时间表
 
@@ -255,44 +228,11 @@ CPI与PCE不能混用。CPI是消费者价格指数，PCE才是美联储2%目标
 
 ## 预测时间线
 
-| 时间窗 | 预测 | 置信度 | 提出者 | 提出日期 | 验证 |
-|--------|------|--------|--------|----------|------|
-| 2026-08-11至13 | 财政部完成逾千亿美元国债标售，10年期拍卖前次中标收益率为4.58%是供需比较基准 | 拍卖中标收益率、投标倍数、尾差、间接投标比例 | 若需求弱且10年期收益率上行，长端风险上升 | 我们共识 |  |
-| 2026-08-12 | 7月核心CPI同比预测为2.5%，环比预测为0.2%；实际值将决定通胀是否继续改善 | CPI同比、核心同比、环比、住房和核心服务 | 若核心环比高于0.2%，按兵不动概率上升 | nick_timiraos |  |
-| 2026-08-13 | 7月PPI环比预测为0.2%，核心PPI环比预测为0.3%；初请数据同步公布 | PPI、核心PPI、首次及续请 | 生产端与就业同时偏强，宽松路径后移 | 我们共识 |  |
-| 2026-08-14 | 7月零售销售环比预测为0.3%，密歇根信心预测为53.8 | 零售控制组、核心零售、消费者信心与预期 | 消费韧性支持维持限制性政策；消费明显走弱则提高降息概率 | 我们共识 |  |
-| 2026-09-15至16 | 9月FOMC以按兵不动为基准，SEP将是年内路径主要再定价窗口 | 利率决议、SEP、点阵图、发布会 | 若点阵图中值下移且就业风险上修，降息路径确认 | nick_timiraos |  |
-| 2026年内 | 连续降息需要通胀连续改善与就业同步恶化，单一CPI数据不足以触发 | 核心PCE、失业率、非农、初请、通胀预期 | 若两条线未同时满足，维持中短久期 | 我们共识 |  |
-| 预测日期/窗口 | 可证伪预测 | 依据 | 证伪条件 | 提出者 | 状态 |
-| 2026-09-15至16 | FOMC维持3.50%—3.75%的概率高于降息或加息 | 核心PCE仍为3.2865%，就业仅边际降温 | 核心PCE连续大幅回落且失业率快速上行，或通胀预期脱锚 | 我们共识 | 待验证 |
-| 2026年9月SEP | 官方中值是否下调将取决于通胀和失业率路径是否同步变化 | 6月SEP中值为3.8%，当前数据分化 | 新SEP中值与通胀、就业预测方向明显背离 | nick_timiraos | 待验证 |
-| 未来1—3个月 | 短端收益率对降息预期更敏感，长端继续受财政供给和期限溢价影响 | 2s10s已为+46bp，10年期4.69% | 长端与短端同步大幅下行，且拍卖需求稳定 | soros | 待验证 |
-| 未来数月 | 若核心PCE连续回落至2.5%或以下且失业率升破4.5%，降息概率显著上升 | 反应函数前置门槛 | 任一条件未满足，宽松交易缺乏确认 | soros | 待验证 |
-| 2026年下半年 | 若1年和5年通胀预期继续上行，重新加息或延后降息风险上升 | 当前密歇根1年预期4.2%、5年预期3.3% | 通胀预期持续回落且核心PCE同步下降 | taleb | 待验证 |
-| 2026-08-13至14 | 7月PPI和零售销售实际值将成为9月政策预期的短期增量信息 | 通胀仍高于目标、消费韧性尚未完全确认 | 实际数据显著恶化并与就业恶化同步 | 我们共识 | 待验证 |
-| 未来1—4周 | 9月FOMC按兵不动概率高于降息或重新加息 | 核心PCE仍为3.2865%，就业仅边际降温 | 核心PCE连续大幅回落且失业率快速上行 | 我们共识 | 待验证 |
-| 2026-09-15至16 | 9月FOMC发布SEP和点阵图，政策路径将被重新定价 | 官方FOMC日历确认该会议为SEP会议 | 会议取消或SEP安排发生变化 | nick_timiraos | 待验证 |
-| 2026年9月前 | 单一CPI、ADP或GDP数据不足以触发降息 | 反应函数要求通胀与就业多窗口确认 | 官方就业和核心通胀同时快速恶化 | dalio | 待验证 |
-| 未来1—3个月 | 短端收益率对政策预期更敏感，长端继续受财政供给和期限溢价影响 | 2年期4.25%、10年期4.69%，但拍卖细项缺失 | 长短端同步大幅下行且期限溢价回落 | soros | 待验证 |
-| 2026年内 | 若核心PCE连续不高于2.5%且失业率升破4.5%，降息概率显著上升 | 反应函数前置门槛 | 任一条件未满足 | soros | 待验证 |
-| 2026年下半年 | 若1年和5年通胀预期继续上行，降息推迟或重新加息风险上升 | 当前通胀预期为4.2%和3.3% | 通胀预期持续回落且核心PCE同步下降 | taleb | 待验证 |
-| 2026-08-13至14 | 7月PPI和零售销售将成为9月政策预期的短期增量信息 | PPI、核心PPI、零售控制组 | 数据显著恶化并与就业恶化同步 | 我们共识 | 待验证 |
-| 2026-08-14 | 7月零售销售环比预测为0.3%，8月密歇根信心初值预测为53.8 | 零售销售、消费者信心与通胀预期 | 消费明显走弱或预期上升 | 我们共识 | 待验证 |
-| 2026-09-15至16 | FOMC维持3.50%—3.75%的概率高于降息或加息 | 利率决议、核心PCE、官方就业 | 核心PCE连续大幅回落且失业率快速上行 | 我们共识 | 待验证 |
-| 2026-09-15至16 | SEP和点阵图成为年内路径主要再定价窗口 | 利率中值、通胀预测、失业率预测 | SEP安排发生变化或未发布 | nick_timiraos | 待验证 |
-| 未来1—3个月 | 短端对政策预期更敏感，长端继续受财政供给和期限溢价影响 | 长短端收益率、拍卖需求、期限溢价 | 长短端同步大幅下行且期限溢价回落 | soros | 待验证 |
-| 2026年内 | 连续降息需要通胀连续改善与就业同步恶化 | 核心PCE、失业率、非农、初请 | 只有单一指标改善而另一条线稳定 | 我们共识 | 待验证 |
-| 2026年下半年 | 若1年和5年通胀预期继续上行，降息推迟或重新加息风险上升 | 密歇根通胀预期、核心PCE | 预期持续回落且核心PCE同步下降 | taleb | 待验证 |
-| 2026年9月前 | 单一CPI、ADP或GDP不足以触发降息 | 官方就业与核心PCE联合数据 | 官方就业和核心通胀同时快速恶化 | dalio | 待验证 |
-| 预测日期 | 事件/指标 | 我们预测 | 可证伪条件 | 当前状态 | 提出者 |
-| 2026-08-13 | 7月PPI及核心PPI | actual将决定加息风险方向，但当前不预设数值 | 工具返回actual后与方向判断比较 | actual缺失 | soros |
-| 2026-08-14 | 7月零售销售、8月密歇根信心初值 | 消费与信心数据将补充需求判断 | 零售明显走弱且信心恶化会提高降息权重 | actual缺失 | 共识 |
-| 2026-09-15至16 | FOMC+SEP | 按兵不动概率55%、加息40%、降息5% | 决议结果与上述概率情景相反即记录偏差 | 尚未发生 | soros |
-| 2026-09-16 | SEP与发布会 | 关注年末利率中位数是否高于或低于2026年6月的3.8% | 官方SEP发布后核验 | 尚未发布 | 共识 |
-| 2026-10-27至28 | FOMC会议 | 9月决议后继续观察，不预设动作 | 后续PCE和就业数据决定路径 | 尚未发生 | 共识 |
-| 2026-12-08至09 | FOMC+SEP | 若通胀持续偏热，再加息风险高于连续降息 | 核心PCE和就业同步恶化将证伪 | 尚未发生 | dalio/taleb |
+| 时间窗 | 可证伪预测 | 依据 | 证伪条件 | 提出者 | 状态 |
+|---|---|---|---|---|---|
 | 2026-08-13至14 | PPI、核心PPI和零售销售将成为9月政策预期的短期增量信息 | CPI改善但核心PCE仍高，消费数据尚未发布 | 数据显著恶化并与就业恶化同步 | 我们共识 | 待验证 |
 | 2026-08-14 | 7月零售销售环比预测为0.3%，8月密歇根信心初值预测为53.8 | 日历事件预测值 | 实际零售明显低于预期或信心预期上升 | 我们共识 | 待验证 |
+| 2026-09-15至16 | FOMC维持3.50%—3.75%的概率高于降息或加息 | 核心PCE仍为3.2865%，就业仅边际降温 | 核心PCE连续大幅回落且失业率快速上行，或通胀预期脱锚 | 我们共识 | 待验证 |
 | 2026-09-15至16 | SEP和点阵图成为年内路径主要再定价窗口 | 该会议官方结构化信息确认含SEP | SEP安排变化或未发布 | nick_timiraos | 待验证 |
 | 未来1—3个月 | 短端收益率对政策预期更敏感，长端继续受财政供给和期限溢价影响 | 财政供给、拍卖需求和期限溢价数据缺失 | 长短端同步大幅下行且期限溢价回落 | soros | 待验证 |
 | 2026年内 | 连续降息需要通胀连续改善与就业同步恶化，单一CPI数据不足以触发 | 核心PCE、失业率、非农、初请需联合确认 | 官方就业和核心通胀同时快速恶化 | 我们共识 | 待验证 |
@@ -307,100 +247,44 @@ CPI与PCE不能混用。CPI是消费者价格指数，PCE才是美联储2%目标
 | 2026-08-09前 | 就业边际降温但未确认崩坏 | 团队共识 | 中 | ADP为4.4万人、JOLTS为735.9万人、初请为19.9万人；官方非农与失业率缺失 | ⚠️ 部分命中 |
 | 2026-08-09前 | 9月会议是主要政策拐点 | 团队共识 | 中高 | 9月15—16日会议确认含SEP，会议尚未召开 | ⏳ 待验证 |
 | 2026-08-13 | 7月PPI和核心PPI实际值将成为当日新增信息 | 团队共识 | 中 | 当前日历工具返回actual为空 | ⏳ 数据缺失 |
+
 **累计命中率：** 历史轮次的完整预测清单和分母未由当前工作区读取，无法计算有统计意义的累计百分比。
+
 **校准启示：** 上轮“通胀高于目标、就业边际降温”的方向基本成立，但GDP价格指数实际值6.2%显著高于预测，说明价格风险不能仅由核心PCE单项判断。后续路径概率应降低对单一指标的敏感度，提高对核心PCE、官方就业和通胀预期联合确认的要求。
 
 ## 分歧地图
 
 | 维度 | 观点 A | 观点 B | 分歧根因 | 状态 |
-|------|--------|--------|---------|------|
-| 9月政策 | 团队共识：按兵不动，等待通胀与就业确认 | soros：年内一次降息概率30%，若就业快速恶化则窗口打开 | 核心PCE回落与官方失业率是否同步上行 | — |
-| 点阵图 | nick_timiraos：保留6月官方中值3.8%，不做伪精确推算 | dalio：重点识别regime变化，而非固定鹰鸽标签 | 9月SEP中值、通胀与失业率预测是否同步变化 | — |
-| 长端利率 | soros：财政供给和期限溢价可能使长端不随降息下行 | taleb：能源、财政或预期冲击可能令长端非线性上行 | 拍卖需求、期限溢价和通胀预期数据缺失 | — |
-| 独立性风险 | ackman：法律程序或人员变动实质推进前不改基准路径 | 风险派：施压升级可先通过期限溢价和预期定价 | 法院文件、正式任免/解职程序及Fed官方沟通 | — |
-| 组合配置 | 团队共识：中短久期优先，等待双重确认 | dalio：若增长和就业同步恶化，应迅速切换至长久期防御 | 政策宽松是“通胀回落型”还是“衰退应对型” | — |
-| 议题 | 主导判断 | 少数派/其他判断 | 可验证分歧点 | — |
-| 9月决议 | soros、nick_timiraos、kahneman：按兵不动55%为基准，加息40% | dalio：按兵不动55%、加息35%、降息10%；taleb强调上行尾部 | 8月核心通胀、PCE、就业和工资actual | — |
-| 通胀解释 | 7月CPI符合预期，尚不足以加息，但仍高于目标 | 更鹰派观点认为政策信誉和供给冲击可能要求提前加息 | 核心PCE、PPI传导、通胀预期 | — |
-| 劳动力市场 | JOLTS下降、续请上升提示边际降温，但不足以支持降息 | 少数派更重视潜在就业恶化，给降息更高概率 | 7月非农、失业率、平均时薪和后续初请/续请 | — |
-| 市场定价 | 新闻转引42.1%加息概率与我们40%接近，但不能视为完整行情 | taleb、dalio认为市场可能低估第四季度再加息风险 | 直接期货/OIS、2Y/10Y、美指和后续FOMC定价 | — |
-| 通胀风险 | nick_timiraos：单月改善不构成政策转向，需观察连续性 | taleb：能源、财政和预期冲击可能造成非线性再通胀 | 通胀预期和能源价格能否持续稳定 | — |
-| 分歧维度 | 观点A | 观点B | 分歧根因 | — |
-
-> **审查意见**：2 条（详见 _history/review/）
+|---|---|---|---|---|
+| 9月政策 | 团队共识：按兵不动，等待通胀与就业确认 | soros：年内一次降息概率30%，若就业快速恶化则窗口打开 | 核心PCE回落与官方失业率是否同步上行 | 待验证 |
+| 点阵图 | nick_timiraos：保留6月官方中值3.8%，不做伪精确推算 | dalio：重点识别regime变化，而非固定鹰鸽标签 | 9月SEP中值、通胀与失业率预测是否同步变化 | 待验证 |
+| 长端利率 | soros：财政供给和期限溢价可能使长端不随降息下行 | taleb：能源、财政或预期冲击可能令长端非线性上行 | 拍卖需求、期限溢价和通胀预期数据缺失 | 待验证 |
+| 独立性风险 | ackman：法律程序或人员变动实质推进前不改基准路径 | 风险派：施压升级可先通过期限溢价和预期定价 | 法院文件、正式任免/解职程序及Fed官方沟通 | 待验证 |
+| 组合配置 | 团队共识：中短久期优先，等待双重确认 | dalio：若增长和就业同步恶化，应迅速切换至长久期防御 | 政策宽松是“通胀回落型”还是“衰退应对型” | 待验证 |
 
 ## 数据来源
 
-- 当前联邦基金目标区间（截至2026-07-28）: query_fomc(force_refresh=false) = 3.50–3.75%
-- 2026-07-28至29 FOMC会议: query_fomc(force_refresh=false) = 已决议、无SEP；声明链接存在；具体投票分歧工具未返回
-- 2026-06 SEP联邦基金利率中位数: query_fomc(force_refresh=false) = 3.8%
-- 下一次FOMC会议（含SEP）2026-09-15至16: query_fomc(force_refresh=false) = sep_meeting=true
-- 后续FOMC会议2026-10-27至28、2026-12-08至09（含SEP）、2027-01-26至27、2027-03-16至17（含SEP）: query_fomc(force_refresh=false) = 会议日期
-- 2026-07美国CPI同比: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 3.4%，previous 3.5%，forecast 3.4%，发布日期2026-08-12
-- 2026-07美国CPI环比: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 0.1%，previous -0.4%，forecast 0.1%，发布日期2026-08-12
-- 2026-07美国核心CPI同比: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 2.5%，previous 2.6%，forecast 2.5%，发布日期2026-08-12
-- 2026-07美国核心CPI环比: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 0.2%，previous 0.0%，forecast 0.2%，发布日期2026-08-12
-- 2026-07美国JOLTS职位空缺: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 735.9万，previous 759.4万，forecast 740.0万，发布日期2026-08-04
-- 2026-07美国ISM制造业PMI: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 55.6，previous 53.3，forecast 54.0，发布日期2026-08-03
-- 2026-07美国ISM非制造业指数: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 54.1，previous 54.0，forecast 54.5，发布日期2026-08-05
-- 2026-08-01当周初请失业金: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 19.9万，previous 19.7万，forecast 20.2万，发布日期2026-08-06
-- 2026-07-25当周续请失业金: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 180.1万，previous 178.2万，forecast 179.0万，发布日期2026-08-06
-- 2026-07密歇根消费者信心终值: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 55.2，previous 54.4，forecast 54.0，发布日期2026-07-31
-- 2026-07密歇根1年通胀预期: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 4.2，previous 4.2，发布日期2026-07-31
-- 2026-07密歇根5年通胀预期: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 3.3，previous 3.3，发布日期2026-07-31
-- 2026-07平均时薪同比/环比、非农就业、失业率: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual均数据缺失（工具返回actual为null）
-- 2026-07 PPI同比/环比、核心PPI同比/环比: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual均数据缺失（工具返回actual为null；事件日期2026-08-13）
-- 2026-07零售销售环比及核心口径: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual数据缺失（工具返回actual为null；预定2026-08-14）
-- PCE/核心PCE、GDP、SLOOS、SOFR/RRP、期货/OIS、美元指数: query_indicators(country=us,category=macro/inflation/monetary_credit/bond/exchange_rate) = 未返回可用当前指标；不可据此编造
-- 美联储资产负债表: query_calendar_events(country=US,days=180,lookback_days=14,limit=200) = actual 6.74万亿美元（截至2026-07-29，发布日期2026-07-30）
-- 美国2Y/10Y收益率及10Y-2Y利差: query_indicators(country=us,category=bond,time_range=7d) = 2026-08-12分别1.2451%、1.7141%、0.469个百分点；来源akshare
-- 官员立场：Williams称当前利率恰当、若通胀不回归2%将行动（2026-08-03，36kr/BlockBeats转引）；Hammack称现在必须加息（2026-08-13，telegram/BlockBeats转引）；Barkin称许多人认为当前利率足够紧、但加息可能必要（2026-08-13，BlockBeats）；Collins称若通胀高企愿支持9月加息（2026-08-12，telegram/BlockBeats）；来源ReadThemeDocsTool读取themes/fed/_history/.../roundtable/fomc_member_news.md及query_raw_items(keyword=Fed OR Powell OR Warsh OR FOMC)
-- CME FedWatch 9月加息概率报道: query_raw_items(keyword=Fed OR Powell OR Warsh OR FOMC) = 2026-08-12约42.1%，媒体转引，非直接期货数据，须标注来源层级
-
-- 政策区间: query_fomc(force_refresh=false, lookahead_days=365, lookback_days=120) = 2026-07-28至29后目标区间3.50–3.75%
-- 2026年6月SEP联邦基金利率中位数: query_fomc(force_refresh=false, lookahead_days=365, lookback_days=120) = 3.8%
-- 下一次及未来FOMC日期/SEP: query_fomc(force_refresh=false, lookahead_days=365, lookback_days=120) = 2026-09-15~16(SEP), 2026-10-27~28, 2026-12-08~09(SEP), 2027-01-26~27, 2027-03-16~17(SEP), 2027-04-27~28, 2027-06-08~09(SEP), 2027-07-27~28
-- 7月CPI同比/环比: query_calendar_events(country=US, days=180, lookback_days=14, limit=200) = actual 3.4%/0.1% (2026-08-12)
-- 7月核心CPI同比/环比: query_calendar_events(country=US, days=180, lookback_days=14, limit=200) = actual 2.5%/0.2% (2026-08-12)
-- 6月JOLTS职位空缺: query_calendar_events(country=US, days=180, lookback_days=14, limit=200) = actual 7.359m (2026-08-04)
-- 初请/续请: query_calendar_events(country=US, days=180, lookback_days=14, limit=200) = actual 199000/1801000 (2026-08-06)
-- 7月ISM制造/非制造: query_calendar_events(country=US, days=180, lookback_days=14, limit=200) = actual 55.6/54.1 (2026-08-03/05)
-- 密歇根信心及通胀预期: query_calendar_events(country=US, days=180, lookback_days=14, limit=200) = 7月终值信心55.2、1年通胀预期4.2%、5年3.3% (2026-07-31); 8月初值actual缺失
-- 7月非农/失业率/平均时薪: query_calendar_events(country=US, days=180, lookback_days=14, limit=200) = actual均缺失
-- 美国市场指标: query_indicators(country=us, category=null, time_range=7d) = 2Y 4.19%(2026-08-07), 10Y 4.72%(2026-08-10), 2s10s 0.48(2026-08-11), DXY 119.0649(2026-08-07)
-- 9月加息概率新闻快照: query_raw_items(keyword='Fed OR Powell OR Warsh OR FOMC', limit=50) = Financial Express转引CME FedWatch，2026-08-12约42.1%，非直接期货/OIS原始数据
-- 成员言论: read_theme_docs_tool(themes/fed/_history/.../roundtable/fomc_member_news.md) = 2026-08-03 Williams支持7月决定并称若通胀不回落将采取行动；2026-08-12 Collins称若通胀持续高企可支持9月加息（媒体转引，且当期无票）；2026-08-13 Barkin称利率或已足够紧但价格压力根深蒂固时可能需需求走弱或加息；2026-08-13 Hammack被媒体转引为认为当前政策不够限制性、主张加息，非官方原文核验
-
-- 2026-07 FOMC目标区间3.50–3.75%，2026-07-28至29会议；query_fomc({lookahead_days:365,lookback_days:120}) = 3.50–3.75%
-- 2026-06 SEP联邦基金利率中位数3.8%；query_fomc({lookahead_days:365,lookback_days:120}) = 3.8
-- 下一次FOMC 2026-09-15至16（SEP）；query_fomc({lookahead_days:365,lookback_days:120}) = 2026-09-15/16
-- 后续FOMC：2026-10-27/28、2026-12-08/09（SEP）、2027-01-26/27、2027-03-16/17（SEP）、2027-04-27/28、2027-06-08/09（SEP）、2027-07-27/28；query_fomc({lookahead_days:365,lookback_days:120}) = meetings
-- 2026-07 CPI同比3.4%、环比0.1%；核心CPI同比2.5%、环比0.2%；query_calendar_events({country:US,days:180,lookback_days:14,limit:200}) = actual
-- 2026-06 JOLTS职位空缺735.9万；2026-08-01初请19.9万；2026-07-25续请180.1万；query_calendar_events({country:US,days:180,lookback_days:14,limit:200}) = actual
-- 2026-07 ISM制造业55.6、非制造业54.1；2026-07密歇根信心终值55.2；query_calendar_events({country:US,days:180,lookback_days:14,limit:200}) = actual
-- 2026-08-07美元指数119.0649、2Y收益率4.19%、2026-08-10 10Y收益率4.72%、2s10s利差0.48%；query_indicators({country:us,time_range:24h}) = snapshots
-- 2026-08-12新闻转引CME FedWatch 9月加息概率42.1%，非直接期货/OIS原始报价；query_raw_items({keyword:Fed OR Powell OR Warsh OR FOMC}) = item
-- 2026-08-13哈马克新闻转引称当前必须加息；2026-08-13巴尔金称利率可能足够紧但也可能需要加息；2026-08-12柯林斯称若通胀高企愿支持9月加息；ReadThemeDocsTool(roundtable/fomc_member_news.md)与query_raw_items({keyword:Fed OR Powell OR Warsh OR FOMC}) = items
-- 2026-07 CPI同比/环比3.4%/0.1%，核心CPI同比/环比2.5%/0.2%: query_calendar_events({country:US,days:180,importance:high,medium,limit:200,lookback_days:14}) = actual，2026-08-12发布
-- 2026-06 JOLTS职位空缺735.9万（前值759.4万、预测740.0万）: query_calendar_events({country:US,days:180,importance:high,medium,limit:200,lookback_days:14}) = actual，2026-08-04发布
-- 2026-07 ADP就业4.4万人、ISM制造业55.6、ISM非制造业54.1: query_calendar_events({country:US,days:180,importance:high,medium,limit:200,lookback_days:14}) = actual，2026-08-05发布
-- 截至2026-08-01初请19.9万人、截至2026-07-25续请180.1万人: query_calendar_events({country:US,days:180,importance:high,medium,limit:200,lookback_days:14}) = actual，2026-08-06发布
-- 2026-07密歇根消费者信心55.2、1年/5年通胀预期4.2%/3.3%: query_calendar_events({country:US,days:180,importance:high,medium,limit:200,lookback_days:14}) = actual，2026-07-31发布
-- 2026-07非农、失业率、平均时薪、劳动参与率actual为空: query_calendar_events({country:US,days:180,importance:high,medium,limit:200,lookback_days:14}) = actual null，事件日期2026-08-07
-- 2026-07 PPI/核心PPI及环比actual为空: query_calendar_events({country:US,days:180,importance:high,medium,limit:200,lookback_days:14}) = actual null，事件日期2026-08-13
-- 2026-07零售销售预测0.3%、actual为空: query_calendar_events({country:US,days:180,importance:high,medium,limit:200,lookback_days:14}) = forecast 0.3%, actual null，事件日期2026-08-14
-- 2026-07-28至29 FOMC目标区间3.50%—3.75%；2026-06 SEP联邦基金利率中值3.8%；下次会议2026-09-15至16含SEP: query_fomc({force_refresh:false,lookback_days:120,lookahead_days:365}) = structured official data
-- 美联储资产负债表6,748,567百万美元，数据日2026-08-05: query_indicators({category:macro,country:us,limit:50,time_range:24h}) = fed_balance_sheet 6748567.0
+- FOMC政策区间及会议日程：`query_fomc({force_refresh:false,lookback_days:120,lookahead_days:365})` = 2026年7月28—29日目标区间3.50%—3.75%；下一次会议为2026年9月15—16日，含SEP。
+- 2026年6月SEP联邦基金利率中值：`query_fomc({lookback_days:120,lookahead_days:365})` = 3.8%。
+- 2026年7月CPI同比/环比：`query_calendar_events({country:US,days:180,importance:high,medium,lookback_days:14,limit:200})` = 3.4%/0.1%，2026年8月12日公布，actual。
+- 2026年7月核心CPI同比/环比：`query_calendar_events({country:US,days:180,importance:high,medium,lookback_days:14,limit:200})` = 2.5%/0.2%，2026年8月12日公布，actual。
+- 2026年6月PCE同比/核心PCE同比：`query_calendar_events({country:US,days:180,importance:high,medium,lookback_days:14,limit:200})` = 3.7%/3.2865%，2026年7月30日公布，actual。
+- 2026年6月JOLTS职位空缺：`query_calendar_events({country:US,days:180,importance:high,medium,lookback_days:14,limit:200})` = 735.9万，前值759.4万、预测740.0万，2026年8月4日公布，actual。
+- 2026年7月ADP就业：`query_calendar_events({country:US,days:180,importance:high,medium,lookback_days:14,limit:200})` = 4.4万人，前值9.8万人、预测6.5万人，2026年8月5日公布，actual。
+- 2026年7月ISM制造业/非制造业：`query_calendar_events({country:US,days:180,importance:high,medium,lookback_days:14,limit:200})` = 55.6/54.1，2026年8月3日及5日公布，actual。
+- 2026年7月ISM制造业就业分项：`query_calendar_events({country:US,days:180,importance:high,medium,lookback_days:14,limit:200})` = 52.8，2026年8月3日公布，actual。
+- 初请/续请失业金：`query_calendar_events({country:US,days:180,importance:high,medium,lookback_days:14,limit:200})` = 19.9万人/180.1万人，2026年8月6日公布，actual。
+- 密歇根消费者信心及通胀预期：`query_calendar_events({country:US,days:180,importance:high,medium,lookback_days:14,limit:200})` = 7月信心终值55.2，1年/5年通胀预期4.2%/3.3%，2026年7月31日公布，actual。
+- 美联储资产负债表：`query_indicators({category:macro,country:us,limit:30,time_range:7d})` = 6,748,567百万美元，数据日2026年8月5日。
+- 2026年7月PPI、核心PPI及截至8月1日当周续请失业金：`query_calendar_events({country:US,days:180,importance:high,medium,lookback_days:14,limit:200})` = actual为空，数据缺失。
+- 2026年7月零售销售：`query_calendar_events({country:US,days:180,importance:high,medium,lookback_days:14,limit:200})` = 前值0.2%、预测0.3%，actual为空。
+- FOMC成员图谱：`read_theme_docs_tool({path:themes/fed/FOMC_MEMBERS.md,offset:0})` = 2026年8月10日官方成员图谱。
+- FOMC成员近期原始新闻：`query_raw_items({keyword:Fed OR FOMC OR Powell OR Warsh,limit:50})` = no raw items；逐人一手言论和投票细节缺失。
 
 ## 更新日志
 
 | 日期 | 操作者 | 变更摘要 |
-|------|--------|---------|
-| 2026-08-13 22:28 | theme_publish | 更新（12_fomc_fomc_readthemedocstool_themes_fed_template_md_v2_9_q） |
-| 2026-08-13 22:22 | theme_publish | 更新（12_fomc_fomc_readthemedocstool_themes_fed_template_md_v2_9_q） |
-| 2026-08-13 19:43 | theme_publish | 更新（12_fomc_fomc_readthemedocstool_themes_fed_template_md_v2_9_q） |
-| 2026-08-13 17:18 | theme_publish | 更新（12_fomc_fomc_readthemedocstool_themes_fed_template_md_v2_9_q） |
-| 2026-08-13 15:04 | theme_publish | 更新（12_fomc_fomc_readthemedocstool_themes_fed_template_md_v2_9_q） |
-| 2026-08-09 19:41 | theme_publish | 更新（12_fomc_fomc_readthemedocstool_themes_fed_template_md_v2_9_q） |
-| 2026-08-09 13:25 | theme_publish | 更新（theme_update） |
-| 2026-07-29 | 人类 | 创建 theme 骨架 |
+|---|---|---|
+| 2026-08-13 21:59 UTC | soros | 完成第4轮接力整合；更新CPI、就业、PPI和零售销售数据状态；补充反应函数、路径概率、预测对账与分歧地图 |
+| 2026-08-13 19:43 | theme_publish | 上轮主题稿发布 |
+| 2026-08-13 17:18 | theme_publish | 上轮主题稿发布 |
