@@ -1,0 +1,27 @@
+---
+name: HN 书摘（Hacker News 每日扫描）
+slug: hn-daily
+status: active
+lead_agent: tech_generalist
+created: 2026-08-15
+updated: 2026-08-15
+revision: 2026-08-15
+sources: []
+---
+# HN 书摘 · 每日扫描快报
+
+> 每天从 Hacker News 汇总高价值帖子，以"社区书摘"形态呈现——摘文章、批注价值、摘录评论。
+> 数据源：raw_items `source='hackernews'`（hnrss `?points=60`，metadata 带 hn_points/hn_comments）。
+
+## 最新一期
+
+- [2026-08-15（首期）](./2026-08-15.md)
+
+## 往期
+- [HN 书摘 · 2026-08-15（周六）](./2026-08-15.md)
+
+- [2026-08-15 (2026-08-15.md)](2026-08-15.md)
+
+## 跨期要点
+
+- [keypoints.md](./keypoints.md)（趋势/金句/值得回看沉淀）
