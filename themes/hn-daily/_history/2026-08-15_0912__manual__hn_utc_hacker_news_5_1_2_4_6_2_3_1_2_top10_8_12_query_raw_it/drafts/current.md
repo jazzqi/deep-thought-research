@@ -1,19 +1,4 @@
----
-name: HN 书摘 · 2026-08-15
-slug: hn-daily
-status: active
-lead_agent: tech_generalist
-created: 2026-08-15
-updated: 2026-08-15T09:27:56+08:00
-revision: 2026-08-15
-sources:
-  - path: 2026-08-15_0912__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/reference.md
-    agent: hn_daily_update
-    summarized: false
----
-
 # HN 书摘 · 2026-08-15（周六）
-
 
 > 今日三句话：① 8 月 14 日的高热度讨论集中在 AI 模型能力、开放权重与开发者体验。② 隐私基础设施仍在升温：同态加密、浏览器广告拦截和 Wayland 远程访问分别从研究、平台和桌面实践切入。③ 当前抓取结果混入多个日期，且多数正文与评论未完整返回；以下严格只采用时间戳明确为 2026-08-14 UTC 的帖子，无法核验的摘要明确标注。
 
