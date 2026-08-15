@@ -1,0 +1,51 @@
+- Hacker News 帖子分数/评论数/作者/时间及原文 URL: query_raw_items(source='hackernews', min_points=60, limit=200) = 2026-08-14 UTC 候选数据；正文内容: fetch_url(各入选 URL) = 页面抓取结果；澳大利亚电池文章关键事实: fetch_url(https://e360.yale.edu/digest/australia-home-batteries) = 超过500,000个系统、30%补贴、批发电价过去12个月下降约47%；HEIR 内容: fetch_url(https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/) = Google开源同态加密编译工具链及四类隐私推理案例；RustDesk 内容: fetch_url(https://rustdesk.com/blog/unattended-remote-access-wayland/) = Wayland无人值守预览版支持登录界面、多显示器；Bluesky 内容: fetch_url(https://atproto.com/blog/introducing-bluesky-protocol-services) = Jetstream v2支持Network Replay、历史归档回放与实时切换；Opus文章内容: fetch_url(https://mun-logadan.github.io/why-does-opus-5-feel-worse/) = 交互澄清行为与基准激励的论述；监控报道内容: fetch_url(https://www.theguardian.com/us-news/2026/aug/13/us-government-spied-anti-ice-protesters) = 公开记录涉及便衣、Signal群组与财务记录调查。
+- 2026-08-14 UTC HN 条目元数据：query_raw_items(source='hackernews', min_points=60, limit=50) = GLM-5.3 ▲1025/💬513、Qwen 3.8 27B ▲870/💬570、Opus 5 ▲765/💬700、Every Fucking Website ▲736/💬444、Firefox/uBlock ▲356/💬131、Google HE ▲268/💬162、RustDesk Wayland ▲215/💬93、Bluesky Protocol Services ▲204/💬65、Count Binface ▲431/💬343；查询结果同时含跨日条目，正文仅采用 2026-08-14 00:00–24:00 UTC。
+- GLM-5.3 正文：fetch_url(https://z.ai/blog/glm-5.3) = 未能提取；评论页 fetch_url(https://news.ycombinator.com/item?id=49294997) = HN 页面显示社区讨论涉及编码与安全研究体验，具体评论内容见抓取正文。
+- Qwen 3.8 27B 正文：fetch_url(https://huggingface.co/Qwen/Qwen3.8-27B-FP8) = Hugging Face 页面正文不可用；评论页 fetch_url(https://news.ycombinator.com/item?id=49299605) = 评论包含本地仓库、JavaScript/Tauri 应用测试反馈。
+- Opus 5 正文：fetch_url(https://mun-logadan.github.io/why-does-opus-5-feel-worse/) = 作者称模型能力更强但工作体验更差，原因包括歧义时不提问、擅自假设和改写计划；评论页 fetch_url(https://news.ycombinator.com/item?id=49296740) = 讨论补充了文风、评论膨胀和代理行为问题。
+- Google 同态加密正文：fetch_url(https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/) = HEIR 开源编译器用于加密 AI 推理；同态加密在密文上计算但存在成本开销；评论页 fetch_url(https://news.ycombinator.com/item?id=49300314) = 评论指出推理开销可能很高，并给出排序与基础运算耗时例子。
+- RustDesk Wayland 正文：fetch_url(https://rustdesk.com/blog/unattended-remote-access-wayland/) = 预览版支持 Wayland 无人值守访问、多显示器及重启后登录界面，当前面向 x86_64 Debian/Ubuntu；评论页 fetch_url(https://news.ycombinator.com/item?id=49300759) = 评论质疑自托管连接的加密限制。
+- Bluesky Protocol Services 正文：fetch_url(https://atproto.com/blog/introducing-bluesky-protocol-services) = Jetstream v2 增加 Network Replay，可从历史任意点追赶并无缝切实时流；评论页 fetch_url(https://news.ycombinator.com/item?id=49293324) = 评论称历史回放解决了数据丢失后的恢复需求。
+- Firefox/uBlock 原文：fetch_url(https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html) = 403；评论页 fetch_url(https://news.ycombinator.com/item?id=49303202) = 评论提及 Firefox 对推荐扩展有安全审核机制。
+- Count Binface 原文：fetch_url(https://www.bbc.com/news/articles/ce97mm3vvemo) = 未抓取；评论页 fetch_url(https://news.ycombinator.com/item?id=49301260) = 评论列举其竞选主张，含税收、住房与 Pluto 公投等。
+- Every Fucking Website 原文/评论：未抓取，不在正文摘要中推测。
+
+- HN 条目标题、分数、评论数、作者与时间（2026-08-14 UTC 窗口）: query_raw_items(source='hackernews', status='', keyword='', limit=50) = 由原始查询结果筛选；详见 drafts/current.md 各条目元数据
+- GLM-5.3: Frontier Coding with Emergent Cyber Capabilities: query_raw_items(source='hackernews') = 1025 points, 513 comments, @pella, 2026-08-14 05:32 UTC
+- Qwen 3.8 27B is out: open weights, best local dense model yet: query_raw_items(source='hackernews') = 870 points, 570 comments, @erdaltoprak, 2026-08-14 15:17 UTC
+- Why does Opus 5 feel worse to work with?: query_raw_items(source='hackernews') = 765 points, 700 comments, @numeri, 2026-08-14 10:32 UTC
+- Every Fucking Website: query_raw_items(source='hackernews') = 736 points, 444 comments
+- Count Binface receives over a quarter of votes in Clacton by-election: query_raw_items(source='hackernews') = 431 points, 343 comments, @tcp_handshaker, 2026-08-14 17:02 UTC
+- Firefox is now the last major browser that still supports uBlock Origin: query_raw_items(source='hackernews') = 356 points, 131 comments, @DemiGuru, 2026-08-14 19:06 UTC
+- Google Is Making Private AI Practical with Homomorphic Encryption: query_raw_items(source='hackernews') = 268 points, 162 comments, @u1hcw9nx, 2026-08-14 16:02 UTC
+- Single log line is 49KB+ (ext4) / 110KB+ (btrfs) of systemd-journald disk writes: query_raw_items(source='hackernews') = 253 points, 196 comments, @ValdikSS, 2026-08-13 19:02 UTC
+- RustDesk now supports true unattended remote access on Wayland: query_raw_items(source='hackernews') = 215 points, 93 comments, @rustdesk, 2026-08-14 16:36 UTC
+- Bluesky Protocol Services: query_raw_items(source='hackernews') = 204 points, 65 comments, @danabramov, 2026-08-14 00:32 UTC
+
+- HN 条目热度与元数据（GLM-5.3、Qwen 3.8 27B、Opus 5、Google HEIR、Firefox/uBlock、Count Binface、journald、RustDesk、Bluesky）: query_raw_items(source=hackernews, limit=50, min_points=0, status=null) = 返回 hn_points/hn_comments/author/时间/URL；报告沿用 2026-08-14 UTC 窗口的快照口径
+- 当前查询还返回 2026-08-15 条目（如 The other Sean Byrne doesn't exist ▲62、Racket v9.3 ▲64、Mole ▲63），但不纳入本期 2026-08-14 UTC Top10: query_raw_items(source=hackernews, limit=20, status=null) = 结果时间截至 2026-08-15 07:32 UTC
+
+- HN 条目 GLM-5.3：query_raw_items(source='hackernews', limit=20) = ▲1025、💬513、@pella、2026-08-14 05:32 UTC（本轮成稿沿用前序窗口查询结果）
+- HN 条目 Qwen 3.8 27B：query_raw_items(source='hackernews', limit=20) = ▲870、💬570、@erdaltoprak、2026-08-14 15:17 UTC（本轮成稿沿用前序窗口查询结果）
+- HN 条目 Opus 5：query_raw_items(source='hackernews', limit=20) = ▲765、💬700、@numeri、2026-08-14 10:32 UTC（本轮成稿沿用前序窗口查询结果）
+- HN 条目 Google 同态加密：query_raw_items(source='hackernews', limit=20) = ▲268、💬162、@u1hcw9nx、2026-08-14 16:02 UTC（本轮成稿沿用前序窗口查询结果）
+- HN 条目 Firefox/uBlock Origin：query_raw_items(source='hackernews', limit=20) = ▲356、💬131、@DemiGuru、2026-08-14 19:06 UTC（本轮成稿沿用前序窗口查询结果）
+- HN 条目 Count Binface：query_raw_items(source='hackernews', limit=20) = ▲431、💬343、@tcp_handshaker、2026-08-14 17:02 UTC（本轮成稿沿用前序窗口查询结果）
+- HN 条目 RustDesk Wayland：query_raw_items(source='hackernews', limit=20) = ▲215、💬93、@rustdesk、2026-08-14 16:36 UTC（本轮成稿沿用前序窗口查询结果）
+- HN 条目 systemd-journald 写放大：query_raw_items(source='hackernews', limit=20) = ▲253、💬196、@ValdikSS、2026-08-13 19:02 UTC（本轮成稿沿用前序窗口查询结果）
+- HN 条目 Bluesky Protocol Services：query_raw_items(source='hackernews', limit=20) = ▲204、💬65、@danabramov、2026-08-14 00:32 UTC（本轮成稿沿用前序窗口查询结果）
+
+- 独立 HN 原始扫描发现：2026-08-15 06:02 UTC 有 `Show HN: Mole – Deep research agent for your terminal`，hn_points=63、hn_comments=10: query_raw_items(keyword='Show HN', source='hackernews') = 该条目；注意其不在草稿声明的 2026-08-14 UTC 窗口内。
+- 独立 HN 原始扫描未发现可证明属于 2026-08-14 窗口、且草稿应必然覆盖的其他 Show HN/AI infra 条目；query_raw_items(keyword='Show HN OR RustDesk OR journald OR Wayland OR Qwen OR GLM OR Opus OR homomorphic encryption', source='hackernews') = 返回结果含上述跨日 Mole 条目。
+
+- HN raw item（Opus 5）: query_raw_items(source=hackernews, keyword='Opus 5 GLM Qwen journald Wayland Bluesky uBlock Binface Every Fucking Website homomorphic encryption', limit=50, min_points=0) = ▲765/💬700, @numeri, 2026-08-14 10:32 UTC, item 49296740
+- HN raw item（GLM-5.3）: query_raw_items(source=hackernews, keyword='Opus 5 GLM Qwen journald Wayland Bluesky uBlock Binface Every Fucking Website homomorphic encryption', limit=50, min_points=0) = ▲1025/💬513, @pella, 2026-08-14 05:32 UTC, item 49294997
+- HN raw item（Qwen 3.8 27B，草稿链接对应条目）: query_raw_items(source=hackernews, keyword='Opus 5 GLM Qwen journald Wayland Bluesky uBlock Binface Every Fucking Website homomorphic encryption', limit=50, min_points=0) = ▲870/💬570, @erdaltoprak, 2026-08-14 15:17 UTC, item 49299605
+- HN raw item（Every Fucking Website，独立核验）: query_raw_items(source=hackernews, keyword='Opus 5 GLM Qwen journald Wayland Bluesky uBlock Binface Every Fucking Website homomorphic encryption', limit=50, min_points=0) = ▲736/💬444, @doubletwoyou, 2026-08-14 14:47 UTC, item 49299222, article URL https://lxe.github.io/everywebsite/
+- HN raw item（Firefox）: query_raw_items(source=hackernews, keyword='Opus 5 GLM Qwen journald Wayland Bluesky uBlock Binface Every Fucking Website homomorphic encryption', limit=50, min_points=0) = ▲356/💬131, @DemiGuru, 2026-08-14 19:06 UTC, item 49303202
+- HN raw item（Count Binface）: query_raw_items(source=hackernews, keyword='Opus 5 GLM Qwen journald Wayland Bluesky uBlock Binface Every Fucking Website homomorphic encryption', limit=50, min_points=0) = ▲431/💬343, @tcp_handshaker, 2026-08-14 17:02 UTC, item 49301260
+- HN raw item（Google HE）: query_raw_items(source=hackernews, keyword='Opus 5 GLM Qwen journald Wayland Bluesky uBlock Binface Every Fucking Website homomorphic encryption', limit=50, min_points=0) = ▲268/💬162, @u1hcw9nx, 2026-08-14 16:02 UTC, item 49300314
+- HN raw item（journald）: query_raw_items(source=hackernews, keyword='Opus 5 GLM Qwen journald Wayland Bluesky uBlock Binface Every Fucking Website homomorphic encryption', limit=50, min_points=0) = ▲253/💬196, @ValdikSS, 2026-08-13 19:02 UTC, item 492???
+- HN raw item（RustDesk）: query_raw_items(source=hackernews, keyword='Opus 5 GLM Qwen journald Wayland Bluesky uBlock Binface Every Fucking Website homomorphic encryption', limit=50, min_points=0) = ▲215/💬93, @rustdesk, 2026-08-14 16:36 UTC, item 49300759
+- HN raw item（Bluesky）: query_raw_items(source=hackernews, keyword='Opus 5 GLM Qwen journald Wayland Bluesky uBlock Binface Every Fucking Website homomorphic encryption', limit=50, min_points=0) = ▲204/💬65, @danabramov, 2026-08-14 00:32 UTC, item 49293324
+- 独立查询还返回 2026-08-14 的 DeepSeek pricing update（▲126/💬175，item 49296627）、RISC-V（▲100/💬51，item 49298035）、Ruby 4.0 RCE（▲72/💬22，item 49295238）、Apple China AI（item 49294844）等候选项: query_raw_items(source=hackernews, keyword=null, limit=100, min_points=null) = 原始条目列表

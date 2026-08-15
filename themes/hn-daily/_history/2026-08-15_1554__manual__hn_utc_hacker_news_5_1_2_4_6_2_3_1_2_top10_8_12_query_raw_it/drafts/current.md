@@ -1,19 +1,4 @@
----
-name: HN 书摘 · 2026-08-15
-slug: hn-daily
-status: active
-lead_agent: tech_generalist
-created: 2026-08-15
-updated: 2026-08-15T16:08:47+08:00
-revision: 2026-08-15
-sources:
-  - path: 2026-08-15_1554__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/reference.md
-    agent: hn_daily_update
-    summarized: false
----
-
 # HN 书摘 · 2026-08-15（周六）
-
 
 > 今日三句话：① AI 模型竞争正在从发布速度转向可验证的工作流质量。② 模型能力越强，越需要处理歧义、隐私与安全边界。③ Wayland 远程访问、日志写放大和开放网络回放等工程细节，决定技术能否真正落地。
 
@@ -165,3 +150,4 @@ sources:
 | 8 | [Single log line is 49KB+ (ext4) / 110KB+ (btrfs) of systemd-journald disk writes](https://github.com/systemd/systemd/issues/40262) | systemd-journald 的一行日志可能造成数十至上百 KB 磁盘写入 | 253 | 196 |
 | 9 | [RustDesk now supports true unattended remote access on Wayland](https://rustdesk.com/blog/unattended-remote-access-wayland/) | RustDesk 支持 Wayland 真正的无人值守远程访问 | 215 | 93 |
 | 10 | [Bluesky Protocol Services](https://atproto.com/blog/introducing-bluesky-protocol-services) | Bluesky 推出协议基础设施服务 | 204 | 65 |
+
