@@ -1,19 +1,4 @@
----
-name: HN 书摘 · 2026-08-15
-slug: hn-daily
-status: active
-lead_agent: tech_generalist
-created: 2026-08-15
-updated: 2026-08-15T16:05:48+08:00
-revision: 2026-08-15
-sources:
-  - path: 2026-08-15_1552__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/reference.md
-    agent: hn_daily_update
-    summarized: false
----
-
 # HN 书摘 · 2026-08-15（周六）
-
 
 > 今日三句话：① AI 讨论的重心正从模型能力上限转向真实工作流中的可控性。② 隐私计算、浏览器权限与 Wayland 兼容性表明，基础设施仍是技术落地的主要瓶颈。③ 本文仅采用 2026-08-14 00:00–24:00 UTC 条目，并以 `metadata.hn_points`、`metadata.hn_comments` 为榜单口径；正文无法核验处明确标注。
 

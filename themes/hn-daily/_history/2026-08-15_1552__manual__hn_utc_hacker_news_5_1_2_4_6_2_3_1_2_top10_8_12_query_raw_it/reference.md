@@ -1,0 +1,55 @@
+- 前一日 UTC 窗口定义为 2026-08-14 00:00 至 2026-08-15 00:00；候选由 query_raw_items(source=hackernews, min_points=60) 返回并按时间手工筛选。
+- GLM-5.3：hn_points=1025，hn_comments=513，时间=2026-08-14 05:32:39 UTC，原文=https://z.ai/blog/glm-5.3，评论=https://news.ycombinator.com/item?id=49294997：query_raw_items(source=hackernews,min_points=60)
+- Qwen 3.8 27B：hn_points=870，hn_comments=570，时间=2026-08-14 15:17:33 UTC，原文=https://huggingface.co/Qwen/Qwen3.8-27B-FP8，评论=https://news.ycombinator.com/item?id=49299605：query_raw_items(source=hackernews,min_points=60)
+- Opus 5：hn_points=765，hn_comments=700，时间=2026-08-14 10:32:14 UTC，原文=https://mun-logadan.github.io/why-does-opus-5-feel-worse/，评论=https://news.ycombinator.com/item?id=49296740：query_raw_items(source=hackernews,min_points=60)
+- Every Fucking Website：hn_points=736，hn_comments=444，时间=2026-08-14 14:47:56 UTC，原文=https://lxe.github.io/everywebsite/，评论=https://news.ycombinator.com/item?id=49299222：query_raw_items(source=hackernews,min_points=60)
+- Firefox/uBlock Origin：hn_points=356，hn_comments=131，时间=2026-08-14 19:06:24 UTC，原文=https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html，评论=https://news.ycombinator.com/item?id=49303202：query_raw_items(source=hackernews,min_points=60)
+- Google HEIR：hn_points=268，hn_comments=162，时间=2026-08-14 16:02:21 UTC，原文=https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/，评论=https://news.ycombinator.com/item?id=49300314：query_raw_items(source=hackernews,min_points=60)
+- Bluesky Protocol Services：hn_points=204，hn_comments=65，时间=2026-08-14 00:32:28 UTC，原文=https://atproto.com/blog/introducing-bluesky-protocol-services，评论=https://news.ycombinator.com/item?id=49293324：query_raw_items(source=hackernews,min_points=60)
+- SparrowMap：hn_points=163，hn_comments=39，时间=2026-08-14 00:32:28 UTC，原文=https://sparrowmap.com/，评论=https://news.ycombinator.com/item?id=49293294：query_raw_items(source=hackernews,min_points=60)
+- AI by Hand：hn_points=192，hn_comments=16，时间=2026-08-14 16:17:25 UTC，原文=https://www.byhand.ai/，评论=https://news.ycombinator.com/item?id=49300568：query_raw_items(source=hackernews,min_points=60)
+- Maximizing the value of Claude Code sessions：hn_points=129，hn_comments=86，时间=2026-08-14 16:36:48 UTC，原文=https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions，评论=https://news.ycombinator.com/item?id=49300800：query_raw_items(source=hackernews,min_points=60)
+- Opus 5 正文：作者明确称其能力不一定倒退，但实际协作体验逊于 Opus 4.7/4.8 与 Fable，主要问题是代理在意图不清时不提问、擅自假设和改写计划；作者将其归因于基准测试偏好“大胆猜测”而非现实工作中的澄清：fetch_url(https://mun-logadan.github.io/why-does-opus-5-feel-worse/)
+- Every Fucking Website 正文：讽刺 cookie 同意、订阅弹窗、聊天机器人等网页摩擦：fetch_url(https://lxe.github.io/everywebsite/)
+- Australia home batteries 正文：报道称补贴计划启动一年后安装量超过500,000，批发电价约下降一半/过去12个月下降47%，并称住宅电池补贴为主要因素：fetch_url(https://e360.yale.edu/digest/australia-home-batteries)
+- Bluesky Jetstream v2 正文：新增 Network Replay，可从历史点回放并无缝切换 live；服务端无状态，归档请求需 token，实时流仍免认证；同时发布 TypeScript/Go SDK：fetch_url(https://atproto.com/blog/introducing-bluesky-protocol-services)
+- SparrowMap 正文：摄像头端识别政府车辆，普通车牌在设备端销毁；视频不上传，仅上传匿名点或裁剪检测结果；支持浏览器、RTSP/ONVIF：fetch_url(https://sparrowmap.com/)
+- RISC-V 正文：作者认为其将占据低成本 MCU 但并非因 ISA 优越，并以中断保存/恢复成本对比 Cortex-M0；fetch_url(https://dmitry.gr/?r=06.%20Thoughts&proj=12.%20RV)
+- RSS e-ink newspaper 正文：作者用 Feedbin API 拉取未读 RSS、生成 epub 并通过 Homebrew feedpaper 推送到 Xteink X4/Crosspoint：fetch_url(https://heyjonny.dev/posts/rss-to-eink-newspaper/)
+- Google HEIR 正文：HEIR 是开源同态加密编译器工具链，可将预训练模型转换为对加密输入执行推理；fetch_url(https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/)
+- DeepSeek V4 Pro 页面正文：MoE 模型，1M context，发布于 2026-08-12，OpenRouter列价输入$0.435/百万token、输出$0.87/百万token；因不在前一日窗口不纳入 Top10：fetch_url(https://openrouter.ai/deepseek/deepseek-v4-pro-0813)
+
+- 2026-08-14 UTC HN 条目：GLM-5.3，1025 points/513 comments，作者 pella，发布时间 05:32 UTC: query_raw_items(source=hackernews,min_points=60,limit=100) = https://z.ai/blog/glm-5.3
+- 2026-08-14 UTC HN 条目：Qwen 3.8 27B，870 points/570 comments，作者 erdaltoprak，发布时间 15:17 UTC: query_raw_items(source=hackernews,min_points=60,limit=100) = https://huggingface.co/Qwen/Qwen3.8-27B-FP8
+- 2026-08-14 UTC HN 条目：Why does Opus 5 feel worse to work with?，765 points/700 comments，作者 numeri，发布时间 10:32 UTC: query_raw_items(source=hackernews,min_points=60,limit=100) = https://mun-logadan.github.io/why-does-opus-5-feel-worse/
+- 2026-08-14 UTC HN 条目：Every Fucking Website，736 points/444 comments，作者 doubletwoyou，发布时间 14:47 UTC: query_raw_items(source=hackernews,min_points=60,limit=100) = https://lxe.github.io/everywebsite/
+- 2026-08-14 UTC HN 条目：Google Is Making Private AI Practical with Homomorphic Encryption，268 points/162 comments，作者 u1hcw9nx，发布时间 16:02 UTC: query_raw_items(source=hackernews,min_points=60,limit=100) = https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/
+- 2026-08-14 UTC HN 条目：RustDesk now supports true unattended remote access on Wayland，215 points/93 comments，作者 rustdesk，发布时间 16:36 UTC: query_raw_items(source=hackernews,min_points=60,limit=100) = https://rustdesk.com/blog/unattended-remote-access-wayland/
+- 2026-08-14 UTC HN 条目：Firefox is now the last major browser that still supports uBlock Origin，356 points/131 comments，作者 DemiGuru，发布时间 19:06 UTC: query_raw_items(source=hackernews,min_points=60,limit=100) = https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html
+- 2026-08-14 UTC HN 条目：Everything is about to "go dark"，169 points/109 comments，作者 vslira，发布时间 21:02 UTC: query_raw_items(source=hackernews,min_points=60,limit=100) = https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/
+- 2026-08-12 UTC HN 条目（候选，非昨日窗口）：Breaking the WAL，159 points/51 comments，作者 wwilson: query_raw_items(source=hackernews,min_points=60,limit=100) = https://antithesis.com/blog/2026/wal-reset-bug/
+- 正文抓取：Opus 5 文章正文成功；Google HEIR 文章正文成功；RustDesk Wayland 正文成功；Every Fucking Website 正文成功；Antithesis WAL 正文成功；GLM-5.3 抓取无可提取正文；Qwen 页面为模板/页面噪声，未获得可靠正文；Firefox 页面 403；HN 评论页本轮未抓取成功: fetch_url(url=各原文)
+- 数据质量：query_raw_items 结果混合 2026-08-12 至 2026-08-14 条目，且摘要内嵌 Points/Comments 与 metadata 热度不一致；正文使用统一 metadata.hn_points/hn_comments，并以 2026-08-14 00:00–2026-08-15 00:00 UTC 作为昨日窗口: query_raw_items(source=hackernews,min_points=60,limit=100)
+
+- HN 条目 GLM-5.3: 1025 points / 513 comments / @pella / 2026-08-14 05:32 UTC: query_raw_items(source=hackernews, UTC window)=metadata.hn_points 1025, metadata.hn_comments 513
+- HN 条目 Qwen 3.8 27B: 870 points / 570 comments / @erdaltoprak / 2026-08-14 15:17 UTC: query_raw_items(source=hackernews, UTC window)=metadata.hn_points 870, metadata.hn_comments 570
+- HN 条目 Opus 5: 765 points / 700 comments / @numeri / 2026-08-14 10:32 UTC: query_raw_items(source=hackernews, UTC window)=metadata.hn_points 765, metadata.hn_comments 700
+- HN 条目 Every Fucking Website: 736 points / 444 comments / @doubletwoyou / 2026-08-14 14:47 UTC: query_raw_items(source=hackernews, UTC window)=metadata.hn_points 736, metadata.hn_comments 444
+- HN 条目 Count Binface: 431 points / 343 comments / @tcp_handshaker / 2026-08-14 17:02 UTC: query_raw_items(source=hackernews, UTC window)=metadata.hn_points 431, metadata.hn_comments 343
+- HN 条目 Firefox/uBlock Origin: 356 points / 131 comments / @DemiGuru / 2026-08-14 19:06 UTC: query_raw_items(source=hackernews, UTC window)=metadata.hn_points 356, metadata.hn_comments 131
+- HN 条目 Australia home battery: 312 points / 244 comments / @speckx / 2026-08-14 14:17 UTC: query_raw_items(source=hackernews, UTC window)=metadata.hn_points 312, metadata.hn_comments 244
+- HN 条目 Google HEIR: 268 points / 162 comments / @u1hcw9nx / 2026-08-14 16:02 UTC: query_raw_items(source=hackernews, UTC window)=metadata.hn_points 268, metadata.hn_comments 162
+- HN 条目 RustDesk Wayland: 215 points / 93 comments / @rustdesk / 2026-08-14 16:36 UTC: query_raw_items(source=hackernews, UTC window)=metadata.hn_points 215, metadata.hn_comments 93
+- HN 条目 France social-media ban: 201 points / 152 comments / @BlueBerry2001 / 2026-08-14 16:17 UTC: query_raw_items(source=hackernews, UTC window)=metadata.hn_points 201, metadata.hn_comments 152
+- 2026-08-14 HN 条目 GLM-5.3: 1025 points、513 comments、作者 pella、提交时间 05:32 UTC: query_raw_items(keyword=null, source=hackernews) = 条目元数据
+- 2026-08-14 HN 条目 Opus 5: 765 points、700 comments、作者 numeri、提交时间 10:32 UTC: query_raw_items(keyword=null, source=hackernews) = 条目元数据
+- 2026-08-14 HN 条目 Qwen 3.8 27B: 870 points、570 comments、作者 erdaltoprak、提交时间 15:17 UTC: query_raw_items(keyword=null, source=hackernews) = 条目元数据
+- 2026-08-14 HN 条目 Every Fucking Website: 736 points、444 comments、作者 doubletwoyou、提交时间 14:47 UTC: query_raw_items(keyword=null, source=hackernews) = 条目元数据
+- 2026-08-14 HN 条目 Google HEIR: 268 points、162 comments、作者 u1hcw9nx、提交时间 16:02 UTC: query_raw_items(keyword=null, source=hackernews) = 条目元数据
+- 2026-08-14 HN 条目 Everything is about to go dark: 169 points、109 comments、作者 vslira、提交时间 21:02 UTC: query_raw_items(keyword=null, source=hackernews) = 条目元数据
+- 2026-08-14 HN 条目 RustDesk Wayland: 215 points、93 comments、作者 rustdesk、提交时间 16:36 UTC: query_raw_items(keyword=RustDesk, source=hackernews) = 条目元数据
+- 2026-08-14 HN 条目 Firefox/uBlock Origin: 356 points、131 comments、作者 DemiGuru、提交时间 19:06 UTC: query_raw_items(keyword=null, source=hackernews) = 条目元数据
+- 2026-08-15 HN 条目地震 USGS: 80 points、16 comments、作者 Bender、提交时间 03:02 UTC: query_raw_items(keyword=null, source=hackernews) = 条目元数据
+- 2026-08-15 HN 条目 Apple 外部购买 15% 抽成: 60 points、50 comments、作者 sbulaev、提交时间 01:36 UTC: query_raw_items(keyword=null, source=hackernews) = 条目元数据
+- HN 条目分数、评论数、作者、时间及 Top10 排名: 当前接力稿/draft 元数据（原始来源应为 query_raw_items，当前 session 未重新查询）= 见 drafts/current.md 各条目表格
+- GLM-5.3、Opus 5、Qwen 3.8 27B、Every Fucking Website、HEIR、RustDesk、uBlock Origin、Breaking the WAL、印尼地震、Apple 15% 提议的链接与正文核验状态: 当前接力稿/ReadThemeDocsTool(themes/hn-daily/_history/2026-08-15_1552__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/drafts/current.md)=按稿中“摘要/评论摘录”标注
