@@ -1,0 +1,33 @@
+- 查询窗口候选与门槛核验: query_raw_items(source='hackernews', keyword=null, limit=500, status=null) = 返回 500 条，结果混合 2026-08-14 与 2026-08-15 UTC；可见 2026-08-14 条目中 Earth.nullschool.net 为 60 points/21 comments，其余可见技术候选低于 60；接口展示未提供可稳定读取的 metadata.hn_points、author、完整 full_text 或评论正文。
+- Earth.nullschool.net: query_raw_items(source='hackernews', limit=500) = 原文 https://earth.nullschool.net/，评论 https://news.ycombinator.com/item?id=49299364，60 points，21 comments，时间 2026-08-14 23:32:40 UTC；full_text 未返回。
+- Qwen 3.8 27B is out: query_raw_items(source='hackernews', limit=500) = https://huggingface.co/Qwen/Qwen3.8-27B-FP8，15 points，3 comments，HN item 49299605，2026-08-14 15:17:33 UTC；返回片段不足以替代完整正文。
+- Google Is Making Private AI Practical with Homomorphic Encryption: query_raw_items(source='hackernews', limit=500) = https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/，2 points，2 comments，HN item 49300314，2026-08-14 16:02:21 UTC；返回片段不足以替代完整正文。
+- Earth.nullschool.net: hackernews raw_items 查询(source='hackernews', keyword='Earth.nullschool', limit=20) = 60 points, 21 comments, ingestion 2026-08-14 23:32 UTC
+- Qwen 3.8 27B is out: hackernews raw_items 查询(source='hackernews', keyword='Qwen3.8', limit=20) = 15 points, 3 comments, ingestion 2026-08-14 15:17 UTC
+- Qwen3.8-27B: hackernews raw_items 查询(source='hackernews', keyword='Qwen3.8', limit=20) = 17 points, 1 comment, ingestion 2026-08-14 15:17 UTC
+- Qwen3.8-27B is now available on Hugging Face: hackernews raw_items 查询(source='hackernews', keyword='Qwen3.8', limit=20) = 7 points, 2 comments, ingestion 2026-08-14 15:17 UTC
+- Show HN: Pestle-27B-Ternary: hackernews raw_items 查询(source='hackernews', keyword='Qwen3.8', limit=20) = 6 points, 0 comments, ingestion 2026-08-14 20:47 UTC
+- Unsloth Qwen3.8-27B GGUF files: hackernews raw_items 查询(source='hackernews', keyword='Qwen3.8', limit=20) = 4 points, 0 comments, ingestion 2026-08-14 15:17 UTC
+- Qwen3.8 raw item snippets mention Alibaba open-sourcing the series on 2026-08-14: hackernews raw_items 查询(source='hackernews', keyword='Qwen3.8', limit=20) = related item snippets; not used as independent HN score
+- Top10 displayed records: hackernews raw_items 查询(source='hackernews', limit=500) = mixed 2026-08-14/15 records; no strict UTC date filter and no stable author/metadata fields
+
+- 当前复核：query_raw_items(source='hackernews', keyword=null, limit=50, status=null) = 结果含 2026-08-15 00:06 UTC 条目及 2026-08-14 条目；Earth.nullschool.net 仍显示 60 points/21 comments，未返回完整正文、评论正文或稳定 author 字段。
+- Earth.nullschool.net：60 points、21 comments、2026-08-14 23:32 UTC、HN item 49299364 = query_raw_items(source="hackernews", limit=500)
+- Qwen 3.8 27B is out：15 points、3 comments、2026-08-14 15:17 UTC = query_raw_items(source="hackernews", limit=500)
+- Qwen3.8-27B：17 points、1 comment、2026-08-14 15:17 UTC = query_raw_items(source="hackernews", limit=500)
+- Qwen3.8-27B is now available on Hugging Face：7 points、2 comments、2026-08-14 15:17 UTC = query_raw_items(source="hackernews", limit=500)
+- Show HN: Pestle-27B-Ternary：6 points、0 comments、2026-08-14 20:47 UTC = query_raw_items(source="hackernews", limit=500)
+- France blocks social media ban because it would require adults to prove age：6 points、0 comments = query_raw_items(source="hackernews", limit=500)
+- Federal government finalizes ownership reporting exemption for US firms：6 points、0 comments = query_raw_items(source="hackernews", limit=500)
+- CEO who fired 900 people on Zoom just before Christmas wants his job back：5 points、1 comment = query_raw_items(source="hackernews", limit=500)
+- Unsloth Qwen3.8-27B GGUF files：4 points、0 comments = query_raw_items(source="hackernews", limit=500)
+- Firefox is now the last major browser that still supports uBlock Origin：4 points、0 comments = query_raw_items(source="hackernews", limit=500)
+- 查询结果混合 2026-08-14 与 2026-08-15 UTC 条目，且未提供日期起止参数 = query_raw_items(source="hackernews", limit=500)
+
+- 独立复核：query_raw_items(source='hackernews', keyword=null, limit=500, status=null) = 返回 500 条；结果包含 2026-08-14 与 2026-08-15 UTC，且每条可见记录可显示标题、Article URL、Comments URL、Points/# Comments；多数仅有片段而非完整原文/评论树。
+- 独立复核：Earth.nullschool.net = Article URL https://earth.nullschool.net/，HN item https://news.ycombinator.com/item?id=49299364，2026-08-14 23:32:40 UTC，60 points，21 comments。
+- 独立复核：2026-08-14 技术相关可见条目包括 Apple trained own AI model for China market (HN item 49298360, 1 point)、Apple proposes 15% cut outside App Store (HN item 49302468, 6 points)、Vulnerability giving attackers full control of Macs is under active exploitation (HN item 49305171, 3 points)、OpenAI talent exodus raises red flag ahead of IPO (HN item 49303230, 3 points) = query_raw_items(source='hackernews', limit=500)。
+- 独立复核：Qwen 3.8 27B is out = 15 points/3 comments；Qwen3.8-27B = 17 points/1 comment；Qwen3.8-27B is now available on Hugging Face = 7 points/2 comments；Show HN: Pestle-27B-Ternary = 6 points/0 comments = query_raw_items(source='hackernews', limit=500)。
+- 2026-08-14 UTC Hacker News raw_items 中可见 AI/开发者条目包括 Talos AI Agent Super Secure（1 point）、Show HN: WeaveScope – Elixir native observability for AI agents（1 point）、Show HN: I built a Claude Code plugin to query 10.6M earnings-call embeddings（1 point）、Lightweight Task agent – checkable receipts（1 point）、Show HN: Self-bench – build SWE-bench style evals from private repos（未在返回片段中显示 points）、Credentio: Open-Source C++ Library for C2PA Content Credentials from Google（1 point）、Amélie's graphics library（1 point）、SUSE AI 部署文档（2 points）: query_raw_items(source='hackernews', keyword='AI OR agent OR vLLM OR Qwen OR Show HN', limit=100) 与 query_raw_items(source='hackernews', keyword='Kvcachescope OR WebAuthn OR passkey OR sandbox OR library OR framework OR paper', limit=100) = 对应条目标题/时间/分数
+- 2026-08-14 UTC Hacker News 原始记录确认 Earth.nullschool.net 为 60 points、21 comments；Kvcachescope 为 1 point、0 comments；Go 标准库 AI agent sandbox 为 1 point（评论数在返回片段截断）: query_raw_items(source='hackernews', limit=100) = 对应条目元数据
+- 2026-08-14 UTC 还可见 Show HN: Open-Source Paper、Vesta adaptive ontology for Claude Code、Show HN: A prompt to check Supabase DB security、Show HN: RCA-lab、Show HN: Pestle-27B-Ternary（6 points）等开发者/AI 工具项目: query_raw_items(source='hackernews', keyword='AI OR agent OR vLLM OR Qwen OR Show HN', limit=100) = 对应条目标题/时间/分数

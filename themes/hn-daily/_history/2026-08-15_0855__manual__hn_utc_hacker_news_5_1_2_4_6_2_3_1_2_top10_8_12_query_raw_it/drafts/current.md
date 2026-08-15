@@ -1,19 +1,4 @@
----
-name: HN 书摘 · 2026-08-15
-slug: hn-daily
-status: active
-lead_agent: tech_generalist
-created: 2026-08-15
-updated: 2026-08-15T09:08:15+08:00
-revision: 2026-08-15
-sources:
-  - path: 2026-08-15_0855__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/reference.md
-    agent: hn_daily_update
-    summarized: false
----
-
-# HN 书摘 2026-08-15
-
+## Big Picture
 
 Hacker News 日报不是热门链接的机械搬运，而是把社区投票、原文内容、作者信息与评论讨论组合成一份技术阅读索引。2026-08-14 UTC 的可见条目覆盖开放模型、科学可视化、隐私计算、浏览器安全与 AI agent 工具；Qwen3.8 相关链接在同一时段集中出现，显示模型发布与社区传播之间的即时联动。当前核心矛盾是“可见热度”与“可核验内容”不匹配：查询结果能确认部分标题、链接、分数和评论数，却无法稳定提供严格日期过滤、原始 `metadata.hn_points`、作者字段、完整正文及评论正文。我们因此把证据边界置于栏目完整度之前：能确认的只写能确认的，无法抓取的明确标注，不依据标题补写技术结论。
 
