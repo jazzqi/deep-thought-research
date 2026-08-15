@@ -34,11 +34,15 @@ jobs:
         run: |
           FILE="${{ steps.find.outputs.file }}"
           DATE=$(basename "$FILE" .md)
-          # 去掉 frontmatter（--- ... ---），保留正文
-          BODY=$(awk 'BEGIN{n=0} /^---$/{n++; next} n>=1{print}' "$FILE")
-          printf '%s' "$BODY" > /tmp/body.md
-          # 开头加报告链接
-          printf '\n\n---\n📄 仓库内原文：[%s](https://github.com/jazzqi/deep-thought-research/blob/main/%s)\n' "$DATE" "$FILE" >> /tmp/body.md
+          # 剥离 frontmatter：删除开头第一个 --- 到第二个 ---（含），保留正文
+          # sed 逐行处理：/^---$/ 匹配 YAML 分隔线，跳过前两条即正文开始
+          awk '
+            BEGIN { fm = 0 }
+            /^---[[:space:]]*$/ { fm++; next }
+            fm >= 2 { print }
+          ' "$FILE" > /tmp/body.md
+          # 文末追加仓库原文链接
+          printf '\n---\n📄 仓库内原文：[%s](https://github.com/jazzqi/deep-thought-research/blob/main/%s)\n' "$DATE" "$FILE" >> /tmp/body.md
           gh issue create \
             --title "HN 书摘 · $DATE" \
             --body-file /tmp/body.md \
