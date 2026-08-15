@@ -1,0 +1,45 @@
+name: HN Daily Issue
+
+# 触发：① 推送 themes/hn-daily/*.md（cron flow 报告落盘后自动建 issue）
+#       ② 手动 dispatch（试验/补发）
+on:
+  push:
+    paths:
+      - 'themes/hn-daily/*.md'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  create-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find latest HN daily report
+        id: find
+        run: |
+          # 取最新的 themes/hn-daily/YYYY-MM-DD.md
+          LATEST=$(ls themes/hn-daily/2*.md 2>/dev/null | sort | tail -1)
+          echo "latest=$LATEST"
+          echo "file=$LATEST" >> "$GITHUB_OUTPUT"
+
+      - name: Create issue with full report
+        if: steps.find.outputs.file != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          FILE="${{ steps.find.outputs.file }}"
+          DATE=$(basename "$FILE" .md)
+          # 去掉 frontmatter（--- ... ---），保留正文
+          BODY=$(awk 'BEGIN{n=0} /^---$/{n++; next} n>=1{print}' "$FILE")
+          printf '%s' "$BODY" > /tmp/body.md
+          # 开头加报告链接
+          printf '\n\n---\n📄 仓库内原文：[%s](https://github.com/jazzqi/deep-thought-research/blob/main/%s)\n' "$DATE" "$FILE" >> /tmp/body.md
+          gh issue create \
+            --title "HN 书摘 · $DATE" \
+            --body-file /tmp/body.md \
+            --repo jazzqi/deep-thought-research
