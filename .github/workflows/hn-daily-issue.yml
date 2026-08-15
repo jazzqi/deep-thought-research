@@ -34,8 +34,17 @@ jobs:
         run: |
           FILE="${{ steps.find.outputs.file }}"
           DATE=$(basename "$FILE" .md)
+          # 防重：同日期 issue 已存在则跳过（避免重复建多个）
+          TITLE="HN 书摘 · $DATE"
+          EXISTING=$(gh issue list --repo jazzqi/deep-thought-research \
+            --search "in:title \"$TITLE\" is:issue" --limit 1 --json number 2>/dev/null \
+            | python3 -c "import json,sys; d=json.load(sys.stdin); print(d[0]['number'] if d else '')" 2>/dev/null)
+          if [ -n "$EXISTING" ]; then
+            echo "issue #$EXISTING already exists for $DATE, skipping."
+            exit 0
+          fi
           # 剥离 frontmatter：删除开头第一个 --- 到第二个 ---（含），保留正文
-          # sed 逐行处理：/^---$/ 匹配 YAML 分隔线，跳过前两条即正文开始
+          # awk 逐行处理：跳过前两条 --- 分隔线后开始输出
           awk '
             BEGIN { fm = 0 }
             /^---[[:space:]]*$/ { fm++; next }
@@ -44,6 +53,7 @@ jobs:
           # 文末追加仓库原文链接
           printf '\n---\n📄 仓库内原文：[%s](https://github.com/jazzqi/deep-thought-research/blob/main/%s)\n' "$DATE" "$FILE" >> /tmp/body.md
           gh issue create \
-            --title "HN 书摘 · $DATE" \
+            --title "$TITLE" \
             --body-file /tmp/body.md \
+            --assignee jazzqi \
             --repo jazzqi/deep-thought-research
