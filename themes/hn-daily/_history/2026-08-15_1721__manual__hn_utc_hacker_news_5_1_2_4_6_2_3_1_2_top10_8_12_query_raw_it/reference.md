@@ -1,0 +1,21 @@
+- 扫描窗口与机械过滤: query_raw_items(source=hackernews, min_points=20, limit=200) = 2026-08-14 00:00–2026-08-15 00:00 UTC；候选数据含 HN 分数/评论数/作者/URL。
+- Opus 5 帖子热度: query_raw_items(source=hackernews) = 765 points, 700 comments, @numeri, 2026-08-14 10:32 UTC；正文 = fetch_url(https://mun-logadan.github.io/why-does-opus-5-feel-worse/)。
+- Google HEIR 帖子热度: query_raw_items(source=hackernews) = 268 points, 162 comments, 2026-08-14 16:02 UTC；正文 = fetch_url(https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/)。
+- Jetstream v2: fetch_url(https://atproto.com/blog/introducing-bluesky-protocol-services) = 支持网络历史回放、压缩归档、筛选分段、无缝切换实时流；归档请求需 token。
+- RustDesk Wayland: fetch_url(https://rustdesk.com/blog/unattended-remote-access-wayland/) = 预览版支持 Wayland 无人值守、多显示器、重启后登录界面连接，首版 x86_64 Debian/Ubuntu。
+- AI 漏洞挖掘讨论: fetch_url(https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/) = 讨论 AI 漏洞发现能力可能改变执法/情报攻防平衡。
+- Ruby RCE: fetch_url(https://www.elttam.com/blog/ruby-4-0-universal-rce-deserialization-gadget-chain) = 针对 Ruby 4.0.6 的通用 Marshal.load 反序列化命令执行链，可追溯至 Ruby 3.3。
+- RISC-V 文章: fetch_url(https://dmitry.gr/?r=06.%20Thoughts&proj=12.%20RV) = 作者从代码密度、中断延迟、面积等维度批评单 ISA 覆盖全部场景的叙事。
+- Xiaomi 月食: fetch_url(https://www.frandroid.com/marques/xiaomi/3211257_photo-de-leclipse-on-a-perce-a-jour-la-petite-triche-du-xiaomi-17-ultra-qui-confond-la-lune-et-le-soleil) = 报道 Xiaomi 17 Ultra 将月食照片中的太阳增强为带月面纹理的图像。
+- SparrowMap: fetch_url(https://sparrowmap.com) = 设备端识别政府车辆并销毁普通车辆车牌，视频不离开本地。
+- Top10 快照: query_raw_items(source=hackernews, min_points=20) = GLM-5.3 1025/513；Qwen3.8 27B 870/570；Opus 5 765/700；Every Fucking Website 736/444；Count Binface 431/343；Firefox/uBlock Origin 356/131；Google HEIR 268/162；Everything is about to go dark 169/109；SparrowMap 163/39；Economist AI agents 163/203。
+
+- 2026-08-14 UTC Hacker News 条目：GLM-5.3 ▲1025、513 comments、@pella、item 49294997；Qwen 3.8 27B ▲870、570 comments、@erdaltoprak、item 49299605；Opus 5 体验 ▲765、700 comments、@numeri、item 49296740；Every Fucking Website ▲736、444 comments、@doubletwoyou、item 49299222；Google 同态加密 ▲268、162 comments、@u1hcw9nx、item 49300314；澳洲家庭电池 ▲312、244 comments、@speckx、item 49298910；RISC-V 反思 ▲100、51 comments、@kaycebasques、item 49298035；Everything is about to go dark ▲169、109 comments、@vslira、item 49304447；Firefox/uBlock ▲356、131 comments、@DemiGuru、item 49303202；RustDesk Wayland ▲215、93 comments、@rustdesk、item 49300759：query_raw_items(source=hackernews,min_points=20,limit=100) = 返回值。展示箭头与条目摘要中的 Points 字段不一致，正文采用展示热度字段并注明口径风险。
+- GLM-5.3 正文与评论：fetch_url(https://z.ai/blog/glm-5.3) = 未能抓取原文；fetch_url(https://news.ycombinator.com/item?id=49294997) = HN页显示1090 points、529 comments及评论摘录。
+- Qwen3.8 正文：fetch_url(https://huggingface.co/Qwen/Qwen3.8-27B-FP8) = 页面模板文本，未能核验模型说明；fetch_url(https://news.ycombinator.com/item?id=49299605) = HN页显示1133 points、692 comments及本地运行评论（MacBook M5 Max 48GB约15-30 tokens/s）。
+- Opus 5 正文：fetch_url(https://mun-logadan.github.io/why-does-opus-5-feel-worse/) = 作者称其能力/benchmark不一定退步，但更常在意图不清时自行假设、少提澄清问题；fetch_url(https://news.ycombinator.com/item?id=49296740) = HN页显示867 points、785 comments及评论摘录。
+- Google HEIR 正文：fetch_url(https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/) = Google称HEIR为开源同态加密编译器，可将预训练模型适配加密输入；同态加密计算有额外成本。
+- 澳大利亚家庭电池正文：fetch_url(https://e360.yale.edu/digest/australia-home-batteries) = 2026-08-14文章称补贴计划后安装量超过50万，批发电价约下降一半；文中引述过去12个月下降47%。
+- RISC-V正文：fetch_url(https://dmitry.gr/?r=06.%20Thoughts&proj=12.%20RV) = 作者认为RISC-V不可能同时最适合高端CPU和微控制器，预计其低成本单用途MCU市场机会来自替代8051而非ISA全面优越。
+- 加密监管正文：fetch_url(https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/) = Matthew Green讨论AI强化软件安全后，执法机构可能失去部分传统侦查能力，并关联加密与隐私边界。
+- Firefox/uBlock正文：fetch_url(https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html) = 403，未能抓取正文。
