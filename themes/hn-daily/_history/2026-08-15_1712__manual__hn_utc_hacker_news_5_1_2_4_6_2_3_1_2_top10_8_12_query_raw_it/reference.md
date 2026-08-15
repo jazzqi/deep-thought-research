@@ -1,0 +1,30 @@
+- 2026-08-14 UTC HN Top10 帖子及分数/评论数: query_raw_items(source='hackernews', min_points=60, limit=200) = GLM-5.3 1025/513; Qwen 3.8 27B 870/570; Opus 5 765/700; Every Fucking Website 736/444; Firefox/uBlock 356/131; Australia home batteries 312/244; Google HEIR 268/162; RustDesk Wayland 215/93; Bluesky Protocol Services 204/65; Everything is about to go dark 169/109
+- Opus 5 文章正文与日期: fetch_url(url='https://mun-logadan.github.io/why-does-opus-5-feel-worse/') = 发布 2026-08-14；作者主张 benchmark 能力与真实协作体验分离
+- 澳大利亚家用电池数据: fetch_url(url='https://e360.yale.edu/digest/australia-home-batteries') = 超过 500,000 台；补贴 30%；批发电价过去12个月下降47%
+- Google HEIR 功能: fetch_url(url='https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/') = 开源同态加密编译器工具链；支持加密输入 AI 推理示例
+- Bluesky Jetstream v2: fetch_url(url='https://atproto.com/blog/introducing-bluesky-protocol-services') = 支持历史回放并切换实时流；归档请求需 API token
+- RustDesk Wayland: fetch_url(url='https://rustdesk.com/blog/unattended-remote-access-wayland/') = Debian/Ubuntu x86_64 预览构建；支持登录界面重启后无人值守访问
+- “Everything is about to go dark”正文: fetch_url(url='https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/') = 作者担忧 AI 漏洞发现削弱执法/情报机构依赖漏洞利用的能力
+- GLM-5.3 正文: fetch_url(url='https://z.ai/blog/glm-5.3') = 无可提取正文，未据标题推测
+- Qwen 3.8 模型卡: fetch_url(url='https://huggingface.co/Qwen/Qwen3.8-27B-FP8') = 主要返回模板代码，无法核实参数/许可/评测
+- Firefox/uBlock 原文: fetch_url(url='https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html') = HTTP 403，未能抓取
+
+- 2026-08-14 HN 热帖 GLM-5.3: 1025 points / 513 comments / @pella: query_raw_items(source='hackernews', min_points=60) = https://z.ai/blog/glm-5.3
+- 2026-08-14 HN 热帖 Qwen 3.8 27B: 870 points / 570 comments / @erdaltoprak: query_raw_items(source='hackernews', min_points=60) = https://huggingface.co/Qwen/Qwen3.8-27B-FP8
+- 2026-08-14 HN 热帖 Why does Opus 5 feel worse to work with?: 765 points / 700 comments / @numeri: query_raw_items(source='hackernews', min_points=60) = https://mun-logadan.github.io/why-does-opus-5-feel-worse/
+- 2026-08-14 HN 热帖 Every Fucking Website: 736 points / 444 comments / @doubletwoyou: query_raw_items(source='hackernews', min_points=60) = https://lxe.github.io/everywebsite/
+- 2026-08-14 HN 热帖 Google Is Making Private AI Practical with Homomorphic Encryption: 268 points / 162 comments / @u1hcw9nx: query_raw_items(source='hackernews', min_points=60) = https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/
+- 2026-08-12 HN 条目 Known Agents Agentic Web Index: 302 points / 226 comments / @gavinhking: query_raw_items(source='hackernews', min_points=60) = https://knownagents.com/insights
+- 2026-08-14 HN 热帖 Firefox supports uBlock Origin: 356 points / 131 comments / @DemiGuru: query_raw_items(source='hackernews', min_points=60) = https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html
+- 2026-08-14 HN 热帖 RustDesk Wayland unattended access: 215 points / 93 comments / @rustdesk: query_raw_items(source='hackernews', min_points=60) = https://rustdesk.com/blog/unattended-remote-access-wayland/
+- 2026-08-13 HN 热帖 systemd-journald excessive IO: 253 points / 217 comments / @ValdikSS: query_raw_items(source='hackernews', min_points=60) = https://github.com/systemd/systemd/issues/40262
+- 2026-08-13 HN 热帖 Choosing an AI model: one prompt, 11 models: 215 points / 94 comments / @toddmorey: query_raw_items(source='hackernews', min_points=60) = https://www.netlify.com/blog/one-prompt-11-models-very-different-results/
+- 2026-08-14 Google HEIR 正文称其为开源编译器，用于加密 AI 推理；同态加密在密文上计算但有非平凡性能成本: fetch_url(url='https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/')
+- 2026-08-14 Opus 5 正文称其能力/benchmark 更强，但作者认为实际工作体验较差，原因包括不澄清意图、擅自假设和改写计划: fetch_url(url='https://mun-logadan.github.io/why-does-opus-5-feel-worse/')
+- 2026-08-14 RustDesk 正文称 Wayland 无人值守访问为 preview build，支持多显示器、重启后登录屏幕连接，当前面向 x86_64 Debian/Ubuntu: fetch_url(url='https://rustdesk.com/blog/unattended-remote-access-wayland/')
+- 2026-08-13 systemd issue 正文报告 Debian 13、systemd 257.9 环境下 VM 每秒约 2 行日志仍约 50 IOPS，并称单行写放大可达 49KB(ext4)/110KB(btrfs): fetch_url(url='https://github.com/systemd/systemd/issues/40262')
+- 2026-08-14 Known Agents 页面统计覆盖 5000+ 网站，AI 相关 bot 流量占 bot 流量 29%，robots.txt 遵守率 98.5%: fetch_url(url='https://knownagents.com/insights')
+
+- HN 技术相关遗漏核验：query_raw_items(source='hackernews', keyword='Show HN OR showhn', limit=50, min_points=0) = Show HN: Mole – Deep research agent for your terminal，63 points/10 comments，2026-08-15 06:02 UTC，https://github.com/lajosdeme/mole
+- HN Top 技术条目核验：query_raw_items(source='hackernews', limit=50, min_points=0) = DeepSeek V4 Pro 0813 1027 points/446 comments；AI is removing the middle class of software engineering 984/919；Qwen/Qwen3.8-2.4T-A95B 710/170；Zed: Delta 672/254；Mistral OCR 4.1 402/160；Show HN: Woxi 312/45；Codex in ChatGPT desktop app for Linux in preview 463/316。
+- 审查依据：主题工作区 drafts/current.md（2026-08-15 版本）仅覆盖 10 个条目，未覆盖上述若干高热度 AI/开发者生态帖子。

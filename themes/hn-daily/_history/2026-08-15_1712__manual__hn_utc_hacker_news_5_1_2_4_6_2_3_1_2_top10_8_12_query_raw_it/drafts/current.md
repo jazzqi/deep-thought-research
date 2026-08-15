@@ -1,19 +1,4 @@
----
-name: HN 书摘 · 2026-08-15
-slug: hn-daily
-status: active
-lead_agent: tech_generalist
-created: 2026-08-15
-updated: 2026-08-15T17:18:33+08:00
-revision: 2026-08-15
-sources:
-  - path: 2026-08-15_1712__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/reference.md
-    agent: hn_daily_update
-    summarized: false
----
-
 # HN 书摘 · 2026-08-15（周六）
-
 
 > 今日三句话：① AI 模型竞争正从发布速度转向真实工作流中的可控性与可靠性。② 隐私计算、代理流量和客户端权限正在成为 AI 基础设施的新控制面。③ 高赞不等于高价值，正文可核验性仍是筛选标准。
 
