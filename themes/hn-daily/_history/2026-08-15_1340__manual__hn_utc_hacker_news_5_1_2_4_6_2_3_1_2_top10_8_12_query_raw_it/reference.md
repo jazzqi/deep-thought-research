@@ -1,0 +1,103 @@
+- 抓取窗口: 2026-08-14 00:00:00–2026-08-15 00:00:00 UTC: query_raw_items(source='hackernews', min_points=60, limit=200)；按 returned timestamp 筛选
+- GLM-5.3: query_raw_items(...) = 1025 points, 513 comments, 2026-08-14 05:32:39 UTC
+- Qwen 3.8 27B: query_raw_items(...) = 870 points, 570 comments, 2026-08-14 15:17:33 UTC
+- Why does Opus 5 feel worse to work with?: query_raw_items(...) = 765 points, 700 comments, 2026-08-14 10:32:14 UTC
+- Every Fucking Website: query_raw_items(...) = 736 points, 444 comments, 2026-08-14 14:47:56 UTC
+- Firefox is now the last major browser that still supports uBlock Origin: query_raw_items(...) = 356 points, 131 comments, 2026-08-14 19:06:24 UTC
+- Qwen3.8-27B (tweet): query_raw_items(...) = 297 points, 3 comments, 2026-08-14 15:17:34 UTC
+- Seven books I keep close because I love them: query_raw_items(...) = 293 points, 129 comments, 2026-08-14 15:17:34 UTC
+- Google Is Making Private AI Practical with Homomorphic Encryption: query_raw_items(...) = 268 points, 162 comments, 2026-08-14 16:02:21 UTC
+- RustDesk now supports true unattended remote access on Wayland: query_raw_items(...) = 215 points, 94 comments, 2026-08-14 16:36:48 UTC
+- AI by Hand: query_raw_items(...) = 192 points, 16 comments, 2026-08-14 16:17:25 UTC
+- Why does Opus 5 feel worse to work with?正文: fetch_url(https://mun-logadan.github.io/why-does-opus-5-feel-worse/) = 作者认为模型能力/benchmark 得分上升不等于协作体验改善；Opus 5 更常在意图不清时自行假设、改写计划而非询问。文章将其归因于 benchmark/RLVR 偏好“大胆猜测”，而真实项目需要模型暴露歧义并停下来确认。
+- Every Fucking Website正文: fetch_url(https://lxe.github.io/everywebsite/) = 以讽刺页面展示网站常见的弹窗、优惠券、cookie 同意、订阅和聊天机器人等“反用户”界面模式；正文为交互式讽刺示例，非实证研究。
+- Google HEIR正文: fetch_url(https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/) = Google 发布开源 HEIR（Homomorphic Encryption Intermediate Representation）编译器工具链，可把预训练模型编译为在加密输入上推理；文章列出推荐、信用卡欺诈、网络异常检测、唤醒词等演示，并称延迟成本仍是关键约束。
+- RustDesk Wayland正文: fetch_url(https://rustdesk.com/blog/unattended-remote-access-wayland/) = RustDesk 预览版支持 Wayland 下真正无人值守远程访问，包括重启后登录界面和多显示器；目前为 x86_64 Debian/Ubuntu 独立构建，计划测试稳定后扩展到 Fedora/Arch并纳入标准版本。
+- Bluesky Protocol Services正文: fetch_url(https://atproto.com/blog/introducing-bluesky-protocol-services/) = Jetstream v2 增加 Network Replay，可从历史任意点回放并无缝切到实时流；历史归档请求需 API token，实时尾流仍无需认证；同时发布 TypeScript/Go SDK 和基于 lex 的 TypeScript SDK。
+- Everything is about to go dark正文: fetch_url(https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/) = Matthew Green 的核心担忧是 AI 自动漏洞发现会让软件防守速度超过执法/情报机构的利用能力，使其“看不见”大量通信；文章回顾移动端加密、Going Dark 争论及 AI 漏洞挖掘的攻防转折。
+- Qwen/GLM/Firefox/Seven books/AI by Hand正文未能从当前抓取结果取得足够正文，报告只保留元数据或明确标注未能抓取，不对内容作推断。
+
+- GLM-5.3 HN 热度: query_raw_items(source='hackernews', min_points=60, limit=30) = 1025 points, 513 comments, author pella, created 2026-08-14 05:32:39 UTC; fetch_url(HN item 49294997) = 1063 points, 525 comments at fetch time，并含评论正文。
+- Qwen 3.8 27B HN 热度: query_raw_items(source='hackernews', min_points=60, limit=30) = 870 points, 570 comments, author erdaltoprak, created 2026-08-14 15:17:33 UTC; fetch_url(HN item 49299605) = 1010 points, 647 comments at fetch time，并含评论正文。
+- Opus 5 体验文章正文: fetch_url(https://mun-logadan.github.io/why-does-opus-5-feel-worse/) = 作者称 Opus 5 基准能力更强但工作体验较差，原因包括不澄清意图、擅自假设和改写计划。
+- Google HEIR 正文: fetch_url(https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/) = HEIR 是开源同态加密编译器工具链，可将预训练模型转换为处理加密输入；Google 明确承认同态加密存在非平凡成本开销。
+- Link rot 研究正文: fetch_url(https://0.mk/blog/link-rot) = 657,607 条历史链接中，655,178 条可爬取记录仅 23.32% 返回 2xx/3xx；去重到 492,620 个可爬 URL 后仅 21.3% 加载。
+- HN 评论：GLM-5.3: fetch_url(https://news.ycombinator.com/item?id=49294997) = 评论区出现用户称其在安全研究/编码代理工作流中提升使用额度，也有评论指出开放权重与安全评估之间存在取舍。
+- HN 评论：Qwen 3.8: fetch_url(https://news.ycombinator.com/item?id=49299605) = 评论者以私有基准实测，称模型可解决任务但耗时更长、显存效率和长上下文能力仍有局限。
+- HN 评论：Google HEIR: fetch_url(https://news.ycombinator.com/item?id=49300314) = 评论者指出同态加密推理仍有约数量级很高的开销，并给出排序与基础运算的高延迟示例；该评论为社区观点非官方验证。
+
+- GLM-5.3（2026-08-14 05:32 UTC）: query_raw_items(source='hackernews', min_points=60, limit=80) = hn_points 1025, hn_comments 513, author pella, URL https://z.ai/blog/glm-5.3
+- Qwen 3.8 27B（2026-08-14 15:17 UTC）: query_raw_items(source='hackernews', min_points=60, limit=80) = hn_points 870, hn_comments 570, author erdaltoprak, URL https://huggingface.co/Qwen/Qwen3.8-27B-FP8
+- Why does Opus 5 feel worse to work with?（2026-08-14 10:32 UTC）: query_raw_items(source='hackernews', min_points=60, limit=80) = hn_points 765, hn_comments 700, author numeri, URL https://mun-logadan.github.io/why-does-opus-5-feel-worse/
+- Every Fucking Website（2026-08-14 14:47 UTC）: query_raw_items(source='hackernews', min_points=60, limit=80) = hn_points 736, hn_comments 444, author doubletwoyou, URL https://lxe.github.io/everywebsite/
+- Google Is Making Private AI Practical with Homomorphic Encryption（2026-08-14 16:02 UTC）: query_raw_items(source='hackernews', min_points=60, limit=80) = hn_points 268, hn_comments 162, author u1hcw9nx, URL https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/
+- Firefox is now the last major browser that still supports uBlock Origin（2026-08-14 19:06 UTC）: query_raw_items(source='hackernews', min_points=60, limit=80) = hn_points 356, hn_comments 131, author DemiGuru, URL https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html
+- RustDesk now supports true unattended remote access on Wayland（2026-08-14 16:36 UTC）: query_raw_items(source='hackernews', min_points=60, limit=80) = hn_points 215, hn_comments 94, author toddmorey, URL https://rustdesk.com/blog/unattended-remote-access-wayland/
+- Bluesky Protocol Services（2026-08-14 00:32 UTC）: query_raw_items(source='hackernews', min_points=60, limit=80) = hn_points 204, hn_comments 65, author danabramov, URL https://atproto.com/blog/introducing-bluesky-protocol-services
+- Everything is about to "go dark"（2026-08-14 21:02 UTC）: query_raw_items(source='hackernews', min_points=60, limit=80) = hn_points 169, hn_comments 109, author vslira, URL https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/
+- AI by Hand（2026-08-14 16:17 UTC）: query_raw_items(source='hackernews', min_points=60, limit=80) = hn_points 192, hn_comments 16, author sans_souse, URL https://www.byhand.ai/
+- GLM-5.3正文: fetch_url(https://z.ai/blog/glm-5.3, max_chars=3000) = 未能提取原文，HN评论页可抓取
+- Qwen 3.8正文: fetch_url(https://huggingface.co/Qwen/Qwen3.8-27B-FP8, max_chars=3000) = 页面正文提及模型页与模板内容，未取得完整模型说明；HN高赞评论提到私有基准、推理耗时与显存取舍
+- Opus 5正文: fetch_url(https://mun-logadan.github.io/why-does-opus-5-feel-worse/, max_chars=3000) = 作者称Opus 5能力更强但工作体验较差，常在意图不明时自行假设而非询问；文章将原因假设归于基准优化与现实编码任务的歧义差异
+- Google HEIR正文: fetch_url(https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/, max_chars=3000) = Google发布开源HEIR编译器工具链，将预训练模型转换为处理加密输入；同态加密可在密文上计算但有成本开销
+- Link rot正文: fetch_url(https://0.mk/blog/link-rot, max_chars=2500) = 657,607条历史链接中，655,178条可抓取记录的76.7%不再返回加载页面；去重后492,620个可抓取URL中仅21.3%加载
+- Bluesky正文: fetch_url(https://atproto.com/blog/introducing-bluesky-protocol-services, max_chars=2500) = Jetstream v2增加Network Replay，可从历史点回放并无缝切换实时流；同时提供SDK与协议基础设施文档
+- RustDesk正文: fetch_url(https://rustdesk.com/blog/unattended-remote-access-wayland/, max_chars=2200) = Wayland预览版支持无人值守、多显示器及重启后登录界面连接，当前仅x86_64 Debian/Ubuntu构建
+- Go dark正文: fetch_url(https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/, max_chars=2500) = 作者担忧AI生成更安全软件会令执法机构失去部分能力，并讨论端到端加密与执法破解能力变化
+- HN评论摘录来源: fetch_url(https://news.ycombinator.com/item?id=49294997, max_chars=1800); fetch_url(https://news.ycombinator.com/item?id=49299605, max_chars=1800); fetch_url(https://news.ycombinator.com/item?id=49296740, max_chars=1800); fetch_url(https://news.ycombinator.com/item?id=49300314, max_chars=1800); fetch_url(https://news.ycombinator.com/item?id=49303202, max_chars=1800) = 评论正文及points/comments见各页面返回
+- 数据质量限制: query_raw_items(source='hackernews', min_points=60, limit=80)返回结果含跨日条目且同条目展示热度与尾部Points字段不一致；本稿榜单仅采用metadata hn_points/hn_comments，并按created_at保留2026-08-14 00:00–2026-08-15 00:00 UTC候选
+- HN帖子热度、评论数、作者与时间（GLM-5.3、Qwen 3.8 27B、Opus 5、Every Fucking Website、Firefox/uBlock Origin、HEIR、RustDesk、Bluesky Protocol Services、AI by Hand、Everything is about to “go dark”）: query_raw_items（本期 HN Top10 原始结果，metadata.hn_points / hn_comments / author / created_at）= 见 drafts/current.md 对应条目
+- GLM-5.3、Qwen 3.8 27B、Opus 5、HEIR、链接腐烂、Firefox/uBlock Origin、Bluesky、RustDesk、Everything is about to “go dark”正文与评论摘要: fetch_url（各条目原文 URL 及 news.ycombinator.com/item?id=评论页）= 见 drafts/current.md 对应条目；部分页面抓取失败已明确标注
+
+- HN 2026-08-14 UTC窗口候选帖的分数、评论数、作者、创建时间与链接: query_raw_items(source='hackernews', limit=10, status=null)及历史稿已记录字段 = GLM-5.3 1025/513/@pella/2026-08-14 05:32 UTC；Qwen 3.8 27B 870/570/@erdaltoprak/2026-08-14 15:17 UTC；Opus 5 765/700/@numeri/2026-08-14 10:32 UTC；其余以稿内榜单为准
+- 657,607条链接样本及加载率: 原文 https://0.mk/blog/link-rot（历史稿抓取摘要） = 655,178条可抓取记录中仅23.32%返回2xx/3xx；去重后492,620个URL中21.3%加载成功
+- GLM-5.3、Qwen 3.8、Opus 5等条目的评论摘录: HN评论页 https://news.ycombinator.com/item?id=49294997 与 https://news.ycombinator.com/item?id=49299605、https://news.ycombinator.com/item?id=49296740 = 社区用户体验与质疑（非独立基准）
+
+- GLM-5.3 热度数据（2026-08-14）：query_raw_items（HN榜单，metadata.hn_points/hn_comments/author/created_at）= 1025分/513评论/@pella/2026-08-14 05:32 UTC；原文链接 https://z.ai/blog/glm-5.3
+- Qwen 3.8 27B 热度数据（2026-08-14）：query_raw_items（HN榜单，metadata.hn_points/hn_comments/author/created_at）= 870分/570评论/@erdaltoprak/2026-08-14 15:17 UTC；原文链接 https://huggingface.co/Qwen/Qwen3.8-27B-FP8
+- Opus 5 热度数据（2026-08-14）：query_raw_items（HN榜单，metadata.hn_points/hn_comments/author/created_at）= 765分/700评论/@numeri/2026-08-14 10:32 UTC；原文链接 https://mun-logadan.github.io/why-does-opus-5-feel-worse/
+- Every Fucking Website 热度数据（2026-08-14）：query_raw_items（HN榜单，metadata.hn_points/hn_comments/author/created_at）= 736分/444评论/@doubletwoyou/2026-08-14 14:47 UTC；原文链接 https://lxe.github.io/everywebsite/
+- Firefox/uBlock Origin 热度数据（2026-08-14）：query_raw_items（HN榜单，metadata.hn_points/hn_comments/author/created_at）= 356分/131评论/@DemiGuru/2026-08-14 19:06 UTC；原文链接 https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html
+- HEIR/同态加密 热度数据（2026-08-14）：query_raw_items（HN榜单，metadata.hn_points/hn_comments/author/created_at）= 268分/162评论/@u1hcw9nx/2026-08-14 16:02 UTC；原文链接 https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/
+- RustDesk Wayland 热度数据（2026-08-14）：query_raw_items（HN榜单，metadata.hn_points/hn_comments/author/created_at）= 215分/94评论/@toddmorey/2026-08-14 16:36 UTC；原文链接 https://rustdesk.com/blog/unattended-remote-access-wayland/
+- Bluesky Protocol Services 热度数据（2026-08-14）：query_raw_items（HN榜单，metadata.hn_points/hn_comments/author/created_at）= 204分/65评论/@danabramov/2026-08-14 00:32 UTC；原文链接 https://atproto.com/blog/introducing-bluesky-protocol-services
+- AI by Hand 热度数据（2026-08-14）：query_raw_items（HN榜单，metadata.hn_points/hn_comments/author/created_at）= 192分/16评论/@sans_souse/2026-08-14 16:17 UTC；原文链接 https://www.byhand.ai/
+- Everything is about to go dark 热度数据（2026-08-14）：query_raw_items（HN榜单，metadata.hn_points/hn_comments/author/created_at）= 169分/109评论/@vslira/2026-08-14 21:02 UTC；原文链接 https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/
+- 链接腐烂研究样本：657607条短链接、655178条可抓取记录、去重后492620个URL及21.3%成功加载率；来源为原文 https://0.mk/blog/link-rot（稿件抓取内容）
+
+- HN 条目热度与元数据（GLM-5.3、Qwen 3.8 27B、Opus 5、Every Fucking Website、Firefox/uBlock Origin、RustDesk、Claude Code、DeepSeek V4 Pro 等）: query_raw_items(source=hackernews, limit=10, min_points=100) = 返回各条 metadata.hn_points/hn_comments/author/时间
+- Claude Code 会话优化要点（/clear、固定模型与 effort、@ 文件、静默命令、/context、/compact）: fetch_url(url=https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions, max_chars=3000) = Anthropic 官方正文
+- RustDesk Wayland 无人值守访问：支持多显示器、重启后登录界面连接；当前为 x86_64 Debian/Ubuntu 预览版，计划扩展 Fedora/Arch: fetch_url(url=https://rustdesk.com/blog/unattended-remote-access-wayland/, max_chars=2500) = RustDesk 官方正文
+- “go dark”文章关于端到端加密、执法可见性与 AI 提升软件安全的论述: fetch_url(url=https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/, max_chars=3500) = Matthew Green 正文
+- HN 帖子 GLM-5.3 热度: query_raw_items(source='hackernews', keyword=null, limit=20) = 1025 points, 513 comments, @pella, 2026-08-14 05:32 UTC（稿件既有记录；接口摘要字段存在冲突，正文采用 metadata 头部值）
+- HN 帖子 Qwen 3.8 27B 热度: query_raw_items(source='hackernews', keyword=null, limit=20) = 870 points, 570 comments, @erdaltoprak, 2026-08-14 15:17 UTC（稿件既有记录；接口摘要字段存在冲突，正文采用 metadata 头部值）
+- HN 帖子 Opus 5 热度: query_raw_items(source='hackernews', keyword=null, limit=20) = 765 points, 700 comments, @numeri, 2026-08-14 10:32 UTC
+- HN 帖子 HEIR 热度: query_raw_items(source='hackernews', keyword=null, limit=20) = 268 points, 162 comments, @u1hcw9nx, 2026-08-14 16:02 UTC
+- HN 帖子链接腐烂研究: query_raw_items(source='hackernews', keyword=null, limit=20) = 222 points, 207 comments, @tdx, 2026-08-13 18:02 UTC
+- HN 帖子 Every Fucking Website 热度: query_raw_items(source='hackernews', keyword=null, limit=20) = 736 points, 444 comments, @doubletwoyou, 2026-08-14 14:47 UTC
+- HN 帖子 Firefox/uBlock Origin 热度: query_raw_items(source='hackernews', keyword=null, limit=20) = 356 points, 131 comments, @DemiGuru, 2026-08-14 19:06 UTC
+- HN 帖子 Claude Code 会话指南热度: query_raw_items(source='hackernews', keyword=null, limit=20) = 129 points, 86 comments, @twapi, 2026-08-14 16:36 UTC
+- HN 帖子 Bluesky Protocol Services 热度: query_raw_items(source='hackernews', keyword=null, limit=20) = 204 points, 65 comments, @danabramov, 2026-08-14 00:32 UTC
+- HN 帖子 RustDesk Wayland 热度: query_raw_items(source='hackernews', keyword=null, limit=20) = 215 points, 94 comments, @rustdesk, 2026-08-14 16:36 UTC
+- HN 帖子巨型 PR 热度: query_raw_items(source='hackernews', keyword=null, limit=20) = 63 points, 39 comments, @trezm, 2026-08-15 01:36 UTC
+- HN 帖子 DeepSeek V4 Pro 0813 热度: drafts/current.md 既有记录 = 1027 points, 446 comments, @explosion-s, 2026-08-12 16:17 UTC；原始查询本轮未返回，保留并标注为跨日数据
+- 链接腐烂研究样本: drafts/current.md 既有正文 = 657,607 条短链接；655,178 条可抓取记录；23.32% 返回 2xx/3xx；去重后 492,620 个 URL 中 21.3% 成功加载（原文链接 https://0.mk/blog/link-rot）
+
+- HN 原始条目：Show HN: LuaCAD – Parametric CAD Scripted in Lua（2026-08-14，积分 70）: query_raw_items(keyword=null,source=hackernews,limit=100) = 条目存在
+- HN 原始条目：Show HN: WinCore – Open-Source Windows Utilities for AI and PyTorch（2026-08-14）: query_raw_items(keyword=null,source=hackernews,limit=100) = 条目存在
+- HN 原始条目：Agent Safety Should Be a Runtime Contract（2026-08-14）: query_raw_items(keyword=null,source=hackernews,limit=100) = 条目存在
+- HN 原始条目：I might have solved computer use（2026-08-14）: query_raw_items(keyword=null,source=hackernews,limit=100) = 条目存在
+- HN 原始条目：Show HN: Control Claude Code, Codex, Pi and Gemini CLI from Telegram（2026-08-14）: query_raw_items(keyword=null,source=hackernews,limit=100) = 条目存在
+- HN 原始条目：DeepSeek peak/off-peak pricing update（2026-08-14）: query_raw_items(keyword=null,source=hackernews,limit=100) = 条目存在
+- HN 原始条目：Zed: Delta（2026-08-14）: query_raw_items(keyword=null,source=hackernews,limit=100) = 条目存在
+- HN 原始条目：RustDesk now supports true unattended remote access on Wayland（2026-08-14，积分 215）: query_raw_items(keyword=null,source=hackernews,limit=100) = 条目存在
+
+- HN 条目 GLM-5.3：query_raw_items(source=hackernews, keyword=49294997) = 1025 points、513 comments、作者 @pella、发布时间 2026-08-14 05:32 UTC、原文 https://z.ai/blog/glm-5.3、评论页 https://news.ycombinator.com/item?id=49294997
+- HN 条目 Qwen 3.8 27B：query_raw_items(source=hackernews, keyword=49299605) = 870 points、570 comments、作者 @erdaltoprak、发布时间 2026-08-14 15:17 UTC、原文 https://huggingface.co/Qwen/Qwen3.8-27B-FP8
+- HN 条目 Opus 5：query_raw_items(source=hackernews, keyword=49296740) = 765 points、700 comments、作者 @numeri、发布时间 2026-08-14 10:32 UTC、原文 https://mun-logadan.github.io/why-does-opus-5-feel-worse/
+- HN 条目 Google HEIR：query_raw_items(source=hackernews, keyword=49300314) = 268 points、162 comments、作者 @u1hcw9nx、发布时间 2026-08-14 16:02 UTC、原文 https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/
+- HN 条目 go dark：query_raw_items(source=hackernews, keyword=49304447) = 169 points、109 comments、作者 @vslira、发布时间 2026-08-14 21:02 UTC、原文 https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/
+- HN 条目 link rot：query_raw_items(source=hackernews, keyword=49289532) = 222 points、207 comments、作者 @tdx、发布时间 2026-08-13 18:02 UTC、原文 https://0.mk/blog/link-rot
+- HN 条目 Firefox/uBlock：query_raw_items(source=hackernews, keyword=49303202) = 356 points、131 comments、作者 @DemiGuru、发布时间 2026-08-14 19:06 UTC、原文 https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html
+- HN 前一日高热条目核验：query_raw_items(source=hackernews, source=hackernews, limit=100) = DeepSeek V4 Pro 0813 1027 points（#1）、AI is removing the middle class of software engineering 984 points（#3）、Qwen 3.8 2.4T 710 points（#7）、uBlock Origin 709 points（#8）、Cerebras GPT-5.6 697 points（#9）；均为 2026-08-12/14 抓取窗口条目。
+- HN 技术信号独立复核：query_raw_items(source=hackernews, min_points=60, limit=50, status=null) 返回包含 DeepSeek V4 Pro 0813（1027分）、Qwen3.8-2.4T-A95B（710分）、Cerebras Accelerating GPT-5.6 Sol Ultrafast（697分）、Zed: Delta（672分）、Codex in ChatGPT desktop app for Linux preview（463分）、Mistral OCR 4.1（402分）、Show HN: Woxi（312分）、mass vulnerability scans spoofing AI bots（302分）、RustDesk unattended remote access on Wayland（215分）、How Compaction Works in Pi（202分）等未出现在稿件技术雷达；来源工具=query_raw_items(source=hackernews,min_points=60,limit=50,status=null)，查询结果于本次审查返回。

@@ -1,19 +1,4 @@
----
-name: HN 书摘 · 2026-08-15
-slug: hn-daily
-status: active
-lead_agent: tech_generalist
-created: 2026-08-15
-updated: 2026-08-15T13:55:56+08:00
-revision: 2026-08-15
-sources:
-  - path: 2026-08-15_1340__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/reference.md
-    agent: hn_daily_update
-    summarized: false
----
-
 # HN 书摘 · 2026-08-15（周六）
-
 
 > 今日三句话：① AI 讨论的焦点从“模型是否更强”转向“是否适合真实工作流”，开放权重、显存效率和代理行为成为关键约束。② 同态加密开始以工具链形式进入 AI 工程，但隐私收益仍伴随显著性能成本。③ 链接腐烂、广告拦截与平台规则等议题说明，技术社区关心的不只是新功能，也关心数字基础设施能否长期保持可访问、可控制和可验证。
 
