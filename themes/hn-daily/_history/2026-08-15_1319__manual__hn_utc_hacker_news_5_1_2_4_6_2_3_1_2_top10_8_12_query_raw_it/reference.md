@@ -1,0 +1,53 @@
+# 数据溯源
+- GLM-5.3: Frontier Coding with Emergent Cyber Capabilities: query_raw_items(source=hackernews,min_points=60) = 1025分, 513评论, 2026-08-14 05:32:39 UTC, URL https://z.ai/blog/glm-5.3
+- Qwen 3.8 27B is out: open weights, best local dense model yet: query_raw_items(source=hackernews,min_points=60) = 870分, 570评论, 2026-08-14 15:17:33 UTC, URL https://huggingface.co/Qwen/Qwen3.8-27B-FP8
+- Why does Opus 5 feel worse to work with?: query_raw_items(source=hackernews,min_points=60) = 765分, 700评论, 2026-08-14 10:32:14 UTC, URL https://mun-logadan.github.io/why-does-opus-5-feel-worse/
+- Every Fucking Website: query_raw_items(source=hackernews,min_points=60) = 736分, 444评论, 2026-08-14 14:47:56 UTC, URL https://lxe.github.io/everywebsite/
+- Count Binface receives over a quarter of votes in Clacton by-election: query_raw_items(source=hackernews,min_points=60) = 431分, 343评论, 2026-08-14 17:02:20 UTC, URL https://www.bbc.com/news/articles/ce97mm3vvemo
+- Firefox is now the last major browser that still supports uBlock Origin: query_raw_items(source=hackernews,min_points=60) = 356分, 131评论, 2026-08-14 19:06:24 UTC, URL https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html
+- Google Is Making Private AI Practical with Homomorphic Encryption: query_raw_items(source=hackernews,min_points=60) = 268分, 162评论, 2026-08-14 16:02:21 UTC, URL https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/
+- Bluesky Protocol Services: query_raw_items(source=hackernews,min_points=60) = 204分, 65评论, 2026-08-14 00:32:28 UTC, URL https://atproto.com/blog/introducing-bluesky-protocol-services
+- RustDesk now supports true unattended remote access on Wayland: query_raw_items(source=hackernews,min_points=60) = 215分, 93评论, 2026-08-14 16:36:48 UTC, URL https://rustdesk.com/blog/unattended-remote-access-wayland/
+- Everything is about to "go dark": query_raw_items(source=hackernews,min_points=60) = 169分, 109评论, 2026-08-14 21:02:26 UTC, URL https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/
+- Why does Opus 5 feel worse to work with? 正文: fetch_url(url=https://mun-logadan.github.io/why-does-opus-5-feel-worse/) = 作者称 Opus 5 benchmark 能力更强但实际协作感差，较少澄清、更多自行假设和改写计划；作者推测 benchmark/RLVR 偏好在歧义下大胆猜测，与真实编码任务需要停下询问存在张力。
+- Every Fucking Website 正文: fetch_url(url=https://lxe.github.io/everywebsite/) = 以讽刺页面展示弹窗、订阅、cookie 同意、聊天机器人等网站常见摩擦。
+- Google HEIR 正文: fetch_url(url=https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/) = Google 发布开源 HEIR 编译器工具链，目标是将预训练模型转换为可在加密输入上推理；同态加密在密文上计算，代价是额外开销但隐私保证基于密码学。
+- Bluesky Protocol Services 正文: fetch_url(url=https://atproto.com/blog/introducing-bluesky-protocol-services) = 发布 Jetstream v2 Network Replay，可从历史任意点回放并无缝切到实时流；归档请求需 API token，实时流仍无需认证。
+- RustDesk Wayland 正文: fetch_url(url=https://rustdesk.com/blog/unattended-remote-access-wayland/) = 预览版支持 Wayland 真正无人值守远程访问、多显示器和重启后登录屏幕；目前限 x86_64 Debian/Ubuntu，后续计划扩展发行版。
+- BBC Clacton 正文: fetch_url(url=https://www.bbc.com/news/articles/ce97mm3vvemo) = Count Binface 获 9455票、26.9%，Farage 63.3%；文章介绍其讽刺政治背景。
+- Cryptography Engineering 正文: fetch_url(url=https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/) = 作者担忧 AI 让软件安全性提高到执法机构失去入侵和监控能力，回顾手机存储加密与端到端加密推动的“going dark”。
+
+- GLM-5.3 HN 热度：query_raw_items(source='hackernews', min_points=60, limit=100) = 1025 points / 513 comments / @pella / 2026-08-14 05:32 UTC；fetch_url(https://news.ycombinator.com/item?id=49294997) 页面显示抓取时为 1058 points / 525 comments，正文采用 HN 评论页实际抓取内容。
+- Qwen 3.8 27B HN 热度：query_raw_items(source='hackernews', min_points=60, limit=100) = 870 points / 570 comments / @erdaltoprak / 2026-08-14 15:17 UTC；fetch_url(https://news.ycombinator.com/item?id=49299605) 页面显示抓取时为 998 points / 643 comments，正文采用 HN 评论页实际抓取内容。
+- Opus 5 体验帖 HN 热度：query_raw_items(source='hackernews', min_points=60, limit=100) = 765 points / 700 comments / @numeri / 2026-08-14 10:32 UTC；fetch_url(https://news.ycombinator.com/item?id=49296740) 页面显示抓取时为 820 points / 749 comments，正文采用原文及 HN 评论页实际抓取内容。
+- Google 同态加密 HN 热度：query_raw_items(source='hackernews', min_points=60, limit=100) = 268 points / 162 comments / @u1hcw9nx / 2026-08-14 16:02 UTC；fetch_url(https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/) = HEIR 开源编译器、可在密文上执行 AI 推理，但存在非平凡成本开销。
+- Firefox/uBlock HN 热度：query_raw_items(source='hackernews', min_points=60, limit=100) = 356 points / 131 comments / @DemiGuru / 2026-08-14 19:06 UTC。
+- RustDesk Wayland HN 热度：query_raw_items(source='hackernews', min_points=60, limit=100) = 215 points / 94 comments / @rustdesk / 2026-08-14 16:36 UTC。
+- Netlify 11 模型比较 HN 热度：query_raw_items(source='hackernews', min_points=60, limit=100) = 215 points / 94 comments / @toddmorey / 2026-08-13 13:17 UTC；fetch_url(https://www.netlify.com/blog/one-prompt-11-models-very-different-results/) = Netlify 使用 AXIS 对相同提示测试多个模型，并通过 AI Gateway/Agent Runners 提供模型选择。
+- Pi Compaction HN 热度：query_raw_items(source='hackernews', min_points=60, limit=100) = 202 points / 90 comments / @newsomix9xl / 2026-08-13 07:02 UTC；fetch_url(https://earendil.com/posts/compaction-in-pi/) = 上下文超限后通过压缩历史继续 coding agent 会话。
+- Known Agents 页面：fetch_url(https://knownagents.com/insights) = 覆盖 5,000+ 网站；页面显示 AI 相关 bot 流量占 bot 流量 29%（较前 90 天 +12%），robots.txt 遵循率 98.5%。
+- HN item 页面抓取时热度与 query_raw_items 元数据不一致；日报数据速览采用 query_raw_items 返回的 metadata 数值，评论摘录注明抓取时页面数值可能变化。
+- HN 热度与元数据（GLM-5.3、Qwen 3.8 27B、Opus 5 等条目）: query_raw_items(source='hackernews', min_points=60, limit=50) = 以 metadata.hn_points / metadata.hn_comments / author / 时间为准；当前稿使用的快照值见正文与数据速览
+- GLM-5.3 HN 讨论页: fetch_url(url='https://news.ycombinator.com/item?id=49294997') = 社区红队/防守任务使用反馈；非独立基准
+- Qwen 3.8 27B HN 讨论页: fetch_url(url='https://news.ycombinator.com/item?id=49299605') = 单个用户本地推理测试反馈；非普遍性能结论
+- Google HEIR 原文: fetch_url(url='https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/') = Private Computing Toolkit 与同态加密推理相关说明
+- Known Agents 原文: fetch_url(url='https://knownagents.com/insights') = 页面显示 AI 相关流量占 bot 流量 29%、robots.txt 遵循率 98.5%、统计超过 5,000 个网站；页面口径，非独立审计
+
+- 2026-08-15 UTC Hacker News Top10 分数/评论/作者/时间: query_raw_items(source=hackernews, limit=10, status=null) = Ploopy A+ 65/35 @big_toast; Simplifying Calculus 61/15 @E-Reverance; Every fucking website 61/17 @nerdypepper; Eigendrum 62/15 @bookofjoe; American sports plutocracy 60/44 @momentmaker; M7.7 Indonesia earthquake 80/16 @Bender; Jane Street $15B hit 80/32 @bobstax; Stop sending huge PRs 63/39 @trezm; coffee study 60/56 @_____k; Apple 15% external purchases 60/50 @sbulaev.
+- arXiv 1811.03459 摘要与发布日期: fetch_url(url=https://arxiv.org/abs/1811.03459) = Jonathan Bartlett, submitted 2018-11-07, proposes simplifying/refactoring introductory calculus processes.
+- Eigendrum 功能与技术说明: fetch_url(url=https://eigendrum.com/#p=circle) = interactive drumhead; shape modes solved numerically via finite-element mesh, stiffness/mass matrices and eigenvalue problem.
+- American sports plutocracy 文章正文: fetch_url(url=https://www.derekthompson.org/p/the-american-sports-plutocracy-is) = Lakers valuation described as $10B to $12.5B in roughly one year; author argues sports ownership concentrates billionaire wealth.
+- Oulu coffee study正文: fetch_url(url=https://www.oulu.fi/en/news/study-links-coffee-consumption-metabolic-health-and-sex-hormones) = observational study of 2,264 Northern Finland Birth Cohort 1966 participants; higher coffee consumption associated with lower fat, higher skeletal muscle and sex-specific hormone patterns; does not establish causality.
+- Apple external purchase proposal正文: fetch_url(url=https://techcrunch.com/2026/08/14/apple-proposes-to-take-a-15-cut-of-purchases-made-outside-the-app-store/) = Apple proposed 15% standard commission, 5% small business, 10% selected programs/subscription renewals, after Supreme Court rejected pause request.
+- Every Fucking Website正文: fetch_url(url=https://op.tngl.io/every-fucking-website/) = satirical website template text including generic CTAs, logos and install.sh prompt.
+- Ploopy A+正文抓取失败: fetch_url(url=https://blog.ploopy.co/the-aplus-is-finally-here-499) = HTTP 500.
+- USGS earthquake page抓取失败: fetch_url(url=https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive) = JavaScript-required page, event details beyond raw title not independently extracted.
+- HN 条目独立核验：Ploopy A+ Trackball 65 points/35 comments；Simplifying and Refactoring Introductory Calculus 61/15；Every fucking website: 2026 edition 61/17；eigendrum 62/15；The American sports plutocracy 60/44；Magnitude 7.7 Earthquake 80/16；Jane Street 80/32；Stop sending me huge PRs 63/39；Study links coffee consumption to metabolic health and sex hormones 60/56；Apple external App Store purchases 60/50（2026-08-15 UTC）: query_raw_items(source=hackernews, keyword="Hacker News", limit=100) = 返回条目元数据
+- 独立 HN 检索还返回 Everything is about to "go dark"，但该条目返回元数据内部同时出现 ▲169/💬109 与摘要中的 Points:1/# Comments:0，数据存在冲突，不能据此确认热度: query_raw_items(source=hackernews, keyword="Hacker News", limit=100) = 条目记录
+
+- 独立复核：HN 高热度条目 GLM-5.3 = query_raw_items(source=hackernews,min_points=50,limit=50) = 1025分, 513评论, @pella, 2026-08-14 05:32 UTC, URL https://z.ai/blog/glm-5.3
+- 独立复核：HN 高热度条目 Qwen 3.8 27B = query_raw_items(source=hackernews,min_points=50,limit=50) = 870分, 570评论, @erdaltoprak, 2026-08-14 15:17 UTC, URL https://huggingface.co/Qwen/Qwen3.8-27B-FP8
+- 独立复核：HN 高热度条目 Opus 5 = query_raw_items(source=hackernews,min_points=50,limit=50) = 765分, 700评论, @numeri, 2026-08-14 10:32 UTC, URL https://mun-logadan.github.io/why-does-opus-5-feel-worse/
+- 独立复核：HN Every Fucking Website = query_raw_items(source=hackernews,min_points=50,limit=50) = 736分, 444评论, @doubletwoyou, 2026-08-14 14:47 UTC, URL https://lxe.github.io/everywebsite/
+- 当前快照：HN Top10条目 = query_raw_items(source=hackernews,limit=10,status=null) = Ploopy 65/35, Calculus 61/15, Every website 61/17, Eigendrum 62/15, Sports 60/44, Indonesia earthquake 80/16, Jane Street 80/32, huge PR 63/39, coffee 60/56, Apple 60/50
+- 印尼地震后续新闻 = query_raw_items(keyword=Indonesia earthquake,source=aljazeera,limit=10) = 2026-08-15 05:02 UTC报道至少5人死亡；HN/USGS页面未提取伤亡信息

@@ -1,19 +1,4 @@
----
-name: HN 书摘 · 2026-08-15
-slug: hn-daily
-status: active
-lead_agent: tech_generalist
-created: 2026-08-15
-updated: 2026-08-15T13:32:52+08:00
-revision: 2026-08-15
-sources:
-  - path: 2026-08-15_1319__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/reference.md
-    agent: hn_daily_update
-    summarized: false
----
-
 # HN 书摘 · 2026-08-15（周六）
-
 
 > 今日三句话：① 今日榜单从 AI 模型转向硬件、数学教育、交互实验、金融风险与平台规则，技术社区关注点明显分散。② Apple 对 App Store 外部支付提出 15% 标准费率，平台控制权与监管博弈仍是高热度议题。③ 多数原文可抓取内容有限，以下仅采用原文或工具返回正文能够核验的事实，无法确认处明确标注。
 
