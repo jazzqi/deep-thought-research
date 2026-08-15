@@ -1,0 +1,9 @@
+- GLM-5.3 Hacker News 条目热度: query_raw_items(source='hackernews', min_points=60) = 1025 points, 513 comments, 2026-08-14 05:32 UTC
+- Qwen 3.8 27B Hacker News 条目热度: query_raw_items(source='hackernews', min_points=60) = 870 points, 570 comments, 2026-08-14 15:17 UTC
+- Opus 5 体验文章热度: query_raw_items(source='hackernews', min_points=60) = 765 points, 700 comments, 2026-08-14 10:32 UTC
+- Every Fucking Website 热度: query_raw_items(source='hackernews', min_points=60) = 736 points, 444 comments, 2026-08-14 14:47 UTC
+- Google HEIR 文章核心内容: fetch_url(url='https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/') = 开源同态加密编译器工具链，可将预训练模型转换为处理加密输入
+- Jetstream v2 Network Replay: fetch_url(url='https://atproto.com/blog/introducing-bluesky-protocol-services') = 历史归档回放后切换实时流；归档请求需 API token，实时流保持开放
+- RustDesk Wayland: fetch_url(url='https://rustdesk.com/blog/unattended-remote-access-wayland/') = 预览支持重启后、登录界面和多显示器无人值守访问，当前面向 x86_64 Debian/Ubuntu
+- 澳大利亚家庭电池: fetch_url(url='https://e360.yale.edu/digest/australia-home-batteries') = 报道援引官员称安装超过500,000套，过去12个月批发电价下降约47%
+- HN Top10 快照: query_raw_items(source='hackernews', min_points=60) = UTC 2026-08-14窗口候选，按 hn_points 排序
