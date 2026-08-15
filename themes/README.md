@@ -48,6 +48,7 @@
 | ai-second-order | kevin_kelly | foresight + sector + fundamental + macro | 前瞻/衍生机会 | ai-industry, disruptive-innovation, ten-bagger-hunting, semiconductor, global-macro, market-sentiment |
 | brk | buffett | fundamental + macro + sentimental + risk(taleb 审查) | 人物情报/机会发现（跟风标的） | global-macro, market-daily, market-sentiment |
 | justin-sun | crypto_trader | crypto + sentimental + macro + geopolitics + risk(taleb 审查) | 人物情报/资金动向 | cryptocurrency, btc, global-macro, market-sentiment, geo-conflicts |
+| hn-daily | tech_generalist | sector + foresight | 综合/每日扫描（人读书摘） | ai-industry, disruptive-innovation, market-daily |
 
 ## 数据蒸馏机制（DISTILLATION）
 

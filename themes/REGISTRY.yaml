@@ -602,3 +602,23 @@ themes:
       - global-macro
       - market-sentiment
       - geo-conflicts
+
+  - slug: hn-daily
+    name: HN 书摘（Hacker News 每日扫描）
+    status: active
+    priority: 5
+    created: 2026-08-15
+    assets: []
+    tags:
+      - hacker news
+      - developer ecosystem
+      - AI infra
+      - startup
+      - tech trends
+      - open source
+      - software engineering
+      - Show HN
+    related_themes:
+      - ai-industry
+      - disruptive-innovation
+      - market-daily
