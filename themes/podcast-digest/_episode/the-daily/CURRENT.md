@@ -1,9 +1,9 @@
 # 当前待整理集（podcast-digest）
 
-- **标题**：Are The Democratic Socialists Winning or Losing?
+- **标题**：After Losing Her Limbs, Our Cooking Columnist Returns to the Kitchen
 - **来源**：happyscribe:the-daily
-- **发布时间**：2026-08-13T09:45:00+00:00
-- **原文链接**：https://podcasts.happyscribe.com/the-daily/are-the-democratic-socialists-winning-or-losing
+- **发布时间**：2026-08-02T10:00:00+00:00
+- **原文链接**：https://podcasts.happyscribe.com/the-daily/after-losing-her-limbs-our-cooking-columnist-returns-to-the-kitchen
 
 ## Transcript（共 2 段，每段 ~20KB）
 
