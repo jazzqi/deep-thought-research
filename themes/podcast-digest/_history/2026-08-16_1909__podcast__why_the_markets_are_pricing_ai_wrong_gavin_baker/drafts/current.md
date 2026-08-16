@@ -1,16 +1,4 @@
----
-name: Why the Markets Are Pricing AI Wrong｜Gavin Baker
-slug: podcast-digest
-status: active
-lead_agent: tech_generalist
-created: 2026-08-16
-updated: 2026-08-16T19:11:03+08:00
-revision: 2026-08-16
-sources: []
----
-
 # Why the Markets Are Pricing AI Wrong｜Gavin Baker
-
 
 > AI 的市场定价错误，核心不在于“AI 是不是一项真实技术”，而在于市场仍习惯用上一轮软件周期的框架理解它：寻找轻资产、高毛利、快速扩张的软件公司，却低估了算力、能源、数据中心、芯片供给和资本开支对产业利润分配的决定性作用。
 >
