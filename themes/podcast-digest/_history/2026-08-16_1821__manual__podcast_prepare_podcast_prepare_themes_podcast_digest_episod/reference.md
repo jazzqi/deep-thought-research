@@ -1,0 +1,7 @@
+- Fireworks 相比云厂商同模型同英伟达硬件约 5 倍速度性能、数倍吞吐差异: transcript_01.md（播客转录稿，Invest Like the Best） = 嘉宾原话称性能差异约 5x、吞吐 multiple x，说明推理优化存在专业壁垒
+- 云计算格局由 AWS/Azure/GCP 寡头及 Cloudflare 等细分赢家构成: transcript_01.md = 嘉宾以 2006 年 AWS、2014 年市场误判及 2026 年格局作类比
+- AI 企业采用更主动但需要 AI 向导: transcript_01.md = 嘉宾比较云早期企业怀疑与当前企业实验、投入和主动寻求落地
+- 数据库竞争标准转向成本、零到无限弹性、可迁移性: transcript_01.md = 嘉宾关于 AI agent 降低数据库迁移成本的判断
+- AI 计算瓶颈可能转向能源: transcript_02.md = 嘉宾将模型视为把计算转化为智能，称能源供应限制可能导致 token 更贵或供给更少
+- 机器人核心是高质量数据、预训练与后训练飞轮: transcript_02.md = 嘉宾以 Sunday Robotics、Waymo/Tesla 的数据闭环为例
+- 辐射科 AI 更可能先与医生协作而非立即替代: transcript_04.md = 嘉宾指出数据、责任、报销和真实工作流约束

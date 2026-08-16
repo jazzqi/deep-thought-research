@@ -1,0 +1,4 @@
+## 第 1 轮 Lead 综合（tech_generalist）
+
+{"offset":0,"path":"themes/podcast-digest/_episode/transcript_04.md"}{"offset":0,"path":"themes/podcast-digest/_episode/transcript_04.md"}{"offset":0,"path":"themes/podcast-digest/_episode/transcript_04.md"}{"offset":0,"path":"themes/podcast-digest/_episode/transcript_04.md"}{"importance":0.8,"ttl_hint":"30d","content":"播客转录稿（Invest Like the Best，日期待从节目元数据确认）核心判断：AI 基础设施并非简单商品转售；Fireworks 相对云厂商同模型同英伟达硬件可有约 5 倍速度性能差异及数倍吞吐差异，专业推理优化构成能力壁垒。AI 产业更可能形成寡头加多个百亿美元级细分赢家，类比 AWS 早期被误判为会吞噬一切但最终形成 AWS/Azure/GCP 寡头且 Cloudflare 等细分赢家。企业 AI 采用较云早期更主动，但需要跨越技术与企业场景的 AI 向导。模型能力进展使软件产品像沙堡，竞争前沿从稳定执行计划转为持续重构、理解模型“锯齿边缘”和客户问题。数据库胜负标准从粘性接口转向低成本、零到无限弹性、可迁移性。能源可能是智能需求对应的计算瓶颈。机器人关键不是单一任务而是高质量数据采集、预训练与后训练飞轮。来源：themes/podcast-digest/_episode/transcript_01.md至transcript_03.md、transcript_05.md。"} 天天中彩票腾讯{"action":"finalize","questions":[],"confirmed_missing_indicators":[],"confirmed_event_mappings":[]}
+

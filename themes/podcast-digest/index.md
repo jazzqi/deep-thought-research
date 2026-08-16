@@ -13,13 +13,18 @@ sources: []
 > 把已抓取的 podcast / YouTube 访谈转录稿蒸馏为中文学习文档（D96）。
 > 单集成文，金字塔结构，频道固定分工，按节目分目录。
 
+## 频道目录
+
+- [Invest Like The Best](./iltb/) — 投资/商业访谈
+- [All-In Podcast](./all-in/) — 科技+宏观圆桌
+- [The Daily (NYT)](./the-daily/) — 每日新闻
+
 ## 最新一期
 
-- [Sam Altman on AGI, Compute, and Human Agency](./sam-altman-on-agi-compute-and-human-agency.md)
+- [Sam Altman on AGI, Compute, and Human Agency](./iltb/sam-altman-on-agi-compute-and-human-agency.md)
 
 ## 往期
-- [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback —— All In · 2026-08-14](./anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
-- [Sam Altman on AGI, Compute, and Human Agency](./sam-altman-on-agi-compute-and-human-agency.md)
-- [Why the Markets Are Pricing AI Wrong｜Gavin Baker](./why-the-markets-are-pricing-ai-wrong-gavin-baker.md)
-- [Everyone Is Still Undersizing the AI Market｜Eric Vishria](./everyone-is-still-undersizing-the-ai-market-eric-vishria.md)
+- [Sam Altman on AGI, Compute, and Human Agency](./iltb/sam-altman-on-agi-compute-and-human-agency.md)
+- [Why the Markets Are Pricing AI Wrong｜Gavin Baker](./iltb/why-the-markets-are-pricing-ai-wrong-gavin-baker.md)
+- [Everyone Is Still Undersizing the AI Market｜Eric Vishria](./iltb/everyone-is-still-undersizing-the-ai-market-eric-vishria.md)
