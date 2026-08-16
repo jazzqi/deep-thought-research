@@ -1,16 +1,4 @@
----
-name: Podcast 学习文档 chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow
-slug: podcast-digest
-status: active
-lead_agent: tech_generalist
-created: 2026-08-16
-updated: 2026-08-16T19:55:44+08:00
-revision: 2026-08-16
-sources: []
----
-
-# Podcast 学习文档 chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow
-
+ to=ReadThemeDocsTool  code
 {"path":"themes/WRITING_GUIDE.md"} to=functions.read_theme_docs_tool  code
 {"path":"themes/WRITING_GUIDE.md"}րցախ to=functions.read_theme_docs_tool  code
 {"path":"themes/podcast-digest/template.md"} to=functions.remember  code
