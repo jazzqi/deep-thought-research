@@ -1,16 +1,4 @@
----
-name: 'The Fight Over Open Source AI, Anthropic''s $1.5B Payout, NYC Socialists: Evictions = Violence? —— All-In Podcast · 2026-07-24'
-slug: podcast-digest
-status: active
-lead_agent: tech_generalist
-created: 2026-08-16
-updated: 2026-08-16T19:59:58+08:00
-revision: 2026-08-16
-sources: []
----
-
 # The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence? —— All-In Podcast · 2026-07-24
-
 
 > **总览**
 >
