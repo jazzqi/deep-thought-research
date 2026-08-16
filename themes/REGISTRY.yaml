@@ -622,3 +622,23 @@ themes:
       - ai-industry
       - disruptive-innovation
       - market-daily
+
+  - slug: podcast-digest
+    name: 播客/访谈学习文档（Podcast Digest）
+    status: active
+    priority: 4
+    created: 2026-08-16
+    assets: []
+    tags:
+      - podcast
+      - interview
+      - transcripts
+      - learning
+      - investment
+      - AI
+      - technology
+    related_themes:
+      - ai-industry
+      - disruptive-innovation
+      - market-daily
+      - hn-daily
