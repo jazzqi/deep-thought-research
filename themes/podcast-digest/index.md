@@ -18,6 +18,7 @@ sources: []
 （待首期）
 
 ## 往期
+- [Everyone Is Still Undersizing the AI Market —— Eric Vishria · 2026-08-11](./everyone-is-still-undersizing-the-ai-market-eric-vishria.md)
 - [Sam Altman on AGI, Compute, and Human Agency —— Sam Altman / ILTB Podcast · 2026-08-15](./2026-08-16.md)
 
 （待首期）
