@@ -18,6 +18,7 @@ sources: []
 - [Why the Markets Are Pricing AI Wrong｜Gavin Baker](./why-the-markets-are-pricing-ai-wrong-gavin-baker.md)
 
 ## 往期
+- [Sam Altman on AGI, Compute, and Human Agency —— Sam Altman / Invest Like the Best · 2026-07-28](./sam-altman-on-agi-compute-and-human-agency.md)
 
 - [Why the Markets Are Pricing AI Wrong｜Gavin Baker](./why-the-markets-are-pricing-ai-wrong-gavin-baker.md)
 - [Everyone Is Still Undersizing the AI Market｜Eric Vishria](./everyone-is-still-undersizing-the-ai-market-eric-vishria.md)
