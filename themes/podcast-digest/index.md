@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Sam Altman on AGI, Compute, and Human Agency](./iltb/sam-altman-on-agi-compute-and-human-agency.md)
+- [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
 
+- [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 - [Sam Altman on AGI, Compute, and Human Agency](./iltb/sam-altman-on-agi-compute-and-human-agency.md)
 - [Why the Markets Are Pricing AI Wrong｜Gavin Baker](./iltb/why-the-markets-are-pricing-ai-wrong-gavin-baker.md)
 - [Everyone Is Still Undersizing the AI Market｜Eric Vishria](./iltb/everyone-is-still-undersizing-the-ai-market-eric-vishria.md)
