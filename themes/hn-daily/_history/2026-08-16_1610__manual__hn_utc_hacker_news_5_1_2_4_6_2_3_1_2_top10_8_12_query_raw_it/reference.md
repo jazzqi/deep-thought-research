@@ -46,3 +46,8 @@
 - 独立查询中 DeepSeek V4 Pro 0813: query_raw_items({source:'hackernews',min_points:20,limit:50})[id:96106] = 1027 points、446 comments
 - 独立查询中 GLM-5.3: query_raw_items({source:'hackernews',min_points:20,limit:50})[id:101478] = 1025 points、513 comments
 - 独立查询中 Mistral OCR 4.1、llama.cpp、Woxi、Netlify 11 模型评测分别为开发者工具/模型基础设施/Show HN/评测生态候选: query_raw_items({source:'hackernews',min_points:20,limit:50})[id:99979,93869,94950,99244] = 条目摘要与原文链接
+
+- 2026-08-16 00:00–08:15 UTC 技术雷达候选包括 Show HN: Laptop is the last place your secrets are still in plaintext（▲21，GitHub jitpass/jit）: query_raw_items({"keyword":"Show HN OR library OR framework OR database OR compiler OR paper OR benchmark OR agent","source":"hackernews","limit":50})[id:123907] = HN 条目标题与链接，2026-08-16 07:36 UTC。
+- 2026-08-16 00:00–08:15 UTC 技术雷达候选包括 Show HN: Waku，使用 Rust 与 GPUI 的 coding agents 原生应用（▲22）: query_raw_items({"keyword":"Show HN OR library OR framework OR database OR compiler OR paper OR benchmark OR agent","source":"hackernews","limit":50})[id:123799] = HN 条目标题与链接，2026-08-16 05:06 UTC。
+- 2026-08-16 00:00–08:15 UTC 有 AI infra/开发者生态相关论文 AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code（▲20，arXiv:2608.13122）: query_raw_items({"keyword":"AI infra OR inference OR GPU OR LLM OR coding agent OR developer","source":"hackernews","limit":50})[id:123841] = HN 条目标题、arXiv 链接，2026-08-16 06:32 UTC。
+- 2026-08-15 00:00–08-16 00:00 UTC 有 Yadda 3.0.0: BDD in the Age of AI Agents（▲22，项目文章链接）: query_raw_items({"keyword":"Show HN OR library OR framework OR database OR compiler OR paper OR benchmark OR agent","source":"hackernews","limit":50})[id:123407] = HN 条目标题与文章链接，2026-08-15 16:02 UTC。
