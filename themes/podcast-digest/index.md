@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence? —— All-In Podcast · 2026-07-24](./all-in/the-fight-over-open-source-ai-anthropics-15b-payout-nyc-soci.md)
 - [The $1/Hour Worker：四位机器人 CEO 论人形机器人、 中国威胁与危险工作的终结 —— All-In · 2026-07-28](./all-in/the-1hour-worker-four-robotics-ceos-on-humanoids-at-home-chi.md)
 - [Podcast 学习文档 chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow](./all-in/chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow.md)
 - [Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores —— All-In · 2026-07-31](./all-in/chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow.md)
