@@ -18,4 +18,5 @@ sources: []
 - [Everyone Is Still Undersizing the AI Market｜Eric Vishria](./everyone-is-still-undersizing-the-ai-market-eric-vishria.md)
 
 ## 往期
+- [Podcast 学习文档 why-the-markets-are-pricing-ai-wrong-gavin-baker](./why-the-markets-are-pricing-ai-wrong-gavin-baker.md)
 - [Everyone Is Still Undersizing the AI Market｜Eric Vishria](./everyone-is-still-undersizing-the-ai-market-eric-vishria.md)
