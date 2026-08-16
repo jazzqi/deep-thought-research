@@ -26,11 +26,11 @@ depends_on:
 
 ## 频道固定分工（D96 §6，不预筛）
 
-| source 前缀 | 内容定位 | Lead | 写手池 |
-|---|---|---|---|
-| `youtube:@ILTB_Podcast` | 投资/商业访谈 | tech_generalist | ai_specialist, kevin_kelly, buffett |
-| `happyscribe:all-in*` | 科技+宏观圆桌 | tech_generalist | soros, ai_specialist, karpathy |
-| `happyscribe:the-daily` | 时事/政策 | geopolitics_agent | soros, kahneman |
+| source 前缀 | 内容定位 | Lead/写手 |
+|---|---|---|
+| `youtube:@ILTB_Podcast` | 投资/商业访谈 | tech_generalist |
+| `happyscribe:all-in*` | 科技+宏观圆桌 | tech_generalist |
+| `happyscribe:the-daily` | 时事/政策/社会 | **ackman（统揽全局）** |
 
 ## 写作铁律
 
