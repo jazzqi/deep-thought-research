@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores —— All-In · 2026-07-31](./all-in/chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow.md)
 - [Are The Democratic Socialists Winning or Losing? —— The Daily · 2026-08-13](./the-daily/are-the-democratic-socialists-winning-or-losing.md)
 - [The Secret Spy Network Feeding Russia’s War Machine —— The Daily · 2026-08-14](./the-daily/the-secret-spy-network-feeding-russias-war-machine.md)
 - [The Charming, Amusing, Surprisingly Low-Confidence Matthew Rhys —— Matthew Rhys · The Interview · 2026-08-15](./the-daily/the-charming-amusing-surprisingly-low-confidence-matthew-rhy.md)
