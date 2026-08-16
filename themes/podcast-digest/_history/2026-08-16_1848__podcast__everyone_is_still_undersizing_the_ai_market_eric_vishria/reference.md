@@ -1,0 +1,2 @@
+- Fireworks 在相同开源模型与英伟达硬件下，相比云厂商速度性能约 5 倍，另有数倍吞吐差异: query_raw_items({"keyword":"Fireworks","limit":50})[id:123326] = YouTube《Everyone Is Still Undersizing the AI Market | Eric Vishria》转录摘要称 Fireworks 相对云厂商性能约 5x，另叠加吞吐差异
+- Fireworks 于 2026-07-16 完成 15 亿美元融资、投后估值 175 亿美元，年化收入超过 10 亿美元: query_raw_items({"keyword":"Fireworks","limit":50})[id:62611] = BlockBeats 摘要称英伟达支持的 Fireworks 完成 15 亿美元融资，估值达 175 亿美元，年化收入超过 10 亿美元

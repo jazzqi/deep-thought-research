@@ -1,19 +1,4 @@
----
-name: Everyone Is Still Undersizing the AI Market｜Eric Vishria
-slug: podcast-digest
-status: active
-lead_agent: tech_generalist
-created: 2026-08-16
-updated: 2026-08-16T18:51:05+08:00
-revision: 2026-08-16
-sources:
-  - path: 2026-08-16_1848__podcast__everyone_is_still_undersizing_the_ai_market_eric_vishria/reference.md
-    agent: podcast_digest_update
-    summarized: false
----
-
 # Everyone Is Still Undersizing the AI Market｜Eric Vishria
-
 
 > AI 市场的规模被低估，不是因为还缺少一个更大的基础模型，而是因为模型能力正在快速变化，企业软件、推理基础设施、数据库和机器人都必须持续适应这条“锯齿形前沿”。真正的竞争优势将从“能否提供模型访问”转向“能否以更低成本、更高速度和更强弹性，把最新模型能力稳定接入真实工作流”。
 >
