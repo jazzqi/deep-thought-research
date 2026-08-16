@@ -1,0 +1,29 @@
+- Hacker News 条目时间、分数、评论数与作者: query_raw_items(source='hackernews', min_points=20, limit=500) = raw_items，按 2026-08-15 00:00–2026-08-16 00:00 UTC 取数；入选条目数值见 scratchpad.md
+- 自动研究 kernel 相对基线 232x、183 人排名第 12、超过 1500 次提交: fetch_url(https://sankalp.bearblog.dev/autoresearch/) = 原文正文
+- AI 药物发现临床相关影响证据有限、建议 benchmark 评估决策改善: fetch_url(https://www.nature.com/articles/s41573-026-01496-2) = Nature Reviews Drug Discovery 摘要
+- Debian LLM 一般决议投票期 2026-08-15 至 2026-08-28 UTC: fetch_url(https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html) = Debian 官方邮件
+- Zsh 5.9.2 于 2026-07-12 发布并包含历史丢失修复: fetch_url(https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/) = 作者原文
+- Yadda 3 的 Node-only、node:test、TypeScript 定义与 agent 分阶段改造: fetch_url(http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html) = 作者原文
+- Zig Writergate 的 vtable、调用者 buffer、显式 flush 与异步后端设计: fetch_url(https://alexrios.me/blog/writergate/) = 作者原文
+- Netflix GenRec 正文: fetch_url(https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3) = 403，未使用未经核实的技术细节
+
+- Auto-research kernel 相对基线 232x、183 名参赛者中第 12 名: fetch_url(https://sankalp.bearblog.dev/autoresearch/) = 原文正文
+- AI 药物发现临床相关影响证据有限、建议从模型验证转向决策改善: fetch_url(https://www.nature.com/articles/s41573-026-01496-2) = Nature 摘要
+- Debian LLM 一般决议投票时间 2026-08-15 00:00 UTC 至 2026-08-28 23:59:59 UTC: fetch_url(https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html) = Debian 官方邮件
+- Zsh 5.9.2 于 2026-07-12 发布并包含该历史丢失修复: fetch_url(https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/) = 作者原文
+- Yadda 3.0 采用 Node-only、node:test、TypeScript 定义，并由 Claude Code/Opus 4.8 协助分阶段现代化: fetch_url(http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html) = 作者原文
+- Zig Writergate 新 I/O 接口使用 vtable、调用者 buffer、显式 flush，并面向异步后端: fetch_url(https://alexrios.me/blog/writergate/) = 作者原文
+- HN Auto-research 条目热度: query_raw_items(keyword=autoresearch, source=hackernews, min_points=20) = 33 points, 7 comments, @tosh, item 123313
+- HN Netflix GenRec 条目热度: query_raw_items(keyword=Netflix, source=hackernews, min_points=20) = 21 points, 23 comments, @Anon84, item 123366
+- HN Debian LLM 条目热度: query_raw_items(keyword=Debian, source=hackernews, min_points=20) = 27 points, 16 comments, @matheusmoreira, item 123304
+- HN Yadda 条目热度: query_raw_items(keyword=Yadda, source=hackernews, min_points=20) = 22 points, 6 comments, @scresswell, item 123407
+- HN Nature AI drug discovery 条目热度: query_raw_items(keyword=drug discovery, source=hackernews, min_points=20) = 33 points, 21 comments, @AnodicElegy, item 123523
+- HN Science AI drug discovery 条目热度: query_raw_items(keyword=drug discovery, source=hackernews, min_points=20) = 24 points, 8 comments, @AnodicElegy, item 123512
+- HN Zsh bug 条目热度: query_raw_items(keyword=zsh history, source=hackernews, min_points=20) = 20 points, 2 comments, @ingve, item 123608
+
+- 2026-08-15 HN raw item: Show HN: ThoughtDAG – An editable context graph for LLM conversations, points 26/comments 4, article URL https://chenxiachan.github.io/thoughtdag/: query_raw_items(keyword='ThoughtDAG',source='hackernews') = id 123200
+- 2026-08-15 HN raw item: Show HN: Quasicrystals Animation Playground with WebXR, points 21/comments 5, article URL https://hypnagogic-quasicrystals.github.io/: query_raw_items(keyword='Show HN',source='hackernews') = id 123419
+- 2026-08-15 HN raw item: GenRec: Towards LLM-Native Recommendation at Netflix, points 21/comments 23, article URL https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3: query_raw_items(keyword='GenRec Netflix',source='hackernews') = id 123366
+- 2026-08-15 HN raw item: Debian has begun voting on the future of AI/LLM contributions, points 27/comments 16, article URL https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html: query_raw_items(keyword='Debian',source='hackernews') = id 123304
+- 2026-08-15 HN raw item: BriskDB, article URL https://github.com/schapman1974/briskdb, points 21/comments 5: query_raw_items(keyword='GitHub OR library OR framework OR database',source='hackernews') = id 123531
+- 2026-08-15 HN raw item: Tess's Android Wayland Compositor, article URL https://github.com/wmww/tawc, points 21/comments 1: query_raw_items(keyword='GitHub OR library OR framework OR database',source='hackernews') = id 123567
