@@ -1,0 +1,3 @@
+- Fireworks 在相同开源模型与英伟达硬件下，相比云厂商约 5 倍速度性能、叠加数倍吞吐差异: query_raw_items(keyword=Fireworks)[id:123326] = 播客转录摘要称 Fireworks 相对云提供商 performance difference 约 5x，另有吞吐差异
+- Fireworks 2026-07-16 融资与估值报道: query_raw_items(keyword=Fireworks)[id:62794] = 36氪摘要称完成 15 亿美元融资、投后估值 1750 亿美元、年化营收超过 10 亿美元；该数字与另一条报道的 175 亿美元估值存在冲突，需原始公告核验
+- Fireworks 2026-07-16 融资与估值的另一版本: query_raw_items(keyword=Fireworks)[id:62611] = BlockBeats 摘要称完成 15 亿美元融资、估值 175 亿美元；与 [id:62794] 冲突，不应在稿件中直接采用未经核验的估值
