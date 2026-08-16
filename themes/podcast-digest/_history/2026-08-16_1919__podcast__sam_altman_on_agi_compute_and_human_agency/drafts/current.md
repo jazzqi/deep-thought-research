@@ -1,16 +1,4 @@
----
-name: Sam Altman on AGI, Compute, and Human Agency —— Sam Altman / Invest Like the Best · 2026-07-28
-slug: podcast-digest
-status: active
-lead_agent: tech_generalist
-created: 2026-08-16
-updated: 2026-08-16T19:21:31+08:00
-revision: 2026-08-16
-sources: []
----
-
 # Sam Altman on AGI, Compute, and Human Agency —— Sam Altman / Invest Like the Best · 2026-07-28
-
 
 > **总览**
 >
