@@ -18,6 +18,7 @@ sources: []
 - [Why the Markets Are Pricing AI Wrong｜Gavin Baker](./why-the-markets-are-pricing-ai-wrong-gavin-baker.md)
 
 ## 往期
+- [Podcast 学习文档 anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro](./anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 - [Sam Altman on AGI, Compute, and Human Agency —— Sam Altman / Invest Like the Best · 2026-07-28](./sam-altman-on-agi-compute-and-human-agency.md)
 
 - [Why the Markets Are Pricing AI Wrong｜Gavin Baker](./why-the-markets-are-pricing-ai-wrong-gavin-baker.md)
