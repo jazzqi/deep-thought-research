@@ -1,0 +1,4 @@
+- Fireworks 相比云厂商约 5 倍速度性能: query_raw_items({"keyword":"Fireworks OR Cerebras OR Cursor OR Sierra OR Sunday Robotics OR Eric Vishria","limit":50})[id:123326] = 《Everyone Is Still Undersizing the AI Market》转录摘要称 Fireworks 与云提供商的性能差异约 5 倍。
+- 2026-08-14 SpaceX 完成对 Cursor 的收购，交易隐含股权价值约 600 亿美元: query_raw_items({"keyword":"Cursor","source":"longbridge","limit":20})[id:115913] = SpaceX completes the $60 billion acquisition of Cursor, merger effective。
+- 2026-08-14 Cursor 股东获得约 3.89 亿股 SpaceX A 类普通股: query_raw_items({"keyword":"Cursor","source":"longbridge","limit":20})[id:115412] = SpaceX completes acquisition of Cursor，摘要称交易涉及约 3.89 亿股。
+- 2026-08-14 Cerebras 发布 Q2 相关结果并出现收入/股价波动，8月18日安排 SUPERNOVA 产品与推理演示: query_raw_items({"keyword":"Cerebras","source":"longbridge","limit":20})[id:111802] = Cerebras Q2 FY2026 earnings；[id:113533] = 2026 SUPERNOVA event scheduled for August 18。

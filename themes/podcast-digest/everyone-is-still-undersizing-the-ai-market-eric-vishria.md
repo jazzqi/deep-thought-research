@@ -4,7 +4,7 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-08-16T18:33:58+08:00
+updated: 2026-08-16T18:35:23+08:00
 revision: 2026-08-16
 sources:
   - path: 2026-08-16_1825__manual__podcast_prepare_podcast_prepare_themes_podcast_digest_episod/reference.md
