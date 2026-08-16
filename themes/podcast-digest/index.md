@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [Rahm Emanuel：特朗普的外交政策、中国、欧洲衰落、移民与 DSA 对民主党的挑战 —— All-In · 2026-08-13](./all-in/rahm-emanuel-trumps-foreign-policy-china-europes-decline-imm.md)
 
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 - [Sam Altman on AGI, Compute, and Human Agency](./iltb/sam-altman-on-agi-compute-and-human-agency.md)
