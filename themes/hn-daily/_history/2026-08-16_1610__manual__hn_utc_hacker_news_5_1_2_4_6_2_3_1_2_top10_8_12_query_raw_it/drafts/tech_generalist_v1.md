@@ -1,19 +1,4 @@
----
-name: HN 书摘 · 2026-08-16
-slug: hn-daily
-status: active
-lead_agent: tech_generalist
-created: 2026-08-15
-updated: 2026-08-16T16:16:15+08:00
-revision: 2026-08-16
-sources:
-  - path: 2026-08-16_1610__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/reference.md
-    agent: hn_daily_update
-    summarized: false
----
-
 # HN 书摘 · 2026-08-16（周日）
-
 
 > 数据说明：当前 Hacker News 数据接口返回结果未严格落在目标的 2026-08-15 00:00–2026-08-16 00:00 UTC 窗口，最新可确认条目时间为 2026-08-14；同时，展示分数与条目摘要内的 Points 字段存在冲突。因此，以下内容是基于当前可抓取候选池的技术书摘，不将其表述为严格意义上的“昨日 Top10”。
 

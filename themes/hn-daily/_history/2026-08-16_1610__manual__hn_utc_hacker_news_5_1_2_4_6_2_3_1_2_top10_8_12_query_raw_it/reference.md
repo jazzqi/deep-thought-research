@@ -1,0 +1,48 @@
+- 232x GPU kernel speedup、参赛者排名12/183及方法: fetch_url(https://sankalp.bearblog.dev/autoresearch/) = 作者实测与竞赛描述
+- AI 药物发现临床相关影响证据有限，需从模型验证转向决策改进: fetch_url(https://www.nature.com/articles/s41573-026-01496-2) = Nature Reviews Drug Discovery 摘要
+- Debian LLM 使用 GR 投票期为 2026-08-15 00:00 UTC 至 2026-08-28 23:59 UTC: fetch_url(https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html) = Debian Secretary 邮件
+- AI 优势可能来自超大外部符号工作空间/工作记忆，而非纯粹更强推理: fetch_url(https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians) = 文章正文
+- Zsh 5.9.2（2026-07-12 发布）修复历史文件偶发数据丢失，根因通过让程序崩溃并分析 core dump 定位: fetch_url(https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/) = 文章正文
+- Zig Writergate 移除 GenericWriter/GenericReader 等，改为 vtable、调用方缓冲与显式 flush；Zig 0.16 Io 增加 async/await/cancel 原语: fetch_url(https://alexrios.me/blog/writergate/) = 文章正文
+- [id:123313] query_raw_items(source=hackernews,min_points=20)[id:123313] = Auto-research with codex: How I achieved a 232x Faster Kernel
+- [id:123523] query_raw_items(source=hackernews,min_points=20)[id:123523] = AI in drug discovery — what it is, where we stand and the path forward
+- [id:123304] query_raw_items(source=hackernews,min_points=20)[id:123304] = Debian has begun voting on the future of AI/LLM contributions
+- [id:123479] query_raw_items(source=hackernews,min_points=20)[id:123479] = AI Isn't Outthinking Mathematicians. It's Out-Remembering Them
+- [id:123366] query_raw_items(source=hackernews,min_points=20)[id:123366] = GenRec: Towards LLM-Native Recommendation at Netflix
+- [id:123362] query_raw_items(source=hackernews,min_points=20)[id:123362] = Strait of Hormuz Live Traffic Tracking
+- [id:123437] query_raw_items(source=hackernews,min_points=20)[id:123437] = A Spectre Is Haunting Unicode
+- [id:123608] query_raw_items(source=hackernews,min_points=20)[id:123608] = Tracking down a Zsh history data loss bug
+- [id:123396] query_raw_items(source=hackernews,min_points=20)[id:123396] = Writergate: Zig I/O Interface Overhaul
+- [id:123680] query_raw_items(source=hackernews,min_points=20)[id:123680] = Why tech bosses keep sharing their manifestos about AI
+
+- Auto-research with Codex achieved 232x baseline speedup in batched FP32 CUDA QR kernel contest; author placed 12th/183: query_raw_items({source:'hackernews',min_points:20})[id:123313] = 帖子摘要；正文 fetch_url(https://sankalp.bearblog.dev/autoresearch/) = contest setup, QR kernel details and reported result
+- AI advantage in mathematics may be external symbolic working memory rather than superior reasoning: query_raw_items({source:'hackernews',min_points:20})[id:123479] = 帖子摘要；正文 fetch_url(https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians) = working-memory thesis
+- Nature review says clinically relevant impact of AI in drug discovery remains limited; recommends decision-making/translation benchmarks: query_raw_items({source:'hackernews',min_points:20})[id:123523] = 帖子摘要；正文 fetch_url(https://www.nature.com/articles/s41573-026-01496-2) = abstract
+- Debian LLM general resolution voting window is 2026-08-15 00:00 UTC through 2026-08-28 23:59 UTC: query_raw_items({source:'hackernews',min_points:20})[id:123304] = 帖子摘要；正文 fetch_url(https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html) = corrected ballot
+- xai-org/x-algorithm repository contains brazil_2026_election_filter.rs, 1573 lines/1532 LOC at fetched page: query_raw_items({source:'hackernews',min_points:20})[id:123360] = 帖子摘要；正文 fetch_url(GitHub URL) = page metadata
+- Costco hot-dog post reports unchanged $1.50 price and image-based estimate of bun volume falling 45% from 29.5 to 16.1 in³, with caveat that estimate may be overstated: query_raw_items({source:'hackernews',min_points:20})[id:123431] = 帖子摘要；正文 fetch_url(https://sina.bio/posts/costco-hotdog.html) = article text
+- Zig Writergate changes I/O from generic Reader/Writer to concrete vtable interfaces, caller-provided buffering and explicit flush; described as 0.15+ and 0.16 direction: query_raw_items({source:'hackernews',min_points:20})[id:123396] = 帖子摘要；正文 fetch_url(https://alexrios.me/blog/writergate/) = article text
+- Zsh 5.9.2 released 2026-07-12 fixes history truncation/data-loss issue; investigation used crash/core dump: query_raw_items({source:'hackernews',min_points:20})[id:123608] = 帖子摘要；正文 fetch_url(https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/) = article text
+- Working with AI is framed as leadership/context/intent management rather than deterministic compiler-like coding: query_raw_items({source:'hackernews',min_points:20})[id:123353] = 帖子摘要；正文 fetch_url(https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/) = article text
+- Previous-day candidate window: 2026-08-15 00:00–2026-08-16 00:00 UTC; same-URL duplicates removed; older titles compared against themes/hn-daily/index.md.
+
+- Auto-research with Codex 条目：query_raw_items(source='hackernews', min_points=20)[id:123313] = 33 points、7 comments；原文核验为 GPU Mode batched square FP32 CUDA QR 分解竞赛中的相对 baseline 232 倍速度，183 名参赛者中排名第 12，结果需通过 QR 正确性检查。
+- AI in drug discovery 条目：query_raw_items(source='hackernews', min_points=20)[id:123523] = 33 points、21 comments；Nature Reviews Drug Discovery 综述称 AI 药物发现的临床相关影响证据仍有限。
+- GenRec 条目：query_raw_items(source='hackernews', min_points=20)[id:123366] = 21 points、23 comments；Netflix 工程博客正文抓取受限，不能据此扩写召回、排序、延迟或成本机制。
+- Debian AI/LLM contributions 条目：query_raw_items(source='hackernews', min_points=20)[id:123304] = 27 points、16 comments；官方公告显示 2026-08-15 至 2026-08-28 进行一般决议排序投票。
+- Yadda 3.0 条目：query_raw_items(source='hackernews', min_points=20)[id:123407] = 22 points、6 comments；正文描述 Node-only 重构、node:test、Biome、lefthook、Playwright/Puppeteer 示例和分阶段 AI 辅助维护。
+- Zsh history bug 条目：query_raw_items(source='hackernews', min_points=20)[id:123608] = 20 points、2 comments；正文描述多个 Zsh 进程并发写 ~/.zsh_history 导致历史偶发丢失，Zsh 5.9.2（2026-07-12）含修复。
+- Writergate 条目：query_raw_items(source='hackernews', min_points=20) = 当前稿记录的 Zig I/O 接口重构条目；points/comments 当前窗口未能核验，报告中明确标注缺失。
+
+- [id:112673] Opus 5 使用体验文章，作者主张模型更强但在意图不清时更常自行假设而非提问；正文把基准优化与真实协作需求的冲突作为推测性解释: query_raw_items(source='hackernews',min_points=20,limit=100)[id:112673] = 765 points / 700 comments（工具展示）
+- [id:97910] Choose Boring Technology 提出组织的“innovation tokens”有限，应把创新留给核心业务而非基础设施: query_raw_items(source='hackernews',min_points=20,limit=100)[id:97910] = 419 points / 240 comments（工具展示）
+- [id:100182] Understanding is the new bottleneck 主张 agent 时代人类理解代码不只是验证正确性，更是参与后续创造与降低认知债务: query_raw_items(source='hackernews',min_points=20,limit=100)[id:100182] = 418 points / 238 comments（工具展示）
+- [id:96517] Antithesis 文章记录 Claude 配合确定性测试追踪 SQLite WAL-reset 并发数据竞争，SQLite 3.51.3 已修复该长期存在的 bug: query_raw_items(source='hackernews',min_points=20,limit=100)[id:96517] = 159 points / 51 comments（工具展示）
+- [id:99244] Netlify 用 AXIS 对相同提示下 11 个 AI 模型进行功能导向评测，并将多模型接入 Agent Runners: query_raw_items(source='hackernews',min_points=20,limit=100)[id:99244] = 215 points / 94 comments（工具展示）
+- 查询完整性：query_raw_items(source='hackernews',min_points=20,limit=100) 返回最新条目时间为 2026-08-14，未提供可验证的 2026-08-15 00:00–2026-08-16 00:00 UTC 条目；且展示分数与摘要内 Points 字段存在冲突，故本期不能声称是严格“昨日 Top10”。
+
+- 独立核验发现 2026-08-12 至 2026-08-14 的高热度 HN 技术条目未出现在本稿技术雷达：DeepSeek V4 Pro 0813、GLM-5.3、Cerebras GPT-5.6 加速、Zed Delta、Mistral OCR 4.1、llama.cpp、Show HN Woxi、Netlify 11 模型评测等: query_raw_items({source:'hackernews',min_points:20,limit:50})[id:96106,101478,100097,96346,99979,93869,94950,99244] = 独立返回的条目及分数/摘要
+- 独立查询返回的最新条目时间为 2026-08-14，未能验证 2026-08-15 00:00–2026-08-16 00:00 UTC 的完整候选窗口；因此本稿“2026-08-16 昨日 Top10/全量快照”无法由当前 raw_items 查询复核: query_raw_items({source:'hackernews',min_points:20,limit:50}) = 返回最新时间 2026-08-14，查询结果
+- 独立查询中 DeepSeek V4 Pro 0813: query_raw_items({source:'hackernews',min_points:20,limit:50})[id:96106] = 1027 points、446 comments
+- 独立查询中 GLM-5.3: query_raw_items({source:'hackernews',min_points:20,limit:50})[id:101478] = 1025 points、513 comments
+- 独立查询中 Mistral OCR 4.1、llama.cpp、Woxi、Netlify 11 模型评测分别为开发者工具/模型基础设施/Show HN/评测生态候选: query_raw_items({source:'hackernews',min_points:20,limit:50})[id:99979,93869,94950,99244] = 条目摘要与原文链接
