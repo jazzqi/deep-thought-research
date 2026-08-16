@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [Michigan 会重写民主党的选举逻辑吗？——《The Daily》·2026年8月4日](./the-daily/will-michigan-rewrite-the-rules-of-democratic-politics.md)
 - [Arizona’s Food Stamp Crisis Is Coming for the Rest of the U.S. —— The Daily · 2026-08-05](./the-daily/arizonas-food-stamp-crisis-is-coming-for-the-rest-of-the-us.md)
 - [The Cyclospora Mystery: How Human Poop Got on So Much Lettuce —— The Daily · 2026-08-06](./the-daily/the-cyclospora-mystery-how-human-poop-got-on-so-much-lettuce.md)
 - [美国饮用水会成为伊朗战争的下一条战线吗？——《The Daily》 · 2026-08-07](./the-daily/is-americas-drinking-water-the-next-front-in-the-iran-war.md)
