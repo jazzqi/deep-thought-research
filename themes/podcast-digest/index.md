@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [The Cyclospora Mystery: How Human Poop Got on So Much Lettuce —— The Daily · 2026-08-06](./the-daily/the-cyclospora-mystery-how-human-poop-got-on-so-much-lettuce.md)
 - [美国饮用水会成为伊朗战争的下一条战线吗？——《The Daily》 · 2026-08-07](./the-daily/is-americas-drinking-water-the-next-front-in-the-iran-war.md)
 - [Billy Strings 逃离黑暗，却靠演奏不再回头 —— The New York Times · 2026年8月8日](./the-daily/billy-strings-escaped-the-darkness-hes-playing-to-not-go-bac.md)
 - [Is “Gentle Parenting” Ruining French Children? —— Madeleine Schwartz / The Daily · 2026-08-09](./the-daily/is-gentle-parenting-ruining-french-children.md)
