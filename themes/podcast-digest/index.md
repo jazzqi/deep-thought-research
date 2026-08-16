@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [Billy Strings 逃离黑暗，却靠演奏不再回头 —— The New York Times · 2026年8月8日](./the-daily/billy-strings-escaped-the-darkness-hes-playing-to-not-go-bac.md)
 - [Is “Gentle Parenting” Ruining French Children? —— Madeleine Schwartz / The Daily · 2026-08-09](./the-daily/is-gentle-parenting-ruining-french-children.md)
 - [Why Adults Are Getting Cancer at a Younger Age —— Nina Agarwal / The Daily · 2026-08-10](./the-daily/why-adults-are-getting-cancer-at-a-younger-age.md)
 - [The U.S. Missile Stockpile Is Dangerously Low —— The Daily · 2026-08-11](./the-daily/the-us-missile-stockpile-is-dangerously-low.md)
