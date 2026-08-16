@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [The Charming, Amusing, Surprisingly Low-Confidence Matthew Rhys —— Matthew Rhys · The Interview · 2026-08-15](./the-daily/the-charming-amusing-surprisingly-low-confidence-matthew-rhy.md)
 - [Saronic Founders：自主战舰、 中国的230倍造船优势与机器人船群 —— Dino Mavroukas、Vibh Althakkar · 2026-08-05](./all-in/saronic-founders-autonomous-warships-chinas-230x-advantage-s.md)
 - [Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI —— All-In · 2026-08-08](./all-in/googles-ai-brain-drain-spacexs-huge-quarter-airtables-90-col.md)
 - [Rahm Emanuel：特朗普的外交政策、中国、欧洲衰落、移民与 DSA 对民主党的挑战 —— All-In · 2026-08-13](./all-in/rahm-emanuel-trumps-foreign-policy-china-europes-decline-imm.md)
