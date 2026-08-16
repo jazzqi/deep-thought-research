@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [Why Adults Are Getting Cancer at a Younger Age —— Nina Agarwal / The Daily · 2026-08-10](./the-daily/why-adults-are-getting-cancer-at-a-younger-age.md)
 - [The U.S. Missile Stockpile Is Dangerously Low —— The Daily · 2026-08-11](./the-daily/the-us-missile-stockpile-is-dangerously-low.md)
 - [All the President’s Planes —— The Daily · 2026-08-12](./the-daily/all-the-presidents-planes.md)
 - [The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence? —— All-In Podcast · 2026-07-24](./all-in/the-fight-over-open-source-ai-anthropics-15b-payout-nyc-soci.md)
