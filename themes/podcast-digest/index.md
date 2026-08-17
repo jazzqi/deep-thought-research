@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [GLP-1s, Peptides, and The Trillion-Dollar Health Revolution —— Invest Like the Best (Alex Cornell) · 2026-04-21](./iltb/glp-1s-peptides-and-the-trillion-dollar-health-revolution.md)
 - [AI Token 的供需革命 —— Dylan Patel · 2026-04-23](./iltb/the-supply-and-demand-of-ai-tokens-dylan-patel-interview.md)
 - [Legendary Trader Paul Tudor Jones on AI Risk, Bubbles and Buffett —— ILTB_Podcast · 2026-04-28](./iltb/legendary-trader-paul-tudor-jones-on-ai-risk-bubbles-and-buf.md)
 - [How Brian Chesky Is Redesigning Airbnb for the AI Era —— @ILTB_Podcast · 2026-05-05](./iltb/how-brian-chesky-is-redesigning-airbnb-for-the-ai-era.md)
