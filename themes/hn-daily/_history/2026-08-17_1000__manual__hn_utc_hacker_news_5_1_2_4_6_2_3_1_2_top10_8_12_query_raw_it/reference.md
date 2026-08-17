@@ -1,0 +1,27 @@
+- 2026-08-16 Hacker News候选窗口与Top10条目: query_raw_items(source='hackernews', min_points=20, limit=500, 前一日UTC窗口) = [id:124148] tokens constrained work 22分/40评，[id:123934] LittleLearner 35/11，[id:123313] autoresearch 33/7，[id:123523] AI drug discovery 33/21，[id:123479] AI数学记忆 40/21，[id:124381] formal verification 28/13，[id:123304] Debian LLM投票 27/16，[id:123366] Netflix GenRec 21/23，[id:123680] AI manifestos 20/54，[id:124226] AI coding without vibes 20/5。
+- 2026-08-16《Models Are Getting Dumber on Purpose》正文事实: fetch_url(https://w4g1.dev/blog/models-are-getting-dumber-on-purpose) = GLM-5.2在AIME 2026得分99.2%、约40B active；Qwen3.5得分91.3%、17B active；SimpleQA当前最佳Gemini 2.5 Pro为53%；Qwen3.5 4B/9B知识基准幻觉率80%-82%。
+- 2026-08-16《Auto-research with codex》正文事实: fetch_url(https://sankalp.bearblog.dev/autoresearch/) = 作者在GPU Mode QR kernel竞赛中以232倍基线速度完成，排名12/183，14天提交超过1500次。
+- 2026-08-15 Nature药物发现综述事实: fetch_url(https://www.nature.com/articles/s41573-026-01496-2) = 临床相关影响证据迄今有限；建议基准从模型验证转向决策改进。
+- 2026-08-16《tokens run out》正文事实: fetch_url(https://blog.alaindichiappari.dev/p/what-to-do-when-tokens-run-out) = 文章记录并行sub-agent在上下文不透明时难以中途接管，token预算成为工程流程约束。
+- 2026-08-16 LittleLearner正文事实: fetch_url(https://littlelearner-ll.github.io/) = 88B token K-5过滤语料；0.6B/1.3B/5B模型；规模、SFT+GRPO、in-context learning提升范围内能力但未显著提升范围外能力。
+- 2026-08-16 Qwen 3.8正文事实: fetch_url(https://simonwillison.net/2026/Aug/16/qwen-38-27b/) = 27B Apache 2模型；Q4量化约17GB；xhigh默认推理导致简单SVG耗时21分钟、使用22,276 reasoning tokens，关闭推理耗时137秒。
+- 2026-08-16 Debian投票事实: fetch_url(https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html) = LLM贡献General Resolution投票期2026-08-15至2026-08-28，9个选项。
+- 2026-08-16《formal verification》正文事实: fetch_url(https://ivan-gavran.github.io/0-social-processes-paper) = AI coding推动形式化验证讨论；规格正确性、实现独立性与社会过程仍是核心问题。
+- 2026-08-16 AI coding正文事实: fetch_url(https://peterbloem.nl/blog/craft-coding) = 建议AI工作采用“做/检查”双阶段，避免完全委托导致能力与理解退化。
+- 2026-08-16 腹部脂肪研究事实: fetch_url(https://www.acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi) = 逾260,000人、平均20年；正常BMI但高腰围/腰臀比者多数结局风险高15%-50%。
+- 2026-08-16 BBC AI宣言事实: fetch_url(https://www.bbc.com/news/articles/cz97ljy91zxo) = 报道围绕Meta CEO 6500字公开信及AI乐观主义宣言潮，并指出Meta裁员与“未来就业充足”叙事存在张力。
+
+- tokens 受限工作条目：query_raw_items(source='hackernews', keyword='tokens', min_points=20)[id:124148] = 22 points、40 comments；正文 fetch_url(https://blog.alaindichiappari.dev/p/what-to-do-when-tokens-run-out) = 描述并行 agent、上下文接续、每日 token 上限造成的工作流与预算问题
+- Claude System Prompts：query_raw_items(source='hackernews', keyword='Claude system prompts', min_points=20)[id:124137] = 30 points、11 comments；正文 fetch_url(https://platform.claude.com/docs/en/release-notes/system-prompts) = Claude 网页/移动端使用可更新 system prompt，API 不适用，列出多个模型版本日期
+- Models Are Getting Dumber on Purpose：query_raw_items(source='hackernews', keyword='models are getting dumber', min_points=20)[id:124342] = 57 points、19 comments；正文 fetch_url(https://w4g1.dev/blog/models-are-getting-dumber-on-purpose) = 文中对比推理基准与事实召回/幻觉，提出模型可能以事实知识换取推理能力
+- Qwen 3.8 27B：query_raw_items(source='hackernews', keyword='Qwen 3.8', min_points=20)[id:124692] = 30 points、8 comments；正文 fetch_url(https://simonwillison.net/2026/Aug/16/qwen-38-27b/) = Apache 2、27B、视觉模型；默认 xhigh reasoning，作者实测一次生成使用 22,276 reasoning tokens、输出 3,223 tokens、耗时 21 分钟
+- Formal Verification：query_raw_items(source='hackernews', keyword='formal verification', min_points=20)[id:124381] = 28 points、13 comments；正文 fetch_url(https://ivan-gavran.github.io/0-social-processes-paper) = AI 编码扩大验证需求并重新讨论 1979 年反对形式化验证的论点
+- AI Coding Without the Vibes：fetch_url(https://peterbloem.nl/blog/craft-coding) = 文章主张既不拒绝 AI 也不把学习完全外包给 AI，强调培养判断自己是否真正理解的能力
+- Auto-research Codex：fetch_url(https://sankalp.bearblog.dev/autoresearch/) = 作者在 GPU Mode QR 分解竞赛中排名 183 人中的第 12，报告相对 baseline 232 倍加速，并说明任务、checker 与优化过程
+- RISC-V 嵌入式反方：fetch_url(https://rvembedded.com/blog_post/12/) = 作者从特立尼达和多巴哥供应链与运费处境回应 RISC-V 批评，承认压缩存储偏移、Zicsr 等设计问题
+- Claude 服务故障：query_raw_items(source='hackernews', keyword='Claude', min_points=20)[id:124415] = 38 points、23 comments；条目正文称 Claude unavailable，未提供独立官方核验
+- Cloudflare 注入分析：query_raw_items(source='hackernews', keyword='Cloudflare', min_points=20)[id:124308] = 28 points、2 comments；正文为作者个人报告，称切换 nameserver 后 HTML 页面被注入 analytics snippet，未独立核验
+
+- 技术雷达遗漏：query_raw_items(source='hackernews', keyword='Show HN AI agent observability protobuf LSP MathCode OpenRouter OpenAI Anthropic Cloudflare', min_points=20, limit=50)[id:124341] = Protobuf has LSP support，22 points/4 comments；[id:124351] = MathCode, Mathematical Coding Agent，25 points/9 comments；[id:124203] = Show HN: Grafana agent observability for Hermes Agent，20 points/0 comments；[id:123907] = Show HN: Laptop is the last place your secrets are still in plaintext，21 points/13 comments；[id:123799] = Show HN: native app for coding agents with Rust and GPUI，22 points/10 comments；[id:123841] = AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code，20 points/2 comments。
+- AI基础设施事件：query_raw_items(source='hackernews', keyword='OpenRouter', min_points=20, limit=50)[id:124380] = Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter，28 points/17 comments；该条是重大AI基础设施/模型路由生态事件，现稿未覆盖。
+- Claude故障官方相关更新：query_raw_items(source='hackernews', keyword='Claude', min_points=20, limit=50)[id:124423] = Claude表示正在调查身份验证故障及服务性能下降，波及 Claude AI、Claude Code 及其他相关服务；现稿只保留HN用户报告，未提及该较强核验线索。
