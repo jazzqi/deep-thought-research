@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [Finding The 1% of Stocks That Matter — Henry Ellenbogen · 2025-12-16](./iltb/finding-the-1-of-stocks-that-matter-henry-ellenbogen-intervi.md)
 - [Netflix文化代码如何改变了娱乐业 —— Reed Hastings · 2026-01-06](./iltb/the-netflix-culture-code-that-changed-entertainment-forever.md)
 - [How Ladder Became #1 Strength Training App —— ILTB Podcast · 2026-01-13](./iltb/how-ladder-became-1-strength-training-app.md)
 - [He Built The Revenue Engines for Google, Facebook & Square —— @ILTB_Podcast · 2026-01-29](./iltb/he-built-the-revenue-engines-for-google-facebook-square.md)
