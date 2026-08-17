@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [Watts, Wafers, and the Future of AI Infra — Gavin Baker · 2026-05-20](./iltb/watts-wafers-and-the-future-of-ai-infra-gavin-baker.md)
 - [前国防部顾问Darren谈伊朗、中国和AI战争 —— Invest Like the Best · 2026-05-26](./iltb/former-dod-advisor-on-iran-china-and-ai-warfare.md)
 - [Legendary Investor Dan Loeb on AI, Credit, & Third Point's $25B Strategy —— Patrick O'Shaughnessy · 2026-05-28](./iltb/legendary-investor-dan-loeb-on-ai-credit-third-points-25b-st.md)
 - [Uber CEO 达拉·科斯罗萨西：AI、自动驾驶与交通未来 —— ILTB Podcast · 2026-06-03](./iltb/uber-ceo-on-ai-autonomous-vehicles-and-the-future-of-transpo.md)
