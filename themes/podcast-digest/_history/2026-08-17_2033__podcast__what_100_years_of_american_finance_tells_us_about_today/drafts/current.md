@@ -1,16 +1,4 @@
----
-name: 百年美国金融体系如何塑造当下 —— Sixth Street 创始人 Alan Waxman · 2026-04-08
-slug: podcast-digest
-status: active
-lead_agent: tech_generalist
-created: 2026-08-16
-updated: 2026-08-17T20:35:13+08:00
-revision: 2026-08-17
-sources: []
----
-
-# 百年美国金融体系如何塑造当下 —— Sixth Street 创始人 Alan Waxman · 2026-04-08
-
+Now I have read all four transcript segments and the writing guide/template. Let me compose the learning document.
 
 ---
 

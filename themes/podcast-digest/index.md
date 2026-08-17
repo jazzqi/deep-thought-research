@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [百年美国金融体系如何塑造当下 —— Sixth Street 创始人 Alan Waxman · 2026-04-08](./iltb/what-100-years-of-american-finance-tells-us-about-today.md)
 - [百年美国金融史：从监管护栏到工厂模式的演变 —— Alan Waxman (Sixth Street) · 2026-04-08](./iltb/what-100-years-of-american-finance-tells-us-about-today.md)
 - [From SpaceX to Founders Fund to Solving America's Nuclear Fuel Problem —— Scott Nolan · ILTB Podcast · 2026-04-14](./iltb/from-spacex-to-founders-fund-to-solving-americas-nuclear-fue.md)
 - [GLP-1s, Peptides, and The Trillion-Dollar Health Revolution —— Invest Like the Best (Alex Cornell) · 2026-04-21](./iltb/glp-1s-peptides-and-the-trillion-dollar-health-revolution.md)
