@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [Ramp 超高速增长的解剖 | Karim Atiyeh 访谈 —— @ILTB_Podcast · 2025-10-21](./iltb/the-anatomy-of-ramps-hyper-growth-karim-atiyeh-interview.md)
 - [The Playbook on Buying and Running Companies Forever —— @ILTB_Podcast · 2025-11-04](./iltb/the-playbook-on-buying-and-running-companies-forever.md)
 - [How Great Founders Tell Their Story —— Wolfgang Beltracchi（@ILTB_Podcast）· 2025-11-11](./iltb/how-great-founders-tell-their-story.md)
 - [Ari Emanuel 的"反AI"押注：现场娱乐不可替代 —— @ILTB_Podcast · 2025-11-19](./iltb/ari-emanuels-anti-ai-bet-on-live-entertainment.md)
