@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [AI如何改变战争 | Palantir CTO · 2026-03-10](./iltb/how-ai-is-changing-warfare-palantir-cto.md)
 - [How to Bet on Yourself (Without Venture Capital) — William Hockey · 2026-03-17](./iltb/how-to-bet-on-yourself-without-venture-capital.md)
 - [Why Now is the Best Time to Buy Public Software Companies —— Mitchell Green · 2026-03-24](./iltb/why-now-is-the-best-time-to-buy-public-software-companies.md)
 - [顶级研究者谈AI、大语言模型与机器人智能 —— Sergey Levine · Invest Like the Best · 2026-03-31](./iltb/worlds-top-researcher-on-ai-llms-and-robot-intelligence.md)
