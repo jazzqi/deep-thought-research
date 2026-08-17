@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [Why Now is the Best Time to Buy Public Software Companies —— Mitchell Green · 2026-03-24](./iltb/why-now-is-the-best-time-to-buy-public-software-companies.md)
 - [顶级研究者谈AI、大语言模型与机器人智能 —— Sergey Levine · Invest Like the Best · 2026-03-31](./iltb/worlds-top-researcher-on-ai-llms-and-robot-intelligence.md)
 - [百年美国金融体系如何塑造当下 —— Sixth Street 创始人 Alan Waxman · 2026-04-08](./iltb/what-100-years-of-american-finance-tells-us-about-today.md)
 - [百年美国金融史：从监管护栏到工厂模式的演变 —— Alan Waxman (Sixth Street) · 2026-04-08](./iltb/what-100-years-of-american-finance-tells-us-about-today.md)
