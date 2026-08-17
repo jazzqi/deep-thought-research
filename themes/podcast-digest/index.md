@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [Podcast 学习文档 how-a16z-growth-invests](./iltb/how-a16z-growth-invests.md)
 - [GPUs、TPU 与 AI 经济学深度解析 | Gavin Baker 访谈 · 2025-12-09](./iltb/gpus-tpus-the-economics-of-ai-explained-gavin-baker-intervie.md)
 - [Finding The 1% of Stocks That Matter — Henry Ellenbogen · 2025-12-16](./iltb/finding-the-1-of-stocks-that-matter-henry-ellenbogen-intervi.md)
 - [Netflix文化代码如何改变了娱乐业 —— Reed Hastings · 2026-01-06](./iltb/the-netflix-culture-code-that-changed-entertainment-forever.md)
