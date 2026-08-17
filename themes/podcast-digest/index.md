@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [Legendary Trader Paul Tudor Jones on AI Risk, Bubbles and Buffett —— ILTB_Podcast · 2026-04-28](./iltb/legendary-trader-paul-tudor-jones-on-ai-risk-bubbles-and-buf.md)
 - [How Brian Chesky Is Redesigning Airbnb for the AI Era —— @ILTB_Podcast · 2026-05-05](./iltb/how-brian-chesky-is-redesigning-airbnb-for-the-ai-era.md)
 - [Inside Anthropic's $100 Billion AI Compute Commitment — CFO Krishna Rao · 2026-05-13](./iltb/inside-anthropics-100-billion-al-compute-commitment-cfo-kris.md)
 - [Watts, Wafers, and the Future of AI Infra — Gavin Baker · 2026-05-20](./iltb/watts-wafers-and-the-future-of-ai-infra-gavin-baker.md)
