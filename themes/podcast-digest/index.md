@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [Why the AI Boom Is Just Getting Started —— Whale Rock Capital (Alex Rubalcava) · 2026-06-09](./iltb/why-the-ai-boom-is-just-getting-started.md)
 - [Clay’s Unusual Path to Building a Multi-Billion Dollar Company —— ILTB Podcast · 2026-06-16](./iltb/clays-unusual-path-to-building-a-multi-billion-dollar-compan.md)
 - [Investing a $120 Billion Balance Sheet with No Outside Investors —— Ilya Bourtman, Liberty Mutual Investments · 2026-06-23](./iltb/investing-a-120-billion-balance-sheet-with-no-outside-invest.md)
 - [The Two Harvard Dropouts Who Raised $800M to Take on NVIDIA —— @ILTB_Podcast · 2026-06-30](./iltb/the-two-harvard-dropouts-who-raised-800m-to-take-on-nvidia.md)
