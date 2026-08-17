@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [Investing a $120 Billion Balance Sheet with No Outside Investors —— Ilya Bourtman, Liberty Mutual Investments · 2026-06-23](./iltb/investing-a-120-billion-balance-sheet-with-no-outside-invest.md)
 - [The Two Harvard Dropouts Who Raised $800M to Take on NVIDIA —— @ILTB_Podcast · 2026-06-30](./iltb/the-two-harvard-dropouts-who-raised-800m-to-take-on-nvidia.md)
 - [Everything in Capital Markets is Downstream of Algorithms — ILTB Podcast · 2026-07-07](./iltb/everything-in-capital-markets-is-downstream-of-algorithms.md)
 - [How to Raise a Few Billion Dollars —— Wolf Kushe · Invest Like the Best · 2026-07-14](./iltb/how-to-raise-a-few-billion-dollars.md)
