@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [Podcast 学习文档 5-ingredients-for-the-perfect-investment-jeff-horing-intervi](./iltb/5-ingredients-for-the-perfect-investment-jeff-horing-intervi.md)
 - [Barry Diller 的商业哲学与创新实践 —— @ILTB_Podcast · 2025-09-23](./iltb/how-barry-diller-built-entertainment-empires.md)
 - [Podcast 学习文档 inside-the-trillion-dollar-ai-buildout-dylan-patel-interview](./iltb/inside-the-trillion-dollar-ai-buildout-dylan-patel-interview.md)
 - [为什么1亿美元年薪对顶尖AI研究员来说是划算的 —— ILTB Podcast · 2025-10-02](./iltb/why-a-100-million-salary-for-an-elite-ai-researcher-is-a-bar.md)
