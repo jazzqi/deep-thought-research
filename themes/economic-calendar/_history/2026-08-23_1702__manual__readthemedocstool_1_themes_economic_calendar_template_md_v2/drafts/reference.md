@@ -1,0 +1,72 @@
+- 30Y UST收益率5.31%（08-17，19年高点）: 记忆库注入 (2026-08-17 CNBC报道)
+- 10Y UST 4.63%, 2Y UST 4.15%, 2s10s +51bp: 记忆库注入 (2026-08-13/14数据)
+- DXY 119.06 (08-07), VIX 14.63 (08-13): 记忆库注入
+- Fed funds 3.50-3.75%: query_fomc(lookback_days=30) → 2026-07-28 FOMC维持不变
+- FOMC声明9:3投票，三人(Hammack/Kashkari/Logan)主张加息25bp: fetch_url(federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm)
+- Fed纪要"Many Officials Said Rate Hikes May Be Needed": query_raw_items(id:132467)[bloomberg_economics]
+- Warsh首次Jackson Hole讲话(08-29): query_raw_items(id:135539)[bloomberg_economics]
+- Daly称债市信任Fed定位: query_raw_items(id:135028)[bloomberg_economics]
+- 加美贸易战50%关税+加拿大9/8反制: query_raw_items(id:135528)[aljazeera], id:135487[npr_world]
+- 美国国债$40.05万亿，人均$11.6万: query_raw_items(id:134718)[telegram:Financial_Express], id:132632[npr_world]
+- AI投资热潮拉动GDP: query_raw_items(id:134684)[telegram:Financial_Express]
+- 谘商会GDP预测1.9%(2026-2027): query_raw_items(id:135112)[telegram:Financial_Express]
+- 摩根大通美债警告: query_raw_items(id:133493)[telegram:Financial_Express]
+- CPI YoY 3.4%: query_indicators(category=macro, country=us, time_range=7d) → cpi_yoy_us_pct 3.4
+- Fed资产负债表$6.76万亿: query_indicators(category=macro, country=us, time_range=7d) → fed_balance_sheet 6759955.0
+- 🇨🇳 固定资产投资-6.7%，零售+1.2%，工业增加值+4.5%，失业率5.2%: query_calendar_events(country=CN, days=14, lookback_days=7)
+- 🇨🇳 房地产投资-19.2%，7月社零同比+0.6%: query_calendar_events(country=CN, days=14, lookback_days=7)
+- 🇺🇸 7月新屋开工123.9万户(-12.4%): query_calendar_events(country=US, days=14, lookback_days=7)
+- 🇺🇸 7月营建许可144.3万户(+5.0%): query_calendar_events(country=US, days=14, lookback_days=7)
+- 🇺🇸 7月成屋签约销售-2.3%: query_calendar_events(country=US, days=14, lookback_days=7)
+- 🇺🇸 纽约联储8月制造业20.6: query_calendar_events(country=US, days=14, lookback_days=7)
+- 🇺🇸 NAHB 8月房产指数35.0: query_calendar_events(country=US, days=14, lookback_days=7)
+- 🇺🇸 6月长期资本净流入$1727亿(前值$2327亿): query_calendar_events(country=US, days=14, lookback_days=7)
+- 🇬🇧 7月CPI同比2.9%，核心CPI 2.6%: query_calendar_events(country=GB, days=14, lookback_days=7)
+- 🇯🇵 Q2 GDP初值1.1%(预期2.1%): query_calendar_events(country=JP, days=14, lookback_days=7)
+- Q2 GDP初值1.5%，GDP平减指数6.2%: query_calendar_events(country=US, days=14, lookback_days=7)
+- 7月核心PCE同比前值3.3%，环比前值0.1%: query_calendar_events(country=US, days=14, lookback_days=7)
+- 7月耐用品订单前值+0.5%，核心资本品前值+1.2%: query_calendar_events(country=US, days=14, lookback_days=7)
+- 7月实际PCE前值+0.4%: query_calendar_events(country=US, days=14, lookback_days=7)
+- 🇨🇳 7月工业企业利润前值+15.1%: query_calendar_events(country=CN, days=14, lookback_days=7)
+- NVDA盘后财报8/26: query_calendar_events(country=US, days=14, lookback_days=7)
+- 下次FOMC 9/15-16含SEP: query_fomc(lookback_days=30, lookahead_days=30)
+- 谘商会消费者信心前值90.8(8月), 预期90.2: query_calendar_events(country=US, days=14, lookback_days=7)
+- 7月芝加哥联储全国活动指数前值-0.02: query_calendar_events(country=US, days=14, lookback_days=7)
+
+
+## Updated Market Data (Aug 23, 2026)
+
+- BTCUSDT: 76532.7 (-1.03%, 24h) [binance_get_ticker]
+- ETHUSDT: 2411.01 (-0.67%, 24h) [binance_get_ticker]
+- FOMC 7月会议: 维持 3.50-3.75% 不变 (2026-07-28) [query_fomc]
+- FOMC 6月 SEP 点阵图中位数: 3.80% (2026-06-16) [query_fomc]
+- FOMC 下次会议: 2026-09-15~16 (SEP会议，有点阵图) [query_fomc]
+- 伊朗局势: 美国对伊朗实施前所未见措施；伊朗警告加入美国经济战争的国家将遭报复 [id:135556, id:135558, id:135559] query_raw_items
+- 霍尔木兹海峡: 伊拉克油轮获伊朗许可通过 [id:135541] query_raw_items
+- OPEC+ 7月产量: 3270万桶/日 (较6月+128万桶/日，但仍比2月低555万桶/日) [id:125134] query_raw_items
+- 美加关税: 美国对加拿大$20B商品加征50%关税；加拿大宣布9月8日起报复性关税 [id:135532, id:135565, id:135487] query_raw_items
+- 中国认为可抵抗美国对伊经济威胁(因大量石油储备) [id:135460] query_raw_items
+- 俄罗斯央行黄金储备降至2020年以来最低 [id:135209] query_raw_items
+- Bessent 成为数十年来最干预主义的财长，试图遏制债券市场压力 [id:132698, id:134512] query_raw_items
+- bond vigilantes 压力与Bessent干预 [id:134003, id:134512] query_raw_items
+- 德国8月IFO景气指数前值: 86.6, 现况: 86.5, 预期: 86.7 [query_calendar_events]
+- 德国8月失业率前值: 6.4% [query_calendar_events]
+- 中国7月规模以上工业企业利润同比前值: 15.1% (1-7月: 18.7%) [query_calendar_events]
+- 韩国央行8月26日公布利率决议 [query_calendar_events]
+- 8月里士满联储制造业指数前值: 5.0 [query_calendar_events]
+- 8月谘商会消费者信心前值: 90.8, 预测: 90.2 [query_calendar_events]
+- 8月芝加哥联储全国活动指数前值: -0.02 [query_calendar_events]
+- 7月商品贸易帐前值: -1015亿, 预测: -997亿 [query_calendar_events]
+- 7月核心PCE同比前值: 3.3%, 预测: 3.3% [query_calendar_events]
+- 7月核心PCE环比前值: 0.1%, 预测: 0.2% [query_calendar_events]
+- 7月PCE同比前值: 3.7%, 预测: 3.6% [query_calendar_events]
+- Q2 GDP修正值前值: 1.5%, 预测: 1.5% [query_calendar_events]
+- Q2核心PCE修正值前值: 3.4% [query_calendar_events]
+- 7月耐用品订单前值: 0.5%, 预测: 0.6% [query_calendar_events]
+- 7月扣除飞机非国防资本耐用品订单前值: 1.2%, 预测: 0.9% [query_calendar_events]
+- 7月实际PCE环比前值: 0.4%, 预测: 0.1% [query_calendar_events]
+- 8月东京CPI同比前值: 2.0% [query_calendar_events]
+- 8月东京CPI(除生鲜食品)同比前值: 1.9% [query_calendar_events]
+- 8月东京CPI(除生鲜食品及能源)同比前值: 2.0% [query_calendar_events]
+- 中国8月31日官方制造业PMI前值: 49.2 [query_calendar_events]
+- 中国8月31日RatingDog制造业PMI前值: 50.9 [query_calendar_events]
