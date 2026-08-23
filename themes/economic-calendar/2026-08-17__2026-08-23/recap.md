@@ -4,7 +4,7 @@ week: 2026-08-17__2026-08-23
 type: recap
 lead_agent: ackman
 region_focus: 全球
-created: 2026-08-23T16:06:13+08:00
+created: 2026-08-23T17:11:12+08:00
 data_quality: poor
 prev_doc: themes/economic-calendar/2026-08-10__2026-08-16/recap.md
 next_doc: themes/economic-calendar/2026-08-24__2026-08-30/forecast.md
