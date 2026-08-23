@@ -1,18 +1,3 @@
----
-name: 周度财经日历预读
-week: 2026-08-24__2026-08-30
-type: forecast
-lead_agent: ackman
-region_focus: 全球
-created: 2026-08-23T17:42:38+08:00
-data_quality: poor
-prev_doc: themes/economic-calendar/2026-08-17__2026-08-23/recap.md
-next_doc: themes/economic-calendar/2026-08-31__2026-09-06/forecast.md
-sources: []
----
-
-# 周度财经日历预读：2026-08-24 ~ 2026-08-30
-
 # 周度财经日历预读 — 2026年8月25日–29日
 
 ## 0. 执行摘要 TL;DR
