@@ -1,0 +1,17 @@
+actions:
+- priority: P1
+  summary: 美伊经济战升级（贝森特伊朗'economic D-Day'发布会 + 伊朗地震级报复 + 霍尔木兹服务费法案）+ 美加贸易战，本周最大地缘尾部风险，监控油价冲击与风险偏好
+  target_flow: macro_regime
+  target_flow_params: {}
+  type: alert
+- priority: P1
+  summary: 8/26 NVDA 盘后财报 + Q2 GDP 修正(前值1.5%年化) + 7月核心PCE(前值3.3% yoy) 验证 AI 估值容错率与滞胀/衰退叙事
+  target_flow: thesis_propose
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-08-26'
+- priority: P2
+  recurrence: daily
+  summary: 霍尔木兹流量能否从 670万桶/日回升，决定油价与风险偏好方向
+  target_flow_params: {}
+  type: monitoring
