@@ -1,24 +1,17 @@
----
-name: BTC（比特币）
-slug: btc
-status: active
-lead_agent: crypto_trader
-created: 2026-08-01
-updated: 2026-08-24T14:29:38+08:00
-revision: 2026-08-24
-sources:
-  - path: 2026-08-24_1413__manual__theme_update/reference.md
-    agent: theme_update
-    summarized: false
----
+# BTC（比特币）— 当前态势与投资逻辑
 
-# BTC（比特币）
+**Session**: 2026-08-24_1413__manual__theme_update | **接力轮次**: 1/2 | **Lead**: crypto_trader
+
+---
 
 ## Big Picture
 
 比特币正在经历一次**政治化定价**的历史性转折。2026年8月19日，美国总统特朗普在白宫会见Coinbase CEO、Payward（Kraken母公司）创始人等加密行业高管，宣布美国已就"大规模"BTC储备计划展开讨论——这是首位在任美国总统以行政层级正式背书比特币战略价值（来源：query_raw_items telegram:Financial_Express [id:132576]）。这一信号直接触发BTC从$62,484低点（8/14）到$79,555高点（8/21）的约27%暴涨，60分钟内引爆超$11亿空头头寸，形成2021年以来最大规模空头平仓潮（来源：query_raw_items telegram:Financial_Express [id:132245][id:134385]）。
+
 叠加的宏观底色是：10年期美债收益率4.70%（19个月新高），30年期5.31%（19年高点），Fed主席Warsh即将于8/28在Jackson Hole以主席身份首次讲话，7月FOMC纪要（8/19公布）显示多位官员认为若通胀不降需加息。传统资产的"无风险收益率"正在被重新定价，而比特币正在同时获得"抗通胀叙事"和"政治庇护叙事"的双重加持——这是当前BTC投资逻辑的核心矛盾所在。
+
 从参与者结构看，BTC市场正经历**历史性分化**：传统金融巨头（摩根士丹利增持IBIT 23%、摩根大通增持25%、哈佛大学13F披露持有IBIT）系统性增加加密ETF配置，但ETF散户/短期资金在价格下跌时出现大规模赎回；巨鲸在$60,000-65,000区间加速积累（60天增持4.3万枚BTC，价值$27.5亿），而Jump Crypto等早期持有者却在阶段性减持。这种"聪明钱"与"散户资金"的背离，叠加矿企向AI计算的基础设施转型（算力下降17%至841 EH/s），预示着比特币市场的生态正在重构。
+
 ---
 
 ## 共识
@@ -29,23 +22,15 @@ sources:
 4. **算力下降需持续监控**：矿企向AI转型导致算力下降17%，短期非价格驱动因素，但中长期影响"数字黄金"叙事（共识）
 5. **机构参与"两面性"**：传统金融巨头增加配置，但ETF散户资金在价格下跌时大规模赎回，市场参与者结构分化（ai_specialist强调）
 6. **ETF资金流是关键验证指标**：未来2-3周ETF资金流入是否持续，将决定本轮反弹是"叙事驱动"还是"资金驱动"（ai_specialist强调）
+
 **少数派**：
 - soros认为政治化叙事"不可持续"，市场为"不可能兑现的可能性"定价，波动率高但最终会回归基本面（ai_specialist则认为政策窗口将持续存在）
+
 ---
 
 ## 各维度分析
 
 ### 叙事/情绪面
-
-叠加的宏观底色是：10年期美债收益率4.70%（19个月新高），30年期5.31%（19年高点），Fed主席Warsh即将于8/28在Jackson Hole以主席身份首次讲话，7月FOMC纪要（8/19公布）显示多位官员认为若通胀不降需加息。传统资产的"无风险收益率"正在被重新定价，而比特币正在同时获得"抗通胀叙事"和"政治庇护叙事"的双重加持——这是当前BTC投资逻辑的核心矛盾所在。
-
-### 基本面
-
-**少数派**： - soros认为政治化叙事"不可持续"，市场为"不可能兑现的可能性"定价，波动率高但最终会回归基本面（ai_specialist则认为政策窗口将持续存在）
-
-### 宏观背景
-
-叠加的宏观底色是：10年期美债收益率4.70%（19个月新高），30年期5.31%（19年高点），Fed主席Warsh即将于8/28在Jackson Hole以主席身份首次讲话，7月FOMC纪要（8/19公布）显示多位官员认为若通胀不降需加息。传统资产的"无风险收益率"正在被重新定价，而比特币正在同时获得"抗通胀叙事"和"政治庇护叙事"的双重加持——这是当前BTC投资逻辑的核心矛盾所在。
 
 ### 政治化定价：特朗普"BTC储备"叙事重塑市场预期
 
@@ -69,6 +54,8 @@ sources:
 
 ---
 
+### 基本面
+
 ### 巨鲸积累与矿企转型：长期结构向好，短期安全模型承压
 
 链上数据显示长期持有者在加速积累：过去60天内，比特币巨鲸累计增持约4.3万枚BTC，价值$27.5亿；持有100-1000枚BTC的中型持有者也掀起买入狂潮（来源：query_raw_items telegram:Financial_Express [id:129400][id:130226]）。"海豚"级持仓者（中等偏上持有者）余额同步增长。这表明$60,000-65,000区间被大户视为价值锚点。
@@ -86,6 +73,8 @@ Jump Crypto本周向Binance转入1,560枚BTC（约$9,920万），疑似进行出
 **我们判断**：链上积累数据与ETF资金回流共同确认了$60,000-65,000作为本轮周期的强支撑区间。巨鲸的买入行为发生在"最恐慌时刻"（BTC跌至$62,484时），这与历史模式一致——聪明钱总是在散户离场时进场。算力下降是值得持续监控的结构性风险，但短期内不会成为价格驱动因素。矿企向AI的转型需要观察3-6个月才能判断其长期影响。
 
 ---
+
+### 宏观背景
 
 ### 美债收益率飙升构成系统性压力，但BTC暂获政策对冲
 
@@ -109,12 +98,14 @@ Jump Crypto本周向Binance转入1,560枚BTC（约$9,920万），疑似进行出
 
 | 时间窗 | 预测 | 置信度 | 提出者 | 提出日期 | 验证 |
 |--------|------|--------|--------|----------|------|
-| 8/24-27（Jackson Hole前） | BTC在$75,000-80,000区间震荡，获利回吐压力与政策预期拉锯 | 70% | soros | ⬜ |  |
-| 8/28（Jackson Hole） | Warsh讲话决定短期方向：鸽派→突破$80,000；鹰派→回测$72,000 | 60% | soros | ⬜ |  |
-| 9/16 FOMC（含点阵图） | 若点阵图显示2026年不加息，BTC可能挑战$85,000+；若点阵图暗示加息，回调至$68,000-72,000 | 55% | soros | ⬜ |  |
-| Q4 2026 | BTC维持$70,000-90,000宽幅震荡，政治叙事是波动率的持续来源 | 50% | soros | ⬜ |  |
-| 8/24-9/15（FOMC前） | 若ETF资金流入持续（周净流入>$10亿），BTC将确认$75,000+支撑；若流入放缓或反转，将回测$70,000 | 65% | ai_specialist | ⬜ |  |
-| 2026年Q4-2027年Q1 | 比特币算力变化将成为市场关注焦点，若算力持续下降10%+，将触发"数字黄金"叙事重估 | 45% | ai_specialist | ⬜ |  |
+| 8/24-27（Jackson Hole前） | BTC在$75,000-80,000区间震荡，获利回吐压力与政策预期拉锯 | 70% | soros | 2026-08-24 |  |
+| 8/28（Jackson Hole） | Warsh讲话决定短期方向：鸽派→突破$80,000；鹰派→回测$72,000 | 60% | soros | 2026-08-24 |  |
+| 9/16 FOMC（含点阵图） | 若点阵图显示2026年不加息，BTC可能挑战$85,000+；若点阵图暗示加息，回调至$68,000-72,000 | 55% | soros | 2026-08-24 |  |
+| Q4 2026 | BTC维持$70,000-90,000宽幅震荡，政治叙事是波动率的持续来源 | 50% | soros | 2026-08-24 |  |
+| 8/24-9/15（FOMC前） | 若ETF资金流入持续（周净流入>$10亿），BTC将确认$75,000+支撑；若流入放缓或反转，将回测$70,000 | 65% | ai_specialist | 2026-08-24 |  |
+| 2026年Q4-2027年Q1 | 比特币算力变化将成为市场关注焦点，若算力持续下降10%+，将触发"数字黄金"叙事重估 | 45% | ai_specialist | 2026-08-24 |  |
+
+---
 
 ## 分歧地图
 
@@ -125,75 +116,74 @@ Jump Crypto本周向Binance转入1,560枚BTC（约$9,920万），疑似进行出
 | 算力下降影响 | 可能影响网络安全模型和发行曲线，需要持续监控 | 短期非价格驱动因素，但中长期影响"数字黄金"叙事完整性 | 对安全模型风险的紧迫性判断不同 | — |
 | 政治化叙事可持续性 | 打开的政策窗口（ETF审批、银行托管框架）将持续存在，即便"储备计划"流产 | 市场为"不可能兑现的可能性"定价，波动率高但不可持续 | 对政策落地可能性的判断不同 | — |
 
-> **审查意见**：11 条（详见 _history/review/）
+---
+
+> **审查意见**：9 条（详见 _history/review/）
 
 ## 数据来源
 
-**Raw Items (query_raw_items)**
+> Session: 2026-08-24_1413__manual__theme_update | 最后更新: 2026-08-24 06:16 UTC
 
-- 特朗普宣布讨论"大规模"BTC储备计划: query_raw_items(telegram:Financial_Express, keyword='BTC bitcoin')[id:132576] = 特朗普：美国已就储备"大规模"比特币及其他加密货币的相关计划展开讨论 (2026-08-19 19:39)
-- 比特币暴涨至69000美元，60分钟内11亿美元空头爆仓: query_raw_items(telegram:Financial_Express, keyword='BTC bitcoin')[id:132245] = 比特币暴涨至69000美元，60分钟内11亿美元加密货币空头头寸遭爆仓 (2026-08-19 15:48)
-- 比特币暴涨超11%，24小时全球超18万人爆仓，总金额超30亿: query_raw_items(telegram:Financial_Express, keyword='BTC bitcoin')[id:134385] = 比特币暴涨超11%，最近24小时全球超18万人爆仓，超九成为空单爆仓 (2026-08-20 10:23)
-- 加密股随BTC上涨走高: query_raw_items(telegram:Financial_Express, keyword='BTC bitcoin')[id:135055] = COINBASE +5.7%, STRATEGY +5.7%, CIRCLE +3.8%, MARA +3.8% (2026-08-20 13:39)
-- 比特币跌至76000美元下方，1亿美元多头爆仓: query_raw_items(telegram:Financial_Express, keyword='BTC bitcoin')[id:135580] = 比特币跌至76000美元下方，过去一小时加密市场价值1亿美元多头仓位遭到爆仓 (2026-08-23 05:28)
-- 比特币升破78000美元: query_raw_items(telegram:Financial_Express, keyword='BTC bitcoin')[id:136158] = 比特币升破78000美元，日内涨1.20% (2026-08-23 21:33)
-- 13只美国BTC ETF上周净流入19.2亿创10个月新高: query_raw_items(telegram:Financial_Express, keyword='BTC bitcoin')[id:137040] = 13只在美国上市的基金净吸引资金19.2亿美元，创去年10月以来最高纪录 (2026-08-24 05:08)
-- BTC ETF上周流入10个月最大: query_raw_items(telegram:Financial_Express, keyword='BTC bitcoin')[id:137033] = 比特币ETF上周流入资金规模创10个月以来最大 (2026-08-24 05:03)
-- 比特币巨鲸60天增持27.5亿美元: query_raw_items(telegram:Financial_Express, keyword='BTC bitcoin')[id:129400] = 比特币巨鲸豪掷27.5亿美元重返市场扫货，过去60天增持约4.3万枚BTC (2026-08-18 17:39)
-- 比特币巨鲸两个月增持27.5亿: query_raw_items(telegram:Financial_Express, keyword='BTC bitcoin')[id:130226] = 比特币巨鲸重返市场，两个月增持27.5亿美元 (2026-08-19 03:28)
-- 比特币强势反弹触发2021年以来最大规模空头平仓潮: query_raw_items(telegram:Financial_Express, keyword='BTC bitcoin')[id:132941] = 比特币强势反弹，触发2021年以来最大规模空头平仓潮 (2026-08-20 01:13)
-- 美债收益率亚洲交易时段下滑但仍处高位: query_raw_items(telegram:Financial_Express, keyword='iran Bessent')[id:137141] = 10年期美债收益率下跌2.2个基点至4.714%，30年期下跌2.7个基点至5.24% (2026-08-24 05:58)
-- 贝森特债务削减计划受关注: query_raw_items(telegram:Financial_Express, keyword='iran Bessent')[id:137121] = 美元指数徘徊在98.8附近，贝森特本周将公布预算整固计划 (2026-08-24 05:48)
-- Bloomberg Economics: 美对伊朗贸易伙伴制裁计划: query_raw_items(bloomberg_economics, keyword='iran Bessent')[id:137114] = Molavi: Focus on Applying Iran Sanctions on Trade Allies (2026-08-24 05:47)
-- 美财长称美伊战事进入"终局": query_raw_items(telegram:Financial_Express, keyword='iran Bessent')[id:137005] = 贝森特称美伊战事进入"终局"，扬言切断伊朗政权每一条经济命脉 (2026-08-24 04:49)
-- 霍尔木兹海峡80%油轮隐身通行: query_raw_items(telegram:Financial_Express, keyword='iran')[id:137052] = 阿拉伯湾八成油轮隐身暗渡海峡运石油，关闭AIS应答器 (2026-08-24 05:13)
-- 沙特拟推出战争风险保险计划: query_raw_items(telegram:Financial_Express, keyword='iran')[id:136972] = 沙特拟推出国家支持的战争风险保险计划，每起事件最高7亿里亚尔保障 (2026-08-24 04:29)
-- 伊朗收到加入《麦加共同防务协议》邀请: query_raw_items(telegram:Financial_Express, keyword='iran')[id:136971] = 伊朗收到加入沙特-土耳其-巴基斯坦防务协议邀请 (2026-08-24 04:29)
-- 伊朗革命卫队称每周开展一到两次打击: query_raw_items(telegram:Financial_Express, keyword='iran')[id:137063] = 伊朗革命卫队每周开展一到两次打击行动 (2026-08-24 05:23)
-- 对伊"最严制裁"将于8/25宣布: query_raw_items(telegram:Financial_Express, keyword='iran')[id:136953] = 美财长贝森特将于北京时间25日02:00举行新闻发布会宣布对伊朗制裁 (2026-08-24 04:18)
-- 伊朗总统称未沦为第二个委内瑞拉: query_raw_items(telegram:Financial_Express, keyword='iran')[id:137008] = 伊朗总统佩泽希齐扬称美国目标是让伊朗垮台，但伊朗未沦为第二个委内瑞拉 (2026-08-24 04:59)
-- 中东和平前景不明 通胀挂钩债券仍具优势: query_raw_items(telegram:Financial_Express, keyword='iran')[id:137164] = 货币市场已完全计入美联储12月加息25bp的预期 (2026-08-24 06:08)
-- 美国对加拿大部分产品加征50%关税: query_raw_items(telegram:Financial_Express, keyword='canada tariff')[id:136801] = 加拿大拒绝美国贸易协议，美国对数百种加拿大商品征收50%新进口关税 (2026-08-24 03:13)
-- 超七成加拿大民众支持退出加美贸易谈判: query_raw_items(telegram:Financial_Express, keyword='canada')[id:137051] = 76%受访民众支持加拿大政府退出谈判 (2026-08-24 05:13)
-- 美加贸易战难歇: query_raw_items(telegram:Financial_Express, keyword='canada')[id:136375] = 加拿大政府认为在中期选举前与特朗普恢复谈判可能性微乎其微 (2026-08-24 00:23)
-- 美加贸易战详情: query_raw_items(nytimes_chinese, keyword='canada')[id:136918] = 加拿大总理卡尼称与美国处于"战争"状态，美方提出不公平条件 (2026-08-24 04:06)
-- 美债利率上行三重催化: query_raw_items(telegram:Financial_Express, keyword='iran Bessent')[id:136996] = 中东冲突推高油价、沃什紧缩担忧、科技巨头发债分流 (2026-08-24 04:49)
-- 光大期货：黄金创三个月新高: query_raw_items(telegram:Financial_Express, keyword='safe haven')[id:136459] = 7月FOMC纪要以9:3维持利率不变，3位官员认为若通胀不降需加息，CME 9月加息概率降至40%以内 (2026-08-24 01:08)
-- 瑞士百达：美今年加息可能性低: query_raw_items(telegram:Financial_Express, keyword='safe haven')[id:136305] = 郑汪清称金价支撑位在4000美元，美联储今年加息可能性不大 (2026-08-23 23:49)
-- 巴克莱：沃什或减少前瞻指引: query_raw_items(telegram:Financial_Express, keyword='safe haven')[id:137111] = 沃什不太可能提供近期指引，但若通胀未改善会确认加息仍是可能选项 (2026-08-24 05:44)
-- 方正证券：贵金属逻辑持续增强: query_raw_items(telegram:Financial_Express, keyword='safe haven')[id:136414] = 金价突破4600美元/盎司，AI通胀和美国财政端创造黄金利多环境 (2026-08-24 00:49)
-- 中信建投：10Y美债4.7%高位波动: query_raw_items(telegram:Financial_Express, keyword='safe haven')[id:135899] = 10Y美债4.7%隐含通胀与AI债务融资双重因素，美国财政部加大回购 (2026-08-23 12:28)
-- 中国银行积存金突破1020元/克: query_raw_items(telegram:Financial_Express, keyword='safe haven')[id:137046] = 工行1003元/克，农行1017元/克，中行1020.54元/克 (2026-08-24 05:08)
-- SPDR黄金ETF持仓增加8.28吨: query_raw_items(telegram:Financial_Express, keyword='safe haven')[id:136330] = 截至8/21持仓量1047.21吨，较前日增加8.28吨 (2026-08-24 00:03)
-- 美国债务突破40万亿美元: query_raw_items(npr_world, keyword='safe haven')[id:132632] = The U.S. debt tops a record-shattering $40 trillion (2026-08-19 20:17)
-- 中特对伊朗制裁与习近平访美: query_raw_items(nytimes_chinese, keyword='iran')[id:136620] = 特朗普威胁制裁伊朗盟友，中国不为所动，习近平不到一个月后将访华盛顿 (2026-08-24 02:06)
-- 标普500期货与原油下挫: query_raw_items(telegram:Financial_Express, keyword='BTC bitcoin')[id:136183] = 美加贸易风险冲击，加元G10中表现最差 (2026-08-23 22:13)
-- 伊朗称收到麦加共同防务协议邀请: query_raw_items(telegram:Financial_Express, keyword='iran')[id:136971] = 伊朗收到加入沙特-土耳其-巴基斯坦防务协议邀请 (2026-08-24 04:29)
+**价格数据**
+- BTC当前价 $77,360（8/24 06:17 UTC）: binance_get_ticker(BTCUSDT) = 24h涨跌+1.59%，高$78,057.6，低$75,900.0，成交额$95.2亿
+- BTC 14日K线: binance_get_klines(BTCUSDT, 1d, 14) — 8/14低$62,484 → 8/21高$79,555，约27%涨幅
+- BTC 8/20暴涨超11%，创6月2日以来新高: query_raw_items(telegram:Financial_Express)[id:134385]
+- BTC 8/19暴涨至$69,000，60分钟$11亿空头爆仓: query_raw_items(telegram:Financial_Express)[id:132245]
+- BTC 8/20全球超18万人爆仓，超$30亿，九成为空单: query_raw_items(telegram:Financial_Express)[id:134385]
+- BTC 8/23一度跌至$76,000下方，$1亿多头爆仓: query_raw_items(telegram:Financial_Express)[id:135580]
+- BTC 8/23升破$78,000，日内涨1.20%: query_raw_items(telegram:Financial_Express)[id:136158]
 
-**Macroeconomic Indicators (query_indicators)**
+**催化剂与重大事件**
+- 特朗普8/19在白宫会见Coinbase/Payward/Blockchain.com加密高管，宣布讨论"大规模"BTC储备计划: query_raw_items(telegram:Financial_Express)[id:132576]
+- BTC强势反弹触发2021年以来最大规模空头平仓潮: query_raw_items(telegram:Financial_Express)[id:132941]
+- 加密股8/20随BTC上涨: COIN +5.7%, Strategy +5.7%, MARA +3.8%: query_raw_items(telegram:Financial_Express)[id:135055]
 
-- US CPI YoY: 3.4% (query_indicators, category=macro, country=us) = 2026-07-01 data
-- Fed Balance Sheet: $6.76万亿 (query_indicators, category=macro, country=us) = 2026-08-12 data
-- US Core CPI: 336.789 (index) (query_indicators, category=macro, country=us) = 2026-07-01 data
-- US PPI: 284.057 (index) (query_indicators, category=macro, country=us) = 2026-07-01 data
-- Consumer Confidence US: 49.5 (query_indicators, category=macro, country=us) = 2026-06-01 data, ⚠️ 84天前
+**ETF资金流**
+- 上周13只美国BTC ETF基金净吸引$19.2亿，创去年10月以来最高纪录: query_raw_items(telegram:Financial_Express)[id:137033]
+- 每个交易日均有净流入，OKX SG CEO评论可持续性问题: query_raw_items(telegram:Financial_Express)[id:137040]
 
-**Binance Data (binance_get_ticker)**
+**链上数据**
+- 巨鲸60天内增持约4.3万枚BTC（$27.5亿），中型持有者（100-1000枚BTC）掀起买入潮: query_raw_items(telegram:Financial_Express)[id:129400]
+- 巨鲸$27.5亿重返市场: query_raw_items(telegram:Financial_Express)[id:130226]
+- 算力从峰值下降17%至841 EH/s，矿企转向AI基础设施: query_raw_items(longbridge)[id:122793]
 
-- BTC/USDT 当前价格: $77,352.80 (binance_get_ticker, symbol=BTCUSDT) = 2026-08-24 06:19 UTC
-- 24h涨跌: +1.38% | 24h高: $78,057.60 | 24h低: $75,900.00
-- 24h成交量: 123,140 BTC | 24h成交额: $94.99亿
+**宏观环境**
+- 美国CPI同比3.4%（7月数据）: query_indicators(category=macro, country=us) = cpi_yoy_us_pct 3.4 (2026-07-01)
+- Fed资产负债表$6.76万亿（8/12）: query_indicators(category=macro, country=us) = fed_balance_sheet 6759955.0
+- 美国消费者信心49.5（6月）: query_indicators(category=macro, country=us) = consumer_confidence_us 49.5
+- Fed利率3.50-3.75%（7/28-29 FOMC维持不变）: query_fomc = target_range 3.50–3.75%
+- 7月FOMC纪要8/19公布，多位官员认为若通胀不降需加息: 历史记忆（20小时前）
+- 30年期美债收益率5.31%（8/17，19年新高）: 历史记忆（4天前）
+- 10年期美债收益率4.70%（19个月新高）: 历史记忆（1分钟前）
+- 美国财政部8/19宣布将10年-30年期国债流动性支持回购规模提至$40亿: query_raw_items[id:131882][id:131868]
+- 穆迪Zandi：伊朗战争推高长期利率，Warsh模糊前瞻指引加剧不确定性: query_raw_items(telegram:Financial_Express)[id:136671]
+- 券商分析：美债利率短期三重催化（中东冲突、Warsh紧缩担忧、科技巨头发债）: query_raw_items(telegram:Financial_Express)[id:136996]
+- 美债收益率8/24亚洲时段下滑但仍处高位，市场等待贝森特预算整固计划: query_raw_items(telegram:Financial_Express)[id:137141][id:137142]
 
-**FOMC Data (query_fomc)**
+**机构参与**
+- Morgan Stanley Q2增持BlackRock IBIT 23%至1650万股，增持Grayscale以太坊ETF: query_raw_items(longbridge)[id:122778]
+- JPMorgan Q2比特币ETF增仓25%，以太坊ETF增仓超4倍: query_raw_items(longbridge)[id:118547]
+- 哈佛大学13F披露持有iShare Bitcoin Trust ETF价值$1.01亿: query_raw_items(telegram:Financial_Express)[id:123685]
 
-- 当前联邦基金利率目标区间: 3.50-3.75% (query_fomc) = 自2026-07-28起
+**FOMC与Jackson Hole**
+- 9/15-16 FOMC会议含SEP（点阵图）: query_fomc = event_date 2026-09-15, sep_meeting=True
+- 8/28 Jackson Hole: Fed主席Warsh首次以主席身份讲话: query_raw_items(bloomberg_economics)[id:135539]
+- 6/16 FOMC SEP点阵图中位数3.8%: query_fomc = sep_fed_funds_median 3.8
 
-## 更新日志
+---
 
-| 日期 | 操作者 | 变更摘要 |
-|------|--------|---------|
-| 2026-08-24 14:29 | theme_publish | 更新（theme_update） |
-| 2026-08-24 14:27 | theme_publish | 更新（theme_update） |
-| 2026-08-24 13:30 | theme_publish | 更新（theme_update） |
-| 2026-08-24 13:10 | theme_publish | 更新（theme_update） |
-| 2026-08-01 | 人类 | 创建 theme 骨架 |
+*本稿由 ai_specialist 接力写作（轮次1/2），基于前序讨论（crypto_trader lead、soros首轮观点）与最新数据整合。*<tool_call>
+<function=write_theme_docs_tool>
+<parameter=content># BTC（比特币）
+
+## Big Picture
+
+比特币正在经历一次**政治化定价**的历史性转折。2026年8月19日，美国总统特朗普在白宫会见Coinbase CEO、Payward（Kraken母公司）创始人等加密行业高管，宣布美国已就"大规模"BTC储备计划展开讨论——这是首位在任美国总统以行政层级正式背书比特币战略价值（来源：query_raw_items telegram:Financial_Express [id:132576]）。这一信号直接触发BTC从$62,484低点（8/14）到$79,555高点（8/21）的约27%暴涨，60分钟内引爆超$11亿空头头寸，形成2021年以来最大规模空头平仓潮（来源：query_raw_items telegram:Financial_Express [id:132245][id:134385]）。
+
+叠加的宏观底色是：10年期美债收益率4.70%（19个月新高），30年期5.31%（19年高点），Fed主席Warsh即将于8/28在Jackson Hole以主席身份首次讲话，7月FOMC纪要（8/19公布）显示多位官员认为若通胀不降需加息。传统资产的"无风险收益率"正在被重新定价，而比特币正在同时获得"抗通胀叙事"和"政治庇护叙事"的双重加持——这是当前BTC投资逻辑的核心矛盾所在。
+
+从参与者结构看，BTC市场正经历**历史性分化**：传统金融巨头（摩根士丹利增持IBIT 23%、摩根大通增持25%、哈佛大学13F披露持有IBIT）系统性增加加密ETF配置，但ETF散户/短期资金在价格下跌时出现大规模赎回；巨鲸在$60,000-65,000区间加速积累（60天增持4.3万枚BTC，价值$27.5亿），而Jump Crypto等早期持有者却在阶段性减持。这种"聪明钱"与"散户资金"的背离，叠加矿企向AI计算的基础设施转型（算力下降17%至841 EH/s），预示着比特币市场的生态正在重构。
+</parameter>
+<parameter=path>themes/btc/2026-08-24_1413__manual__theme_update/drafts/current.md</parameter>
+</function>
+</tool_call>
