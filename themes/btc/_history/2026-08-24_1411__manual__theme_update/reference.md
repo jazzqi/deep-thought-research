@@ -1,0 +1,33 @@
+- BTC当前价 $77,340（8/24 06:00 UTC）: binance_get_ticker(BTCUSDT) = 24h涨跌+1.36%，高$78,058，低$75,900
+- BTC 14日K线8/14低$62,484 → 8/21高$79,555: binance_get_klines(BTCUSDT, 1d, 14)
+- 特朗普8/19白宫会见加密高管宣布讨论"大规模"BTC储备计划: query_raw_items(telegram:Financial_Express)[id:132576]
+- BTC 8/19暴涨至$69,000，60分钟$11亿空头爆仓: query_raw_items(telegram:Financial_Express)[id:132245]
+- BTC 8/20暴涨超11%，全球超18万人爆仓超$30亿: query_raw_items(telegram:Financial_Express)[id:134385]
+- BTC 8/23跌至$76,000下方触发1亿美元多头爆仓: query_raw_items(telegram:Financial_Express)[id:135580]
+- 加密股8/20: COIN +5.7%, Strategy +5.7%, MARA +3.8%: query_raw_items(telegram:Financial_Express)[id:135055]
+- 13只美国BTC ETF上周净流入$19.2亿创10个月新高: query_raw_items(telegram:Financial_Express)[id:137033][id:137040]
+- 巨鲸60天增持4.3万枚BTC（$27.5亿）: query_raw_items(telegram:Financial_Express)[id:129400][id:130226]
+- 美联储主席沃什将于8/28在杰克逊霍尔年会发表主旨演讲: query_raw_items(telegram:Financial_Express)[id:136555]
+- Bloomberg确认Warsh首次Jackson Hole讲话: query_raw_items(bloomberg_economics)[id:135539]
+- 巴克莱：沃什或主张减少前瞻指引使用: query_raw_items(telegram:Financial_Express)[id:137111]
+- 道明证券：若沃什不提供明确指引长债恐遭进一步抛售: query_raw_items(telegram:Financial_Express)[id:136121]
+- 穆迪Zandi：伊朗战争推高长期利率，Warsh模糊前瞻指引加剧不确定性: query_raw_items(telegram:Financial_Express)[id:136671]
+- 券商余经纬：美债利率短期三重催化: query_raw_items(telegram:Financial_Express)[id:136996]
+- 丹斯克银行：市场消化回购消息后结构性因素未变: query_raw_items(telegram:Financial_Express)[id:137141]
+- 联博Carson质疑贝森特缺乏削减国债计划: query_raw_items(telegram:Financial_Express)[id:136742]
+- 美财长贝森特8/25 02:00北京时间宣布对伊朗"史上最严制裁": query_raw_items(telegram:Financial_Express)[id:136953]
+- 伊朗威胁若经济战持续将封锁霍尔木兹海峡石油运输: query_raw_items(telegram:Financial_Express)[id:136517]
+- Kpler：周末不足20艘船通过霍尔木兹海峡: query_raw_items(telegram:Financial_Express)[id:136702]
+- 阿曼外长8/26将访问德黑兰斡旋: query_raw_items(telegram:Financial_Express)[id:137041]
+- 美国8/23对加拿大加征50%关税: query_raw_items(telegram:Financial_Express)[id:136254]
+- 加拿大民调超七成支持退出谈判: query_raw_items(telegram:Financial_Express)[id:137051]
+- 加拿大政府预判贸易战将长期持续至中期选举后: query_raw_items(telegram:Financial_Express)[id:136331]
+- 卡尔加里大学教授Tombe估计加拿大可能失去9万工作岗位: query_raw_items(telegram:Financial_Express)[id:136801]
+- 7月FOMC纪要9:3维持利率不变，多名官员认为若通胀不降则需加息: query_raw_items(telegram:Financial_Express)[id:136459]
+- CME数据显示9月加息概率从7月底70%+降至40%以内: query_raw_items(telegram:Financial_Express)[id:136459]
+- Fed利率3.50-3.75%: query_fomc(target_range)
+- 9/15-16 FOMC会议含SEP点阵图: query_fomc(sep_meeting)
+- 美国CPI同比3.4%（7月）: query_indicators(category=macro, country=us)
+- 8/26 Q2 GDP修正值（前值1.5%，预期1.5%）: query_calendar_events(country=US, importance=high)
+- 9/4 非农（前值-2.3万）: query_calendar_events(country=US, importance=high)
+- 伊朗革命卫队每周开展一到两次打击行动: query_raw_items(telegram:Financial_Express)[id:137063]
