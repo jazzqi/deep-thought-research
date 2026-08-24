@@ -40,7 +40,9 @@ jobs:
             --search "in:title \"$TITLE\" is:issue" --limit 1 --json number 2>/dev/null \
             | python3 -c "import json,sys; d=json.load(sys.stdin); print(d[0]['number'] if d else '')" 2>/dev/null)
           if [ -n "$EXISTING" ]; then
-            echo "issue #$EXISTING already exists for $DATE, skipping."
+            echo "issue #$EXISTING already exists for $DATE, updating."
+            gh issue edit "$EXISTING" --body-file /tmp/body.md --repo jazzqi/deep-thought-research
+            echo "issue #$EXISTING updated."
             exit 0
           fi
           # 剥离 frontmatter：删除开头第一个 --- 到第二个 ---（含），保留正文
