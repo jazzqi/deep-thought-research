@@ -1,0 +1,16 @@
+actions:
+- priority: P1
+  recurrence: daily
+  summary: 监控 WTI 原油对美伊'服务费'法案/PGSA 扣押的实质反应，验证油价是否补涨
+  target_flow_params: {}
+  type: monitoring
+- priority: P1
+  summary: 美伊经济战升级为本周最大地缘尾部风险，Bessent 发布会与伊朗报复威胁需实时跟踪
+  target_flow: macro_regime
+  target_flow_params: {}
+  type: alert
+- priority: P2
+  summary: 8/26 英伟达财报验证 AI 估值叙事，盘后确认
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-08-26'
