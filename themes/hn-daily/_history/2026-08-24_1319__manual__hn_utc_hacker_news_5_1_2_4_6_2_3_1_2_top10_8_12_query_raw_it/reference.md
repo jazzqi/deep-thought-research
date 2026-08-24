@@ -1,0 +1,8 @@
+- 2026-08-23 HN 高价值帖子数据: query_raw_items(source='hackernews', min_points=20, ingested=2026-08-23) [id:135521,135524,135530,135512,135522,135531,135514,135523,135552,135560,135527,135534,135566,135561]
+- Anthropic Claude Code A/B测试降低effort levels: query_raw_items[id:135512] = Anthropic appears to be A/B testing reduced effort levels in Claude Code, 新版Claude Code 2.1.236+将"high" effort缩放为10/100(原"low"水平), 177分/163评论
+- 本地LLM感觉比实际更笨的原因分析: query_raw_items[id:135524] = Why your local LLM feels dumber than it is, 技术文章分析KL散度、采样设置、硬件差异对LLM输出的影响, 254分/84评论
+- macOS 27弃用hdiutil工具: query_raw_items[id:135530] = hdiutil is deprecated in macOS 27 Golden Gate, 新工具diskutil image更快(40-45秒 vs 110-115秒)且输出文件更小, 178分/71评论
+- NanoGPT Speedrun竞赛当前排名: query_raw_items[id:135552] = NanoGPT Speedrun Frontier, Fable 5以81.7%关闭人类记录差距领先, Opus 5以53.6%位居第二
+- Figmimic网页转Figma工具: query_raw_items[id:135523] = Figmimic bookmarklet可将任意网页捕获为Figma可编辑图层, 77分/10评论
+- HDR屏幕logo增亮技术: query_raw_items[id:135527] = Show HN: Make your logo extra bright on HDR screens, 使用ISO 21496-1增益图实现HDR显示, 54分/65评论
+- 美军报纸编辑因审查担忧被解雇: query_raw_items[id:135560] = US Military newspaper editor voices censorship fears after being fired, Stars and Stripes编辑Erik Slavin因"不服从"被解雇, 57分/25评论

@@ -1,19 +1,4 @@
----
-name: HN 书摘 · 2026-08-24
-slug: hn-daily
-status: active
-lead_agent: tech_generalist
-created: 2026-08-15
-updated: 2026-08-24T13:27:22+08:00
-revision: 2026-08-24
-sources:
-  - path: 2026-08-24_1319__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/reference.md
-    agent: hn_daily_update
-    summarized: false
----
-
 # HN 书摘 · 2026-08-23（周六）
-
 
 > 今日三句话：① GLM-5.3 实战修复 Android 平板，$266 成本完成硬件劫持，开源模型首次在真实逆向工程场景证明商用级能力；② Anthropic 最贵模型用户增长乏力，306 条评论的激烈辩论暴露模型层"价格-体验"脱节；③ HN 社区同日涌现多篇 AI 工程实践帖，信号一致：模型能力过剩、工程集成不足是当前瓶颈。
 
