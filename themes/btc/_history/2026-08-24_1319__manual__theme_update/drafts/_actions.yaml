@@ -1,0 +1,11 @@
+actions:
+- priority: P1
+  summary: BTC已从6.2万美元低点反弹至7.7万美元，需验证反弹持续性及是否形成新上升趋势
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-08-31'
+- priority: P1
+  recurrence: weekly
+  summary: 监控9月4日美国非农就业数据对BTC走势影响，当前就业市场疲软可能利好降息预期
+  target_flow_params: {}
+  type: monitoring
