@@ -1,0 +1,13 @@
+actions:
+- confidence: 0.7
+  priority: P2
+  summary: 跟踪 Anthropic Claude Code effort 档位 A/B 测试是否正式落地，验证用户体感退化是否持续
+  target_flow: thesis_propose
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-08-31'
+- priority: P3
+  recurrence: weekly
+  summary: 监控 macOS 27 Golden Gate 正式版发布后 hdiutil→diskutil image 迁移的社区反馈与兼容性问题
+  target_flow_params: {}
+  type: monitoring
