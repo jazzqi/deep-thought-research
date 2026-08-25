@@ -1,0 +1,11 @@
+<tool_call>
+<function=query_raw_items>
+<parameter=limit>50</parameter>
+<parameter=source>hackernews</parameter>
+<parameter=keyword>None</parameter>
+<parameter=team>None</parameter>
+<parameter=agent_id>None</parameter>
+<parameter=min_points>1</parameter>
+<parameter=status>None</parameter>
+</function>
+</tool_call>
