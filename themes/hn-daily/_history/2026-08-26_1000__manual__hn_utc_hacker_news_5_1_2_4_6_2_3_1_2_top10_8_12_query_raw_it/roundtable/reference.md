@@ -1,0 +1,14 @@
+- LLM 宿主机攻击面分析: query_raw_items(source='hackernews', min_points=20)[id:139611] = BoydKane 文章，23 分 7 评论
+- vLLM CVE-2025-9141 eval() 漏洞: fetch_url(boydkane.com) = 文中引用的历史 CVE
+- AI 消灭软件工程中产阶级: query_raw_items(source='hackernews', min_points=20)[id:95627] = 984 分 919 评论
+- Opus 5 体验下降分析: query_raw_items(source='hackernews', min_points=20)[id:112673] = 765 分 700 评论
+- 本地 LLM 性能差异技术分析: query_raw_items(source='hackernews', min_points=20)[id:135524] = 254 分 84 评论
+- 链接腐烂研究数据: query_raw_items(source='hackernews', min_points=20)[id:100071] = 222 分 207 评论
+- 链接腐烂详细数据: fetch_url(0.mk/blog/link-rot) = 657607 条链接，76.7% 失效
+- "理解是新瓶颈"演讲: query_raw_items(source='hackernews', min_points=20)[id:100182] = 418 分 238 评论
+- Zed Delta 发布: query_raw_items(source='hackernews', min_points=20)[id:96346] = 672 分 254 评论
+- Bluesky Protocol Services: query_raw_items(source='hackernews', min_points=20)[id:100762] = 204 分 65 评论
+- JetBrains Junie Local / Qwen3.6: query_raw_items(source='hackernews', min_points=20)[id:139784] = 21 分 10 评论
+- systemd-journald IO 问题: query_raw_items(source='hackernews', min_points=20)[id:100174] = 253 分 217 评论
+- Cerebras GPT-5.6 Sol Ultrafast: query_raw_items(source='hackernews', min_points=20)[id:100097] = 697 分 272 评论
+- Cerebras GPT-5.6 Ultrafast 数据: fetch_url(cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai) = 750 tokens/s，HLE 11h11m vs Fable 5 78h27m

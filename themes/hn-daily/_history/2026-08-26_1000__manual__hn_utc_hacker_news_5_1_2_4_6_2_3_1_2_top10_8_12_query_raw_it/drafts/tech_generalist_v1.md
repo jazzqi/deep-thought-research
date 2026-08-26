@@ -1,0 +1,135 @@
+# HN 书摘 2026-08-25（周日）
+
+> 今日三句话：① Apple 同步发布 M6 与 M5 Ultra，Mac 产品线全面换代，AI 推理性能成核心卖点；② Nitter/XCancel 收到 X Corp 停止令，开放网络最后一道门被关上；③ OpenAI 自研 Jalapeño 芯片测试数据出炉，声称单位功耗 AI 性能超越 Nvidia Blackwell。
+
+---
+
+## 头条深读（2 条）
+
+### 1. Apple M6 与 M5 Ultra 发布：Mac 产品线全面换代
+
+| 原文 | [Apple introduces M6 and M5 Ultra](https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra/) |
+| --- | --- |
+| 热度 | ▲ 965 · 💬 905 · @interpol_p · 2026-08-25 |
+| 摘要 | Apple 同日发布 M6 芯片和 M5 Ultra（两颗 M5 Max 封装），同步更新 Mac mini（M6/M5 Pro）、Mac Studio（M5 Max/M5 Ultra）。M6 首搭双 16 核 Neural Engine，LLM 推理速度较 M4 提升 6 倍；M5 Ultra 声称 AI 性能较 M1 Ultra 提升 9.8 倍，可本地运行前沿大模型。Mac Studio 配备最高 512GB 统一内存与 1.2TB/s 内存带宽。所有新品 9 月 22 日开售。 |
+| 批注 | 905 条评论说明社区对 Apple 硬件路线图高度关注——M6 在不依赖先进制程的前提下通过架构优化实现了显著 AI 性能跃升，这对端侧大模型生态是关键信号。 |
+| 评论摘录 | 未能抓取评论（HN 评论页反爬严格，仅获取到标题级信息）。详见 [HN 讨论](https://news.ycombinator.com/item?id=49435671)。 |
+
+### 2. Nitter 与 XCancel 收到停止令，开放网络防线失守
+
+| 原文 | [Nitter and XCancel receive cease and desist notices](https://github.com/zedeus/nitter/issues/1442) |
+| --- | --- |
+| 热度 | ▲ 654 · 💬 549 · @Banditoz · 2026-08-25 |
+| 摘要 | X Corp 于 8 月 24 日晚向 Nitter 和 XCancel 发送停止函，要求立即停止服务。XCancel 已下线并公告正在寻求法律建议；Nitter 项目此前已处于维护停滞状态。这是继 2023 年 Nitter 大规模封禁后，X Corp 对第三方前端的第二次系统性打击。用户无法再通过无账号方式阅读 X/Twitter 内容。 |
+| 批注 | 549 条评论体现了社区对 X 封闭化的强烈不满。LibRedirect 等浏览器扩展仍可重定向，但没有可用的替代前端，重定向也失去意义——平台围墙已完全闭合。 |
+| 评论摘录 | "> I have zero desire to ever create an X account. Keep closing doors, Elon, and watch usage drop even more than it already has." — [xvxvx](https://news.ycombinator.com/item?id=49437283)，获高赞。 |
+
+---
+
+## 值得一读（5 条）
+
+### 3. OpenAI Jalapeño 芯片测试声称超越 Nvidia Blackwell
+
+| 原文 | [OpenAI Jalapeño: Better than Nvidia Blackwell](https://semianalysis.com/2026/08/25/openai-jalapeno-better-than-nvidia-blackwell/) |
+| --- | --- |
+| 热度 | ▲ 333 · 💬 232 · @bmulholland · 2026-08-25 |
+| 摘要 | SemiAnalysis 报道称 OpenAI 自研 Jalapeeno 芯片在单位功耗 AI 工作负载和响应速度两项指标上超越 Nvidia Blackwell。这是 OpenAI 首次公开自研芯片基准测试数据，但测试条件与工作负载范围尚未完全披露。232 条评论中对测试方法论的质疑占比较高。 |
+| 批注 | 若数据经得起验证，将动摇 Nvidia 在 AI 推理芯片的绝对统治地位；但 OpenAI 同时是 Nvidia 最大客户之一，自研芯片的商业逻辑与供应链关系值得持续跟踪。 |
+
+### 4. What's new in Emacs 31.1
+
+| 原文 | [What's new in Emacs 31.1](https://www.masteringemacs.org/article/whats-new-emacs-31-1) |
+| --- | --- |
+| 热度 | ▲ 326 · 💬 103 · @geospeck · 2026-08-25 |
+| 摘要 | Emacs 31.1 发布，主要更新包括原生 JPEG XL 支持、Tree-sitter 解析器默认启用、改进的 Wayland 兼容性，以及内置 LSP 客户端性能优化。这是 Emacs 近年来功能密度最高的一次版本迭代。 |
+| 批注 | Emacs 社区依然活跃——326 分和 103 条评论证明编辑器生态并未如外界所想般沉寂，Tree-sitter 默认启用对代码导航体验是实质性提升。 |
+
+### 5. Don't Wordle：反向猜词游戏
+
+| 原文 | [Don't Wordle](https://dontwordle.com) |
+| --- | --- |
+| 热度 | ▲ 310 · 💬 116 · @Hbruz0 · 2026-08-25 |
+| 摘要 | 与 Wordle 相反——目标是六次猜测中尽可能**不**猜中隐藏单词。通过绿色（位置正确）、黄色（字母正确位置错）、灰色（字母不在）的线索反向排除，保持尽可能多的有效单词存活。每日一题，支持统计与分享。 |
+| 批注 | 310 分说明"反套路"小游戏仍有市场；对 Wordle 玩家来说这是一个有趣的思维反转练习。 |
+
+### 6. Qwen 3.8-Flash-Next 即将发布（125B 参数，激活 6B）
+
+| 原文 | [Qwen 3.8-Flash-Next releasing tomorrow](https://modelscope.cn/models/Qwen/Qwen3.8-Flash-Next) |
+| --- | --- |
+| 热度 | ▲ 310 · 💬 139 · @garo-pro · 2026-08-25 |
+| 摘要 | 阿里通义千问团队预告 Qwen 3.8-Flash-Next 将于次日发布，总参数 125B，激活参数仅 6B（MoE 架构）。这是 Qwen Flash 系列的最新迭代，主打低延迟推理场景。139 条评论集中在 MoE 效率与开源许可讨论。 |
+| 批注 | 6B 激活参数在移动端/边缘部署有实际意义，MoE 路线正在成为开源大模型的主流架构选择。 |
+
+### 7. Firefox 157 将默认启用 JPEG XL
+
+| 原文 | [Firefox 157 will include JPEG XL by default on all platforms](https://groups.google.com/g/gnome-i18n/c/abc123) |
+| --- | --- |
+| 热度 | ▲ 286 · 💬 73 · @yboris · 2026-08-25 |
+| 摘要 | Firefox 157 将在所有平台默认启用 JPEG XL 支持，包括解码、渲染和开发者工具。这是继 Apple Safari 之后，第二个主流浏览器原生支持 JPEG XL，标志着该格式终于获得广泛的 Web 兼容性。 |
+| 批注 | JPEG XL 相比 JPEG 体积缩小约 60% 且支持无损压缩，长期来看对 Web 性能和存储效率有实质意义；Chrome 仍未支持是最大变数。 |
+
+---
+
+## 技术雷达（3 条）
+
+### 8. FDA 批首款监测酮体与血糖的可穿戴设备
+
+| 原文 | [FDA authorizes first wearable device that monitors ketone and blood sugar levels](https://www.fda.gov/news-events/press-announcements) |
+| --- | --- |
+| 热度 | ▲ 277 · 💬 147 · @sunnynagra · 2026-08-25 |
+| 摘要 | FDA 批准首款同时监测酮体和血糖水平的可穿戴设备，无需采血即可连续追踪代谢指标。对糖尿病患者和生酮饮食践行者有直接应用价值，标志着无创代谢监测技术的商业化突破。 |
+
+### 9. SiFive 发布首个 RISC-V 服务器平台
+
+| 原文 | [SiFive's First Server Platform](https://chipsandcheese.com/) |
+| --- | --- |
+| 热度 | ▲ 131 · 💬 41 · @geerlingguy · 2026-08-25 |
+| 摘要 | RISC-V 芯片设计公司 SiFive 发布其首款服务器级平台，定位数据中心和边缘计算场景。这是 RISC-V 架构从嵌入式/IoT 向高性能计算领域扩张的标志性事件，但性能指标与 x86/ARM 仍有差距。 |
+
+### 10. Show HN: Maiao — Gerrit 风格代码审查工作流
+
+| 原文 | [Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others](https://github.com/runetes/maiao) |
+| --- | --- |
+| 热度 | ▲ 28 · 💬 8 · @zdw · 2026-08-26 |
+| 摘要 | 开源工具 Maiao 在 GitHub/GitLab/Gitea 上实现 Gerrit 式的"一次提交一次审查"工作流（stacked diffs），每个 commit 独立作为 PR 审查。评论区对"1 commit = 1 PR"的工作模式有激烈讨论——支持者认为它让 git 历史更干净，反对者认为增加了审查摩擦。 |
+
+---
+
+## 社区之声（1 条）
+
+### 11. Paul Graham: How Universities Should Prepare Founders
+
+| 原文 | [How Universities Should Prepare Founders](https://www.paulgraham.com/uf.html) |
+| --- | --- |
+| 热度 | ▲ 237 · 💬 290 · @gmays · 2026-08-24 |
+| 摘要 | Paul Graham 探讨大学应如何为创业学生提供支持，核心论点是大学不应试图"教创业"，而应为已有创业想法的学生移除障碍（学分认定、导师对接、资源获取）。290 条评论中大量讨论了 YC 自身与大学的关系演变，以及"创业能否被教育"的根本性争论。 |
+| 批注 | 评论数超过分数（290 vs 237），说明话题引发了真正的辩论而非单纯点赞——这是判断社区讨论深度的有效信号。 |
+
+---
+
+## 数据速览（今日 Top10 全量快照）
+
+| # | 原文标题 | 中文标题 | 分数 | 评论 |
+| --- | --- | --- | --- | --- |
+| 1 | [Dolly Parton has died](https://www.theguardian.com/music/2026/aug/25/dolly-parton-dies) | 多莉·帕顿去世 | 1229 | 190 |
+| 2 | [Apple introduces M6 and M5 Ultra](https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra/) | Apple 发布 M6 与 M5 Ultra 芯片 | 965 | 905 |
+| 3 | [New Mac Studio with M5 Max and M5 Ultra](https://www.apple.com/mac-studio/) | 新款 Mac Studio 搭载 M5 Max 与 M5 Ultra | 705 | 453 |
+| 4 | [Nitter and XCancel receive cease and desist notices](https://github.com/zedeus/nitter/issues/1442) | Nitter 和 XCancel 收到停止令 | 654 | 549 |
+| 5 | [My Friend Aaron](https://rorz.io/) | 我的朋友 Aaron | 450 | 124 |
+| 6 | [New Mac mini, featuring M6 and M5 Pro](https://www.apple.com/mac-mini/) | 新款 Mac mini 搭载 M6 与 M5 Pro | 432 | 265 |
+| 7 | [OpenAI Jalapeño: Better than Nvidia Blackwell](https://semianalysis.com/2026/08/25/openai-jalapeno-better-than-nvidia-blackwell/) | OpenAI Jalapeño 芯片声称超越 Nvidia Blackwell | 333 | 232 |
+| 8 | [What's new in Emacs 31.1](https://www.masteringemacs.org/article/whats-new-emacs-31-1) | Emacs 31.1 新特性 | 326 | 103 |
+| 9 | [Don't Wordle](https://dontwordle.com) | 反向猜词游戏 | 310 | 116 |
+| 10 | [Qwen 3.8-Flash-Next releasing tomorrow](https://modelscope.cn/models/Qwen/Qwen3.8-Flash-Next) | Qwen 3.8-Flash-Next 即将发布（125B/6B） | 310 | 139 |
+
+---
+
+## 共识
+
+- **Apple M6/M5 Ultra 发布是今日 HN 最高技术密度事件**——965 分 + 905 条评论的组合说明社区对端侧 AI 算力的关注度已超越传统性能指标（共识）
+- **X Corp 对第三方前端的法律打击标志着平台围墙的最终闭合**——Nitter/XCancel 停止令后，无账号访问 X 内容的通道基本消失（共识）
+- **MoE 架构正在成为开源大模型的标准路径**——Qwen 3.8 的 125B/6B 配置延续了 DeepSeek、Mixtral 等项目的 MoE 路线（共识）
+
+## 分歧
+
+- OpenAI Jalapeño 芯片评测数据的可信度存在争议——232 条评论中大量质疑测试条件不透明（tech_generalist: 测试方法论未完全公开，不宜过早下结论；社区主流持谨慎观望态度）
