@@ -1,0 +1,11 @@
+actions:
+- priority: P2
+  recurrence: weekly
+  summary: PDD Q2 2026 财报已发布（8/24），需持续跟踪 Q3 盈利趋势及 EU 本地化进展
+  target_flow_params: {}
+  type: monitoring
+- priority: P1
+  summary: Longbridge 数据源恢复后，更新 PDD 实时估值（PE/PB）及分析师一致预期
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-09-01'
