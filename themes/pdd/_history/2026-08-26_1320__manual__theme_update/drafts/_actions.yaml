@@ -1,0 +1,11 @@
+actions:
+- priority: P1
+  recurrence: weekly
+  summary: 跟踪8月27日7月规模以上工业企业利润数据及9月1日财新制造业PMI，验证中国宏观是否进一步恶化
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: Q2财报发布后更新PDD分析师一致预期（目标价$116.74可能已过时）及Temu分地区运营数据
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-09-08'
