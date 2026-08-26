@@ -3,7 +3,7 @@ slug: event-3
 theme: pdd
 event: 事件三：速卖通巴西超越Temu
 session: 2026-08-26_1320__manual__theme_update
-published: 2026-08-26T13:48:06+08:00
+published: 2026-08-26T13:50:06+08:00
 ---
 
 # 事件三：速卖通巴西超越Temu

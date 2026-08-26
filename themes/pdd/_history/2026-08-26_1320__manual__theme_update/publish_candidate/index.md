@@ -4,7 +4,7 @@ slug: pdd
 status: active
 lead_agent: buffett
 created: 2026-08-01
-updated: 2026-08-26T13:48:06+08:00
+updated: 2026-08-26T13:50:06+08:00
 revision: 2026-08-26
 sources:
   - path: 2026-08-26_1320__manual__theme_update/reference.md
@@ -93,7 +93,7 @@ actions:
 | 国内竞争 | 拼多多在下沉市场的优势不可撼动（lynch） | 社零仅增 1.0%，总量蛋糕不长，份额增长受限（buffett） | 消费环境 vs 竞争优势 | — |
 | 物流转型 | 本地化仓储是正确的长期战略（soros） | 转型期成本高企，且在监管压力下时机不佳（buffett） | 转型节奏与外部压力叠加 | — |
 
-> **审查意见**：5 条（详见 _history/review/）
+> **审查意见**：12 条（详见 _history/review/）
 
 ## 数据来源
 
@@ -159,6 +159,7 @@ actions:
 
 | 日期 | 操作者 | 变更摘要 |
 |------|--------|---------|
+| 2026-08-26 13:50 | theme_publish | 更新（theme_update） |
 | 2026-08-26 13:48 | theme_publish | 更新（theme_update） |
 | 2026-08-26 12:12 | theme_publish | 更新（theme_update） |
 | 2026-08-01 21:13 | theme_publish | 更新（theme_update） |

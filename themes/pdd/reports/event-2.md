@@ -3,7 +3,7 @@ slug: event-2
 theme: pdd
 event: 事件二：Temu管理层回撤与国内买菜业务加速
 session: 2026-08-26_1320__manual__theme_update
-published: 2026-08-26T13:48:06+08:00
+published: 2026-08-26T13:50:06+08:00
 ---
 
 # 事件二：Temu管理层回撤与国内买菜业务加速

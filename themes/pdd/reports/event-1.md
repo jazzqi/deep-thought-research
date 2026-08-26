@@ -3,7 +3,7 @@ slug: event-1
 theme: pdd
 event: 事件一：Q2 2026财报发布（2026-08-24）
 session: 2026-08-26_1320__manual__theme_update
-published: 2026-08-26T13:48:06+08:00
+published: 2026-08-26T13:50:06+08:00
 ---
 
 # 事件一：Q2 2026财报发布（2026-08-24）
