@@ -24,6 +24,7 @@ sources: []
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 
 ## 往期
+- [与死神擦肩、每晚只睡一小时、却建起医疗帝国的 CEO —— Mark Bertolini（前 Aetna CEO / Oscar Health CEO）· @ILTB_Podcast · 2025-08-19](./iltb/the-ceo-who-cheated-death-slept-an-hour-a-night-and-built-a.md)
 - [Alpha School 的颠覆性教育愿景 —— @ILTB_Podcast · 2025-08-26](./iltb/alpha-schools-disruptive-vision-for-the-future-of-education.md)
 - [Podcast 学习文档 5-ingredients-for-the-perfect-investment-jeff-horing-intervi](./iltb/5-ingredients-for-the-perfect-investment-jeff-horing-intervi.md)
 - [Barry Diller 的商业哲学与创新实践 —— @ILTB_Podcast · 2025-09-23](./iltb/how-barry-diller-built-entertainment-empires.md)
