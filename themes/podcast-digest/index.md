@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-08-16
-revision: 2026-08-16
+updated: 2026-08-27T18:00:42+08:00
+revision: 2026-08-27T18:00:42+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,9 +21,10 @@ sources: []
 
 ## 最新一期
 
-- [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
+- [与死神擦肩、每晚只睡一小时、却建起医疗帝国的 CEO —— Mark Bertolini（前 Aetna CEO / Oscar Health CEO）· @ILTB_Podcast · 2025-08-19](./iltb/the-ceo-who-cheated-death-slept-an-hour-a-night-and-built-a.md)
 
 ## 往期
+
 - [与死神擦肩、每晚只睡一小时、却建起医疗帝国的 CEO —— Mark Bertolini（前 Aetna CEO / Oscar Health CEO）· @ILTB_Podcast · 2025-08-19](./iltb/the-ceo-who-cheated-death-slept-an-hour-a-night-and-built-a.md)
 - [Alpha School 的颠覆性教育愿景 —— @ILTB_Podcast · 2025-08-26](./iltb/alpha-schools-disruptive-vision-for-the-future-of-education.md)
 - [Podcast 学习文档 5-ingredients-for-the-perfect-investment-jeff-horing-intervi](./iltb/5-ingredients-for-the-perfect-investment-jeff-horing-intervi.md)
@@ -52,7 +53,6 @@ sources: []
 - [Why Now is the Best Time to Buy Public Software Companies —— Mitchell Green · 2026-03-24](./iltb/why-now-is-the-best-time-to-buy-public-software-companies.md)
 - [顶级研究者谈AI、大语言模型与机器人智能 —— Sergey Levine · Invest Like the Best · 2026-03-31](./iltb/worlds-top-researcher-on-ai-llms-and-robot-intelligence.md)
 - [百年美国金融体系如何塑造当下 —— Sixth Street 创始人 Alan Waxman · 2026-04-08](./iltb/what-100-years-of-american-finance-tells-us-about-today.md)
-- [百年美国金融史：从监管护栏到工厂模式的演变 —— Alan Waxman (Sixth Street) · 2026-04-08](./iltb/what-100-years-of-american-finance-tells-us-about-today.md)
 - [From SpaceX to Founders Fund to Solving America's Nuclear Fuel Problem —— Scott Nolan · ILTB Podcast · 2026-04-14](./iltb/from-spacex-to-founders-fund-to-solving-americas-nuclear-fue.md)
 - [GLP-1s, Peptides, and The Trillion-Dollar Health Revolution —— Invest Like the Best (Alex Cornell) · 2026-04-21](./iltb/glp-1s-peptides-and-the-trillion-dollar-health-revolution.md)
 - [AI Token 的供需革命 —— Dylan Patel · 2026-04-23](./iltb/the-supply-and-demand-of-ai-tokens-dylan-patel-interview.md)
@@ -86,14 +86,12 @@ sources: []
 - [The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence? —— All-In Podcast · 2026-07-24](./all-in/the-fight-over-open-source-ai-anthropics-15b-payout-nyc-soci.md)
 - [The $1/Hour Worker：四位机器人 CEO 论人形机器人、 中国威胁与危险工作的终结 —— All-In · 2026-07-28](./all-in/the-1hour-worker-four-robotics-ceos-on-humanoids-at-home-chi.md)
 - [Podcast 学习文档 chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow](./all-in/chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow.md)
-- [Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores —— All-In · 2026-07-31](./all-in/chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow.md)
 - [Are The Democratic Socialists Winning or Losing? —— The Daily · 2026-08-13](./the-daily/are-the-democratic-socialists-winning-or-losing.md)
 - [The Secret Spy Network Feeding Russia’s War Machine —— The Daily · 2026-08-14](./the-daily/the-secret-spy-network-feeding-russias-war-machine.md)
 - [The Charming, Amusing, Surprisingly Low-Confidence Matthew Rhys —— Matthew Rhys · The Interview · 2026-08-15](./the-daily/the-charming-amusing-surprisingly-low-confidence-matthew-rhy.md)
 - [Saronic Founders：自主战舰、 中国的230倍造船优势与机器人船群 —— Dino Mavroukas、Vibh Althakkar · 2026-08-05](./all-in/saronic-founders-autonomous-warships-chinas-230x-advantage-s.md)
 - [Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI —— All-In · 2026-08-08](./all-in/googles-ai-brain-drain-spacexs-huge-quarter-airtables-90-col.md)
 - [Rahm Emanuel：特朗普的外交政策、中国、欧洲衰落、移民与 DSA 对民主党的挑战 —— All-In · 2026-08-13](./all-in/rahm-emanuel-trumps-foreign-policy-china-europes-decline-imm.md)
-
 - [Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback](./all-in/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-gro.md)
 - [Sam Altman on AGI, Compute, and Human Agency](./iltb/sam-altman-on-agi-compute-and-human-agency.md)
 - [Why the Markets Are Pricing AI Wrong｜Gavin Baker](./iltb/why-the-markets-are-pricing-ai-wrong-gavin-baker.md)
