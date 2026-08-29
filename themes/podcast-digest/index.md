@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-08-27T18:00:42+08:00
-revision: 2026-08-27T18:00:42+08:00
+updated: 2026-08-29T08:21:05+08:00
+revision: 2026-08-29T08:21:05+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [与死神擦肩、每晚只睡一小时、却建起医疗帝国的 CEO —— Mark Bertolini（前 Aetna CEO / Oscar Health CEO）· @ILTB_Podcast · 2025-08-19](./iltb/the-ceo-who-cheated-death-slept-an-hour-a-night-and-built-a.md)
+- [美国经济分裂的数据真相 —— Andrew Milgram（Marblegate 联合创始人）· ILTB Podcast · 2025-08-05](./iltb/the-data-on-americas-economic-split-andrew-milgram-interview.md)
 
 ## 往期
 
+- [美国经济分裂的数据真相 —— Andrew Milgram（Marblegate 联合创始人）· ILTB Podcast · 2025-08-05](./iltb/the-data-on-americas-economic-split-andrew-milgram-interview.md)
 - [与死神擦肩、每晚只睡一小时、却建起医疗帝国的 CEO —— Mark Bertolini（前 Aetna CEO / Oscar Health CEO）· @ILTB_Podcast · 2025-08-19](./iltb/the-ceo-who-cheated-death-slept-an-hour-a-night-and-built-a.md)
 - [Alpha School 的颠覆性教育愿景 —— @ILTB_Podcast · 2025-08-26](./iltb/alpha-schools-disruptive-vision-for-the-future-of-education.md)
 - [Podcast 学习文档 5-ingredients-for-the-perfect-investment-jeff-horing-intervi](./iltb/5-ingredients-for-the-perfect-investment-jeff-horing-intervi.md)
@@ -96,3 +97,4 @@ sources: []
 - [Sam Altman on AGI, Compute, and Human Agency](./iltb/sam-altman-on-agi-compute-and-human-agency.md)
 - [Why the Markets Are Pricing AI Wrong｜Gavin Baker](./iltb/why-the-markets-are-pricing-ai-wrong-gavin-baker.md)
 - [Everyone Is Still Undersizing the AI Market｜Eric Vishria](./iltb/everyone-is-still-undersizing-the-ai-market-eric-vishria.md)
+
