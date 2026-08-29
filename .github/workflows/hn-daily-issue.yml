@@ -34,7 +34,16 @@ jobs:
         run: |
           FILE="${{ steps.find.outputs.file }}"
           DATE=$(basename "$FILE" .md)
-          # 防重：同日期 issue 已存在则跳过（避免重复建多个）
+          # 剥离 frontmatter：删除开头第一个 --- 到第二个 ---（含），保留正文
+          # awk 逐行处理：跳过前两条 --- 分隔线后开始输出
+          awk '
+            BEGIN { fm = 0 }
+            /^---[[:space:]]*$/ { fm++; next }
+            fm >= 2 { print }
+          ' "$FILE" > /tmp/body.md
+          # 文末追加仓库原文链接
+          printf '\n---\n📄 仓库内原文：[%s](https://github.com/jazzqi/deep-thought-research/blob/main/%s)\n' "$DATE" "$FILE" >> /tmp/body.md
+          # 防重：同日期 issue 已存在则更新而非新建
           TITLE="HN 书摘 · $DATE"
           EXISTING=$(gh issue list --repo jazzqi/deep-thought-research \
             --search "in:title \"$TITLE\" is:issue" --limit 1 --json number 2>/dev/null \
@@ -45,15 +54,6 @@ jobs:
             echo "issue #$EXISTING updated."
             exit 0
           fi
-          # 剥离 frontmatter：删除开头第一个 --- 到第二个 ---（含），保留正文
-          # awk 逐行处理：跳过前两条 --- 分隔线后开始输出
-          awk '
-            BEGIN { fm = 0 }
-            /^---[[:space:]]*$/ { fm++; next }
-            fm >= 2 { print }
-          ' "$FILE" > /tmp/body.md
-          # 文末追加仓库原文链接
-          printf '\n---\n📄 仓库内原文：[%s](https://github.com/jazzqi/deep-thought-research/blob/main/%s)\n' "$DATE" "$FILE" >> /tmp/body.md
           gh issue create \
             --title "$TITLE" \
             --body-file /tmp/body.md \
