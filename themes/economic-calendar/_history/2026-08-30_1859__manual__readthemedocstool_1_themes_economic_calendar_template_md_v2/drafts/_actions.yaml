@@ -1,0 +1,16 @@
+actions:
+- priority: P1
+  recurrence: daily
+  summary: 监控9月1日ISM制造业指数（前值55.6，共识55.2），若跌破55将触发组合防御性调整
+  target_flow_params: {}
+  type: monitoring
+- priority: P1
+  summary: 9月4-5日非农/失业率数据验证：若失业率>4.2%则触发Sahm Rule早期预警，需更新降息交易假设
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-09-05'
+- priority: P2
+  recurrence: daily
+  summary: 监控霍尔木兹海峡通行僵局进展与OPEC+9月5日会议，评估能源价格冲击对CPI的传导风险
+  target_flow_params: {}
+  type: monitoring
