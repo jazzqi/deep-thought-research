@@ -73,6 +73,3 @@ jobs:
               gh issue create --title "$TITLE" --body-file /tmp/body.md --assignee jazzqi --repo jazzqi/deep-thought-research
             fi
           done
-search
-            fi
-          done
