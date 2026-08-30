@@ -1,0 +1,6 @@
+## 第 1 轮 Lead 综合（soros）
+
+观点已充分收敛，核心问题有数据支撑，分歧已识别并记录。无需追问。
+
+{"action": "finalize", "questions": [], "confirmed_missing_indicators": [], "confirmed_event_mappings": [], "actions": [{"type": "monitoring", "priority": "P2", "summary": "监控9月加息概率实时变化 + 9/4失业率(前值4.1) + 9/11 8月CPI(前值同比3.4%/核心2.5%)，作为9/15 SEP前最后政策证据窗口", "target_flow": "macro_regime", "recurrence": "weekly", "confidence": 0.85}, {"type": "monitoring", "priority": "P2", "summary": "监控理事Cook独立性事件进展（特朗普重启罢免、最高法院已判其胜诉），该风险市场尚未定价", "target_flow": "macro_regime", "recurrence": "weekly", "confidence": 0.7}, {"type": "follow_up", "priority": "P2", "summary": "验证长债回购翻倍(9/9生效)对期限溢价与财政主导叙事的实际影响，及其与Fed紧缩的张力", "target_flow": "thesis_propose", "verification_date": "2026-09-15", "confidence": 0.7}]}
+
