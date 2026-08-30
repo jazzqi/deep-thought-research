@@ -1,14 +1,11 @@
-name: Whitelist Themes Issue (btc/market-daily)
+name: Themes Issue (all themes)
 
-# 白名单试点：btc / market-daily 日更文件自动建/更新 issue
-# 逻辑同 hn-daily-issue.yml：重跑更新而非跳过
+# 全量：所有 themes 的日更/index 自动建/更新 issue（原 btc/market-daily 白名单已扩至全量）
+# 逻辑同 hn-daily-issue.yml：重跑更新而非跳过；hn-daily 仍由专属工作流处理，此处去重
 on:
   push:
     paths:
-      - 'themes/btc/*.md'
-      - 'themes/btc/index.md'
-      - 'themes/market-daily/*.md'
-      - 'themes/market-daily/index.md'
+      - 'themes/**/*.md'
   workflow_dispatch:
 
 permissions:
@@ -25,19 +22,18 @@ jobs:
       - name: Find changed theme files
         id: find
         run: |
-          # 取本次 push 中变更的白名单文件（排除 _history/index.md）
+          # 取本次 push 中变更的所有 theme 文件（排除 _history；hn-daily 由专属工作流处理，此处跳过以免重复）
           if [ "${{ github.event_name }}" = "push" ]; then
             BEFORE="${{ github.event.before }}"
             AFTER="${{ github.sha }}"
-            # 若 before 为空（首次推）则取全部
             if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
-              FILES=$(ls themes/btc/2*.md themes/btc/index.md themes/market-daily/2*.md themes/market-daily/index.md 2>/dev/null | sort | tail -5)
+              FILES=$(ls themes/*/index.md themes/*/2*.md 2>/dev/null | grep -v "/_history/" | grep -v "hn-daily" | sort | tail -10)
             else
-              FILES=$(git diff --name-only "$BEFORE" "$AFTER" 2>/dev/null | grep -E '^themes/(btc|market-daily)/(index\.md|[0-9]{4}-[0-9]{2}-[0-9]{2}\.md)$' || true)
-              [ -z "$FILES" ] && FILES=$(ls themes/btc/2*.md themes/btc/index.md themes/market-daily/2*.md themes/market-daily/index.md 2>/dev/null | sort | tail -1)
+              FILES=$(git diff --name-only "$BEFORE" "$AFTER" 2>/dev/null | grep -E '^themes/[^/]+/(index\.md|[0-9]{4}-[0-9]{2}-[0-9]{2}\.md)$' | grep -v "hn-daily" || true)
+              [ -z "$FILES" ] && FILES=$(ls themes/*/index.md themes/*/2*.md 2>/dev/null | grep -v "/_history/" | grep -v "hn-daily" | sort | tail -1)
             fi
           else
-            FILES=$(ls themes/btc/2*.md themes/btc/index.md themes/market-daily/2*.md themes/market-daily/index.md 2>/dev/null | sort | tail -1)
+            FILES=$(ls themes/*/index.md themes/*/2*.md 2>/dev/null | grep -v "/_history/" | grep -v "hn-daily" | sort | tail -1)
           fi
           echo "files<<EOF" >> "$GITHUB_OUTPUT"
           echo "$FILES" >> "$GITHUB_OUTPUT"
@@ -59,10 +55,11 @@ jobs:
               DATE=$(basename "$FILE" .md)
             fi
             SLUG=$(echo "$FILE" | cut -d'/' -f2)
-            # 标题：biking: BTC · 2026-08-24 / Market Daily · 2026-08-24
             case "$SLUG" in
               btc) TITLE="BTC · $DATE" ;;
               market-daily) TITLE="Market Daily · $DATE" ;;
+              justin-sun) TITLE="Justin Sun · $DATE" ;;
+              fed) TITLE="Fed · $DATE" ;;
               *) TITLE="$SLUG · $DATE" ;;
             esac
             EXISTING=$(gh issue list --repo jazzqi/deep-thought-research --search "in:title \"$TITLE\" is:issue" --limit 1 --json number 2>/dev/null | python3 -c "import json,sys; d=json.load(sys.stdin); print(d[0]['number'] if d else '')" 2>/dev/null)
@@ -74,5 +71,8 @@ jobs:
             else
               echo "Creating issue for $TITLE"
               gh issue create --title "$TITLE" --body-file /tmp/body.md --assignee jazzqi --repo jazzqi/deep-thought-research
+            fi
+          done
+search
             fi
           done
