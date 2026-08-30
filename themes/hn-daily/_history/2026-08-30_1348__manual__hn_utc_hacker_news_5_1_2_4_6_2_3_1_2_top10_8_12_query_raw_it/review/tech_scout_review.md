@@ -1,0 +1,1 @@
+I'll start by reading the full draft and related files. The injected "current draft" is only 2148 chars (a roundtable summary), but the actual article content likely lives in `drafts/current.md` or `roundtable/scratchpad.md`. Let me read everything in parallel.

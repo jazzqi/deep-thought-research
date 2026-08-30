@@ -1,20 +1,6 @@
----
-name: HN 书摘 · 2026-08-30
-slug: hn-daily
-status: active
-lead_agent: tech_generalist
-created: 2026-08-15
-updated: 2026-08-30T14:05:19+08:00
-revision: 2026-08-30
-sources:
-  - path: 2026-08-30_1348__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/reference.md
-    agent: hn_daily_update
-    summarized: false
----
-
 # 圆桌观点分布摘要 — hn-daily
 
-
+- Session: 2026-08-30_1348__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it
 - Lead: tech_generalist
 - 议题: HN 书摘每日扫描：昨日（前一日 UTC 窗口）Hacker News 高价值帖子书摘。 产出 5 栏目：头条深读（1-2 条）/ 值得一读（4-6 条）/ 技术雷达（2-3 条）/ 社区之声（1-2 条）/ 数据速览（Top10 快照），共 8-12 条。
 【数据 · 全部工具查询，不注入数值】用工具主动取数（禁止凭空写数字）： - 主取数：query_raw_items 工具，source='hackernews'，按前一日 UTC 窗口
@@ -56,5 +42,3 @@ sources:
 ## 分歧
 
 - 无 blocker 标记（未出现显式分歧记录）。
-
-<!-- relay: agent tech_generalist 第 1 位超时（>198s），本轮跳过，当前稿未更新。 -->
