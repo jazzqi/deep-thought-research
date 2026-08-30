@@ -1,19 +1,4 @@
----
-name: HN 书摘 · 2026-08-30
-slug: hn-daily
-status: active
-lead_agent: tech_generalist
-created: 2026-08-15
-updated: 2026-08-30T12:39:57+08:00
-revision: 2026-08-30
-sources:
-  - path: 2026-08-30_1220__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/reference.md
-    agent: hn_daily_update
-    summarized: false
----
-
 # HN 书摘 · 2026-08-29（周六）
-
 
 > 今日三句话：① OpenAI 对 Cursor/SpaceX 动用合同变更控制权条款断供，基础模型厂商开始用 ToS 筑护城河；② Debian 投票"负责任使用 AI"胜出，但评论区真正的痛点是 agent 批量 PR 正在压垮开源维护者；③ 隐私/监控议题升温（DHS 借海关条款秘密调取记者数据、Pixel 11 砍掉 MTE），与"互联网掠夺化"长文构成同一叙事——本地优先、免费、无账号的工具（StemDeck）是社区的反向表态。
 
