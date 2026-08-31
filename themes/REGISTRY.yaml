@@ -642,3 +642,44 @@ themes:
       - disruptive-innovation
       - market-daily
       - hn-daily
+
+  - slug: el-nino-2026-27
+    name: 2026-27 厄尔尼诺追踪
+    status: active
+    priority: 26
+    created: 2026-08-31
+    assets:
+      - DBA
+      - CORN
+      - WEAT
+      - JO
+      - COCO
+      - CF
+      - MOS
+      - ADM
+      - BG
+    tags:
+      - El Niño
+      - ENSO
+      - RONI
+      - ONI
+      - La Niña
+      - EP-type
+      - palm oil
+      - sugar
+      - cocoa
+      - fishery
+      - fishmeal
+      - Panama Canal
+      - hydropower
+      - hydropower shortage
+      - insurance
+      - climate
+      - 厄尔尼诺
+    related_themes:
+      - global-macro
+      - market-daily
+      - energy
+      - geo-conflicts
+      - economic-calendar
+      - market-sentiment

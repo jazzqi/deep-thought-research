@@ -50,6 +50,7 @@
 | justin-sun | crypto_trader | crypto + sentimental + macro + geopolitics + risk(taleb 审查) | 人物情报/资金动向 | cryptocurrency, btc, global-macro, market-sentiment, geo-conflicts |
 | hn-daily | tech_generalist | sector + foresight | 综合/每日扫描（人读书摘） | ai-industry, disruptive-innovation, market-daily |
 | podcast-digest | tech_generalist | sector + foresight + macro + fundamental | 播客/访谈学习文档（人读二次学习） | ai-industry, market-daily |
+| el-nino-2026-27 | ackman | executive + macro + fundamental + sector + risk + sentimental | 跨资产追踪（1+4+Q） | global-macro, market-daily, energy, geo-conflicts |
 
 ## 数据蒸馏机制（DISTILLATION）
 
