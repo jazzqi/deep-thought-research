@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-08-31T07:19:55+08:00
-revision: 2026-08-31T07:19:55+08:00
+updated: 2026-09-01T08:20:26+08:00
+revision: 2026-09-01T08:20:26+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Nvidia's Historic Quarter, SaaS Comeback, Bessent vs Druck, America's Debt Crisis, Cancer Vaccine —— All-In Podcast（Chamath / Jason / Sacks / Friedberg）· 2026-08-29](./all-in/nvidias-historic-quarter-saas-comeback-bessent-vs-druck-amer.md)
+- [Eric Weinstein: 美国科学的危机、隐秘的物理学突破与人类存亡的危险 —— All-In Podcast · 2026-08-26](./all-in/eric-weinstein-the-state-of-american-science-breakthrough-co.md)
 
 ## 往期
 
+- [Eric Weinstein: 美国科学的危机、隐秘的物理学突破与人类存亡的危险 —— All-In Podcast · 2026-08-26](./all-in/eric-weinstein-the-state-of-american-science-breakthrough-co.md)
 - [Nvidia's Historic Quarter, SaaS Comeback, Bessent vs Druck, America's Debt Crisis, Cancer Vaccine —— All-In Podcast（Chamath / Jason / Sacks / Friedberg）· 2026-08-29](./all-in/nvidias-historic-quarter-saas-comeback-bessent-vs-druck-amer.md)
 - [美国经济分裂的数据真相 —— Andrew Milgram（Marblegate 联合创始人）· ILTB Podcast · 2025-08-05](./iltb/the-data-on-americas-economic-split-andrew-milgram-interview.md)
 - [与死神擦肩、每晚只睡一小时、却建起医疗帝国的 CEO —— Mark Bertolini（前 Aetna CEO / Oscar Health CEO）· @ILTB_Podcast · 2025-08-19](./iltb/the-ceo-who-cheated-death-slept-an-hour-a-night-and-built-a.md)
