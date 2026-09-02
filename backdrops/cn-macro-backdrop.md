@@ -25,8 +25,7 @@ collaborators:
 - soros
 references:
 - path: read_skill:shared/market-structure.md
-invalidation:
-- ''
+invalidation: []
 ---
 
 # 中国宏观背景文档 (CN Macro Backdrop)

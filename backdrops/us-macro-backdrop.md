@@ -28,8 +28,7 @@ collaborators:
 - kahneman
 references:
 - path: read_skill:shared/market-structure.md
-invalidation:
-- ''
+invalidation: []
 ---
 # 美国宏观背景文档 (US Macro Backdrop)
 
