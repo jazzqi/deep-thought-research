@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-02T08:19:31+08:00
-revision: 2026-09-02T08:19:31+08:00
+updated: 2026-09-03T03:47:42+08:00
+revision: 2026-09-03T03:47:42+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China — All-In Podcast · 2026-08-24](./all-in/michael-kratsios-trumps-science-agenda-anti-science-claims-f.md)
+- [From Bankruptcy to $2B AUM：从破产到硅谷一线种子基金 —— Ramtin · Abstract Ventures · 2025-07-29](./iltb/how-this-vc-went-from-broke-to-becoming-the-hot-hand-in-sili.md)
 
 ## 往期
 
+- [From Bankruptcy to $2B AUM：从破产到硅谷一线种子基金 —— Ramtin · Abstract Ventures · 2025-07-29](./iltb/how-this-vc-went-from-broke-to-becoming-the-hot-hand-in-sili.md)
 - [Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China — All-In Podcast · 2026-08-24](./all-in/michael-kratsios-trumps-science-agenda-anti-science-claims-f.md)
 - [Eric Weinstein: 美国科学的危机、隐秘的物理学突破与人类存亡的危险 —— All-In Podcast · 2026-08-26](./all-in/eric-weinstein-the-state-of-american-science-breakthrough-co.md)
 - [Nvidia's Historic Quarter, SaaS Comeback, Bessent vs Druck, America's Debt Crisis, Cancer Vaccine —— All-In Podcast（Chamath / Jason / Sacks / Friedberg）· 2026-08-29](./all-in/nvidias-historic-quarter-saas-comeback-bessent-vs-druck-amer.md)
