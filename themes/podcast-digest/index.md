@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-03T08:21:10+08:00
-revision: 2026-09-03T08:21:10+08:00
+updated: 2026-09-03T18:41:02+08:00
+revision: 2026-09-03T18:41:02+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Clear's Turnaround from Bankruptcy to IPO with CEO Caryn Seidman Becker —— ILTB Podcast · 2025-07-08](./iltb/clears-turnaround-from-bankruptcy-to-ipo-with-ceo-caryn-seid.md)
+- [She Knows the 250 People Building AI. Here's What They Actually Believe —— Conviction · 2026-09-01](./iltb/she-knows-the-250-people-building-ai-heres-what-they-actuall.md)
 
 ## 往期
 
+- [She Knows the 250 People Building AI. Here's What They Actually Believe —— Conviction · 2026-09-01](./iltb/she-knows-the-250-people-building-ai-heres-what-they-actuall.md)
 - [Clear's Turnaround from Bankruptcy to IPO with CEO Caryn Seidman Becker —— ILTB Podcast · 2025-07-08](./iltb/clears-turnaround-from-bankruptcy-to-ipo-with-ceo-caryn-seid.md)
 - [The Investment Firm That Can "Do Anything" — Alan Waxman (Sixth Street CEO) · 2025-07-15](./iltb/the-investment-firm-that-can-do-anything-sixth-street-ceo-al.md)
 - [From Bankruptcy to $2B AUM：从破产到硅谷一线种子基金 —— Ramtin · Abstract Ventures · 2025-07-29](./iltb/how-this-vc-went-from-broke-to-becoming-the-hot-hand-in-sili.md)
