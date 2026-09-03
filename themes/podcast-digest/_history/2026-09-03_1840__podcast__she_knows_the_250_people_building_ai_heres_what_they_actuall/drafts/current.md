@@ -1,16 +1,4 @@
----
-name: She Knows the 250 People Building AI. Here's What They Actually Believe. —— ILTB Podcast · 2026-09-01
-slug: podcast-digest
-status: active
-lead_agent: tech_generalist
-created: 2026-08-16
-updated: 2026-09-03T18:43:07+08:00
-revision: 2026-09-03
-sources: []
----
-
 # She Knows the 250 People Building AI. Here's What They Actually Believe. —— ILTB Podcast · 2026-09-01
-
 
 > **总览**
 >
