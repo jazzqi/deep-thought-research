@@ -1,16 +1,4 @@
----
-name: What Happens When the AI Boom Runs Out of Money — Ben Thompson · 2026-08-18
-slug: podcast-digest
-status: active
-lead_agent: tech_generalist
-created: 2026-08-16
-updated: 2026-09-03T18:48:45+08:00
-revision: 2026-09-03
-sources: []
----
-
 # What Happens When the AI Boom Runs Out of Money — Ben Thompson · 2026-08-18
-
 
 > **总览**
 >
