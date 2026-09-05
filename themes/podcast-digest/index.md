@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-04T07:20:41+08:00
-revision: 2026-09-04T07:20:41+08:00
+updated: 2026-09-05T09:20:02+08:00
+revision: 2026-09-05T09:20:02+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [How Jens Grede Hacked Pop Culture to Build a Billion-Dollar Brand —— ILTB Podcast · 2025-07-01](./iltb/how-jens-grede-hacked-pop-culture-to-build-a-billion-dollar.md)
+- [The Chainsmokers 的旅程：从 DJ 到风险投资人 —— ILTB Podcast · 2025-06-24](./iltb/the-chainsmokers-journey-from-djs-to-vcs.md)
 
 ## 往期
 
+- [The Chainsmokers 的旅程：从 DJ 到风险投资人 —— ILTB Podcast · 2025-06-24](./iltb/the-chainsmokers-journey-from-djs-to-vcs.md)
 - [How Jens Grede Hacked Pop Culture to Build a Billion-Dollar Brand —— ILTB Podcast · 2025-07-01](./iltb/how-jens-grede-hacked-pop-culture-to-build-a-billion-dollar.md)
 - [What Happens When the AI Boom Runs Out of Money — Ben Thompson · 2026-08-18](./iltb/what-happens-when-the-ai-boom-runs-out-of-money.md)
 - [AI 推理成本将降千倍：从芯片到电力的全栈优化 —— Sal Research（前 NVIDIA 工程师 Neil）· ILTB Podcast · 2026-08-25](./iltb/ex-nvidia-engineer-why-ai-is-about-to-get-1000x-cheaper.md)
