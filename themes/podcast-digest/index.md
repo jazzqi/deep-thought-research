@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-05T09:20:02+08:00
-revision: 2026-09-05T09:20:02+08:00
+updated: 2026-09-06T08:20:56+08:00
+revision: 2026-09-06T08:20:56+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [The Chainsmokers 的旅程：从 DJ 到风险投资人 —— ILTB Podcast · 2025-06-24](./iltb/the-chainsmokers-journey-from-djs-to-vcs.md)
+- [GPT-6 能否抵达 AGI？科技狂热 2.0、旧金山豪宅荒、纽约禁 AI 入校与委内瑞拉石油协议 —— All-In Podcast · 2026-09-04](./all-in/gpt-6-hits-agi-tech-euphoria-20-sf-mansion-shortage-nyc-bans.md)
 
 ## 往期
 
+- [GPT-6 能否抵达 AGI？科技狂热 2.0、旧金山豪宅荒、纽约禁 AI 入校与委内瑞拉石油协议 —— All-In Podcast · 2026-09-04](./all-in/gpt-6-hits-agi-tech-euphoria-20-sf-mansion-shortage-nyc-bans.md)
 - [The Chainsmokers 的旅程：从 DJ 到风险投资人 —— ILTB Podcast · 2025-06-24](./iltb/the-chainsmokers-journey-from-djs-to-vcs.md)
 - [How Jens Grede Hacked Pop Culture to Build a Billion-Dollar Brand —— ILTB Podcast · 2025-07-01](./iltb/how-jens-grede-hacked-pop-culture-to-build-a-billion-dollar.md)
 - [What Happens When the AI Boom Runs Out of Money — Ben Thompson · 2026-08-18](./iltb/what-happens-when-the-ai-boom-runs-out-of-money.md)
