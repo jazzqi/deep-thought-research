@@ -1,0 +1,13 @@
+actions:
+- priority: P1
+  summary: 美国8月CPI（09-10公布）是FOMC前最后关键数据，需实时跟踪美银/花旗预测分歧
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: 加拿大对美报复性关税民调80%支持，关注9月内是否正式宣布
+  target_flow_params: {}
+  type: follow_up
+- priority: P2
+  summary: EIA原油库存异常下降-445万桶，需监控伊朗-美国冲突对霍尔木兹海峡通航影响
+  target_flow_params: {}
+  type: monitoring
