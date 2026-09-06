@@ -4,7 +4,7 @@ slug: economic-calendar
 status: active
 lead_agent: ackman
 created: 2026-08-07
-updated: 2026-08-30T23:35:21+08:00
+updated: 2026-09-06T16:10:30+08:00
 revision: 2026-08-31__2026-09-06
 sources: []
 ---
@@ -18,10 +18,10 @@ sources: []
 
 ## 🌟 最新一期 · Latest
 
-> **W36 · 2026-08-31 ~ 2026-09-06 · Mon–Sun** · Lead · ackman · 更新 · 2026-08-30T23:35:21+08:00
+> **W36 · 2026-08-31 ~ 2026-09-06 · Mon–Sun** · Lead · ackman · 更新 · 2026-09-06T16:10:30+08:00
 
 - 🔭 预读 Forecast — [W36 · 预读](./2026-08-31__2026-09-06/forecast.md)
-- 📊 回顾 Recap — ⏳ 待发布（2026-08-31__2026-09-06）
+- 📊 回顾 Recap — [W36 · 回顾](./2026-08-31__2026-09-06/recap.md)
 
 ---
 
