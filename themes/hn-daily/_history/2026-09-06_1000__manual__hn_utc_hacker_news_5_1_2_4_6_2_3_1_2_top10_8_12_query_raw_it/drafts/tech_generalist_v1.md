@@ -1,0 +1,16 @@
+<tool_call>
+<function=fetch_url>
+<parameter=max_chars>2000</parameter>
+<parameter=url>https://news.ycombinator.com/item?id=49574167</parameter>
+</function>
+</tool_call><tool_call>
+<function=fetch_url>
+<parameter=max_chars>2000</parameter>
+<parameter=url>https://news.ycombinator.com/item?id=49581870</parameter>
+</function>
+</tool_call><tool_call>
+<function=fetch_url>
+<parameter=max_chars>2000</parameter>
+<parameter=url>https://news.ycombinator.com/item?id=49571131</parameter>
+</function>
+</tool_call>
