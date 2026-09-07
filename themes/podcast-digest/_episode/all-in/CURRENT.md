@@ -1,9 +1,9 @@
 # 当前待整理集（podcast-digest）
 
-- **标题**：Can the AI Industry Regulate Itself? Stripe Wants PayPal, China Catches Up, NY Bans Datacenters
-- **来源**：happyscribe:all-in
-- **发布时间**：2026-07-18T00:36:00+00:00
-- **原文链接**：https://podcasts.happyscribe.com/all-in-with-chamath-jason-sacks-friedberg/can-the-ai-industry-regulate-itself-stripe-wants-paypal-china-catches-up-ny-bans-datacenters
+- **标题**：GPT-6 Hits AGI? Tech Euphoria 2.0, SF Mansion Shortage, NYC Bans AI in Schools & Venezuela Oil Deal
+- **来源**：happyscribe:all-in-with-chamath-jason-sacks-friedberg
+- **发布时间**：2026-09-04T23:10:00+00:00
+- **原文链接**：https://podcasts.happyscribe.com/all-in-with-chamath-jason-sacks-friedberg/gpt-6-hits-agi-tech-euphoria-2
 
 ## Transcript（共 5 段，每段 ~20KB）
 

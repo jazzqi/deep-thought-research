@@ -124,3 +124,26 @@
 - DJT Q2净亏13亿、DCF公允$1.37 vs现价$8.35、共识Sell: query_longbridge_by_route(news/company, DJT.US) = Trump Media Q2净亏$1.3B，DCF公允$1.37 vs现价$8.35，同比跌超50%，共识Sell
 - 下一FOMC 2026-09-15/16(SEP)、目标区间3.50-3.75%(截至2026-07-28): query_fomc(lookback=120,lookahead=60) = 下一会议2026-09-15/16，sep_meeting=True，目标区间3.50-3.75% as of 2026-07-28
 - Sanders/Warren抨击特朗普家族加密(8/27，草稿未覆盖): query_raw_items(keyword='WLFI OCC')(id:171540) = Bernie Sanders称特朗普家族靠总统职位赚40亿，Warren抨击加密监管不值一提
+
+
+## geopolitics_agent 交叉审查核验来源（2026-08-29 15:05 UTC）
+- FOMC 下一会议 2026-09-15/16 确认（sep_meeting=True），当前目标区间 3.50–3.75% 截至 2026-07-28: query_fomc(lookback=120, lookahead=365) = next_meeting 2026-09-15/16, target_range 3.50–3.75%
+- DJT.US Q2 净亏 $1.3B（=13亿）、DCF 公允价值 $1.37 vs 现价 $8.35、同比跌超 50%、共识 Sell: query_longbridge_by_route(news/company, DJT.US)[id:296410693] = Trump Media Q2 net loss $1.3B, DCF $1.37 vs $8.35, YoY -50%+, consensus Sell
+- DJT.US 近期反弹（草稿未提此背景）：8/22 当周 +10.04% 收 $9.10；8/29 当周 +5.88% 收 $9.635: query_longbridge_by_route(news/company, DJT.US)[id:296667914][id:297388111]
+- WLFI 任命前 Coinbase 高管 Ryan Ballantyne 为 CBO（2026-08-13，草稿未覆盖）: query_raw_items(keyword=WLFI)[id:99245] = WLFI任命Ryan Ballantyne为首席商务官
+- Binance 续期 USD1 空投（2026-08-07，1.7亿 WLFI 奖池，解释 USD1 需求驱动，草稿未覆盖）: query_raw_items(keyword=WLFI)[id:82113] = Binance再次续期USD1空投活动
+- 参议员 Sanders/Warren 抨击特朗普家族加密获利 $4B（2026-08-27，监管施压，草稿未覆盖）: query_raw_items(keyword=WLFI)[id:171540] = Bernie Sanders Says Trump Family Made $4 Billion Off Presidency
+- ~100万钱包持有 TRUMP 亏损、累计亏 $3.81B（2026-07-05）: query_raw_items(keyword=TRUMP)[id:50901]
+- WLFI 财库向 Binance 转入 1.7亿 WLFI（2026-07-07，供给抛压）: query_raw_items(keyword=WLFI)[id:53762]
+- OCC 信托银行牌照新闻实际见报日 2026-08-28（id:176733 称"本月已初步有条件批准"），草稿标注 2026-08-15 需核对 id:122695 是否即 8/15 源
+
+
+## kahneman 交叉审查核验（2026-08-29 15:04 UTC）
+- FOMC 下一会议 2026-09-15/16 确认（sep_meeting=True，目标区间 3.50–3.75% 截至 2026-07-28）: query_fomc(lookback=60, lookahead=60) = next_meeting 2026-09-15/16
+- DJT.US 周涨 +5.88% 收 $9.635（2026-08-29），此前 Q2 净亏 $1.3B、DCF 公允价值 $1.37 vs 当时 $8.35、共识 Sell: query_longbridge_by_route(news/company, DJT.US) = 周涨5.88%收$9.635；Q2净亏$1.3B，DCF $1.37 vs $8.35，共识Sell
+- 稳定币总市值单位核验（⚠️草稿错10倍）: query_raw_items(keyword='WLFI OR USD1')[id:191853] = 原文「3045.64 亿美元」= 3045.64×10^8 = $304.564B（非草稿所写 $3045.64B）
+- TRON 抗量子升级路线图（2026-08-27，Justin Sun 称年底升级，草稿遗漏的正面催化）: query_raw_items(keyword='孙宇晨 波场')[id:165877] = 波场计划年底升级为抗量子网络
+- Tether 8/10 于波场增发 10 亿枚 USDT（草稿未覆盖）: query_raw_items(keyword='Tether 增发')[id:88565]
+- Binance-HTX 隔离仅限 Binance 英国与欧盟用户（Justin Sun 8/15 澄清 HTX 不在英欧展业，草稿未注明地理限制）: query_raw_items(keyword='HTX')[id:122860]
+- OCC 有条件批准 WLFI 信托银行、阿布扎比 Tahnoon 49%（日期需核实，草稿标 2026-08-15）: query_raw_items(keyword='WLFI')[id:176733] / [id:122695]
+- CFTC 罚前白宫提词员 $172K 交叉确认: query_raw_items(keyword='CFTC')[id:191223] / [id:192081] / [id:191740]（与草稿 id:190902 一致）

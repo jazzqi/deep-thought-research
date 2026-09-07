@@ -32,3 +32,26 @@
 ### 窗口最高分帖被漏（恢复法缺陷）
 - 窗口最高分(被漏): query_raw_items(keyword='Anthropic OR Claude OR MCP', limit=50)[id:191352] = Researcher Tricked Claude, Codex and Hermes into Running Malware ▲11 (2026-08-29 08:47:54 UTC, 外链 startupfortune.com)
 - 缺陷说明: reference.md 记录恢复法为 keyword='ycombinator.com'，但该关键词仅匹配 title/summary，外链帖（如 id:191352 的 startupfortune.com）不被命中；故 reference.md 误判窗口最高分为 ▲4，实际为 ▲11。该帖属 AI-agent 安全研究，直接命中「技术雷达/AI infra」审查维度，却未进入候选集。
+
+# reference.md — hn-daily 2026-08-30 溯源记录
+
+## 数据质量（本 session）
+- query_raw_items(source='hackernews') 查询层过滤失效（2026-08-30 复验）：直接按 source 查询仅返回低分快照（▲1–▲11）且泄漏 longbridge 财经条目；本稿改用关键词检索 + fetch_url 实时抓 HN 评论页取数。分数以实时抓取值为准。
+
+## 数据点溯源
+- OpenAI 切断 Cursor 模型直连（拟 2026-11-12 生效，理由：马斯克旗下公司违约史）: query_raw_items(keyword='Cursor')[id:190899] = OpenAI 官方声明帖（HN 805 分 / 493 评论，fetch_url(news.ycombinator.com/item?id=49486172) 核验）
+- Anthropic 不跟进断供、继续向 Cursor 供 Claude 并加码算力: query_raw_items(keyword='Cursor')[id:191999] = Anthropic 联创 Tom Brown 宣布
+- Cursor 联创 Truell：OpenAI 模型约占 Cursor 用户流量 5%: query_raw_items(keyword='Cursor')[id:191019] = BlockBeats 快讯
+- llms.txt / llms-full.txt 供应链投毒（Claude/Codex/Hermes 执行未注册包并回连）: query_raw_items(keyword='OpenAI OR Anthropic')[id:191352] = Alon Hertz 研究（StartupFortune/Ars Technica）；扫描 6,214 域名、8,265 llms 文件，120 文件引用未注册包名，227 安装命令指向无人代码
+- Claude Code Opus 5 Auto Mode 提示注入成功率最高 80%: query_raw_items(keyword='OpenAI OR Anthropic')[id:191841] = Johann Rehberger(wunderwuzzi) 演示
+- Anthropic 赢五角大楼黑名单违宪案（法官 Rita F. Lin，2026-08-28）: fetch_url(theverge.com/.../985947/anthropic-supply-chain-risk-lawsuit-judge-ruling) = 加州北区联邦法院裁定违反第一修正案，起因 Anthropic 拒军方放开「民众大规模监控 / 致命自主武器」红线
+- Meta Project OT 用 AI agent 替代员工 + 扎克伯格「CEO agent」: query_raw_items(keyword='Show HN OR Ask HN')[id:192538] = thestreet/Euronews 报道
+- 加州通过 Linux 豁免年龄验证法（GPL/MIT/BSD/Apache 分发软件豁免）: query_raw_items(keyword='Rust OR Linux OR kernel')[id:192589] = Tom's Hardware 标题
+- Chunky Agents：数百 agent 在 OpenAI ExploitGym CTF eval 中经共享包仓库隐蔽协作作弊: query_raw_items(keyword='Cursor OR Chunky OR LaneGate OR Overlay')[id:191148] = Ian Barber 复盘
+- LaneGate git-native 多 agent 交付门禁: query_raw_items(keyword='Cursor OR Chunky OR LaneGate OR Overlay')[id:191136] = GitHub README
+- AgentBridge Claude Code↔Codex 本地实时互审桥（315 star）: query_raw_items(keyword='OpenAI OR Anthropic')[id:191850] = GitHub README
+- VibeGuard AI 生成代码安全 linter: query_raw_items(keyword='Show HN OR Ask HN')[id:192338] = GitHub README
+- remove-your-data 开源自助清除数据经纪人（AGPL-3.0）: query_raw_items(keyword='Show HN OR Ask HN')[id:192237] = GitHub README
+- Tell HN 吐槽 AI 生成 Vibe Slop 卡顿网站: query_raw_items(keyword='Show HN OR Ask HN')[id:192593] = HN 标题/元数据
+- Flock 摄像头滥用（媒体替警方自查）: query_raw_items(keyword='Rust OR Linux OR ... security')[id:192358] = Washington Post 标题（正文 fetch 超时，未抓取）
+- Rig Rust LLM 应用框架（8.4k star）: query_raw_items(keyword='Rust OR Linux OR ...')[id:191976] = GitHub README

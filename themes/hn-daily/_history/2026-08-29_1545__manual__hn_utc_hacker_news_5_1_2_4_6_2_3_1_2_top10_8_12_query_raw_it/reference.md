@@ -1,30 +1,28 @@
-# 数据溯源 · HN 书摘 2026-08-29（覆盖 2026-08-28 UTC 窗口）
+# reference.md — HN 书摘 2026-08-28（UTC 窗口）数据溯源
 
-## 数据质量告警
-- source='hackernews' 查询层过滤失效（复验确认）: query_raw_items(source='hackernews', min_points=0, limit=100) = 仅返回 9 条（含 4 条 longbridge 泄漏 id:146460/145875/114342/114340 与 2 条 08-27 ADHD 帖 id:173855/173305），漏检 08-28 窗口真实 HN 帖；本期候选由关键词检索（Anthropic / Hunyuan,GLM / Claude,DeepSeek）重建。
-- 本窗口 HN 无一帖 hn_points ≥ 20（FactPack 阈值），峰值 ▲5（id:184072），连续第 3 天低于阈值。
+## 取数说明（数据质量）
+- query_raw_items(source='hackernews', limit=50) 查询层 source 过滤持续失效（第 3+ 次确认，2026-08-29 复验）：仅返回 9 条，且混入 longbridge 财经条目（id:146460/145875/114342/114340），真实 HN 帖漏检。本刊真实榜单改以 Algolia HN API 为准。
+- 真实 HN 取数窗口：created_at_i ∈ [1787875200, 1787961600) = 2026-08-28 00:00:00Z → 2026-08-29 00:00:00Z（前一日 UTC 窗口）。
 
-## 数据点
-- Anthropic 诉五角大楼胜诉（法官 Rita Lin 裁定封杀违法）: query_raw_items(source=hackernews, keyword=Anthropic)[id:190642] = Anthropic Just Beat The Pentagon in Court, ▲4（实时 HN 16）
-- 腾讯 Hy4 preview 开源（770B/49B/1M 上下文，盲测 2.99/4 压过 GLM-5.3 2.92、Kimi K3 2.94）: query_raw_items(source=hackernews, keyword=Hunyuan,GLM)[id:178248] = Hy4 Preview, ▲2；正文 fetch_url(https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/) 已抓取
-- 智谱 GLM-5.3 开源（744B，Hugging Face 权重）: query_raw_items(source=hackernews, keyword=Hunyuan,GLM)[id:184008] = GLM-5.3 is now open-weight, ▲2
-- Anthropic MHS 硬件标准（AI Agent 操控现实设备）: query_raw_items(source=hackernews, keyword=Anthropic)[id:178106] = Anthropic's new hardware standard lets AI agents control the physical world, ▲1
-- 自动化对齐研究员 AAR 缓解对齐失败、胜过 28 名人类研究员: query_raw_items(source=hackernews, keyword=Anthropic)[id:189006] = Automated Researchers Can Reliably Mitigate Alignment Failures, ▲1；正文 fetch_url(https://alignment.anthropic.com/2026/automated-alignment-researchers/) 已抓取
-- OpenAI Codex as a Platform: query_raw_items(source=hackernews, keyword=Claude,DeepSeek)[id:190090] = Codex as a Platform, ▲1；正文 fetch_url(https://developers.openai.com/blog/codex-as-a-platform) 已抓取
-- OSS harness 把 Claude Opus 5 在 ARC-AGI-3 从 30% 拉到 99.95%: query_raw_items(source=hackernews, keyword=Claude,DeepSeek)[id:184072] = OSS harness took Claude Opus 5 from 30% to 99.95% on ARC-AGI-3, ▲5（本窗口最高分）
-- 通宵 coding agent 工程实践: query_raw_items(source=hackernews, keyword=Claude,DeepSeek)[id:189836] = How to run code agents overnight, ▲2；正文 fetch_url(https://mouse.dev/blog/running-code-agents-overnight/) 已抓取
-- 超 8,300 台 Gitea 服务器代码执行漏洞: query_raw_items(source=hackernews, keyword=Claude,DeepSeek)[id:182903] = Over 8,300 Gitea servers vulnerable, ▲2（正文 fetch 403 未能抓取）
-- Ask HN AI 写得比我还好: query_raw_items(source=hackernews, keyword=Claude,DeepSeek)[id:186702] = Ask HN: AI writes better code than me, ▲3（实时 HN 12）💬16；正文 fetch_url(https://news.ycombinator.com/item?id=49481969) 已抓取
+## 数据点溯源
+- HN 2026-08-28 UTC 窗口 Top 故事与分数/评论: fetch_url(hn.algolia.com/api/v1/search?tags=story&numericFilters=created_at_i>=1787875200,created_at_i<=1787961600&hitsPerPage=200) = GUIs keyboard-driven ▲755💬380 / Get your Windows license refund ▲679💬281 / GLM-5.3 open-weight ▲677💬226 / "It works better in the app" ▲650💬443 / Htmx 4.0 ▲631💬155 / Anthropic blacklist ruled illegal(NYT) ▲570💬413 / U.S. sanctions A/I Collective ▲566💬555 / Inception curved map ▲485💬159 / Luanti DMCA takedown ▲484💬145 / Pentagon Anthropic unlawful(Reuters) ▲324💬3 / rumour-of-bug exploit ▲302💬105 / Virtual iPhone ▲236💬69 / AI slop CV ▲211💬141 / LLM memory program analysis ▲112💬21
+- HN 评论树(GLM-5.3 帖 id:49479878): fetch_url(hn.algolia.com/api/v1/items/49479878) = petu 评论(id:49481588) 确认 FP8 设为默认、路由专家层转 FP8、下载体积约减半
+- HN 评论树(Anthropic 帖 id:49473522): fetch_url(hn.algolia.com/api/v1/items/49473522) = 顶层高赞评论偏向制造业/劳动力成本与中美制造对比，未直接评裁决法律意义
+- HN 评论树(GUIs keyboard 帖 id:49479837): fetch_url(hn.algolia.com/api/v1/items/49479837) = Arainach/BeetleB 等关于 Web/Electron vs 原生 UI、键盘导航与无障碍
+- HN 评论树(AI slop CV 帖 id:49474143): fetch_url(hn.algolia.com/api/v1/items/49474143) = 维护者关于低价值 PR 甄别与「以意图拒合法贡献」分歧
+- 正文抓取成功: fetch_url(en.refund4freedom.org/) / fetch_url(shkspr.mobi/blog/2026/08/it-works-better-in-the-app/) / fetch_url(four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released) / fetch_url(blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/) / fetch_url(github.com/Lakr233/vphone-cli) / fetch_url(neilalexander.dev/2026/06/30/flooding-contributions) / fetch_url(www.inventati.org/)
+- 正文抓取失败(超时/无正文，摘要基于 Algolia 元数据+评论): z.ai/blog/glm-5.3（无正文）、ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html（连接超时）、reuters.com Anthropic 裁决（401）、nytimes.com Anthropic 裁决（受限）
+- 市场背景(仅作 Big Picture 旁证，非 HN 帖): query_raw_items 泄漏 longbridge 条目 id:190121(2026-08-28 NVIDIA 跌超 4%、费城半导体跌超 3%) / id:190810(Marvell 财报后 -10%、NVIDIA -4%) / id:190112(Marvell 跌至 $217.54)
 
+# reference.md — hn-daily 2026-08-29（覆盖 2026-08-28 UTC 窗口）
 
-## 审查人 tech_scout 独立核验（D82，2026-08-29）
-
-- 核验目的：不依赖上文既有候选，直接用 query_raw_items 关键词检索重建 08-28 UTC 窗口 HN 帖，确认草稿（缺失）本应覆盖的早期技术信号。
-- Anthropic 诉五角大楼胜诉（法官 Rita Lin 裁定以国安为由封杀其 AI 规则违法）: query_raw_items(source=hackernews, keyword=Anthropic)[id:190642] = Anthropic Just Beat The Pentagon in Court, ▲4（08-28 23:36 UTC）
-- OSS harness 将 Claude Opus 5 在 ARC-AGI-3 从 30% 拉到 99.95%: query_raw_items(source=hackernews, keyword=ARC-AGI)[id:184072] = OSS harness took Claude Opus 5 from 30% to 99.95% on ARC-AGI-3, ▲5（08-28 15:47 UTC，本窗口最高分）
-- 超 8,300 台 Gitea 服务器代码执行漏洞: query_raw_items(source=hackernews, keyword=Gitea)[id:182903] = Over 8,300 Gitea servers vulnerable to code execution attacks, ▲2（08-28 13:47 UTC）
-- 腾讯 Hy4 preview 开源（GitHub 仓库）: query_raw_items(source=hackernews, keyword=Hy4)[id:189873] = Tencent Hy4 Preview LLM, ▲1（08-28 20:47 UTC）
-- 腾讯发布并开源 Hy4 preview（官方稿）: query_raw_items(source=hackernews, keyword=Hy4)[id:183856] = Tencent Releases and Open-Sources Tencent Hy4 Preview, ▲1（08-28 15:06 UTC）
-- 腾讯混元 Hy4 重做底层（Gated DSA=DeepSeek 稀疏注意力门控版+IndexCache）: query_raw_items(source=blockbeats, keyword=Hy4)[id:178531] = 腾讯混元Hy4重做底层：DeepSeek稀疏注意力+智谱IndexCache一起上（08-28 07:36 UTC）
-- 腾讯 Hy4 盲测压过 GLM-5.3(2.92)/Kimi K3(2.94)，均分 2.99/4: query_raw_items(source=blockbeats, keyword=Hy4)[id:178363] = 腾讯Hy4盲测压过GLM-5.3、Kimi K3，输出价最低便宜82%（08-28 07:02 UTC）
-- 结论：08-28 窗口 HN 真实帖可通过关键词检索完整重建；技术雷达（ARC-AGI-3 harness、Gitea RCE）与 AI infra/开发者生态（Codex as a Platform、Anthropic MHS、自动化对齐研究员、通宵 code agents）素材充足。草稿缺失属流程未执行（Lead 超时），非数据缺失。
+- 取数方法: query_raw_items(source='hackernews') 查询层 source 过滤失效（第3次确认，2026-08-29 07:45 复验），返回 9 条中含 4 条 longbridge 财经泄漏（id:146460/145875/114342/114340）；真实 HN 帖以 keyword 检索补位还原。
+- Anthropic 五角大楼案胜诉: query_raw_items(keyword=Anthropic)[id:190642] = IBTimes 报道；fetch_url(https://www.ibtimes.com/anthropic-just-beat-pentagon-court-judge-said-national-security-was-used-punish-its-ai-rules-3806895) 正文 = 法官 Rita Lin 裁定封杀违法、违反第一/第五修正案、政府预计上诉。
+- MHS 物理世界接口: query_raw_items(keyword=Anthropic)[id:178106] = Ars Technica 报道；fetch_url(https://www.theregister.com/ai-and-ml/2026/08/28/anthropic-proposes-plumbing-spec-to-link-ai-agents-to-lab-kit-and-robots/5293135) 正文 = MHS 用 read/write 原语、HHMI Janelia 实测、集成数周→数小时。
+- AAR 自改进对齐: query_raw_items(keyword=Anthropic)[id:190074] = TechCrunch 报道；fetch_url(https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/) 正文 = 最强 AAR 6 小时超人类、$4/小时 vs $150/小时。
+- AAR 论文: query_raw_items(keyword=Anthropic)[id:189006] = alignment.anthropic.com 论文；fetch_url(https://alignment.anthropic.com/2026/automated-alignment-researchers/) 正文 = 10 类对齐失败、泛化到 4.7× 更大模型、28 名人类研究员不及。
+- MatX 70 亿收购: query_raw_items(keyword=Anthropic)[id:178113] = The Star/Reuters 报道；fetch_url(https://www.thestar.com.my/tech/tech-news/2026/08/28/exclusive-anthropic-planned-then-abandoned-7-billion-purchase-of-matx-sources-say) 正文 = 拟 $7B 收购、现转合作、MatX 估值 $4B、IPO 传 $2T 锚定 2028 营收 $200B。
+- prmpt.cash: query_raw_items(keyword=Anthropic)[id:189922] = Show HN；fetch_url(https://prmpt.cash/) 正文 = stop hook 打印广告行、70% 分成、Base/Solana 结算。
+- SF 专栏: query_raw_items(keyword=Anthropic)[id:186252] = SFGate 专栏（正文 fetch 失败，仅标题可证）。
+- 分数快照: 各帖 hn_points 取自 query_raw_items metadata（入库快照）；190642 实时 HN 页 07:58 已升至 16，说明窗口尾部帖仍在爬分。
+- 技术雷达补充帖（08-29 凌晨，超出严格窗口）: id:191185 Tokensift、id:190964 TurboKV、id:191201 Kaspersky 零日，均 source=hackernews。

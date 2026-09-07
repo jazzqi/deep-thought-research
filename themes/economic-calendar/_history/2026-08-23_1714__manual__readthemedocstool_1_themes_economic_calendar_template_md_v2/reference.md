@@ -50,3 +50,13 @@
 - 沃尔玛Q2业绩超预期上调全年指引，但Q2同店销售增速创六年新低: query_raw_items()[id:134562]
 - 瑞典央行维持利率不变，重申若伊朗战争引发通胀可能加息: query_raw_items()[id:133677]
 - 石油暴利税：欧盟六国呼吁对石油公司征收暴利税: query_raw_items()[id:135718]
+
+## soros 交叉审查核验来源追加 (2026-08-23)
+
+- Warsh杰克逊霍尔首次演讲: query_raw_items(keyword='Warsh Jackson Hole')[id:13539] = "Kevin Warsh to Make First Jackson Hole Speech as Fed Chair"
+- 特朗普称霍尔木兹海峡为美国新领土: query_raw_items(keyword='Canada tariff')[id:135631] = "特朗普在社交媒体发图称霍尔木兹海峡是美国的新领土"
+- 加拿大8/22宣布报复性关税9/8生效: query_raw_items(keyword='Canada tariff')[id:135409] = "当地时间8月22日，加拿大总理卡尼宣布……加拿大的等额报复性关税计划于9月8日正式生效执行"
+- 加拿大贸易谈判破裂: query_raw_items(keyword='Canada tariff')[id:135372] = "加拿大总理卡尼22日发表全国电视讲话……加拿大的等额报复性关税计划于9月8日正式生效执行"
+- Fed独立性风险-民主党议员要求Warsh披露Trump通话: query_raw_items(keyword='Warsh Jackson Hole')[id:133675] = "Democratic Lawmakers Urge Fed's Warsh to Disclose Trump Calls"
+- 韩国央行8/26利率决议: query_calendar_events(days=14,lookback_days=7,importance=high,limit=200) = importance:high, country:KR
+- FOMC下次会议9/15-16含SEP: query_fomc(lookahead_days=365) = 9/15-16, sep_meeting=True

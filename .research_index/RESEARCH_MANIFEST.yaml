@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-08-09T16:03:33.761122+08:00'
+updated: '2026-09-07T14:48:17.788656+08:00'
 files:
 - path: macro/dalio/2026-07-19-2026年7月宏观场景分析中美分化加剧.md
   agent: dalio
@@ -2240,3 +2240,166 @@ files:
   confidence: 0.68
   time_horizon: 1-2周
   collaborators: []
+- path: portfolio/ackman/2026-08-16-2026-08-102026-08-16-recap.md
+  agent: ackman
+  type: report
+  topic: 2026-08-10__2026-08-16-recap
+  status: final
+  created: '2026-08-16T16:02:59.198173+08:00'
+  updated: '2026-08-16T16:02:59.198173+08:00'
+  tags:
+  - economic-calendar
+  - macro
+  - US
+  - inflation
+  - consumer
+  - Treasury
+  - China
+  - Hormuz
+  signal: 美国需求显著弱于预期；通胀温和但霍尔木兹供给风险阻止单向久期交易
+  confidence: 0.72
+  time_horizon: 1-4周
+  collaborators:
+  - dalio
+  - soros
+  - zhou_jintao
+- path: macro/soros/2026-08-25-2026年8月25日市场反身性分析.md
+  agent: soros
+  type: analysis
+  topic: 2026年8月25日市场反身性分析
+  status: final
+  created: '2026-08-25T18:25:00.827333+08:00'
+  updated: '2026-08-25T18:25:00.827333+08:00'
+  tags:
+  - 反身性
+  - 美债
+  - BTC
+  - Jackson Hole
+  - 地缘政治
+  - 市场循环
+  signal: 市场处于多重反身性循环晚期，Jackson Hole是关键转折点
+  confidence: 0.7
+  time_horizon: 1-2周
+  collaborators:
+  - macro_analyst
+- path: macro/soros/2026-08-25-btc反身性分析政治叙事驱动的正反馈循环与宏观现实碰撞.md
+  agent: soros
+  type: analysis
+  topic: BTC反身性分析：政治叙事驱动的正反馈循环与宏观现实碰撞
+  status: final
+  created: '2026-08-25T20:51:49.797153+08:00'
+  updated: '2026-08-25T20:51:49.797153+08:00'
+  tags:
+  - BTC
+  - 反身性
+  - 特朗普储备计划
+  - 宏观利率
+  - Jackson Hole
+  signal: BTC正反馈循环中期，拐点临近
+  confidence: 0.7
+  time_horizon: 1-3周
+  collaborators: []
+- path: portfolio/ackman/2026-08-30-2026-08-242026-08-30-weekly-recap.md
+  agent: ackman
+  type: report
+  topic: 2026-08-24__2026-08-30-weekly-recap
+  status: final
+  created: '2026-08-30T16:05:32.395690+08:00'
+  updated: '2026-08-30T16:05:32.395690+08:00'
+  tags:
+  - macro
+  - fed
+  - inflation
+  - jackson-hole
+  - warsh
+  - weekly-recap
+  signal: 通胀顽固+制造业收缩+Fed鹰派转向构成滞胀风险升级信号
+  confidence: 0.8
+  time_horizon: 1-2周
+  collaborators:
+  - soros
+- path: macro/nick_timiraos/2026-08-31-美国政治经济现状修正与宏观分析框架更新.md
+  agent: nick_timiraos
+  type: report
+  topic: 美国政治经济现状修正与宏观分析框架更新
+  status: final
+  created: '2026-08-31T23:42:36.194497+08:00'
+  updated: '2026-08-31T23:42:36.194497+08:00'
+  tags:
+  - 特朗普政策
+  - 财政扩张
+  - 通胀反弹
+  - 中期选举
+  - Fiscal Dominance
+  - 宏观分析
+  signal: 美国政治经济格局分析修正
+  confidence: 0.85
+  time_horizon: 中期（6-18个月）
+  collaborators:
+  - macro_research_team
+- path: macro/nick_timiraos/2026-08-31-us-macro-backdrop.md
+  agent: nick_timiraos
+  type: report
+  topic: us-macro-backdrop
+  status: final
+  created: '2026-08-31T23:55:00.551341+08:00'
+  updated: '2026-08-31T23:55:00.551341+08:00'
+  tags:
+  - macro
+  - backdrop
+  - reference
+  - US
+  - fiscal
+  - monetary
+  - political
+  signal: US Macro Backdrop Reference Document
+  confidence: 0.85
+  time_horizon: ongoing
+  collaborators:
+  - soros
+  - dalio
+  - zhou_jintao
+  - shiller
+  - kahneman
+- path: portfolio/ackman/2026-09-06-weekly-recap-2026-0831-0906.md
+  agent: ackman
+  type: report
+  topic: weekly-recap-2026-0831-0906
+  status: final
+  created: '2026-09-06T16:10:03.363127+08:00'
+  updated: '2026-09-06T16:10:03.363127+08:00'
+  tags:
+  - weekly-recap
+  - nonfarm
+  - rate-hike
+  - semiconductor-inflation
+  - US-Canada-trade-war
+  - FOMC-September
+  signal: mixed-strong-employment-vs-easing-narrative
+  confidence: 0.72
+  time_horizon: 1-2 weeks
+  collaborators: []
+- path: portfolio/ackman/2026-09-07-2026-09-072026-09-13-financial-calendar-recap.md
+  agent: ackman
+  type: report
+  topic: 2026-09-07__2026-09-13-financial-calendar-recap
+  status: final
+  created: '2026-09-07T14:48:12.007067+08:00'
+  updated: '2026-09-07T14:48:12.007067+08:00'
+  tags:
+  - macro
+  - economic-calendar
+  - recap
+  - CPI
+  - FOMC
+  - ECB
+  - China
+  - nonfarm
+  signal: macro_calendar_recap
+  confidence: 0.85
+  time_horizon: weekly
+  collaborators:
+  - ackman
+  - soros
+  - dalio
+  - zhou_jintao

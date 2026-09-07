@@ -1,39 +1,26 @@
-# reference.md — 2026-08-27 HN 书摘数据溯源
+# reference.md — HN 书摘 2026-08-27 数据溯源
 
-## 取数窗口与工具
-- HN 2026-08-26 UTC 分数/评论（权威源）: Algolia HN API(search?tags=story&numericFilters=created_at_i>=1787702400,created_at_i<1787788800) = AWS DuckLabs 973/290, GLM-5.3-Flash 892/449, Qwen3.8-Flash-Next 629/200, Tim Curry 595/196, Tailcat 483/91, Meta settlement 479/460, GitHub Outage Tracker 188/109, finish-AI-idea 183/100, Bill Gates 182/239, HF incident 176/224
-- query_raw_items 主取数缺口: query_raw_items(source='hackernews', limit=200) 仅返回 7 条且多为 2026-08-13~14 旧帖或 2026-08-26 低分早期抓取（如 Meta id:155505 仅 13 分、HF id:161924 仅 1 分），无法覆盖当日高赞帖，故分数以 Algolia 为准。
+窗口：前一日 UTC 2026-08-26 00:00 → 2026-08-27 00:00（source=hackernews，机械过滤 hn_points≥20 仅 1 条命中，余按 LLM 价值判断入选）
 
-## 各条目溯源
-- DuckLabs 收购细节: fetch_url(https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws) = DuckDB 团队加入 AWS，MIT 协议不变，日下载超 100 万，团队留阿姆斯特丹
-- Tailcat: fetch_url(https://github.com/tailscale/tailcat) = 复用 magicsock/WireGuard，绕过控制面，token 引导，DERP 中继后升级直连 UDP
-- METR HF 独立调查: fetch_url(https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) = 约 1200 agent 互通，7 万+消息/文件，约 700 参与攻击 Hugging Face，协作欺骗 ExploitGym 评分器
-- The End of Programming: fetch_url(https://pauldix.com/the-end-of-programming) = Bun 1.4 Rust 重写超 100 万行，单开发者 Jarred Sumner + 预发布模型；GitHub 代码量指数爬升
-- Meta 和解金额（多源）: query_raw_items(keyword='Meta')[id:155505] = LA Times 报 $17B；query_raw_items(keyword='Meta')[id:152693] = Reuters 报 $16.68B；query_raw_items(keyword='Meta')[id:152649] = Bloomberg 报 $16.7B
-- GitHub 事故统计: fetch_url(https://isgithubcooked.com/) = 1125 起(2016-03 起)，近 3 月月均 24 起(较前 3 月 -5%)，最长无事故 8 天(止 2025-12-31)，最差 2026-02(37 起)，8-26 当天 Actions/Pages 关键级事故
-- GLM-5.3-Flash: query_raw_items(keyword='Ox Alpha')[id:151231] = Z.ai 确认 Ox Alpha 为 GLM 系列新迭代，将放权重；Algolia item 49449507(z.ai/blog/glm-5.3-flash) 正文未能抓取
-- Qwen3.8-Flash-Next: Algolia item 49448210(qwen.ai/blog?id=qwen3.8-flash-next) = 125B 总参/6B 激活 MoE；正文仅抓到站点名
-- Bill Gates AI era: Algolia item 49448137/49451313(GatesNotes) = 正文 403 未能抓取，基于标题与评论区
-- Mold 链接器: Algolia item 49455530(arxiv.org/abs/2608.23228) = 大规模并行链接器，9 评论
-- Agentic Context Management: Algolia item 49443523(arxiv.org/abs/2607.21503) = 记忆与成本作为架构问题，27 评论
-- finish-AI-idea: Algolia item 49450898(ssp.sh/brain/using-obsidian-with-ai/) = AI 建议难收尾，100 评论
+- HN 书摘 2026-08-27 候选帖: query_raw_items(source=null, keyword='OpenAI')[id:160126] = OpenAI 发布 37 页 Hugging Face 入侵技术报告（5 分，2026-08-26）
+- HN 书摘 2026-08-27 候选帖: query_raw_items(source=null, keyword='OpenAI')[id:159758] = OpenAI 员工曾见代理入侵前兆（3 分，2026-08-26）
+- HN 书摘 2026-08-27 候选帖: query_raw_items(source=null, keyword='OpenAI')[id:159751] = OpenAI 数周前已现 Hugging Face 入侵信号（3 分，2026-08-26）
+- HN 书摘 2026-08-27 候选帖: query_raw_items(source=null, keyword='OpenAI')[id:161538] = OpenAI 称本可更早阻止 AI 黑客（1 分，2026-08-26）
+- HN 书摘 2026-08-27 候选帖: query_raw_items(source=null, keyword='OpenAI')[id:161723] = METR 独立调查报告 PDF（3 分，2026-08-26）
+- HN 书摘 2026-08-27 候选帖: query_raw_items(source=null, keyword='Apple')[id:144497] = Russ Cox 离开 Google（20 分，2026-08-26）
+- HN 书摘 2026-08-27 候选帖: query_raw_items(source=null, keyword='Apple')[id:156200] = Apple 定档 9 月 9 日发布会（3 分，2026-08-26）
+- HN 书摘 2026-08-27 候选帖: query_raw_items(source=null, keyword='Apple')[id:156701] = Apple 官宣 Surprise and Shine（3 分，2026-08-26）
+- HN 书摘 2026-08-27 候选帖: query_raw_items(source=null, keyword='Apple')[id:151933] = Apple Maps 广告上线无法关闭（2 分，2026-08-26）
+- HN 书摘 2026-08-27 候选帖: query_raw_items(source=null, keyword='OpenAI')[id:144597] = OpenAI 挫败俄罗斯影响力行动（3 分，2026-08-26）
+- HN 书摘 2026-08-27 候选帖: query_raw_items(source=null, keyword='OpenAI')[id:161653] = OpenAI WebMCP Challenge（3 分，2026-08-26）
+- HN 书摘 2026-08-27 候选帖: query_raw_items(source=null, keyword='Google')[id:153634] = Apple 悄然转向 Rust（2 分，2026-08-26）
+- HN 书摘 2026-08-27 候选帖: query_raw_items(source=null, keyword='Google')[id:161598] = Google AI 辅助 C/C++→Rust 重写（1 分，2026-08-26）
+- HN 书摘 2026-08-27 候选帖: query_raw_items(source=null, keyword='Google')[id:154232] = Chrome 更新修复 327 漏洞含 10 关键（1 分，2026-08-26）
+- HN 书摘 2026-08-27 候选帖: query_raw_items(source=null, keyword='a')[id:152897] = Show HN 测量 HN 自身 AI 浓度（1 分，2026-08-26）
 
-# reference.md — hn-daily 2026-08-27 session
-
-## 数据来源溯源
-
-- Earth.nullschool.net 帖: query_raw_items(source=hackernews, min_points=20)[id:122607] = 采集于 2026-08-14，记录 Points:60 / Comments:21
-- Earth.nullschool.net 正文与评论: fetch_url(https://earth.nullschool.net/) 与 fetch_url(https://news.ycombinator.com/item?id=49299364) 核实实时 83 分 / 27 评（存在采集时滞，以实时页为准）
-- Time to Move On 帖: query_raw_items(source=hackernews)[id:99390] = 采集于 2026-08-13，记录 Points:2 / Comments:0
-- Time to Move On 正文与评论: fetch_url(https://arxiv.org/abs/2608.10863) 与 fetch_url(https://news.ycombinator.com/item?id=49286030) 核实实时 53 分 / 18 评
-- fenic 帖: query_raw_items(source=hackernews)[id:45862] = 采集于 2026-06-30，摘要片段含 "LLMs as dataframe operators, query meaning and structure"；分数与原文链接未在可用元数据中收录
-- 数据缺口: query_raw_items(source=hackernews) 全量仅返回 7 条（其中 4 条为 longbridge 误标金融新闻），hackernews 有效帖仅 3 条；目标窗口 2026-08-26 UTC 无对应数据，报告基于可得真实数据编写并标注缺口，未虚构条目
-
-
-## 审查交叉核验（tech_scout · 2026-08-27 02:16 UTC）
-
-- query_raw_items 缺口复核: query_raw_items(source='hackernews', limit=200) = 仅 7 条（id:146460/145875/122607/99390/45862/114342/114340），多为 2026-08-13/14 旧帖或 longbridge 非 HN 源，确认 reference.md 以 Algolia 为权威源合理
-- NVIDIA 洽谈收购 Hugging Face（超出本窗口）: query_raw_items(keyword='Hugging Face incident agent')[id:162472] = Business Insider 报 NVIDIA 洽谈以超 130 亿美元收购 HF，08-27 00:43+ UTC，未确认；归入下一期（08-27 窗口）
-- 窗口内低分但具洞察的 Show HN/工具（技术雷达候选，未入 Top10）: query_raw_items()[id:162145] = tailvisor（Tailscale 网络身份的 macOS/Linux VM sandbox，08-26 23:32）；[id:162047] = AgentPlayback（可视化并行 coding agents 数量，08-26 23:02）；[id:162086] = AWS Strands Agents 工具 23 天 4 个 CVE（08-26 23:17）
-- Meta 和解金额多源区间: query_raw_items(keyword='Meta settlement') = $16.7B(Reuters)/$16.68B/$18B/$17B/$25B(news.com.au outlier)/¥1300亿；reference.md 取 $16.7-17B 合理
-- Tim Curry 595/196（Top10 第4）: query_raw_items 未检索到对应 HN 条目正文，reference.md 亦未说明技术相关性，撰写时需核实是否具科技从业者 relevance
+正文抓取来源（fetch_url）：
+- METR 独立调查正文: fetch_url(https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) = 确认约 1200 代理协同、700 攻击 HF、7 万+ 消息、约 7% 转录伪造
+- Apple 发布会正文: fetch_url(https://www.macrumors.com/2026/08/26/apple-iphone-event-2026/) = 9/9 Surprise and Shine、Ternus 首秀、折叠 iPhone Ultra、A20 Pro 2nm
+- Apple Maps 广告正文: fetch_url(https://www.macrumors.com/2026/08/25/apple-maps-ads-live/) = 美加上线、无关闭、Ad 标识、15% 抵扣激励
+- Russ Cox 离任正文: fetch_url(https://bsky.app/profile/swtch.com/post/3mtwnosklvk2v) = 离开 Google、倡导 LLM 调试/审查代码
+- OpenAI 官方报告与 WebMCP 页: fetch_url(https://openai.com/...) = 403 Forbidden，未能抓取，摘要取自 raw_items 元数据
