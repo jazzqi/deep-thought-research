@@ -1,19 +1,4 @@
----
-name: HN 书摘 · 2026-09-07
-slug: hn-daily
-status: active
-lead_agent: tech_generalist
-created: 2026-08-15
-updated: 2026-09-07T17:12:43+08:00
-revision: 2026-09-07
-sources:
-  - path: 2026-09-07_1659__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/reference.md
-    agent: hn_daily_update
-    summarized: false
----
-
 # HN 书摘 · 2026-09-07（周一）
-
 
 > 今日三句话：① Nitter 在 X Corp 停止通知后法律咨询确认可继续运营，社区反响强烈（726 票/315 评论）；② Asahi Linux 正式支持 Apple M3 芯片，开源社区再次突破苹果硬件壁垒（463 票/282 评论）；③ 开源开发者 Henri Bergius 将默认许可证从 MIT 切换至 EUPL，引发 Copyleft 与 SaaS 漏洞的深度辩论（150 票/175 评论）。
 

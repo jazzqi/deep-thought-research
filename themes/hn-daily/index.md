@@ -4,8 +4,8 @@ slug: hn-daily
 status: active
 lead_agent: tech_generalist
 created: 2026-08-15
-updated: 2026-09-07T10:08:27+08:00
-revision: 2026-09-07T10:08:27+08:00
+updated: 2026-09-07T17:12:43+08:00
+revision: 2026-09-07T17:12:43+08:00
 sources: []
 ---
 # HN 书摘 · 每日扫描快报
