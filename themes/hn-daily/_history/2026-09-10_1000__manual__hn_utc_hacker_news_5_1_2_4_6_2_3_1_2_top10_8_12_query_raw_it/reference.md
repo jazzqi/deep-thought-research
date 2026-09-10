@@ -1,0 +1,16 @@
+- Apple iPhone Duo 发布: query_raw_items(source='hackernews', published_after='2026-09-09T00:00:00Z', published_before='2026-09-10T00:00:00Z')[id:339809] = ▲202 💬204 Apple iPhone Duo
+- iPhone Duo 价格/规格: fetch_url('https://www.theverge.com/tech/991203/iphone-duo-foldable-news-specs-price-release-date') = $1,999起售, 7.6英寸内屏, nano-texture无折痕, 10月16日预购
+- OpenAI Navier-Stokes 突破: fetch_url('https://simonwillison.net/2026/Sep/8/on-navier-stokes/') = 88小时完成解析解, 270万条消息, 300B output token, Lean验证17小时
+- Buckmaster 指控: fetch_url('https://simonwillison.net/2026/Sep/8/on-navier-stokes/') = NYU教授指控OpenAI偷窃与Anthropic员工合作的研究成果
+- Automattic CEO 休假: query_raw_items(source='hackernews', published_after='2026-09-09T00:00:00Z', published_before='2026-09-10T00:00:00Z')[id:340145] = ▲50 💬16 Automattic CEO Matt Mullenweg Put on Leave
+- Automattic TechCrunch: query_raw_items(source='hackernews', published_after='2026-09-09T00:00:00Z', published_before='2026-09-10T00:00:00Z')[id:341355] = ▲21 💬97 TechCrunch报道
+- Anthropic 监控系统: fetch_url('https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/') = 使用Samdesk监控异见者, 60分钟预警, 招聘国安销售
+- Jacob Coxon 辞职: fetch_url('https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans/') = Hubinger确认AI杀死全人类概率>10%
+- Tailwind 加入Shopify: fetch_url('https://tailwindcss.com/blog/tailwind-is-joining-shopify') = 每周安装1.1亿次, 被ChatGPT/X/Cloudflare/Reddit使用
+- DeepSeek V4.1 Flash: query_raw_items(source='hackernews', published_after='2026-09-09T00:00:00Z', published_before='2026-09-10T00:00:00Z')[id:334798] = ▲36 💬3 全面超越V4 Pro, 更低价格
+- Google Ads 误杀: fetch_url('https://xlii.space/eng/malicious-software-on-google-ads/') = $500预算被封, 5次申诉拒绝, HN曝光后恢复
+- Claude Opus 5 演示: query_raw_items(source='hackernews', published_after='2026-09-09T00:00:00Z', published_before='2026-09-10T00:00:00Z')[id:335023] = ▲37 💬4 opusfived.dev
+- GPT-6 Astra 架构: fetch_url('https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and') = ARC-AGI-3 99.9% (GPT-5.6 Sol 7.8%), 循环Transformer, 隐藏推理链
+- Procedural Graphs 论文: query_raw_items(source='hackernews', published_after='2026-09-09T00:00:00Z', published_before='2026-09-10T00:00:00Z')[id:340016] = ▲30 💬4 arxiv LLM Agent自演化执行结构
+- 回归手写代码: query_raw_items(source='hackernews', published_after='2026-09-09T00:00:00Z', published_before='2026-09-10T00:00:00Z')[id:334430] = ▲21 💬16 开发者放弃AI编码回归手写
+- Ask HN 2021编码: query_raw_items(source='hackernews', published_after='2026-09-09T00:00:00Z', published_before='2026-09-10T00:00:00Z')[id:335234] = ▲20 💬51 多位开发者表示不愿管理Agent
