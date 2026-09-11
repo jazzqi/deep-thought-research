@@ -1,0 +1,13 @@
+- Navier-Stokes形式方法革命 (id:356072, ▲46): fetch_url(https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/) = OpenAI用Lean 4在17小时内验证了166页论文的形式化证明，而传统人工需132,800人时
+- Rust成为微软Tier-1语言 (id:351893, ▲42): fetch_url(https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/) = Rust获得与C++、C#、TypeScript同级的内部开发支持，引入rustc_codegen_utc接入MSVC后端
+- DeepSeek v4.1 Flash (id:346926, ▲40): query_raw_items(source=hackernews, keyword='DeepSeek')[id:346926] = 中国AI实验室发布新模型，声称在所有关键指标上超越V4 Pro
+- OpenAI训练设置自动重开 (id:351569, ▲38): query_raw_items(source=hackernews, keyword='OpenAI')[id:351569] = 用户报告"允许训练"选项被系统反复自动重启用
+- Shopify从React Native回归原生 (id:351894, ▲34): fetch_url(https://shopify.engineering/back-to-native) = 编码代理大幅降低原生开发成本，使双重维护假设失效
+- OpenAI可能窃取数学证明 (id:344508, ▲24): query_raw_items(source=hackernews, keyword='OpenAI')[id:344508] = 数学界质疑OpenAI使用未发表研究数据
+- Forgejo ≤16.0.3严重RCE (id:355054, ▲22): query_raw_items(source=hackernews, keyword='Forgejo')[id:355054] = 自托管Git平台存在关键远程代码执行漏洞
+- OpenAI Agents API (id:356040, ▲20): fetch_url(https://developers.openai.com/api/docs/guides/agents-api/overview) = OpenAI发布Agent编排接口文档
+- Anthropic威胁情报报告 (id:355985, ▲20): fetch_url(https://www.anthropic.com/threat-intelligence-report-september-2026) = 覆盖七大滥用领域的8个月运营数据
+- Deathray WebGPU漏洞 (id:356609, ▲21): fetch_url(https://auberon.xyz/blog/posts/deathray/) = WebGPU着色器可在macOS上通过浏览器冻结整个桌面
+- Syq快速文件传输 (id:355801, ▲21): fetch_url(https://greaber.github.io/syq/) = 基于并行连接和直接加密TCP的rsync替代工具
+- 数学家质疑OpenAI信任 (id:353700, ▲22/265评论): query_raw_items(source=hackernews, keyword='OpenAI')[id:353700] = 265条评论，全日讨论深度最高
+- Anthropic CEO妻子与Epstein (id:356831, ▲20): query_raw_items(source=hackernews, keyword='Anthropic')[id:356831] = NY Post旧文(2026-08-14)被提交至HN

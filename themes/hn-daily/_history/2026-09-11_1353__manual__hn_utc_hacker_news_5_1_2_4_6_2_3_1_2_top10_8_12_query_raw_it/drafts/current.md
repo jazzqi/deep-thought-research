@@ -1,19 +1,4 @@
----
-name: HN 书摘 · 2026-09-11
-slug: hn-daily
-status: active
-lead_agent: tech_generalist
-created: 2026-08-15
-updated: 2026-09-11T14:08:25+08:00
-revision: 2026-09-11
-sources:
-  - path: 2026-09-11_1353__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/reference.md
-    agent: hn_daily_update
-    summarized: false
----
-
 # HN 书摘 · 2026-09-10（周四）
-
 
 > 今日三句话：① OpenAI 训练数据信任危机全面爆发——数学家指控、用户隐私设置反复自动重开、未发表证明疑似被窃取，三条线索同日汇聚形成系统性叙事；② 形式化验证迎来里程碑时刻——OpenAI Navier-Stokes 证明同步发布 Lean 4 形式化版本，AI 将形式化成本压缩四个数量级；③ Shopify 从 React Native 回归原生开发，公开承认 LLM 编码代理改变了跨平台框架的核心经济假设。
 
