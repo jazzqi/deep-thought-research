@@ -65,6 +65,9 @@ jobs:
             EXISTING=$(gh issue list --repo jazzqi/deep-thought-research --search "in:title \"$TITLE\" is:issue" --limit 1 --json number 2>/dev/null | python3 -c "import json,sys; d=json.load(sys.stdin); print(d[0]['number'] if d else '')" 2>/dev/null)
             awk 'BEGIN{fm=0} /^---[[:space:]]*$/ {fm++; next} fm>=2{print}' "$FILE" > /tmp/body.md
             printf '\n---\n📄 仓库内原文：[%s](https://github.com/jazzqi/deep-thought-research/blob/main/%s)\n' "$DATE" "$FILE" >> /tmp/body.md
+            # 中和 @mention：GitHub 会把正文里的 @用户名 解析为 mention 并向真实用户发送通知。
+            # 统一改写为「作者 用户名」；跳过 URL 内的 @（如 mathstodon.xyz/@user/123）、邮箱、行内代码。
+            python3 -c "import re,pathlib; p=pathlib.Path('/tmp/body.md'); t=p.read_text(encoding='utf-8'); p.write_text(re.sub(r'(?<![\w/=.@\x60-])@([A-Za-z0-9][A-Za-z0-9_-]{0,38})', r'作者 \1', t), encoding='utf-8')"
             if [ -n "$EXISTING" ]; then
               echo "Updating issue #$EXISTING for $TITLE"
               gh issue edit "$EXISTING" --body-file /tmp/body.md --repo jazzqi/deep-thought-research
