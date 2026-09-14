@@ -1,0 +1,16 @@
+actions:
+- priority: P1
+  recurrence: weekly
+  summary: FOMC 9/16利率决议结果——加息25bp至3.75-4.00%后市场反应需当日评估
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: 中国LPR 9/21是否跟随降息——验证十五五金融政策落地节奏
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-09-21'
+- priority: P3
+  recurrence: daily
+  summary: 美债10Y/2Y曲线在FOMC后的形态——是否进一步陡峭化或倒挂加深
+  target_flow_params: {}
+  type: monitoring
