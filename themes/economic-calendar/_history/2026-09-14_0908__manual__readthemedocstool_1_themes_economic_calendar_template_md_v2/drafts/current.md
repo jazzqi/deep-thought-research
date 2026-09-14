@@ -1,18 +1,3 @@
----
-name: 周度财经日历预读
-week: 2026-09-14__2026-09-20
-type: forecast
-lead_agent: ackman
-region_focus: 全球
-created: 2026-09-14T09:37:14+08:00
-data_quality: partial
-prev_doc: themes/economic-calendar/2026-09-07__2026-09-13/recap.md
-next_doc: themes/economic-calendar/2026-09-21__2026-09-27/forecast.md
-sources: [akshare, openbb]
----
-
-# 周度财经日历预读：2026-09-14 ~ 2026-09-20
-
 # 周度财经日历预读：2026-09-14 至 2026-09-20
 
 ## Big Picture

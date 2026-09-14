@@ -1,0 +1,15 @@
+actions:
+- priority: P1
+  recurrence: daily
+  summary: FOMC 利率决议 9/17-18：市场定价 87-90% 加息，核心看点是点阵图是否暗示年内再加一次
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  recurrence: daily
+  summary: 美国 8 月零售销售 9/16 公布：前值 -0.6%→共识 +0.8%，验证消费韧性
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: 日本央行 9 月议息会议 + 8 月 CPI 9/17：通胀走势决定加息节奏，EWJ 已 +2.2% 定价
+  target_flow_params: {}
+  type: follow_up
