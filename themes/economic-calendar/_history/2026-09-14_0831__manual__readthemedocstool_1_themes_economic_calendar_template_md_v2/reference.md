@@ -1,0 +1,46 @@
+# 数据来源溯源 — zhou_jintao relay 写入
+
+- 美国8月CPI同比3.4%（环比0.4%）: query_raw_items(keyword="美国 CPI 通胀", source="telegram:Financial_Express")[id:371384] = 中金9/12研报确认CPI 3.4%，核心CPI环比+0.3%
+- 美国8月核心CPI环比+0.3%（超预期+0.2%）: query_raw_items(keyword="CPI", source="telegram:Financial_Express")[id:373765] = 中金确认"已触及加息门槛"
+- 美国8月PPI同比5.4%: query_calendar_events(days=14, lookback_days=7) = 实际5.4%，前值4.7%，共识5.3%
+- 美国8月核心PPI同比4.6%: query_calendar_events(days=14, lookback_days=7) = 实际4.6%，前值4.2%
+- 美国8月PPI环比+0.4%: query_calendar_events(days=14, lookback_days=7) = 实际0.4%
+- 10Y UST 4.97%（周涨+18.5bp）: query_raw_items(keyword="10年期基准国债收益率", source="telegram:Financial_Express")[id:370435] = 纽约尾盘4.9669%，逼近5.0187%
+- 2Y UST 4.63%（周涨+4bp）: query_raw_items(keyword="两年期美债", source="telegram:Financial_Express")[id:370435] = 纽约尾盘4.6254%
+- DXY 99.12: query_raw_items(keyword="ICE 美元指数", source="telegram:Financial_Express")[id:370228] = 纽约尾盘99.118
+- 现货黄金$4,348/oz: query_raw_items(keyword="现货黄金", source="telegram:Financial_Express")[id:370365] = 纽约尾盘4348.11美元/盎司，周累跌1.85%
+- S&P 500 (SPY) $764.29: market_quote(symbols=["SPY.US"]) = last 764.29, +0.85%
+- TLT $80.87: market_quote(symbols=["TLT.US"]) = last 80.87, +0.11%
+- GLD $398.77: market_quote(symbols=["GLD.US"]) = last 398.77, +0.61%
+- FXI $34.49: market_quote(symbols=["FXI.US"]) = last 34.49, +0.41%
+- UUP $28.07: market_quote(symbols=["UUP.US"]) = last 28.07, +0.14%
+- S&P 500周跌0.80%: query_raw_items(keyword="标普 500", source="telegram:Financial_Express")[id:370690] = 本周累计下跌0.80%
+- 9月FOMC加息概率~90%: query_raw_items(keyword="加息概率", source="telegram:Financial_Express")[id:367012] = 市场认为加息概率达90%
+- 高盛调整预期至加息25bp: query_raw_items(keyword="高盛", source="telegram:Financial_Express")[id:370995] = 高盛首席美国经济学家戴维·梅里克尔研报
+- 中金判断"已触及加息门槛": query_raw_items(keyword="中金", source="telegram:Financial_Express")[id:373765] = 从维护美联储信誉角度，9月最好是加息
+- 华泰判断"加息成为必选项": query_raw_items(keyword="华泰", source="telegram:Financial_Express")[id:371215] = 若沃什不能兑现鹰派承诺，公信力将受挫
+- 三菱日联转向预期加息: query_raw_items(keyword="三菱日联", source="telegram:Financial_Express")[id:370047] = 放弃维持利率预估，预计9月加息25bp
+- "美联储传声筒"分析: query_raw_items(keyword="美联储传声筒", source="telegram:Financial_Express")[id:370303] = 自1990年代以来美联储仅有一次"一次性"加息
+- 白宫哈塞特表态: query_raw_items(keyword="哈塞特", source="telegram:Financial_Express")[id:373264] = 特朗普认为没有理由加息但尊重沃什独立性
+- 中信建投黄金判断: query_raw_items(keyword="中信建投", source="telegram:Financial_Express")[id:373134] = 加息预期充分定价，黄金有望触底回升
+- 沙特输油管道关闭: query_raw_items(keyword="沙特", source="telegram:Financial_Express")[id:373663] = 沙特关闭重要输油管道，霍尔木兹海峡会议推迟
+- 美国成屋销售398万: query_calendar_events(days=14, lookback_days=7) = 实际398万，前值406万
+- 美国初请失业金206K: query_calendar_events(days=14, lookback_days=7) = 实际206K，前值206K
+- 中国8月出口同比+25%（美元计）: query_calendar_events(days=14, lookback_days=7) = 实际25.0%，前值23.9%
+- 中国8月CPI同比+0.8%: query_calendar_events(days=14, lookback_days=7) = 实际0.8%，前值0.5%
+- 中国8月PPI同比+3.8%: query_calendar_events(days=14, lookback_days=7) = 实际3.8%，前值3.5%，共识3.6%
+- 中国70城房价: query_calendar_events(days=7, lookback_days=0, country="CN") = 9/15公布
+- 中国社零前值+0.6%: query_calendar_events(days=7, lookback_days=0, country="CN") = 8月当月同比前值0.6%
+- 中国房地产开发投资前值-19.2%: query_calendar_events(days=7, lookback_days=0, country="CN") = 1-8月累计同比前值-19.2%
+- 中国工业增加值前值+4.5%: query_calendar_events(days=7, lookback_days=0, country="CN") = 8月同比前值4.5%
+- 中国城镇调查失业率前值5.2%: query_calendar_events(days=7, lookback_days=0, country="CN") = 8月前值5.2%
+- 中国固定资产投资前值-6.7%: query_calendar_events(days=7, lookback_days=0, country="CN") = 1-8月累计同比前值-6.7%
+- 日本8月CPI前值1.9%: query_calendar_events(days=7, lookback_days=0, country="JP") = 9/17公布，前值1.9%
+- 日本核心CPI前值1.8%: query_calendar_events(days=7, lookback_days=0, country="JP") = 9/17公布，除生鲜食品前值1.8%
+- 英国央行利率前值3.75%: query_calendar_events(days=7, lookback_days=0, country="GB") = 9/17公布
+- 英国8月CPI前值2.9%: query_calendar_events(days=7, lookback_days=0, country="GB") = 9/16公布，前值2.9%
+- 美国零售销售前值-0.6%，共识+0.8%: query_calendar_events(days=7, lookback_days=0, country="US") = 9/16公布
+- 上周预测成绩单（ackman 5/5命中）: read_theme_docs("themes/economic-calendar/2026-09-07__2026-09-13/recap.md") = ackman周度回顾累计命中率100%
+- 中国LPR一年期前值3.0%、五年期3.5%: query_calendar_events(days=14, lookback_days=0, country="CN") = 9/21公布
+- 国泰海通判断"加息近在咫尺": query_raw_items(keyword="国泰海通", source="telegram:Financial_Express")[id:373201] = 9月美联储加息或已近在咫尺
+- 招商证券判断"宏观压制逐步落地": query_raw_items(keyword="招商证券", source="telegram:Financial_Express")[id:373056] = 宏观主导交易或将告一段落
