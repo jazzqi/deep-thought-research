@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-14T08:20:02+08:00
-revision: 2026-09-14T08:20:02+08:00
+updated: 2026-09-16T07:20:16+08:00
+revision: 2026-09-16T07:20:16+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [AI 是末日还是舆论操控？OpenAI 数学突破、耐克 2000 亿美元崩盘 —— All-In Podcast · 2026-09-11](./all-in/ai-kills-everybody-or-doomer-psyop-openais-math-breakthrough.md)
+- [JD Vance on AI, Entitlement Fraud, Iran War, Israel, H-1B Abuse & the Midterms —— All-in with Chamath, Jason, Sacks, Friedberg · 2026-09-15](./all-in/jd-vance-on-ai-entitlement-fraud-iran-war-israel-h-1b-abuse.md)
 
 ## 往期
 
+- [JD Vance on AI, Entitlement Fraud, Iran War, Israel, H-1B Abuse & the Midterms —— All-in with Chamath, Jason, Sacks, Friedberg · 2026-09-15](./all-in/jd-vance-on-ai-entitlement-fraud-iran-war-israel-h-1b-abuse.md)
 - [AI 是末日还是舆论操控？OpenAI 数学突破、耐克 2000 亿美元崩盘 —— All-In Podcast · 2026-09-11](./all-in/ai-kills-everybody-or-doomer-psyop-openais-math-breakthrough.md)
 - [The Gift and The Curse of Staying Private —— Bill Gurley · 2025-06-10](./iltb/the-gift-and-the-curse-of-staying-private-with-bill-gurley.md)
 - [Why This Veteran Venture Capitalist Avoids AI Hype | Jay Hoag Interview — ILTB Podcast · 2025-06-17](./iltb/why-this-veteran-venture-capitalist-avoids-ai-hype-jay-hoag.md)
