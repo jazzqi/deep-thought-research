@@ -1,0 +1,98 @@
+# 数据来源追溯
+
+## 新闻条目数据来源
+
+- 一个公司涉嫌参与OpenAI、Anthropic、Meta黑客事件: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386213] = 一个公司涉嫌参与三大AI公司黑客事件
+- Apple发布iOS 27等: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:385775] = iOS 27、iPadOS 27和macOS 27发布
+- 伊朗银行SSL证书被撤销: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386000] = 伊朗银行SSL证书因OFAC制裁被撤销
+- 美国移民局拟议取消60天宽限期: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386139] = 美国移民局拟议取消60天宽限期
+- Steam Frame发布: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:385752] = Steam Frame起价$1059
+- XCancel再次被下架: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:380829] = XCancel再次被下架
+- AI末日论是炒作: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:384397] = AI末日论是炒作形式
+- Amazon vs Perplexity AI诉讼: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386184] = Amazon vs Perplexity AI诉讼
+- 幻想缺失症研究: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:383093] = 幻想缺失症研究
+- 如何写有效的设计文档: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:383092] = 如何写有效的设计文档
+- GPT-5.6 Luna vs GPT-6 Astra: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386123] = GPT-5.6 Luna vs GPT-6 Astra代码审查对比
+- Rogue AI代理攻击RubyGems.org: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:381687] = Rogue AI agents攻击RubyGems.org
+- Ubuntu 26.10完成Rust核心工具过渡: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:383094] = Ubuntu 26.10完成Rust核心工具过渡
+- Tell HN: iOS 27不允许禁用Apple Intelligence: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386242] = Tell HN: iOS 27不允许禁用Apple Intelligence
+- Oracle裁员: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386084] = Oracle裁员邮件
+- Claude是反向思考者: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:384726] = Claude是反向思考者
+- Anthropic告诉投资者将连续第二季度盈利: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:384396] = Anthropic告诉投资者将连续第二季度盈利
+- 从Opus迁移到自托管Ollama的注意事项: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:383621] = 从Opus迁移到自托管Ollama的注意事项
+- 为聊天构建的图表: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386551] = 为聊天构建的图表
+- 反对JPEG XL: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:374080] = 反对JPEG XL
+- Cloudflare AKE减少52%到3.7%: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386028] = Cloudflare AKE减少HelloRetryRequests
+- Show HN: Kinesis控制Mac: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:381611] = Show HN: Kinesis控制Mac
+- 欧洲鸟类门户: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:380720] = 欧洲鸟类门户
+- Nike退出S&P 100: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:377183] = Nike退出S&P 100
+- MIT创建强制AI遵守安全规则的方法: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:384727] = MIT创建强制AI遵守安全规则的方法
+- Microsoft补丁破坏音频远程访问和粘贴: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:384725] = Microsoft补丁破坏音频远程访问和粘贴
+- Show HN: Pelican自行车替代品: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:383619] = Show HN: Pelican自行车替代品
+- 大众电动汽车充电近900英里: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:382296] = 大众电动汽车充电近900英里
+- Siri可以换成ChatGPT Claude: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:381498] = Siri可以换成ChatGPT Claude
+- 太阳能电力"极具攻击性地便宜": query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:382747] = 太阳能电力"极具攻击性地便宜"
+- 关注AI材料科学和生物科学能力: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:381546] = 关注AI材料科学和生物科学能力
+- Airbnb阻止使用BnB: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:379592] = Airbnb阻止使用BnB
+- Show HN: Is It Greg?: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:375822] = Show HN: Is It Greg?
+- 美国10年期国债收益率突破5%: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:385999] = 美国10年期国债收益率突破5%
+- Show HN: Nari Qwen3-TTS和Qwen3-ASR: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386051] = Show HN: Nari Qwen3-TTS和Qwen3-ASR
+- RubyGems开源供应链安全和OpenAI: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:383892] = RubyGems开源供应链安全和OpenAI
+- AI不是正常技术: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:376509] = AI不是正常技术
+- 数学的开始: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386183] = 数学的开始
+- Pion自主运行公司的代理: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:385417] = Pion自主运行公司的代理
+- 这是一个骗局: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:385416] = 这是一个骗局
+- 患者与健康保险拒赔斗争通常获胜: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386062] = 患者与健康保险拒赔斗争通常获胜
+- Ubuntu 26.10完成Rust核心工具过渡: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:383094] = Ubuntu 26.10完成Rust核心工具过渡
+- Temporal融资5.5亿美元估值125.5亿美元: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:382748] = Temporal融资5.5亿美元估值125.5亿美元
+- 未解决的菲尔兹奖问题被两名高中生攻破: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:383617] = 未解决的菲尔兹奖问题被两名高中生攻破
+- HP ZGX Fury现在可订购: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:381468] = HP ZGX Fury现在可订购
+- 大型AI设定监管捕获条款: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:381780] = 大型AI设定监管捕获条款
+- OpenArch: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:381059] = OpenArch
+- 开源AI和开放模型阅读清单: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:374476] = 开源AI和开放模型阅读清单
+- 美国煤炭是全球排放增加的最大贡献者: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386796] = 美国煤炭是全球排放增加的最大贡献者
+- 反向传播替代方案: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386754] = 反向传播替代方案
+- 当LLM评判者同意时我们应该相信他们吗: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:385942] = 当LLM评判者同意时我们应该相信他们吗
+- 入侵AI客户服务代理: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:384728] = 入侵AI客户服务代理
+- 我的电子阅读器失去了条纹: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:385941] = 我的电子阅读器失去了条纹
+- Show HN: Neobrutalism.dev: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:385074] = Show HN: Neobrutalism.dev
+- 快速Tokio应用原则: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:384394] = 快速Tokio应用原则
+- 我的健康保险拒绝了我的癌症治疗: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:384690] = 我的健康保险拒绝了我的癌症治疗
+- 新的10万美元H-1B签证费推动科技工作外包: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:383360] = 新的10万美元H-1B签证费推动科技工作外包
+- 对抗性时尚对AI全景监控表态: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:383980] = 对抗性时尚对AI全景监控表态
+- SDR--;开源SDR: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:383618] = SDR--;开源SDR
+- 谁来为AI制定规则: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:378753] = 谁来为AI制定规则
+- Chess.com泄露暴露730万用户: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:377649] = Chess.com泄露暴露730万用户
+- 人工智能的恶意使用: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:377182] = 人工智能的恶意使用
+- 写一个更好的现实: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:377218] = 写一个更好的现实
+- Neo Emacs: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386085] = Neo Emacs
+- 圣何塞警官使用Flock帮助追踪家暴受害者: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386182] = 圣何塞警官使用Flock帮助追踪家暴受害者
+- Steam Frame: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:385998] = Steam Frame
+- EU限制15岁以下访问社交媒体: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:386550] = EU限制15岁以下访问社交媒体
+- 为什么机器学习研究代理不过拟合: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:385415] = 为什么机器学习研究代理不过拟合
+- 截断SVD: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:385940] = 截断SVD
+- 数学的开始: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:385414] = 数学的开始
+- 中国监管机构瞄准"AI男友": query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:384395] = 中国监管机构瞄准"AI男友"
+- 基础模型工程: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:384393] = 基础模型工程
+- Project Lily: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:384722] = Project Lily
+- 1000+鞋子评测和切开: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:383982] = 1000+鞋子评测和切开
+- 奥斯陆禁止学校使用智能眼镜: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:384721] = 奥斯陆禁止学校使用智能眼镜
+- Nanite细分: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:383981] = Nanite细分
+- 建筑自动化在哪里成功了: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:383891] = 建筑自动化在哪里成功了
+- 最大罗马马赛克向公众开放: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:383890] = 最大罗马马赛克向公众开放
+- Musk运行假选民登记网站: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:381781] = Musk运行假选民登记网站
+- Rockstar在工会工人Discord服务器中安插眼线: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:382295] = Rockstar在工会工人Discord服务器中安插眼线
+- Pkgsrc很酷: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:381377] = Pkgsrc很酷
+- 386 PC for RP2350: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:380721] = 386 PC for RP2350
+- 1080p是920px高: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:381058] = 1080p是920px高
+- 神与语言: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:379627] = 神与语言
+- 土耳其当局打击LGBTQ+和HIV支持团体: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:379933] = 土耳其当局打击LGBTQ+和HIV支持团体
+- OEMpocalypse: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:378667] = OEMpocalypse
+- AI机器人何时进入我们家: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:378752] = AI机器人何时进入我们家
+- "令人不寒而栗"的警告还是过度反应: query_raw_items(source='hackernews', published_after='2026-09-14T00:00:00Z', published_before='2026-09-15T00:00:00Z', min_points=20)[id:377524] = "令人不寒而栗"的警告还是过度反应
+
+## 文章全文数据来源
+
+- 一个公司涉嫌参与OpenAI、Anthropic、Meta黑客事件全文: fetch_url(url='https://www.effort.news/irregular', max_chars=4000)
+- Apple发布iOS 27等全文: fetch_url(url='https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/', max_chars=4000)
+- 伊朗银行SSL证书被撤销全文: fetch_url(url='https://digiato.global/report/iran-banks-ssl-certificates-domain-changes/', max_chars=4000) = 连接失败
