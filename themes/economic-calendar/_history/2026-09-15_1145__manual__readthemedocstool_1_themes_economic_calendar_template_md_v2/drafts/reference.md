@@ -59,3 +59,11 @@
 - US CPI同比 3.4% (2026-08-01): query_indicators(category=macro, country=us, time_range=24h)[cpi_yoy_us_pct=3.4]
 - US PPI指数 287.928 (2026-08-01): query_indicators(category=macro, country=us, time_range=24h)[us_ppi=287.928]
 - US Fed资产负债表 6,740,619百万美元 (2026-09-09): query_indicators(category=macro, country=us, time_range=24h)[fed_balance_sheet=6740619]
+
+- US 10Y Yield (4.97%): query_indicators(category='bond', time_range='24h', country='us') = 10Y UST 盘中破 5.0%
+- Fed Chair Warsh (Kevin Warsh): query_raw_items(keyword='Warsh OR Fed Chair')[id:386212] = 美联储主席 Kevin Warsh 面临加息压力
+- US CPI Aug Core MoM (0.3%): query_calendar_events(days=7, lookback_days=14, country=US, importance=high,medium) = 核心 CPI 环比超预期偏热
+- US PPI Aug Total YoY (5.4%): query_calendar_events(days=7, lookback_days=14, country=US, importance=high,medium) = 上游成本超预期传导
+- Michigan Sentiment (47.8): query_calendar_events(days=7, lookback_days=14, country=US, importance=high,medium) = 消费者信心崩塌
+- CME FedWatch (70%): query_raw_items(keyword='FedWatch')[id:350860] = 加息概率从 60% 升至 70%
+- Brent Crude ($105.68): query_raw_items(id=350824) = 纽约收盘价格
