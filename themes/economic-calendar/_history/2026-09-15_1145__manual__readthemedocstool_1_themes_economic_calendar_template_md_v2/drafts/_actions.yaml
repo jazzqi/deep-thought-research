@@ -1,0 +1,17 @@
+actions:
+- priority: P1
+  recurrence: monthly
+  summary: 监控美国核心CPI环比是否连续2月≥0.3%——确认通胀黏性加剧信号
+  target_flow_params: {}
+  type: monitoring
+- priority: P1
+  summary: 9月16日美国零售销售数据验证消费信心崩塌是否传导至实际消费
+  target_flow: macro_regime
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-09-16'
+- priority: P2
+  summary: 能源CPI YoY 16.3%的传导路径研究——油价/OPEC+决策对后续通胀的量化影响
+  target_flow: thesis_propose
+  target_flow_params: {}
+  type: research

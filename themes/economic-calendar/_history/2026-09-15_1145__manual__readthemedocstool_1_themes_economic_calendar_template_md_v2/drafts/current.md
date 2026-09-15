@@ -1,18 +1,3 @@
----
-name: 周度财经日历预读
-week: 2026-08-31__2026-09-06
-type: forecast
-lead_agent: ackman
-region_focus: 全球
-created: 2026-09-15T12:11:42+08:00
-data_quality: full
-prev_doc: themes/economic-calendar/2026-08-31__2026-09-06/recap.md
-next_doc: themes/economic-calendar/2026-09-14__2026-09-20/forecast.md
-sources: [akshare, openbb]
----
-
-# 周度财经日历预读：2026-08-31 ~ 2026-09-06
-
 # 周度财经日历回顾：2026-08-31 至 2026-09-06
 
 > **作者团队**：ackman（Lead）、soros、dalio、zhou_jintao
