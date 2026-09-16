@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-09-07T14:48:17.788656+08:00'
+updated: '2026-09-15T11:56:11.665597+08:00'
 files:
 - path: macro/dalio/2026-07-19-2026年7月宏观场景分析中美分化加剧.md
   agent: dalio
@@ -2403,3 +2403,108 @@ files:
   - soros
   - dalio
   - zhou_jintao
+- path: portfolio/ackman/2026-09-13-weekly-macro-recap-2026-09-06-to-2026-09-12.md
+  agent: ackman
+  type: report
+  topic: weekly-macro-recap-2026-09-06-to-2026-09-12
+  status: final
+  created: '2026-09-13T16:12:08.465877+08:00'
+  updated: '2026-09-13T16:12:08.465877+08:00'
+  tags:
+  - macro
+  - recap
+  - calendar
+  - inflation
+  - fed
+  - china
+  - eurozone
+  signal: 综合多位分析师观点（数据缺失，仅基于日历和新闻）
+  confidence: 0.6
+  time_horizon: weekly
+  collaborators:
+  - macro_team
+- path: portfolio/ackman/2026-09-14-economic-calendar-recap-2026-09-07-2026-09-13.md
+  agent: ackman
+  type: report
+  topic: economic-calendar-recap-2026-09-07-2026-09-13
+  status: final
+  created: '2026-09-14T12:46:04.696825+08:00'
+  updated: '2026-09-14T12:46:04.696825+08:00'
+  tags:
+  - weekly-recap
+  - economic-calendar
+  - CPI
+  - ECB
+  - Fed
+  - geopolitics
+  - oil
+  - tariff
+  signal: 全球央行转鹰+通胀反弹+地缘能源危机
+  confidence: 0.8
+  time_horizon: 1周
+  collaborators:
+  - Mo
+- path: portfolio/ackman/2026-09-15-weekly-econ-calendar-recap-2026-09-14-09-20.md
+  agent: ackman
+  type: report
+  topic: weekly-econ-calendar-recap-2026-09-14-09-20
+  status: final
+  created: '2026-09-15T11:08:17.309568+08:00'
+  updated: '2026-09-15T11:08:17.309568+08:00'
+  tags:
+  - econ-calendar
+  - recap
+  - china-data
+  - fomc-preview
+  - hormuz
+  - oil
+  - fed
+  - rates
+  signal: mixed
+  confidence: 0.65
+  time_horizon: 1 week
+  collaborators:
+  - dalio
+  - zhou_jintao
+  - soros
+- path: portfolio/ackman/2026-09-15-2026-08-312026-09-06-recap.md
+  agent: ackman
+  type: report
+  topic: 2026-08-31__2026-09-06-recap
+  status: final
+  created: '2026-09-15T11:49:48.960789+08:00'
+  updated: '2026-09-15T11:49:48.960789+08:00'
+  tags:
+  - macro
+  - recap
+  - nonfarm
+  - ISM
+  - fed-rate
+  - calendar
+  signal: 非农+16.2万大幅超预期，FedWatch加息概率从~50%升至~58%，ISM制造/非制造分化延续
+  confidence: 0.8
+  time_horizon: 周度回顾
+  collaborators:
+  - soros
+  - dalio
+  - zhou_jintao
+- path: portfolio/ackman/2026-09-15-weekly-recap-2026-08-31-2026-09-06.md
+  agent: ackman
+  type: analysis
+  topic: weekly-recap-2026-08-31-2026-09-06
+  status: final
+  created: '2026-09-15T11:56:01.489012+08:00'
+  updated: '2026-09-15T11:56:01.489012+08:00'
+  tags:
+  - macro
+  - recap
+  - nonfarm
+  - fed
+  - china
+  - ISM
+  - ECB
+  signal: 非农大幅超预期扭转衰退叙事，Fed加息概率显著抬升
+  confidence: 0.8
+  time_horizon: 周度
+  collaborators:
+  - macro_team
