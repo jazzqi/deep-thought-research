@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-17T06:19:20+08:00
-revision: 2026-09-17T06:19:20+08:00
+updated: 2026-09-17T06:19:51+08:00
+revision: 2026-09-17T06:19:51+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
