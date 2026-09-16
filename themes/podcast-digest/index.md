@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-16T07:20:16+08:00
-revision: 2026-09-16T07:20:16+08:00
+updated: 2026-09-16T08:19:16+08:00
+revision: 2026-09-16T08:19:16+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [JD Vance on AI, Entitlement Fraud, Iran War, Israel, H-1B Abuse & the Midterms —— All-in with Chamath, Jason, Sacks, Friedberg · 2026-09-15](./all-in/jd-vance-on-ai-entitlement-fraud-iran-war-israel-h-1b-abuse.md)
+- [Satya Nadella on the AI Doomer Slowdown, Microsoft's Master Plan & Who Wins AI — All-In Podcast · 2026-09-15](./all-in/satya-nadella-on-the-ai-doomer-slowdown-microsofts-master-pl.md)
 
 ## 往期
 
+- [Satya Nadella on the AI Doomer Slowdown, Microsoft's Master Plan & Who Wins AI — All-In Podcast · 2026-09-15](./all-in/satya-nadella-on-the-ai-doomer-slowdown-microsofts-master-pl.md)
 - [JD Vance on AI, Entitlement Fraud, Iran War, Israel, H-1B Abuse & the Midterms —— All-in with Chamath, Jason, Sacks, Friedberg · 2026-09-15](./all-in/jd-vance-on-ai-entitlement-fraud-iran-war-israel-h-1b-abuse.md)
 - [AI 是末日还是舆论操控？OpenAI 数学突破、耐克 2000 亿美元崩盘 —— All-In Podcast · 2026-09-11](./all-in/ai-kills-everybody-or-doomer-psyop-openais-math-breakthrough.md)
 - [The Gift and The Curse of Staying Private —— Bill Gurley · 2025-06-10](./iltb/the-gift-and-the-curse-of-staying-private-with-bill-gurley.md)
