@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-09-16T14:54:56.851679+00:00",
+  "window": {
+    "after": "2026-09-15T00:00:00+00:00",
+    "before": "2026-09-16T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "396507",
+      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+      "url": "https://github.com/arnegiacomo/fugleramme",
+      "author": "arnemunthekaas",
+      "points": 73,
+      "comments": 21,
+      "published_at": "2026-09-15T12:31:10+00:00"
+    },
+    {
+      "id": "398307",
+      "title": "A Cop Searched 19,000 Flock Cameras Across 1,558 Cities. His Reason: 'LMAO'",
+      "url": "https://www.techtimes.co.uk/police-flock-search-licence-plate-lmao-1808683",
+      "author": "Tiwariparth6165",
+      "points": 67,
+      "comments": 14,
+      "published_at": "2026-09-15T14:47:21+00:00"
+    },
+    {
+      "id": "400329",
+      "title": "An Update on Wayback Machine Access",
+      "url": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
+      "author": "ChrisArchitect",
+      "points": 51,
+      "comments": 8,
+      "published_at": "2026-09-15T17:52:18+00:00"
+    },
+    {
+      "id": "399915",
+      "title": "Dystopian Surveillance Is Becoming a Reality",
+      "url": "https://dallincrump.com/dystopian-surveillance-is-becoming-a-reality",
+      "author": "speckx",
+      "points": 47,
+      "comments": 10,
+      "published_at": "2026-09-15T17:37:36+00:00"
+    },
+    {
+      "id": "399353",
+      "title": "There's a 100% Chance AI Agents Are Ruining the Internet",
+      "url": "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
+      "author": "pavel_lishin",
+      "points": 40,
+      "comments": 9,
+      "published_at": "2026-09-15T16:38:45+00:00"
+    },
+    {
+      "id": "400453",
+      "title": "Jev: New frontier model 40-400x cheaper and 20-200x faster",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "author": "albelfio",
+      "points": 40,
+      "comments": 5,
+      "published_at": "2026-09-15T19:25:03+00:00"
+    },
+    {
+      "id": "398000",
+      "title": "Global bond yields hit 2008 highs, raising stakes for big borrowers",
+      "url": "https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-rattled-2026-09-15/",
+      "author": "kaycebasques",
+      "points": 37,
+      "comments": 7,
+      "published_at": "2026-09-15T14:07:01+00:00"
+    },
+    {
+      "id": "398682",
+      "title": "Swift 6.4 Released",
+      "url": "https://www.swift.org/blog/swift-6.4-released/",
+      "author": "timsneath",
+      "points": 37,
+      "comments": 5,
+      "published_at": "2026-09-15T15:40:14+00:00"
+    },
+    {
+      "id": "400452",
+      "title": "Tracking the slide into authoritarianism wihin the United States of America",
+      "url": "https://protectdemocracy.org/threat-tracker/",
+      "author": "Varelion",
+      "points": 37,
+      "comments": 0,
+      "published_at": "2026-09-15T19:13:54+00:00"
+    },
+    {
+      "id": "389205",
+      "title": "Show HN: Sunk Cost – How long until a local LLM rig pays for itself?",
+      "url": "https://sunkcost.ai/",
+      "author": "rlindsey123",
+      "points": 36,
+      "comments": 57,
+      "published_at": "2026-09-15T01:37:43+00:00"
+    },
+    {
+      "id": "395661",
+      "title": "Let's make quality the norm again",
+      "url": "https://www.forbrukerradet.no/short-life/",
+      "author": "ingve",
+      "points": 35,
+      "comments": 20,
+      "published_at": "2026-09-15T10:00:16+00:00"
+    },
+    {
+      "id": "400560",
+      "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
+      "url": "https://codyho.dev/blog/gpu-driver/",
+      "author": "ADevWithAnIdea",
+      "points": 35,
+      "comments": 2,
+      "published_at": "2026-09-15T19:30:03+00:00"
+    },
+    {
+      "id": "396511",
+      "title": "Java 27 Released",
+      "url": "https://mail.openjdk.org/archives/list/announce@openjdk.org/thread/ORGGLMN75HFEWP7YL3ZLGHLYHVIBJDYT/",
+      "author": "mkurz",
+      "points": 33,
+      "comments": 7,
+      "published_at": "2026-09-15T13:13:43+00:00"
+    },
+    {
+      "id": "400971",
+      "title": "Why I'm still bearish on LLMs after Navier-Stokes",
+      "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
+      "author": "jaykru",
+      "points": 33,
+      "comments": 6,
+      "published_at": "2026-09-15T17:37:12+00:00"
+    },
+    {
+      "id": "395820",
+      "title": "Suspected sabotage causes major Netherlands rail disruption",
+      "url": "https://www.bbc.com/news/articles/c8ly49w9g1edo",
+      "author": "choult",
+      "points": 32,
+      "comments": 1,
+      "published_at": "2026-09-15T10:22:46+00:00"
+    },
+    {
+      "id": "400364",
+      "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "author": "leumon",
+      "points": 32,
+      "comments": 6,
+      "published_at": "2026-09-15T17:38:18+00:00"
+    },
+    {
+      "id": "400330",
+      "title": "We got admin access to Baseten's production GitHub in 25 minutes",
+      "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+      "author": "bearsyankees",
+      "points": 31,
+      "comments": 9,
+      "published_at": "2026-09-15T18:11:24+00:00"
+    },
+    {
+      "id": "400304",
+      "title": "Show HN: The bottom 50% of U.S. households are short after essentials (BLS data)",
+      "url": "https://whats-left-over.pages.dev/#s=50_40_10&c=1&u=person&t=0&tm=cbo&b=0&ts=100&k=0&cc=12201&im=nominal&by=2000&ir=2.5&ao=0&ar=20&at=200000&ip=10&rm=sp500&rr=8&pv=portfolio&p=1&iv=left&hp=1&e=food.housing.transport.health.insurance",
+      "author": "pwmglenn",
+      "points": 30,
+      "comments": 22,
+      "published_at": "2026-09-15T15:24:11+00:00"
+    },
+    {
+      "id": "400482",
+      "title": "How much oil-market buffer is left?",
+      "url": "https://www.depletion.org",
+      "author": "mcone",
+      "points": 29,
+      "comments": 26,
+      "published_at": "2026-09-15T19:56:56+00:00"
+    },
+    {
+      "id": "400572",
+      "title": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
+      "url": "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
+      "author": "summarity",
+      "points": 29,
+      "comments": 2,
+      "published_at": "2026-09-15T21:07:47+00:00"
+    },
+    {
+      "id": "395388",
+      "title": "US confirms for first time it has deployed space weapons",
+      "url": "https://www.bbc.com/news/articles/ck790xg41ygro",
+      "author": "harporoeder",
+      "points": 28,
+      "comments": 2,
+      "published_at": "2026-09-15T03:47:56+00:00"
+    },
+    {
+      "id": "398310",
+      "title": "Israeli Minister Threatens Filmmakers' Citizenship over Gaza Documentary",
+      "url": "https://www.reutersconnect.com/item/israeli-minister-threatens-filmmakers-citizenship-over-gaza-documentary/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XQ1ZNQzQ0NjcxMC1WSURFTw",
+      "author": "Markoff",
+      "points": 28,
+      "comments": 2,
+      "published_at": "2026-09-15T14:52:14+00:00"
+    },
+    {
+      "id": "402150",
+      "title": "Recreating Voodoo Graphics and a Late-1990s Gaming PC on an FPGA",
+      "url": "https://nand2mario.github.io/posts/2026/zsst-voodoo/",
+      "author": "zdw",
+      "points": 27,
+      "comments": 4,
+      "published_at": "2026-09-15T22:50:55+00:00"
+    },
+    {
+      "id": "397999",
+      "title": "AI is breaking our proxies for expertise",
+      "url": "https://www.seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/",
+      "author": "jbkcc",
+      "points": 26,
+      "comments": 8,
+      "published_at": "2026-09-15T13:41:55+00:00"
+    },
+    {
+      "id": "388530",
+      "title": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
+      "author": "throwworhtthrow",
+      "points": 25,
+      "comments": 5,
+      "published_at": "2026-09-15T00:40:14+00:00"
+    },
+    {
+      "id": "394966",
+      "title": "I can't stop thinking about Papua New Guinea",
+      "url": "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua",
+      "author": "networked",
+      "points": 25,
+      "comments": 1,
+      "published_at": "2026-09-15T06:16:24+00:00"
+    },
+    {
+      "id": "396506",
+      "title": "25 Years of Mass Surveillance Is Enough [Auth: Cindy Cohn; Bruce Schneier]",
+      "url": "https://www.lawfaremedia.org/article/25-years-of-mass-surveillance-is-enough",
+      "author": "mdp2021",
+      "points": 25,
+      "comments": 3,
+      "published_at": "2026-09-15T12:08:26+00:00"
+    },
+    {
+      "id": "400484",
+      "title": "WangNet – 1.8 MB, zero-dependency Numberwang adjudication in 11 languages",
+      "url": "https://github.com/GraafHenk/numberwang",
+      "author": "Liogra123",
+      "points": 25,
+      "comments": 5,
+      "published_at": "2026-09-15T19:27:35+00:00"
+    },
+    {
+      "id": "395660",
+      "title": "How much of F-Droid is LLM generated?",
+      "url": "https://tintotint.eu/whacky-corner/f-droid_slop/",
+      "author": "_ZeD_",
+      "points": 24,
+      "comments": 4,
+      "published_at": "2026-09-15T09:47:48+00:00"
+    },
+    {
+      "id": "396505",
+      "title": "When Google Cuts Off Access: Poland and the World",
+      "url": "https://dossier.reasoner.pl/artykul/",
+      "author": "marekfocus",
+      "points": 24,
+      "comments": 13,
+      "published_at": "2026-09-15T11:21:09+00:00"
+    },
+    {
+      "id": "397505",
+      "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+      "url": "https://withcapsule.app/",
+      "author": "bashtian",
+      "points": 24,
+      "comments": 8,
+      "published_at": "2026-09-15T13:31:40+00:00"
+    },
+    {
+      "id": "396198",
+      "title": "25 Years of Mass Surveillance Is Enough",
+      "url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
+      "author": "iamnothere",
+      "points": 23,
+      "comments": 2,
+      "published_at": "2026-09-15T11:26:48+00:00"
+    },
+    {
+      "id": "396336",
+      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300M",
+      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+      "author": "myth_drannon",
+      "points": 23,
+      "comments": 5,
+      "published_at": "2026-09-15T12:01:31+00:00"
+    },
+    {
+      "id": "398681",
+      "title": "Show HN: Ordewell – turn one goal into an ordered plan of coding-agent tasks",
+      "url": "https://github.com/ordewell/ordewell",
+      "author": "ac-ciano",
+      "points": 23,
+      "comments": 20,
+      "published_at": "2026-09-15T13:31:37+00:00"
+    },
+    {
+      "id": "399352",
+      "title": "America's Driver's License Breach Is a National Security Disaster",
+      "url": "https://www.lawfaremedia.org/article/america%27s-drivers-licence-breach-is-a-national-security-disaster",
+      "author": "hn_acker",
+      "points": 23,
+      "comments": 4,
+      "published_at": "2026-09-15T15:58:48+00:00"
+    },
+    {
+      "id": "399930",
+      "title": "GEFS on OpenBSD: A Early Preview",
+      "url": "https://marc.info/?l=openbsd-tech&m=178948744271633&w=2",
+      "author": "sippingabonedry",
+      "points": 23,
+      "comments": 9,
+      "published_at": "2026-09-15T17:12:19+00:00"
+    },
+    {
+      "id": "400561",
+      "title": "Jean-Pierre Serre is 100 years old today",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Serre/",
+      "author": "jzox",
+      "points": 23,
+      "comments": 1,
+      "published_at": "2026-09-15T20:57:18+00:00"
+    },
+    {
+      "id": "391752",
+      "title": "Linux from Scratch",
+      "url": "https://www.linuxfromscratch.org/",
+      "author": "sippingabonedry",
+      "points": 22,
+      "comments": 9,
+      "published_at": "2026-09-15T04:15:23+00:00"
+    },
+    {
+      "id": "395915",
+      "title": "CSS-Tricks in Limbo",
+      "url": "https://vale.rocks/micros/20260915-0135",
+      "author": "edent",
+      "points": 22,
+      "comments": 2,
+      "published_at": "2026-09-15T07:27:46+00:00"
+    },
+    {
+      "id": "397015",
+      "title": "Australia 'on the same page' as Canada as it seeks deeper EU alliance",
+      "url": "https://www.reddit.com/r/worldnews/comments/1wgqken/australia_on_the_same_page_as_canada_as_it_seeks/",
+      "author": "vrganj",
+      "points": 22,
+      "comments": 3,
+      "published_at": "2026-09-15T13:25:38+00:00"
+    },
+    {
+      "id": "397506",
+      "title": "AI 'kill switch' may need to be mandatory, Anthropic co-founder tells BBC",
+      "url": "https://www.bbc.com/news/articles/cqgk5e2j0gg8o",
+      "author": "Betelbuddy",
+      "points": 22,
+      "comments": 26,
+      "published_at": "2026-09-15T13:41:28+00:00"
+    },
+    {
+      "id": "401559",
+      "title": "Saving Jet Fuel",
+      "url": "https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html",
+      "author": "marklit",
+      "points": 22,
+      "comments": 11,
+      "published_at": "2026-09-15T23:17:20+00:00"
+    },
+    {
+      "id": "389559",
+      "title": "US military reveals it has weapons in space",
+      "url": "https://www.ft.com/content/09d62f21-8697-4518-bca0-3699b4dd866c",
+      "author": "JumpCrisscross",
+      "points": 21,
+      "comments": 6,
+      "published_at": "2026-09-15T01:06:36+00:00"
+    },
+    {
+      "id": "395735",
+      "title": "Alternatives to MinIO for single-node local S3",
+      "url": "https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/",
+      "author": "rmoff",
+      "points": 21,
+      "comments": 17,
+      "published_at": "2026-09-15T08:21:27+00:00"
+    },
+    {
+      "id": "398555",
+      "title": "Firefox 156 shows ads in the address bar (dubbed \"Firefox Suggest\")",
+      "url": "https://www.heise.de/en/news/Firefox-156-PDF-viewer-starts-up-to-45-percent-faster-11454106.html",
+      "author": "dark-star",
+      "points": 21,
+      "comments": 6,
+      "published_at": "2026-09-15T14:15:42+00:00"
+    },
+    {
+      "id": "400303",
+      "title": "What we have learned at OpenShell applying formal methods to control AI agents",
+      "url": "https://nvidia.github.io/OpenShell-Research/dev-notes/posts/2026-09-10-learning-formal-methods-agent-policy-prover/",
+      "author": "alexwatson405",
+      "points": 21,
+      "comments": 10,
+      "published_at": "2026-09-15T14:40:05+00:00"
+    },
+    {
+      "id": "400365",
+      "title": "Hugging Face is billing OpenAI $100M for hacking it",
+      "url": "https://thenextweb.com/news/hugging-face-delangue-openai-100m-compute-traces-demand",
+      "author": "cwwc",
+      "points": 21,
+      "comments": 1,
+      "published_at": "2026-09-15T17:56:10+00:00"
+    },
+    {
+      "id": "400391",
+      "title": "Google copied our open-source code, removed engineers' names without credit",
+      "url": "https://www.reddit.com/r/reinforcementlearning/comments/1wg1unx/google_copied_our_opensource_code_removed_our/",
+      "author": "jacquesm",
+      "points": 21,
+      "comments": 0,
+      "published_at": "2026-09-15T17:57:39+00:00"
+    },
+    {
+      "id": "401392",
+      "title": "Learning to solve hard problems in RL for LLMs by never giving up",
+      "url": "https://mnoukhov.github.io/posts/ngu/",
+      "author": "natolambert",
+      "points": 21,
+      "comments": 0,
+      "published_at": "2026-09-15T19:07:38+00:00"
+    },
+    {
+      "id": "390263",
+      "title": "Israeli Effective Altruism Firm Behind OpenAI, Anthropic, and Meta Cyberattacks",
+      "url": "https://twitter.com/brianchau57/status/2099580981271318606",
+      "author": "MrBuddyCasino",
+      "points": 20,
+      "comments": 1,
+      "published_at": "2026-09-15T02:05:35+00:00"
+    },
+    {
+      "id": "390577",
+      "title": "Oil Executives Say the Great Fuel Crisis Is Here",
+      "url": "https://www.wsj.com/business/energy-oil/oil-executives-say-the-great-fuel-crisis-is-here-b6b32030",
+      "author": "toomuchtodo",
+      "points": 20,
+      "comments": 11,
+      "published_at": "2026-09-15T03:48:55+00:00"
+    },
+    {
+      "id": "392985",
+      "title": "I worked at Google DeepMind. You should listen to the warnings about AI",
+      "url": "https://www.theguardian.com/technology/2026/sep/14/google-deepmind-ai-warnings",
+      "author": "gibspaulding",
+      "points": 20,
+      "comments": 11,
+      "published_at": "2026-09-15T02:25:41+00:00"
+    },
+    {
+      "id": "395965",
+      "title": "The k-server conjecture is true",
+      "url": "https://arxiv.org/abs/2609.15979",
+      "author": "iamsyr",
+      "points": 20,
+      "comments": 9,
+      "published_at": "2026-09-15T07:45:31+00:00"
+    },
+    {
+      "id": "397337",
+      "title": "Show HN: Hacking a $20 4G wireless hotspot into a texting device",
+      "url": "https://bkovac.github.io/modem-thing/",
+      "author": "bobili1234",
+      "points": 20,
+      "comments": 1,
+      "published_at": "2026-09-15T13:20:24+00:00"
+    },
+    {
+      "id": "398605",
+      "title": "Show HN: Panel – A research workspace where the agent can build its own panes",
+      "url": "https://github.com/greentfrapp/panel",
+      "author": "greentfrapp",
+      "points": 20,
+      "comments": 4,
+      "published_at": "2026-09-15T13:58:37+00:00"
+    },
+    {
+      "id": "398699",
+      "title": "1Password's AI patching benchmark is misleading",
+      "url": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
+      "author": "darkamaul",
+      "points": 20,
+      "comments": 4,
+      "published_at": "2026-09-15T11:54:11+00:00"
+    },
+    {
+      "id": "398700",
+      "title": "Cartesian – AI 3D Modeling for Design",
+      "url": "https://www.formas.ai/cartesian",
+      "author": "eustoria",
+      "points": 20,
+      "comments": 7,
+      "published_at": "2026-09-15T15:26:45+00:00"
+    },
+    {
+      "id": "399275",
+      "title": "Performance Improvements in .NET 11",
+      "url": "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-11/",
+      "author": "soheilpro",
+      "points": 20,
+      "comments": 3,
+      "published_at": "2026-09-15T12:18:16+00:00"
+    },
+    {
+      "id": "399276",
+      "title": "AI Regulation as Anthropic's Business Model",
+      "url": "https://twitter.com/kevinnbass/status/2099621874279817638",
+      "author": "hsuduebc2",
+      "points": 20,
+      "comments": 0,
+      "published_at": "2026-09-15T13:21:34+00:00"
+    },
+    {
+      "id": "399277",
+      "title": "The CSS Zen Garden dream shipped",
+      "url": "https://josprague.com/blog/the-css-zen-garden-dream-finally-shipped/",
+      "author": "yosito",
+      "points": 20,
+      "comments": 6,
+      "published_at": "2026-09-15T14:40:08+00:00"
+    },
+    {
+      "id": "399305",
+      "title": "Our chance to take down the Epstein class",
+      "url": "https://thomasmassie.org/members-of-congress-that-currently-support-epstein/",
+      "author": "Ramola",
+      "points": 20,
+      "comments": 0,
+      "published_at": "2026-09-15T15:13:10+00:00"
+    },
+    {
+      "id": "399392",
+      "title": "Show HN: Check if your IP has appeared in a residential proxy network",
+      "url": "https://haveibeenproxied.com/",
+      "author": "microcode",
+      "points": 20,
+      "comments": 10,
+      "published_at": "2026-09-15T14:24:47+00:00"
+    },
+    {
+      "id": "399668",
+      "title": "The Inference Hardware Revolution of 2026",
+      "url": "https://spectrum.ieee.org/inference-hardware-revolution",
+      "author": "vinhnx",
+      "points": 20,
+      "comments": 0,
+      "published_at": "2026-09-15T14:24:08+00:00"
+    },
+    {
+      "id": "400301",
+      "title": "German companies rely almost exclusively on AI models and services from the USA",
+      "url": "https://www.heise.de/en/news/US-AI-dominates-companies-China-models-hardly-used-EU-AI-plays-no-role-11446969.html",
+      "author": "raincole",
+      "points": 20,
+      "comments": 23,
+      "published_at": "2026-09-15T14:05:42+00:00"
+    },
+    {
+      "id": "400302",
+      "title": "A20 Pro shatters Geekbench 7 single-core record – beats desktop i9 and Ryzen 9",
+      "url": "https://www.tomshardware.com/pc-components/cpus/apples-a20-pro-shatters-geekbench-7-single-core-record-2nm-chip-beats-desktop-intel-core-i9-and-amd-ryzen-9-by-up-to-32-percent",
+      "author": "scrlk",
+      "points": 20,
+      "comments": 8,
+      "published_at": "2026-09-15T14:08:32+00:00"
+    },
+    {
+      "id": "400466",
+      "title": "Chop Up Your Books",
+      "url": "https://attainablefelicity.mattkirkland.com/20260915/cut-up-your-books.html",
+      "author": "matt_kirkland",
+      "points": 20,
+      "comments": 13,
+      "published_at": "2026-09-15T18:45:31+00:00"
+    },
+    {
+      "id": "400521",
+      "title": "Charges Against Man Who Destroyed 3D-Printed 'Decoy' Flock Camera Reduced",
+      "url": "https://www.404media.co/charges-against-man-who-destroyed-3d-printed-decoy-flock-camera-drastically-reduced-after-state-admits-it-was-not-very-valuable/",
+      "author": "pavel_lishin",
+      "points": 20,
+      "comments": 0,
+      "published_at": "2026-09-15T16:30:55+00:00"
+    },
+    {
+      "id": "400558",
+      "title": "Splash-free urinals: Design through physics and differential equations",
+      "url": "https://academic.oup.com/pnasnexus/article/4/4/pgaf087/8098745",
+      "author": "gradus_ad",
+      "points": 20,
+      "comments": 20,
+      "published_at": "2026-09-15T16:11:34+00:00"
+    },
+    {
+      "id": "400571",
+      "title": "Iran war has cost on average $246M per day in its first five months",
+      "url": "https://www.cnbc.com/2026/09/15/cbo-iran-war-cost-pentagon-weapons.html",
+      "author": "onza",
+      "points": 20,
+      "comments": 6,
+      "published_at": "2026-09-15T20:56:36+00:00"
+    },
+    {
+      "id": "400586",
+      "title": "Leaving Linux",
+      "url": "https://jackevans.bearblog.dev/leaving-linux/",
+      "author": "speckx",
+      "points": 20,
+      "comments": 67,
+      "published_at": "2026-09-15T17:02:11+00:00"
+    },
+    {
+      "id": "400597",
+      "title": "Pulley is shutting down in December",
+      "url": "https://pulley.com",
+      "author": "jschorr",
+      "points": 20,
+      "comments": 4,
+      "published_at": "2026-09-15T17:07:32+00:00"
+    },
+    {
+      "id": "400624",
+      "title": "Leaving Proton Mail",
+      "url": "https://runarcn.no/leaving-proton-mail/",
+      "author": "speckx",
+      "points": 20,
+      "comments": 15,
+      "published_at": "2026-09-15T17:47:23+00:00"
+    },
+    {
+      "id": "401646",
+      "title": "Garbage Trucks Now Have AI Cameras to Score Your House and Clock Code Violations",
+      "url": "https://www.thedrive.com/news/garbage-trucks-now-have-ai-cameras-to-score-your-house-and-clock-code-violations",
+      "author": "madihaa",
+      "points": 20,
+      "comments": 12,
+      "published_at": "2026-09-15T18:36:36+00:00"
+    },
+    {
+      "id": "401647",
+      "title": "AWS Says It Can't Restore Some Data from Mideast Facilities Struck by Iran",
+      "url": "https://www.wsj.com/world/middle-east/aws-says-it-cant-restore-some-data-from-mideast-facilities-struck-by-iran-ddcb7e5d",
+      "author": "berkeleyjunk",
+      "points": 20,
+      "comments": 3,
+      "published_at": "2026-09-15T21:41:42+00:00"
+    },
+    {
+      "id": "402149",
+      "title": "The Age of Wonders and Terrors",
+      "url": "https://scottaaronson.blog/?p=10062",
+      "author": "Kotlopou",
+      "points": 20,
+      "comments": 2,
+      "published_at": "2026-09-15T18:26:56+00:00"
+    },
+    {
+      "id": "405062",
+      "title": "AI models chatting in 'surreal' dialect of poetic language and tech bro jargon",
+      "url": "https://www.theguardian.com/technology/2026/sep/15/syd-barrett-ai-chat-language-poetic-tech-bro-jargon-oversight",
+      "author": "fittingopposite",
+      "points": 20,
+      "comments": 1,
+      "published_at": "2026-09-15T18:37:41+00:00"
+    },
+    {
+      "id": "405063",
+      "title": "Texas police dept ordered closed for failing to provide any community benefit",
+      "url": "https://www.theguardian.com/us-news/2026/sep/15/trinidad-texas-police-department-disbanded",
+      "author": "toomuchtodo",
+      "points": 20,
+      "comments": 5,
+      "published_at": "2026-09-15T22:41:40+00:00"
+    },
+    {
+      "id": "398686",
+      "title": "Apple Enjoys Record-Breaking Emmy Night After Raising Streaming Prices",
+      "url": "https://longportapp.cn/news/299074955",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:51:20+00:00"
+    },
+    {
+      "id": "398687",
+      "title": "Cognition And AWS Signs Multi-Year Strategic Collaboration Agreement",
+      "url": "https://longportapp.cn/news/299074236",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:53:08+00:00"
+    },
+    {
+      "id": "398904",
+      "title": "Bescent: The Treasury's U.S. Treasury bond repurchase action has been successful",
+      "url": "https://longportapp.cn/news/299074431",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:55:03+00:00"
+    },
+    {
+      "id": "398905",
+      "title": "Netflix Stock Edges Lower Tuesday: What's Happening?",
+      "url": "https://longportapp.cn/news/299075340",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:55:21+00:00"
+    },
+    {
+      "id": "398906",
+      "title": "Morgan Stanley's Simkowitz On Investment Banking Says Pipeline Is Very Robust - Conf",
+      "url": "https://longportapp.cn/news/299074503",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:56:02+00:00"
+    },
+    {
+      "id": "399646",
+      "title": "NBIX: Biotech growth is driven by innovation, AI adoption, and a diversified, resilient product pipeline",
+      "url": "https://longportapp.cn/news/299075081",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:59:58+00:00"
+    },
+    {
+      "id": "400052",
+      "title": "Dave Outperforms Visa And Chime, Analyst Says",
+      "url": "https://longportapp.cn/news/299075444",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:59:25+00:00"
+    },
+    {
+      "id": "401381",
+      "title": "日本财务省",
+      "url": "https://t.me/Financial_Express/3465728",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:51:42+00:00"
+    },
+    {
+      "id": "401382",
+      "title": "日本财务省",
+      "url": "https://t.me/Financial_Express/3465729",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:51:43+00:00"
+    },
+    {
+      "id": "401383",
+      "title": "中金：2027 年光通信行业高景气度确定性抬升",
+      "url": "https://t.me/Financial_Express/3465730",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:52:02+00:00"
+    },
+    {
+      "id": "401384",
+      "title": "日本财务省",
+      "url": "https://t.me/Financial_Express/3465731",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:53:02+00:00"
+    },
+    {
+      "id": "401385",
+      "title": "俄总统新闻秘书：西方须取消对俄制裁以充实世界能源市场",
+      "url": "https://t.me/Financial_Express/3465732",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:54:02+00:00"
+    },
+    {
+      "id": "401386",
+      "title": "AI 担忧加剧，特朗普政府顾问与 Anthropic 高管举行会谈",
+      "url": "https://t.me/Financial_Express/3465733",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:55:22+00:00"
+    },
+    {
+      "id": "401387",
+      "title": "大韩航空最终敲定订购 103 架波音飞机。",
+      "url": "https://t.me/Financial_Express/3465734",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:56:02+00:00"
+    },
+    {
+      "id": "401388",
+      "title": "近日，西安电子科技大学联合基因组多维解析技术全国重点实验室、人畜共患传染病重症诊治全国重点实验室等单位，历经数年攻关，成功绘制出全球首个覆盖全生命周期的食蟹猴脑多模态细胞图景，系统解析了灵长类脑衰老的细胞调控规律及其与脑疾病的关联。相关研究",
+      "url": "https://t.me/Financial_Express/3465735",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:56:59+00:00"
+    },
+    {
+      "id": "401389",
+      "title": "大韩航空敲定 103 架波音飞机订单",
+      "url": "https://t.me/Financial_Express/3465736",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:57:03+00:00"
+    },
+    {
+      "id": "401390",
+      "title": "Meta 据报将推出无摄像头 AI 眼镜，代号“Luna”",
+      "url": "https://t.me/Financial_Express/3465737",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:57:03+00:00"
+    },
+    {
+      "id": "401391",
+      "title": "福特汽车公司正在扩大 V8 发动机的供应范围，5.0 升 V8 发动机现已覆盖 F-150 全系车型，并下调 2027 款 F-150 皮卡部分性能车型的起售价。降价并不意味着这些皮卡变得便宜。2027 款福特 F-150 猛禽（Rapto",
+      "url": "https://t.me/Financial_Express/3465738",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:57:52+00:00"
+    },
+    {
+      "id": "401393",
+      "title": "伊朗格什姆岛传出数次爆炸声",
+      "url": "https://t.me/Financial_Express/3465739",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:58:22+00:00"
+    },
+    {
+      "id": "401394",
+      "title": "伊朗格什姆岛传出数次爆炸声",
+      "url": "https://t.me/Financial_Express/3465740",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:58:23+00:00"
+    },
+    {
+      "id": "401395",
+      "title": "据伊朗媒体 16 日报道，伊朗南部格什姆岛传出数次爆炸声。（新华社）",
+      "url": "https://t.me/Financial_Express/3465742",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:58:42+00:00"
+    },
+    {
+      "id": "401396",
+      "title": "日产将投资 1.7 亿英镑在英国工厂生产全新混动 SUV",
+      "url": "https://t.me/Financial_Express/3465743",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:59:02+00:00"
+    },
+    {
+      "id": "411747",
+      "title": "ABBV: Robust pipeline and strategic deals drive growth in immunology, neuroscience, and oncology",
+      "url": "https://longportapp.cn/news/299075091",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-15T23:59:27+00:00"
+    }
+  ]
+}
