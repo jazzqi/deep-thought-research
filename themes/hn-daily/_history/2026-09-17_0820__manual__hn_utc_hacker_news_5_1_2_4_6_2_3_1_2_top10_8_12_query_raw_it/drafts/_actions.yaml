@@ -1,0 +1,11 @@
+actions:
+- priority: P2
+  recurrence: daily
+  summary: Shai-Hulud NPM 供应链攻击持续扩展，监控是否有新受害包披露
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: Tor 节点解密案后续：第五修正案在假释语境下的司法走向
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-09-24'
