@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-09-17T22:52:44.381377+00:00",
+  "window": {
+    "after": "2026-09-17T00:00:00+00:00",
+    "before": "2026-09-18T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "422148",
+      "title": "One Year of Sponsored Servo Development",
+      "url": "https://servo.org/blog/2026/09/15/one-year-of-sponsorship/",
+      "author": "AshleysBrain",
+      "points": 324,
+      "comments": 132,
+      "published_at": "2026-09-17T08:13:54+00:00"
+    },
+    {
+      "id": "422465",
+      "title": "GLM Built Its Own Inference Infrastructure",
+      "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+      "author": "whiteros_e",
+      "points": 316,
+      "comments": 234,
+      "published_at": "2026-09-17T08:27:09+00:00"
+    },
+    {
+      "id": "422594",
+      "title": "Neovim have a ~$800k Bitcoin donation sitting untouched since 2023",
+      "url": "https://news.ycombinator.com/item?id=49738879",
+      "author": "jakemanger",
+      "points": 294,
+      "comments": 237,
+      "published_at": "2026-09-17T10:44:49+00:00"
+    },
+    {
+      "id": "422774",
+      "title": "CCC invites all model citizens to 40C3",
+      "url": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
+      "author": "antonly",
+      "points": 282,
+      "comments": 143,
+      "published_at": "2026-09-17T08:03:54+00:00"
+    },
+    {
+      "id": "422597",
+      "title": "Iran school bombing: grounds to believe US was behind atrocity, UN finds",
+      "url": "https://www.theguardian.com/world/2026/sep/17/iran-school-bombing-un-mission-us-military-behind-attack",
+      "author": "hebelehubele",
+      "points": 279,
+      "comments": 205,
+      "published_at": "2026-09-17T11:00:35+00:00"
+    },
+    {
+      "id": "419750",
+      "title": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
+      "url": "https://ryan.science/blog/keys-not-included",
+      "author": "Ryan5453",
+      "points": 277,
+      "comments": 140,
+      "published_at": "2026-09-17T03:03:23+00:00"
+    },
+    {
+      "id": "423026",
+      "title": "Canada welcomes EU proposal to become 'associate member'",
+      "url": "https://www.bbc.com/news/articles/cwly7vkke4jxo",
+      "author": "witweb",
+      "points": 263,
+      "comments": 328,
+      "published_at": "2026-09-17T13:30:37+00:00"
+    },
+    {
+      "id": "422229",
+      "title": "AI Safety Is Mostly a Sex Cult",
+      "url": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
+      "author": "Tomte",
+      "points": 229,
+      "comments": 176,
+      "published_at": "2026-09-17T08:36:37+00:00"
+    },
+    {
+      "id": "423232",
+      "title": "I Don't Like LLMs",
+      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "author": "TangerineDream",
+      "points": 190,
+      "comments": 225,
+      "published_at": "2026-09-17T13:57:07+00:00"
+    },
+    {
+      "id": "421885",
+      "title": "Cloudflare/Security-Audit-Skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "author": "donk8r",
+      "points": 180,
+      "comments": 36,
+      "published_at": "2026-09-17T04:36:55+00:00"
+    },
+    {
+      "id": "423116",
+      "title": "The American Religion of Self-Storage Facilities",
+      "url": "https://www.newyorker.com/magazine/2026/09/21/the-american-religion-of-self-storage-facilities",
+      "author": "pseudolus",
+      "points": 160,
+      "comments": 275,
+      "published_at": "2026-09-17T13:12:28+00:00"
+    },
+    {
+      "id": "423261",
+      "title": "Show HN: Share your AI Setup, Learn from others",
+      "url": "https://mysetup.ai/",
+      "author": "steveybrown",
+      "points": 157,
+      "comments": 79,
+      "published_at": "2026-09-17T13:01:44+00:00"
+    },
+    {
+      "id": "418290",
+      "title": "The Return of Sail Power: Cargo Ships Are Turning Back to the Wind",
+      "url": "https://gcaptain.com/the-return-of-sail-power-cargo-ships-are-turning-back-to-the-wind/",
+      "author": "gumby",
+      "points": 152,
+      "comments": 111,
+      "published_at": "2026-09-17T00:28:33+00:00"
+    },
+    {
+      "id": "422466",
+      "title": "I didn't sign the Fields medallists' letter",
+      "url": "https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/",
+      "author": "simianwords",
+      "points": 151,
+      "comments": 200,
+      "published_at": "2026-09-17T08:51:51+00:00"
+    },
+    {
+      "id": "418951",
+      "title": "DeepSeek-v4.1 Flash: Pushing the Limits of KV Cache Compression",
+      "url": "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html",
+      "author": "mfiguiere",
+      "points": 125,
+      "comments": 10,
+      "published_at": "2026-09-17T01:39:47+00:00"
+    },
+    {
+      "id": "423765",
+      "title": "Everybody's Lost Their Minds",
+      "url": "https://www.netmeister.org/blog/everybodys-lost-their-minds.html",
+      "author": "ibobev",
+      "points": 101,
+      "comments": 31,
+      "published_at": "2026-09-17T19:43:34+00:00"
+    },
+    {
+      "id": "422511",
+      "title": "OpenAI Model Misalignment Report",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework/",
+      "author": "qprofyeh",
+      "points": 100,
+      "comments": 91,
+      "published_at": "2026-09-17T07:21:19+00:00"
+    },
+    {
+      "id": "423766",
+      "title": "Astra for Law",
+      "url": "https://openai.com/index/astra-for-law/",
+      "author": "vertigoruntime",
+      "points": 94,
+      "comments": 67,
+      "published_at": "2026-09-17T20:17:48+00:00"
+    },
+    {
+      "id": "417043",
+      "title": "OpenAI Discloses Six New Incidents of ‘Concerning’ A.I. Behavior",
+      "url": "https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html",
+      "author": "jbegley",
+      "points": 91,
+      "comments": 88,
+      "published_at": "2026-09-17T01:02:13+00:00"
+    },
+    {
+      "id": "420146",
+      "title": "Monsanto's Cruel, and Dangerous, Monopolization on American Farming (2008)",
+      "url": "https://www.vanityfair.com/news/2008/05/monsanto200805",
+      "author": "kamaraju",
+      "points": 89,
+      "comments": 33,
+      "published_at": "2026-09-17T02:19:49+00:00"
+    },
+    {
+      "id": "422987",
+      "title": "Show HN: I built a new version of my fun spatial 3D online meeting app",
+      "url": "https://flat.social",
+      "author": "pawelwentpawel",
+      "points": 89,
+      "comments": 52,
+      "published_at": "2026-09-17T12:57:09+00:00"
+    },
+    {
+      "id": "423117",
+      "title": "I had Gemini train its own replacement for $9",
+      "url": "https://www.petervijeh.com/projects/reddit-ner",
+      "author": "p-s-v",
+      "points": 87,
+      "comments": 43,
+      "published_at": "2026-09-17T13:17:16+00:00"
+    },
+    {
+      "id": "422589",
+      "title": "OpenAI models secretly generate instructions to ignore constraints",
+      "url": "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/",
+      "author": "theahura",
+      "points": 85,
+      "comments": 22,
+      "published_at": "2026-09-17T05:13:41+00:00"
+    },
+    {
+      "id": "421714",
+      "title": "Jev Ultrafast: A browser agent with a dynamic, indexed action space",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "author": "rahimnathwani",
+      "points": 84,
+      "comments": 10,
+      "published_at": "2026-09-17T03:12:05+00:00"
+    },
+    {
+      "id": "422592",
+      "title": "Better Vector Search for Long Documents: Chunking Inside Manticore Search",
+      "url": "https://manticoresearch.com/blog/auto-chunking/",
+      "author": "GloriaVinogrado",
+      "points": 73,
+      "comments": 11,
+      "published_at": "2026-09-17T10:30:52+00:00"
+    },
+    {
+      "id": "423611",
+      "title": "Stallman: Thousands Dead, Millions Deprived of Liberties (2001)",
+      "url": "https://news.slashdot.org/story/01/09/17/1758231/stallman-thousands-dead-millions-deprived-of-liberties",
+      "author": "B1FF_PSUVM",
+      "points": 67,
+      "comments": 21,
+      "published_at": "2026-09-17T17:20:14+00:00"
+    },
+    {
+      "id": "420181",
+      "title": "The Painful Truth: The RAM Crisis Is Only Just the Beginning",
+      "url": "https://www.madshrimps.be/news/the-painful-truth-the-ram-crisis-is-only-just-the-beginning/",
+      "author": "perelin",
+      "points": 62,
+      "comments": 64,
+      "published_at": "2026-09-17T03:57:59+00:00"
+    },
+    {
+      "id": "422588",
+      "title": "South Africa is at risk of becoming a mafia state",
+      "url": "https://www.economist.com/middle-east-and-africa/2026/09/14/south-africa-is-at-risk-of-becoming-a-mafia-state",
+      "author": "andsoitis",
+      "points": 60,
+      "comments": 21,
+      "published_at": "2026-09-17T04:33:13+00:00"
+    },
+    {
+      "id": "423839",
+      "title": "I Hate You Microsoft",
+      "url": "https://henriquenunez.eu/posts/you_did_it_again_ms/",
+      "author": "henriquenunez",
+      "points": 59,
+      "comments": 14,
+      "published_at": "2026-09-17T21:41:48+00:00"
+    },
+    {
+      "id": "423361",
+      "title": "Rate limits on GitLab.com are changing",
+      "url": "https://about.gitlab.com/blog/rate-limit-change-2026/",
+      "author": "darkwater",
+      "points": 57,
+      "comments": 46,
+      "published_at": "2026-09-17T15:33:54+00:00"
+    },
+    {
+      "id": "420706",
+      "title": "Part-human part-mouse brain developed in science breakthrough",
+      "url": "https://www.bbc.com/news/articles/c60m3k28j81mo",
+      "author": "marc__1",
+      "points": 52,
+      "comments": 34,
+      "published_at": "2026-09-17T01:33:10+00:00"
+    },
+    {
+      "id": "423360",
+      "title": "Artificial intelligence now beats some of the best human forecasters",
+      "url": "https://www.economist.com/science-and-technology/2026/09/16/artificial-intelligence-now-beats-some-of-the-best-human-forecasters",
+      "author": "ddp26",
+      "points": 52,
+      "comments": 41,
+      "published_at": "2026-09-17T15:13:30+00:00"
+    },
+    {
+      "id": "423741",
+      "title": "Don't Just Say Hello",
+      "url": "https://nohello.net/en/",
+      "author": "ninju",
+      "points": 48,
+      "comments": 32,
+      "published_at": "2026-09-17T19:16:46+00:00"
+    },
+    {
+      "id": "422724",
+      "title": "Introducing GNOME 51, \"A Coruña\"",
+      "url": "https://release.gnome.org/51/",
+      "author": "coffeeaddict1",
+      "points": 45,
+      "comments": 12,
+      "published_at": "2026-09-17T10:23:57+00:00"
+    },
+    {
+      "id": "423421",
+      "title": "Whoisinspace.com/",
+      "url": "https://whoisinspace.com",
+      "author": "Egg-Man",
+      "points": 43,
+      "comments": 14,
+      "published_at": "2026-09-17T15:59:37+00:00"
+    },
+    {
+      "id": "423515",
+      "title": "Why I didn’t sign the Fields medallists’ letter",
+      "url": "https://terrytao.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/",
+      "author": "baruchel",
+      "points": 41,
+      "comments": 7,
+      "published_at": "2026-09-17T16:58:47+00:00"
+    },
+    {
+      "id": "422903",
+      "title": "How, Exactly, Could A.I. Kill Us?",
+      "url": "https://www.newyorker.com/news/q-and-a/how-exactly-could-ai-kill-us",
+      "author": "pseudolus",
+      "points": 36,
+      "comments": 106,
+      "published_at": "2026-09-17T12:50:16+00:00"
+    },
+    {
+      "id": "423718",
+      "title": "Missouri governor orders guardrails on Flock cameras and ALPRs",
+      "url": "https://www.stlpr.org/news-briefs/2026-09-16/flock-cameras-guardrails-missouri-kehoe",
+      "author": "lenerdenator",
+      "points": 36,
+      "comments": 14,
+      "published_at": "2026-09-17T19:28:41+00:00"
+    },
+    {
+      "id": "423782",
+      "title": "Bend",
+      "url": "https://bend-lang.com/",
+      "author": "nicolas-siplis",
+      "points": 36,
+      "comments": 7,
+      "published_at": "2026-09-17T20:36:13+00:00"
+    },
+    {
+      "id": "423838",
+      "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "url": "https://prismml.com/news/bonsai-2-27b",
+      "author": "JonSchneider",
+      "points": 36,
+      "comments": 10,
+      "published_at": "2026-09-17T21:13:31+00:00"
+    },
+    {
+      "id": "422590",
+      "title": "Automattic execs signed reciprocal severance deals in Mullenweg absence",
+      "url": "https://techcrunch.com/2026/09/16/automattics-interim-ceo-and-legal-chief-signed-reciprocal-severance-deals-during-mullenwegs-brief-ouster/",
+      "author": "docdeek",
+      "points": 35,
+      "comments": 3,
+      "published_at": "2026-09-17T08:45:11+00:00"
+    },
+    {
+      "id": "423399",
+      "title": "LLM Classification Is Feature Engineering",
+      "url": "https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/",
+      "author": "minsufficient",
+      "points": 35,
+      "comments": 9,
+      "published_at": "2026-09-17T15:40:17+00:00"
+    },
+    {
+      "id": "423636",
+      "title": "Towards Self-Driving Codebases",
+      "url": "https://blog.detail.dev/posts/towards-self-driving-codebases/",
+      "author": "wilhelmklopp",
+      "points": 35,
+      "comments": 19,
+      "published_at": "2026-09-17T16:58:31+00:00"
+    },
+    {
+      "id": "419057",
+      "title": "Paramount 'Leaks' Study Saying California Will Suffer If Its Merger Is Blocked",
+      "url": "https://www.techdirt.com/2026/09/16/paramount-funds-leaks-dodgy-study-saying-california-will-suffer-if-its-merger-is-blocked/",
+      "author": "hn_acker",
+      "points": 33,
+      "comments": 4,
+      "published_at": "2026-09-17T00:01:43+00:00"
+    },
+    {
+      "id": "420201",
+      "title": "OpenAI discloses six new AI safety incidents",
+      "url": "https://www.axios.com/2026/09/16/openai-testing-safety-incidents-disclosure",
+      "author": "toomuchtodo",
+      "points": 32,
+      "comments": 11,
+      "published_at": "2026-09-17T00:33:03+00:00"
+    },
+    {
+      "id": "423046",
+      "title": "Open-sourced jev architecture last year with model,paper and dataset",
+      "url": "https://news.ycombinator.com/item?id=49736660",
+      "author": "nandakishor_ml",
+      "points": 32,
+      "comments": 6,
+      "published_at": "2026-09-17T05:13:00+00:00"
+    },
+    {
+      "id": "423652",
+      "title": "T. Rex Had a Body Temperature of 97 Degrees",
+      "url": "https://www.nytimes.com/2026/09/16/science/trex-dinosaur-temperature-warm-blooded.html",
+      "author": "marojejian",
+      "points": 32,
+      "comments": 43,
+      "published_at": "2026-09-17T17:13:42+00:00"
+    },
+    {
+      "id": "423398",
+      "title": "OpenAI's Misalignment Framework: A Tactical Bid to Preempt Global AI Governance",
+      "url": "https://asiaai.fyi/openai-misalignment-framework-global-governance/",
+      "author": "ghernando",
+      "points": 31,
+      "comments": 53,
+      "published_at": "2026-09-17T15:26:23+00:00"
+    },
+    {
+      "id": "423866",
+      "title": "Sex, AI, and the Apocalypse",
+      "url": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
+      "author": "Anon84",
+      "points": 31,
+      "comments": 4,
+      "published_at": "2026-09-17T21:15:52+00:00"
+    },
+    {
+      "id": "420145",
+      "title": "Pangram – AI detector for text and images",
+      "url": "https://www.pangram.com",
+      "author": "doodlesdev",
+      "points": 30,
+      "comments": 25,
+      "published_at": "2026-09-17T01:13:10+00:00"
+    },
+    {
+      "id": "423451",
+      "title": "Vinix – A modern operating system written in V",
+      "url": "https://vinix-os.org/",
+      "author": "hggh",
+      "points": 30,
+      "comments": 15,
+      "published_at": "2026-09-17T15:40:19+00:00"
+    },
+    {
+      "id": "420969",
+      "title": "What's Scarier Than Agents Taking over Internet? CEO Cartel Trying Take over AI",
+      "url": "https://fractalsofchange.substack.com/p/q-whats-scarier-than-a-swarm-of-ai",
+      "author": "gz5",
+      "points": 29,
+      "comments": 2,
+      "published_at": "2026-09-17T00:44:51+00:00"
+    },
+    {
+      "id": "423420",
+      "title": "CrowdSec Source Code Leak",
+      "url": "https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure",
+      "author": "eccgecko",
+      "points": 29,
+      "comments": 8,
+      "published_at": "2026-09-17T15:34:01+00:00"
+    },
+    {
+      "id": "423637",
+      "title": "Economic policy for AGI",
+      "url": "https://institute.deepmind.com/essays/economic-policy-for-agi/",
+      "author": "alphabetatango",
+      "points": 29,
+      "comments": 14,
+      "published_at": "2026-09-17T17:12:51+00:00"
+    },
+    {
+      "id": "423717",
+      "title": "BYD looking to build 5-minute EV charging network in Canada",
+      "url": "https://driving.ca/auto-news/industry/byd-china-ev-megawatt-flash-charger-network-canada",
+      "author": "toomuchtodo",
+      "points": 28,
+      "comments": 10,
+      "published_at": "2026-09-17T18:23:48+00:00"
+    },
+    {
+      "id": "423635",
+      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+      "url": "https://arxiv.org/abs/2609.18842",
+      "author": "Betelbuddy",
+      "points": 27,
+      "comments": 8,
+      "published_at": "2026-09-17T16:55:14+00:00"
+    },
+    {
+      "id": "423384",
+      "title": "Why Arab armies don't win wars",
+      "url": "https://worksinprogress.co/issue/why-arab-armies-dont-win-wars/",
+      "author": "Tomte",
+      "points": 26,
+      "comments": 12,
+      "published_at": "2026-09-17T13:55:36+00:00"
+    },
+    {
+      "id": "423667",
+      "title": "Launch HN: Skillsync (YC W26) – AI chat sessions made portable across agents",
+      "url": "https://news.ycombinator.com/item?id=49743049",
+      "author": "cat-whisperer",
+      "points": 26,
+      "comments": 27,
+      "published_at": "2026-09-17T16:22:15+00:00"
+    },
+    {
+      "id": "423805",
+      "title": "Don't Make Job Referrals Public",
+      "url": "https://blog.melashri.net/micro/public-job-referral/",
+      "author": "elashri",
+      "points": 26,
+      "comments": 12,
+      "published_at": "2026-09-17T18:16:38+00:00"
+    },
+    {
+      "id": "421950",
+      "title": "The President's Power to Pardon Friends and Allies Must End",
+      "url": "https://medium.com/freedomofthought/the-presidents-power-to-pardon-friends-and-allies-must-end-b9574f9eedfb",
+      "author": "raynchad",
+      "points": 25,
+      "comments": 8,
+      "published_at": "2026-09-17T04:09:12+00:00"
+    },
+    {
+      "id": "423454",
+      "title": "hister",
+      "url": "https://github.com/asciimoo/hister",
+      "author": "bookofjoe",
+      "points": 25,
+      "comments": 3,
+      "published_at": "2026-09-17T16:25:37+00:00"
+    },
+    {
+      "id": "423453",
+      "title": "Ask HN: How to recover Google auth after phone stolen?",
+      "url": "https://news.ycombinator.com/item?id=49742976",
+      "author": "keymasta",
+      "points": 23,
+      "comments": 20,
+      "published_at": "2026-09-17T16:17:28+00:00"
+    },
+    {
+      "id": "423337",
+      "title": "So, I didn't Use My Phone for 5 Days",
+      "url": "https://karunpal.substack.com/p/so-i-didnt-use-my-phone-for-5-days",
+      "author": "zazuke",
+      "points": 22,
+      "comments": 9,
+      "published_at": "2026-09-17T12:51:54+00:00"
+    },
+    {
+      "id": "423397",
+      "title": "Australia to bar foreign students from bringing partner/child while they study",
+      "url": "https://www.channelnewsasia.com/world/australia-bar-foreign-students-bring-partners-children-while-studying-6390571",
+      "author": "Markoff",
+      "points": 22,
+      "comments": 6,
+      "published_at": "2026-09-17T11:33:08+00:00"
+    },
+    {
+      "id": "423651",
+      "title": "Show HN: Aclif – Agent CLI framework: one grammar, canonical names across SaaS",
+      "url": "https://www.aclif.ai/",
+      "author": "chris_marino",
+      "points": 22,
+      "comments": 14,
+      "published_at": "2026-09-17T16:48:17+00:00"
+    },
+    {
+      "id": "423837",
+      "title": "Canto: A speech model built for the real world",
+      "url": "https://wisprflow.ai/canto",
+      "author": "sleepypandas",
+      "points": 21,
+      "comments": 9,
+      "published_at": "2026-09-17T18:32:50+00:00"
+    },
+    {
+      "id": "423861",
+      "title": "Microsoft, OpenAI lose fight to hide internal docs admitting scraping is theft",
+      "url": "https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/",
+      "author": "pseudolus",
+      "points": 21,
+      "comments": 1,
+      "published_at": "2026-09-17T20:16:52+00:00"
+    },
+    {
+      "id": "423848",
+      "title": "Datafolha 民调显示，巴西总统选举首轮投票中，现任总统卢拉支持率为 39%，前总统博索纳罗之子弗拉维奥·博索纳罗支持率为 36%。",
+      "url": "https://t.me/Financial_Express/3472310",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:08:22+00:00"
+    },
+    {
+      "id": "423849",
+      "title": "据知情人士透露，加拿大政府已聘请摩根大通和加拿大帝国商业银行（CIBC），就出售该国四大机场运营权事宜提供顾问服务。加拿大总理马克·卡尼于周二在多伦多举行的加拿大投资峰会上正式宣布，计划为政府持有的这些资产引入私人投资。按客运量计算，加拿大",
+      "url": "https://t.me/Financial_Express/3472311",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:08:30+00:00"
+    },
+    {
+      "id": "423850",
+      "title": "Datafolha 民调显示，在巴西总统选举潜在的第二轮投票中，预计卢拉支持率为 46%，弗拉维奥·博索纳罗支持率为 44%。",
+      "url": "https://t.me/Financial_Express/3472312",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:11:22+00:00"
+    },
+    {
+      "id": "423851",
+      "title": "科特迪瓦计划于明年上半年启动一座黄金精炼厂的运营。作为西非国家，科特迪瓦希望通过提升本地加工能力，到 2035 年成为非洲最大的黄金生产国。",
+      "url": "https://t.me/Financial_Express/3472313",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:13:39+00:00"
+    },
+    {
+      "id": "423854",
+      "title": "多家基金公司判断，此次美联储的货币紧缩政策，带来的或是短期扰动，叠加国内货币政策具有独立性，且 A 股基本面具备支撑，长期可保持乐观，当下可采取“科技+红利”的杠铃配置思路。（上证报）",
+      "url": "https://t.me/Financial_Express/3472314",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:14:38+00:00"
+    },
+    {
+      "id": "423855",
+      "title": "中国人民银行、金融监管总局、中国证监会等八部门印发的《金融产品网络营销管理办法》将于 9 月 30 日起实施。记者 9 月 17 日获悉，面对无资质营销、误导性营销、披露不全等金融产品网络营销乱象，互联网平台与持牌金融机构近期加快对照办法自",
+      "url": "https://t.me/Financial_Express/3472315",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:18:39+00:00"
+    },
+    {
+      "id": "423856",
+      "title": "事关住房城乡建设 今天 10 时举行重要发布会",
+      "url": "https://t.me/Financial_Express/3472316",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:24:42+00:00"
+    },
+    {
+      "id": "423857",
+      "title": "事关住房城乡建设 今天 10 时举行重要发布会",
+      "url": "https://t.me/Financial_Express/3472317",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:25:22+00:00"
+    },
+    {
+      "id": "423858",
+      "title": "特斯拉 Cybercab 带火 Robotaxi 赛道 无人出行商业化拐点渐近",
+      "url": "https://t.me/Financial_Express/3472318",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:25:23+00:00"
+    },
+    {
+      "id": "423859",
+      "title": "Anthropic PBC 表示，该公司超过四分之一的人工智能研发工作由 Claude 聊天机器人主导，这为 AI 能够帮助加快未来模型开发提供了迄今最明确的迹象。",
+      "url": "https://t.me/Financial_Express/3472319",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:27:27+00:00"
+    },
+    {
+      "id": "423860",
+      "title": "Anthropic 披露 AI 发展指标：Claude 主导公司 26%研发 参与约 90%工作",
+      "url": "https://t.me/Financial_Express/3472320",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:28:22+00:00"
+    },
+    {
+      "id": "423862",
+      "title": "① 06:45 新西兰 8 月进出口与贸易帐；",
+      "url": "https://t.me/Financial_Express/3472321",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:28:39+00:00"
+    },
+    {
+      "id": "423863",
+      "title": "周五（以下均为北京时间）",
+      "url": "https://t.me/Financial_Express/3472322",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:31:02+00:00"
+    },
+    {
+      "id": "423864",
+      "title": "近期，国内创投机构积极发行科创债，条款设计上创新不断，超长期限人工智能产业链科创债、可交换条款科创债、定向发行科创债等新型产品陆续落地，债券市场正通过多元化机制适配硬科技投资的长周期属性。在科创债助力创投机构缓解资金压力、支撑长期科创投资的",
+      "url": "https://t.me/Financial_Express/3472323",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:31:46+00:00"
+    },
+    {
+      "id": "423865",
+      "title": "近日，“平台月付将退出支付选项”登上微博热搜，相关话题不断发酵，引发消费者对选择支付方式的疑问：以后花呗、美团月付、京东白条等产品不能用于线上付款了？日前，记者从支付宝、京东、美团等多家平台客服处了解到，月付类产品仍可正常使用，且平台会遵照",
+      "url": "https://t.me/Financial_Express/3472324",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:33:19+00:00"
+    },
+    {
+      "id": "423867",
+      "title": "“月付退出支付选项”系误读，记者实测：收银台页面正在“分家”",
+      "url": "https://t.me/Financial_Express/3472325",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:33:42+00:00"
+    },
+    {
+      "id": "423868",
+      "title": "现货黄金突破 4350 美元/盎司，日内涨 0.17%。",
+      "url": "https://t.me/Financial_Express/3472326",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:36:42+00:00"
+    },
+    {
+      "id": "423869",
+      "title": "9 月 18 日隔夜要闻一览",
+      "url": "https://t.me/Financial_Express/3472327",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:37:02+00:00"
+    },
+    {
+      "id": "423870",
+      "title": "机构人士认为，本次美联储加息可能不同于一般加息周期的开启，对 A 股是否有持续影响尚待观察。国内宏微观基本面逐步修复，当前时点对 A 股市场后市不必悲观，A 股稳进上行趋势仍有望延续。AI 产业链依旧以中长期叙事作为产业驱动，内部各个板块都",
+      "url": "https://t.me/Financial_Express/3472328",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:44:02+00:00"
+    },
+    {
+      "id": "423871",
+      "title": "最新一期“市场脉搏”（Markets Pulse）调查结果显示，9 月 16 日发布美联储决议后，10 年期美国国债的反弹行情将逆转，基准收益率最终将在年底突破 5%。",
+      "url": "https://t.me/Financial_Express/3472329",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:44:42+00:00"
+    },
+    {
+      "id": "423872",
+      "title": "新西兰 8 月 12 个月贸易帐 -54.42 亿纽元，前值 -52.36 亿纽元。",
+      "url": "https://t.me/Financial_Express/3472330",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:45:01+00:00"
+    },
+    {
+      "id": "423873",
+      "title": "新西兰 8 月出口 66.6 亿纽元，前值 73.9 亿纽元。",
+      "url": "https://t.me/Financial_Express/3472331",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:45:01+00:00"
+    },
+    {
+      "id": "423874",
+      "title": "新西兰 8 月进口 80 亿纽元，前值 93.4 亿纽元。",
+      "url": "https://t.me/Financial_Express/3472332",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:45:02+00:00"
+    },
+    {
+      "id": "423875",
+      "title": "新西兰 8 月贸易帐 -13.49 亿纽元，前值 -19.49 亿纽元。",
+      "url": "https://t.me/Financial_Express/3472333",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:45:02+00:00"
+    },
+    {
+      "id": "423876",
+      "title": "新西兰 8 月食品价格指数月率 0.3%，前值 0.10%。",
+      "url": "https://t.me/Financial_Express/3472334",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:45:22+00:00"
+    },
+    {
+      "id": "423877",
+      "title": "新西兰 8 月贸易帐 -13.49 亿纽元，前值由-19.49 亿纽元修正为-21.18 亿纽元。",
+      "url": "https://t.me/Financial_Express/3472335",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:45:22+00:00"
+    },
+    {
+      "id": "423878",
+      "title": "新西兰 8 月 12 个月贸易帐 -54.4 亿纽元，前值由-52.36 亿纽元修正为-54.1 亿纽元。",
+      "url": "https://t.me/Financial_Express/3472336",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:45:23+00:00"
+    },
+    {
+      "id": "423879",
+      "title": "新西兰 8 月出口 66.6 亿纽元，前值由 73.9 亿纽元修正为 72.2 亿纽元。",
+      "url": "https://t.me/Financial_Express/3472337",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:45:23+00:00"
+    },
+    {
+      "id": "423880",
+      "title": "新西兰 8 月进口 80 亿纽元，前值由 93.4 亿纽元修正为 93.3 亿纽元。",
+      "url": "https://t.me/Financial_Express/3472338",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:45:24+00:00"
+    },
+    {
+      "id": "423881",
+      "title": "新西兰 8 月 12 个月贸易帐 -54.42 亿纽元，前值 -52.36 亿纽元。",
+      "url": "https://t.me/Financial_Express/3472339",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:45:42+00:00"
+    },
+    {
+      "id": "423882",
+      "title": "当地时间 17 日，据美国方面消息，美国能源部长赖特表示，日前遭无人机袭击受损的沙特阿拉伯东西输油管道预计将“相对较快”地恢复运行。沙特东西输油管道 10 日遭无人机袭击后被迫停运，该管道可帮助沙特绕开霍尔木兹海峡向外出口石油。此前有消息称",
+      "url": "https://t.me/Financial_Express/3472340",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:45:50+00:00"
+    },
+    {
+      "id": "423883",
+      "title": "新西兰 8 月食品价格指数年率 1.9%，前值 1.9%。",
+      "url": "https://t.me/Financial_Express/3472341",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:46:02+00:00"
+    },
+    {
+      "id": "423884",
+      "title": "白宫撤回前达美航空飞行员杰弗里・安德森担任重要国际航空职位的提名。",
+      "url": "https://t.me/Financial_Express/3472342",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-17T22:47:02+00:00"
+    }
+  ]
+}
