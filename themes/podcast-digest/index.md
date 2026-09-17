@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-18T06:17:25+08:00
-revision: 2026-09-18T06:17:25+08:00
+updated: 2026-09-18T06:18:17+08:00
+revision: 2026-09-18T06:18:17+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,11 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [How a16z Growth Invests —— Andreessen Horowitz Growth · 2025-12-02](./iltb/how-a16z-growth-invests.md)
+- [How a16z Growth Invests —— Andreessen Horowitz (a16z) · 2025-12-02](./iltb/how-a16z-growth-invests.md)
 
 ## 往期
 
-- [How a16z Growth Invests —— Andreessen Horowitz Growth · 2025-12-02](./iltb/how-a16z-growth-invests.md)
+- [How a16z Growth Invests —— Andreessen Horowitz (a16z) · 2025-12-02](./iltb/how-a16z-growth-invests.md)
 - [Jensen Huang: The Doomer Hoax, Superintelligence Is Here, and The Future of AI (ft. President Trump) — All-In Podcast · 2026-09-14](./all-in/jensen-huang-the-doomer-hoax-superintelligence-is-here-and-t.md)
 - [Elon Musk & Gwynne Shotwell on AI Risks and Peer Review, Starship, Terafab, SpaceX/Tesla Merger —— All-In Podcast · 2026-09-15](./all-in/elon-musk-gwynne-shotwell-on-ai-risks-and-peer-review-starsh.md)
 - [Satya Nadella on the AI Doomer Slowdown, Microsoft's Master Plan & Who Wins AI — All-In Podcast · 2026-09-15](./all-in/satya-nadella-on-the-ai-doomer-slowdown-microsofts-master-pl.md)
