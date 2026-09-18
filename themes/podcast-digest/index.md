@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-19T06:17:44+08:00
-revision: 2026-09-19T06:17:44+08:00
+updated: 2026-09-19T06:18:02+08:00
+revision: 2026-09-19T06:18:02+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,11 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem —— Altimeter · 2026-09-17](./all-in/brad-gerstner-no-ai-bubble-semis-eat-the-nasdaq-ais-take-off.md)
+- [Brad Gerstner: AI 泡沫不存在，半导体吃掉纳指，AI 的起飞难题 —— All-In Podcast · 2026-09-17](./all-in/brad-gerstner-no-ai-bubble-semis-eat-the-nasdaq-ais-take-off.md)
 
 ## 往期
 
-- [Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem —— Altimeter · 2026-09-17](./all-in/brad-gerstner-no-ai-bubble-semis-eat-the-nasdaq-ais-take-off.md)
+- [Brad Gerstner: AI 泡沫不存在，半导体吃掉纳指，AI 的起飞难题 —— All-In Podcast · 2026-09-17](./all-in/brad-gerstner-no-ai-bubble-semis-eat-the-nasdaq-ais-take-off.md)
 - [Meta's Dina Powell McCormick: 数据中心的价值论证、社区反弹、AI就业浪潮与Meta的未来 —— All-In Podcast · 2026-09-17](./all-in/metas-dina-powell-mccormick-the-case-for-data-centers-backla.md)
 - [How a16z Growth Invests —— Andreessen Horowitz (a16z) · 2025-12-02](./iltb/how-a16z-growth-invests.md)
 - [Jensen Huang: The Doomer Hoax, Superintelligence Is Here, and The Future of AI (ft. President Trump) — All-In Podcast · 2026-09-14](./all-in/jensen-huang-the-doomer-hoax-superintelligence-is-here-and-t.md)
