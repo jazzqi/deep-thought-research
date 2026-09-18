@@ -1,0 +1,11 @@
+actions:
+- priority: P1
+  recurrence: daily
+  summary: FOMC后利率路径验证：监控10Y美债收益率能否稳定在5%上方，以及10/27 FOMC前的CPI数据（预计10月初），决定年内是否再加一次
+  target_flow_params: {}
+  type: monitoring
+- priority: P1
+  summary: 沙特输油管道关闭后的实际供应缺口评估——Johan Sverdrup溢价$33-35/桶是否可持续，若持续1周以上将实质性推升全球油价中枢
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-09-25'
