@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-20T06:17:54+08:00
-revision: 2026-09-20T06:17:54+08:00
+updated: 2026-09-20T06:17:55+08:00
+revision: 2026-09-20T06:17:55+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,11 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Nick Shirley：揭露政府欺诈、起诉加州 & 挑战媒体 —— All-In 播客 · 2026-09-18](./all-in/nick-shirley-exposing-government-fraud-suing-california-taki.md)
+- [Nick Shirley: 揭露政府欺诈、起诉加州与对抗媒体 —— All-In with Chamath, Jason, Sacks & Friedberg · 2026-09-18](./all-in/nick-shirley-exposing-government-fraud-suing-california-taki.md)
 
 ## 往期
 
-- [Nick Shirley：揭露政府欺诈、起诉加州 & 挑战媒体 —— All-In 播客 · 2026-09-18](./all-in/nick-shirley-exposing-government-fraud-suing-california-taki.md)
+- [Nick Shirley: 揭露政府欺诈、起诉加州与对抗媒体 —— All-In with Chamath, Jason, Sacks & Friedberg · 2026-09-18](./all-in/nick-shirley-exposing-government-fraud-suing-california-taki.md)
 - [Jared Isaacman: NASA 新时代的太空竞赛与核能革命](./all-in/jared-isaacman-a-new-era-for-nasa-and-american-space-explora.md)
 - [Inside the Trillion-Dollar AI Buildout — Dylan Patel · 2025-09-30](./iltb/inside-the-trillion-dollar-ai-buildout-dylan-patel-interview.md)
 - [Brad Gerstner: AI 泡沫不存在，半导体吃掉纳指，AI 的起飞难题 —— All-In Podcast · 2026-09-17](./all-in/brad-gerstner-no-ai-bubble-semis-eat-the-nasdaq-ais-take-off.md)
