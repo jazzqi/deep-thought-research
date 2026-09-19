@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-19T07:21:22+08:00
-revision: 2026-09-19T07:21:22+08:00
+updated: 2026-09-19T08:21:02+08:00
+revision: 2026-09-19T08:21:02+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Inside the Trillion-Dollar AI Buildout — Dylan Patel · 2025-09-30](./iltb/inside-the-trillion-dollar-ai-buildout-dylan-patel-interview.md)
+- [Jared Isaacman: NASA 新时代的太空竞赛与核能革命](./all-in/jared-isaacman-a-new-era-for-nasa-and-american-space-explora.md)
 
 ## 往期
 
+- [Jared Isaacman: NASA 新时代的太空竞赛与核能革命](./all-in/jared-isaacman-a-new-era-for-nasa-and-american-space-explora.md)
 - [Inside the Trillion-Dollar AI Buildout — Dylan Patel · 2025-09-30](./iltb/inside-the-trillion-dollar-ai-buildout-dylan-patel-interview.md)
 - [Brad Gerstner: AI 泡沫不存在，半导体吃掉纳指，AI 的起飞难题 —— All-In Podcast · 2026-09-17](./all-in/brad-gerstner-no-ai-bubble-semis-eat-the-nasdaq-ais-take-off.md)
 - [Meta's Dina Powell McCormick: 数据中心的价值论证、社区反弹、AI就业浪潮与Meta的未来 —— All-In Podcast · 2026-09-17](./all-in/metas-dina-powell-mccormick-the-case-for-data-centers-backla.md)
