@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-21T06:21:38+08:00
-revision: 2026-09-21T06:21:38+08:00
+updated: 2026-09-21T07:20:58+08:00
+revision: 2026-09-21T07:20:58+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Apollo如何建成8000亿美元资本市场巨头 — John Zito · ILTB_Podcast · 2025-06-03](./iltb/how-apollo-built-an-800-billion-capital-markets-giant-john-z.md)
+- [Podcast 学习文档 adam-foroughi-applovin-ceo-surviving-a-92-drawdown-ads-as-ml](./all-in/adam-foroughi-applovin-ceo-surviving-a-92-drawdown-ads-as-ml.md)
 
 ## 往期
 
+- [Podcast 学习文档 adam-foroughi-applovin-ceo-surviving-a-92-drawdown-ads-as-ml](./all-in/adam-foroughi-applovin-ceo-surviving-a-92-drawdown-ads-as-ml.md)
 - [Apollo如何建成8000亿美元资本市场巨头 — John Zito · ILTB_Podcast · 2025-06-03](./iltb/how-apollo-built-an-800-billion-capital-markets-giant-john-z.md)
 - [Bill Gurley: Searching for Feynman — All-In Conference · 2026-09-19](./all-in/bill-gurley-searching-for-feynman.md)
 - [5 Ingredients for the Perfect Investment —— Jeff Horing · 2025-09-16](./iltb/5-ingredients-for-the-perfect-investment-jeff-horing-intervi.md)
