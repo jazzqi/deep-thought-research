@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-20T07:21:02+08:00
-revision: 2026-09-20T07:21:02+08:00
+updated: 2026-09-20T08:20:55+08:00
+revision: 2026-09-20T08:20:55+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [5 Ingredients for the Perfect Investment —— Jeff Horing · 2025-09-16](./iltb/5-ingredients-for-the-perfect-investment-jeff-horing-intervi.md)
+- [Bill Gurley: Searching for Feynman — All-In Conference · 2026-09-19](./all-in/bill-gurley-searching-for-feynman.md)
 
 ## 往期
 
+- [Bill Gurley: Searching for Feynman — All-In Conference · 2026-09-19](./all-in/bill-gurley-searching-for-feynman.md)
 - [5 Ingredients for the Perfect Investment —— Jeff Horing · 2025-09-16](./iltb/5-ingredients-for-the-perfect-investment-jeff-horing-intervi.md)
 - [Nick Shirley: 揭露政府欺诈、起诉加州与对抗媒体 —— All-In with Chamath, Jason, Sacks & Friedberg · 2026-09-18](./all-in/nick-shirley-exposing-government-fraud-suing-california-taki.md)
 - [Jared Isaacman: NASA 新时代的太空竞赛与核能革命](./all-in/jared-isaacman-a-new-era-for-nasa-and-american-space-explora.md)
