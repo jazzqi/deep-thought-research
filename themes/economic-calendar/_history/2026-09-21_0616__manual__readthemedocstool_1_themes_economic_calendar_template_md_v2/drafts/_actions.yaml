@@ -1,0 +1,14 @@
+actions:
+- priority: P1
+  recurrence: daily
+  summary: 持续监控9月非农(10-02)与ISM制造业(10-01)数据发布，评估美联储10月是否加息路径
+  target_flow_params: {}
+  type: monitoring
+- priority: P1
+  summary: 验证中国9月官方PMI(09-30)是否能守住荣枯线附近，判断中国制造业边际变化
+  target_flow_params: {}
+  type: follow_up
+- priority: P2
+  summary: 跟踪美国政府停摆风险（10月1日前临时拨款法案进展），评估对数据发布的潜在扰动
+  target_flow_params: {}
+  type: follow_up
