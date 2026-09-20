@@ -1,18 +1,3 @@
----
-name: 周度财经日历预读
-week: 2026-09-21__2026-09-27
-type: forecast
-lead_agent: ackman
-region_focus: 全球
-created: 2026-09-20T17:36:58+08:00
-data_quality: full
-prev_doc: themes/economic-calendar/2026-09-14__2026-09-20/recap.md
-next_doc: themes/economic-calendar/2026-09-28__2026-10-04/forecast.md
-sources: [akshare, openbb]
----
-
-# 周度财经日历预读：2026-09-21 ~ 2026-09-27
-
 # W39 · 2026-09-21 ~ 27 · 周度财经日历预读（Forecast）
 
 > Lead: ackman · 接力: soros → dalio → zhou_jintao · 终稿: ackman · 发布: 2026-09-20
@@ -291,5 +276,3 @@ sources: [akshare, openbb]
 - query_raw_items(telegram:Financial_Express, keyword="PMI OR 油价 OR 中东 OR 胡塞") = 30条
 - query_raw_items(telegram:Financial_Express, keyword="DXY OR 美元指数 OR USDCNH") = 10条
 - binance_get_ticker(BTCUSDT) = 80,347.7 USDT
-
-> 评审：2 项 blocker 未修复

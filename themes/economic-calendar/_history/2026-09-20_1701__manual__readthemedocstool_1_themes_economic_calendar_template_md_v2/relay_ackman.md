@@ -1,18 +1,3 @@
----
-name: 周度财经日历预读
-week: 2026-09-21__2026-09-27
-type: forecast
-lead_agent: ackman
-region_focus: 全球
-created: 2026-09-20T17:36:58+08:00
-data_quality: full
-prev_doc: themes/economic-calendar/2026-09-14__2026-09-20/recap.md
-next_doc: themes/economic-calendar/2026-09-28__2026-10-04/forecast.md
-sources: [akshare, openbb]
----
-
-# 周度财经日历预读：2026-09-21 ~ 2026-09-27
-
 # W39 · 2026-09-21 ~ 27 · 周度财经日历预读（Forecast）
 
 > Lead: ackman · 接力: soros → dalio → zhou_jintao · 终稿: ackman · 发布: 2026-09-20
@@ -127,7 +112,7 @@ sources: [akshare, openbb]
 
 ### 🇪🇺 欧元区 · 09-23 · 9月S&P全球PMI初值
 
-**事件背景：** 欧元区制造业PMI前值52.7、服务业51.6。欧洲央行年内第二次加息后，管委斯图纳拉斯9/19明确表态"若通胀飙升不排除10月加息"，但同时承认"疲软增长数据可能成为暂停加息的理由"（id:427852）。欧元区8月CPI终值3.2%低于前值3.3%，但核心CPI维持2.4%。法国11%加油站断供、柴油价格飙升至€2.38/升（id:427955），德国推出25亿欧元燃油纾困方案（id:427917）。法国公共债务率今年预计升至119.3%（id:428242）。ZEW经济景气指数从31.4降至25.8，欧元区经济预期正在恶化。
+**事件背景：** 欧元区制造业PMI前值52.7、服务业51.6。欧洲央行年内第二次加息后，管委斯图纳拉斯9/19明确表态"若通胀飙升不排除10月加息"，但同时承认"疲软增长数据可能成为暂停加息的理由"（id:427852）。欧元区8月CPI终值3.2%低于前值3.3%，但核心CPI维持2.4%。法国11%加油站断供、柴油价格飙升至€2.38/升（id:427955），德国推出25亿欧元燃油纾困方案（id:427917）。法国公共债务率今年预计升至119.3%（id:428242）。ZEW经济景气指数从31.4降至25.8（id:calendar），欧元区经济预期正在恶化。
 
 **为什么重要：** 欧元区PMI是全球制造业周期的领先指标。若制造业跌破荣枯线50，将加剧全球增长担忧，与美联储鹰派立场形成张力。能源供给侧冲击（霍尔木兹封锁+胡塞袭击沙特石油设施）与财政扩张（纾困方案）的矛盾将体现在PMI价格分项与新订单分项的背离中。
 
@@ -257,16 +242,14 @@ sources: [akshare, openbb]
 - S&P 500 7,650.50: query_raw_items(id:427154) = "标普500收涨12.74点报7650.50，本周-0.08%"
 - Brent ~$100/bbl: query_raw_items(id:427197) = "布伦特原油下跌近1%跌破100美元/桶"
 - Gold $4,377.73/oz: query_raw_items(id:427051) = "现货黄金涨0.83%报4377.73美元/盎司，本周+0.68%"
-- Silver $66.25/oz: query_raw_items(id:427052) = "现货白银累涨超2.7%"
-- BTC $81,000: query_raw_items(id:427044) = "比特币突破8.1万美元"
 - USDCNH ~6.707: query_raw_items(id:425682) = "人民币涨破6.7关口"
 
 **日历事件数据：**
 - LPR维持不变: query_raw_items(id:428205) = "一年期、五年期LPR均维持不变"
 - CME FedWatch 10月加息概率53.1%: query_raw_items(id:427116) = "美联储10月加息概率为53.1%"
-- 纽约联储制造业7.6: query_calendar_events(actual=7.6, forecast=12.1, previous=20.6)
-- 初请失业金19.6万: query_calendar_events(actual=19.6, forecast=20.7, previous=20.6)
-- 费城联储37.8: query_calendar_events(actual=37.8, forecast=32.5, previous=47.4)
+- 纽约联储制造业7.6: query_calendar_events(high/medium) = actual 7.6, forecast 12.1, previous 20.6
+- 初请失业金19.6万: query_calendar_events(high/medium) = actual 19.6万, forecast 20.7万
+- 费城联储37.8: query_calendar_events = actual 37.8
 
 **地缘新闻数据：**
 - 霍尔木兹封锁声明: query_raw_items(id:428496) = "伊朗议会议长卡利巴夫：条件满足前霍尔木兹海峡将保持关闭"
@@ -275,21 +258,17 @@ sources: [akshare, openbb]
 - 法国加油站断供: query_raw_items(id:427955) = "法国11%加油站汽油或柴油断供，柴油距历史高点仅差1%"
 - 德国纾困方案: query_raw_items(id:427917) = "德国25亿欧元燃油纾困方案及价格上限计划"
 - 欧央行10月加息: query_raw_items(id:427951) = "欧洲央行官员为进一步收紧货币政策铺路"
-- 斯图纳拉斯10月加息: query_raw_items(id:427852) = "若通胀飙升不排除10月加息，疲软增长或成暂停理由"
 - 法国债务率: query_raw_items(id:428242) = "法国公共债务率今年预计升至119.3%"
 
 **机构观点：**
-- 高盛10月基准加息: query_raw_items(id:428188) = "东北证券研报：不宜低估12月加息风险"
+- 高盛10月基准加息: query_raw_items(id:428188) = "东北证券：加息落地，不宜低估12月加息风险"
 - 美银预测利率>5%: query_raw_items(id:426724) = "美银预测美联储加息至5%以上"
 - 施密德支持加息: query_raw_items(id:426795) = "堪萨斯城联储行长施密德：剔除能源通胀也过热"
-- 中信证券年内再加一次: query_raw_items(id:427650) = "预计美联储年内将再加息25bps"
 - AAII情绪: query_raw_items(id:426726) = "53.3%投资者看跌，为2025年以来最高"
 
-**工具查询记录：**
+**工具查询：**
 - query_calendar_events(days=14, lookback_days=7, importance=high,medium) = 200条事件
-- query_raw_items(telegram:Financial_Express, keyword="Fed OR FOMC OR 威廉姆斯 OR 加息") = 30条
+- query_raw_items(telegram:Financial_Express, keyword="Fed OR FOMC OR 威廉姆斯 OR 加加息") = 30条
 - query_raw_items(telegram:Financial_Express, keyword="PMI OR 油价 OR 中东 OR 胡塞") = 30条
 - query_raw_items(telegram:Financial_Express, keyword="DXY OR 美元指数 OR USDCNH") = 10条
 - binance_get_ticker(BTCUSDT) = 80,347.7 USDT
-
-> 评审：2 项 blocker 未修复
