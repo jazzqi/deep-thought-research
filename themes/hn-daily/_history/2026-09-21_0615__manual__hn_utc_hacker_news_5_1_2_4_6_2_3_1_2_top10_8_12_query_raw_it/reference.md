@@ -1,0 +1,15 @@
+- RSA-896 factored with Claude AI on GPUs: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z')[id:428351] = RSA-896 challenge factored using Claude to port CADO-NFS to GPUs, 2048 GPUs, 10 days, ~30 GPU-years
+- Qwen-Image-2.1 released: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z')[id:428886] = Qwen released compact 7B image generation model with native transparency
+- AI destroying Creative Commons: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z')[id:428771] = Chester Wisniewski essay on AI's impact on open source licensing
+- Spain blocks Archive.today: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z')[id:428535] = Spain ordered blocking of Archive.today domains
+- LLMentalist Effect: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z')[id:428869] = Baldur Bjarnason essay on LLM cold reading mechanisms
+- Samsung HBM4 output doubling: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z')[id:429138] = Samsung to more than double HBM4/HBM4E output next year
+- Microsoft ports Copilot to Rust: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z')[id:428747] = Microsoft used AI to port Copilot runtime to Rust for $120K
+- Senior engineer death spiral: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z')[id:429089] = Essay on burnout pattern for senior engineers
+- Terry Tao on human mathematicians: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z')[id:428820] = Po-Shen Loh guest post on mathematicians' role in AI era
+- Nvidia RISC-V cores: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z')[id:428819] = Every Nvidia GPU contains 10-30 RISC-V cores
+- MCP critique: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z')[id:429200] = Essay arguing MCP was always a bad idea
+- AI tone fatigue: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z')[id:428800] = Essay on AI-generated writing patterns
+- Autonomous strike drone: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z')[id:429221] = Swedish startup autonomous strike drone using Nvidia Jetson Orin Nano
+- Google AI Studio data deletion: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z')[id:428490] = Google AI Studio allegedly fakes data deletion
+- Pirate Face open models: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z')[id:429051] = Pirate Face turns AI models into permanent torrents

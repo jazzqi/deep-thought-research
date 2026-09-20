@@ -1,0 +1,49 @@
+<tool_call>
+<function=query_raw_items>
+<parameter=agent_id>None</parameter>
+<parameter=keyword>"posters" OR "hartnup" OR "AI posters"</parameter>
+<parameter=limit>10</parameter>
+<parameter=min_points>30</parameter>
+<parameter=published_after>2026-09-18T00:00:00Z</parameter>
+<parameter=published_before>2026-09-21T00:00:00Z</parameter>
+<parameter=source>hackernews</parameter>
+<parameter=status>None</parameter>
+<parameter=team>None</parameter>
+</function>
+</tool_call><tool_call>
+<function=query_raw_items>
+<parameter=agent_id>None</parameter>
+<parameter=keyword>"tired of the AI tone" OR sagivo</parameter>
+<parameter=limit>10</parameter>
+<parameter=min_points>5</parameter>
+<parameter=published_after>2026-09-18T00:00:00Z</parameter>
+<parameter=published_before>2026-09-21T00:00:00Z</parameter>
+<parameter=source>hackernews</parameter>
+<parameter=status>None</parameter>
+<parameter=team>None</parameter>
+</function>
+</tool_call><tool_call>
+<function=query_raw_items>
+<parameter=agent_id>None</parameter>
+<parameter=keyword>"Almost Never Use AI" OR erichgrunewald OR erwald</parameter>
+<parameter=limit>10</parameter>
+<parameter=min_points>10</parameter>
+<parameter=published_after>2026-09-18T00:00:00Z</parameter>
+<parameter=published_before>2026-09-21T00:00:00Z</parameter>
+<parameter=source>hackernews</parameter>
+<parameter=status>None</parameter>
+<parameter=team>None</parameter>
+</function>
+</tool_call><tool_call>
+<function=query_raw_items>
+<parameter=agent_id>None</parameter>
+<parameter=keyword>"Creative Commons" OR destruction OR "chester"</parameter>
+<parameter=limit>10</parameter>
+<parameter=min_points>30</parameter>
+<parameter=published_after>2026-09-18T00:00:00Z</parameter>
+<parameter=published_before>2026-09-21T00:00:00Z</parameter>
+<parameter=source>hackernews</parameter>
+<parameter=status>None</parameter>
+<parameter=team>None</parameter>
+</function>
+</tool_call>
