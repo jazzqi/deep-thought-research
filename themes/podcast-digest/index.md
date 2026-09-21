@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-21T07:20:58+08:00
-revision: 2026-09-21T07:20:58+08:00
+updated: 2026-09-22T06:18:39+08:00
+revision: 2026-09-22T06:18:39+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Podcast 学习文档 adam-foroughi-applovin-ceo-surviving-a-92-drawdown-ads-as-ml](./all-in/adam-foroughi-applovin-ceo-surviving-a-92-drawdown-ads-as-ml.md)
+- [Graham Weaver 如何将应届毕业生成为CEO —— ILTB Podcast · 2025-05-27](./iltb/how-graham-weaver-turns-recent-grads-into-ceos.md)
 
 ## 往期
 
+- [Graham Weaver 如何将应届毕业生成为CEO —— ILTB Podcast · 2025-05-27](./iltb/how-graham-weaver-turns-recent-grads-into-ceos.md)
 - [Podcast 学习文档 adam-foroughi-applovin-ceo-surviving-a-92-drawdown-ads-as-ml](./all-in/adam-foroughi-applovin-ceo-surviving-a-92-drawdown-ads-as-ml.md)
 - [Apollo如何建成8000亿美元资本市场巨头 — John Zito · ILTB_Podcast · 2025-06-03](./iltb/how-apollo-built-an-800-billion-capital-markets-giant-john-z.md)
 - [Bill Gurley: Searching for Feynman — All-In Conference · 2026-09-19](./all-in/bill-gurley-searching-for-feynman.md)
