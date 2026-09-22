@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-23T06:16:57+08:00
-revision: 2026-09-23T06:16:57+08:00
+updated: 2026-09-23T07:19:32+08:00
+revision: 2026-09-23T07:19:32+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [The Obsession That Creates Enduring Companies | David Senra Interview — @ILTB_Podcast · 2025-05-06](./iltb/the-obsession-that-creates-enduring-companies-david-senra-in.md)
+- [Cliff Sosin：Carvana 从 -99% 到行业领导者的投资全过程 —— ILTB Podcast · 2025-04-29](./iltb/investor-details-carvanas-wild-ride-from--99-to-market-leade.md)
 
 ## 往期
 
+- [Cliff Sosin：Carvana 从 -99% 到行业领导者的投资全过程 —— ILTB Podcast · 2025-04-29](./iltb/investor-details-carvanas-wild-ride-from--99-to-market-leade.md)
 - [The Obsession That Creates Enduring Companies | David Senra Interview — @ILTB_Podcast · 2025-05-06](./iltb/the-obsession-that-creates-enduring-companies-david-senra-in.md)
 - [Spotify的盈利之路：AI重塑、战略流程与音乐产业变革 —— Gustav Söderström · 2025-05-20](./iltb/spotifys-journey-to-profitability.md)
 - [Graham Weaver 如何将应届毕业生成为CEO —— ILTB Podcast · 2025-05-27](./iltb/how-graham-weaver-turns-recent-grads-into-ceos.md)
