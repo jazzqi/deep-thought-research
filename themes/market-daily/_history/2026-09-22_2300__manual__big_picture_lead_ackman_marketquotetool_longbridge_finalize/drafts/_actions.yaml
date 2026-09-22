@@ -1,0 +1,13 @@
+actions:
+- priority: P1
+  summary: 监控里士满联储制造业指数（14:00 UTC）及威廉姆斯/杰斐逊讲话，若指数跌破0确认制造业衰退则触发risk-off预警
+  target_flow_params: {}
+  type: monitoring
+- priority: P1
+  summary: 验证9/23 S&P Global PMI初值：制造业若跌破50将与古尔斯比'降低总需求'框架共振，确认滞胀从预期变为现实
+  target_flow_params: {}
+  type: follow_up
+- priority: P2
+  summary: 监控SpaceX星舰第14次试飞（今日）结果及Meta Connect 2026 AI硬件发布，追踪AI/航天叙事催化
+  target_flow_params: {}
+  type: monitoring

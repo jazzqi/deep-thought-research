@@ -1,0 +1,94 @@
+- SPDR Gold Trust持仓-1.71吨至1055.41吨（9/21）: query_raw_items(id:432699) = 全球最大的黄金 ETF SPDR Gold Trust 持仓较前日减少 1.71 吨
+- 伊朗议会副议长"不会在霍尔木兹海峡退让": query_raw_items(id:434948) = 伊朗议会副议长表示不会在霍尔木兹海峡问题上退让
+- 伊朗官员"美国不敢靠近霍尔木兹海峡": query_raw_items(id:434961) = 伊朗议会国家安全委员会成员称美国不敢靠近霍尔木兹海峡
+- 霍尔木兹海峡当日仅2艘商船通行: query_raw_items(id:434629) = 船运数据：霍尔木兹海峡通行商船降至2艘（战前日均125艘）
+- 法国起草霍尔木兹联合国决议: query_raw_items(id:435151/id:435271) = 法国外交部将提出关于霍尔木兹海峡的联合国决议草案
+- 意大利外长与伊朗外长讨论重开海峡: query_raw_items(id:435231) = 意大利外长在联合国与伊朗外长讨论重新开放霍尔木兹海峡
+- 美银上调H2布伦特预测至$95: query_raw_items(id:435084/id:434942) = 美国银行将2026年下半年布伦特原油价格预测从$83上调至$95
+- 利比亚管道停运日损13万桶: query_raw_items(id:435078) = 沙拉拉-扎维耶原油输送管道关闭导致日产量损失约13万桶
+- 俄罗斯原油出口下滑至353万桶/日: query_raw_items(id:435508) = 俄罗斯四周平均原油出口量为353万桶/日
+- 乌克兰打击俄罗斯两座炼油厂: query_raw_items(id:435303) = 过去24小时内俄罗斯两座炼油厂遭到打击（巴什科尔托斯坦+萨马拉）
+- 黑海粮食通道受阻摩尔曼斯克改线: query_raw_items(id:434855) = 由于乌克兰无人机袭击导致黑海航线持续关闭，摩尔曼斯克拟改用化肥设备出口粮食
+- 俄罗斯新罗西斯克港9月出口回升50%: query_raw_items(id:434246) = 9月前两周处理约35万吨KEBCO混合原油
+- 花旗家族办公室调查：通胀成头号担忧: query_raw_items(id:435454/id:435452) = 通胀已取代贸易战和关税成为家族办公室最大担忧
+- 10Y美债收益率年底中位数预期5.1%: query_raw_items(id:423871) = 144名受访者预测中位数显示10年期国债收益率年底收于5.1%
+- 纳指科技ETF景顺溢价27.8%停牌: query_raw_items(id:434157) = 纳指科技ETF景顺收盘价3.049 vs IOPV 2.3868，因溢价停牌
+- 标普500ETF国泰溢价风险提示: query_raw_items(id:434475) = 二级市场收盘价2.106 vs IOPV 1.9448
+- 纳斯达克100ETF招商溢价9.6%: query_raw_items(id:434474) = 收盘价2.432 vs IOPV 2.2149
+- Allstate -4.9%创6月新低: query_raw_items(id:435128) = ALLSTATE 股价下跌 4.9%，创 6 月以来新低
+- 软银借道垃圾债为AI帝国输血: query_raw_items(id:434998) = 软银寻求超110亿美元垃圾债融资
+- 韩国对美投资200亿美元AI数据中心: query_raw_items(id:434998) = 韩国拟在得州建200亿美元燃气电厂供电AI数据中心
+- 习近平将对美国国事访问: query_raw_items(id:431641) = 新华社报道习近平将对美国进行国事访问
+- 美中讨论AI安全热线: query_raw_items(id:431753) = 美中讨论AI热线计划
+- 古特雷斯呼吁AI协议防止杀手机器人: query_raw_items(id:435201/id:435189) = 联合国秘书长呼吁加强AI监管
+- 奥本海默上调微软目标价至$570: query_raw_items(id:435315) = 奥本海默上调微软目标价由515至570美元
+- 古尔斯比"供给冲击+降低总需求": query_raw_items(id:431852/id:431100/id:431827) = 古尔斯比表示供给冲击持续则需降低总需求，恢复价格稳定不会毫无痛苦
+- 8月进口价格指数同比+7.0%（前值+5.9%）: query_calendar_events(8月进口价格指数同比)
+- 9/12当周初请失业金19.6万（前值20.6万）: query_calendar_events(首次申请失业救济人数)
+
+## 2026-09-22 market-daily 数据来源追溯
+
+- S&P 500 开盘7770.81 +0.08%: query_raw_items(id:435093)
+- 纳斯达克综合27214.65 +0.34%续刷记录新高: query_raw_items(id:435107/id:435133)
+- 纳斯达克100 +0.6%冲击收盘新高: query_raw_items(id:435268)
+- 道指+0.18%~+0.49%: query_raw_items(id:435094/id:435129)
+- WTI $89.58 -3%: query_raw_items(id:435057)
+- 布伦特$94.16 -2.19%: query_raw_items(id:435057)
+- BTC $86,274.3 +0.10%: binance_get_ticker(symbol=BTCUSDT)
+- ETH $2,743.9 -0.13%: binance_get_ticker(symbol=ETHUSDT)
+- SOL $117.08 -1.34%: binance_get_ticker(symbol=SOLUSDT)
+- 里士满联储工厂指数-2.0（预期+2.0，前值4.0）: query_raw_items(id:435193)
+- 里士满装运指数-5（前值+11）: query_raw_items(id:435195)
+- 里士满非制造业状况-8: query_raw_items(id:435194)
+- 里士满服务业收入0（前值-8）: query_raw_items(id:435197)
+- 金融板块-1.5%至7/9以来最低: query_raw_items(id:435288)
+- 嘉信理财-6%: query_raw_items(id:435313)
+- 道富盘前-17%: query_raw_items(id:434867)
+- Allstate -4.9%创6月新低: query_raw_items(id:435128)
+- Shopify +6.47%（两日+15%）: query_raw_items(id:435091/id:435101)
+- Meta $741（昨日+11.43%，两周+21%）: query_raw_items(id:434934/id:435289)
+- Meta目标价JPM $820/Jefferies $875: query_raw_items(id:435289/id:433303)
+- Muse 12天280万下载: query_raw_items(id:434934)
+- 柯林斯"支持加息+通胀显著高于2%": query_raw_items(id:435109/id:435242)
+- 古尔斯比"供给冲击+降低总需求不会毫无痛苦": query_raw_items(id:431852/id:431100/id:431827)
+- 特朗普"中期选举后与伊朗达成协议": query_raw_items(id:435385/id:435438)
+- 特朗普"油价将跌至冲突前以下": query_raw_items(id:435410)
+- 特朗普"霍尔木兹流量达战以来最高": query_raw_items(id:435387)
+- 联合国安理会谴责伊朗航运决议通过: query_raw_items(id:435378)
+- 法国在中东部署航空母舰: query_raw_items(id:435153)
+- 格陵兰协议今日签署: query_raw_items(id:435455/id:435494/id:435489/id:435485)
+- SpaceX淘汰猎鹰9号: query_raw_items(id:434524/id:434506)
+- DeepSeek向安理会通报AI风险: query_raw_items(id:435421)
+- Anthropic/OpenAI安理会简报: query_raw_items(id:434814/id:434991)
+- 古特雷斯呼吁AI协议防止杀手机器人: query_raw_items(id:435201/id:435189)
+- 阿里云CPFS发布AI存储成本降69%: query_raw_items(id:435203/id:435182)
+- 戴蒙hyperscaler AI支出$1万亿: query_raw_items(id:435126)
+- 奥本海默上调微软目标价至$570: query_raw_items(id:435315)
+- Pimco淡化长期美债看空: query_raw_items(id:435417)
+- 对冲基金基差交易缩至9000亿: query_raw_items(id:435214)
+- SPDR黄金持仓-1.71吨至1055.41吨: query_raw_items(id:432699)
+- 花旗家族办公室调查：通胀成头号担忧: query_raw_items(id:435454/id:435452)
+- 10Y美债收益率年底中位数预期5.1%: query_raw_items(id:423871)
+- 纳指科技ETF景顺溢价27.8%停牌: query_raw_items(id:434157)
+- 标普500ETF国泰溢价风险提示: query_raw_items(id:434475)
+- 纳斯达克100ETF招商溢价9.6%: query_raw_items(id:434474)
+- 标普500ETF华夏溢价风险提示: query_raw_items(id:434470)
+- 霍尔木兹海峡当日仅2艘商船通行: query_raw_items(id:434629)
+- 伊朗议会副议长"不会在海峡问题上退让": query_raw_items(id:434948)
+- 伊朗官员"美国不敢靠近海峡": query_raw_items(id:434961)
+- 法国起草霍尔木兹联合国决议: query_raw_items(id:435151/id:435271)
+- 意大利外长与伊朗外长讨论重开海峡: query_raw_items(id:435231)
+- 美银上调H2布伦特预测至$95: query_raw_items(id:435084/id:434942)
+- 利比亚管道停运日损13万桶: query_raw_items(id:435078)
+- 俄罗斯原油出口下滑至353万桶/日: query_raw_items(id:435508)
+- 乌克兰打击俄罗斯两座炼油厂: query_raw_items(id:435303)
+- 黑海粮食通道受阻摩尔曼斯克改线: query_raw_items(id:434855)
+- 俄罗斯新罗西斯克港9月出口回升50%: query_raw_items(id:434246)
+- 软银垃圾债融资: query_raw_items(id:434998)
+- 韩国对美投资200亿美元AI数据中心: query_raw_items(id:434998)
+- 习近平将对美国国事访问: query_raw_items(id:431641)
+- 美中讨论AI安全热线: query_raw_items(id:431753)
+- 联合国安理会谴责伊朗航运决议: query_raw_items(id:435381)
+- 8月进口价格指数同比+7.0%（前值+5.9%）: query_calendar_events
+- 9/12当周初请失业金19.6万（前值20.6万）: query_calendar_events
+- Fed 9/16加息25bp至上限4.0%: query_calendar_events
