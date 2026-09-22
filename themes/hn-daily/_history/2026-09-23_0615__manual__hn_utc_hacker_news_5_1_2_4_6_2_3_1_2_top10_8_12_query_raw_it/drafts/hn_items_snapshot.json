@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-09-22T22:32:00.570177+00:00",
+  "window": {
+    "after": "2026-09-22T00:00:00+00:00",
+    "before": "2026-09-23T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "434197",
+      "title": "I said no and Apple said yes",
+      "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
+      "author": "thatslast",
+      "points": 655,
+      "comments": 516,
+      "published_at": "2026-09-22T08:04:55+00:00"
+    },
+    {
+      "id": "435463",
+      "title": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
+      "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
+      "author": "MC995",
+      "points": 539,
+      "comments": 413,
+      "published_at": "2026-09-22T14:30:12+00:00"
+    },
+    {
+      "id": "435320",
+      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "author": "sohkamyung",
+      "points": 509,
+      "comments": 346,
+      "published_at": "2026-09-22T13:52:15+00:00"
+    },
+    {
+      "id": "435956",
+      "title": "GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "author": "OfficialTurkey",
+      "points": 441,
+      "comments": 244,
+      "published_at": "2026-09-22T18:00:34+00:00"
+    },
+    {
+      "id": "433788",
+      "title": "Can gzip be a language model?",
+      "url": "https://nathan.rs/posts/gzip-lm/",
+      "author": "networked",
+      "points": 366,
+      "comments": 142,
+      "published_at": "2026-09-22T06:08:39+00:00"
+    },
+    {
+      "id": "434921",
+      "title": "AI Has No Wisdom and Neither Will You",
+      "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
+      "author": "dimonomid",
+      "points": 349,
+      "comments": 489,
+      "published_at": "2026-09-22T12:11:09+00:00"
+    },
+    {
+      "id": "435464",
+      "title": "OpenAI is about to eat Jev's lunch – Arcturus Labs",
+      "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+      "author": "JohnBerryman",
+      "points": 234,
+      "comments": 176,
+      "published_at": "2026-09-22T14:42:59+00:00"
+    },
+    {
+      "id": "434361",
+      "title": "AMD's random number generator can't generate a 0?",
+      "url": "https://board.flatassembler.net/topic.php?t=24261",
+      "author": "BruceEel",
+      "points": 205,
+      "comments": 154,
+      "published_at": "2026-09-22T08:39:43+00:00"
+    },
+    {
+      "id": "436090",
+      "title": "Pentagon: Palantir AI Overreliance Led to Strike Killing 123 Iranian Children",
+      "url": "https://gizmodo.com/pentagon-investigators-say-overreliance-on-palantir-ai-tech-contributed-to-u-s-strike-that-killed-123-iranian-children-2000814477",
+      "author": "devonnull",
+      "points": 176,
+      "comments": 84,
+      "published_at": "2026-09-22T19:03:38+00:00"
+    },
+    {
+      "id": "436148",
+      "title": "Pentagon: Palantir AI Overreliance Led to Strike Killing 123 Iranian Children",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "author": "devonnull",
+      "points": 176,
+      "comments": 84,
+      "published_at": "2026-09-22T19:03:38+00:00"
+    },
+    {
+      "id": "434561",
+      "title": "9 Ads per Minute: FIFA Cup 26 – \"the price of the beautiful game\"",
+      "url": "https://www.bristol.ac.uk/news/2026/september/world-cup-viewers.html",
+      "author": "KellyCriterion",
+      "points": 169,
+      "comments": 207,
+      "published_at": "2026-09-22T10:36:44+00:00"
+    },
+    {
+      "id": "433787",
+      "title": "MiMo-v2.6-Pro: Intelligence, Performance and Price Analysis",
+      "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro",
+      "author": "theanonymousone",
+      "points": 151,
+      "comments": 61,
+      "published_at": "2026-09-22T04:02:09+00:00"
+    },
+    {
+      "id": "435461",
+      "title": "Show HN: Drop – a rootless Linux sandbox with gVisor support",
+      "url": "https://droprun.sh/",
+      "author": "mixedbit",
+      "points": 148,
+      "comments": 50,
+      "published_at": "2026-09-22T13:52:47+00:00"
+    },
+    {
+      "id": "432840",
+      "title": "Claude Status – Elevated errors for multiple models",
+      "url": "https://status.claude.com/incidents/7g1qpkyz5gxh",
+      "author": "corvad",
+      "points": 136,
+      "comments": 104,
+      "published_at": "2026-09-22T01:05:19+00:00"
+    },
+    {
+      "id": "435736",
+      "title": "Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "author": "km144",
+      "points": 111,
+      "comments": 215,
+      "published_at": "2026-09-22T16:29:05+00:00"
+    },
+    {
+      "id": "432971",
+      "title": "Robin Williams' Daughter to Fans Creating AI Videos: 'Have Some Shame'",
+      "url": "https://variety.com/2026/film/news/robin-williams-daughter-ai-videos-1236871568/",
+      "author": "CharlesW",
+      "points": 92,
+      "comments": 59,
+      "published_at": "2026-09-22T01:24:49+00:00"
+    },
+    {
+      "id": "434770",
+      "title": "Verda (Finland) raises $189M in Series B",
+      "url": "https://verda.com/blog/what-189m-in-funding-unlocks-for-verda-customers",
+      "author": "cmrdporcupine",
+      "points": 82,
+      "comments": 35,
+      "published_at": "2026-09-22T09:36:31+00:00"
+    },
+    {
+      "id": "435352",
+      "title": "Stanford R&DE Uses AI to Race Swap Students for Advertising",
+      "url": "https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/",
+      "author": "docdeek",
+      "points": 81,
+      "comments": 58,
+      "published_at": "2026-09-22T13:52:56+00:00"
+    },
+    {
+      "id": "436293",
+      "title": "LLM Ass Bench",
+      "url": "https://www.assbench.com/",
+      "author": "fragmede",
+      "points": 76,
+      "comments": 25,
+      "published_at": "2026-09-22T20:34:19+00:00"
+    },
+    {
+      "id": "435622",
+      "title": "How Meta's Muse works, revealed by the 6.8 GB filesystem it sent me",
+      "url": "https://mouse.dev/blog/muse-runtime-export/",
+      "author": "Aeroi",
+      "points": 72,
+      "comments": 38,
+      "published_at": "2026-09-22T15:25:12+00:00"
+    },
+    {
+      "id": "435351",
+      "title": "People Training OpenAI's AI Fired for Using AI to Train the AI",
+      "url": "https://www.404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai/",
+      "author": "pier25",
+      "points": 69,
+      "comments": 52,
+      "published_at": "2026-09-22T13:27:29+00:00"
+    },
+    {
+      "id": "435877",
+      "title": "There's a high chance of devices being sold with GrapheneOS preinstalled in 2027",
+      "url": "https://grapheneos.social/@GrapheneOS/117299954135808210",
+      "author": "Cider9986",
+      "points": 69,
+      "comments": 31,
+      "published_at": "2026-09-22T17:12:51+00:00"
+    },
+    {
+      "id": "433296",
+      "title": "Socrates vs. the Written Word (2011)",
+      "url": "https://wondermark.com/socrates-vs-writing/",
+      "author": "spectraldrift",
+      "points": 66,
+      "comments": 50,
+      "published_at": "2026-09-22T00:06:55+00:00"
+    },
+    {
+      "id": "433493",
+      "title": "Apple Music to open concert venue in Battersea Power Station",
+      "url": "https://www.bbc.com/news/articles/c607l2j2rj8ro",
+      "author": "dabinat",
+      "points": 65,
+      "comments": 91,
+      "published_at": "2026-09-22T05:32:55+00:00"
+    },
+    {
+      "id": "434771",
+      "title": "JetBrains Air: A System of Products for Agentic Software Development",
+      "url": "https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/",
+      "author": "FinnLobsien",
+      "points": 65,
+      "comments": 100,
+      "published_at": "2026-09-22T11:00:58+00:00"
+    },
+    {
+      "id": "435876",
+      "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis",
+      "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "author": "theanonymousone",
+      "points": 64,
+      "comments": 28,
+      "published_at": "2026-09-22T16:51:31+00:00"
+    },
+    {
+      "id": "434362",
+      "title": "Study: Young users (9 to 18Y) ditch Google for AI, with unknown consequences",
+      "url": "https://norwegianscitechnews.com/2026/09/young-users-ditch-google-for-ai-with-unknown-consequences/",
+      "author": "giuliomagnifico",
+      "points": 62,
+      "comments": 111,
+      "published_at": "2026-09-22T09:18:54+00:00"
+    },
+    {
+      "id": "435319",
+      "title": "Texas police department ordered to close for failing to provide public benefit",
+      "url": "https://www.dallasnews.com/news/texas/article/texas-police-department-ordered-close-state-22434473.php",
+      "author": "Danhale93",
+      "points": 61,
+      "comments": 28,
+      "published_at": "2026-09-22T13:43:37+00:00"
+    },
+    {
+      "id": "436274",
+      "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+      "url": "https://foxscript.org/",
+      "author": "boredjohnny",
+      "points": 61,
+      "comments": 35,
+      "published_at": "2026-09-22T21:00:30+00:00"
+    },
+    {
+      "id": "435559",
+      "title": "Jev – a curation of Jev demos on X, tools, skills, and integrations",
+      "url": "https://github.com/Amal-David/awesome-jev",
+      "author": "frostbyte7",
+      "points": 55,
+      "comments": 11,
+      "published_at": "2026-09-22T14:42:57+00:00"
+    },
+    {
+      "id": "436205",
+      "title": "Explaining to business people why building software is still hard",
+      "url": "https://www.manager.dev/newsletter/cursing-the-day-lovable-was-born",
+      "author": "fagnerbrack",
+      "points": 49,
+      "comments": 43,
+      "published_at": "2026-09-22T19:00:40+00:00"
+    },
+    {
+      "id": "433846",
+      "title": "Jev introduces a new shape of LLM",
+      "url": "https://simonwillison.net/2026/Sep/21/jev/",
+      "author": "benwerd",
+      "points": 47,
+      "comments": 15,
+      "published_at": "2026-09-22T04:38:31+00:00"
+    },
+    {
+      "id": "435854",
+      "title": "WordPress: Unauthenticated path traversal leading to conditional RCE",
+      "url": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp",
+      "author": "vntok",
+      "points": 47,
+      "comments": 21,
+      "published_at": "2026-09-22T16:33:45+00:00"
+    },
+    {
+      "id": "434256",
+      "title": "Used ThinkPad Buyer's Guide (2019)",
+      "url": "https://www.bobble.tech/free-stuff/used-thinkpad-buyers-guide",
+      "author": "Mr_Minderbinder",
+      "points": 46,
+      "comments": 40,
+      "published_at": "2026-09-22T04:14:47+00:00"
+    },
+    {
+      "id": "435558",
+      "title": "What Capital Never Told You About Rent",
+      "url": "https://www.humansontheloop.com/p/rent",
+      "author": "longitudinal93",
+      "points": 45,
+      "comments": 38,
+      "published_at": "2026-09-22T12:38:48+00:00"
+    },
+    {
+      "id": "436147",
+      "title": "SAML: A Fractal of Bad Design",
+      "url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+      "author": "aray07",
+      "points": 45,
+      "comments": 6,
+      "published_at": "2026-09-22T18:57:17+00:00"
+    },
+    {
+      "id": "435723",
+      "title": "Vacate a Drone Restriction That Criminalized Recording Immigration Agents",
+      "url": "https://www.eff.org/deeplinks/2026/09/dc-circuit-must-vacate-drone-flight-restriction-criminalized-recording-immigration",
+      "author": "hn_acker",
+      "points": 44,
+      "comments": 7,
+      "published_at": "2026-09-22T15:07:03+00:00"
+    },
+    {
+      "id": "435835",
+      "title": "Aging may be a program, not a breakdown",
+      "url": "https://www.quantamagazine.org/why-aging-may-be-a-program-not-a-breakdown-20260814/",
+      "author": "elo2000",
+      "points": 43,
+      "comments": 65,
+      "published_at": "2026-09-22T16:48:33+00:00"
+    },
+    {
+      "id": "435578",
+      "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+      "author": "pavel_lishin",
+      "points": 42,
+      "comments": 14,
+      "published_at": "2026-09-22T14:35:15+00:00"
+    },
+    {
+      "id": "436275",
+      "title": "No Sloptober",
+      "url": "https://no-sloptober.com/",
+      "author": "jeremiahlee",
+      "points": 40,
+      "comments": 25,
+      "published_at": "2026-09-22T21:05:39+00:00"
+    },
+    {
+      "id": "434198",
+      "title": "Tell HN: Claude Code just accepted and signed a contract for me. Without asking",
+      "url": "https://news.ycombinator.com/item?id=49798257",
+      "author": "franze",
+      "points": 39,
+      "comments": 88,
+      "published_at": "2026-09-22T08:49:13+00:00"
+    },
+    {
+      "id": "435735",
+      "title": "16-bit Intel 8088 chip",
+      "url": "https://allpoetry.com/16-bit-Intel-8088-chip",
+      "author": "rbanffy",
+      "points": 38,
+      "comments": 3,
+      "published_at": "2026-09-22T16:11:34+00:00"
+    },
+    {
+      "id": "436206",
+      "title": "Obscura: The first VPN that can't log your activity",
+      "url": "https://obscura.com/#faq-technical",
+      "author": "Flimm",
+      "points": 37,
+      "comments": 45,
+      "published_at": "2026-09-22T19:40:28+00:00"
+    },
+    {
+      "id": "434889",
+      "title": "Type Punning in C and C++",
+      "url": "https://blog.pwkf.org/2026/09/21/correct-type-punning-in-c.html",
+      "author": "ingve",
+      "points": 36,
+      "comments": 23,
+      "published_at": "2026-09-22T11:29:47+00:00"
+    },
+    {
+      "id": "433297",
+      "title": "US threatens to ground Iranian airlines worldwide from Wednesday",
+      "url": "https://www.aljazeera.com/economy/2026/9/21/us-threatens-to-ground-iranian-airlines-worldwide-from-wednesday",
+      "author": "teleforce",
+      "points": 35,
+      "comments": 3,
+      "published_at": "2026-09-22T01:43:26+00:00"
+    },
+    {
+      "id": "433492",
+      "title": "People Hooked on Vapes Try a New Way to Quit: Cigarettes",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-18/to-quit-vaping-some-are-starting-to-smoke",
+      "author": "alephnerd",
+      "points": 35,
+      "comments": 27,
+      "published_at": "2026-09-22T01:21:20+00:00"
+    },
+    {
+      "id": "435734",
+      "title": "Writing Rust code that's fast by asking agents to make the code faster",
+      "url": "https://minimaxir.com/2026/09/agentic-iteration/",
+      "author": "mooreds",
+      "points": 35,
+      "comments": 14,
+      "published_at": "2026-09-22T15:38:24+00:00"
+    },
+    {
+      "id": "436054",
+      "title": "Moving from cash to credit cards, PayPal, etc. is an ongoing privacy disaster",
+      "url": "https://grapheneos.social/@GrapheneOS/117249893761790371",
+      "author": "Cider9986",
+      "points": 34,
+      "comments": 12,
+      "published_at": "2026-09-22T17:12:09+00:00"
+    },
+    {
+      "id": "436057",
+      "title": "An update on how we confirm your age group on Discord",
+      "url": "https://discord.com/blog/safer-for-teens-same-discord-for-adults",
+      "author": "meetpateltech",
+      "points": 34,
+      "comments": 1,
+      "published_at": "2026-09-22T18:10:31+00:00"
+    },
+    {
+      "id": "436207",
+      "title": "Native apps written in TypeScript and CSS",
+      "url": "https://github.com/geastack/examples",
+      "author": "arbayi",
+      "points": 34,
+      "comments": 7,
+      "published_at": "2026-09-22T19:42:20+00:00"
+    },
+    {
+      "id": "436106",
+      "title": "Unreal Agent",
+      "url": "https://unreallabs.ai/blog/unreal-agent/",
+      "author": "trollied",
+      "points": 33,
+      "comments": 19,
+      "published_at": "2026-09-22T18:15:53+00:00"
+    },
+    {
+      "id": "436105",
+      "title": "'We Hacked the FBI:' Hackers Say They Have Data on All FBI Employees",
+      "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+      "author": "spenvo",
+      "points": 32,
+      "comments": 6,
+      "published_at": "2026-09-22T17:46:02+00:00"
+    },
+    {
+      "id": "436166",
+      "title": "German court rules Meta liable for scam ads on Facebook and Instagram",
+      "url": "https://thenextweb.com/news/meta-scam-ads-ruling-germany-frankfurt-court",
+      "author": "buzer",
+      "points": 31,
+      "comments": 6,
+      "published_at": "2026-09-22T17:21:11+00:00"
+    },
+    {
+      "id": "436311",
+      "title": "The UV index is not the warm sensation of sunlight on bare skin",
+      "url": "https://blog.asciitweezers.com/the-uv-index-is-not-the-warm-sensation-of-sunlight-on-bare-skin/",
+      "author": "evakhoury",
+      "points": 31,
+      "comments": 15,
+      "published_at": "2026-09-22T21:06:40+00:00"
+    },
+    {
+      "id": "436265",
+      "title": "Diesel prices could crush Republicans in the heartland",
+      "url": "https://www.natesilver.net/p/diesel-prices-could-crush-republicans",
+      "author": "7777777phil",
+      "points": 30,
+      "comments": 1,
+      "published_at": "2026-09-22T20:13:56+00:00"
+    },
+    {
+      "id": "435076",
+      "title": "Will Open Source Survive the Agents That Replaced It?",
+      "url": "https://albertoarena.it/posts/will-open-source-survive-the-agents-that-replaced-it/",
+      "author": "albertoarena",
+      "points": 27,
+      "comments": 56,
+      "published_at": "2026-09-22T12:05:17+00:00"
+    },
+    {
+      "id": "435995",
+      "title": "Show HN: AI·rete·RAG – a Rete rule engine decides, RAG explains why",
+      "url": "https://ai-rete-rag.com/",
+      "author": "ZaharaHussain",
+      "points": 27,
+      "comments": 1,
+      "published_at": "2026-09-22T16:15:06+00:00"
+    },
+    {
+      "id": "436056",
+      "title": "Linux at Long Last and GPLv3",
+      "url": "https://obscura.com/blog/linux-at-long-last/",
+      "author": "Cider9986",
+      "points": 27,
+      "comments": 1,
+      "published_at": "2026-09-22T18:10:06+00:00"
+    },
+    {
+      "id": "435794",
+      "title": "Xbox continues its \"reset\" with dramatic restructuring",
+      "url": "https://arstechnica.com/gaming/2026/09/shuffling-the-deck-chairs-xbox-continues-its-reset-with-dramatic-restructuring/",
+      "author": "dgrin91",
+      "points": 26,
+      "comments": 13,
+      "published_at": "2026-09-22T16:10:58+00:00"
+    },
+    {
+      "id": "436055",
+      "title": "Launch HN: Coverage Cat (YC S22) – Umbrella insurance via your personal agent",
+      "url": "https://www.coveragecat.com/",
+      "author": "botacode",
+      "points": 25,
+      "comments": 20,
+      "published_at": "2026-09-22T17:26:36+00:00"
+    },
+    {
+      "id": "436273",
+      "title": "International Conference on Functional Programming (ICFP) 2026 talks released",
+      "url": "https://www.youtube.com/@acmsigplan/playlists",
+      "author": "matt_d",
+      "points": 24,
+      "comments": 0,
+      "published_at": "2026-09-22T18:33:24+00:00"
+    },
+    {
+      "id": "433786",
+      "title": "Smart Ring Maker Oura, Backers Seek $2.2B in US IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-21/smart-ring-maker-oura-backers-seek-2-2-billion-in-us-ipo",
+      "author": "elo2000",
+      "points": 23,
+      "comments": 10,
+      "published_at": "2026-09-22T02:53:48+00:00"
+    },
+    {
+      "id": "434448",
+      "title": "Did OpenAI solve the wrong Navier-Stokes problem?",
+      "url": "https://www.scientificamerican.com/article/did-openai-solve-the-wrong-navier-stokes-problem/",
+      "author": "tomjakubowski",
+      "points": 23,
+      "comments": 3,
+      "published_at": "2026-09-22T00:24:00+00:00"
+    },
+    {
+      "id": "435925",
+      "title": "The Economics of Open-Weight Inference",
+      "url": "https://data.ornn.com/publications/the-economics-of-open-weight-inference",
+      "author": "marinesebastian",
+      "points": 23,
+      "comments": 11,
+      "published_at": "2026-09-22T13:45:32+00:00"
+    },
+    {
+      "id": "436204",
+      "title": "ASML Executive Says It Has No Sales in Europe",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-22/asml-executive-says-europe-s-biggest-firm-has-no-sales-in-europe",
+      "author": "alephnerd",
+      "points": 21,
+      "comments": 6,
+      "published_at": "2026-09-22T17:09:02+00:00"
+    },
+    {
+      "id": "436256",
+      "title": "A Faster Shortest Path Algorithm",
+      "url": "https://www.vals.ai/blogs/faster-shortest-path-algorithm",
+      "author": "leumon",
+      "points": 21,
+      "comments": 5,
+      "published_at": "2026-09-22T19:24:58+00:00"
+    },
+    {
+      "id": "436024",
+      "title": "Americans' Drinking Remains at Record Low: Gallup Poll",
+      "url": "https://news.gallup.com/poll/713534/americans-drinking-remains-record-low.aspx",
+      "author": "randycupertino",
+      "points": 20,
+      "comments": 33,
+      "published_at": "2026-09-22T16:29:11+00:00"
+    },
+    {
+      "id": "436280",
+      "title": "据伊通社（IRNA）: 伊朗格什姆岛附近传出爆炸声。该声响似乎来自海上，暂无消息显示伊朗格什姆岛受到影响。",
+      "url": "https://t.me/Financial_Express/3483692",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T21:37:22+00:00"
+    },
+    {
+      "id": "436281",
+      "title": "报道: 伊朗格什姆岛附近传出爆炸声。该声响似乎来自海上，暂无消息显示伊朗格什姆岛受到影响。",
+      "url": "https://t.me/Financial_Express/3483693",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T21:42:00+00:00"
+    },
+    {
+      "id": "436282",
+      "title": "唐宁街",
+      "url": "https://t.me/Financial_Express/3483694",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T21:42:42+00:00"
+    },
+    {
+      "id": "436288",
+      "title": "Girl accuses Braden Peters, social media influencer known as 'Clavicular', of rape",
+      "url": "https://www.npr.org/2026/09/22/nx-s1-5978033/braden-peters-clavicular-looksmaxxing-rape-accusation",
+      "author": "Chloe Veltman",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T21:37:28+00:00"
+    },
+    {
+      "id": "436289",
+      "title": "唐宁街",
+      "url": "https://t.me/Financial_Express/3483695",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T21:44:22+00:00"
+    },
+    {
+      "id": "436290",
+      "title": "英国首相府",
+      "url": "https://t.me/Financial_Express/3483696",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T21:45:22+00:00"
+    },
+    {
+      "id": "436291",
+      "title": "伊拉克油长：8 月石油出口达 7000 万桶，北部出口路线持续扩容",
+      "url": "https://t.me/Financial_Express/3483697",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T21:53:22+00:00"
+    },
+    {
+      "id": "436292",
+      "title": "美国国家航空航天局",
+      "url": "https://t.me/Financial_Express/3483698",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T21:56:22+00:00"
+    },
+    {
+      "id": "436294",
+      "title": "Mexico Becomes Latest Country to Restrict Phones in Schools",
+      "url": "https://www.nytimes.com/2026/09/22/world/americas/mexico-bans-phones-schools.html",
+      "author": "Emiliano Rodríguez Mega and Annie Correal",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T21:45:25+00:00"
+    },
+    {
+      "id": "436295",
+      "title": "Questions remain after grand jury declines indictment in Nolan Wells' death",
+      "url": "https://www.npr.org/2026/09/22/nx-s1-5977673/questions-remain-after-grand-jury-declines-indictment-in-nolan-wells-death",
+      "author": "Elise Gregg",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T21:47:51+00:00"
+    },
+    {
+      "id": "436296",
+      "title": "美国航空航天局（NASA）",
+      "url": "https://t.me/Financial_Express/3483699",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T21:59:42+00:00"
+    },
+    {
+      "id": "436297",
+      "title": "WTI 原油突破 90 美元/桶，日内跌 0.57%。",
+      "url": "https://t.me/Financial_Express/3483700",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:00:22+00:00"
+    },
+    {
+      "id": "436298",
+      "title": "纽约期银日内涨 1%，现报 67.69 美元/盎司。",
+      "url": "https://t.me/Financial_Express/3483701",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:00:23+00:00"
+    },
+    {
+      "id": "436299",
+      "title": "据半岛电视台",
+      "url": "https://t.me/Financial_Express/3483702",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:00:42+00:00"
+    },
+    {
+      "id": "436300",
+      "title": "周三亚太盘初，WTI 原油突破 90 美元/桶，日内跌 0.57%。",
+      "url": "https://t.me/Financial_Express/3483703",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:01:02+00:00"
+    },
+    {
+      "id": "436301",
+      "title": "美联储 10 月加息的概率为 54.2%",
+      "url": "https://t.me/Financial_Express/3483704",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:01:02+00:00"
+    },
+    {
+      "id": "436302",
+      "title": "现货黄金突破 4360 美元/盎司，日内涨 0.06%。",
+      "url": "https://t.me/Financial_Express/3483705",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:01:03+00:00"
+    },
+    {
+      "id": "436303",
+      "title": "纽约期金突破 4400 美元/盎司，日内涨 0.54%。",
+      "url": "https://t.me/Financial_Express/3483706",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:02:02+00:00"
+    },
+    {
+      "id": "436304",
+      "title": "美联储 10 月加息的概率为 54.2%",
+      "url": "https://t.me/Financial_Express/3483707",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:03:22+00:00"
+    },
+    {
+      "id": "436305",
+      "title": "苹果周二开始出货新款 Mac mini 和 Mac Studio 台式电脑，并将其作为数据中心租用之外更便宜的替代方案向企业客户销售。",
+      "url": "https://t.me/Financial_Express/3483708",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:03:42+00:00"
+    },
+    {
+      "id": "436307",
+      "title": "钯金期货日内涨 1%，现报 1318.96 美元/盎司。",
+      "url": "https://t.me/Financial_Express/3483709",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:06:22+00:00"
+    },
+    {
+      "id": "436308",
+      "title": "波兰总统：若美国在波兰建永久基地，将命名为“特朗普堡”",
+      "url": "https://t.me/Financial_Express/3483710",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:12:22+00:00"
+    },
+    {
+      "id": "436309",
+      "title": "截至 9 月 21 日，53 只债券 ETF 合计规模 9871.29 亿元，距离万亿元关口仅差 128.71 亿元。结合场外被动指数型债券基金半年报披露的规模数据，全市场 384 只被动指数型债券基金合计规模达 20663.38 亿元。（",
+      "url": "https://t.me/Financial_Express/3483711",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:12:59+00:00"
+    },
+    {
+      "id": "436310",
+      "title": "阿里巴巴在港交所披露 2026 年度股东大会投票表决结果。",
+      "url": "https://t.me/Financial_Express/3483712",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:13:09+00:00"
+    },
+    {
+      "id": "436312",
+      "title": "交易员大举对冲 以防美联储加息力度不及预期",
+      "url": "https://t.me/Financial_Express/3483713",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:14:22+00:00"
+    },
+    {
+      "id": "436313",
+      "title": "欧洲央行管委内格尔：高能源价格若持续，欧洲央行或进入温和限制性区间",
+      "url": "https://t.me/Financial_Express/3483714",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:19:22+00:00"
+    },
+    {
+      "id": "436314",
+      "title": "阿塞拜疆民航局",
+      "url": "https://t.me/Financial_Express/3483715",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:21:23+00:00"
+    },
+    {
+      "id": "436315",
+      "title": "台风“杜鹃”已致日本 7 人死亡",
+      "url": "https://t.me/Financial_Express/3483716",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:21:23+00:00"
+    },
+    {
+      "id": "436316",
+      "title": "“十五五”时期，信贷结构有望进一步优化，更好支持经济结构调整和转型升级。中国人民银行行长潘功胜近期在署名文章中表示，加强与产业政策协同，引导金融机构科学评估风险，分类施策、有扶有控，抑制部分行业“内卷式”竞争。在业内专家看来，这意味着金融资",
+      "url": "https://t.me/Financial_Express/3483717",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:21:29+00:00"
+    },
+    {
+      "id": "436317",
+      "title": "总台记者当地时间 23 日获悉，受今年第 25 号台风“杜鹃”带来的强降雨影响，日本关东地区和伊豆群岛遭遇创纪录规模暴雨，多地接连发生山体滑坡、河流泛滥引发的洪水灾害。截至目前，千叶县和神奈川县共有 7 人死亡、5 人失踪。此外，住宅受灾情",
+      "url": "https://t.me/Financial_Express/3483718",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:21:36+00:00"
+    },
+    {
+      "id": "436318",
+      "title": "伊朗总统抵达纽约，参加联合国大会。",
+      "url": "https://t.me/Financial_Express/3483719",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:22:02+00:00"
+    },
+    {
+      "id": "436319",
+      "title": "伊朗总统抵达纽约",
+      "url": "https://t.me/Financial_Express/3483720",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:22:42+00:00"
+    },
+    {
+      "id": "436320",
+      "title": "亚马逊云科技",
+      "url": "https://t.me/Financial_Express/3483721",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-22T22:29:02+00:00"
+    }
+  ]
+}

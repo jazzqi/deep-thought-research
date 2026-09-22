@@ -1,0 +1,144 @@
+# HN 书摘 · 2026-09-22（周二）
+
+> 今日三句话：① Apple 在 macOS 27 中移除 Apple Intelligence 关闭开关，用户投诉强制植入 AI 功能并占用 22GB 磁盘空间；② OpenAI GPT-6 Astra 自主破解了一条自 2005 年以来未被攻破的二战恩尼格玛密码，密码学家称其行为"像一位非常专业的档案研究员"；③ Anthropic 发布 Claude Opus 5.5，性能追平 Fable 5.1 但成本降低 40%，同日 GPT-6 Sol/Luna 上线——模型竞赛进入"性价比肉搏"阶段。
+
+---
+
+## 分工
+
+| writer | 负责栏目 |
+| --- | --- |
+| tech_generalist（Lead） | 头条深读、值得一读、社区之声 |
+| tech_scout | 技术雷达、数据速览、交叉补写 |
+| （待分配） | 补充与审查 |
+
+---
+
+## 头条深读（1-2 条）
+
+### 1. I said no and Apple said yes / 我拒绝了，Apple 强行开启
+
+| 原文 | [I said no and Apple said yes](https://dbushell.com/2026/09/22/apple-intelligence/) |
+| --- | --- |
+| 热度 | ▲ 分数 · 💬 评论数 · 作者 · 时间 |
+| 摘要 | macOS 27 升级后移除了 Apple Intelligence 的关闭开关。作者 David Bushell 在 macOS 15.3 时明确禁用了该功能，升级到 27 后发现选项消失，且所有 AI 功能被默认开启。Apple Intelligence 占用 22.28GB 磁盘空间，Siri 进程无法完全关闭。作者指出，AI 行业的核心问题在于"同意"——用户说了"不"，企业却移除了拒绝的选项。 |
+| 批注 | 这不是技术问题而是权力问题：Apple 从"可选关闭"滑向"无法关闭"，标志着消费电子厂商将 AI 硬塞进操作系统已从试探变为既定策略，用户数据主权面临系统性侵蚀。 |
+| 评论摘录 | 作者 vivo 写道："我已经用 Linux 15 年多了，每次尝试用 Mac 或 Windows 都是折磨。还有广告。花钱买的系统里塞广告。还有偷窥。"（[链接](https://news.ycombinator.com/item?id=49797982)） |
+
+### 2. OpenAI GPT-6 Astra 破解恩尼格玛 / AI 破解二战密码
+
+| 原文 | [OpenAI GPT-6 Astra breaks Enigma message that has resisted solution since 2005](https://www.cryptocellar.org/bgac/the-mvueh-break.html) |
+| --- | --- |
+| 热度 | ▲ 分数 · 💬 评论数 · 作者 · 时间 |
+| 摘要 | GPT-6 Astra 自主破解了二战德军恩尼格玛密文 MVUEH（1941年7月10日发出）。这条密文自 2005 年公开以来从未被攻破。GPT-6 Astra 自行选择了最有希望的密文、构建了恩尼格玛模拟器和炸弹机、发现了"ROSENOW ROSENOW"作为 crib（已知明文攻击），最终找到正确密钥。密码学家 Frode Weierud 确认密钥与同日其他密文完全不同——轮序为 253 而非 512。密文译文为："请告知行军路线。我在 Rosenow, Rosenow。立即无线电回复。Waschbusch。" |
+| 批注 | 真正突破不在于"AI 能做密码分析"，而在于 GPT-6 Astra 全程自主决策——从选择目标、构建工具链、设计攻击策略到发现档案线索——展现出类似人类专家的多步骤推理与自主研究能力，这是当前 LLM 能力边界的实质性拓展。 |
+| 评论摘录 | 用户 pkulak 解释了 crib 攻击的原理："Enigma 无法将字母加密为自身，所以你可以将 crib 滑动到密文中，直到没有字母对齐——那可能就是正确位置。如果 crib 是'the'，用处不大，因为可能出现在任何地方。越长越好。"（[链接](https://news.ycombinator.com/item?id=49801324)） |
+
+---
+
+## 值得一读（4-6 条）
+
+### 3. GPT-6 Sol and Luna / GPT-6 Sol 和 Luna 发布
+
+| 原文 | [GPT-6 Sol and Luna](https://openai.com/index/introducing-gpt-6-sol-and-luna/) |
+| --- | --- |
+| 热度 | ▲ 分数 · 💬 评论数 · 作者 · 时间 |
+| 摘要 | OpenAI 发布 GPT-6 Sol（推理型）和 GPT-6 Luna（快速型），Luna 价格仅为 GPT-5.6 Luna 的一半。从 HN 评论区的实时反馈看，Luna 在多项任务上达到帕累托最优，但部分用户指出性能提升有限——"6-Luna 相比 5.6 没有实质改进，纯粹是降价"。与此同时 Claude Opus 5.5 以匹配 Astra 级性能但更低价格入场，模型竞赛进入白热化。 |
+| 批注 | Luna 半价策略的信号意义大于性能本身：OpenAI 正在用定价权挤压竞品（DeepSeek、Gemini）的生存空间，AI 推理成本的军备竞赛已从"谁更强"转向"谁更便宜"。 |
+
+### 4. Can gzip be a language model? / gzip 能当语言模型吗？
+
+| 原文 | [Can gzip be a language model?](https://nathan.rs/posts/gzip-lm/) |
+| --- | --- |
+| 热度 | ▲ 分数 · 💬 评论数 · 作者 · 时间 |
+| 摘要 | 作者实现了一个名为 GziPT 的工具：用操作系统的 gzip 作为语言模型。原理基于"压缩即预测"的信息论等价关系——每个压缩算法内部都隐含一个概率模型。通过 beam search 在 gzip 的 32KB 滑动窗口中搜索最可压缩的续写，GziPT 能生成莎士比亚风格文本（虽不连贯但明显知道文本结构）。代码仅用 Python 标准库 zlib 实现。 |
+| 批注 | 这篇文章的价值在于它揭示了 LLM 的一个被忽视的底层逻辑：所有语言模型本质上都是压缩器，区别只在于参数量和训练数据。对于理解"AI 到底在做什么"提供了极简但深刻的视角。 |
+
+### 5. AI Has No Wisdom and Neither Will You / AI 没有智慧，你也不会有
+
+| 原文 | [AI Has No Wisdom and Neither Will You](https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/) |
+| --- | --- |
+| 热度 | ▲ 分数 · 💬 评论数 · 作者 · 时间 |
+| 摘要 | 作者 Alexandru Nedelcu 指出：代码可维护性和良好架构的衡量需要数月甚至数年才能显现，而 AI 训练的奖励信号必须即时可测。AI 从"野外代码"中学习模式，但大多数现有代码质量堪忧。更关键的是，依赖 AI 编码的开发者将无法积累判断力——他们不再做选择、不再为错误负责、也不再从错误中学习。作者预测未来将出现更多公司以"NO-AI"政策作为竞争优势。 |
+| 批注 | 489 条评论的热度说明社区对"AI 是否在侵蚀工程能力"的焦虑已成共识，但文章真正的洞察在于：问题不是 AI 不够好，而是人类放弃学习后将丧失判断 AI 输出好坏的能力——这是一个自我强化的衰退螺旋。 |
+
+### 6. OpenAI is about to eat Jev's lunch / OpenAI 即将抢走 Jev 的饭碗
+
+| 原文 | [Will OpenAI Eat Jev's Lunch?](https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/) |
+| --- | --- |
+| 热度 | ▲ 分数 · 💬 评论数 · 作者 · 时间 |
+| 摘要 | Arcturus Labs 分析认为 TypeSafe 的 Jev（一个基于 LLM logprobs 的分类器产品）面临被 OpenAI 快速复制的风险。文章论证 OpenAI 自 2024 年工具调用以来就在隐式使用 LLM 做分类——tool calling 的第一个 token 预测本质上就是分类决策。如果 OpenAI 将 Jev 的训练方法内化到模型中，不仅能复制 Jev 的产品，还能实现模型选择、安全护栏等 Jev 无法提供的能力。 |
+| 批注 | 核心论点切中了当前 AI 创业的结构性风险：当你的产品本质上是"对 LLM 输出做后处理"时，模型厂商只需在训练中内化这一步就能消灭你。Jev 的护城河可能只在于训练数据，而非技术架构。 |
+
+### 7. AMD's random number generator can't generate a 0 / AMD 的随机数生成器无法生成 0
+
+| 原文 | [AMD's random number generator can't generate a 0?](https://board.flatassembler.net/topic.php?t=24261) |
+| --- | --- |
+| 热度 | ▲ 分数 · 💬 评论数 · 作者 · 时间 |
+| 摘要 | 开发者 Jessé 发现 AMD Zen2 处理器的 `rdrand16` 指令永远无法生成全零值（0x0000），而 Intel 处理器正常。HN 评论区验证：问题仅影响 16 位模式，32/64 位正常。进一步分析发现，当 `rdrand16` 产生零值时，CF 标志被错误设为 0（表示失败），导致上层重试，零值永远不会被程序接收。评论者还指出 Zen5 的 RDSEED 存在类似 errata（AMD-SB-7055）。 |
+| 批注 | 一个看似微小的硬件 bug 在密码学场景中可能导致严重后果——任何依赖 `rdrand` 做密钥生成的系统都可能出现 0 值的系统性缺失，破坏随机性均匀分布假设。这类 bug 的隐蔽性在于：它不会导致崩溃，只是悄悄地扭曲统计分布。 |
+
+---
+
+## 技术雷达（2-3 条）
+
+### 8. Claude Opus 5.5 / Anthropic 发布 Claude Opus 5.5
+
+| 原文 | [Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5) |
+| --- | --- |
+| 热度 | ▲ 分数 · 💬 评论数 · 作者 · 时间 |
+| 摘要 | Claude Opus 5.5 性能追平 Claude Fable 5.1，成本降低 40%（输入 $4/M tokens，输出 $20/M tokens，缓存读取 $0.20/M tokens，较 Opus 5 降 60%）。输出速度提升 30% 以上。在 Terminal-Bench 4.0 达 66.4%，Humanity's Last Exam 达 67.7%（均含工具）。Anthropic 称这是"pacing the frontier"号召后的首次发布，但 HN 评论区大量用户质疑：口号说减速，实际却在用具体数字证明自己并没有减速。 |
+| 批注 | Opus 5.5 的真正意义在于价格——缓存读取降至 $0.20/M tokens，这意味着长时间 agentic 会话的成本结构被重塑。当 Anthropic 和 OpenAI 同日发布新模型时，竞争焦点已从"谁更强"转向"谁让开发者用得起"。 |
+
+### 9. Drop: a rootless Linux sandbox / 无 root Linux 沙箱
+
+| 原文 | [Show HN: Drop – a rootless Linux sandbox with gVisor support](https://droprun.sh/) |
+| --- | --- |
+| 热度 | ▲ 分数 · 💬 评论数 · 作者 · 时间 |
+| 摘要 | Drop 是一个无 root 权限的 Linux 沙箱工具，灵感来自 Python virtualenv，通过 Linux user namespace 隔离程序。支持 gVisor 用户态内核作为额外隔离层。核心场景：用 `--dangerously-skip-permissions` 跑 coding agent 时让 OS 层强制执行权限，防止 AI agent 的幻觉 `rm -rf ~` 或 prompt injection 访问 `~/.ssh`。 |
+| 技术要点 | Drop 在 user namespace 中运行后会丢弃所有 capabilities，程序无法在 namespace 内执行 bind mount 等特权操作。每个环境有自己的 home 目录，原始 home 被隐藏。TOML 配置语言控制哪些文件/目录/本地网络服务暴露给沙箱。 |
+
+### 10. How Meta's Muse works / Meta Muse 内部结构揭秘
+
+| 原文 | [How Meta's Muse works, revealed by the 6.8 GB filesystem it sent me](https://mouse.dev/blog/muse-runtime-export/) |
+| --- | --- |
+| 热度 | ▲ 分数 · 💬 评论数 · 作者 · 时间 |
+| 摘要 | 安全研究者要求 Meta Muse（AI agent）导出其可见文件系统，得到了 6.8GB 的完整 Linux 环境——包含 SOUL.md、MEMORY.md、113 个子 agent 的 JSONL 轨迹、68 个技能目录、SSH 密钥文件、以及 nightly "dream" 机制（夜间自动回顾对话并写入指导）。内部代号为 Hatch。作者已通过 Meta 的 bug bounty 上报。 |
+| 技术要点 | Muse 的运行时基于 systemd-nspawn 容器，技能系统采用 SKILL.md + CLI 工具的配对模式，记忆系统分为 bank（结构化存储）和 dreams（自动反思）。SSH 密钥的存在说明 agent 有能力连接外部服务——这是当前 AI agent 安全模型中最薄弱的环节之一。 |
+
+---
+
+## 社区之声（1-2 条）
+
+### 11. Pentagon: Palantir AI Overreliance Led to Strike Killing 123 Iranian Children / 五角大楼：Palantir AI 过度依赖导致伊朗学校袭击
+
+| 原文 | [Pentagon: Palantir AI Overreliance Led to Strike Killing 123 Iranian Children](https://www.bloomberg.com/graphics/2026-iran-school-attack/) |
+| --- | --- |
+| 热度 | ▲ 分数 · 💬 评论数 · 作者 · 时间 |
+| 摘要 | 五角大楼调查发现，美国对伊朗学校的导弹袭击中，AI 目标选择系统 Maven 的过度使用是致命错误的因素之一。白宫要求 24 小时内打击 1000 个目标，压缩了目标审查时间，负责平民保护的人员被裁减，而关于该学校已改为平民用途的情报从未进入目标数据库。HN 社区的核心论点是：AI 只是替罪羊——"无论是 AI 调用还是 SQL 查询，这是纯粹的人为恶意和无能"。 |
+| 高赞回答要点 | 用户 legitster 指出："情报从未进入目标数据库，负责审查目标清单的团队被裁撤，且从未被咨询。白宫要求 1000 个目标，从数据库中抽取时没有做任何尽职调查。"（[链接](https://news.ycombinator.com/item?id=49806430)） |
+
+### 12. Stanford R&DE Uses AI to Race Swap Students for Advertising / 斯坦福用 AI 替换学生广告中的种族
+
+| 原文 | [Stanford R&DE Uses AI to Race Swap Students for Advertising](https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/) |
+| --- | --- |
+| 热度 | ▲ 分数 · 💬 评论数 · 作者 · 时间 |
+| 摘要 | 斯坦福住宿与餐饮服务部门（R&DE）在宣传广告中使用 AI 将学生照片中的种族和性别进行替换——一名拉丁裔学生被替换为 AI 生成的黑人女性，旁边两名学生被 AI 瘦身。学生 Billy Ramirez 表示："看到我的身份被更改，我感到被沉默和抹去。"斯坦福 Review 将此归因于机构"持续存在的意识形态和种族偏好"。 |
+| 批注 | 这是一个 AI 伦理的具象化案例：当 AI 被用于"修正"现实以符合特定叙事时，它不仅侵犯了个人肖像权，更暴露了机构将 AI 作为意识形态工具的倾向——技术中立性在此彻底失效。 |
+
+---
+
+## 数据速览（今日 Top10 全量快照）
+
+| # | 原文标题 | 中文标题 | 分数 | 评论 |
+| --- | --- | --- | --- | --- |
+| 1 | [Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5) | Claude Opus 5.5 发布 | 987 | 720 |
+| 2 | [GPT-6 Sol and Luna](https://openai.com/index/introducing-gpt-6-sol-and-luna/) | GPT-6 Sol 和 Luna 发布 | 937 | 504 |
+| 3 | [I said no and Apple said yes](https://dbushell.com/2026/09/22/apple-intelligence/) | 我拒绝了，Apple 强行开启 | 771 | 629 |
+| 4 | [Apple has added persistent 'ads' to iOS](https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy) | Apple 在 iOS 中添加持久广告 | 539 | 413 |
+| 5 | [OpenAI GPT-6 Astra breaks Enigma](https://www.cryptocellar.org/bgac/the-mvueh-break.html) | GPT-6 Astra 破解恩尼格玛密码 | 509 | 346 |
+| 6 | [Can gzip be a language model?](https://nathan.rs/posts/gzip-lm/) | gzip 能当语言模型吗？ | 366 | 142 |
+| 7 | [AI Has No Wisdom and Neither Will You](https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/) | AI 没有智慧，你也不会有 | 349 | 489 |
+| 8 | [Will OpenAI Eat Jev's Lunch?](https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/) | OpenAI 即将抢走 Jev 的饭碗 | 234 | 176 |
+| 9 | [AMD's random number generator can't generate a 0?](https://board.flatassembler.net/topic.php?t=24261) | AMD 的随机数生成器无法生成 0 | 205 | 154 |
+| 10 | [Pentagon: Palantir AI Overreliance](https://www.bloomberg.com/graphics/2026-iran-school-attack/) | 五角大楼：Palantir AI 过度依赖 | 176 | 84 |
