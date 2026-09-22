@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-09-22T00:54:26.546850+00:00",
+  "window": {
+    "after": "2026-09-21T00:00:00+00:00",
+    "before": "2026-09-22T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "431277",
+      "title": "ZuckOff Know when a camera is in the room",
+      "url": "https://zuckoff.app/",
+      "author": "Bluestein",
+      "points": 586,
+      "comments": 3,
+      "published_at": "2026-09-21T10:33:14+00:00"
+    },
+    {
+      "id": "432085",
+      "title": "Attention is all you have",
+      "url": "https://alicegg.tech/2026/09/21/attention",
+      "author": "zer0tonin",
+      "points": 522,
+      "comments": 152,
+      "published_at": "2026-09-21T14:26:56+00:00"
+    },
+    {
+      "id": "432099",
+      "title": "Grok 4.7",
+      "url": "https://x.ai/news/grok-4-7",
+      "author": "meetpateltech",
+      "points": 471,
+      "comments": 387,
+      "published_at": "2026-09-21T15:50:15+00:00"
+    },
+    {
+      "id": "431204",
+      "title": "Disney+: New user agreement allows ads before movies in all subscriptions",
+      "url": "https://consumerrights.wiki/w/Disney%2B_ad_policy_change",
+      "author": "DeepLogin",
+      "points": 461,
+      "comments": 317,
+      "published_at": "2026-09-21T07:55:28+00:00"
+    },
+    {
+      "id": "431902",
+      "title": "What Sun Got Wrong",
+      "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+      "author": "chmaynard",
+      "points": 445,
+      "comments": 245,
+      "published_at": "2026-09-21T14:03:18+00:00"
+    },
+    {
+      "id": "430326",
+      "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+      "url": "https://github.com/jaredpalmer/kev/tree/main",
+      "author": "tosh",
+      "points": 376,
+      "comments": 168,
+      "published_at": "2026-09-21T07:11:55+00:00"
+    },
+    {
+      "id": "430080",
+      "title": "Grim Fandango Puzzle Document (1996) [pdf]",
+      "url": "http://gameshelf.jmac.org/2008/11/13/GrimPuzzleDoc_small.pdf",
+      "author": "kelseyfrog",
+      "points": 344,
+      "comments": 87,
+      "published_at": "2026-09-21T05:55:22+00:00"
+    },
+    {
+      "id": "432163",
+      "title": "Fable 5 – Median thinking declined in August",
+      "url": "https://twitter.com/Lon/status/2101793422487204027",
+      "author": "espeed",
+      "points": 340,
+      "comments": 235,
+      "published_at": "2026-09-21T16:13:57+00:00"
+    },
+    {
+      "id": "431276",
+      "title": "ZuckOff Is a Free App That Sees Meta Glasses Before They See You",
+      "url": "https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff",
+      "author": "choult",
+      "points": 309,
+      "comments": 303,
+      "published_at": "2026-09-21T10:27:50+00:00"
+    },
+    {
+      "id": "430262",
+      "title": "Mini-AGI – dynamic continual learning model trained from scratch on 8GB VRAM",
+      "url": "https://github.com/volotat/mini-AGI/",
+      "author": "volotat",
+      "points": 246,
+      "comments": 51,
+      "published_at": "2026-09-21T04:42:37+00:00"
+    },
+    {
+      "id": "431002",
+      "title": "Jev-Leftpad",
+      "url": "https://github.com/f/jev-leftpad",
+      "author": "fka",
+      "points": 226,
+      "comments": 84,
+      "published_at": "2026-09-21T08:39:32+00:00"
+    },
+    {
+      "id": "431938",
+      "title": "M5 Ultra Mac Studio Review: The Dream Mac for Local AI Agents",
+      "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
+      "author": "piotrgrabowski",
+      "points": 216,
+      "comments": 207,
+      "published_at": "2026-09-21T13:53:27+00:00"
+    },
+    {
+      "id": "431747",
+      "title": "Raspberry Pi blocks changing RAM chips",
+      "url": "https://forums.raspberrypi.com/viewtopic.php?p=2380887#p2380888",
+      "author": "edandersen",
+      "points": 205,
+      "comments": 160,
+      "published_at": "2026-09-21T12:54:24+00:00"
+    },
+    {
+      "id": "432011",
+      "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
+      "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
+      "author": "ano-ther",
+      "points": 205,
+      "comments": 92,
+      "published_at": "2026-09-21T14:10:49+00:00"
+    },
+    {
+      "id": "431001",
+      "title": "Heretic removes restrictions from language models",
+      "url": "https://heretic-project.org/",
+      "author": "Bluestein",
+      "points": 177,
+      "comments": 70,
+      "published_at": "2026-09-21T04:35:22+00:00"
+    },
+    {
+      "id": "432109",
+      "title": "Python Workers are now generally available",
+      "url": "https://blog.cloudflare.com/python-workers-ga/",
+      "author": "torutofu",
+      "points": 175,
+      "comments": 28,
+      "published_at": "2026-09-21T13:38:19+00:00"
+    },
+    {
+      "id": "432439",
+      "title": "Xiaomi MiMo v2.6",
+      "url": "https://mimo.xiaomi.com/mimo-v2-6",
+      "author": "volf_",
+      "points": 154,
+      "comments": 53,
+      "published_at": "2026-09-21T20:12:12+00:00"
+    },
+    {
+      "id": "431912",
+      "title": "Uber arbitration award over Emily Normandin-Parker's death",
+      "url": "https://consumerrights.wiki/w/Uber_arbitration_award_over_Emily_Normandin-Parker%27s_death",
+      "author": "dataflow",
+      "points": 152,
+      "comments": 170,
+      "published_at": "2026-09-21T14:09:48+00:00"
+    },
+    {
+      "id": "429948",
+      "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
+      "url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+      "author": "1vuio0pswjnm7",
+      "points": 145,
+      "comments": 84,
+      "published_at": "2026-09-21T04:28:44+00:00"
+    },
+    {
+      "id": "431857",
+      "title": "Ask HN: Is it impossible to disable Siri on macOS 27?",
+      "url": "https://news.ycombinator.com/item?id=49786609",
+      "author": "semidror",
+      "points": 137,
+      "comments": 73,
+      "published_at": "2026-09-21T12:47:05+00:00"
+    },
+    {
+      "id": "431937",
+      "title": "Don't Use AI to Write",
+      "url": "https://paulbakker.io/writing/no-ai-for-writing/",
+      "author": "eigenBasis",
+      "points": 133,
+      "comments": 72,
+      "published_at": "2026-09-21T08:54:44+00:00"
+    },
+    {
+      "id": "431981",
+      "title": "Meta bans ads for Virginia Woolf play in Spain",
+      "url": "https://www.theguardian.com/technology/2026/sep/21/meta-ban-virginia-woolf-a-room-of-ones-own-barcelona-teatre-raval",
+      "author": "uxhacker",
+      "points": 133,
+      "comments": 135,
+      "published_at": "2026-09-21T14:30:39+00:00"
+    },
+    {
+      "id": "432086",
+      "title": "Good people refuse to do bad things",
+      "url": "https://carette.xyz/posts/good_people_refuse_to_do_bad_things/",
+      "author": "Brajeshwar",
+      "points": 132,
+      "comments": 141,
+      "published_at": "2026-09-21T15:31:47+00:00"
+    },
+    {
+      "id": "429976",
+      "title": "Winning the Visa Lottery",
+      "url": "https://www.aeaweb.org/research/immigration-restrictions-firms-workers",
+      "author": "neehao",
+      "points": 101,
+      "comments": 106,
+      "published_at": "2026-09-21T03:37:02+00:00"
+    },
+    {
+      "id": "432031",
+      "title": "Ars Technica's Mac Mini review: The new M6 impresses but the price hike is rough",
+      "url": "https://arstechnica.com/gadgets/2026/09/apple-m6-mac-mini-review-300-price-hike-spoils-a-nice-upgrade/",
+      "author": "throw0101c",
+      "points": 101,
+      "comments": 67,
+      "published_at": "2026-09-21T14:11:45+00:00"
+    },
+    {
+      "id": "432333",
+      "title": "US halts flights at busy East Coast airports, says fiber line cut",
+      "url": "https://www.reuters.com/world/us/faa-halts-some-us-east-coast-flights-due-communication-issues-2026-09-21/",
+      "author": "allanbreyes",
+      "points": 91,
+      "comments": 56,
+      "published_at": "2026-09-21T18:41:59+00:00"
+    },
+    {
+      "id": "432045",
+      "title": "The Claude Delusion",
+      "url": "https://pluralistic.net/2026/09/21/sunsetting/",
+      "author": "hn_acker",
+      "points": 88,
+      "comments": 153,
+      "published_at": "2026-09-21T14:30:24+00:00"
+    },
+    {
+      "id": "432389",
+      "title": "The NASA/ESA Mars Sample Return mission has been canceled",
+      "url": "https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead",
+      "author": "Muhammad523",
+      "points": 73,
+      "comments": 26,
+      "published_at": "2026-09-21T19:14:12+00:00"
+    },
+    {
+      "id": "431899",
+      "title": "Sublime Text Build 4213",
+      "url": "https://www.sublimetext.com/blog/articles/sublime-text-4213",
+      "author": "konz",
+      "points": 71,
+      "comments": 39,
+      "published_at": "2026-09-21T07:01:38+00:00"
+    },
+    {
+      "id": "430079",
+      "title": "Far-left party wins Berlin election, pledging to nationalise housing",
+      "url": "https://www.reuters.com/world/far-left-party-wins-berlin-election-pledging-nationalise-housing-2026-09-20/",
+      "author": "theanonymousone",
+      "points": 67,
+      "comments": 142,
+      "published_at": "2026-09-21T05:36:24+00:00"
+    },
+    {
+      "id": "429890",
+      "title": "Why back propagation goes backward",
+      "url": "https://gregorygundersen.com/blog/2018/04/15/backprop/",
+      "author": "andsoitis",
+      "points": 65,
+      "comments": 10,
+      "published_at": "2026-09-21T00:42:14+00:00"
+    },
+    {
+      "id": "432293",
+      "title": "Turn off and restrict access to Apple Intelligence features on Mac",
+      "url": "https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac",
+      "author": "alwillis",
+      "points": 61,
+      "comments": 10,
+      "published_at": "2026-09-21T17:30:21+00:00"
+    },
+    {
+      "id": "432351",
+      "title": "Why Does an NPM Math Library Need an Encrypted Loader?",
+      "url": "https://safedep.io/mathmain-encrypted-loader/",
+      "author": "abhisek",
+      "points": 61,
+      "comments": 9,
+      "published_at": "2026-09-21T18:33:44+00:00"
+    },
+    {
+      "id": "432263",
+      "title": "Seattle Bans Rental Junk Fees",
+      "url": "https://www.multifamilydive.com/news/seattle-ban-rental-junk-fees/827816/",
+      "author": "toomuchtodo",
+      "points": 60,
+      "comments": 11,
+      "published_at": "2026-09-21T17:36:48+00:00"
+    },
+    {
+      "id": "432205",
+      "title": "Amazon Blocks Meta's New Muse AI Agent from Shopping on Amazon.com",
+      "url": "https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/",
+      "author": "simianwords",
+      "points": 55,
+      "comments": 32,
+      "published_at": "2026-09-21T17:00:23+00:00"
+    },
+    {
+      "id": "432438",
+      "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+      "url": "https://linear.app/now/ci-bottleneck-reworked",
+      "author": "julian_digital",
+      "points": 54,
+      "comments": 33,
+      "published_at": "2026-09-21T19:23:33+00:00"
+    },
+    {
+      "id": "432543",
+      "title": "CBP suspends all personal prescription importation Oct 22",
+      "url": "https://www.personalimportation.org/advocacy",
+      "author": "burnt-resistor",
+      "points": 54,
+      "comments": 10,
+      "published_at": "2026-09-21T20:58:17+00:00"
+    },
+    {
+      "id": "431911",
+      "title": "Show HN: Lossless-memory – a personal AI memory that never summarizes",
+      "url": "https://github.com/aru-labs/lossless-memory",
+      "author": "aru-labs",
+      "points": 53,
+      "comments": 20,
+      "published_at": "2026-09-21T12:28:17+00:00"
+    },
+    {
+      "id": "429947",
+      "title": "Deterministic Core, Non-Deterministic Shell",
+      "url": "https://outdata.net/blog/260803",
+      "author": "brandon_bot",
+      "points": 51,
+      "comments": 15,
+      "published_at": "2026-09-21T02:02:45+00:00"
+    },
+    {
+      "id": "432616",
+      "title": "Data Protection Commission fines Google €403M over processing of location data",
+      "url": "https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-fines-google-eu403-million-following-inquiry-googles-processing-location",
+      "author": "DeepLogin",
+      "points": 51,
+      "comments": 6,
+      "published_at": "2026-09-21T22:33:45+00:00"
+    },
+    {
+      "id": "432331",
+      "title": "Help 404 Media Find Out How Your Local Police Are Surveiling You",
+      "url": "https://www.404media.co/is-your-city-using-axon-license-plate-cameras-we-need-your-help/",
+      "author": "paimapi",
+      "points": 48,
+      "comments": 2,
+      "published_at": "2026-09-21T18:33:45+00:00"
+    },
+    {
+      "id": "431367",
+      "title": "Raspberry Pi 5 EEPROM update now blocks manual RAM upgrades",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1wkxjwg/raspberry_pi_5_eeprom_update_now_blocks_manual/",
+      "author": "csmantle",
+      "points": 47,
+      "comments": 23,
+      "published_at": "2026-09-21T06:50:15+00:00"
+    },
+    {
+      "id": "431611",
+      "title": "Elektron Machinedrum in the Browser",
+      "url": "https://machinedrum-study.pages.dev/",
+      "author": "risktopark",
+      "points": 47,
+      "comments": 22,
+      "published_at": "2026-09-21T06:07:52+00:00"
+    },
+    {
+      "id": "432595",
+      "title": "I don't want to read what you didn't write",
+      "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
+      "author": "mooreds",
+      "points": 46,
+      "comments": 13,
+      "published_at": "2026-09-21T22:30:41+00:00"
+    },
+    {
+      "id": "432180",
+      "title": "A restored PDP-11/83 serving this page on 211BSD Unix",
+      "url": "http://pdp1173.com/",
+      "author": "davepl",
+      "points": 45,
+      "comments": 14,
+      "published_at": "2026-09-21T15:45:06+00:00"
+    },
+    {
+      "id": "432330",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai/",
+      "author": "js73js8",
+      "points": 41,
+      "comments": 28,
+      "published_at": "2026-09-21T17:27:49+00:00"
+    },
+    {
+      "id": "431980",
+      "title": "We Write Code by Hand",
+      "url": "https://handcraftedcode.org/",
+      "author": "batmang",
+      "points": 39,
+      "comments": 68,
+      "published_at": "2026-09-21T13:28:23+00:00"
+    },
+    {
+      "id": "429707",
+      "title": "Can I Let My AI Agent Run on Shabbat?",
+      "url": "https://www.chabad.org/library/article_cdo/aid/7288064/jewish/Can-I-Let-My-AI-Agent-Run-on-Shabbat.htm",
+      "author": "some-guy",
+      "points": 36,
+      "comments": 19,
+      "published_at": "2026-09-21T02:05:45+00:00"
+    },
+    {
+      "id": "432064",
+      "title": "Shopify CEO says employees' 'slop grenades' are making more work for everyone",
+      "url": "https://www.businessinsider.com/shopify-ceo-ai-slop-grenades-can-make-work-harder-2026-9",
+      "author": "mococa",
+      "points": 33,
+      "comments": 6,
+      "published_at": "2026-09-21T13:46:37+00:00"
+    },
+    {
+      "id": "432437",
+      "title": "The Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/",
+      "author": "digital55",
+      "points": 33,
+      "comments": 14,
+      "published_at": "2026-09-21T19:17:42+00:00"
+    },
+    {
+      "id": "432434",
+      "title": "Apple Copland D11E4 Booting in the Browser",
+      "url": "https://www.pagetable.com/300",
+      "author": "luu",
+      "points": 32,
+      "comments": 6,
+      "published_at": "2026-09-21T18:15:32+00:00"
+    },
+    {
+      "id": "430657",
+      "title": "In September, AI generated code has made up 17.25% of all Linux Kernel patches",
+      "url": "https://twitter.com/LundukeJournal/status/2101841277432070210",
+      "author": "tosh",
+      "points": 31,
+      "comments": 78,
+      "published_at": "2026-09-21T07:59:18+00:00"
+    },
+    {
+      "id": "432435",
+      "title": "U.S. Small Biz Can't Ship to the EU Anymore",
+      "url": "https://glog.glennf.com/blog/2026/09/17/u-s-small-biz-cant-ship-to-the-eu-anymore/",
+      "author": "alsetmusic",
+      "points": 30,
+      "comments": 11,
+      "published_at": "2026-09-21T18:25:04+00:00"
+    },
+    {
+      "id": "432262",
+      "title": "How do Traffic Signals Work (2019)",
+      "url": "https://practical.engineering/blog/2019/5/11/how-do-traffic-signals-work",
+      "author": "at1as",
+      "points": 29,
+      "comments": 6,
+      "published_at": "2026-09-21T16:06:44+00:00"
+    },
+    {
+      "id": "432467",
+      "title": "Show HN: Foremerge – Catch intent conflicts between parallel coding agents",
+      "url": "https://github.com/naw103/foremerge",
+      "author": "naw103",
+      "points": 29,
+      "comments": 0,
+      "published_at": "2026-09-21T16:22:06+00:00"
+    },
+    {
+      "id": "432230",
+      "title": "This Digital Radio Gets Messages to the World’s Remotest Locations",
+      "url": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
+      "author": "SamuraiLion",
+      "points": 28,
+      "comments": 9,
+      "published_at": "2026-09-21T16:14:16+00:00"
+    },
+    {
+      "id": "432436",
+      "title": "In Search of a Compositional Theory of Self-Stabilization",
+      "url": "http://muratbuffalo.blogspot.com/2026/09/in-search-of-compositional-theory-of.html",
+      "author": "matt_d",
+      "points": 28,
+      "comments": 3,
+      "published_at": "2026-09-21T19:04:36+00:00"
+    },
+    {
+      "id": "432469",
+      "title": "Transformers Explained Visually",
+      "url": "https://poloclub.github.io/transformer-explainer/",
+      "author": "aray07",
+      "points": 28,
+      "comments": 3,
+      "published_at": "2026-09-21T19:43:49+00:00"
+    },
+    {
+      "id": "432698",
+      "title": "Spymarks, Not Watermarks",
+      "url": "https://brand.io/article/spymarks/",
+      "author": "possibilistic",
+      "points": 28,
+      "comments": 9,
+      "published_at": "2026-09-21T23:03:49+00:00"
+    },
+    {
+      "id": "431366",
+      "title": "North Korean Hackers Posed as Recruiters. They Infected 30k Devices Worldwide",
+      "url": "https://www.inc.com/kevin-haynes/north-korean-hackers-posed-as-recruiters-infected-30000-devices-worldwide/91408222",
+      "author": "jnord",
+      "points": 26,
+      "comments": 1,
+      "published_at": "2026-09-21T06:31:09+00:00"
+    },
+    {
+      "id": "431838",
+      "title": "Coding Theory: A Playful Introduction",
+      "url": "https://paramrathour.github.io/blog/coding-theory/",
+      "author": "vismit2000",
+      "points": 26,
+      "comments": 1,
+      "published_at": "2026-09-21T02:36:13+00:00"
+    },
+    {
+      "id": "432406",
+      "title": "Wall Street Is Growing Skeptical of the Data Center Boom",
+      "url": "https://www.nytimes.com/2026/09/21/business/ai-data-center-ipos.html",
+      "author": "mikhael",
+      "points": 26,
+      "comments": 28,
+      "published_at": "2026-09-21T19:14:30+00:00"
+    },
+    {
+      "id": "431461",
+      "title": "College Is Coming Apart After Successive, Overlapping Crises",
+      "url": "https://www.theatlantic.com/ideas/2026/09/college-education-future-ai/688655/",
+      "author": "ryan_j_naughton",
+      "points": 25,
+      "comments": 17,
+      "published_at": "2026-09-21T04:15:45+00:00"
+    },
+    {
+      "id": "432449",
+      "title": "Frontier AI on Your Own Hardware",
+      "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
+      "author": "pretext",
+      "points": 25,
+      "comments": 5,
+      "published_at": "2026-09-21T18:53:01+00:00"
+    },
+    {
+      "id": "432502",
+      "title": "Microsoft patents system to freeze games and inject ads during downtimes",
+      "url": "https://www.tomshardware.com/video-games/microsoft-patents-system-to-freeze-games-and-inject-ads-during-downtimes-watching-commercials-earns-ad-free-playtime-credits",
+      "author": "ricobecks",
+      "points": 25,
+      "comments": 8,
+      "published_at": "2026-09-21T19:16:40+00:00"
+    },
+    {
+      "id": "432526",
+      "title": "Show HN: A website that tracks US food prices every day",
+      "url": "https://www.kadoa.com/food-prices",
+      "author": "hubraumhugo",
+      "points": 25,
+      "comments": 6,
+      "published_at": "2026-09-21T19:24:10+00:00"
+    },
+    {
+      "id": "432548",
+      "title": "Roboharm: Do frontier robot policies refuse unsafe instructions?",
+      "url": "https://robocurve.org/roboharm/",
+      "author": "msadowski",
+      "points": 25,
+      "comments": 10,
+      "published_at": "2026-09-21T18:58:26+00:00"
+    },
+    {
+      "id": "432572",
+      "title": "Anthropic, OpenAI et al. face antitrust suit for agreeing to slow AI development",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/anthropic-openai-spacexai-and-google-face-antitrust-lawsuit-for-agreeing-to-slow-ai-development-plaintiffs-say-plan-has-been-in-motion-for-months-before-calls-agreement-self-serving",
+      "author": "MC995",
+      "points": 24,
+      "comments": 9,
+      "published_at": "2026-09-21T18:33:56+00:00"
+    },
+    {
+      "id": "432247",
+      "title": "Noodle Gallery- Open-source, self-hosted alternative to Google Photos and Immich",
+      "url": "https://digitalescapetools.com/tools/noodlegallery.html",
+      "author": "xabd",
+      "points": 23,
+      "comments": 10,
+      "published_at": "2026-09-21T14:22:58+00:00"
+    },
+    {
+      "id": "432468",
+      "title": "Big AI to humanity: drop dead",
+      "url": "https://matthewbutterick.com/chron/drop-dead.html",
+      "author": "Tomte",
+      "points": 23,
+      "comments": 0,
+      "published_at": "2026-09-21T17:23:19+00:00"
+    },
+    {
+      "id": "432573",
+      "title": "Gravity Linux Alpha Release: Linux on the M4 Mac Mini with GPU and DCP Support",
+      "url": "https://gravitylinux.org/blog/early-alpha-m4-mac-mini/",
+      "author": "ADevWithAnIdea",
+      "points": 23,
+      "comments": 8,
+      "published_at": "2026-09-21T18:38:19+00:00"
+    },
+    {
+      "id": "432501",
+      "title": "Avoiding the babbling-idiot failure in a time-triggered communication system",
+      "url": "https://ieeexplore.ieee.org/document/689473",
+      "author": "ronfriedhaber",
+      "points": 22,
+      "comments": 6,
+      "published_at": "2026-09-21T18:14:56+00:00"
+    },
+    {
+      "id": "432509",
+      "title": "The Apocalypse Will Not Be Sexy",
+      "url": "https://www.techdirt.com/2026/09/21/the-apocalypse-will-not-be-sexy/",
+      "author": "beardyw",
+      "points": 22,
+      "comments": 5,
+      "published_at": "2026-09-21T17:20:33+00:00"
+    },
+    {
+      "id": "431547",
+      "title": "Jev, Prolog, Pi, and the dream of probabilistic logic programming",
+      "url": "https://deepclause.substack.com/p/jev-prolog-pi-and-the-dream-of-probabilistic",
+      "author": "schmuhblaster",
+      "points": 21,
+      "comments": 0,
+      "published_at": "2026-09-21T00:42:20+00:00"
+    },
+    {
+      "id": "432697",
+      "title": "Do not fear AI. Fear AI companies",
+      "url": "https://df7sc6o35ljoz.cloudfront.net/posts/do-not-fear-ai-rev-2.html",
+      "author": "rDr4g0n",
+      "points": 20,
+      "comments": 5,
+      "published_at": "2026-09-21T22:40:31+00:00"
+    },
+    {
+      "id": "432654",
+      "title": "现货黄金突破 4370 美元/盎司，日内涨 0.61%。",
+      "url": "https://t.me/Financial_Express/3480313",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:41:23+00:00"
+    },
+    {
+      "id": "432655",
+      "title": "人民日报：锚定新定位，推动中美建设性战略稳定关系行稳致远",
+      "url": "https://t.me/Financial_Express/3480314",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:42:02+00:00"
+    },
+    {
+      "id": "432656",
+      "title": "英国将向沙特提供“防御性”军事支持",
+      "url": "https://t.me/Financial_Express/3480315",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:42:42+00:00"
+    },
+    {
+      "id": "432657",
+      "title": "纳指涨超 2%收创新高，Meta 收涨 11%、带动智能体相关芯片股大涨；原油四连跌，美油一度跌超 6%，布油近两周来首次盘中跌破 100 美元；离岸人民币两日突破 6.70、再创四年新高。",
+      "url": "https://t.me/Financial_Express/3480316",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:43:21+00:00"
+    },
+    {
+      "id": "432658",
+      "title": "2026 年，AI 驱动功率半导体高景气，全球功率半导体厂商多轮调价，英飞凌、德州仪器、意法半导体、安森美相继落地涨价动作。财通证券表示，功率半导体本轮涨价行情核心增量在于海外 IDM（集成器件制造商）库存策略发生结构性转变，企业主动以原厂",
+      "url": "https://t.me/Financial_Express/3480317",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:44:37+00:00"
+    },
+    {
+      "id": "432659",
+      "title": "人民日报：双方要用好人工智能政府间对话机制 打通技术、市场、产业壁垒",
+      "url": "https://t.me/Financial_Express/3480318",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:44:42+00:00"
+    },
+    {
+      "id": "432660",
+      "title": "折叠屏手机密集上新 拉动柔性电路板市场需求",
+      "url": "https://t.me/Financial_Express/3480319",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:45:02+00:00"
+    },
+    {
+      "id": "432661",
+      "title": "上交所终止环动科技科创板 IPO 审核",
+      "url": "https://t.me/Financial_Express/3480320",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:45:22+00:00"
+    },
+    {
+      "id": "432662",
+      "title": "马克龙：将与泽连斯基讨论停止打击能源设施的问题",
+      "url": "https://t.me/Financial_Express/3480321",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:47:02+00:00"
+    },
+    {
+      "id": "432663",
+      "title": "美国拟设 50 亿美元基金 帮助重建在伊朗战争中受损的中东基础设施",
+      "url": "https://t.me/Financial_Express/3480322",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:48:02+00:00"
+    },
+    {
+      "id": "432664",
+      "title": "Coinbase",
+      "url": "https://t.me/Financial_Express/3480323",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:50:02+00:00"
+    },
+    {
+      "id": "432665",
+      "title": "伊朗外长与联合国秘书长进行通话",
+      "url": "https://t.me/Financial_Express/3480324",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:50:42+00:00"
+    },
+    {
+      "id": "432666",
+      "title": "马克龙称法国准备帮助确保红海石油出口安全。",
+      "url": "https://t.me/Financial_Express/3480325",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:51:02+00:00"
+    },
+    {
+      "id": "432667",
+      "title": "法国总统马克龙称，法国准备帮助确保红海石油出口安全。",
+      "url": "https://t.me/Financial_Express/3480326",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:52:00+00:00"
+    },
+    {
+      "id": "432668",
+      "title": "青岛港：公司将不再持有方舟智能港航口岸服务（青岛）有限公司任何股权",
+      "url": "https://t.me/Financial_Express/3480327",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:52:02+00:00"
+    },
+    {
+      "id": "432669",
+      "title": "据沙特阿拉比亚电视台",
+      "url": "https://t.me/Financial_Express/3480328",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:52:42+00:00"
+    },
+    {
+      "id": "432670",
+      "title": "据沙特阿拉比亚电视台",
+      "url": "https://t.me/Financial_Express/3480329",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:53:22+00:00"
+    },
+    {
+      "id": "432671",
+      "title": "A 股分红派息转增一览：43 股今日股权登记",
+      "url": "https://t.me/Financial_Express/3480330",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:53:23+00:00"
+    },
+    {
+      "id": "432672",
+      "title": "Shopify 将采用 Meta 的 Muse 实现自主结账功能。（华尔街日报）",
+      "url": "https://t.me/Financial_Express/3480331",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:53:45+00:00"
+    },
+    {
+      "id": "432673",
+      "title": "马克龙与特朗普讨论俄乌停止打击能源设施事宜",
+      "url": "https://t.me/Financial_Express/3480332",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:56:02+00:00"
+    },
+    {
+      "id": "432674",
+      "title": "青岛：发放 5000 万元“乐购青岛”线上消费券",
+      "url": "https://t.me/Financial_Express/3480333",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:56:42+00:00"
+    },
+    {
+      "id": "432675",
+      "title": "9 月 17 日，Schroders PLC 增持三花智控 311.35 万股，每股作价 24.2394 港元，总金额约为 7546.94 万港元。增持后最新持股数目约为 8119.63 万股，持股比例为 17.04%。",
+      "url": "https://t.me/Financial_Express/3480334",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:56:57+00:00"
+    },
+    {
+      "id": "432676",
+      "title": "欢迎进入链接网页右侧下载本周财经数据与事件精美周历壁纸",
+      "url": "https://t.me/Financial_Express/3480335",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:57:02+00:00"
+    },
+    {
+      "id": "432677",
+      "title": "英媒：数月内俄无人机或袭北约",
+      "url": "https://t.me/Financial_Express/3480336",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:57:03+00:00"
+    },
+    {
+      "id": "432678",
+      "title": "英媒：俄或将很快试探北约底线 数月内俄无人机或袭北约",
+      "url": "https://t.me/Financial_Express/3480337",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-21T23:57:42+00:00"
+    }
+  ]
+}
