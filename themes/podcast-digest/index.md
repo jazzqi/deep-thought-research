@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-22T07:21:01+08:00
-revision: 2026-09-22T07:21:01+08:00
+updated: 2026-09-23T06:16:43+08:00
+revision: 2026-09-23T06:16:43+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Spotify的盈利之路：AI重塑、战略流程与音乐产业变革 —— Gustav Söderström · 2025-05-20](./iltb/spotifys-journey-to-profitability.md)
+- [沉迷于创造伟大企业：大卫·森德拉的传记研究启示 | David Senra · 2025-05-06](./iltb/the-obsession-that-creates-enduring-companies-david-senra-in.md)
 
 ## 往期
 
+- [沉迷于创造伟大企业：大卫·森德拉的传记研究启示 | David Senra · 2025-05-06](./iltb/the-obsession-that-creates-enduring-companies-david-senra-in.md)
 - [Spotify的盈利之路：AI重塑、战略流程与音乐产业变革 —— Gustav Söderström · 2025-05-20](./iltb/spotifys-journey-to-profitability.md)
 - [Graham Weaver 如何将应届毕业生成为CEO —— ILTB Podcast · 2025-05-27](./iltb/how-graham-weaver-turns-recent-grads-into-ceos.md)
 - [Podcast 学习文档 adam-foroughi-applovin-ceo-surviving-a-92-drawdown-ads-as-ml](./all-in/adam-foroughi-applovin-ceo-surviving-a-92-drawdown-ads-as-ml.md)
