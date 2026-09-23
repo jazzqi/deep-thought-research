@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-09-23T22:55:22.940496+00:00",
+  "window": {
+    "after": "2026-09-23T00:00:00+00:00",
+    "before": "2026-09-24T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "437668",
+      "title": "Jev in 25 Lines of Python",
+      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "author": "bashbjorn",
+      "points": 458,
+      "comments": 139,
+      "published_at": "2026-09-23T07:26:23+00:00"
+    },
+    {
+      "id": "437119",
+      "title": "Grammarly will send unhinged messages to all your users if you try to cancel",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/",
+      "author": "ksec",
+      "points": 332,
+      "comments": 93,
+      "published_at": "2026-09-23T04:00:43+00:00"
+    },
+    {
+      "id": "436989",
+      "title": "Transit rewards (Waymo pays you to take the train)",
+      "url": "https://waymo.com/blog/2026/09/transit-rewards/",
+      "author": "raybb",
+      "points": 234,
+      "comments": 289,
+      "published_at": "2026-09-23T02:52:29+00:00"
+    },
+    {
+      "id": "437998",
+      "title": "Netherlands bracing for potentially devastating US sanctions against the ICC",
+      "url": "https://apnews.com/article/icc-trump-sanctions-eu-israel-netherlands-2c1cc314732f920c2de59396d3b556f6",
+      "author": "vrganj",
+      "points": 125,
+      "comments": 118,
+      "published_at": "2026-09-23T09:09:49+00:00"
+    },
+    {
+      "id": "436900",
+      "title": "US criticises Australia's proposed algorithm opt-out laws as 'censorship'",
+      "url": "https://www.bbc.com/news/articles/cqj3dgy8x3vro",
+      "author": "1659447091",
+      "points": 105,
+      "comments": 131,
+      "published_at": "2026-09-23T02:13:52+00:00"
+    },
+    {
+      "id": "437148",
+      "title": "Data-only attacks are easier than you think (2024)",
+      "url": "https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think",
+      "author": "segfaultbuserr",
+      "points": 92,
+      "comments": 42,
+      "published_at": "2026-09-23T03:49:28+00:00"
+    },
+    {
+      "id": "437957",
+      "title": "Abandoning Scientific Linux Was a Mistake",
+      "url": "https://blog.melashri.net/posts/scientific-linux-mistake/",
+      "author": "elashri",
+      "points": 72,
+      "comments": 55,
+      "published_at": "2026-09-23T08:46:39+00:00"
+    },
+    {
+      "id": "437667",
+      "title": "Kalshi to allow trading on borrowed funds",
+      "url": "https://www.semafor.com/article/09/22/2026/kalshi-to-allow-trading-on-borrowed-funds",
+      "author": "cdrnsf",
+      "points": 22,
+      "comments": 8,
+      "published_at": "2026-09-23T01:44:02+00:00"
+    },
+    {
+      "id": "439659",
+      "title": "周三（9 月 23 日）纽约尾盘（周四北京时间 04:59），离岸人民币（CNH）兑美元报 6.7115 元，较周二纽约尾盘跌 127 点，日内整体交投于 6.6955-6.7142 元区间。",
+      "url": "https://t.me/Financial_Express/3486989",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:07:57+00:00"
+    },
+    {
+      "id": "439660",
+      "title": "穆迪评级本周发布的一份报告显示，五家美国科技巨头因人工智能投资而产生了总计 2.8 万亿美元的表外义务，这一快速攀升的数字凸显了它们为 AI 基础设施投资”烧钱”的程度。据穆迪统计，亚马逊、微软、谷歌母公司 Alphabet、Meta Pl",
+      "url": "https://t.me/Financial_Express/3486990",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:09:53+00:00"
+    },
+    {
+      "id": "439661",
+      "title": "周三（9 月 23 日）纽约尾盘，标普 500 股指期货最终跌 0.75%，道指期货跌 0.7%，纳斯达克 100 股指期货跌 0.83%。",
+      "url": "https://t.me/Financial_Express/3486991",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:10:44+00:00"
+    },
+    {
+      "id": "439662",
+      "title": "国际货币基金组织",
+      "url": "https://t.me/Financial_Express/3486992",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:12:22+00:00"
+    },
+    {
+      "id": "439663",
+      "title": "国际货币基金组织",
+      "url": "https://t.me/Financial_Express/3486993",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:12:42+00:00"
+    },
+    {
+      "id": "439664",
+      "title": "美股加密货币与加密货币关联指数跌 3.36%，报 80.04 点，整体持续扩大跌幅。",
+      "url": "https://t.me/Financial_Express/3486994",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:13:33+00:00"
+    },
+    {
+      "id": "439665",
+      "title": "富时 A50 期指连续夜盘收跌 0.50%，报 14462 点。",
+      "url": "https://t.me/Financial_Express/3486996",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:15:49+00:00"
+    },
+    {
+      "id": "439666",
+      "title": "联合国秘书长古特雷斯呼吁加快能源转型",
+      "url": "https://t.me/Financial_Express/3486997",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:19:42+00:00"
+    },
+    {
+      "id": "439667",
+      "title": "9 月 23 日，联合国秘书长古特雷斯在第 81 届联合国大会高级别周期间举行的气候问题高级别会议上发言指出，全球气候危机正在加速，必须立即采取更有力的行动。古特雷斯呼吁各国加快能源转型，扩大可再生能源使用规模、提高能源效率、减少甲烷排放，",
+      "url": "https://t.me/Financial_Express/3486998",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:20:24+00:00"
+    },
+    {
+      "id": "439668",
+      "title": "花旗集团将于周四启动与贷款投资者就派拉蒙天舞公司（Paramount Skydance Corp.）的会议，各大银行正筹备出售债务，以资助其对华纳兄弟探索公司（WBD）的收购。据知情人士透露，会议将于纽约时间上午 10:30 开始。",
+      "url": "https://t.me/Financial_Express/3486999",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:22:09+00:00"
+    },
+    {
+      "id": "439669",
+      "title": "米莱：将以“和平、务实和有效的方式”捍卫马岛主权",
+      "url": "https://t.me/Financial_Express/3487000",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:25:02+00:00"
+    },
+    {
+      "id": "439670",
+      "title": "米莱：将以“和平、务实和有效的方式”捍卫马岛主权",
+      "url": "https://t.me/Financial_Express/3487001",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:25:42+00:00"
+    },
+    {
+      "id": "439671",
+      "title": "空客获得法国武器装备总署（DGA）PARACOM 项目为期 25 年的网络安全合同。",
+      "url": "https://t.me/Financial_Express/3487002",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:27:02+00:00"
+    },
+    {
+      "id": "439672",
+      "title": "空中客车从 DGA（法国武器装备总署）赢得长达 25 年的 Paracom 网络安全协议。",
+      "url": "https://t.me/Financial_Express/3487003",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:27:05+00:00"
+    },
+    {
+      "id": "439673",
+      "title": "英国收紧伊朗银行制裁 加入美国对伊经济施压行动",
+      "url": "https://t.me/Financial_Express/3487004",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:31:02+00:00"
+    },
+    {
+      "id": "439674",
+      "title": "一个贸易团体周三主张，若企业已受国内最低税约束，则应豁免适用欧盟反利润转移税制的部分条款。美国全国对外贸易理事会（NFTC）在致欧盟委员会税务与海关总署负责人 Gerassimos Thomas 的一封信函中解释称，欧盟的受控外国公司（CF",
+      "url": "https://t.me/Financial_Express/3487005",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:32:22+00:00"
+    },
+    {
+      "id": "439675",
+      "title": "OpenAI 表示，其人工智能代理不当访问了澳大利亚政府文件，暂无证据显示病患记录遭到获取。",
+      "url": "https://t.me/Financial_Express/3487006",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:32:42+00:00"
+    },
+    {
+      "id": "439676",
+      "title": "OpenAI",
+      "url": "https://t.me/Financial_Express/3487007",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:34:02+00:00"
+    },
+    {
+      "id": "439677",
+      "title": "OpenAI 就澳大利亚事件发声",
+      "url": "https://t.me/Financial_Express/3487008",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:34:03+00:00"
+    },
+    {
+      "id": "439678",
+      "title": "OpenAI",
+      "url": "https://t.me/Financial_Express/3487009",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:35:42+00:00"
+    },
+    {
+      "id": "439679",
+      "title": "OpenAI",
+      "url": "https://t.me/Financial_Express/3487010",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:36:22+00:00"
+    },
+    {
+      "id": "439680",
+      "title": "习近平抵达美国首都华盛顿",
+      "url": "https://t.me/Financial_Express/3487011",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:36:22+00:00"
+    },
+    {
+      "id": "439681",
+      "title": "OpenAI",
+      "url": "https://t.me/Financial_Express/3487012",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:36:42+00:00"
+    },
+    {
+      "id": "439682",
+      "title": "OpenAI 就澳大利亚事件发声",
+      "url": "https://t.me/Financial_Express/3487013",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:37:02+00:00"
+    },
+    {
+      "id": "439683",
+      "title": "习近平抵达华盛顿，开始对美国进行国事访问",
+      "url": "https://t.me/Financial_Express/3487014",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:37:22+00:00"
+    },
+    {
+      "id": "439684",
+      "title": "OpenAI 表示，其人工智能代理不当访问了澳大利亚政府文件，暂无证据显示病患记录遭到获取。",
+      "url": "https://t.me/Financial_Express/3487015",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:37:55+00:00"
+    },
+    {
+      "id": "439685",
+      "title": "当地时间 9 月 23 日下午，国家主席习近平抵达华盛顿，开始对美国进行国事访问。（新华社）",
+      "url": "https://t.me/Financial_Express/3487016",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:38:25+00:00"
+    },
+    {
+      "id": "439686",
+      "title": "OpenAI",
+      "url": "https://t.me/Financial_Express/3487017",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:39:02+00:00"
+    },
+    {
+      "id": "439687",
+      "title": "OpenAI",
+      "url": "https://t.me/Financial_Express/3487018",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:39:02+00:00"
+    },
+    {
+      "id": "439688",
+      "title": "OpenAI",
+      "url": "https://t.me/Financial_Express/3487019",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:39:03+00:00"
+    },
+    {
+      "id": "439689",
+      "title": "OpenAI",
+      "url": "https://t.me/Financial_Express/3487020",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:39:22+00:00"
+    },
+    {
+      "id": "439690",
+      "title": "美国监管层拟加速烟草袋（尼古丁袋）审批。",
+      "url": "https://t.me/Financial_Express/3487021",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:44:54+00:00"
+    },
+    {
+      "id": "439691",
+      "title": "根据美国食品药品管理局（FDA）信函，武田制药（Takeda Pharmaceuticals）已获得 FDA 批准，在 Adzynma 的处方信息中添加黑框警告（Boxed Warning），以警示中和抗体可能导致包括死亡在内的严重结局风险",
+      "url": "https://t.me/Financial_Express/3487022",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:50:37+00:00"
+    },
+    {
+      "id": "439692",
+      "title": "巴基斯坦政府",
+      "url": "https://t.me/Financial_Express/3487023",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:51:22+00:00"
+    },
+    {
+      "id": "439693",
+      "title": "华盛顿：机场迎接仪式准备中 迎候习近平主席到访",
+      "url": "https://t.me/Financial_Express/3487024",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:51:23+00:00"
+    },
+    {
+      "id": "439694",
+      "title": "美国疾病控制与预防中心（CDC）确认美国出现一例麻疹相关死亡病例，该病例最初由宾夕法尼亚州报告。",
+      "url": "https://t.me/Financial_Express/3487025",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:51:29+00:00"
+    },
+    {
+      "id": "439695",
+      "title": "世界银行集团行长 Ajay Banga 表示，数据中心在新兴市场大规模普及的前景渺茫，将宝贵的能源资源与人工智能（AI）共享的理念在这些地区并不合时宜。",
+      "url": "https://t.me/Financial_Express/3487026",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:54:08+00:00"
+    },
+    {
+      "id": "439696",
+      "title": "朝鲜官媒朝中社报道，，朝鲜 9 月 22 日试射了升级版 240 毫米口径制导多管火箭炮。",
+      "url": "https://t.me/Financial_Express/3487027",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:56:21+00:00"
+    },
+    {
+      "id": "439697",
+      "title": "谷歌公司旗下 YouTube",
+      "url": "https://t.me/Financial_Express/3487028",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T21:58:43+00:00"
+    },
+    {
+      "id": "439698",
+      "title": "中方呼吁俄乌早日实现停火止战",
+      "url": "https://t.me/Financial_Express/3487029",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:00:22+00:00"
+    },
+    {
+      "id": "439699",
+      "title": "周四亚太盘初，WTI 原油期货高开 0.7%，交投于 93 美元附近，投资者关注重燃的伊朗紧张局势。",
+      "url": "https://t.me/Financial_Express/3487030",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:01:16+00:00"
+    },
+    {
+      "id": "439700",
+      "title": "特朗普总统赴机场 欢迎习近平主席到访",
+      "url": "https://t.me/Financial_Express/3487031",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:02:42+00:00"
+    },
+    {
+      "id": "439701",
+      "title": "Starboard 大幅持股 Knife River。（华尔街日报）",
+      "url": "https://t.me/Financial_Express/3487032",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:02:49+00:00"
+    },
+    {
+      "id": "439702",
+      "title": "美联储 10 月加息的概率抬升至 69.7%",
+      "url": "https://t.me/Financial_Express/3487033",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:03:02+00:00"
+    },
+    {
+      "id": "439703",
+      "title": "习近平抵达美国之际，美国财政部长贝森特宣布，中美贸易休战期延长至 2027 年 1 月 10 日。9 月 23 日与何立峰的会面是“看看能否达成更大的协议”。可以沿用目前与中国的协议。（福克斯新闻）",
+      "url": "https://t.me/Financial_Express/3487034",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:06:30+00:00"
+    },
+    {
+      "id": "439704",
+      "title": "周四亚太盘初，纳指期货、标普股指期货、罗素 2000 股指期货涨 0.1%。",
+      "url": "https://t.me/Financial_Express/3487035",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:08:16+00:00"
+    },
+    {
+      "id": "439705",
+      "title": "习近平抵达华盛顿对美国进行国事访问",
+      "url": "https://t.me/Financial_Express/3487036",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:09:02+00:00"
+    },
+    {
+      "id": "439706",
+      "title": "People Inc.撤回收购 MGM Resorts International 的提议。",
+      "url": "https://t.me/Financial_Express/3487037",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:10:36+00:00"
+    },
+    {
+      "id": "439707",
+      "title": "美国财政部长贝森特",
+      "url": "https://t.me/Financial_Express/3487038",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:11:01+00:00"
+    },
+    {
+      "id": "439708",
+      "title": "贝森特",
+      "url": "https://t.me/Financial_Express/3487039",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:13:02+00:00"
+    },
+    {
+      "id": "439709",
+      "title": "也门胡塞武装：近期逾 400 艘商船通过曼德海峡",
+      "url": "https://t.me/Financial_Express/3487040",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:13:02+00:00"
+    },
+    {
+      "id": "439710",
+      "title": "美国财政部长贝森特",
+      "url": "https://t.me/Financial_Express/3487041",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:13:57+00:00"
+    },
+    {
+      "id": "439711",
+      "title": "美国财长贝森特",
+      "url": "https://t.me/Financial_Express/3487042",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:14:22+00:00"
+    },
+    {
+      "id": "439712",
+      "title": "也门胡塞武装：近期逾 400 艘商船通过曼德海峡",
+      "url": "https://t.me/Financial_Express/3487043",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:14:42+00:00"
+    },
+    {
+      "id": "439713",
+      "title": "美国财长贝森特",
+      "url": "https://t.me/Financial_Express/3487044",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:15:02+00:00"
+    },
+    {
+      "id": "439714",
+      "title": "美国财长贝森特",
+      "url": "https://t.me/Financial_Express/3487045",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:15:22+00:00"
+    },
+    {
+      "id": "439715",
+      "title": "9 月以来这一态势仍在延续。益标准数据显示",
+      "url": "https://t.me/Financial_Express/3487046",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:16:41+00:00"
+    },
+    {
+      "id": "439716",
+      "title": "美国考虑就美元支持的海外稳定币提供激励。",
+      "url": "https://t.me/Financial_Express/3487047",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:16:47+00:00"
+    },
+    {
+      "id": "439717",
+      "title": "美国财长贝森特",
+      "url": "https://t.me/Financial_Express/3487048",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:17:02+00:00"
+    },
+    {
+      "id": "439718",
+      "title": "美国正考虑推出一项举措，在海外推广由美元储备支撑的稳定币。",
+      "url": "https://t.me/Financial_Express/3487049",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:17:22+00:00"
+    },
+    {
+      "id": "439719",
+      "title": "美国财政部长贝森特",
+      "url": "https://t.me/Financial_Express/3487050",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:17:48+00:00"
+    },
+    {
+      "id": "439720",
+      "title": "美国财长贝森特",
+      "url": "https://t.me/Financial_Express/3487051",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:19:22+00:00"
+    },
+    {
+      "id": "439721",
+      "title": "美国柴油价格上涨 1.2%，交易员正在权衡美国可能限制出口的情况。",
+      "url": "https://t.me/Financial_Express/3487052",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:19:42+00:00"
+    },
+    {
+      "id": "439722",
+      "title": "截至 9 月 18 日，股票私募仓位指数（有业绩记录的主观多头股票策略私募产品平均仓位水平）连续两周上涨。从结构来看，截至 9 月 18 日，仓位超过八成的私募占比高达 67%以上。在业内人士看来，经过前段时间的估值消化，市场结构性行情大概",
+      "url": "https://t.me/Financial_Express/3487053",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:22:04+00:00"
+    },
+    {
+      "id": "439723",
+      "title": "美国财长贝森特",
+      "url": "https://t.me/Financial_Express/3487054",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:23:22+00:00"
+    },
+    {
+      "id": "439724",
+      "title": "美国柴油上涨 1.21%，交易员评估特朗普政府抑制出口的可能性。",
+      "url": "https://t.me/Financial_Express/3487055",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:23:26+00:00"
+    },
+    {
+      "id": "439725",
+      "title": "基辅市长",
+      "url": "https://t.me/Financial_Express/3487056",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:24:42+00:00"
+    },
+    {
+      "id": "439726",
+      "title": "乌克兰首都基辅发生一系列爆炸，此前当地发布俄军导弹袭击警报。",
+      "url": "https://t.me/Financial_Express/3487057",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:27:22+00:00"
+    },
+    {
+      "id": "439727",
+      "title": "调研产业链获悉，当前 PCB 产业出现显著变化：一方面，比上游涨价更为值得关注的是，PCB 板厂迎来盈利修复窗口；另一方面，产业成长驱动力也在悄然蓄势，除了 AI 算力动能持续强劲，机器人、光模块等新成长动能已初现端倪，整个产业进入“强者恒",
+      "url": "https://t.me/Financial_Express/3487058",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:27:40+00:00"
+    },
+    {
+      "id": "439728",
+      "title": "美国财长贝森特",
+      "url": "https://t.me/Financial_Express/3487059",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:27:42+00:00"
+    },
+    {
+      "id": "439729",
+      "title": "乌克兰基辅市长克利奇科",
+      "url": "https://t.me/Financial_Express/3487060",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:28:02+00:00"
+    },
+    {
+      "id": "439730",
+      "title": "金秋布局正当时，公募基金开启“秋播”窗口。近期，华宝基金、建信基金、汇丰晋信基金、富国基金等多家基金公司举行秋季投资策略会，研判后市投资机遇。综合来看，机构普遍看好权益资产配置价值，认为有较多投资机会可以把握。从投资方向看，AI 依然是重要",
+      "url": "https://t.me/Financial_Express/3487061",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:29:33+00:00"
+    },
+    {
+      "id": "439731",
+      "title": "① 07:00 Meta 开发者大会，扎克伯格将发表主题演讲；",
+      "url": "https://t.me/Financial_Express/3487062",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:29:34+00:00"
+    },
+    {
+      "id": "439732",
+      "title": "周四重要财经信息提醒（以下均为北京时间）",
+      "url": "https://t.me/Financial_Express/3487063",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:30:22+00:00"
+    },
+    {
+      "id": "439733",
+      "title": "美国财长贝森特",
+      "url": "https://t.me/Financial_Express/3487064",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:31:22+00:00"
+    },
+    {
+      "id": "439734",
+      "title": "纽约 AI 底层算力初创公司 Modal Labs 正洽谈新一轮融资，估值约 150 亿美元。",
+      "url": "https://t.me/Financial_Express/3487065",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:32:22+00:00"
+    },
+    {
+      "id": "439735",
+      "title": "云计算平台 Modal Labs 正在洽谈以约 150 亿美元的估值获得新融资。",
+      "url": "https://t.me/Financial_Express/3487066",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:33:02+00:00"
+    },
+    {
+      "id": "439736",
+      "title": "美国纽约 AI 底层算力初创公司 Modal Labs 正洽谈新一轮融资，估值约 150 亿美元。",
+      "url": "https://t.me/Financial_Express/3487067",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:33:16+00:00"
+    },
+    {
+      "id": "439737",
+      "title": "美国财长贝森特",
+      "url": "https://t.me/Financial_Express/3487068",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:34:22+00:00"
+    },
+    {
+      "id": "439738",
+      "title": "8 月以来，一批“先锋派”成长风格基金已反弹超 40%，基金净值出现快速修复。与此同时，华商基金余懿、易方达基金黄蕴藉、方正富邦基金乔培涛等主动基金经理凭借灵活的持仓应对，旗下部分产品的基金净值在本周创下历史新高。采访了解到，随着热潮过去，",
+      "url": "https://t.me/Financial_Express/3487069",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:34:48+00:00"
+    },
+    {
+      "id": "439739",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3487070",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:36:02+00:00"
+    },
+    {
+      "id": "439740",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3487071",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:36:22+00:00"
+    },
+    {
+      "id": "439741",
+      "title": "美国财长贝森特",
+      "url": "https://t.me/Financial_Express/3487072",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:37:22+00:00"
+    },
+    {
+      "id": "439742",
+      "title": "贝森特：油价在供应恢复后将回落",
+      "url": "https://t.me/Financial_Express/3487073",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:37:42+00:00"
+    },
+    {
+      "id": "439743",
+      "title": "美国财长贝森特",
+      "url": "https://t.me/Financial_Express/3487074",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:37:43+00:00"
+    },
+    {
+      "id": "439744",
+      "title": "贝森特：不确定在联合国的伊朗代表怎么回国",
+      "url": "https://t.me/Financial_Express/3487075",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:41:02+00:00"
+    },
+    {
+      "id": "439745",
+      "title": "近日，理财公司降费潮再次来袭，部分理财产品固定管理费率已逼近 0。在固收类产品收益率下行、产品同质化严重的背景下，“卷费率”成为理财公司“以价换量”、争夺存量资金的重要手段。记者注意到，由于渠道端拥有强势话语权，理财行业降费多从固定管理费“",
+      "url": "https://t.me/Financial_Express/3487076",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:41:57+00:00"
+    },
+    {
+      "id": "439746",
+      "title": "韩国总统办公室称，总统李在明与美国总统特朗普讨论了军舰建造事宜。",
+      "url": "https://t.me/Financial_Express/3487077",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:42:42+00:00"
+    },
+    {
+      "id": "439747",
+      "title": "韩国总统府",
+      "url": "https://t.me/Financial_Express/3487078",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:43:02+00:00"
+    },
+    {
+      "id": "439748",
+      "title": "“炒金”通道正在银行体系内加速收窄，积存金业务却在持续扩容。近日，光大银行宣布，10 月 19 日后将择时停办代理上海黄金交易所个人贵金属业务，成为继工商银行、建设银行、交通银行、招商银行、中信银行、浦发银行、广发银行等银行之后，今年以来又",
+      "url": "https://t.me/Financial_Express/3487079",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:45:27+00:00"
+    },
+    {
+      "id": "439749",
+      "title": "韩国总统办公室表示，总统李在明称韩华集团费城造船厂将为美国建造军舰。",
+      "url": "https://t.me/Financial_Express/3487080",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:46:02+00:00"
+    },
+    {
+      "id": "439750",
+      "title": "韩国总统府",
+      "url": "https://t.me/Financial_Express/3487081",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T22:49:02+00:00"
+    }
+  ]
+}
