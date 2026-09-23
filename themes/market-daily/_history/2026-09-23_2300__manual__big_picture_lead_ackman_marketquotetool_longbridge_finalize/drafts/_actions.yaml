@@ -1,0 +1,15 @@
+actions:
+- priority: P1
+  summary: 验证9/23美股收盘：PMI超预期+收益率破5%是否导致纳指/标普反转或加剧回调，VIX是否突破16
+  target_flow_params: {}
+  type: follow_up
+- priority: P1
+  recurrence: daily
+  summary: 监控9/24初请失业金（前值19.6万，预期20.0万）：若意外上升将强化滞胀叙事，收益率与股市背离可能恶化
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  recurrence: daily
+  summary: 监控霍尔木兹海峡通行量/油价变化：特朗普外交信号与伊朗强硬立场的矛盾是否升级
+  target_flow_params: {}
+  type: monitoring
