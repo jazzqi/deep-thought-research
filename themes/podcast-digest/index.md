@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-24T06:18:18+08:00
-revision: 2026-09-24T06:18:18+08:00
+updated: 2026-09-24T08:20:54+08:00
+revision: 2026-09-24T08:20:54+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Finding the Next Figma, Wiz & Stripe Before It's Obvious — Neil Mehta（Green Oaks 创始人） · 2025-04-15](./iltb/finding-the-next-figma-wiz-stripe-before-its-obvious-neil-me.md)
+- [Michael Ovitz: 将潜力转化为声望 —— ILTB Podcast · 2025-04-08](./iltb/michael-ovitz---turning-potential-into-prominence.md)
 
 ## 往期
 
+- [Michael Ovitz: 将潜力转化为声望 —— ILTB Podcast · 2025-04-08](./iltb/michael-ovitz---turning-potential-into-prominence.md)
 - [Finding the Next Figma, Wiz & Stripe Before It's Obvious — Neil Mehta（Green Oaks 创始人） · 2025-04-15](./iltb/finding-the-next-figma-wiz-stripe-before-its-obvious-neil-me.md)
 - [Cliff Sosin：Carvana 从 -99% 到行业领导者的投资全过程 —— ILTB Podcast · 2025-04-29](./iltb/investor-details-carvanas-wild-ride-from--99-to-market-leade.md)
 - [The Obsession That Creates Enduring Companies | David Senra Interview — @ILTB_Podcast · 2025-05-06](./iltb/the-obsession-that-creates-enduring-companies-david-senra-in.md)
