@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-09-24T00:48:39.518274+00:00",
+  "window": {
+    "after": "2026-09-23T00:00:00+00:00",
+    "before": "2026-09-24T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "437668",
+      "title": "Jev in 25 Lines of Python",
+      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "author": "bashbjorn",
+      "points": 611,
+      "comments": 193,
+      "published_at": "2026-09-23T07:26:23+00:00"
+    },
+    {
+      "id": "437119",
+      "title": "Grammarly will send unhinged messages to all your users if you try to cancel",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/",
+      "author": "ksec",
+      "points": 332,
+      "comments": 93,
+      "published_at": "2026-09-23T04:00:43+00:00"
+    },
+    {
+      "id": "436989",
+      "title": "Transit rewards (Waymo pays you to take the train)",
+      "url": "https://waymo.com/blog/2026/09/transit-rewards/",
+      "author": "raybb",
+      "points": 234,
+      "comments": 289,
+      "published_at": "2026-09-23T02:52:29+00:00"
+    },
+    {
+      "id": "437998",
+      "title": "Netherlands bracing for potentially devastating US sanctions against the ICC",
+      "url": "https://apnews.com/article/icc-trump-sanctions-eu-israel-netherlands-2c1cc314732f920c2de59396d3b556f6",
+      "author": "vrganj",
+      "points": 138,
+      "comments": 125,
+      "published_at": "2026-09-23T09:09:49+00:00"
+    },
+    {
+      "id": "436900",
+      "title": "US criticises Australia's proposed algorithm opt-out laws as 'censorship'",
+      "url": "https://www.bbc.com/news/articles/cqj3dgy8x3vro",
+      "author": "1659447091",
+      "points": 110,
+      "comments": 141,
+      "published_at": "2026-09-23T02:13:52+00:00"
+    },
+    {
+      "id": "437148",
+      "title": "Data-only attacks are easier than you think (2024)",
+      "url": "https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think",
+      "author": "segfaultbuserr",
+      "points": 92,
+      "comments": 42,
+      "published_at": "2026-09-23T03:49:28+00:00"
+    },
+    {
+      "id": "437957",
+      "title": "Abandoning Scientific Linux Was a Mistake",
+      "url": "https://blog.melashri.net/posts/scientific-linux-mistake/",
+      "author": "elashri",
+      "points": 75,
+      "comments": 56,
+      "published_at": "2026-09-23T08:46:39+00:00"
+    },
+    {
+      "id": "437667",
+      "title": "Kalshi to allow trading on borrowed funds",
+      "url": "https://www.semafor.com/article/09/22/2026/kalshi-to-allow-trading-on-borrowed-funds",
+      "author": "cdrnsf",
+      "points": 22,
+      "comments": 8,
+      "published_at": "2026-09-23T01:44:02+00:00"
+    },
+    {
+      "id": "439781",
+      "title": "阳光资产获批变更业务范围",
+      "url": "https://t.me/Financial_Express/3487113",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:15:22+00:00"
+    },
+    {
+      "id": "439782",
+      "title": "孟加拉国航空公司向波音(BA.N)订购 11 架 787 梦想飞机和 737 MAX 飞机。",
+      "url": "https://t.me/Financial_Express/3487114",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:16:02+00:00"
+    },
+    {
+      "id": "439783",
+      "title": "微软计划 2030 年前向中东投资超 100 亿美元，加强 AI 基础设施建设",
+      "url": "https://t.me/Financial_Express/3487115",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:17:02+00:00"
+    },
+    {
+      "id": "439784",
+      "title": "SpaceX",
+      "url": "https://t.me/Financial_Express/3487116",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:17:42+00:00"
+    },
+    {
+      "id": "439785",
+      "title": "委内瑞拉代理总统德尔西·罗德里格斯在联合国大会表示",
+      "url": "https://t.me/Financial_Express/3487117",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:18:02+00:00"
+    },
+    {
+      "id": "439786",
+      "title": "Meta 推出不带摄像头的 Ray-Ban 智能眼镜，售价 349 美元，并将 Muse 引入该眼镜产品。",
+      "url": "https://t.me/Financial_Express/3487118",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:18:33+00:00"
+    },
+    {
+      "id": "439787",
+      "title": "委内瑞拉临时总统罗德里格斯",
+      "url": "https://t.me/Financial_Express/3487119",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:19:02+00:00"
+    },
+    {
+      "id": "439788",
+      "title": "委内瑞拉临时总统罗德里格斯",
+      "url": "https://t.me/Financial_Express/3487120",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:19:02+00:00"
+    },
+    {
+      "id": "439789",
+      "title": "委内瑞拉重申对埃塞奎博地区的“历史权利”。",
+      "url": "https://t.me/Financial_Express/3487121",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:19:03+00:00"
+    },
+    {
+      "id": "439790",
+      "title": "META 表示将在其所有智能眼镜中添加 MUSE 功能。",
+      "url": "https://t.me/Financial_Express/3487122",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:19:22+00:00"
+    },
+    {
+      "id": "439791",
+      "title": "Meta Platforms(META.O)",
+      "url": "https://t.me/Financial_Express/3487123",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:20:02+00:00"
+    },
+    {
+      "id": "439792",
+      "title": "规模情结驱动降费潮 理财行业亟须跳出价格战",
+      "url": "https://t.me/Financial_Express/3487124",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:20:02+00:00"
+    },
+    {
+      "id": "439793",
+      "title": "Meta 高管表示，沃尔玛、Gap、百思买等公司正被整合进 Muse 平台。",
+      "url": "https://t.me/Financial_Express/3487125",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:20:22+00:00"
+    },
+    {
+      "id": "439794",
+      "title": "委内瑞拉临时总统罗德里格斯",
+      "url": "https://t.me/Financial_Express/3487126",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:21:02+00:00"
+    },
+    {
+      "id": "439795",
+      "title": "委内瑞拉临时总统罗德里格斯",
+      "url": "https://t.me/Financial_Express/3487127",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:21:02+00:00"
+    },
+    {
+      "id": "439796",
+      "title": "委内瑞拉代总统罗德里格斯",
+      "url": "https://t.me/Financial_Express/3487128",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:21:03+00:00"
+    },
+    {
+      "id": "439797",
+      "title": "META 宣布为其人工智能助手 MUSE 建立新的合作伙伴关系。",
+      "url": "https://t.me/Financial_Express/3487129",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:21:42+00:00"
+    },
+    {
+      "id": "439798",
+      "title": "中国科学院院士、中国神经科学学会理事长张旭表示，类脑智能当前发展的最大挑战，并非单纯来自现在主流人工智能算力竞争，而是神经科学、脑机接口、数学、计算机科学、芯片制造等多学科的深度交叉与范式协同不足。类脑智能要真正实现突破，需要打通涵盖脑认知",
+      "url": "https://t.me/Financial_Express/3487130",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:21:55+00:00"
+    },
+    {
+      "id": "439799",
+      "title": "纳斯达克金龙中国指数收跌 1.43%，报 5763.01 点，跳空低开之后持续低位震荡。",
+      "url": "https://t.me/Financial_Express/3487131",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:21:56+00:00"
+    },
+    {
+      "id": "439800",
+      "title": "在印度国内供应充足、且黑海贸易中断推高全球粮价的背景下，印度解除了小麦出口禁令，孟加拉国随之恢复从其西部邻国采购小麦。据知情人士透露，自 8 月下旬禁令解除以来，进口商已订购超过 20 万吨印度小麦——这是自 2022 年以来的首批大规模小",
+      "url": "https://t.me/Financial_Express/3487132",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:21:59+00:00"
+    },
+    {
+      "id": "439801",
+      "title": "美国将出资 70 亿美元用于阿根廷的关键矿产和能源项目。",
+      "url": "https://t.me/Financial_Express/3487133",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:23:02+00:00"
+    },
+    {
+      "id": "439802",
+      "title": "委内瑞拉",
+      "url": "https://t.me/Financial_Express/3487134",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:23:03+00:00"
+    },
+    {
+      "id": "439803",
+      "title": "孟加拉航空订购 11 架波音飞机",
+      "url": "https://t.me/Financial_Express/3487135",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:24:02+00:00"
+    },
+    {
+      "id": "439804",
+      "title": "穆迪评级表示，面临被 AI 取代风险的企业，可能难以对其实物付息（PIK）贷款进行再融资。原因在于企业估值下滑，导致投资者不愿购入新债。",
+      "url": "https://t.me/Financial_Express/3487136",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:24:17+00:00"
+    },
+    {
+      "id": "439805",
+      "title": "委内瑞拉代总统罗德里格斯",
+      "url": "https://t.me/Financial_Express/3487137",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:25:02+00:00"
+    },
+    {
+      "id": "439806",
+      "title": "加仓意愿再度集聚 股票私募仓位两周连涨",
+      "url": "https://t.me/Financial_Express/3487138",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:25:22+00:00"
+    },
+    {
+      "id": "439807",
+      "title": "阿根廷和美国启动安第斯-大西洋经济走廊。",
+      "url": "https://t.me/Financial_Express/3487139",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:25:23+00:00"
+    },
+    {
+      "id": "439808",
+      "title": "强劲 PMI 数据提振加息预期，纳指终结四连涨，10 年期美债收益率再破 5%，美元涨，金银大跌。",
+      "url": "https://t.me/Financial_Express/3487140",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:25:26+00:00"
+    },
+    {
+      "id": "439809",
+      "title": "委内瑞拉临时总统罗德里格斯",
+      "url": "https://t.me/Financial_Express/3487141",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:26:02+00:00"
+    },
+    {
+      "id": "439810",
+      "title": "高通拟收购机器人软件公司 PickNik，加强开源机器人及实体 AI 布局",
+      "url": "https://t.me/Financial_Express/3487142",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:26:22+00:00"
+    },
+    {
+      "id": "439811",
+      "title": "汇丰因安全顾虑将本月董事会会议地点从迪拜改成伦敦",
+      "url": "https://t.me/Financial_Express/3487143",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:27:02+00:00"
+    },
+    {
+      "id": "439812",
+      "title": "Meta 宣布推出智能眼镜隐私处理方案。",
+      "url": "https://t.me/Financial_Express/3487144",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:27:03+00:00"
+    },
+    {
+      "id": "439813",
+      "title": "委内瑞拉代理总统罗德里格斯",
+      "url": "https://t.me/Financial_Express/3487145",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:27:22+00:00"
+    },
+    {
+      "id": "439814",
+      "title": "科技巨头抢滩药物研发 AI 制药进入跨界竞合阶段",
+      "url": "https://t.me/Financial_Express/3487146",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:27:22+00:00"
+    },
+    {
+      "id": "439815",
+      "title": "AI 算力与新硬件布局落地 消费电子业绩持续兑现",
+      "url": "https://t.me/Financial_Express/3487147",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:29:02+00:00"
+    },
+    {
+      "id": "439816",
+      "title": "谷歌推出 Gemini 3.8 Flash TTS 及 Flash-Lite TTS，支持自定义 AI 声音",
+      "url": "https://t.me/Financial_Express/3487148",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:29:22+00:00"
+    },
+    {
+      "id": "439817",
+      "title": "Meta 推出无摄像头版智能眼镜，引入 Muse 助手功能",
+      "url": "https://t.me/Financial_Express/3487149",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:30:02+00:00"
+    },
+    {
+      "id": "439818",
+      "title": "软银集团将发行 10 亿美元的美元计价票据，票面利率为 8.625%，到期日为 2030 年。",
+      "url": "https://t.me/Financial_Express/3487150",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:30:03+00:00"
+    },
+    {
+      "id": "439819",
+      "title": "美参议员：特朗普拟以太阳能项目许可换取法案谈判",
+      "url": "https://t.me/Financial_Express/3487151",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:30:22+00:00"
+    },
+    {
+      "id": "439820",
+      "title": "机构：市场反弹的持续性仍然可期",
+      "url": "https://t.me/Financial_Express/3487152",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:30:42+00:00"
+    },
+    {
+      "id": "439821",
+      "title": "9 月银行理财规模延续高增态势 含权类产品为扩容主力",
+      "url": "https://t.me/Financial_Express/3487153",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:31:22+00:00"
+    },
+    {
+      "id": "439822",
+      "title": "山东墨龙：拟配售新 H 股净筹约 1.15 亿港元，约 70%用于偿还借款",
+      "url": "https://t.me/Financial_Express/3487154",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:31:42+00:00"
+    },
+    {
+      "id": "439823",
+      "title": "新西兰将地方议会合并进程推迟至 2027 年",
+      "url": "https://t.me/Financial_Express/3487155",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:32:42+00:00"
+    },
+    {
+      "id": "439824",
+      "title": "Meta 宣布推出不带摄像头的智能眼镜。",
+      "url": "https://t.me/Financial_Express/3487156",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:33:02+00:00"
+    },
+    {
+      "id": "439825",
+      "title": "日经指数期货在新加坡交易所开盘下跌 835 点，报 65915 点。",
+      "url": "https://t.me/Financial_Express/3487157",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:33:22+00:00"
+    },
+    {
+      "id": "439826",
+      "title": "委内瑞拉代总统罗德里格斯",
+      "url": "https://t.me/Financial_Express/3487158",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:33:42+00:00"
+    },
+    {
+      "id": "439827",
+      "title": "公募秋季策略会密集召开，积极看多权益资产",
+      "url": "https://t.me/Financial_Express/3487159",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:34:02+00:00"
+    },
+    {
+      "id": "439828",
+      "title": "油价高位回调 化工品价格近日整体走弱",
+      "url": "https://t.me/Financial_Express/3487160",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:34:03+00:00"
+    },
+    {
+      "id": "439829",
+      "title": "META 发布第三代 RAY-BAN 智能眼镜。",
+      "url": "https://t.me/Financial_Express/3487161",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:34:42+00:00"
+    },
+    {
+      "id": "439830",
+      "title": "软银拟发行 100 亿美元美元债",
+      "url": "https://t.me/Financial_Express/3487162",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:35:42+00:00"
+    },
+    {
+      "id": "439831",
+      "title": "Myseum.AI",
+      "url": "https://t.me/Financial_Express/3487163",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:35:43+00:00"
+    },
+    {
+      "id": "439832",
+      "title": "Anthropic 成立生命科学研究团队，Claude 发现具有 CRISPR 样特征的新型酶系统",
+      "url": "https://t.me/Financial_Express/3487164",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:36:02+00:00"
+    },
+    {
+      "id": "439833",
+      "title": "美国将为阿根廷关键矿产与能源项目提供 70 亿美元资金",
+      "url": "https://t.me/Financial_Express/3487165",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:36:42+00:00"
+    },
+    {
+      "id": "439835",
+      "title": "META 表示，探险者款智能眼镜起售价为 249 美元。",
+      "url": "https://t.me/Financial_Express/3487166",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:37:02+00:00"
+    },
+    {
+      "id": "439836",
+      "title": "金十提示",
+      "url": "https://t.me/Financial_Express/3487167",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:38:42+00:00"
+    },
+    {
+      "id": "439837",
+      "title": "供应充足、价格稳定 双节假期“菜篮子”有保障",
+      "url": "https://t.me/Financial_Express/3487168",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:38:42+00:00"
+    },
+    {
+      "id": "439838",
+      "title": "据报道，图恩将寻求连任美国参议院共和党领袖。",
+      "url": "https://t.me/Financial_Express/3487169",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:40:02+00:00"
+    },
+    {
+      "id": "439839",
+      "title": "图恩计划再度竞选党魁，美参议院共和党竭力保住席位",
+      "url": "https://t.me/Financial_Express/3487170",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:40:03+00:00"
+    },
+    {
+      "id": "439840",
+      "title": "新股提示：粤芯半导体今日申购",
+      "url": "https://t.me/Financial_Express/3487171",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:40:22+00:00"
+    },
+    {
+      "id": "439841",
+      "title": "中信建投：当前全球宏观形势有“五个不确定与五个确定”",
+      "url": "https://t.me/Financial_Express/3487172",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:41:02+00:00"
+    },
+    {
+      "id": "439842",
+      "title": "META",
+      "url": "https://t.me/Financial_Express/3487173",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:41:22+00:00"
+    },
+    {
+      "id": "439843",
+      "title": "Meta 推出第三代 Ray-Ban Meta 智能眼镜，售价 449 美元。",
+      "url": "https://t.me/Financial_Express/3487174",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:41:47+00:00"
+    },
+    {
+      "id": "439844",
+      "title": "META 宣布推出 META VR 眼镜。",
+      "url": "https://t.me/Financial_Express/3487175",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:42:42+00:00"
+    },
+    {
+      "id": "439845",
+      "title": "台积电据报明年 1 月起上调晶圆代工报价，涨幅约 3%至 6%",
+      "url": "https://t.me/Financial_Express/3487176",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:43:42+00:00"
+    },
+    {
+      "id": "439846",
+      "title": "META 表示，META VR 眼镜起售价为 1,299 美元，将于 2027 年春季上市。",
+      "url": "https://t.me/Financial_Express/3487177",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:43:43+00:00"
+    },
+    {
+      "id": "439847",
+      "title": "Meta 推出一款售价 1,299 美元的虚拟现实眼镜。这款名为 Meta VR Glasses 的新设备代表了头显设计上的重大转变。它的处理器、散热风扇、电池及其他计算组件均内置于一个外部计算包中，可挂在用户的口袋上或放在桌上。Meta ",
+      "url": "https://t.me/Financial_Express/3487178",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:44:37+00:00"
+    },
+    {
+      "id": "439848",
+      "title": "特朗普政府拟批准部分风电项目，换取能源许可改革支持",
+      "url": "https://t.me/Financial_Express/3487179",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:44:42+00:00"
+    },
+    {
+      "id": "439849",
+      "title": "委内瑞拉代总统罗德里格斯提议委内瑞拉举行选举，称重建工作尚需时日",
+      "url": "https://t.me/Financial_Express/3487180",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:45:02+00:00"
+    },
+    {
+      "id": "439850",
+      "title": "9 月 24 日消息，据报道，供应链人士透露，台积电预计自 2027 年 1 月起调整晶圆出厂价格，涨幅约 3%至 6%，其中 2 纳米、3 纳米等先进制程涨幅较高；成熟及特殊制程则将根据产品、产能利用率和客户情况分别议价。报道指出，若调价",
+      "url": "https://t.me/Financial_Express/3487181",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:45:38+00:00"
+    },
+    {
+      "id": "439851",
+      "title": "Meta Platforms(META.O)",
+      "url": "https://t.me/Financial_Express/3487182",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:45:42+00:00"
+    },
+    {
+      "id": "439852",
+      "title": "日经指数期货在盘前交易中上涨 1.4%，此前日本股市连续三天休市。",
+      "url": "https://t.me/Financial_Express/3487183",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:46:36+00:00"
+    },
+    {
+      "id": "439853",
+      "title": "日本日经指数期货早盘上涨 1.41%。",
+      "url": "https://t.me/Financial_Express/3487184",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:46:42+00:00"
+    },
+    {
+      "id": "439854",
+      "title": "基准 10 年期日本国债期货早盘下跌 0.26 点。",
+      "url": "https://t.me/Financial_Express/3487185",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:47:02+00:00"
+    },
+    {
+      "id": "439855",
+      "title": "OpenAI 和 Anthropic 首席执行官呼吁联合国和世界各国就 AI 安全加强合作",
+      "url": "https://t.me/Financial_Express/3487186",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:47:42+00:00"
+    },
+    {
+      "id": "439856",
+      "title": "美国国家飓风中心（NHC）",
+      "url": "https://t.me/Financial_Express/3487187",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:49:02+00:00"
+    },
+    {
+      "id": "439857",
+      "title": "一线城市新房成交面积同比增长超 10% 楼市“金九”成色向好",
+      "url": "https://t.me/Financial_Express/3487188",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:51:02+00:00"
+    },
+    {
+      "id": "439858",
+      "title": "途虎",
+      "url": "https://t.me/Financial_Express/3487189",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:52:22+00:00"
+    },
+    {
+      "id": "439859",
+      "title": "减肥药热潮正在改变英国人的购物习惯，随着食欲减退，服装尺码也随之缩小。英国人不仅在字面意义上“收紧腰带”，还纷纷涌向 Timpson 门店，为自己的皮带打新孔。",
+      "url": "https://t.me/Financial_Express/3487190",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:52:48+00:00"
+    },
+    {
+      "id": "439860",
+      "title": "泰和新材：发光纤维产品研发成功，将落地应用于汽车内饰",
+      "url": "https://t.me/Financial_Express/3487191",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:53:02+00:00"
+    },
+    {
+      "id": "439861",
+      "title": "Meta 推出轻量化 VR 眼镜，目标推动 Reality Labs 业务盈利",
+      "url": "https://t.me/Financial_Express/3487192",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:53:22+00:00"
+    },
+    {
+      "id": "439862",
+      "title": "韩国总统李在明承诺五年内将半导体产能扩大一倍",
+      "url": "https://t.me/Financial_Express/3487193",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:53:23+00:00"
+    },
+    {
+      "id": "439863",
+      "title": "途虎",
+      "url": "https://t.me/Financial_Express/3487194",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:54:42+00:00"
+    },
+    {
+      "id": "439864",
+      "title": "据新华社，当地时间 9 月 23 日下午，国家主席习近平乘专机抵达华盛顿，应美国总统特朗普邀请，对美国进行国事访问。",
+      "url": "https://t.me/Financial_Express/3487195",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:55:28+00:00"
+    },
+    {
+      "id": "439865",
+      "title": "日本 30 年期国债收益率上升 6 个基点至 4.13%。",
+      "url": "https://t.me/Financial_Express/3487196",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:56:02+00:00"
+    },
+    {
+      "id": "439866",
+      "title": "日本 30 年期国债收益率上行 6 个基点至 4.13%。",
+      "url": "https://t.me/Financial_Express/3487197",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:56:13+00:00"
+    },
+    {
+      "id": "439867",
+      "title": "波音公司表示，供应商必须摆脱以人工为核心的生产流程，飞机制造商才能实现雄心勃勃的产能爬坡目标。波音首席技术官 Lane Ballard 在一场行业活动上表示：“航空航天业曾经是工匠型行业，手工建造、手工铆接。现在我们要迈向更高水平的自动化、",
+      "url": "https://t.me/Financial_Express/3487198",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:56:20+00:00"
+    },
+    {
+      "id": "439868",
+      "title": "经济日报金观平：构建普惠包容的数字贸易体系",
+      "url": "https://t.me/Financial_Express/3487199",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:56:22+00:00"
+    },
+    {
+      "id": "439869",
+      "title": "Meta 推出一款掌心大小的 5G 专用设备，用于运行 Muse。",
+      "url": "https://t.me/Financial_Express/3487200",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:56:58+00:00"
+    },
+    {
+      "id": "439870",
+      "title": "澳大利亚总理称 OpenAI 智能体侵入政府网站 三个月后才被告知",
+      "url": "https://t.me/Financial_Express/3487201",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:58:42+00:00"
+    },
+    {
+      "id": "439871",
+      "title": "习近平抵达华盛顿对美国进行国事访问",
+      "url": "https://t.me/Financial_Express/3487202",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:59:02+00:00"
+    },
+    {
+      "id": "439872",
+      "title": "福建实施“农科+农垦”行动计划",
+      "url": "https://t.me/Financial_Express/3487203",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:59:03+00:00"
+    },
+    {
+      "id": "439873",
+      "title": "习近平抵达华盛顿对美国进行国事访问",
+      "url": "https://t.me/Financial_Express/3487204",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-23T23:59:42+00:00"
+    }
+  ]
+}
