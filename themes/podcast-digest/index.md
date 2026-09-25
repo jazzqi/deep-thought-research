@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-25T06:18:34+08:00
-revision: 2026-09-25T06:18:34+08:00
+updated: 2026-09-25T08:20:51+08:00
+revision: 2026-09-25T08:20:51+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [The AI Lab Revolutionizing Smell —— @ILTB_Podcast · 2025-03-18](./iltb/the-ai-lab-revolutionizing-smell.md)
+- [Kelly Granat —— Lone Pine Capital · 2025-03-12](./iltb/kelly-granat---investing-at-lone-pine.md)
 
 ## 往期
 
+- [Kelly Granat —— Lone Pine Capital · 2025-03-12](./iltb/kelly-granat---investing-at-lone-pine.md)
 - [The AI Lab Revolutionizing Smell —— @ILTB_Podcast · 2025-03-18](./iltb/the-ai-lab-revolutionizing-smell.md)
 - [Michael Ovitz: 将潜力转化为声望 —— ILTB Podcast · 2025-04-08](./iltb/michael-ovitz---turning-potential-into-prominence.md)
 - [Finding the Next Figma, Wiz & Stripe Before It's Obvious — Neil Mehta（Green Oaks 创始人） · 2025-04-15](./iltb/finding-the-next-figma-wiz-stripe-before-its-obvious-neil-me.md)
