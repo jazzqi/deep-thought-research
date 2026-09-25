@@ -1,0 +1,11 @@
+actions:
+- priority: P2
+  recurrence: daily
+  summary: HN 数据采集管线 2026-09-24/25 窗口数据缺失，需确认采集管线恢复状态
+  target_flow_params: {}
+  type: monitoring
+- priority: P3
+  summary: FactPack 注入的12条回退数据（2026-09-15~22）与已发布报告去重——确认无需追加新栏目
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-09-27'
