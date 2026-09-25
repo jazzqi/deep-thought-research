@@ -1,0 +1,15 @@
+actions:
+- priority: P1
+  recurrence: daily
+  summary: 监控10Y美债收益率是否突破5.30%（距当前5.23%仅7bp），若突破将触发成长股/半导体加速杀估值
+  target_flow_params: {}
+  type: monitoring
+- priority: P1
+  recurrence: daily
+  summary: 监控美伊霍尔木兹海峡分阶段重启谈判进展：若达成框架协议→油价可能跌破$90，若破裂→油价重回$100+
+  target_flow_params: {}
+  type: monitoring
+- priority: P1
+  summary: 验证9/25耐用品订单初值（预期-0.4%，前值+1.1%）是否确认资本开支放缓，若大幅低于预期将强化滞胀叙事
+  target_flow_params: {}
+  type: follow_up
