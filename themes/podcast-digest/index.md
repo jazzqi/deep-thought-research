@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-27T17:50:42+08:00
-revision: 2026-09-27T17:50:42+08:00
+updated: 2026-09-27T17:54:15+08:00
+revision: 2026-09-27T17:54:15+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Why OpenAI and Anthropic Won't Win Finance —— ILTB Podcast · 2026-09-22](./iltb/why-openai-and-anthropic-wont-win-finance.md)
+- [Blake Scholl: 为什么飞机速度停滞、超音速商业飞行与发动机革命 —— All-In 播客 · 2026-09-22](./all-in/blake-scholl-why-plane-speed-stalled-supersonic-commercial-f.md)
 
 ## 往期
 
+- [Blake Scholl: 为什么飞机速度停滞、超音速商业飞行与发动机革命 —— All-In 播客 · 2026-09-22](./all-in/blake-scholl-why-plane-speed-stalled-supersonic-commercial-f.md)
 - [Why OpenAI and Anthropic Won't Win Finance —— ILTB Podcast · 2026-09-22](./iltb/why-openai-and-anthropic-wont-win-finance.md)
 - [Steve Hilton & Spencer Pratt: 加州困境与共和党翻盘机会 —— All-In Podcast · 2026-09-23](./all-in/steve-hilton-spencer-pratt-fixing-california-cheaper-gas-bal.md)
 - [Luca Ferrari：Bending Spoons CEO —— 从4万美元到400亿美元的收购帝国](./all-in/luca-ferrari-bending-spoons-ceo-the-40k-origin-story-buying.md)
