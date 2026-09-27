@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-09-27T22:46:20.539416+00:00",
+  "window": {
+    "after": "2026-09-26T00:00:00+00:00",
+    "before": "2026-09-27T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "445200",
+      "title": "据美国白宫发布的情况说明书，中国明年将从美国进口至少 1,000 万吨煤炭，2028 年也将如此。",
+      "url": "https://t.me/Financial_Express/3492555",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:34:44+00:00"
+    },
+    {
+      "id": "445201",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3492556",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:35:08+00:00"
+    },
+    {
+      "id": "445202",
+      "title": "蔚来全国已建成 9431 座充换电站",
+      "url": "https://t.me/Financial_Express/3492557",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:36:42+00:00"
+    },
+    {
+      "id": "445203",
+      "title": "包钢股份中标某央企首个中深水大型海上油田建设项目海工用 H 型钢采购项目",
+      "url": "https://t.me/Financial_Express/3492558",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:39:23+00:00"
+    },
+    {
+      "id": "445204",
+      "title": "包钢股份中标某央企首个中深水大型海上油田建设项目海工用 H 型钢采购项目",
+      "url": "https://t.me/Financial_Express/3492559",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:41:42+00:00"
+    },
+    {
+      "id": "445205",
+      "title": "美国总统特朗普计划在财政年度结束前，利用一项法律依据存疑的手段，削减 8.1 亿美元的联邦支出。",
+      "url": "https://t.me/Financial_Express/3492560",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:42:12+00:00"
+    },
+    {
+      "id": "445206",
+      "title": "随着厄尔尼诺现象持续恶化，印度正面临 2009 年以来最干旱的季风季节，亚洲基础设施投资银行正推动扩大其在印度的水务融资组合。亚投行代理首席经济学家张平蒂亚表示，这家多边贷款机构希望资助印度更广泛的关键水务基础设施项目管线，并提供政策性贷款",
+      "url": "https://t.me/Financial_Express/3492561",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:44:56+00:00"
+    },
+    {
+      "id": "445207",
+      "title": "据美国媒体披露，2023 年 10 月初本轮巴以冲突爆发前夕，以色列总理内塔尼亚胡收到阿拉伯联合酋长国有关巴勒斯坦伊斯兰抵抗运动（哈马斯）可能发动重大袭击的预警。不过，他未下令对哈马斯高层采取军事行动，原因是担忧此举妨碍以色列同沙特阿拉伯实",
+      "url": "https://t.me/Financial_Express/3492562",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:49:20+00:00"
+    },
+    {
+      "id": "445208",
+      "title": "驻泰国使馆提醒在泰中国公民防范强降雨及洪涝灾害",
+      "url": "https://t.me/Financial_Express/3492563",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:49:42+00:00"
+    },
+    {
+      "id": "445209",
+      "title": "“张雪机车”车手获世界超级摩托车锦标赛意大利站首回合第 4 名",
+      "url": "https://t.me/Financial_Express/3492564",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:50:22+00:00"
+    },
+    {
+      "id": "445210",
+      "title": "负责防御与太空事务的欧盟委员安德留斯·库比柳斯日前说，欧盟计划今后数年内大力增加卫星发射，寻求在欧洲大陆及欧盟以外地区开辟发射场，包括挪威、英国的苏格兰地区和加拿大，并且需要更多能执行重载荷发射能力的发射场。",
+      "url": "https://t.me/Financial_Express/3492565",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:51:03+00:00"
+    },
+    {
+      "id": "445211",
+      "title": "“张雪机车”车手获世界超级摩托车锦标赛意大利站首回合第 4 名",
+      "url": "https://t.me/Financial_Express/3492566",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:52:22+00:00"
+    },
+    {
+      "id": "445212",
+      "title": "据伊朗最高国家安全委员会",
+      "url": "https://t.me/Financial_Express/3492567",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:54:54+00:00"
+    },
+    {
+      "id": "445213",
+      "title": "伊朗最高国家安全委员会消息",
+      "url": "https://t.me/Financial_Express/3492568",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:55:02+00:00"
+    },
+    {
+      "id": "445214",
+      "title": "据伊朗伊斯兰共和国广播电视台（IRIB）",
+      "url": "https://t.me/Financial_Express/3492569",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:56:22+00:00"
+    },
+    {
+      "id": "445215",
+      "title": "伊朗最高国家安全委员会",
+      "url": "https://t.me/Financial_Express/3492570",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:57:02+00:00"
+    },
+    {
+      "id": "445216",
+      "title": "据伊朗国家媒体",
+      "url": "https://t.me/Financial_Express/3492571",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T12:59:02+00:00"
+    },
+    {
+      "id": "445217",
+      "title": "欧盟拟大力增加卫星发射 寻域外发射场",
+      "url": "https://t.me/Financial_Express/3492572",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:02:42+00:00"
+    },
+    {
+      "id": "445218",
+      "title": "阿塞拜疆总统助理周六表示，该国在巴库举行的国际论坛上签署了潜在投资额超过 100 亿美元的协议，同时该国还宣布了一系列能源合作协议。",
+      "url": "https://t.me/Financial_Express/3492573",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:04:52+00:00"
+    },
+    {
+      "id": "445219",
+      "title": "巴西 Nubank 与英国数字银行 Monzo 洽谈潜在的合并事宜，对后者的估值介于 80 亿-100 亿英镑（折合 106 亿-132.5 亿美元）。（英国天空新闻）",
+      "url": "https://t.me/Financial_Express/3492574",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:07:57+00:00"
+    },
+    {
+      "id": "445220",
+      "title": "SpaceX",
+      "url": "https://t.me/Financial_Express/3492575",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:10:03+00:00"
+    },
+    {
+      "id": "445221",
+      "title": "据瑞士广播电台 SRF 报道，瑞士国家银行（SNB）行长马丁·施莱格尔表示，今年的创纪录气温确实对食品价格产生了影响，但并非瑞士通胀上升的推手。",
+      "url": "https://t.me/Financial_Express/3492576",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:11:33+00:00"
+    },
+    {
+      "id": "445222",
+      "title": "目前在纽约出席联合国相关会议的伊朗外长阿拉格齐及其随行代表团计划于下周二返回伊朗。（塔斯尼姆通讯社）",
+      "url": "https://t.me/Financial_Express/3492577",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:22:23+00:00"
+    },
+    {
+      "id": "445223",
+      "title": "目前在美国纽约出席联合国相关会议的伊朗外长阿拉格齐及其随行代表团计划于下周二返回伊朗。（塔斯尼姆通讯社）",
+      "url": "https://t.me/Financial_Express/3492578",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:23:06+00:00"
+    },
+    {
+      "id": "445224",
+      "title": "道达尔、阿塞拜疆国家石油公司与 XRG 启动阿塞拜疆天然气项目新阶段",
+      "url": "https://t.me/Financial_Express/3492579",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:32:42+00:00"
+    },
+    {
+      "id": "445225",
+      "title": "美媒称以总理曾获袭击警告但为促以沙建交未打哈马斯",
+      "url": "https://t.me/Financial_Express/3492580",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:33:22+00:00"
+    },
+    {
+      "id": "445226",
+      "title": "伊朗央行行长：伊朗通胀已小幅回落，为过去 15 个月来首次",
+      "url": "https://t.me/Financial_Express/3492581",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:35:02+00:00"
+    },
+    {
+      "id": "445227",
+      "title": "雅典老城区爆炸事故致 6 死 3 伤",
+      "url": "https://t.me/Financial_Express/3492582",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:35:03+00:00"
+    },
+    {
+      "id": "445228",
+      "title": "下周可申购 2 只新股",
+      "url": "https://t.me/Financial_Express/3492583",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:37:42+00:00"
+    },
+    {
+      "id": "445229",
+      "title": "伊朗总统：已与最高领袖协调",
+      "url": "https://t.me/Financial_Express/3492584",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:43:53+00:00"
+    },
+    {
+      "id": "445230",
+      "title": "伊拉克政府安全媒体委员会负责人表示，国际联盟部队已将其所有基地和指挥部移交给伊拉克当局。伊拉克境内没有国际联军的战斗部队或军事力量。9 月 30 日之后，将不再有来自联军的作战或训练部队。我们已准备好在联军撤军后接管并管理安全。",
+      "url": "https://t.me/Financial_Express/3492585",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:46:22+00:00"
+    },
+    {
+      "id": "445231",
+      "title": "特朗普谈伊朗",
+      "url": "https://t.me/Financial_Express/3492586",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:47:42+00:00"
+    },
+    {
+      "id": "445232",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3492587",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:50:42+00:00"
+    },
+    {
+      "id": "445233",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3492588",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:53:42+00:00"
+    },
+    {
+      "id": "445234",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3492589",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:54:22+00:00"
+    },
+    {
+      "id": "445235",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3492590",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:56:04+00:00"
+    },
+    {
+      "id": "445236",
+      "title": "据知情人士透露，私募股权集团 Apax 正接近达成协议，从华平资本（Warburg Pincus）手中收购双方在荷兰电信集团 Odido 的合资持股。该交易对 Odido 的估值约为 65 亿欧元（74 亿美元）。",
+      "url": "https://t.me/Financial_Express/3492591",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:56:20+00:00"
+    },
+    {
+      "id": "445237",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3492592",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:56:42+00:00"
+    },
+    {
+      "id": "445238",
+      "title": "韩国首尔航空一架客机在首尔仁川国际机场即将起飞时突发险情",
+      "url": "https://t.me/Financial_Express/3492593",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T13:59:28+00:00"
+    },
+    {
+      "id": "445239",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3492594",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:00:10+00:00"
+    },
+    {
+      "id": "445240",
+      "title": "伊拉克总理办公室",
+      "url": "https://t.me/Financial_Express/3492595",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:00:23+00:00"
+    },
+    {
+      "id": "445241",
+      "title": "伊拉克总理办公室",
+      "url": "https://t.me/Financial_Express/3492596",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:01:22+00:00"
+    },
+    {
+      "id": "445242",
+      "title": "德国内政部长亚历山大·多布林特",
+      "url": "https://t.me/Financial_Express/3492597",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:03:03+00:00"
+    },
+    {
+      "id": "445243",
+      "title": "德国内政部长多布林特表示",
+      "url": "https://t.me/Financial_Express/3492598",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:03:42+00:00"
+    },
+    {
+      "id": "445244",
+      "title": "德国内政部长",
+      "url": "https://t.me/Financial_Express/3492599",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:04:18+00:00"
+    },
+    {
+      "id": "445245",
+      "title": "特朗普呼吁乌克兰总统泽连斯基与俄罗斯达成和解",
+      "url": "https://t.me/Financial_Express/3492600",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:07:22+00:00"
+    },
+    {
+      "id": "445246",
+      "title": "乌克兰总理表示",
+      "url": "https://t.me/Financial_Express/3492601",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:09:02+00:00"
+    },
+    {
+      "id": "445247",
+      "title": "刚果（金）小型飞机坠毁事故已致 17 人死亡",
+      "url": "https://t.me/Financial_Express/3492602",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:11:42+00:00"
+    },
+    {
+      "id": "445248",
+      "title": "特朗普称拒绝伊朗重开霍尔木兹海峡的提议",
+      "url": "https://t.me/Financial_Express/3492603",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:13:02+00:00"
+    },
+    {
+      "id": "445249",
+      "title": "特朗普称拒绝伊朗重开霍尔木兹海峡的提议",
+      "url": "https://t.me/Financial_Express/3492604",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:13:22+00:00"
+    },
+    {
+      "id": "445250",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3492605",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:15:22+00:00"
+    },
+    {
+      "id": "445251",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3492606",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:16:02+00:00"
+    },
+    {
+      "id": "445252",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3492607",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:19:26+00:00"
+    },
+    {
+      "id": "445253",
+      "title": "特朗普据报拒绝伊朗的 7 日停火方案",
+      "url": "https://t.me/Financial_Express/3492608",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:19:43+00:00"
+    },
+    {
+      "id": "445254",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3492609",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:21:22+00:00"
+    },
+    {
+      "id": "445255",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3492610",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:21:45+00:00"
+    },
+    {
+      "id": "445256",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3492611",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:22:22+00:00"
+    },
+    {
+      "id": "445257",
+      "title": "巴基斯坦总理夏巴兹",
+      "url": "https://t.me/Financial_Express/3492612",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:23:42+00:00"
+    },
+    {
+      "id": "445258",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3492613",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:30:23+00:00"
+    },
+    {
+      "id": "445259",
+      "title": "瑞士财政部长表示，瑞银不太可能迁出其总部所在地。",
+      "url": "https://t.me/Financial_Express/3492614",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:30:23+00:00"
+    },
+    {
+      "id": "445260",
+      "title": "俄罗斯外长拉夫罗夫在联合国大会间隙与德国外长举行会晤。",
+      "url": "https://t.me/Financial_Express/3492615",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:31:23+00:00"
+    },
+    {
+      "id": "445261",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3492616",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:32:02+00:00"
+    },
+    {
+      "id": "445262",
+      "title": "据国际文传电讯社",
+      "url": "https://t.me/Financial_Express/3492617",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:32:22+00:00"
+    },
+    {
+      "id": "445263",
+      "title": "美国国家飓风中心",
+      "url": "https://t.me/Financial_Express/3492618",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:40:22+00:00"
+    },
+    {
+      "id": "445264",
+      "title": "伊朗武装部队发言人表示，伊朗军队做好必要准备，以应对美以两国任何潜在的侵略行为。",
+      "url": "https://t.me/Financial_Express/3492619",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:41:04+00:00"
+    },
+    {
+      "id": "445265",
+      "title": "伊朗武装部队发言人警告美以两国",
+      "url": "https://t.me/Financial_Express/3492620",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:41:22+00:00"
+    },
+    {
+      "id": "445266",
+      "title": "俄罗斯国防部",
+      "url": "https://t.me/Financial_Express/3492621",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:43:43+00:00"
+    },
+    {
+      "id": "445267",
+      "title": "据国际文传电讯社",
+      "url": "https://t.me/Financial_Express/3492622",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:44:03+00:00"
+    },
+    {
+      "id": "445268",
+      "title": "美国国家飓风中心",
+      "url": "https://t.me/Financial_Express/3492623",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:44:22+00:00"
+    },
+    {
+      "id": "445269",
+      "title": "巴西政府在选举前延长燃油价格补贴措施",
+      "url": "https://t.me/Financial_Express/3492624",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:48:43+00:00"
+    },
+    {
+      "id": "445270",
+      "title": "英国首相伯纳姆计划重启“购房援助计划”。",
+      "url": "https://t.me/Financial_Express/3492625",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:52:22+00:00"
+    },
+    {
+      "id": "445271",
+      "title": "美国官员",
+      "url": "https://t.me/Financial_Express/3492626",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:53:02+00:00"
+    },
+    {
+      "id": "445272",
+      "title": "美国官员",
+      "url": "https://t.me/Financial_Express/3492627",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:53:03+00:00"
+    },
+    {
+      "id": "445273",
+      "title": "消息人士称，美国谈判代表已告诉伊朗，其不控制霍尔木兹海峡，也无权就此设定条件。",
+      "url": "https://t.me/Financial_Express/3492628",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:53:22+00:00"
+    },
+    {
+      "id": "445274",
+      "title": "巴布亚新几内亚发生 5.6 级地震",
+      "url": "https://t.me/Financial_Express/3492629",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:54:02+00:00"
+    },
+    {
+      "id": "445275",
+      "title": "巴布亚新几内亚发生 5.6 级地震",
+      "url": "https://t.me/Financial_Express/3492630",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T15:00:22+00:00"
+    },
+    {
+      "id": "445276",
+      "title": "俄罗斯外长拉夫罗夫与德国外长的会晤已经结束，谈判仅持续了 20 多分钟。",
+      "url": "https://t.me/Financial_Express/3492631",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T15:00:23+00:00"
+    },
+    {
+      "id": "445277",
+      "title": "粤港澳大湾区融合加速 带旺港澳旅客假期“经深飞”",
+      "url": "https://t.me/Financial_Express/3492632",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T15:01:02+00:00"
+    },
+    {
+      "id": "445278",
+      "title": "伊朗否认有关其计划因美国航班禁令而袭击邻国机场的猜测。",
+      "url": "https://t.me/Financial_Express/3492633",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T15:06:22+00:00"
+    },
+    {
+      "id": "445279",
+      "title": "印尼客轮倾覆事故死亡人数升至 64 人",
+      "url": "https://t.me/Financial_Express/3492634",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T15:10:02+00:00"
+    },
+    {
+      "id": "445280",
+      "title": "伊朗总统：不再信任同美国的对话",
+      "url": "https://t.me/Financial_Express/3492635",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T15:13:42+00:00"
+    },
+    {
+      "id": "445281",
+      "title": "沙特阿美据称正与 Evercore 合作推进天然气业务板块相关计划。",
+      "url": "https://t.me/Financial_Express/3492636",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T15:18:03+00:00"
+    },
+    {
+      "id": "445282",
+      "title": "埃克森美孚与阿塞拜疆签署库拉盆地中部页岩油气协议。",
+      "url": "https://t.me/Financial_Express/3492637",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T15:22:23+00:00"
+    },
+    {
+      "id": "445283",
+      "title": "以色列军方称，今日早些时候袭击了黎巴嫩南部萨杰德地区一处真主党武器库。",
+      "url": "https://t.me/Financial_Express/3492638",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T15:24:02+00:00"
+    },
+    {
+      "id": "445284",
+      "title": "联合国代表团表示，针对利比亚石油与能源基础设施的袭击可能触发联合国安理会决议项下的制裁。",
+      "url": "https://t.me/Financial_Express/3492639",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T15:30:02+00:00"
+    },
+    {
+      "id": "445285",
+      "title": "联合国利比亚特派团警告称，沙拉拉-扎维耶输油管道持续关闭将产生经济影响。",
+      "url": "https://t.me/Financial_Express/3492640",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T15:32:22+00:00"
+    },
+    {
+      "id": "445286",
+      "title": "NEC 将在政府支持下建设卫星星座。",
+      "url": "https://t.me/Financial_Express/3492843",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T23:03:42+00:00"
+    },
+    {
+      "id": "445287",
+      "title": "除了头版内容，今天《人民日报》涉及财经的主要内容还包括：",
+      "url": "https://t.me/Financial_Express/3492844",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T23:08:22+00:00"
+    },
+    {
+      "id": "445288",
+      "title": "大熊猫“平平”“福双”已启程赴美",
+      "url": "https://t.me/Financial_Express/3492845",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T23:16:42+00:00"
+    },
+    {
+      "id": "445289",
+      "title": "特朗普政府计划大幅削弱清洁汽车法规",
+      "url": "https://t.me/Financial_Express/3492846",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T23:22:22+00:00"
+    },
+    {
+      "id": "445290",
+      "title": "王兴兴回应造 390 万载人机甲：宇树不造别人也会造 大型机器人是行业必然趋势",
+      "url": "https://t.me/Financial_Express/3492847",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T23:33:02+00:00"
+    },
+    {
+      "id": "445291",
+      "title": "鄂尔多斯盆地探明千亿方深层煤层气田",
+      "url": "https://t.me/Financial_Express/3492848",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T23:33:42+00:00"
+    },
+    {
+      "id": "445292",
+      "title": "陈新武赴赛力斯集团调研",
+      "url": "https://t.me/Financial_Express/3492849",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T23:39:02+00:00"
+    },
+    {
+      "id": "445293",
+      "title": "中矿资源 Bikita 钽铌回收二厂项目开工",
+      "url": "https://t.me/Financial_Express/3492850",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T23:47:42+00:00"
+    },
+    {
+      "id": "445294",
+      "title": "欧盟承诺向撒哈拉以南非洲及巴勒斯坦等国提供逾 7 亿欧元援助",
+      "url": "https://t.me/Financial_Express/3492851",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T23:57:02+00:00"
+    },
+    {
+      "id": "445453",
+      "title": "Why AI’s Next Breakthroughs Could Come from Outside the Big Labs",
+      "url": "https://www.youtube.com/watch?v=TLJNJDf2XGo",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:30:10+00:00"
+    },
+    {
+      "id": "445454",
+      "title": "Poppi founder says brands are getting \"absolutely everything\" wrong about Gen Z #Poppi #GenZ",
+      "url": "https://www.youtube.com/watch?v=Kdph-75pLJs",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T16:00:19+00:00"
+    },
+    {
+      "id": "445594",
+      "title": "Robot-Use Agents: Why General-Purpose Models May Win in Robotics",
+      "url": "https://www.youtube.com/watch?v=Jv5B5CEaPJI",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:00:37+00:00"
+    },
+    {
+      "id": "445665",
+      "title": "Poppi founder says brands are getting \"absolutely everything\" wrong about Gen Z #Poppi #GenZ",
+      "url": "https://www.youtube.com/watch?v=Kdph-75pLJs",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T16:00:19+00:00"
+    },
+    {
+      "id": "445671",
+      "title": "Why AI’s Next Breakthroughs Could Come from Outside the Big Labs",
+      "url": "https://www.youtube.com/watch?v=TLJNJDf2XGo",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-09-26T14:30:10+00:00"
+    }
+  ]
+}
