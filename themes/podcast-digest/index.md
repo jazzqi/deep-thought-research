@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-26T06:20:22+08:00
-revision: 2026-09-26T06:20:22+08:00
+updated: 2026-09-27T17:42:40+08:00
+revision: 2026-09-27T17:42:40+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Jared Kushner — The Mechanic · Invest Like the Best · 2024-12-20](./iltb/jared-kushner---the-mechanic.md)
+- [Luca Ferrari：Bending Spoons CEO —— 从4万美元到400亿美元的收购帝国](./all-in/luca-ferrari-bending-spoons-ceo-the-40k-origin-story-buying.md)
 
 ## 往期
 
+- [Luca Ferrari：Bending Spoons CEO —— 从4万美元到400亿美元的收购帝国](./all-in/luca-ferrari-bending-spoons-ceo-the-40k-origin-story-buying.md)
 - [Jared Kushner — The Mechanic · Invest Like the Best · 2024-12-20](./iltb/jared-kushner---the-mechanic.md)
 - [Kelly Granat —— Lone Pine Capital · 2025-03-12](./iltb/kelly-granat---investing-at-lone-pine.md)
 - [The AI Lab Revolutionizing Smell —— @ILTB_Podcast · 2025-03-18](./iltb/the-ai-lab-revolutionizing-smell.md)
@@ -132,4 +133,5 @@ sources: []
 - [Sam Altman on AGI, Compute, and Human Agency](./iltb/sam-altman-on-agi-compute-and-human-agency.md)
 - [Why the Markets Are Pricing AI Wrong｜Gavin Baker](./iltb/why-the-markets-are-pricing-ai-wrong-gavin-baker.md)
 - [Everyone Is Still Undersizing the AI Market｜Eric Vishria](./iltb/everyone-is-still-undersizing-the-ai-market-eric-vishria.md)
+- [Anthropic IPO at Risk, Meta's Muse Pop, Token Prices Fall, Open Source Gains Share, Alignment Fails —— All-In Podcast · 2026-09-26](./all-in/anthropic-ipo-at-risk-metas-muse-pop-token-prices-fall-open.md)
 
