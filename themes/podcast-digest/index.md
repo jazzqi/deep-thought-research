@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-27T17:42:40+08:00
-revision: 2026-09-27T17:42:40+08:00
+updated: 2026-09-27T17:46:46+08:00
+revision: 2026-09-27T17:46:46+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Luca Ferrari：Bending Spoons CEO —— 从4万美元到400亿美元的收购帝国](./all-in/luca-ferrari-bending-spoons-ceo-the-40k-origin-story-buying.md)
+- [Steve Hilton & Spencer Pratt: 加州困境与共和党翻盘机会 —— All-In Podcast · 2026-09-23](./all-in/steve-hilton-spencer-pratt-fixing-california-cheaper-gas-bal.md)
 
 ## 往期
 
+- [Steve Hilton & Spencer Pratt: 加州困境与共和党翻盘机会 —— All-In Podcast · 2026-09-23](./all-in/steve-hilton-spencer-pratt-fixing-california-cheaper-gas-bal.md)
 - [Luca Ferrari：Bending Spoons CEO —— 从4万美元到400亿美元的收购帝国](./all-in/luca-ferrari-bending-spoons-ceo-the-40k-origin-story-buying.md)
 - [Jared Kushner — The Mechanic · Invest Like the Best · 2024-12-20](./iltb/jared-kushner---the-mechanic.md)
 - [Kelly Granat —— Lone Pine Capital · 2025-03-12](./iltb/kelly-granat---investing-at-lone-pine.md)
