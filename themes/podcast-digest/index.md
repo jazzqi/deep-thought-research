@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-27T17:54:15+08:00
-revision: 2026-09-27T17:54:15+08:00
+updated: 2026-09-27T17:57:28+08:00
+revision: 2026-09-27T17:57:28+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Blake Scholl: 为什么飞机速度停滞、超音速商业飞行与发动机革命 —— All-In 播客 · 2026-09-22](./all-in/blake-scholl-why-plane-speed-stalled-supersonic-commercial-f.md)
+- [Naveen Rao: 4D 计算、AI 的能源墙与超越生物学 —— All-In 播客 · 2026-09-21](./all-in/naveen-rao-4d-computing-ais-energy-wall-beating-biology.md)
 
 ## 往期
 
+- [Naveen Rao: 4D 计算、AI 的能源墙与超越生物学 —— All-In 播客 · 2026-09-21](./all-in/naveen-rao-4d-computing-ais-energy-wall-beating-biology.md)
 - [Blake Scholl: 为什么飞机速度停滞、超音速商业飞行与发动机革命 —— All-In 播客 · 2026-09-22](./all-in/blake-scholl-why-plane-speed-stalled-supersonic-commercial-f.md)
 - [Why OpenAI and Anthropic Won't Win Finance —— ILTB Podcast · 2026-09-22](./iltb/why-openai-and-anthropic-wont-win-finance.md)
 - [Steve Hilton & Spencer Pratt: 加州困境与共和党翻盘机会 —— All-In Podcast · 2026-09-23](./all-in/steve-hilton-spencer-pratt-fixing-california-cheaper-gas-bal.md)
