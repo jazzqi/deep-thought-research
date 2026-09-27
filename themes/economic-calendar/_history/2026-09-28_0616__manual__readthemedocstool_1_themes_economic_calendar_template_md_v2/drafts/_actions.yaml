@@ -1,0 +1,16 @@
+actions:
+- confidence: 0.7
+  priority: P1
+  summary: 10-01 ISM制造业与非农发布后验证本稿ISMPMI终值预测，校准10-05 ISM非制造业预判
+  target_flow_params: {}
+  type: follow_up
+- priority: P2
+  recurrence: weekly
+  summary: 中国10-08信用数据（M2/社融/新增贷款）发布后对比本稿预测，更新中国增长叙事
+  target_flow_params: {}
+  type: monitoring
+- priority: P3
+  recurrence: daily
+  summary: 中东伊朗/霍尔木兹局势与原油风险溢价持续监控
+  target_flow_params: {}
+  type: monitoring
