@@ -1,0 +1,25 @@
+## 数据来源溯源
+
+- Claude Opus 5.5 官方公告: fetch_url(url='https://www.anthropic.com/claude-opus-5-5') = 性能/成本/安全评分数据
+- Claude Opus 5.5 HN 讨论: fetch_url(url='https://news.ycombinator.com/item?id=49803892') = 1802 points, 1129 comments
+- Claude Opus 5.5 HN 帖子: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z', min_points=60)[id:435736] = ▲1793 💬1118
+- GPT-6 Sol/Luna HN 讨论: fetch_url(url='https://news.ycombinator.com/item?id=49805509') = 1774 points, 855 comments
+- GPT-6 Sol/Luna HN 帖子: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z', min_points=60)[id:435956] = ▲1769 💬847
+- Pentagon/Palantir HN 讨论: fetch_url(url='https://news.ycombinator.com/item?id=49806430') = 969 points, 550 comments
+- Pentagon/Palantir HN 帖子: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z', min_points=60)[id:436148] = ▲955 💬541
+- Apple Intelligence 文章: fetch_url(url='https://dbushell.com/2026/09/22/apple-intelligence/') = macOS 27 强制下载 22.28GB AI 模型
+- Apple Intelligence HN 帖子: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z', min_points=60)[id:434197] = ▲869 💬695
+- FBI 黑客事件 HN 帖子: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z', min_points=60)[id:436105] = ▲810 💬611
+- Apple iOS 广告 HN 帖子: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z', min_points=60)[id:435463] = ▲803 💬597
+- ChatGPT 广告追踪 HN 帖子: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z', min_points=60)[id:429078] = ▲758 💬394
+- Qwen-Image 2.1 HN 帖子: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z', min_points=60)[id:428886] = ▲735 💬198
+- Qwen-Image 2.1 评测数据: fetch_url(url='https://news.ycombinator.com/item?id=49775499') = vunderba 基准测试 7/15
+- GPT-6 Astra Enigma 文章: fetch_url(url='https://www.cryptocellar.org/bgac/the-mvueh-break.html') = MVUEH 破解详情
+- GPT-6 Astra Enigma HN 帖子: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z', min_points=60)[id:435320] = ▲734 💬442
+- Samsung HBM4 产量数据: fetch_url(url='https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say') = 玻璃载板 2万→5万片/月, 晶圆 18万→25万片/月
+- Samsung HBM4 HN 帖子: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z', min_points=60)[id:429138] = ▲557 💬456
+- "不想读你没写的东西" 文章: fetch_url(url='https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/') = 78% 读者停止阅读 AI 文章
+- "不想读你没写的东西" HN 帖子: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z', min_points=60)[id:432595] = ▲1054 💬452
+- "AI 没有智慧" 文章: fetch_url(url='https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/') = Dreyfus 模型/可维护性论点
+- "AI 没有智慧" HN 帖子: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z', min_points=60)[id:434921] = ▲384 💬551
+- Top10 快照数据: query_raw_items(source='hackernews', published_after='2026-09-20T00:00:00Z', min_points=60) = 全部条目排序
