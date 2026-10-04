@@ -1,0 +1,18 @@
+actions:
+- priority: P1
+  recurrence: daily
+  summary: raw_items 的 hackernews 源自 2026-09-22 后断流（09-28~10-04 窗口 NO_DATA），hn-daily
+    已靠 Algolia API 外部兜底完成本期定版；请排查 hnrss 采集管线（配置/抓取容器），恢复前每日扫描沿用 Algolia 兜底（参数已沉淀 themes/hn-daily/_history/2026-10-04_1417…/reference.md）
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  recurrence: weekly
+  summary: frontier 模型发布模式出现'分阶段+政府预发布流程'新形态（Gemini 4 Argon 经 Fairwind Program 先向可信防御者发布并接入美国政府自愿预发布流程），跟踪该模式是否成为大厂标配及对开源/中间层的挤出效应
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: decision model（System-1）赛道两周内从单点（Jev）扩张为开源集群（Laya/Clef/Jeff，Pi 1.0 Codemode
+    原生接入），值得专题评估其对 agent 推理成本结构与芯片需求的影响
+  target_flow: theme_update
+  target_flow_params: {}
+  type: research
