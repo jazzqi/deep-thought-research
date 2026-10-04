@@ -1,0 +1,8 @@
+actions:
+- priority: P1
+  summary: 核实 2026-09 FOMC 决议结果与最新 FedWatch 利率预期（8/26 锚点已过时 39 天，本轮工具无法复核），裁决 soros
+    降息预测与战争滞胀宏观归因分歧
+  target_flow: macro_regime
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-10-10'
