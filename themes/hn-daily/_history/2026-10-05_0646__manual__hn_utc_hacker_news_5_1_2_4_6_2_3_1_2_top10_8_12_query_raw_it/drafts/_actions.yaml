@@ -1,0 +1,17 @@
+actions:
+- priority: P1
+  recurrence: daily
+  summary: 内部 hackernews 源断档第 11 天（2026-09-23 后零入库），每日监控采集管道恢复；恢复前 hn-daily 维持 Algolia
+    API 兜底并如实标注
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: vLLM 官推发布 Decision 2.0 决策模型支持（2026-10-04 22:36，▲2 早期信号），验证 System-1/决策模型生态是否升级到推理框架层标配
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-10-11'
+- priority: P2
+  summary: OpenAI 安全团队辞职文（The Atlantic，▲452/💬760）正文未能抓取（403），需补抓核实辞职者身份与指控细节后升级复盘
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-10-06'
