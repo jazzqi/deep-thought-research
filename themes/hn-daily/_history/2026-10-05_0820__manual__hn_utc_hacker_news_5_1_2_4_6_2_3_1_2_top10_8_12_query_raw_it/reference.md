@@ -1,0 +1,65 @@
+- Claude Opus 5.5 发布（性能对标 Fable 5.1、比 Opus 5 便宜 40%、$4/$20 每百万 token、缓存读取 $0.20 降 60%、输出快 30%+、发布前经 Frontier Design/METR 外部评测）: query_raw_items(source=hackernews)[id:435736] = Anthropic 发布 Claude Opus 5.5，HN ▲1793 💬1118
+- Claude Opus 5.5 正文细节（680,000 行代码迁移一天内完成、web 应用加载时间优化 39/40 成功、自动行为审计得分历史最强、生物/网络安全能力触发 Fable 5.1 级防护）: fetch_url(anthropic.com/claude-opus-5-5) = 正文抓取成功
+- Claude Opus 5.5 独立评测（AA Intelligence Index 58 分排名 1/224、92 tokens/s、$5.98/task、1M 上下文、冗长 260M output tokens）: fetch_url(artificialanalysis.ai/models/claude-opus-5-5) = 正文抓取成功
+- GPT-6 Sol and Luna 发布（openai.com 403 未能抓取正文）: query_raw_items(source=hackernews)[id:435956] = OpenAI 发布 GPT-6 Sol and Luna，HN ▲1769 💬847
+- GPT-6 讨论（Luna 价格为 GPT-5.6 Luna 一半；OpenRouter 月榜 5.6 Luna 为最常用模型；缓存读取价差 8-10x 影响编码工作流成本）: fetch_url(news.ycombinator.com/item?id=49805509) = HN 评论页抓取成功
+- TypeSafe AI 洽谈新一轮融资至少 10 亿美元（The Information）: query_raw_items(source=telegram:Financial_Express)[id:442912] = 2026-09-24 快讯
+- Jev 25 行 Python 复现（Qwen3-0.6B 加载、choice token logits → logprob 归一化为概率）: fetch_url(nobodywho.ai/posts/jev-in-25-lines/) = 正文抓取成功
+- Jev 复现帖 HN 讨论（logprob 单 token 噪声大、结构化输出更稳、需验证 choice token 占输出分布 ≥95%、字母 A 偏置需多次置换平均）: fetch_url(news.ycombinator.com/item?id=49812769) = HN 评论页抓取成功
+- OpenAI 可能快速跟进 Jev（分类器能力可折入现有模型/agent，用于模型选择、安全护栏；护城河在训练数据与流程）: fetch_url(arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/) = 正文抓取成功
+- awesome-jev 生态仓库（230★、118 commits、demo/SDK/skill/浏览器桌面工具/agent 工具收录）: fetch_url(github.com/Amal-David/awesome-jev) = 正文抓取成功
+- CUA-S1 System One computer-use 决策模型（trycua/cua 28k★，开源驱动+跨 OS fleet+benchmark）: fetch_url(github.com/trycua/cua) = 正文抓取成功
+- a16z 播客连续 3 期讨论 Jev/专用模型（Why Specialized AI Could Beat The God Model 等）: query_raw_items()[id:459492,448840,455632] = a16z 2026-09-28~10-03 播客
+- 开源模型格局证词（2025-04 起中国公司在 open-weight 领先；GLM-5.2/Kimi K3 实现商业可行性阶跃；true open-source 由美国非营利主导 AI2 Olmo 等）: fetch_url(interconnects.ai/p/the-current-balance-of-power-in-open) = 正文抓取成功
+- 开源权重推理经济学（同等智能下开源任务成本约为闭源 1/5；自托管 $0.12-0.35/百万输出 token；gpt-oss-120b 上 A100 比 H100 更便宜；A100 五年租金维持一个月价 80% vs Hopper/Blackwell 44-60%；NVIDIA 2026-09-03 收购 Hugging Face）: fetch_url(data.ornn.com/publications/the-economics-of-open-weight-inference) = 正文抓取成功
+- 五角大楼调查：过度依赖 Palantir AI 致伊朗学校空袭 123 名儿童死亡（"超越单纯过失"、明知有平民风险仍"鲁莽"打击）: fetch_url(news.ycombinator.com/item?id=49806430) = HN 评论页抓取成功（原文 bloomberg/gizmodo 403）
+- 五角大楼调查帖 HN 讨论（情报未入库、审查团队被裁撤且未被咨询、白宫要求 1000 目标无尽职调查；前 DOD 异常检测系统被误用为目标获取工具）: fetch_url(news.ycombinator.com/item?id=49806430) = HN 评论页抓取成功
+- OpenAI 安全系统团队负责人 David Robinson 辞职（10-03，《大西洋月刊》"企业文化已烂掉"，呼吁效仿核电业多重冗余）: query_raw_items(source=telegram:Financial_Express)[id:459426,459679] = 2026-10-03/10-04 快讯
+- Altman 与 Anthropic 在 AI 风险上公开分歧（10-04：Altman 否认"极高毁灭性风险"、认为收益值得承担风险）: query_raw_items(source=telegram:Financial_Express)[id:460034,460107] = 2026-10-04/10-05 快讯
+- 特朗普任命"超级智能"工作组（Jay Clayton、Andrew Ferguson 领导，Emil Michael、Scott Kupor 共同领导）: query_raw_items(source=telegram:Financial_Express)[id:459894] = 2026-10-04 快讯
+- FoxScript：FoxPro WebAssembly 运行时+IDE（Microsoft 2007 杀死 FoxPro 后复活；golden tests 对标 vfp9 追求 100% 兼容；1722 个语言元素 1534 个已测试）: fetch_url(foxscript.org) = 正文抓取成功
+- Grammarly 退订骚扰帖（HN ▲395 💬104）: query_raw_items(source=hackernews)[id:437119] = r/sysadmin 帖引至 HN
+- Grammarly/DeepL AI 化退化讨论（DeepL 2024 由 CNN 引擎转 LLM 与 $2B 估值 Series C 同期，翻译质量下降）: fetch_url(news.ycombinator.com/item?id=49811484) = HN 评论页抓取成功
+- Enigma MVUEH 破解（GPT-6 Astra 自主完成：选择目标消息、以 ROSENOW 为 crib、自写 Python/C++ 模拟器与 bombe；2005 年以来未破）: fetch_url(cryptocellar.org/bgac/the-mvueh-break.html) = 正文抓取成功
+- 日本央行副行长内田真一谈 AI（重大正向需求冲击、推升股价令金融环境更宽松、AI 相关企业发债推升长期利率、若盈利跟不上存在回调风险）: query_raw_items(source=telegram:Financial_Express)[id:460122,460123,460126] = 2026-10-05 快讯
+- 智谱 9 月获南向资金净买入近 80 亿港元（933.76 亿港元买卖总额居港股通活跃股榜首）: query_raw_items(source=telegram:Financial_Express)[id:460135] = 2026-10-05 快讯
+- 贝森特淡化 AI 泡沫担忧（微软/谷歌/Meta 大额投入推动 Anthropic/OpenAI 营收显著增长）: query_raw_items(source=telegram:Financial_Express)[id:459520] = 2026-10-03 快讯
+
+
+## 2026-10-05 终稿（第 3 棒 tech_generalist）新增溯源
+- Opus 5.5 HN 评论页（作者 sailingparrot：发布稿首行"pacing the frontier"被指言行不一；作者 epolanski/DiogenesKynikos：安全修辞被读为出口管制式护城河）: fetch_url(news.ycombinator.com/item?id=49803892) = 页面显示 1806 points/1134 comments（快照 1793/1118 为冻结值）
+- GPT-6 HN 评论页（作者 simonw：6-Luna 为 5.6-Luna 半价"really big deal"；作者 gizmodo59：6-Luna 多数任务帕累托前沿 + OpenRouter 月榜 5.6-Luna 当月用量第一；作者 sieve：订阅制 $10 覆盖约 $184 等价 API 用量、Luna 编存/输入价差 8-10x 对重缓存编码负载的成本核算）: fetch_url(news.ycombinator.com/item?id=49805509) = 页面显示 1779 points/855 comments
+- GPT-6 官方原文 URL: query_raw_items(keyword='GPT-6', source=hackernews, min_points=100)[id:435956] = https://openai.com/index/introducing-gpt-6-sol-and-luna/，2026-09-22 18:00:34 UTC
+- HN 管道停摆复核（2026-10-05 01:24 UTC）: query_raw_items(source=hackernews, published_after=2026-09-24T00:00:00Z) = NO_DATA
+- CUA-S1（Jev 生态衍生）: query_raw_items(keyword='GPT-6', source=hackernews, min_points=100)[id:428097] = Show HN: CUA-S1 – A System One Model for Computer Use，▲90/💬10，2026-09-19
+- Enigma 同题更早版本: query_raw_items(keyword='GPT-6', source=hackernews, min_points=100)[id:427676] = GPT-6 Astra Solves a WWI German Radio Cipher，▲396/💬180，2026-09-19
+- ArtificialAnalysis 第三方评测帖热度（共识第 6 条依据）: query_raw_items(...)[id:435876] = ▲331/💬105，与官方发布帖 ▲1793 热度比约 1:5
+
+
+## 2026-10-05 审查（tech_scout 交叉审查）新增溯源
+- 管道停摆复核: query_raw_items(source=hackernews, published_after=2026-09-24T00:00:00Z) = NO_DATA（与稿中声明一致）
+- Grok 4.7 发布（x.ai, 2026-09-21, ▲607/💬529）: query_raw_items(source=hackernews, 2026-09-20~24 窗口)[id:432099] = xAI 发布 Grok 4.7，窗口内第三家旗舰发布，草稿全篇未提及
+- Google 开源 agentic orchestrator（agentexecutor.io, 2026-09-20, ▲660/💬299）: query_raw_items(同上)[id:429295] = Google's Open Agentic Orchestrator，窗口内 agent 基建最高分帖，草稿全篇未提及
+- Meta Muse 运行时导出逆向分析（▲349/💬165, 09-22）: query_raw_items(同上)[id:435622] = mouse.dev 通过 6.8GB 文件系统逆向 Muse 运行时
+- Muse 高权限 AI 助理 0-day（Ars Technica, ▲122/💬49, 09-22）: query_raw_items(同上)[id:435578] = Meta Muse 特权 AI 助理严重 0-day
+- Amazon 封锁 Meta Muse agent 购物（Forbes, ▲152/💬161, 09-21）: query_raw_items(同上)[id:432205] = Amazon Blocks Meta's New Muse AI Agent
+- Apple 官方支持文档：关闭/限制 Apple Intelligence（▲352/💬223, 09-21）: query_raw_items(同上)[id:432293] = support.apple.com 仍提供关闭/限制指南，与草稿"macOS 27 删除关闭开关"表述存在张力
+- macOS 27 规避 AI 模型下载 workaround（▲238/💬114, 09-21）: query_raw_items(同上)[id:432011]
+- Ask HN: macOS 27 无法禁用 Siri？（▲151/💬83, 09-21）: query_raw_items(同上)[id:431857]
+- Spymarks, Not Watermarks（▲689/💬166, 09-21）: query_raw_items(同上)[id:432698] = AI 内容溯源（spymark）方案讨论，为"78% 弃读"问题侧对策轨道
+- ChatGPT 经广告收集器获取跨站行为（▲758/💬394, 09-20）: query_raw_items(同上)[id:429078] = ChatGPT now knows what you do on other websites via ad collector
+- Why MCP Was Always a Bad Idea（▲332/💬329, 09-20）: query_raw_items(同上)[id:429200] = MCP 协议层批判长文
+- Linear: AI coding 使 CI 成为瓶颈（▲313/💬407, 09-21）: query_raw_items(同上)[id:432438] = Linear 重构 CI 的工程实录
+- Kev: Jev-like 决策模型家族基于 Qwen3.5（▲459/💬200, 09-21）: query_raw_items(同上)[id:430326] = jaredpalmer/kev
+- Laya (OS Jev) Mac M4 CoreML 离线 45 决策/秒（▲174/💬33, 09-20）: query_raw_items(同上)[id:429090] = CoreML 移植 gist
+- Show HN: Drop rootless Linux sandbox with gVisor（▲188/💬63, 09-22）: query_raw_items(同上)[id:435461]
+- FoxScript FoxPro WASM 运行时+IDE（▲485/💬270, 09-22）: query_raw_items(同上)[id:436274] = reference.md 已有 fetch_url 溯源，草稿正文未采用
+- Transformers Explained Visually（▲642/💬90, 09-21）: query_raw_items(同上)[id:432469] = poloclub transformer-explainer
+- Anthropic/OpenAI 等因"合谋减速 AI development"遭反垄断诉讼（▲32/💬11, 09-21）: query_raw_items(同上)[id:432572] = tomshardware
+- Tell HN: Claude Code 自主签署合同未经询问（▲50/💬96, 09-22）: query_raw_items(同上)[id:434198] = 高评论比 agent 自主性事件，低于 hnrss 60 分采集阈值
+- Can gzip be a language model?（▲403/💬164, 09-22）: query_raw_items(同上)[id:433788] = 非神经网络基线技术长文
+- Tim Dettmers: Frontier AI on Your Own Hardware（▲183/💬104, 09-21）: query_raw_items(同上)[id:432449] = dlab open-source week
+- AA MiMo-v2.6-Pro 第三方评测（▲164/💬67, 09-22）: query_raw_items(同上)[id:433787] = artificialanalysis.ai/models/mimo-v2-6-pro，可与 MiMo 发布帖 [id:432439] 配对但草稿未配
+- Samsung HBM4/HBM4E 原条目复核（▲557/💬456, 09-20）: query_raw_items(source=hackernews, keyword=HBM)[id:429138] = en.sedaily.com 链接确认；库内摘要不含"玻璃载板 2万→5万/月投片 18万→25万/HBM 占 DRAM 产值 40%→80%"数字，reference.md 亦无对应 fetch 行
+- Opus 5.5 / GPT-6 发布时间戳核验: query_raw_items(同上)[id:435736] = 2026-09-22 16:29:05 UTC；[id:435956] = 2026-09-22 18:00:34 UTC（与稿中"16:29 vs 18:00、相隔不足 2 小时"一致）
+- longbridge 交叉核验尝试: query_longbridge_by_route(news/company, symbol=PLTR.US) = 401003 token expired，公司财务/估值/一致预期维度本期无法核验

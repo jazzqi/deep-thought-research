@@ -1,18 +1,4 @@
----
-name: HN 书摘 · 2026-10-05
-slug: hn-daily
-status: active
-lead_agent: tech_generalist
-created: 2026-08-15
-updated: 2026-10-05T09:45:32+08:00
-revision: 2026-10-05
-sources:
-  - path: 2026-10-05_0820__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/reference.md
-    agent: hn_daily_update
-    summarized: false
----
-
-# HN 书摘 · 2026-10-05（周一）
+# HN 书摘 2026-10-05（快照窗口 2026-09-20~23；管道滞后约 13 天）
 
 > **今日三句话**：① Claude Opus 5.5 与 GPT-6 Sol/Luna 于 2026-09-22 相隔不足 2 小时同日发布，旗舰竞争从代差压缩到同日对冲，双方卖点全部转向 agentic 负载的性价比曲线。② Jev「便宜 40-400 倍」宣称 72 小时内被 Laya 开源复刻与 25 行 Python 复现解构，开源梯队的天级跟进正在系统性压缩闭源溢价窗口。③ 能力以周为单位商品化，信任与治理以年为单位滞后：五角大楼首次将平民伤亡归因「AI 过度依赖」，78% 读者弃读 AI 文，macOS 27 删除 Apple Intelligence 关闭开关。
 
@@ -186,18 +172,20 @@ AI 模型层当前的核心矛盾：**能力以周为单位商品化，而信任
 
 ## 数据速览
 
-| # | 原文标题 | 中文标题 | 分数 | 评论 |
-| --- | --- | --- | --- | --- |
-| 1 | [伊朗石油部长辞职 伊朗国家石油公司 CEO 任代理部长](https://t.me/Financial_Express/3509112) |  | 0 | 0 |
-| 2 | [据日经新闻报道，沙特与阿联酋价格帮助亚洲推高石油储备。](https://t.me/Financial_Express/3509113) |  | 0 | 0 |
-| 3 | [软银集团领导人孙正义是人工智能（AI）最坚定的信奉者之一，但即便是他也表示，随着机器正迅速获得更多能力，他对安全风险感到担忧。](https://t.me/Financial_Express/3509114) |  | 0 | 0 |
-| 4 | [据伊朗塔斯尼姆通讯社](https://t.me/Financial_Express/3509115) |  | 0 | 0 |
-| 5 | [据伊通社（IRNA）](https://t.me/Financial_Express/3509116) |  | 0 | 0 |
-| 6 | [据 NTV 报道，土耳其检察官已申请对土耳其资本市场委员会（SPK）前主席 Ibrahim Omer Gonul 展开调查，这是其针对投资基金调查的一部分。](https://t.me/Financial_Express/3509117) |  | 0 | 0 |
-| 7 | [周一悉尼盘初，美元兑 G10 货币报价持稳。](https://t.me/Financial_Express/3509118) |  | 0 | 0 |
-| 8 | [在一轮抛售潮勾起人们对十五年前欧元区债务危机的记忆后，交易员正对欧洲政府债券市场的传染迹象保持高度警惕。当某一主权债券市场的金融压力蔓延至其他市场——即使这种蔓延看似缺乏充分理由——就会引发令央行担忧的混乱价格波动，并迫使它们在极端情况下出](https://t.me/Financial_Express/3509119) |  | 0 | 0 |
-| 9 | [英国保守党领袖巴德诺赫（Kemi Badenoch）正借本党年度大会之机，呼吁取消遗产税，并将育儿支持扩大至更高收入群体。](https://t.me/Financial_Express/3509120) |  | 0 | 0 |
-| 10 | [欧洲债市重燃传染风险，大摩：若持续巨额波动，恐引起央行关注](https://t.me/Financial_Express/3509121) |  | 0 | 0 |
+| # | 原文标题 | 中文 | 分数 | 评论 |
+|---|---|---|---|---|
+| 1 | Claude Opus 5.5 | Claude Opus 5.5 发布 | ▲1793 | 💬1118 |
+| 2 | GPT-6 Sol and Luna | GPT-6 Sol 与 Luna 发布 | ▲1769 | 💬847 |
+| 3 | Xiaomi MiMo v2.6 | 小米 MiMo v2.6 | ▲1123 | 💬477 |
+| 4 | Attention is all you have | 你拥有的只有注意力 | ▲1068 | 💬325 |
+| 5 | I don't want to read what you didn't write | 我不想读你没亲手写的东西 | ▲1054 | 💬452 |
+| 6 | Pentagon: Palantir AI Overreliance… | 五角大楼：Palantir AI 过度依赖致 123 名伊朗儿童死亡 | ▲955 | 💬541 |
+| 7 | I said no and Apple said yes | 我说了不，苹果说了行 | ▲869 | 💬695 |
+| 8 | GPT-6 Astra breaks Enigma MVUEH | GPT-6 Astra 破译 Enigma MVUEH | ▲734 | 💬442 |
+| 9 | Jev in 25 Lines of Python | 25 行 Python 复现 Jev | ▲682 | 💬212 |
+| 10 | Samsung is expected to more than double output of HBM4/HBM4E | Samsung 预计 HBM4/HBM4E 产量翻倍以上 | ▲557 | 💬456 |
+| 11 | AI Has No Wisdom and Neither Will You | AI 没有智慧，你也不会有 | ▲384 | 💬551 |
+| 12 | OpenAI is about to eat Jev's lunch | OpenAI 即将吞掉 Jev 的午餐 | ▲324 | 💬226 |
 
 **⚠️ 数据管道状态（2026-10-05 01:24 UTC 复核，NO_DATA 再次确认）**：HN raw_items 库在 2026-09-23 之后无新条目；本摘录为 2026-09-20~23 冻结窗口复盘，滞后约 13 天；09-24 之后热点（双旗舰发布后的社区发酵、10 月初事件）未能覆盖。行动项：采集管道需排查（疑似上游抓取或入库中断）；恢复前日报降级为窗口复盘并显式标注滞后天数。
 
@@ -224,6 +212,3 @@ AI 模型层当前的核心矛盾：**能力以周为单位商品化，而信任
 ## 数据来源（附录）
 
 热度数值全部来自 query_raw_items 冻结快照（每条带 [id:N] 可溯源）；正文与评论摘录来自 fetch_url（URL 见各表格）。本次终稿新增核验：HN 评论页 id:49803892（Opus 5.5，作者 sailingparrot/epolanski/DiogenesKynikos）、id:49805509（GPT-6，作者 simonw/gizmodo59/sieve）；GPT-6 原文 URL 经 query_raw_items(id:435956) 核验为 openai.com/index/introducing-gpt-6-sol-and-luna/；管道复核 query_raw_items(published_after=2026-09-24) = NO_DATA。完整逐条溯源见 reference.md。
-> 数据快照：2026-10-05T01:45:32.943769+00:00（HN 分数/评论为快照值，非实时）
-
-> 评审：4 项 blocker 未修复
