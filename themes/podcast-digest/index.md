@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-09-27T18:09:20+08:00
-revision: 2026-09-27T18:09:20+08:00
+updated: 2026-10-05T12:45:59+08:00
+revision: 2026-10-05T12:45:59+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [世界秩序崩塌与美国力量上升 —— Niall Ferguson · Invest Like the Best · 2026-09-08](./iltb/why-the-world-order-is-collapsing-and-american-power-is-risi.md)
+- [Inside the Personal AI Assistant Growing 10% a Day —— Instinct 创始人（转录稿未标注姓名） · ILTB Podcast · 2026-09-28](./iltb/inside-the-personal-ai-assistant-growing-10-a-day-instinct-f.md)
 
 ## 往期
 
+- [Inside the Personal AI Assistant Growing 10% a Day —— Instinct 创始人（转录稿未标注姓名） · ILTB Podcast · 2026-09-28](./iltb/inside-the-personal-ai-assistant-growing-10-a-day-instinct-f.md)
 - [世界秩序崩塌与美国力量上升 —— Niall Ferguson · Invest Like the Best · 2026-09-08](./iltb/why-the-world-order-is-collapsing-and-american-power-is-risi.md)
 - [Former Sequoia Chairman Michael Moritz on Steve Jobs, Elon Musk, and the Price of Greatness —— @ILTB_Podcast · 2026-09-16](./iltb/former-sequoia-chairman-michael-moritz-on-steve-jobs-elon-mu.md)
 - [Naveen Rao: 4D 计算、AI 的能源墙与超越生物学 —— All-In 播客 · 2026-09-21](./all-in/naveen-rao-4d-computing-ais-energy-wall-beating-biology.md)
