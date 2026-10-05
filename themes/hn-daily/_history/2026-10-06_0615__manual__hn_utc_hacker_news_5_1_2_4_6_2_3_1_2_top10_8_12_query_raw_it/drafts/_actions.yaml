@@ -1,0 +1,12 @@
+actions:
+- priority: P2
+  recurrence: daily
+  summary: 每日复核 source=hackernews 是否恢复入库（published_after=当日窗口查询），恢复前 hn-daily 保持空窗告警模式，禁止用
+    Fallback 旧条目充当日更
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: 管道恢复后回补 2026-09-24 至恢复日的 HN 空白期并补发积压书摘（含 09-24~10-05 未覆盖热点）
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-10-08'
