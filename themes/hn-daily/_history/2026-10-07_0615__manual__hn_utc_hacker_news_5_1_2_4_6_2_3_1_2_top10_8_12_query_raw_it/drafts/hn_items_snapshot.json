@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-06T23:31:21.893460+00:00",
+  "window": {
+    "after": "2026-10-06T00:00:00+00:00",
+    "before": "2026-10-07T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "464285",
+      "title": "特朗普谈及俄罗斯疑似鼠疫事件",
+      "url": "https://t.me/Financial_Express/3513414",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:16:22+00:00"
+    },
+    {
+      "id": "464286",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3513415",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:16:42+00:00"
+    },
+    {
+      "id": "464287",
+      "title": "巴西 9 月石油出口创历史新高，受产量上升与需求强劲推动",
+      "url": "https://t.me/Financial_Express/3513416",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:16:43+00:00"
+    },
+    {
+      "id": "464288",
+      "title": "美国总统特朗普表示，很快将与俄罗斯总统普京就“疑似鼠疫”问题通话。",
+      "url": "https://t.me/Financial_Express/3513417",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:18:42+00:00"
+    },
+    {
+      "id": "464289",
+      "title": "拉脱维亚总统支持现总理牵头组建新政府",
+      "url": "https://t.me/Financial_Express/3513418",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:18:43+00:00"
+    },
+    {
+      "id": "464290",
+      "title": "据悉苹果将联手 LG 加码智能家居 拟推门锁、摄像头等",
+      "url": "https://t.me/Financial_Express/3513419",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:21:22+00:00"
+    },
+    {
+      "id": "464291",
+      "title": "雪佛龙将出售所持赫斯中游、DJ 盆地中游资产的权益，预计因赫斯中游资产交易产生约 30 亿至 40 亿美元亏损。",
+      "url": "https://t.me/Financial_Express/3513420",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:24:02+00:00"
+    },
+    {
+      "id": "464292",
+      "title": "雪佛龙",
+      "url": "https://t.me/Financial_Express/3513421",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:31:19+00:00"
+    },
+    {
+      "id": "464294",
+      "title": "特朗普称将很快与普京通话讨论俄疑似鼠疫病例",
+      "url": "https://t.me/Financial_Express/3513422",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:34:22+00:00"
+    },
+    {
+      "id": "464295",
+      "title": "沙特主导联军称，已拦截并摧毁也门胡塞武装射向海米斯穆谢特的弹道导弹。",
+      "url": "https://t.me/Financial_Express/3513423",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:39:42+00:00"
+    },
+    {
+      "id": "464296",
+      "title": "沙特主导的联军",
+      "url": "https://t.me/Financial_Express/3513424",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:40:42+00:00"
+    },
+    {
+      "id": "464297",
+      "title": "沙特主导联军",
+      "url": "https://t.me/Financial_Express/3513425",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:42:02+00:00"
+    },
+    {
+      "id": "464298",
+      "title": "沙特主导的联军",
+      "url": "https://t.me/Financial_Express/3513426",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:42:22+00:00"
+    },
+    {
+      "id": "464299",
+      "title": "纳斯达克金龙中国指数收涨 0.31%，报 5631.32 点，连续第二个交易日反弹。",
+      "url": "https://t.me/Financial_Express/3513427",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:47:06+00:00"
+    },
+    {
+      "id": "464300",
+      "title": "日本政府、日本央行将向研究员们发布贷款数据。（日经新闻）",
+      "url": "https://t.me/Financial_Express/3513428",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:48:12+00:00"
+    },
+    {
+      "id": "464301",
+      "title": "据知情人士透露，Energy Capital（能源资本合伙公司）旗下关联机构正通过一笔未注册的大宗交易，出售约价值 8.91 亿美元的星座能源公司（Constellation Energy）股票。这家专注于能源领域的私募股权公司正以每股 2",
+      "url": "https://t.me/Financial_Express/3513429",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:50:01+00:00"
+    },
+    {
+      "id": "464302",
+      "title": "苹果(AAPL.O)将于北京时间 11 月 3 日公布第四财季财报，财报电话会将于 11 月 3 日上午 6 时举行。",
+      "url": "https://t.me/Financial_Express/3513430",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:51:02+00:00"
+    },
+    {
+      "id": "464303",
+      "title": "委内瑞拉第二大炼油厂因火灾停运",
+      "url": "https://t.me/Financial_Express/3513431",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:51:42+00:00"
+    },
+    {
+      "id": "464304",
+      "title": "苹果公司将于北京时间 11 月 3 日（周二）公布第四财季财报，财报电话会将于 11 月 3 日上午 6 时举行。",
+      "url": "https://t.me/Financial_Express/3513432",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:51:45+00:00"
+    },
+    {
+      "id": "464305",
+      "title": "据日经新闻",
+      "url": "https://t.me/Financial_Express/3513433",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:58:02+00:00"
+    },
+    {
+      "id": "464306",
+      "title": "据日本共同社",
+      "url": "https://t.me/Financial_Express/3513434",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T21:59:22+00:00"
+    },
+    {
+      "id": "464307",
+      "title": "日本央行审议委员佐藤",
+      "url": "https://t.me/Financial_Express/3513435",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:00:02+00:00"
+    },
+    {
+      "id": "464308",
+      "title": "日本央行审议委员佐藤",
+      "url": "https://t.me/Financial_Express/3513436",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:00:22+00:00"
+    },
+    {
+      "id": "464309",
+      "title": "日本央行新任审议委员佐藤（Sato）",
+      "url": "https://t.me/Financial_Express/3513437",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:00:23+00:00"
+    },
+    {
+      "id": "464310",
+      "title": "日本央行新任审议委员佐藤（Sato）",
+      "url": "https://t.me/Financial_Express/3513438",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:01:02+00:00"
+    },
+    {
+      "id": "464311",
+      "title": "周三亚太盘初，WTI 原油期货高开 0.6%，投资者关注霍尔木兹海峡石油输送数据和中东局势。",
+      "url": "https://t.me/Financial_Express/3513439",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:01:05+00:00"
+    },
+    {
+      "id": "464312",
+      "title": "雪佛龙表示，潜在飓风目前尚未对其美国墨西哥湾海上生产造成影响。",
+      "url": "https://t.me/Financial_Express/3513440",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:01:22+00:00"
+    },
+    {
+      "id": "464313",
+      "title": "日本央行新任审议委员佐藤（Sato）",
+      "url": "https://t.me/Financial_Express/3513441",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:01:34+00:00"
+    },
+    {
+      "id": "464314",
+      "title": "澳大利亚 9 月 AIG/PWC 制造业表现指数 -8.7，前值-16.6。",
+      "url": "https://t.me/Financial_Express/3513442",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:02:02+00:00"
+    },
+    {
+      "id": "464315",
+      "title": "美联储 10 月维持利率不变的概率为 79.5%",
+      "url": "https://t.me/Financial_Express/3513443",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:02:02+00:00"
+    },
+    {
+      "id": "464316",
+      "title": "澳大利亚 9 月 AIG 建筑业表现指数 -34.5，前值-6.9。",
+      "url": "https://t.me/Financial_Express/3513444",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:02:22+00:00"
+    },
+    {
+      "id": "464317",
+      "title": "雪佛龙",
+      "url": "https://t.me/Financial_Express/3513445",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:02:25+00:00"
+    },
+    {
+      "id": "464318",
+      "title": "日本央行审议委员佐藤",
+      "url": "https://t.me/Financial_Express/3513446",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:02:42+00:00"
+    },
+    {
+      "id": "464319",
+      "title": "澳大利亚 9 月 AIG/PWC 制造业表现指数 -8.7，前值-16.6。澳大利亚 9 月 AIG 建筑业表现指数 -34.5，前值-6.9。",
+      "url": "https://t.me/Financial_Express/3513447",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:02:43+00:00"
+    },
+    {
+      "id": "464320",
+      "title": "随着负债累累的政府和国有背景企业转向私人资本填补预算缺口，阿波罗全球管理正在探索为其提供融资并扮演更重要的角色。阿波罗总裁 Jim Zelter 表示，公司正在研究政府背景企业强化资产负债表的方式，包括提供长期资本，以及将硬资产划入子公司以",
+      "url": "https://t.me/Financial_Express/3513448",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:05:23+00:00"
+    },
+    {
+      "id": "464321",
+      "title": "美联储 10 月维持利率不变的概率为 79.5%",
+      "url": "https://t.me/Financial_Express/3513449",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:05:42+00:00"
+    },
+    {
+      "id": "464322",
+      "title": "雪佛龙(CVX.N)",
+      "url": "https://t.me/Financial_Express/3513450",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:13:02+00:00"
+    },
+    {
+      "id": "464323",
+      "title": "传音控股在香港 IPO 中拟发行 8660 万股股票，每股最高发行价 38.80 港元，预计将于 10 月 15 日上市交易。香港 IPO 预期定价日 10 月 13 日。",
+      "url": "https://t.me/Financial_Express/3513451",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:14:02+00:00"
+    },
+    {
+      "id": "464324",
+      "title": "深圳传音控股申请香港 IPO。",
+      "url": "https://t.me/Financial_Express/3513452",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:14:58+00:00"
+    },
+    {
+      "id": "464325",
+      "title": "① 07:00 美国达拉斯联储主席 Logan（2026 年 FOMC 票委）讲话；",
+      "url": "https://t.me/Financial_Express/3513453",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:16:18+00:00"
+    },
+    {
+      "id": "464326",
+      "title": "周三重要财经信息提醒（以下均为北京时间）",
+      "url": "https://t.me/Financial_Express/3513454",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:17:22+00:00"
+    },
+    {
+      "id": "464327",
+      "title": "美债短暂反弹难改看空情绪 交易员押注收益率继续攀升",
+      "url": "https://t.me/Financial_Express/3513455",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:20:22+00:00"
+    },
+    {
+      "id": "464328",
+      "title": "半导体制造设备供应商 Towa Corp.将在日本京都府建设新的工厂。（日经新闻）",
+      "url": "https://t.me/Financial_Express/3513456",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:21:47+00:00"
+    },
+    {
+      "id": "464329",
+      "title": "OpenAI",
+      "url": "https://t.me/Financial_Express/3513457",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:22:02+00:00"
+    },
+    {
+      "id": "464330",
+      "title": "深圳传音控股有限公司在港交所发售 0.866 亿股 H 股股份，最高发售价不超过 38.8 港元，预计 10 月 15 日上市交易。",
+      "url": "https://t.me/Financial_Express/3513458",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:22:22+00:00"
+    },
+    {
+      "id": "464331",
+      "title": "OPENAI",
+      "url": "https://t.me/Financial_Express/3513459",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:23:01+00:00"
+    },
+    {
+      "id": "464332",
+      "title": "日本央行佐藤绫野：同意利率需要逐步调整 不应预设加息步伐",
+      "url": "https://t.me/Financial_Express/3513460",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:25:22+00:00"
+    },
+    {
+      "id": "464333",
+      "title": "10 月 7 日隔夜要闻一览",
+      "url": "https://t.me/Financial_Express/3513461",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:27:42+00:00"
+    },
+    {
+      "id": "464334",
+      "title": "OpenAI",
+      "url": "https://t.me/Financial_Express/3513462",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:28:42+00:00"
+    },
+    {
+      "id": "464335",
+      "title": "必和必拓将出售澳大利亚西澳州卡姆巴尔达地区 Kambalda Nickel Concentrator（卡姆巴尔达镍选矿厂）给金田公司。",
+      "url": "https://t.me/Financial_Express/3513463",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:29:07+00:00"
+    },
+    {
+      "id": "464336",
+      "title": "SpaceX 计划由阿波罗全球管理牵头融资 400 亿美元，用于采购英伟达芯片。",
+      "url": "https://t.me/Financial_Express/3513464",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:31:02+00:00"
+    },
+    {
+      "id": "464337",
+      "title": "SpaceX 为购买英伟达芯片而寻求融资 400 亿美元。",
+      "url": "https://t.me/Financial_Express/3513465",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:31:12+00:00"
+    },
+    {
+      "id": "464338",
+      "title": "据英国金融时报",
+      "url": "https://t.me/Financial_Express/3513466",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:32:02+00:00"
+    },
+    {
+      "id": "464339",
+      "title": "Spacex 为购买英伟达芯片而寻求融资 400 亿美元。（英国金融时报）",
+      "url": "https://t.me/Financial_Express/3513467",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:33:05+00:00"
+    },
+    {
+      "id": "464340",
+      "title": "报道：SpaceX 拟由阿波罗牵头融资 400 亿美元采购英伟达芯片",
+      "url": "https://t.me/Financial_Express/3513469",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:36:02+00:00"
+    },
+    {
+      "id": "464341",
+      "title": "美国副总统万斯",
+      "url": "https://t.me/Financial_Express/3513470",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:36:22+00:00"
+    },
+    {
+      "id": "464342",
+      "title": "美国副总统万斯",
+      "url": "https://t.me/Financial_Express/3513471",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:36:42+00:00"
+    },
+    {
+      "id": "464343",
+      "title": "美国副总统万斯",
+      "url": "https://t.me/Financial_Express/3513472",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:36:42+00:00"
+    },
+    {
+      "id": "464344",
+      "title": "美国副总统万斯",
+      "url": "https://t.me/Financial_Express/3513473",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:37:02+00:00"
+    },
+    {
+      "id": "464345",
+      "title": "美国副总统万斯",
+      "url": "https://t.me/Financial_Express/3513474",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:37:22+00:00"
+    },
+    {
+      "id": "464346",
+      "title": "美国参议院选情向民主党倾斜 堪萨斯成了势均力敌州",
+      "url": "https://t.me/Financial_Express/3513475",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:40:42+00:00"
+    },
+    {
+      "id": "464347",
+      "title": "加拿大对美贸易顺差从 7 月的 61 亿加元（79 亿美元）扩大至 8 月的 112 亿加元，其中对美出口增长 8.1%，自美进口下降 2.5%。这也是加拿大对美贸易收支录得有史以来最大的单月正向变动。加拿大 8 月总出口增长 2.5%，总",
+      "url": "https://t.me/Financial_Express/3513476",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:42:34+00:00"
+    },
+    {
+      "id": "464348",
+      "title": "SpaceX 计划筹集 400 亿美元资金以购买英伟达芯片",
+      "url": "https://t.me/Financial_Express/3513477",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:45:02+00:00"
+    },
+    {
+      "id": "464349",
+      "title": "也门胡塞武装称击退政府军向曼德海峡方向的进攻",
+      "url": "https://t.me/Financial_Express/3513478",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:46:42+00:00"
+    },
+    {
+      "id": "464350",
+      "title": "据朝中社 7 日报道，朝鲜最高领导人金正恩在俄罗斯总统普京 10 月 7 日生日之际致贺电，向他致以亲切的祝贺和问候。",
+      "url": "https://t.me/Financial_Express/3513479",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:47:04+00:00"
+    },
+    {
+      "id": "464351",
+      "title": "金正恩向普京致生日贺电",
+      "url": "https://t.me/Financial_Express/3513480",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:47:22+00:00"
+    },
+    {
+      "id": "464352",
+      "title": "金正恩向普京致生日贺电",
+      "url": "https://t.me/Financial_Express/3513481",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:48:02+00:00"
+    },
+    {
+      "id": "464353",
+      "title": "记者今天（7 日）从中国石油获悉，位于内蒙古河套盆地的巴彦油田日产原油达到 5080 吨，首次突破 5000 吨大关，创历史新高，标志着中国石油华北油田新区增储上产迈上新台阶。（央视）",
+      "url": "https://t.me/Financial_Express/3513482",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:50:31+00:00"
+    },
+    {
+      "id": "464354",
+      "title": "美国副总统万斯",
+      "url": "https://t.me/Financial_Express/3513483",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:52:10+00:00"
+    },
+    {
+      "id": "464355",
+      "title": "港交所批准江苏瘦西湖文旅的 IPO 申请。",
+      "url": "https://t.me/Financial_Express/3513484",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:53:41+00:00"
+    },
+    {
+      "id": "464356",
+      "title": "万斯：伊朗必须“实质性”地削减核能力，对达成协议持开放态度",
+      "url": "https://t.me/Financial_Express/3513485",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:54:22+00:00"
+    },
+    {
+      "id": "464357",
+      "title": "美国副总统万斯",
+      "url": "https://t.me/Financial_Express/3513486",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:55:02+00:00"
+    },
+    {
+      "id": "464358",
+      "title": "美国副总统万斯",
+      "url": "https://t.me/Financial_Express/3513487",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:55:22+00:00"
+    },
+    {
+      "id": "464359",
+      "title": "美国副总统万斯",
+      "url": "https://t.me/Financial_Express/3513488",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:57:03+00:00"
+    },
+    {
+      "id": "464360",
+      "title": "美国副总统万斯",
+      "url": "https://t.me/Financial_Express/3513489",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:57:22+00:00"
+    },
+    {
+      "id": "464361",
+      "title": "美国副总统万斯",
+      "url": "https://t.me/Financial_Express/3513490",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:57:40+00:00"
+    },
+    {
+      "id": "464362",
+      "title": "美国副总统万斯",
+      "url": "https://t.me/Financial_Express/3513491",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:58:02+00:00"
+    },
+    {
+      "id": "464363",
+      "title": "万斯：不确定伊朗谁是“话事人”，不清楚伊总统和外长掌握多少实权",
+      "url": "https://t.me/Financial_Express/3513492",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:59:02+00:00"
+    },
+    {
+      "id": "464364",
+      "title": "据读卖新闻援引未具名人士报道，日本政府正在考虑编制 2026 财年的第二份补充预算。",
+      "url": "https://t.me/Financial_Express/3513493",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T22:59:42+00:00"
+    },
+    {
+      "id": "464365",
+      "title": "美国副总统万斯",
+      "url": "https://t.me/Financial_Express/3513494",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:00:02+00:00"
+    },
+    {
+      "id": "464366",
+      "title": "日本 10 月路透短观非制造业景气判断指数 23，前值 29。",
+      "url": "https://t.me/Financial_Express/3513495",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:00:22+00:00"
+    },
+    {
+      "id": "464367",
+      "title": "日本 10 月路透短观制造业景气判断指数 22，前值 21。",
+      "url": "https://t.me/Financial_Express/3513496",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:00:23+00:00"
+    },
+    {
+      "id": "464368",
+      "title": "据日本读卖新闻",
+      "url": "https://t.me/Financial_Express/3513497",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:00:42+00:00"
+    },
+    {
+      "id": "464369",
+      "title": "日本 10 月路透短观非制造业景气判断指数 23，前值 29。日本 10 月路透短观制造业景气判断指数 22，前值 21。",
+      "url": "https://t.me/Financial_Express/3513498",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:00:43+00:00"
+    },
+    {
+      "id": "464370",
+      "title": "也门胡塞武装称击退政府军向曼德海峡方向的进攻",
+      "url": "https://t.me/Financial_Express/3513499",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:03:22+00:00"
+    },
+    {
+      "id": "464371",
+      "title": "澳大利亚股市 S&P/ASX 200 指数早盘微升 0.01%，报 8,736.40 点。",
+      "url": "https://t.me/Financial_Express/3513500",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:04:22+00:00"
+    },
+    {
+      "id": "464372",
+      "title": "除了头版内容，今天《人民日报》涉及财经的主要内容还包括：",
+      "url": "https://t.me/Financial_Express/3513501",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:04:42+00:00"
+    },
+    {
+      "id": "464373",
+      "title": "派拉蒙天舞完成对华纳兄弟收购",
+      "url": "https://t.me/Financial_Express/3513502",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:05:02+00:00"
+    },
+    {
+      "id": "464374",
+      "title": "美国券商 Revere 支付 80 万美元和解监管指控",
+      "url": "https://t.me/Financial_Express/3513503",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:06:22+00:00"
+    },
+    {
+      "id": "464375",
+      "title": "日本 10 月制造业信心升至近五年高位",
+      "url": "https://t.me/Financial_Express/3513504",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:08:42+00:00"
+    },
+    {
+      "id": "464376",
+      "title": "科技股再挺美股续涨、标普和纳指齐创历史新高；芯片指数四连涨，但部分存储芯片股大跌；原油 V 形反转、收盘扭转两连跌，布油盘中跌超 3%后转涨；黄金盘中反弹超 1%，期金摆脱一个月低位。",
+      "url": "https://t.me/Financial_Express/3513505",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:10:34+00:00"
+    },
+    {
+      "id": "464377",
+      "title": "媒体：迪拜航空涉事副驾驶曾在英国接受飞行培训",
+      "url": "https://t.me/Financial_Express/3513506",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:10:42+00:00"
+    },
+    {
+      "id": "464378",
+      "title": "沙特主导联军称拦截一枚也门胡塞武装导弹",
+      "url": "https://t.me/Financial_Express/3513507",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:11:42+00:00"
+    },
+    {
+      "id": "464381",
+      "title": "日本央行鸽派异议委员释放支持未来加息信号",
+      "url": "https://t.me/Financial_Express/3513508",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:14:22+00:00"
+    },
+    {
+      "id": "464382",
+      "title": "据日经新闻，本田将北美地区下一代混合动力汽车的量产时间推迟数月，至 2027 年 4 月或更晚。",
+      "url": "https://t.me/Financial_Express/3513509",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:15:22+00:00"
+    },
+    {
+      "id": "464383",
+      "title": "美国副总统万斯：美国正与伊朗总统以及外长阿拉格奇谈判",
+      "url": "https://t.me/Financial_Express/3513510",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:18:22+00:00"
+    },
+    {
+      "id": "464384",
+      "title": "据华盛顿邮报",
+      "url": "https://t.me/Financial_Express/3513511",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:20:02+00:00"
+    },
+    {
+      "id": "464385",
+      "title": "三星明日公布初步业绩 分析师：Q3 营业利润料增 9 倍",
+      "url": "https://t.me/Financial_Express/3513512",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:21:22+00:00"
+    },
+    {
+      "id": "464386",
+      "title": "国庆假期第六天全国道路交通总体平稳",
+      "url": "https://t.me/Financial_Express/3513513",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:22:02+00:00"
+    },
+    {
+      "id": "464387",
+      "title": "旭化成医药部门遭遇网络攻击",
+      "url": "https://t.me/Financial_Express/3513514",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-06T23:24:02+00:00"
+    }
+  ]
+}

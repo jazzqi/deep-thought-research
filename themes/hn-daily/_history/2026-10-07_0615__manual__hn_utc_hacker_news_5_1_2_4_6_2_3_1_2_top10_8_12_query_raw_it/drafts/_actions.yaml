@@ -1,0 +1,12 @@
+actions:
+- priority: P2
+  recurrence: daily
+  summary: HN raw_items 入库管道停摆第 14 天（最新条目 2026-09-23），修复前 hn-daily 继续 Algolia API
+    绕行取数，修复后需回补校验
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: Mistral Large 4 权重月底开源后跟踪社区复测（SWE-Bench/Cybench 独立评估），验证厂商自报基准与『视觉定位超越闭源旗舰』宣称
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-11-05'
