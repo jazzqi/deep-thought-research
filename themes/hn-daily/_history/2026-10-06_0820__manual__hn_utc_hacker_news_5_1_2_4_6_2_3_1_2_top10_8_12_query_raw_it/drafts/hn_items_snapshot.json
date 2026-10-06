@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-06T00:58:08.622873+00:00",
+  "window": {
+    "after": "2026-10-05T00:00:00+00:00",
+    "before": "2026-10-06T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "461867",
+      "title": "华尔街银团启动创纪录的 600 亿美元 AI 融资交易",
+      "url": "https://t.me/Financial_Express/3510992",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T21:13:22+00:00"
+    },
+    {
+      "id": "461868",
+      "title": "富时 A50 期指连续夜盘收涨 0.42%，报 13874 点。",
+      "url": "https://t.me/Financial_Express/3510993",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T21:15:14+00:00"
+    },
+    {
+      "id": "461869",
+      "title": "特朗普角逐诺贝尔和平奖，专家称胜算甚低",
+      "url": "https://t.me/Financial_Express/3510994",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T21:15:22+00:00"
+    },
+    {
+      "id": "461870",
+      "title": "惠誉维持凯雷集团“A-”评级，展望稳定。",
+      "url": "https://t.me/Financial_Express/3510995",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T21:22:22+00:00"
+    },
+    {
+      "id": "461871",
+      "title": "英国航空将在升级后的空客 A380 双层客机上推出全新商务舱，商务舱客舱将覆盖整个上层甲板。航空公司还将升级头等舱座椅，配备可收起的隔板，使中间座位可转换为供同行旅客使用的更大套间。这些改动将使 A380 的座位数减少 11%，从 469 ",
+      "url": "https://t.me/Financial_Express/3510996",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T21:23:13+00:00"
+    },
+    {
+      "id": "461872",
+      "title": "美军称遭伊朗袭击后靠谷歌找医院",
+      "url": "https://t.me/Financial_Express/3510997",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T21:31:02+00:00"
+    },
+    {
+      "id": "461873",
+      "title": "美军称遭伊朗袭击后靠谷歌找医院",
+      "url": "https://t.me/Financial_Express/3510998",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T21:34:22+00:00"
+    },
+    {
+      "id": "461874",
+      "title": "巴拿马型船闸将试行长期通航预约",
+      "url": "https://t.me/Financial_Express/3510999",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T21:50:42+00:00"
+    },
+    {
+      "id": "461875",
+      "title": "周一（10 月 5 日），美国科技股七巨头（Magnificent 7）指数涨 1.07%，报 238.22 点，突破 9 月 21 日所创收盘历史最高位 236.01 点，刷新盘中历史最高位至 239.38 点。",
+      "url": "https://t.me/Financial_Express/3511000",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T21:51:57+00:00"
+    },
+    {
+      "id": "461876",
+      "title": "英伟达股价多月来首创新高 分析师：仍有继续上涨的理由",
+      "url": "https://t.me/Financial_Express/3511001",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:00:22+00:00"
+    },
+    {
+      "id": "461877",
+      "title": "纽约期金突破 4170 美元/盎司，日内涨 0.31%。",
+      "url": "https://t.me/Financial_Express/3511002",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:00:23+00:00"
+    },
+    {
+      "id": "461878",
+      "title": "惠誉",
+      "url": "https://t.me/Financial_Express/3511003",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:01:02+00:00"
+    },
+    {
+      "id": "461879",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3511004",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:05:43+00:00"
+    },
+    {
+      "id": "461880",
+      "title": "美联储 10 月维持利率不变的概率为 77.3%",
+      "url": "https://t.me/Financial_Express/3511005",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:05:43+00:00"
+    },
+    {
+      "id": "461881",
+      "title": "沙特阿拉伯首都利雅得 5 日晚传出爆炸声。（央视）",
+      "url": "https://t.me/Financial_Express/3511006",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:06:11+00:00"
+    },
+    {
+      "id": "461882",
+      "title": "也门胡塞武装称发射导弹和无人机袭击沙特多个目标",
+      "url": "https://t.me/Financial_Express/3511007",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:07:02+00:00"
+    },
+    {
+      "id": "461883",
+      "title": "也门胡塞武装军事发言人叶海亚·萨雷亚 5 日发表声明说，该组织使用弹道导弹、巡航导弹和无人机实施 3 次军事行动，袭击了沙特阿拉伯境内机场、石油设施和多个军事目标，以回应沙特对也门胡塞武装控制区的空袭。",
+      "url": "https://t.me/Financial_Express/3511008",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:08:04+00:00"
+    },
+    {
+      "id": "461884",
+      "title": "日本拟设立市场机制以延长火电厂服役年限。",
+      "url": "https://t.me/Financial_Express/3511009",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:11:22+00:00"
+    },
+    {
+      "id": "461885",
+      "title": "穆迪评级确认高通公司 A2 评级，展望稳定。",
+      "url": "https://t.me/Financial_Express/3511010",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:11:42+00:00"
+    },
+    {
+      "id": "461886",
+      "title": "穆迪确认高通 A2 评级。",
+      "url": "https://t.me/Financial_Express/3511011",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:12:48+00:00"
+    },
+    {
+      "id": "461887",
+      "title": "① 时间待定 日本央行行长植田和男讲话，OpenAI 成立澳大利亚 AI 网络风险工作组，首席战略官赴悉尼；",
+      "url": "https://t.me/Financial_Express/3511012",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:17:48+00:00"
+    },
+    {
+      "id": "461888",
+      "title": "沙特主导的联盟",
+      "url": "https://t.me/Financial_Express/3511013",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:19:34+00:00"
+    },
+    {
+      "id": "461889",
+      "title": "纳斯达克金龙中国指数收涨 1.71%，报 5613.68 点，脱离上周五（美国非农日）收盘位 5519.24 点。",
+      "url": "https://t.me/Financial_Express/3511014",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:26:39+00:00"
+    },
+    {
+      "id": "461890",
+      "title": "沙特首都利雅得接连传出爆炸声",
+      "url": "https://t.me/Financial_Express/3511015",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:27:02+00:00"
+    },
+    {
+      "id": "461891",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3511016",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:28:02+00:00"
+    },
+    {
+      "id": "461892",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3511017",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:28:47+00:00"
+    },
+    {
+      "id": "461893",
+      "title": "沙特领导的联军表示，摧毁了萨那一处弹道导弹发射平台，以及萨达一座存放 20 枚弹道导弹的导弹储存设施。",
+      "url": "https://t.me/Financial_Express/3511018",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:29:22+00:00"
+    },
+    {
+      "id": "461894",
+      "title": "东京电子 CFO",
+      "url": "https://t.me/Financial_Express/3511019",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:29:23+00:00"
+    },
+    {
+      "id": "461895",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3511020",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:31:42+00:00"
+    },
+    {
+      "id": "461896",
+      "title": "沙特首都利雅得接连传出爆炸声",
+      "url": "https://t.me/Financial_Express/3511021",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:32:02+00:00"
+    },
+    {
+      "id": "461897",
+      "title": "罗马尼亚总统今年第四次委任总理",
+      "url": "https://t.me/Financial_Express/3511022",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:42:02+00:00"
+    },
+    {
+      "id": "461898",
+      "title": "据澳大利亚广播公司",
+      "url": "https://t.me/Financial_Express/3511023",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:47:02+00:00"
+    },
+    {
+      "id": "461899",
+      "title": "市场资讯",
+      "url": "https://t.me/Financial_Express/3511024",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:52:42+00:00"
+    },
+    {
+      "id": "461900",
+      "title": "巴西总统候选人博索纳罗竞选团队负责人",
+      "url": "https://t.me/Financial_Express/3511025",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:53:22+00:00"
+    },
+    {
+      "id": "461901",
+      "title": "特朗普抵达内布拉斯加州格兰德艾兰，走下空军一号，准备参加中期选举集会。特朗普将在这场竞选活动上向支持者发表讲话，共和党正为 11 月的中期选举造势冲刺。",
+      "url": "https://t.me/Financial_Express/3511026",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:58:42+00:00"
+    },
+    {
+      "id": "461902",
+      "title": "俄罗斯称乌克兰袭击了扎波罗热核电站的两处设施。",
+      "url": "https://t.me/Financial_Express/3511027",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T22:59:22+00:00"
+    },
+    {
+      "id": "461903",
+      "title": "诺基亚 CEO 表示，若无当前面临的供应限制，科技行业建设数据中心的速度将提高一倍。这一表态凸显了 AI 需求的持续性，尽管行业高管们正在就放缓开发节奏展开辩论。“我认为无论如何都不能说我们现在正在过度建设，因为现实情况是——如果我们可以以",
+      "url": "https://t.me/Financial_Express/3511028",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:00:50+00:00"
+    },
+    {
+      "id": "461904",
+      "title": "沙特主导联军称在也门荷台达省实施军事行动",
+      "url": "https://t.me/Financial_Express/3511029",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:01:42+00:00"
+    },
+    {
+      "id": "461905",
+      "title": "受降雪影响，国道 318 线折多山路段临时交通管制",
+      "url": "https://t.me/Financial_Express/3511030",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:02:02+00:00"
+    },
+    {
+      "id": "461906",
+      "title": "美国 Applied Intuition 与本田达成协议，联合开发软件定义汽车（SDV）平台。",
+      "url": "https://t.me/Financial_Express/3511031",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:03:02+00:00"
+    },
+    {
+      "id": "461907",
+      "title": "韩美半导体赢得三星电机 245 亿韩元订单。",
+      "url": "https://t.me/Financial_Express/3511032",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:03:42+00:00"
+    },
+    {
+      "id": "461908",
+      "title": "丰田 9 月回购 1085 亿日元（折合 6.872 亿美元）股票，在向东京证券交易所披露数据的 310 家日本上市公司中，回购规模位居首位。",
+      "url": "https://t.me/Financial_Express/3511033",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:05:02+00:00"
+    },
+    {
+      "id": "461909",
+      "title": "预计约 25,000 人本周将汇聚这座城邦的标志性建筑滨海湾金沙酒店，参加 Token2049 大会。10 月 7 日至 8 日举行的活动将吸引 500 多家参展商和 300 多位演讲者，包括 Hyperliquid 首席执行官 Jeff ",
+      "url": "https://t.me/Financial_Express/3511034",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:05:35+00:00"
+    },
+    {
+      "id": "461910",
+      "title": "据福克斯新闻",
+      "url": "https://t.me/Financial_Express/3511035",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:05:42+00:00"
+    },
+    {
+      "id": "461911",
+      "title": "据韩联社",
+      "url": "https://t.me/Financial_Express/3511036",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:06:42+00:00"
+    },
+    {
+      "id": "461912",
+      "title": "Applied Intuition 宣布与日产合作，提供 AI 原生开发平台并支持 AI 定义汽车开发",
+      "url": "https://t.me/Financial_Express/3511037",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:06:42+00:00"
+    },
+    {
+      "id": "461913",
+      "title": "伊朗总统称与不断背弃承诺的“敌人”谈判毫无意义",
+      "url": "https://t.me/Financial_Express/3511038",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:07:02+00:00"
+    },
+    {
+      "id": "461914",
+      "title": "巴西资产大涨，雷亚尔一度飙升 5%，股市创六年来最大单日涨幅",
+      "url": "https://t.me/Financial_Express/3511039",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:08:42+00:00"
+    },
+    {
+      "id": "461915",
+      "title": "麦格理集团",
+      "url": "https://t.me/Financial_Express/3511040",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:09:42+00:00"
+    },
+    {
+      "id": "461916",
+      "title": "澳大利亚 S&P/ASX 200 指数上涨 0.4%，报 8,717.70 点。",
+      "url": "https://t.me/Financial_Express/3511041",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:11:02+00:00"
+    },
+    {
+      "id": "461917",
+      "title": "宁夏原油外输管网累计输油突破 2 亿吨",
+      "url": "https://t.me/Financial_Express/3511042",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:11:23+00:00"
+    },
+    {
+      "id": "461918",
+      "title": "宁夏原油外输管网累计输油突破 2 亿吨",
+      "url": "https://t.me/Financial_Express/3511043",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:12:02+00:00"
+    },
+    {
+      "id": "461919",
+      "title": "苹果需就 6.34 亿美元专利败诉款支付 1.84 亿美元利息",
+      "url": "https://t.me/Financial_Express/3511044",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:12:22+00:00"
+    },
+    {
+      "id": "461920",
+      "title": "今天（6 日），记者从国家管网集团获悉，宁夏原油外输管网累计输送原油突破 2 亿吨。这条已安全运行 48 年的能源通道，持续为我国西部地区优化油气资源配置、推进区域经济高质量发展提供坚强支撑。（央视新闻）",
+      "url": "https://t.me/Financial_Express/3511045",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:13:08+00:00"
+    },
+    {
+      "id": "461921",
+      "title": "美国得克萨斯州总检察长办公室报告甲骨文公司数据泄露事件。甲骨文 2025 年医疗系统数据泄露事件，造成 2000 万人的数据受影响。",
+      "url": "https://t.me/Financial_Express/3511046",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:16:22+00:00"
+    },
+    {
+      "id": "461922",
+      "title": "澳大利亚财政部长查默斯",
+      "url": "https://t.me/Financial_Express/3511047",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:17:42+00:00"
+    },
+    {
+      "id": "461923",
+      "title": "澳大利亚财政部长查默斯",
+      "url": "https://t.me/Financial_Express/3511048",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:17:42+00:00"
+    },
+    {
+      "id": "461924",
+      "title": "澳大利亚财政部长查默斯",
+      "url": "https://t.me/Financial_Express/3511049",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:18:02+00:00"
+    },
+    {
+      "id": "461925",
+      "title": "深圳盐田港单船装卸量刷新中国港口纪录",
+      "url": "https://t.me/Financial_Express/3511050",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:19:22+00:00"
+    },
+    {
+      "id": "461926",
+      "title": "胡塞武装称沙特大规模空袭也门首都",
+      "url": "https://t.me/Financial_Express/3511051",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:21:22+00:00"
+    },
+    {
+      "id": "461927",
+      "title": "澳大利亚财政部长查默斯",
+      "url": "https://t.me/Financial_Express/3511052",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:22:22+00:00"
+    },
+    {
+      "id": "461928",
+      "title": "除了头版内容，今天《人民日报》涉及财经的主要内容还包括：",
+      "url": "https://t.me/Financial_Express/3511053",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:23:22+00:00"
+    },
+    {
+      "id": "461929",
+      "title": "SpaceX 与特斯拉股价反弹 马斯克身家重返万亿美元",
+      "url": "https://t.me/Financial_Express/3511054",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:24:22+00:00"
+    },
+    {
+      "id": "461930",
+      "title": "澳大利亚财政部长查默斯",
+      "url": "https://t.me/Financial_Express/3511055",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:25:42+00:00"
+    },
+    {
+      "id": "461931",
+      "title": "澳大利亚财政部长查默斯",
+      "url": "https://t.me/Financial_Express/3511056",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:26:42+00:00"
+    },
+    {
+      "id": "461932",
+      "title": "今日迎返程高峰",
+      "url": "https://t.me/Financial_Express/3511057",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:28:02+00:00"
+    },
+    {
+      "id": "461933",
+      "title": "乔布斯逝世 15 周年，特努斯、库克发文缅怀",
+      "url": "https://t.me/Financial_Express/3511058",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:28:22+00:00"
+    },
+    {
+      "id": "461934",
+      "title": "古特雷斯呼吁加沙地带永久停火",
+      "url": "https://t.me/Financial_Express/3511059",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:28:23+00:00"
+    },
+    {
+      "id": "461935",
+      "title": "甲骨文 2025 医疗业务数据泄露事件波及 2000 万人信息",
+      "url": "https://t.me/Financial_Express/3511060",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:29:22+00:00"
+    },
+    {
+      "id": "461936",
+      "title": "新一轮巴以冲突爆发三周年之际，联合国秘书长古特雷斯 5 日发表致辞，呼吁加沙地带永久停火。古特雷斯在致辞中说，去年加沙停火协议对局势稍有缓解，但仍未带来安全、充足的人道援助以及通往重建与和平的可靠路径。古特雷斯敦促各方落实停火承诺并向下一阶",
+      "url": "https://t.me/Financial_Express/3511061",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:29:57+00:00"
+    },
+    {
+      "id": "461937",
+      "title": "澳大利亚 10 月西太平洋消费者信心指数环比 -4.7%，前值 -5.2%。",
+      "url": "https://t.me/Financial_Express/3511062",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:30:00+00:00"
+    },
+    {
+      "id": "461938",
+      "title": "澳大利亚 10 月西太平洋消费者信心指数 80.4，前值 84.4。",
+      "url": "https://t.me/Financial_Express/3511063",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:30:00+00:00"
+    },
+    {
+      "id": "461939",
+      "title": "澳大利亚 10 月西太平洋/墨尔本消费者信心指数月率 -4.7%，前值-5.20%。",
+      "url": "https://t.me/Financial_Express/3511064",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:30:22+00:00"
+    },
+    {
+      "id": "461940",
+      "title": "澳大利亚 10 月西太平洋/墨尔本消费者信心指数 80.4，前值 84.4。",
+      "url": "https://t.me/Financial_Express/3511065",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:30:23+00:00"
+    },
+    {
+      "id": "461941",
+      "title": "秘鲁国家石油公司发现北秘鲁输油管道（ONP）遭遇新的破坏袭击。",
+      "url": "https://t.me/Financial_Express/3511066",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:31:02+00:00"
+    },
+    {
+      "id": "461942",
+      "title": "澳大利亚财长查默斯",
+      "url": "https://t.me/Financial_Express/3511067",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:31:22+00:00"
+    },
+    {
+      "id": "461943",
+      "title": "日经指数期货在新加坡交易所开盘下跌 10 点，报 70170 点。",
+      "url": "https://t.me/Financial_Express/3511068",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:31:23+00:00"
+    },
+    {
+      "id": "461944",
+      "title": "秘鲁国家石油通报北秘鲁输油管道发现第 8 处非法盗油口",
+      "url": "https://t.me/Financial_Express/3511069",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:33:02+00:00"
+    },
+    {
+      "id": "461945",
+      "title": "美股三大指数齐涨，纳指涨 1.05%报 27477.31 点创收盘新高；AI 芯片股与中概股普涨；金银期货双双在前一周大跌后企稳。",
+      "url": "https://t.me/Financial_Express/3511070",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:35:35+00:00"
+    },
+    {
+      "id": "461946",
+      "title": "《北京市“十五五”时期矿山生态修复规划（草案）》公示 适度发展生态旅游等绿色新业态",
+      "url": "https://t.me/Financial_Express/3511071",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:38:02+00:00"
+    },
+    {
+      "id": "461947",
+      "title": "今日铁路上海站预计发送旅客 46.1 万人",
+      "url": "https://t.me/Financial_Express/3511072",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:39:42+00:00"
+    },
+    {
+      "id": "461948",
+      "title": "Lucid 继续执行库存削减计划，第三季度交付 3806 辆汽车",
+      "url": "https://t.me/Financial_Express/3511073",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:40:02+00:00"
+    },
+    {
+      "id": "461949",
+      "title": "KKR 将以企业价值 51 亿美元从 HG、General Atlantic 及其他少数投资者手中收购 GEN II Fund Services，由 CEO Steven Millner 领导的 GEN II 管理团队将继续留任。",
+      "url": "https://t.me/Financial_Express/3511074",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:41:42+00:00"
+    },
+    {
+      "id": "461950",
+      "title": "从深圳海关获悉，10 月 2 日，深圳盐田港单船完成 28684 标箱装卸作业，刷新中国港口单船装卸箱量纪录。目前，盐田港每周运营百条全球航线，其中 53 条联通 APEC 成员经济体，今年已新增 14 条联通 APEC 经济体的航线。持续",
+      "url": "https://t.me/Financial_Express/3511075",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:42:02+00:00"
+    },
+    {
+      "id": "461951",
+      "title": "澳大利亚财长查默斯：债券收益率上行将给澳大利亚财政预算带来压力",
+      "url": "https://t.me/Financial_Express/3511076",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:43:42+00:00"
+    },
+    {
+      "id": "461952",
+      "title": "地产与矿业板块上涨 澳大利亚股市走高",
+      "url": "https://t.me/Financial_Express/3511077",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:45:42+00:00"
+    },
+    {
+      "id": "461953",
+      "title": "日本日经平均指数期货早盘持平。",
+      "url": "https://t.me/Financial_Express/3511078",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:45:43+00:00"
+    },
+    {
+      "id": "461954",
+      "title": "基准 10 年期日本国债期货早盘下跌 0.22 点。",
+      "url": "https://t.me/Financial_Express/3511079",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:46:22+00:00"
+    },
+    {
+      "id": "461955",
+      "title": "多家阿联酋基金以及贝莱德据悉商谈参与 OpenAI 最新一轮 300 亿美元融资",
+      "url": "https://t.me/Financial_Express/3511080",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:48:02+00:00"
+    },
+    {
+      "id": "461956",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3511081",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:48:42+00:00"
+    },
+    {
+      "id": "461957",
+      "title": "《魔兽世界：“无限”》国服开测",
+      "url": "https://t.me/Financial_Express/3511082",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:51:22+00:00"
+    },
+    {
+      "id": "461958",
+      "title": "澳大利亚消费者信心在央行加息后进一步下滑",
+      "url": "https://t.me/Financial_Express/3511083",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:52:22+00:00"
+    },
+    {
+      "id": "461959",
+      "title": "阿根廷经济部长",
+      "url": "https://t.me/Financial_Express/3511084",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:53:42+00:00"
+    },
+    {
+      "id": "461960",
+      "title": "加拿大将调查医疗飞机失事 机上 6 人恐全部遇难",
+      "url": "https://t.me/Financial_Express/3511085",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:55:02+00:00"
+    },
+    {
+      "id": "461961",
+      "title": "特朗普在内布拉斯加州的一次活动上发表讲话。",
+      "url": "https://t.me/Financial_Express/3511086",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:55:22+00:00"
+    },
+    {
+      "id": "461962",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3511087",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:55:42+00:00"
+    },
+    {
+      "id": "461963",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3511088",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:56:22+00:00"
+    },
+    {
+      "id": "461964",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3511089",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:57:02+00:00"
+    },
+    {
+      "id": "461965",
+      "title": "联合国呼吁也门冲突各方保持克制",
+      "url": "https://t.me/Financial_Express/3511090",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:58:22+00:00"
+    },
+    {
+      "id": "461966",
+      "title": "中国代表点名警告英澳日等国",
+      "url": "https://t.me/Financial_Express/3511091",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-05T23:58:23+00:00"
+    }
+  ]
+}

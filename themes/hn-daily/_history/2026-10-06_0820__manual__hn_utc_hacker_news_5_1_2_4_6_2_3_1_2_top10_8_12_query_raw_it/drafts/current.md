@@ -1,18 +1,4 @@
----
-name: HN 书摘 · 2026-10-06
-slug: hn-daily
-status: active
-lead_agent: tech_generalist
-created: 2026-08-15
-updated: 2026-10-06T08:58:08+08:00
-revision: 2026-10-06
-sources:
-  - path: 2026-10-06_0820__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/reference.md
-    agent: hn_daily_update
-    summarized: false
----
-
-# HN 书摘 · 2026-10-06（周二）
+# HN 书摘 · 2026-10-06（周一） — 第 3/3 棒（tech_generalist）定稿
 
 > 今日三句话：① 125B 开源模型在消费级显卡上跑到 100 token/s，本地推理从"能跑"进入"够用"（Strata ▲910）② Anthropic 把用户"日记"报警致其被控重罪，AI 服务商成为执法事实前哨，信任裂痕制度化（▲503）③ 代理经济的基础设施开始补课：AWS/谷歌云上硬预算帽、Wikimedia 书面确认 OpenAI"流氓代理"集群（▲628 / ▲254）——第 3 棒复核：三条热度数字均与冻结快照一致，予以保留。
 
@@ -179,6 +165,3 @@ sources:
 3. 管道状态复核：query_raw_items(source=hackernews) 最新条目仍为 2026-09-23，停摆第 13 天；行情接口二次核验失败（token 过期），已在正文如实标注。
 4. 新增 `## 共识` 节（5 条共识 + 1 条少数派）；Big Picture 后补写 tech_generalist 全链路定位视角段；分工表更新为三棒完成态。
 5. 本棒未改动 tech_scout 与 ai_specialist 的任何原段落与结论。
-> 数据快照：2026-10-06T00:58:08.622873+00:00（HN 分数/评论为快照值，非实时）
-
-> 评审：5 项 blocker 未修复

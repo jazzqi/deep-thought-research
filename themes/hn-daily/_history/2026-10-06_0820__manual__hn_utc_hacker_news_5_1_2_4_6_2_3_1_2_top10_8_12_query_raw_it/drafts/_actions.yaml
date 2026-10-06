@@ -1,0 +1,17 @@
+actions:
+- priority: P2
+  recurrence: daily
+  summary: HN raw_items 管道停摆第 14 天：每日复核 hackernews 源是否恢复（published_after 当日窗口 NO_DATA
+    检查），恢复后切回 [id:N] 溯源流程
+  target_flow_params: {}
+  type: monitoring
+- priority: P3
+  summary: 验证 Beam 501B 权重与技术报告是否按宣称「本月稍后」发布，并核对第三方基准对账是否出现
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-10-31'
+- priority: P3
+  recurrence: weekly
+  summary: 丹麦 CPR 880 万公民数据泄露案后续：Datatilsynet 立案/处罚口径与 EU ID 基础设施信任冲击
+  target_flow_params: {}
+  type: monitoring
