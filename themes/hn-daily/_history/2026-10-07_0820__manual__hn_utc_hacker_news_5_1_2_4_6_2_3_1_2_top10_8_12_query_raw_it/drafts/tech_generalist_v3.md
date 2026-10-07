@@ -1,17 +1,3 @@
----
-name: HN 书摘 · 2026-10-07
-slug: hn-daily
-status: active
-lead_agent: tech_generalist
-created: 2026-08-15
-updated: 2026-10-07T09:35:13+08:00
-revision: 2026-10-07
-sources:
-  - path: 2026-10-07_0820__manual__hn_utc_hacker_news_5_1_2_4_6_2_3_1_2_top10_8_12_query_raw_it/reference.md
-    agent: hn_daily_update
-    summarized: false
----
-
 # HN 书摘 · 2026-10-07（周三）
 
 > 今日三句话：① Anthropic 与 OpenAI 于 2026-09-22 同日发布旗舰（Claude Opus 5.5 / GPT-6 Sol 与 Luna），Opus 5.5 缓存读取降价 60%、GPT-6 Luna 定价约为上代一半，agentic 负载定价战开打；② 五角大楼调查报告认定对 Palantir AI 系统的过度依赖酿成伊朗学校误炸，AI 问责首次上升到国防部报告层级；③ System-1 新范式 Jev 在 8 天内走完"宣称→开源复现→25 行 Python 祛魅"全周期，架构护城河被证伪。
@@ -202,6 +188,3 @@ sources:
 3. **数据可用性**：按要求尝试通过长桥接口获取 PLTR 最新行情/分析师一致预期/公司新闻（news/company 路由），接口返回 token 过期（401003），市场定价层验证缺失——正文相关处已如实标注，未编造估值数据；宏观背景沿用本窗口 raw_items 内 Financial Express 收盘快讯（2026-10-06 美股三大指数创新高、七姐妹全线收涨）。
 4. **打分**：对本轮新引用的 raw item（436148 Palantir 报道、464257 Glasswing、464197 美股收盘快讯）完成使用者打分；其余条目沿用前两棒打分。
 5. **校准备注**：按 2026-10-05 校准经验，policy_regulation（high）证实率仅 36%（EWMA 0.18 区间）——Palantir/军用 AI 问责的产业传导判断已限制外推幅度（置信度 0.65）；emerging_trend（low）证实率 92%——趋势类低置信信号（agent 基础设施化、透明度路线）可正常采用，置信度 0.70；unique_insight（high）证实率 29%——"缓存=数据出口费"等结构性类比均标注为判断而非事实。
-> 数据快照：2026-10-07T01:35:13.307758+00:00（HN 分数/评论为快照值，非实时）
-
-> 评审：2 项 blocker 未修复

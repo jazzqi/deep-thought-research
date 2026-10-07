@@ -1,0 +1,17 @@
+actions:
+- priority: P1
+  recurrence: daily
+  summary: hackernews raw_items 入库管道停摆持续监控（截至 2026-10-07 已第 14 天），恢复后需回补 09-24~10-06
+    窗口数据并复核本期 Algolia 快照
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: 跟踪 Mistral Large 4 的第三方独立评测与'Le Chonk'开源定义争议（1T 参数性能主张未经验证，当前置信度低）
+  target_flow_params: {}
+  type: follow_up
+- priority: P3
+  summary: hn-daily 兜底流程改进：注入的 fallback 条目应自动附带原始日期标签并与往期索引做机器去重，避免'库内最新'被误用为'窗口内'（本期
+    11/12 条为重复即为例证）
+  target_flow: theme_update
+  target_flow_params: {}
+  type: proposal
