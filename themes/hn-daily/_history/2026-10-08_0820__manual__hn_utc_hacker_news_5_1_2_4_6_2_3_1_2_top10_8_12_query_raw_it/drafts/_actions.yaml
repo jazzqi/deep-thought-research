@@ -1,0 +1,11 @@
+actions:
+- priority: P1
+  recurrence: daily
+  summary: HN raw_items hackernews 源断流第 15 天（2026-10-08 复核 NO_DATA），hn-daily 全靠 Algolia
+    API 绕行；持续监控管道恢复，恢复前每日沿用绕行方案
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: 2026-10-08 版尾部『4 项评审 blocker 未修复』标记的明细缺失，需 review 流程补挂后逐项核销（P2 热度行缺失疑为其一）
+  target_flow_params: {}
+  type: follow_up
