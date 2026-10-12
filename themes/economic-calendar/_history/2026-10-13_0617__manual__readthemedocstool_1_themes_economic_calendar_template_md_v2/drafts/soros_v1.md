@@ -1,0 +1,44 @@
+# 数据来源溯源 — 周期 2026-10-19__2026-10-25（soros 第1棒）
+
+- 美联储9月16日FOMC加息25bp至3.75%-4.00%（12-0投票，声明称通胀仍高企）: fetch_url(https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm) = "raise the target range...to 3-3/4 to 4 percent, 12–0 vote"
+- 下次FOMC会议10月27-28日: query_fomc(lookahead_days=150) = next_meeting 2026-10-27/28
+- CME美联储观察：10月按兵不动概率79.5%、12月加息25bp概率70.3%: query_raw_items(keyword=美联储,published_after=2026-10-11)[id:473074] = 10月不变79.5%/加25bp 20.5%；12月不变12.4%/加25bp 70.3%/加50bp 17.3%
+- 美债收益率徘徊24年高位、市场等待CPI与沃什讲话: query_raw_items(keyword=沃什 OR 收益率,published_after=2026-10-09)[id:472245] = 上周收益率变化不大、徘徊24年高位附近
+- 沃什10月16日北京时间11:30出席IMF曼谷年会（静默期前最后亮相）: query_raw_items(published_after=2026-10-06)[id:470853] = 10月27-28会议前静默期最后一天
+- 克利夫兰联储主席哈玛克：需进一步加息、倾向更小幅度更频繁: query_raw_items(published_after=2026-10-11)[id:472630] = "经济需要进一步收紧"，对加息时点开放
+- 哈玛克：通胀压力从AI领域向外扩散、商业联系显示经济在繁荣: query_raw_items(published_after=2026-10-11)[id:473059] = 需"略微放缓"增速
+- 卡什卡利：可能需要超出市场预期的加息，其9月预测今年再加一次: query_raw_items(keyword=卡什卡利,published_after=2026-09-30)[id:458148] = 金融条件未实质收紧、可能超预期加息
+- 特朗普称伊朗战争"很快结束"、油价将下跌: query_raw_items(keyword=油价,published_after=2026-10-10)[id:473000] = "与伊朗的战争很快结束后，油价将下跌"
+- 霍尔木兹海峡10月11日6艘船舶遭袭: query_raw_items(keyword=油价 OR 原油,published_after=2026-10-10)[id:473078] = 4艘油轮+1集装箱船+1油轮遭无人机/不明发射物袭击
+- 至少10艘VLCC避开波斯湾富查伊拉: query_raw_items(published_after=2026-10-10)[id:472745] = 大型油轮撤离影响转运模式
+- OPEC+：能源流中断使航运保险成本升至超过商品价值1/3: query_raw_items(published_after=2026-10-10)[id:472731] = 给全球经济带来额外通胀压力
+- 布伦特12月合约106.65美元/桶（+1.84%）: query_raw_items(published_after=2026-10-10)[id:472836] = 10月12日结算价
+- WTI 11月合约93.74美元/桶（+2.06%）: query_raw_items(published_after=2026-10-10)[id:472817] = 10月12日结算价
+- 沙特拟2-3年内管道输油能力达1000万桶/日（路线多元化）: query_raw_items(published_after=2026-10-10)[id:472924] = 能源大臣表述
+- 现货黄金4170.70美元/盎司（-0.56%）、白银60.26: query_raw_items(published_after=2026-10-10)[id:472982] = 10月12日纽约尾盘
+- ICE美元指数102.586（+0.37%），逼近2025年4月高点103.027: query_raw_items(published_after=2026-10-10)[id:472881] = 10月12日纽约尾盘
+- 美元兑日元158.68: query_raw_items(published_after=2026-10-10)[id:472885] = 逼近9月24日顶部159.04
+- 离岸人民币USDCNH 6.6948、在岸6.6940: query_raw_items(published_after=2026-10-10)[id:473020] [id:472855] = 10月12日纽约尾盘
+- 美股10月12日：道指+0.2%、标普500+0.1%、纳指-0.1%，存储股普跌: query_raw_items(published_after=2026-10-10)[id:472927] = 收盘涨跌不一
+- 美银：标普500三季度盈利预计同比+32%（高于一致预期27%）: query_raw_items(keyword=标普500,published_after=2026-10-10)[id:472373] = 进入财报季环境良好、指引异常强劲
+- 高盛：长端头寸过度拉伸，30年期长债期权最大资金流押注收益率-30bp: query_raw_items(published_after=2026-10-10)[id:473035] = 长期投资者或建仓长久期
+- 美国MBS指数9月录得史上第二差月度表现: query_raw_items(keyword=美债 OR 收益率)[id:472396] = 收益率数十年高位引发抵押贷款债券抛售
+- 哈萨克斯坦央行拟减持黄金储备占比约3个百分点: query_raw_items(keyword=黄金 OR 收益率)[id:472372] [id:472381] = 美债收益率24年高位使美元更具吸引力
+- 乌干达先令创纪录最弱（8月25日美债抛售以来跌超10%）: query_raw_items(keyword=人民币 OR 收益率)[id:472350] = 彭博144种货币中跌幅最大
+- Meta 10月21日（周三）美股盘后公布Q3财报: query_raw_items(keyword=标普500 OR 收益率)[id:472972] = 北京时间10月22日凌晨4:30电话会议
+- 中国三季度GDP同比前值4.3%、预测4.3%；季环比前值0.9%、预测1.1%: query_calendar_events(importance=high,lookback_days=0,days=14) = 10-19 02:00 UTC发布
+- 中国9月工业增加值同比前值5.2%、预测5.3%；社零前值0.4%、预测0.5%: query_calendar_events(importance=high,lookback_days=0,days=14) = 10-19发布
+- 中国1-9月城镇固定资产投资前值-7.2%、预测-7.2%；房地产开发投资前值-19.9%: query_calendar_events(country=CN,importance=medium,lookback_days=0) = 10-19发布
+- 中国10月LPR：1年期前值3.0%、5年期前值3.5%: query_calendar_events(country=CN,lookback_days=0) = 10-20 01:00 UTC发布
+- 英国9月CPI前值3.1%、核心前值2.6%、RPI前值3.4%: query_calendar_events(country=GB,lookback_days=0) = 10-21 06:00 UTC发布
+- 英国8月三个月ILO失业率前值4.9%、含红利工资增速前值3.9%: query_calendar_events(country=GB,lookback_days=0) = 10-20 06:00 UTC发布
+- 日本9月全国CPI前值1.9%、核心前值1.7%: query_calendar_events(country=JP,lookback_days=0) = 10-22 23:30 UTC（北京10-23 07:30）发布
+- 日本9月出口前值同比+19.3%、进口前值+28.0%: query_calendar_events(country=JP,lookback_days=0) = 10-20 23:50 UTC发布
+- 美国9月新屋开工前值127.5万户、营建许可前值140.3万户: query_calendar_events(country=US,importance=medium,lookback_days=0) = 10-20 12:30 UTC发布
+- 美国初请失业金（10月17日当周）: query_calendar_events(country=US,importance=medium,lookback_days=0) = 10-22 12:30 UTC发布；前值参考10月10日当周预测20.0万/前值19.7万
+- 美国10月密歇根消费者信心指数终值: query_calendar_events(country=US,importance=medium,lookback_days=0) = 10-23 14:00 UTC发布；初值前值48.1、预测47.6
+- 欧元区10月ZEW经济景气指数前值25.8、消费者信心初值前值-16.5: query_calendar_events(country=EU,lookback_days=0) = 10-20/10-22发布
+- 美国10月NAHB房产市场指数前值32: query_calendar_events(country=US,importance=medium,lookback_days=0) = 10-19 14:00 UTC发布
+- 美国10月14日将公布9月CPI（前值3.4/预测3.6-3.7；核心2.4/预测2.5）: query_calendar_events(importance=high,lookback_days=0) = 目标周前一周公布，构成目标周定价输入
+
+themes/economic-calendar/_history/2026-10-13_0617__manual__readthemedocstool_1_themes_economic_calendar_template_md_v2/reference.mdtrue周期2026-10-19__2026-10-25 数据来源溯源（soros第1棒）
