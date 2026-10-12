@@ -1,0 +1,397 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-12T23:22:30.510833+00:00",
+  "window": {
+    "after": "2026-10-11T00:00:00+00:00",
+    "before": "2026-10-12T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "471620",
+      "title": "Whatever became of holography? (2011)",
+      "url": "https://www.americanscientist.org/article/whatever-became-of-holography",
+      "author": "cainxinth",
+      "points": 163,
+      "comments": 98,
+      "published_at": "2026-10-11T23:50:34+00:00"
+    },
+    {
+      "id": "471581",
+      "title": "何夕2077 AI 深度信号周报 2026 W40–W41",
+      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-10-11-ai-deep-signals-weekly-2026-w40-w41/",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T04:50:59+00:00"
+    },
+    {
+      "id": "471582",
+      "title": "Saudi Arabia’s Riyadh Airport Attacked Again, After Days of Houthi Strikes",
+      "url": "https://www.nytimes.com/2026/10/10/world/middleeast/riyadh-airport-attack-energy-congress.html",
+      "author": "Vivian Nereim and Euan Ward",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T08:55:27+00:00"
+    },
+    {
+      "id": "471583",
+      "title": "A Reporter Returns to China to Find it Richer, but Also Highly Paranoid.",
+      "url": "https://www.nytimes.com/2026/10/11/world/asia/china-essay-higgins-surveillance.html",
+      "author": "Andrew Higgins and Gilles Sabrié",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T09:00:12+00:00"
+    },
+    {
+      "id": "471584",
+      "title": "A Russian Spy’s Lone Regret: ‘I Got Caught’",
+      "url": "https://www.nytimes.com/2026/10/11/world/europe/russia-spy-ukraine.html",
+      "author": "Maria Varenikova",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T09:00:28+00:00"
+    },
+    {
+      "id": "471585",
+      "title": "In Canada’s Arctic, a New Generation of Inuit Creatives Are Using Identity to Fuel Their Art",
+      "url": "https://www.nytimes.com/2026/10/11/world/canada/inuit-inuk-indigenous-people-identity-iqaluit.html",
+      "author": "Norimitsu Onishi and Renaud Philippe",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T09:00:31+00:00"
+    },
+    {
+      "id": "471586",
+      "title": "Sweating the details: Sauna's potential health benefits draw scientists' interest",
+      "url": "https://www.npr.org/2026/10/11/nx-s1-5996655/heat-therapy-sauna-thermoregulation-health-benefits",
+      "author": "Will Stone",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T10:00:00+00:00"
+    },
+    {
+      "id": "471587",
+      "title": "Buildings swept away as flash floods hit central Nepal",
+      "url": "https://www.bbc.co.uk/news/videos/cwzrdnljedx0o?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T10:34:02+00:00"
+    },
+    {
+      "id": "471588",
+      "title": "What to Know About the Protests in India",
+      "url": "https://www.nytimes.com/2026/10/09/world/asia/what-to-know-about-the-delhi-protests.html",
+      "author": "Somini Sengupta and Pragati K.B.",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T11:24:43+00:00"
+    },
+    {
+      "id": "471589",
+      "title": "Wringing Hope From the Rubble of Gaza",
+      "url": "https://www.nytimes.com/2026/10/11/world/middleeast/wringing-hope-from-the-rubble-of-gaza.html",
+      "author": "Saher Alghorra and Aaron Boxerman",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T11:25:54+00:00"
+    },
+    {
+      "id": "471590",
+      "title": "She was a global star: Teen bikes 700 miles carrying injured dad. Where is she now?",
+      "url": "https://www.npr.org/2026/10/11/g-s1-147267/bicycle-teenager-india-pandemic",
+      "author": "Kamala Thiagarajan",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T11:28:15+00:00"
+    },
+    {
+      "id": "471591",
+      "title": "Don't be scared: Being afraid is outright fun, and maybe useful",
+      "url": "https://www.npr.org/2026/10/11/nx-s1-5973128/dont-be-scared-being-afraid-is-outright-fun-and-maybe-useful",
+      "author": "Ryan Benk",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T12:00:00+00:00"
+    },
+    {
+      "id": "471592",
+      "title": "Justice Department investigates TV networks, citing possible anti-trust violations",
+      "url": "https://www.npr.org/2026/10/11/nx-s1-5997574/the-doj-is-investigating-5-tv-networks-for-suspending-pool-coverage-of-trump",
+      "author": "David Folkenflik",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T12:04:00+00:00"
+    },
+    {
+      "id": "471593",
+      "title": "Hurricane Simon pounds resorts and vulnerable towns along Mexico's Pacific coast",
+      "url": "https://www.npr.org/2026/10/11/nx-s1-5998022/hurricane-simon-nears-mexico-155-mph-winds-flooding-fears",
+      "author": "The Associated Press",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T12:10:54+00:00"
+    },
+    {
+      "id": "471594",
+      "title": "《Squadron 42》上架 Steam 平台，预计 2027 年二季度发售",
+      "url": "https://www.solidot.org/story?sid=85578",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T12:12:09+00:00"
+    },
+    {
+      "id": "471595",
+      "title": "Pope Leo XIV to undergo lung surgery this week",
+      "url": "https://www.npr.org/2026/10/11/nx-s1-5998027/pope-leo-xiv-to-undergo-lung-surgery-this-week",
+      "author": "Ava Pukatch",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T12:54:25+00:00"
+    },
+    {
+      "id": "471596",
+      "title": "Man Dies in Tiger Attack at Yorkshire Wildlife Park in England",
+      "url": "https://www.nytimes.com/2026/10/10/world/europe/tiger-attack-wildlife-park-man-dead.html",
+      "author": "Alena Cerro",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T13:31:12+00:00"
+    },
+    {
+      "id": "471597",
+      "title": "Pope Leo to have surgery after lump found on lung",
+      "url": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T13:38:55+00:00"
+    },
+    {
+      "id": "471598",
+      "title": "LineageOS 24 释出",
+      "url": "https://www.solidot.org/story?sid=85579",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T14:16:29+00:00"
+    },
+    {
+      "id": "471599",
+      "title": "英国水果蔬菜营养价值下降最高五成",
+      "url": "https://www.solidot.org/story?sid=85580",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T14:27:04+00:00"
+    },
+    {
+      "id": "471600",
+      "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
+      "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T14:38:10+00:00"
+    },
+    {
+      "id": "471601",
+      "title": "Poland stabbings driven by online glorification of violence, Tusk says",
+      "url": "https://www.bbc.co.uk/news/articles/ckp8gyd65z2go?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T15:18:52+00:00"
+    },
+    {
+      "id": "471602",
+      "title": "Children among 139 dead after boat capsizes off Djibouti, UN says",
+      "url": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T15:32:23+00:00"
+    },
+    {
+      "id": "471603",
+      "title": "Riyadh airport attacks another dangerous moment in already tense conflict",
+      "url": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T15:32:32+00:00"
+    },
+    {
+      "id": "471604",
+      "title": "India’s ‘Cockroach’ Leaders Released as Small Protests Go On in Delhi",
+      "url": "https://www.nytimes.com/2026/10/11/world/asia/india-cockroach-dipke-new-delhi-protests.html",
+      "author": "Somini Sengupta and Suhasini Raj",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T16:16:44+00:00"
+    },
+    {
+      "id": "471605",
+      "title": "Pakistan Seizes Control of an Opposition-Led Province",
+      "url": "https://www.nytimes.com/2026/10/11/world/middleeast/pakistan-federal-control-khyber-pakhtunkhwa.html",
+      "author": "Zia ur-Rehman",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T16:25:43+00:00"
+    },
+    {
+      "id": "471606",
+      "title": "Poland detains man suspected of planning assassination of PM Tusk",
+      "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T17:27:24+00:00"
+    },
+    {
+      "id": "471607",
+      "title": "Ukraine Shrugs Off Trump Call to Ditch Zelensky for Energy Strikes",
+      "url": "https://www.nytimes.com/2026/10/11/world/europe/trump-zelensky-diesel-energy-russia-.html",
+      "author": "Maria Varenikova, Dzvinka Pinchuk and Ivan Nechepurenko",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T17:59:30+00:00"
+    },
+    {
+      "id": "471608",
+      "title": "Over 100 Migrants Are Dead After Boat Capsizes Near Djibouti",
+      "url": "https://www.nytimes.com/2026/10/11/world/africa/migrant-boat-capsize-djibouti-dead-yemen.html",
+      "author": "Leo Sands and Saeed Al-Batati",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T18:58:00+00:00"
+    },
+    {
+      "id": "471609",
+      "title": "Saudi Arabia Has Few Options as Houthis Aim at Heart of Its Ambitions",
+      "url": "https://www.nytimes.com/2026/10/11/world/middleeast/saudi-arabia-options-houthis.html",
+      "author": "Vivian Nereim and Lisa Friedman",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T19:57:48+00:00"
+    },
+    {
+      "id": "471610",
+      "title": "Pope Leo Will Have Surgery to Remove Growth on Lung",
+      "url": "https://www.nytimes.com/2026/10/11/world/europe/pope-leo-lung-surgery.html",
+      "author": "Elisabetta Povoledo",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T20:15:09+00:00"
+    },
+    {
+      "id": "471611",
+      "title": "Watch: What's behind Trump's energy ceasefire claim?",
+      "url": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T20:55:02+00:00"
+    },
+    {
+      "id": "471612",
+      "title": "Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says",
+      "url": "https://www.bbc.co.uk/news/articles/cqy43vrk8wv8o?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T21:12:44+00:00"
+    },
+    {
+      "id": "471613",
+      "title": "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
+      "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T21:36:40+00:00"
+    },
+    {
+      "id": "471614",
+      "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
+      "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T22:45:58+00:00"
+    },
+    {
+      "id": "471615",
+      "title": "Mourners killed by Kenya police at ex-PM's national farewell not part of violence, BBC finds",
+      "url": "https://www.bbc.co.uk/news/articles/c962y4ld1d7do?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T23:13:20+00:00"
+    },
+    {
+      "id": "471616",
+      "title": "American ranchers wrestle with soaring costs - and their loyalty to Trump",
+      "url": "https://www.bbc.co.uk/news/articles/c6d7q5z17gp5o?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T23:13:51+00:00"
+    },
+    {
+      "id": "471617",
+      "title": "Trump faces growing backlash over plans to import diesel from Russia",
+      "url": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T23:18:45+00:00"
+    },
+    {
+      "id": "471618",
+      "title": "Iconic Australian band Powderfinger announce first tour in 17 years",
+      "url": "https://www.bbc.co.uk/news/articles/c680zyx8gkkjo?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T23:33:24+00:00"
+    },
+    {
+      "id": "471619",
+      "title": "Watch: Endangered orangutans released back into the wild after Borneo fires",
+      "url": "https://www.bbc.co.uk/news/videos/c6073z5rvrk3o?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T23:48:25+00:00"
+    },
+    {
+      "id": "471621",
+      "title": "Tropical Storm Rachel downgraded as high winds and rain turn inward",
+      "url": "https://www.npr.org/2026/10/11/nx-s1-5998124/tropical-storm-rachel-downgraded-as-high-winds-and-rain-turn-inward",
+      "author": "Adrian Florido",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T23:54:21+00:00"
+    },
+    {
+      "id": "471719",
+      "title": "Celine Dion’s Triumphant Return to the Stage",
+      "url": "https://podcasts.happyscribe.com/the-daily/celine-dion-s-triumphant-return-to-the-stage",
+      "author": "The New York Times",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T10:00:00+00:00"
+    },
+    {
+      "id": "471972",
+      "title": "Robert Pattinson on new film Primetime and how hunting predators became hit TV",
+      "url": "https://www.bbc.co.uk/news/articles/cmn5d92423vyo?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-11T23:39:12+00:00"
+    }
+  ]
+}

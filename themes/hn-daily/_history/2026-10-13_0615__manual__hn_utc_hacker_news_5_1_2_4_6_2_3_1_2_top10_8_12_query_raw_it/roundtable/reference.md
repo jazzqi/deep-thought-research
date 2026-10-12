@@ -1,0 +1,4 @@
+- 欧洲超市冷链 OT 攻击多源互证（tech_generalist 终稿补记）: query_raw_items(source=hackernews,published_after=2026-10-12T00:00:00Z,published_before=2026-10-13T00:00:00Z,keyword='Intermarché OR fridge OR freezer OR refrigeration')[id:472155] = Tom's Hardware 主帖 ▲154/💬306 远程触发自动除霜；[id:472712] = Reuters"150 stores targeted"引发火灾与食品损失 ▲41；[id:472669] = BBC ▲35；[id:472604] = Yahoo UK"unprecedented"cyberattack ▲104/💬66；[id:472572] = France24 ▲22
+- 微软总裁"AI 监管少于牛奶"（终稿 Big Picture/#2 视角引用）: query_raw_items(source=hackernews)[id:472555] = AI less regulated than milk, Microsoft president says ▲65/💬73
+- Agent37 沙箱成本（终稿 Big Picture 视角引用）: query_raw_items(source=hackernews)[id:472757] = Launch HN: Agent37 (YC F26)，$0.37/sandbox/月
+- 本轮（tech_generalist 终稿）新增引用打分记录: RescoreRawItemTool = [id:472002] P2/0.75；[id:472454] P2/0.70（领域外标记，保留供 routing 观察）；[id:472759] P2/0.65；[id:472155] P2/0.70

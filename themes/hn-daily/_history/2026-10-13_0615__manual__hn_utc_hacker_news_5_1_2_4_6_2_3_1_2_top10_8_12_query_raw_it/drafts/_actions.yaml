@@ -1,0 +1,7 @@
+actions:
+- priority: P2
+  recurrence: daily
+  summary: 持续监控 OT/IoT 安全事件升级（Danfoss 冷链攻击后续：影响面扩大或出现同类模仿攻击）与 AI agent 网络攻击追责进展（mortoray
+    文点名的三起事件是否进入司法程序）
+  target_flow_params: {}
+  type: monitoring
