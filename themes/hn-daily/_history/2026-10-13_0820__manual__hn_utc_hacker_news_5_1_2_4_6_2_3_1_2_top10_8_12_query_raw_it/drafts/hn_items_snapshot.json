@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-13T01:30:38.677153+00:00",
+  "window": {
+    "after": "2026-10-12T00:00:00+00:00",
+    "before": "2026-10-13T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "471874",
+      "title": "Deloitte falsified documents to evade tax on Abramovich's wealth",
+      "url": "https://www.bbc.com/news/articles/c64g1l5389kvo",
+      "author": "Betelbuddy",
+      "points": 583,
+      "comments": 196,
+      "published_at": "2026-10-12T10:21:27+00:00"
+    },
+    {
+      "id": "472713",
+      "title": "Muse Wonder",
+      "url": "https://research.meta.ai/blog/muse-wonder",
+      "author": "meetpateltech",
+      "points": 502,
+      "comments": 270,
+      "published_at": "2026-10-12T16:48:01+00:00"
+    },
+    {
+      "id": "472607",
+      "title": "GLM-Legal: Advancing Agentic Legal Intelligence",
+      "url": "https://z.ai/blog/glm-legal",
+      "author": "ilreb",
+      "points": 381,
+      "comments": 218,
+      "published_at": "2026-10-12T16:11:45+00:00"
+    },
+    {
+      "id": "472002",
+      "title": "QGIS bans AI assisted contributions",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "author": "bwnkl",
+      "points": 363,
+      "comments": 395,
+      "published_at": "2026-10-12T11:22:24+00:00"
+    },
+    {
+      "id": "472671",
+      "title": "A Modern Web App in C",
+      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+      "author": "prophittcorey",
+      "points": 341,
+      "comments": 151,
+      "published_at": "2026-10-12T16:13:10+00:00"
+    },
+    {
+      "id": "472454",
+      "title": "Why aren't AI companies being charged for hacking?",
+      "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
+      "author": "ingve",
+      "points": 301,
+      "comments": 318,
+      "published_at": "2026-10-12T14:52:37+00:00"
+    },
+    {
+      "id": "472759",
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "author": "gumby",
+      "points": 299,
+      "comments": 256,
+      "published_at": "2026-10-12T17:14:01+00:00"
+    },
+    {
+      "id": "471666",
+      "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+      "url": "https://github.com/snuri00/ps2-web-recomp",
+      "author": "deadxwarrior",
+      "points": 261,
+      "comments": 140,
+      "published_at": "2026-10-12T06:46:53+00:00"
+    },
+    {
+      "id": "471649",
+      "title": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
+      "url": "https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/",
+      "author": "amosbatto",
+      "points": 258,
+      "comments": 314,
+      "published_at": "2026-10-12T04:54:00+00:00"
+    },
+    {
+      "id": "471654",
+      "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
+      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+      "author": "m463",
+      "points": 238,
+      "comments": 208,
+      "published_at": "2026-10-12T05:03:47+00:00"
+    },
+    {
+      "id": "471653",
+      "title": "Type-safe HTML templating in Zig",
+      "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
+      "author": "lukaslalinsky",
+      "points": 236,
+      "comments": 84,
+      "published_at": "2026-10-12T05:02:34+00:00"
+    },
+    {
+      "id": "472668",
+      "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
+      "url": "https://github.com/h0m3us3r/w1700k-sdr",
+      "author": "djfergus",
+      "points": 229,
+      "comments": 56,
+      "published_at": "2026-10-12T12:41:58+00:00"
+    },
+    {
+      "id": "471650",
+      "title": "Yandex bot traffic down 99% after data center attack",
+      "url": "https://radar.cloudflare.com/bots/as13238?dateRange=7d#bot-traffic",
+      "author": "rooftopzen",
+      "points": 219,
+      "comments": 113,
+      "published_at": "2026-10-12T04:54:12+00:00"
+    },
+    {
+      "id": "471675",
+      "title": "Fable Took My Job",
+      "url": "https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html",
+      "author": "jllyhill",
+      "points": 218,
+      "comments": 349,
+      "published_at": "2026-10-12T08:30:33+00:00"
+    },
+    {
+      "id": "472758",
+      "title": "Thinking Will Become a Hobby",
+      "url": "https://www.spinellis.gr/blog/20261008/?li261008",
+      "author": "pranitha_m",
+      "points": 210,
+      "comments": 273,
+      "published_at": "2026-10-12T16:54:08+00:00"
+    },
+    {
+      "id": "471629",
+      "title": "Doory – Open-Source Canva",
+      "url": "https://github.com/shaongitbd/doory",
+      "author": "acley",
+      "points": 205,
+      "comments": 72,
+      "published_at": "2026-10-12T00:48:27+00:00"
+    },
+    {
+      "id": "471671",
+      "title": "Zod 4.6.6 compromised by malware?",
+      "url": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
+      "author": "luggage_bazooka",
+      "points": 177,
+      "comments": 51,
+      "published_at": "2026-10-12T07:47:29+00:00"
+    },
+    {
+      "id": "472505",
+      "title": "I Found a $90k Remote Code Execution Vulnerability in Google",
+      "url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce",
+      "author": "soeckly",
+      "points": 171,
+      "comments": 84,
+      "published_at": "2026-10-12T07:28:53+00:00"
+    },
+    {
+      "id": "471663",
+      "title": "Postgres isn't slow, your storage is",
+      "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
+      "author": "saisrirampur",
+      "points": 168,
+      "comments": 179,
+      "published_at": "2026-10-12T06:36:53+00:00"
+    },
+    {
+      "id": "472184",
+      "title": "Citroen revives the 2CV for an electric age",
+      "url": "https://www.bbc.co.uk/news/articles/c620r33plgppo",
+      "author": "scrlk",
+      "points": 158,
+      "comments": 179,
+      "published_at": "2026-10-12T12:09:09+00:00"
+    },
+    {
+      "id": "472155",
+      "title": "Hackers activate automatic defrosting accross European supermarket fridges",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "author": "Zeekaas",
+      "points": 154,
+      "comments": 306,
+      "published_at": "2026-10-12T12:16:42+00:00"
+    },
+    {
+      "id": "472604",
+      "title": "French supermarkets suffer fridge shutdown after 'unprecedented' cyberattack",
+      "url": "https://uk.finance.yahoo.com/news/french-supermarket-chains-cyberattack-forced-115141288.html",
+      "author": "thinkcontext",
+      "points": 153,
+      "comments": 2,
+      "published_at": "2026-10-12T15:36:21+00:00"
+    },
+    {
+      "id": "472419",
+      "title": "Incident with Actions, Pull Requests and Issues",
+      "url": "https://www.githubstatus.com/incidents/93njd414rpbx",
+      "author": "dkpk",
+      "points": 150,
+      "comments": 136,
+      "published_at": "2026-10-12T12:23:51+00:00"
+    },
+    {
+      "id": "472669",
+      "title": "Fridges in French supermarkets hit by cyber attack",
+      "url": "https://www.bbc.com/news/articles/crq5nzxv9q4yo",
+      "author": "cataflam",
+      "points": 143,
+      "comments": 3,
+      "published_at": "2026-10-12T15:08:53+00:00"
+    },
+    {
+      "id": "473089",
+      "title": "AI Is a Tool. Using It Well Takes Skill.",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "author": "layer8",
+      "points": 128,
+      "comments": 113,
+      "published_at": "2026-10-12T21:40:18+00:00"
+    },
+    {
+      "id": "471662",
+      "title": "Attack of the Vibe Coded Photoshop Clones",
+      "url": "https://www.shokunin.studio/blog/2026/10/9/attack-of-the-vibe-coded-photoshop-clones",
+      "author": "riffraff",
+      "points": 126,
+      "comments": 180,
+      "published_at": "2026-10-12T06:35:05+00:00"
+    },
+    {
+      "id": "472725",
+      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "url": "https://taylor.town/kk-ai-2026",
+      "author": "surprisetalk",
+      "points": 119,
+      "comments": 37,
+      "published_at": "2026-10-12T15:16:45+00:00"
+    },
+    {
+      "id": "471624",
+      "title": "Local Indexing to reduce tool calling and token usage",
+      "url": "https://tedhaley.ca/pensieve/",
+      "author": "TedHaley",
+      "points": 118,
+      "comments": 49,
+      "published_at": "2026-10-12T00:03:53+00:00"
+    },
+    {
+      "id": "473050",
+      "title": "'AI' Is Not a Tool by Rich Hickey",
+      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+      "author": "svieira",
+      "points": 114,
+      "comments": 51,
+      "published_at": "2026-10-12T18:00:25+00:00"
+    },
+    {
+      "id": "471635",
+      "title": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+      "url": "https://github.com/storytold/wordcraft",
+      "author": "espeed",
+      "points": 98,
+      "comments": 103,
+      "published_at": "2026-10-12T01:57:39+00:00"
+    },
+    {
+      "id": "472823",
+      "title": "Just say no to OpenAI and Anthropic",
+      "url": "https://micahflee.com/just-say-no-to-openai-and-anthropic/",
+      "author": "DeepLogin",
+      "points": 91,
+      "comments": 48,
+      "published_at": "2026-10-12T18:17:29+00:00"
+    },
+    {
+      "id": "471623",
+      "title": "HashiCorp archives the Boundary open source repo",
+      "url": "https://github.com/hashicorp/boundary",
+      "author": "vmatsiiako",
+      "points": 84,
+      "comments": 16,
+      "published_at": "2026-10-12T00:02:45+00:00"
+    },
+    {
+      "id": "472535",
+      "title": "Living in the Weimar Era of Ruby",
+      "url": "https://blog.julik.nl/2026/10/the-weimar-of-ruby",
+      "author": "julik",
+      "points": 84,
+      "comments": 52,
+      "published_at": "2026-10-12T10:53:41+00:00"
+    },
+    {
+      "id": "472757",
+      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "author": "vishnukool",
+      "points": 84,
+      "comments": 59,
+      "published_at": "2026-10-12T16:46:34+00:00"
+    },
+    {
+      "id": "472667",
+      "title": "(Post-Quantum) Cryptographic Right Answers",
+      "url": "https://words.filippo.io/right-answers/",
+      "author": "gavide",
+      "points": 81,
+      "comments": 23,
+      "published_at": "2026-10-12T12:26:32+00:00"
+    },
+    {
+      "id": "471932",
+      "title": "Ledger confirms hidden chip in crypto wallet amid $92M theft claims",
+      "url": "https://crypto.news/ledger-confirms-hidden-chip-in-crypto-wallet-amid-92m/",
+      "author": "thm",
+      "points": 80,
+      "comments": 72,
+      "published_at": "2026-10-12T10:09:37+00:00"
+    },
+    {
+      "id": "472940",
+      "title": "'AI' Is Not a Tool by Rich Hickey",
+      "url": "https://gist.github.com/svieira/619d60dea942a8d4498cba3bb6b11c02",
+      "author": "svieira",
+      "points": 79,
+      "comments": 35,
+      "published_at": "2026-10-12T18:00:25+00:00"
+    },
+    {
+      "id": "471646",
+      "title": "X Is Bad, Though",
+      "url": "https://lexontech.org/x-is-bad-though",
+      "author": "ayaros",
+      "points": 77,
+      "comments": 59,
+      "published_at": "2026-10-12T03:50:58+00:00"
+    },
+    {
+      "id": "472853",
+      "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+      "url": "https://github.com/openai/codex/issues/48195",
+      "author": "whimblepop",
+      "points": 76,
+      "comments": 29,
+      "published_at": "2026-10-12T18:29:04+00:00"
+    },
+    {
+      "id": "473262",
+      "title": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
+      "url": "https://doi.org/10.1111/acel.70751",
+      "author": "arunc",
+      "points": 71,
+      "comments": 24,
+      "published_at": "2026-10-12T23:34:22+00:00"
+    },
+    {
+      "id": "472481",
+      "title": "Solar Panels That Plug into Your Wall Are About to Be Everywhere",
+      "url": "https://www.nationalgeographic.com/environment/article/balcony-plug-in-solar-panels-renewable-energy",
+      "author": "speckx",
+      "points": 70,
+      "comments": 66,
+      "published_at": "2026-10-12T14:19:04+00:00"
+    },
+    {
+      "id": "472891",
+      "title": "Introducing OpenFatigue",
+      "url": "https://openfatigue.ai/",
+      "author": "ajcp",
+      "points": 70,
+      "comments": 12,
+      "published_at": "2026-10-12T19:08:21+00:00"
+    },
+    {
+      "id": "473261",
+      "title": "GPT-6 Astra Helped Me Jailbreak My Kindle",
+      "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+      "author": "nirajrajgor",
+      "points": 68,
+      "comments": 35,
+      "published_at": "2026-10-12T23:07:25+00:00"
+    },
+    {
+      "id": "472555",
+      "title": "AI less regulated than milk, Microsoft president says in warning over safety",
+      "url": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
+      "author": "nephihaha",
+      "points": 65,
+      "comments": 73,
+      "published_at": "2026-10-12T12:46:52+00:00"
+    },
+    {
+      "id": "472941",
+      "title": "AI models may be capable of self-replicating without access to a datacenter",
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "author": "artninja1988",
+      "points": 57,
+      "comments": 76,
+      "published_at": "2026-10-12T19:25:29+00:00"
+    },
+    {
+      "id": "471626",
+      "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+      "url": "https://github.com/SaarthurR/atticus-mac",
+      "author": "SaarthRanka",
+      "points": 56,
+      "comments": 6,
+      "published_at": "2026-10-12T00:15:12+00:00"
+    },
+    {
+      "id": "472556",
+      "title": "An Unmade Film Shaped Hayao Miyazaki",
+      "url": "https://animationobsessive.substack.com/p/an-unmade-film-shaped-hayao-miyazaki",
+      "author": "vinhnx",
+      "points": 56,
+      "comments": 8,
+      "published_at": "2026-10-12T14:34:25+00:00"
+    },
+    {
+      "id": "472451",
+      "title": "\"Just Ask Claude\" Is a Rare and Valuable Skill",
+      "url": "https://justismills.substack.com/p/just-ask-claude-is-a-rare-and-valuable",
+      "author": "surprisetalk",
+      "points": 53,
+      "comments": 61,
+      "published_at": "2026-10-12T13:20:04+00:00"
+    },
+    {
+      "id": "472712",
+      "title": "Hackers heat French supermarket fridges, sparking fires and food losses",
+      "url": "https://www.reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/",
+      "author": "salaryman777",
+      "points": 47,
+      "comments": 3,
+      "published_at": "2026-10-12T14:59:08+00:00"
+    },
+    {
+      "id": "473281",
+      "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+      "author": "hurricanepootis",
+      "points": 46,
+      "comments": 15,
+      "published_at": "2026-10-12T21:35:35+00:00"
+    },
+    {
+      "id": "472240",
+      "title": "A decade after Stardew Valley, Eric Barone is still going it alone",
+      "url": "https://www.gq-magazine.co.uk/article/a-decade-after-stardew-valley-eric-barone-is-still-going-it-alone",
+      "author": "HelloUsername",
+      "points": 45,
+      "comments": 12,
+      "published_at": "2026-10-12T09:37:58+00:00"
+    },
+    {
+      "id": "472821",
+      "title": "Feds Got Warrants to Use Fake Cell Towers to Hunt Down Don Lemon's Producer",
+      "url": "https://www.wired.com/story/feds-got-warrants-to-use-fake-cell-towers-to-hunt-down-don-lemons-producer/",
+      "author": "rndsignals",
+      "points": 45,
+      "comments": 19,
+      "published_at": "2026-10-12T17:08:16+00:00"
+    },
+    {
+      "id": "473088",
+      "title": "Making big downloads resumable in Firefox",
+      "url": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html",
+      "author": "speckx",
+      "points": 45,
+      "comments": 5,
+      "published_at": "2026-10-12T19:36:02+00:00"
+    },
+    {
+      "id": "473107",
+      "title": "Who Is Vfmaddrnd231pd?",
+      "url": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/",
+      "author": "pngmangi",
+      "points": 44,
+      "comments": 0,
+      "published_at": "2026-10-12T21:12:43+00:00"
+    },
+    {
+      "id": "472890",
+      "title": "Publishers Killed the Paperback, Then Blamed Readers",
+      "url": "https://jacobin.com/2026/10/books-publishing-reading-mass-market-paperback",
+      "author": "PaulHoule",
+      "points": 43,
+      "comments": 26,
+      "published_at": "2026-10-12T18:27:26+00:00"
+    },
+    {
+      "id": "471639",
+      "title": "Sorry we made you grind LeetCode",
+      "url": "https://www.hackerrank.com/writing/why-were-sorry",
+      "author": "ishanz",
+      "points": 41,
+      "comments": 43,
+      "published_at": "2026-10-12T02:52:10+00:00"
+    },
+    {
+      "id": "472889",
+      "title": "My Reddit AMA on the Law of Web Scraping",
+      "url": "https://blog.ericgoldman.org/archives/2026/10/my-reddit-ama-on-the-law-of-web-scraping.htm",
+      "author": "speckx",
+      "points": 34,
+      "comments": 5,
+      "published_at": "2026-10-12T18:02:32+00:00"
+    },
+    {
+      "id": "472603",
+      "title": "Elon Musk emerges as the top booster for Republicans with $276M donations",
+      "url": "https://www.cnn.com/2026/10/12/politics/elon-musk-midterm-spending-276-million",
+      "author": "rawgabbit",
+      "points": 33,
+      "comments": 3,
+      "published_at": "2026-10-12T15:25:16+00:00"
+    },
+    {
+      "id": "473118",
+      "title": "Breaking Bad star RJ Mitte dies aged 34",
+      "url": "https://news.sky.com/story/breaking-bad-star-rj-mitte-dies-aged-34-13598332",
+      "author": "austinallegro",
+      "points": 33,
+      "comments": 2,
+      "published_at": "2026-10-12T22:15:29+00:00"
+    },
+    {
+      "id": "472670",
+      "title": "People are rejoicing about the removal of Russian bots from social media",
+      "url": "https://www.the-independent.com/tech/bots-russia-x-facebook-meta-bluesky-twitter-b3065172.html",
+      "author": "tantalor",
+      "points": 31,
+      "comments": 12,
+      "published_at": "2026-10-12T15:23:24+00:00"
+    },
+    {
+      "id": "473025",
+      "title": "\"Today we're laying off a large part of the Airtable team \"",
+      "url": "https://twitter.com/fedesimio/status/2109713695165329511",
+      "author": "tortilla",
+      "points": 31,
+      "comments": 7,
+      "published_at": "2026-10-12T19:56:16+00:00"
+    },
+    {
+      "id": "473096",
+      "title": "Phreak.ing – Internet Phone Switch",
+      "url": "https://phreak.ing/",
+      "author": "rickcarlino",
+      "points": 30,
+      "comments": 1,
+      "published_at": "2026-10-12T21:39:32+00:00"
+    },
+    {
+      "id": "471634",
+      "title": "Elon Musk's PAC is spreading inaccurate voting info, election officials say",
+      "url": "https://www.cnn.com/2026/10/10/politics/elon-musk-pac-inaccurate-voting-information",
+      "author": "MilnerRoute",
+      "points": 29,
+      "comments": 4,
+      "published_at": "2026-10-12T01:25:57+00:00"
+    },
+    {
+      "id": "471640",
+      "title": "Pizza in North Korea",
+      "url": "https://en.wikipedia.org/wiki/Pizza_in_North_Korea",
+      "author": "axbac",
+      "points": 29,
+      "comments": 0,
+      "published_at": "2026-10-12T03:02:04+00:00"
+    },
+    {
+      "id": "472602",
+      "title": "KeePassXC is 10 years old today",
+      "url": "https://fosstodon.org/@keepassxc/117426800473292490",
+      "author": "varjolintu",
+      "points": 29,
+      "comments": 0,
+      "published_at": "2026-10-12T10:15:30+00:00"
+    },
+    {
+      "id": "472060",
+      "title": "Crest – an Arc-inspired open-source browser for Mac",
+      "url": "https://crestbrowser.com/",
+      "author": "cobychapple",
+      "points": 28,
+      "comments": 22,
+      "published_at": "2026-10-12T03:37:09+00:00"
+    },
+    {
+      "id": "472812",
+      "title": "Reverse engineer anything with agents, from app behavior down to native binaries",
+      "url": "https://github.com/morluto/rea",
+      "author": "taytus",
+      "points": 28,
+      "comments": 5,
+      "published_at": "2026-10-12T16:31:55+00:00"
+    },
+    {
+      "id": "473003",
+      "title": "Epic Games tells employees to use AI to get Disney game done",
+      "url": "https://www.avclub.com/epic-games-disney-ai-delay",
+      "author": "pavel_lishin",
+      "points": 28,
+      "comments": 3,
+      "published_at": "2026-10-12T20:07:42+00:00"
+    },
+    {
+      "id": "472911",
+      "title": "French supermarkets suffer refrigerator shutdown after unprecedented cyberattack",
+      "url": "https://www.rnz.co.nz/news/world/1865776/french-supermarkets-suffer-refrigerator-shutdown-after-unprecedented-cyberattack",
+      "author": "billybuckwheat",
+      "points": 27,
+      "comments": 12,
+      "published_at": "2026-10-12T18:09:10+00:00"
+    },
+    {
+      "id": "472822",
+      "title": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
+      "url": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
+      "author": "behzadhaghgoo",
+      "points": 26,
+      "comments": 23,
+      "published_at": "2026-10-12T18:03:56+00:00"
+    },
+    {
+      "id": "471984",
+      "title": "Linus Torvalds Working on a Hefty Linux Kernel Improvement with Claude Code",
+      "url": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code",
+      "author": "mdp2021",
+      "points": 25,
+      "comments": 1,
+      "published_at": "2026-10-12T01:57:00+00:00"
+    },
+    {
+      "id": "473280",
+      "title": "Show HN: Brickbrag – A multiplayer brick-building world in the browser",
+      "url": "https://brickbrag.com/",
+      "author": "neuling",
+      "points": 25,
+      "comments": 9,
+      "published_at": "2026-10-12T21:03:36+00:00"
+    },
+    {
+      "id": "472572",
+      "title": "French supermarket chains say cyberattack forced refrigerator shutdown",
+      "url": "https://www.france24.com/en/live-news/20261012-french-supermarket-chains-say-cyberattack-forced-refrigerator-shutdown",
+      "author": "Zadak",
+      "points": 24,
+      "comments": 7,
+      "published_at": "2026-10-12T12:07:48+00:00"
+    },
+    {
+      "id": "473095",
+      "title": "Ricky Mondello responds to \"Passkeys are a trap. Do not use them.\"",
+      "url": "https://hachyderm.io/@rmondello/117428258722253709",
+      "author": "latexr",
+      "points": 23,
+      "comments": 6,
+      "published_at": "2026-10-12T19:09:01+00:00"
+    },
+    {
+      "id": "472574",
+      "title": "Discover vibe-coded alternatives to popular software",
+      "url": "https://vibealternatives.com/",
+      "author": "matteomrj",
+      "points": 22,
+      "comments": 48,
+      "published_at": "2026-10-12T15:46:38+00:00"
+    },
+    {
+      "id": "472756",
+      "title": "Deep dive into Azure Maia 300 architecture",
+      "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+      "author": "azhenley",
+      "points": 22,
+      "comments": 4,
+      "published_at": "2026-10-12T14:45:44+00:00"
+    },
+    {
+      "id": "472811",
+      "title": "Ukraine hits Russian Datacentre causing a 29% drop in US Twitter posts",
+      "url": "https://www.thelondoneconomic.com/politics/what-is-yandex-ukraine-strike-russia-data-centres-410510/",
+      "author": "My_Name",
+      "points": 22,
+      "comments": 9,
+      "published_at": "2026-10-12T13:06:10+00:00"
+    },
+    {
+      "id": "471630",
+      "title": "Things that don't bother me as your manager",
+      "url": "https://twitter.com/EmmaBostian/status/2107555593531588648",
+      "author": "LouisLazaris",
+      "points": 21,
+      "comments": 3,
+      "published_at": "2026-10-12T00:52:02+00:00"
+    },
+    {
+      "id": "473001",
+      "title": "Empty shelves likely at Nederlands Albert Heijn due to \"Cyber incident\"",
+      "url": "https://nltimes.nl/2026/10/12/empty-shelves-likely-albert-heijn-cyber-incident-extends-parents-us-business",
+      "author": "neom",
+      "points": 21,
+      "comments": 3,
+      "published_at": "2026-10-12T17:42:29+00:00"
+    },
+    {
+      "id": "473002",
+      "title": "Writing a Demoscene Intro for the ZX Spectrum",
+      "url": "https://www.markround.com/blog/2026/zx-spectrum-intro",
+      "author": "zdw",
+      "points": 21,
+      "comments": 0,
+      "published_at": "2026-10-12T19:40:00+00:00"
+    },
+    {
+      "id": "473159",
+      "title": "Martin Odersky – Keynote: The End of Programming? [video]",
+      "url": "https://www.youtube.com/watch?v=jlJyuJhDnlc",
+      "author": "fabianhjr",
+      "points": 21,
+      "comments": 4,
+      "published_at": "2026-10-12T19:52:12+00:00"
+    },
+    {
+      "id": "473179",
+      "title": "Tesla Factory Plan Increase of Toxic Heavy Metal Emissions Near School",
+      "url": "https://anonymous94538.substack.com/p/tesla-fremont-is-applying-to-spew",
+      "author": "DeepLogin",
+      "points": 21,
+      "comments": 0,
+      "published_at": "2026-10-12T20:16:50+00:00"
+    },
+    {
+      "id": "473260",
+      "title": "EC users should be afraid of a US kill switch – not some new software",
+      "url": "https://www.theregister.com/columnists/2026/10/10/ec-users-should-be-afraid-of-a-us-kill-switch-not-some-new-software/5301875",
+      "author": "CrankyBear",
+      "points": 21,
+      "comments": 4,
+      "published_at": "2026-10-12T19:14:58+00:00"
+    },
+    {
+      "id": "473383",
+      "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "url": "https://github.com/prabanta-dev/janas",
+      "author": "khalidkhair",
+      "points": 21,
+      "comments": 8,
+      "published_at": "2026-10-12T22:05:43+00:00"
+    },
+    {
+      "id": "473218",
+      "title": "日本 9 月季调后银行贷款年率 5.3%，前值 5.40%。",
+      "url": "https://t.me/Financial_Express/3528364",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-12T23:50:42+00:00"
+    },
+    {
+      "id": "473220",
+      "title": "长债利率高企 美财政部或调整发债久期缓解市场压力",
+      "url": "https://t.me/Financial_Express/3528366",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-12T23:51:22+00:00"
+    },
+    {
+      "id": "473221",
+      "title": "雅思考试反复取消 “停考风波”何时休",
+      "url": "https://t.me/Financial_Express/3528367",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-12T23:52:42+00:00"
+    },
+    {
+      "id": "473222",
+      "title": "欢迎进入链接网页右侧下载本周财经数据与事件精美周历壁纸",
+      "url": "https://t.me/Financial_Express/3528368",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-12T23:53:02+00:00"
+    },
+    {
+      "id": "473223",
+      "title": "通胀风险萦绕不散 新加坡金管局料小幅收紧货币政策",
+      "url": "https://t.me/Financial_Express/3528369",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-12T23:53:22+00:00"
+    },
+    {
+      "id": "473224",
+      "title": "特朗普坚称俄乌同意能源停火",
+      "url": "https://t.me/Financial_Express/3528370",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-12T23:54:02+00:00"
+    },
+    {
+      "id": "473225",
+      "title": "截至 10 月 12 日下午收盘，碳酸锂期货 2701 合约跌 11.79%，收于 104680 元/吨，跌破 11 万元关口，刷新年内低点。相较该合约今年 5 月中旬超过 20 万元/吨的高点，不足半年间近乎“腰斩”。现货市场方面，据上海",
+      "url": "https://t.me/Financial_Express/3528371",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-12T23:54:06+00:00"
+    },
+    {
+      "id": "473226",
+      "title": "日本 9 月季调后除信托外银行贷款年率 5.7%，前值 5.80%。",
+      "url": "https://t.me/Financial_Express/3528372",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-12T23:54:22+00:00"
+    },
+    {
+      "id": "473227",
+      "title": "日本经济产业大臣赤泽亮正",
+      "url": "https://t.me/Financial_Express/3528373",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-12T23:54:57+00:00"
+    },
+    {
+      "id": "473228",
+      "title": "俄总统代表邀马斯克修俄美隧道",
+      "url": "https://t.me/Financial_Express/3528374",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-12T23:55:02+00:00"
+    },
+    {
+      "id": "473229",
+      "title": "华泰证券：海内外 AI 影视工业化生产加速",
+      "url": "https://t.me/Financial_Express/3528375",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-12T23:56:22+00:00"
+    },
+    {
+      "id": "473230",
+      "title": "ANTHROPIC",
+      "url": "https://t.me/Financial_Express/3528376",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-12T23:57:42+00:00"
+    },
+    {
+      "id": "473231",
+      "title": "ANTHROPIC",
+      "url": "https://t.me/Financial_Express/3528377",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-12T23:58:22+00:00"
+    },
+    {
+      "id": "473232",
+      "title": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
+      "url": "https://www.aljazeera.com/news/2026/10/12/houthi-missile-attack-targets-saudi-capital-riyadh-for-third-day-in-a-row?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-12T23:54:05+00:00"
+    },
+    {
+      "id": "473233",
+      "title": "Anthropic",
+      "url": "https://t.me/Financial_Express/3528378",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-12T23:58:42+00:00"
+    },
+    {
+      "id": "473234",
+      "title": "ANTHROPIC",
+      "url": "https://t.me/Financial_Express/3528379",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-12T23:59:42+00:00"
+    }
+  ]
+}
