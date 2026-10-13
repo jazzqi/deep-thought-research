@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-10-12T18:45:01+08:00
-revision: 2026-10-12T18:45:01+08:00
+updated: 2026-10-14T07:22:48+08:00
+revision: 2026-10-14T07:22:48+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Is Claude Conscious? Pope Rejects, Model Welfare Movement, OpenAI's Math Backlash, France Riots —— All-In Podcast · 2026-10-10](./all-in/is-claude-conscious-pope-rejects-model-welfare-movement-open.md)
+- [世界最大数字银行正面进攻美国最古老银行体系 —— ILTB Podcast · 2026-10-13](./iltb/the-worlds-largest-digital-bank-taking-on-americas-biggest-f.md)
 
 ## 往期
 
+- [世界最大数字银行正面进攻美国最古老银行体系 —— ILTB Podcast · 2026-10-13](./iltb/the-worlds-largest-digital-bank-taking-on-americas-biggest-f.md)
 - [Is Claude Conscious? Pope Rejects, Model Welfare Movement, OpenAI's Math Backlash, France Riots —— All-In Podcast · 2026-10-10](./all-in/is-claude-conscious-pope-rejects-model-welfare-movement-open.md)
 - [Why Every AI Lab Will Become a Biotech Company —— Andrew Huberman · @ILTB_Podcast · 2026-10-06](./iltb/why-every-ai-lab-will-become-a-biotech-company-andrew-huberm.md)
 - [Inside the Personal AI Assistant Growing 10% a Day —— Instinct 创始人（转录稿未标注姓名） · ILTB Podcast · 2026-09-28](./iltb/inside-the-personal-ai-assistant-growing-10-a-day-instinct-f.md)
