@@ -1,0 +1,6 @@
+actions:
+- priority: P2
+  recurrence: weekly
+  summary: 持续追踪 Zod 4.6.6 供应链投毒事件后续（npm 官方响应、波及范围确认）及 QGIS 禁 AI 政策在其他大型开源项目的扩散
+  target_flow_params: {}
+  type: monitoring

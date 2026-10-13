@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-13T00:04:07.587552+00:00",
+  "window": {
+    "after": "2026-10-10T00:00:00+00:00",
+    "before": "2026-10-11T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "471064",
+      "title": "Your 401(k) is funding the AI boom #money #retirement",
+      "url": "https://www.youtube.com/watch?v=GBUOm3vuDgU",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T20:00:11+00:00"
+    },
+    {
+      "id": "471067",
+      "title": "Poppi cofounder: \"I'm unapologetically myself\" #Poppi #success",
+      "url": "https://www.youtube.com/watch?v=6B8cUB-Asy0",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T14:00:17+00:00"
+    },
+    {
+      "id": "471555",
+      "title": "Attacker in FlyDubai Flight Meant to Crash Into Israeli Airport, Emiratis Say",
+      "url": "https://www.nytimes.com/2026/10/09/world/middleeast/flydubai-pilot-attack.html",
+      "author": "Pranav Baskar",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T00:10:22+00:00"
+    },
+    {
+      "id": "471556",
+      "title": "7.7-Magnitude Panama Earthquake Sets Off Series of Aftershocks",
+      "url": "https://www.nytimes.com/2026/10/09/world/americas/panama-earthquake-tsunami.html",
+      "author": "Mark Walker and James Wagner",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T02:09:50+00:00"
+    },
+    {
+      "id": "471557",
+      "title": "India Cancels Trains, Floods Capital with Police to Block Protests",
+      "url": "https://www.nytimes.com/2026/10/09/world/asia/india-cockroach-protests-delhi.html",
+      "author": "Somini Sengupta, Pragati K.B. and Suhasini Raj",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T03:14:33+00:00"
+    },
+    {
+      "id": "471558",
+      "title": "Nord Stream trial: How German police followed the evidence - to Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/c317ke5ngrq7o?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T04:51:57+00:00"
+    },
+    {
+      "id": "471559",
+      "title": "Cloudflare 收购 Deno，Deno 停止开发",
+      "url": "https://www.solidot.org/story?sid=85570",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T06:01:12+00:00"
+    },
+    {
+      "id": "471560",
+      "title": "Cloudflare 公共 DNS 服务不需屏蔽盗版网站域名",
+      "url": "https://www.solidot.org/story?sid=85571",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T07:30:38+00:00"
+    },
+    {
+      "id": "471561",
+      "title": "全球 PC 出货量三季度暴跌逾 20%",
+      "url": "https://www.solidot.org/story?sid=85572",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T07:53:37+00:00"
+    },
+    {
+      "id": "471562",
+      "title": "Blocked by Police, India’s Youth Voice Their Fury",
+      "url": "https://www.nytimes.com/2026/10/10/world/asia/police-india-cockroach-protest-anger.html",
+      "author": "Somini Sengupta, Mujib Mashal, Suhasini Raj and Martin Fackler",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T07:54:09+00:00"
+    },
+    {
+      "id": "471563",
+      "title": "特斯拉在欧洲将 Full Self-Driving 改名为 Tesla Assisted Driving",
+      "url": "https://www.solidot.org/story?sid=85573",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T08:52:27+00:00"
+    },
+    {
+      "id": "471564",
+      "title": "DDR4 内存条再次回归",
+      "url": "https://www.solidot.org/story?sid=85574",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T09:05:17+00:00"
+    },
+    {
+      "id": "471565",
+      "title": "Public executions in the US stopped nearly a century ago -  why are they resuming now?",
+      "url": "https://www.bbc.co.uk/news/articles/c6kgq7rqdql7o?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T09:17:36+00:00"
+    },
+    {
+      "id": "471566",
+      "title": "使用 AI 十分钟就会削弱你挑战难题的意志力",
+      "url": "https://www.solidot.org/story?sid=85575",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T10:27:26+00:00"
+    },
+    {
+      "id": "471567",
+      "title": "能访问丹麦 CPR 系统的一个管理员账号密码是 123456",
+      "url": "https://www.solidot.org/story?sid=85576",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T11:28:09+00:00"
+    },
+    {
+      "id": "471568",
+      "title": "Inside Erik Prince’s Mercenary Deal in Congo",
+      "url": "https://www.nytimes.com/2026/10/09/world/africa/erik-prince-congo-mercenary-kennedy-vectus-contract.html",
+      "author": "Declan Walsh",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T13:35:59+00:00"
+    },
+    {
+      "id": "471569",
+      "title": "Why have hundreds of 'cockroach' protesters been detained in Delhi",
+      "url": "https://www.bbc.co.uk/news/videos/cqwy7p2y20gxo?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T14:13:13+00:00"
+    },
+    {
+      "id": "471570",
+      "title": "曾濒临灭绝的象龟数量超过了塞舌尔人口总数",
+      "url": "https://www.solidot.org/story?sid=85577",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T14:36:52+00:00"
+    },
+    {
+      "id": "471571",
+      "title": "From a Sikh Sanctuary to Chaotic Streets, Protesters Brave Police in Delhi",
+      "url": "https://www.nytimes.com/2026/10/10/world/asia/india-cjp-cockroach-protest.html",
+      "author": "Suhasini Raj",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T14:51:21+00:00"
+    },
+    {
+      "id": "471572",
+      "title": "Indian Police Round Up Protest Leaders and Lock Down Delhi",
+      "url": "https://www.nytimes.com/2026/10/10/world/asia/delhi-protests-india.html",
+      "author": "Somini Sengupta, Pragati K.B., Mujib Mashal and Suhasini Raj",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T16:50:45+00:00"
+    },
+    {
+      "id": "471573",
+      "title": "Palestinian Authority Formally Delays Elections, Despite Western Pressure",
+      "url": "https://www.nytimes.com/2026/10/10/world/middleeast/palestinian-authority-elections-abbas.html",
+      "author": "Aaron Boxerman",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T16:52:13+00:00"
+    },
+    {
+      "id": "471574",
+      "title": "A Week Later, Russia Hasn’t Said What Pathogen Killed Plague Researcher",
+      "url": "https://www.nytimes.com/2026/10/10/world/europe/russia-plague.html",
+      "author": "Paul Sonne and Julian E. Barnes",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T17:09:17+00:00"
+    },
+    {
+      "id": "471575",
+      "title": "Exasperation and Resignation in Greece Over Allegations Against Kimberly Guilfoyle",
+      "url": "https://www.nytimes.com/2026/10/10/world/europe/kimberly-guilfoyle-greece.html",
+      "author": "Niki Kitsantonis, Lara Jakes and Lynsey Chutel",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T17:48:21+00:00"
+    },
+    {
+      "id": "471576",
+      "title": "3 Men Found Guilty in Murders of Tourists on Mexico Surf Trip",
+      "url": "https://www.nytimes.com/2026/10/10/world/americas/mexico-murder-trial-surfers-jake-callum-robinson-rhoad.html",
+      "author": "Jennifer Sinco Kelleher",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T18:25:54+00:00"
+    },
+    {
+      "id": "471577",
+      "title": "Quebec Independence Is Unlikely, but Some Will Still Dream",
+      "url": "https://www.nytimes.com/2026/10/10/world/canada/quebec-election-parti-quebecois-separatism.html",
+      "author": "Norimitsu Onishi",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T18:36:14+00:00"
+    },
+    {
+      "id": "471578",
+      "title": "Rebuking Ukraine Over Oil Strikes, Trump Says It Should ‘Get a New President’",
+      "url": "https://www.nytimes.com/2026/10/10/world/europe/ukraine-russia-trump-diesel-talks.html",
+      "author": "Marc Santora and Andrew E. Kramer",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T19:28:55+00:00"
+    },
+    {
+      "id": "471579",
+      "title": "Young men live in fear of being snatched off the streets and sold to Myanmar's army",
+      "url": "https://www.bbc.co.uk/news/articles/c680zlny0gk4o?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T22:13:08+00:00"
+    },
+    {
+      "id": "471580",
+      "title": "Inside the room: What it was like to be with Blackpink's Lisa as race scandal erupted",
+      "url": "https://www.bbc.co.uk/news/articles/cjzxl56q30k7o?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T23:31:35+00:00"
+    },
+    {
+      "id": "471718",
+      "title": "Is Claude Conscious? Pope Rejects, Model Welfare Movement, OpenAI's Math Backlash, France Riots",
+      "url": "https://podcasts.happyscribe.com/all-in-with-chamath-jason-sacks-friedberg/is-claude-conscious-pope-rejects-model-welfare-movement-openai-s-math-backlash-france-riots",
+      "author": "Jason Calacanis",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T02:06:00+00:00"
+    },
+    {
+      "id": "471720",
+      "title": "She’s Been to Gaza. She Met With the Iranians. Now She Has a Warning.",
+      "url": "https://podcasts.happyscribe.com/the-daily/she-s-been-to-gaza-she-met-with-the-iranians-now-she-has-a-warning",
+      "author": "The New York Times",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-10T10:00:00+00:00"
+    }
+  ]
+}
