@@ -1,0 +1,112 @@
+- HN 帖列表（10-13 UTC 窗口, hn_points≥20, 60 条）: query_raw_items(source=hackernews, published_after=2026-10-13T00:00:00Z, published_before=2026-10-14T00:00:00Z, min_points=20) = Apple HomeView ▲585 为首
+- Apple HomeView 帖: query_raw_items(min_points=20)[id:475886] = ▲585 💬721 Apple HomeView，作者 etothet
+- Character.ai Chapter 11 官方博客帖: query_raw_items()[id:475845] = ▲222 💬241 An Update on Character.ai，作者 nryoo
+- Character.ai Verge 同步报道帖: query_raw_items()[id:475691] = ▲144 💬20 Character.ai Files for Bankruptcy
+- Rust borrow checker unsoundness: query_raw_items()[id:475477] = ▲559 💬323 issue #164250，作者 formerly_proven
+- Gemini 4 Argon: query_raw_items()[id:476415] = ▲267 💬229 deepmind.google/models/gemini，作者 737max
+- Apple Minions 论文: query_raw_items()[id:475918] = ▲203 💬89 distributed-gpu-cloud，作者 acossta
+- OpenAI 工程师被捕: query_raw_items()[id:476975] = ▲114 💬129 sfstandard 报道，作者 forthwall
+- OpenAI 官方通报帖: query_raw_items()[id:476896] = ▲69 💬41 OpenAI finds recording device，作者 jaredwiener
+- IMF AI 股价回调风险: query_raw_items()[id:474309] = ▲107 💬68 Guardian GFSR 报道，作者 novaRom
+- Anthropic Scion: query_raw_items()[id:476611] = ▲103 💬65 Redesigning Source Control at Anthropic，作者 Philpax
+- AI 隐藏能力论文: query_raw_items()[id:473932] = ▲264 💬129 arXiv 2610.13928，作者 sbulaev
+- Embedding Gemma Transcribe: query_raw_items()[id:475692] = ▲348 💬81 eg2.haku.sh，作者 amrrs
+- OpenAI FFT 批评: query_raw_items()[id:473896] = ▲229 💬144 argmin.net，作者 mochomocha
+- Leaving Tech: query_raw_items()[id:473724] = ▲161 💬169 ryanbigg.com，作者 jonahx
+- 软件工程师蓝领论: query_raw_items()[id:475066] = ▲82 💬176 ptrbrynt.com，作者 ilreb
+- Rust issue 正文（lcnr 说明/11 年成因）: fetch_url(https://github.com/rust-lang/rust/issues/164250) = P-high、需恶意 Drop 实现
+- Character.ai 售卖流程时间表: fetch_url(https://blog.character.ai/an-update-on-character-ai/) = 预计 11 月底-12 月初完成出售
+- FFT 批评论点: fetch_url(https://www.argmin.net/p/faster-fourier-transforms) = "malicious exploit" 判断
+- 论文摘要: fetch_url(https://arxiv.org/abs/2610.13928) = digital lockers 隐藏加密网络，NeurIPS 2026
+- Minions 摘要: fetch_url(https://machinelearning.apple.com/research/distributed-gpu-cloud) = 聚合闲置 Apple Silicon GPU 推理
+- HomeView 规格: fetch_url(https://www.apple.com/apple-homeview/) = 7 英寸 Liquid Retina、11.13 开售
+- Apple TV 4K: fetch_url(https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/) = Siri AI、远场麦、11 月 13 日开售
+- Argon 能力: fetch_url(https://deepmind.google/models/gemini/) = CWE-Bench 68% 并列第一、Chrome 6M 行迁移
+- Scion 数据: fetch_url(https://www.anthropic.com/engineering/redesigning-source-control) = 日合并 2,500→30,000+（2026-05→09）
+- OpenAI 工程师案情: fetch_url(https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/) = Alfozan 35 岁沙特籍，9-28 安装、9-30 发现
+- IMF GFSR: fetch_url(https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks) = 三大显著风险、AI 回调后果全球化
+- 转写基准: fetch_url(https://eg2.haku.sh/) = M3 Air 1h/12.6s、WER~5%
+- Indra OCR（Top10 外参考）: query_raw_items()[id:476984] = ▲22 💬0 1M 参数 OCR，49 页/秒（32 核 CPU）
+- HomeView 评论: fetch_url(https://hn.algolia.com/api/v1/items/50071017) = 用户 jawilson2 评论"AI 是最不有趣的部分"
+- Character.ai 评论: fetch_url(https://hn.algolia.com/api/v1/items/50068036) = 用户 drewbitt 评论"$100k in DoorDash is a lifestyle"
+
+- 欧洲超市冷柜网络攻击: query_raw_items(source=hackernews,min_points=80,published_after=2026-10-12)[id:472155] = Hackers activate automatic defrosting across European supermarket fridges (▲833)
+- 冷柜攻击细节(BBC正文): fetch_url(https://www.bbc.com/news/articles/crq5nzxv9q4yo) = Danfoss冷控软件遭入侵,Coopérative U 100+门店/Intermarché 180门店,冷柜升温至50°C,受影响为无法更新安全补丁的旧机型
+- 冷柜攻击HN评论(admin/日期弱口令+EU CRA): fetch_url(https://news.ycombinator.com/item?id=50055304) = woadwarrior01: admin口令每日重置为当前日期;rlpb: EU Cyber Resilience Act 2027-12生效
+- AI is a tool反驳文: query_raw_items(source=hackernews,min_points=80)[id:473089] = AI Is a Tool. Using It Well Takes Skill. (▲623, yyhh.org)
+- 反驳文正文: fetch_url(https://yyhh.org/blog/2026/10/ai-is-a-tool/) = 反驳Hickey"LLM是自动化非工具",自动化是工具属性,LLM使用存在技能回路
+- 反驳文HN高赞评论: fetch_url(https://news.ycombinator.com/item?id=50063427) = jgord: LLM铺开快于技能养成,数万亿美元推动信任LLM,认知天启风险
+- QGIS禁AI贡献: query_raw_items(source=hackernews,min_points=80)[id:472002] = QGIS bans AI assisted contributions (▲385, PR#387)
+- Codex CLI守护进程: query_raw_items(source=hackernews,min_points=80)[id:472853] = Codex CLI installs persistent self-updating daemon by default (▲589)
+- Codex issue正文: fetch_url(https://github.com/openai/codex/issues/48195) = 0.157.0起默认启动常驻daemon,复制374MB包至~/.codex,每小时自更新,可强杀活跃任务
+- Character.ai破产: query_raw_items(source=hackernews,min_points=80)[id:475845] = Character.ai files for Chapter 11 bankruptcy (▲222)
+- Character.ai公告正文: fetch_url(https://blog.character.ai/an-update-on-character-ai/) = 自愿Chapter 11,法院监督出售,预计2026年11月底-12月初完成,无买家则关停
+- Rust借用检查器11年unsoundness: query_raw_items(source=hackernews,min_points=80)[id:475477] = 11 year old unsoundness bugs found in Rust borrow checker (▲559)
+- Rust issue正文: fetch_url(https://github.com/rust-lang/rust/issues/164250) = 协变字段赋值绕过生命周期约束(#164250),I-unsound/P-high
+- AI模型可隐藏任意能力论文: query_raw_items(source=hackernews,min_points=80)[id:473932] = AI Models Can Provably Hide Arbitrary Capabilities (▲264)
+- 论文摘要: fetch_url(https://arxiv.org/abs/2610.13928) = NeurIPS 2026,加密后门嵌入权重,密码学假设下无法引出,审计极限
+- KK 2016预言复盘: query_raw_items(source=hackernews,min_points=80)[id:472725] = Kevin Kelly's 2016 AI Predictions, 10 Years Later (▲214)
+- 复盘正文: fetch_url(https://taylor.town/kk-ai-2026) = 《必然》预言对照:Google主业变AI/云端智能寡头/专用软件大脑
+- Gemini 4 Argon: query_raw_items(source=hackernews,min_points=80)[id:476415] = Gemini 4 Argon (▲267)
+- Argon页面正文: fetch_url(https://deepmind.google/models/gemini/) = CWE-Bench并列第一68%,Chrome 600万行遗留代码重构(40M行代码库)
+- Janas: query_raw_items(source=hackernews,min_points=80)[id:473383] = Run LLMs larger than RAM by streaming experts from SSD (▲201)
+- Janas README: fetch_url(https://github.com/prabanta-dev/janas) = 32GB笔记本跑48.4GB Qwen3-Next-80B,24 tok/s vs llama.cpp 2.8 tok/s
+- Apple Minions: query_raw_items(source=hackernews,min_points=80)[id:475918] = Apple's Minions: virtual GPU cloud from idle Apple Silicon Macs (▲203)
+- Minions论文页: fetch_url(https://machinelearning.apple.com/research/distributed-gpu-cloud) = 聚合闲置Apple Silicon GPU组成分布式推理云
+- 思考将成爱好: query_raw_items(source=hackernews,min_points=80)[id:472758] = Thinking Will Become a Hobby (▲328)
+- Spinellis正文: fetch_url(https://www.spinellis.gr/blog/20261008/?li261008) = 性能/成本/可用性三因素推演认知工作被AI接管,思考变休闲
+- Fable Took My Job: query_raw_items(source=hackernews,min_points=80)[id:471675] = Fable Took My Job (▲224)
+- Fable正文: fetch_url(https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html) = 最后一位工程师被更便宜的Fable模型取代叙事,前沿模型尚不能替代资深工程师
+
+- Gemini 4 Argon 发布（快照 ▲267/💬229）: query_raw_items(source=hackernews, published_after=2026-10-13T00:00:00Z)[id:476415] = Google DeepMind 发布旗舰模型 Gemini 4 Argon
+- Gemini 4 Argon 官网正文（Chromium ~600 万行重构、xTB 2.3x、vLLM 2.85x、CWE-Bench 68%、Gemma 4 E2B 37,900→108,000 tokens/s）: fetch_url(https://deepmind.google/models/gemini/) = 官方发布页正文
+- Gemini 4 Argon HN 实时热度 877 分/687 评论与高赞评论（svara、A_D_E_P_T 等：非编码阶跃、编码逊 Opus 5.5）: fetch_url(https://news.ycombinator.com/item?id=50073879) = HN 评论页正文
+- Gemini 4 Argon for Robotics（ERQA 纯推理 87%、Spot/MuJoCo、零样本机械臂控制）: query_raw_items(source=hackernews, published_after=2026-10-13T00:00:00Z)[id:476614] = Google Developers Blog 发布 Argon 机器人栈应用; 正文来源 fetch_url(https://developers.googleblog.com/gemini-4-argon-for-robotics/)
+- Rust 借用检查器 11 年 unsoundness（快照 ▲559/💬323）: query_raw_items(source=hackernews, published_after=2026-10-13T00:00:00Z)[id:475477] = GitHub rust-lang/rust issue #164250 协变字段赋值绕过生命周期约束
+- Rust issue #164250 正文（jsnell 提交、I-unsound/P-high、stable ≥1.85.0 可复现、lcnr 说明需恶意 Drop）: fetch_url(https://github.com/rust-lang/rust/issues/164250) = issue 正文与标签
+- Rust HN 实时热度 646 分/362 评论与 GrantMoyer 高赞评论（编译器 bug 非类型系统 bug）: fetch_url(https://news.ycombinator.com/item?id=50069499) = HN 评论页正文
+- Apple HomeView 发布（快照 ▲585/💬721）: query_raw_items(source=hackernews, published_after=2026-10-13T00:00:00Z)[id:475886] = Apple 发布家用中枢 HomeView; 正文来源 fetch_url(https://www.apple.com/apple-homeview/)（7 英寸屏、12MP 摄像头、Siri AI、11 月 13 日开售、识别最多六人）
+- Character.AI 申请破产（快照 ▲144）: query_raw_items(source=hackernews, published_after=2026-10-13T00:00:00Z)[id:475691] = The Verge 报道 Character.AI Chapter 11; 正文来源 fetch_url(https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney)（负债 5000 万-1 亿美元、Disney 2000 万美元领投、前 CEO Karandeep Anand 出任 Disney CTO、Google 2024 超 20 亿美元人才交易）
+- Mozilla Firefox Enterprise（快照 ▲493）: query_raw_items(source=hackernews, published_after=2026-10-13T00:00:00Z)[id:475744] = Mozilla 推出企业浏览器方案; 正文来源 fetch_url(https://www.firefox.com/en-US/enterprise/)（on-prem、DLP、AI 控制、SIEM、DORA/GDPR/NIS2 合规）
+- Apple Minions 虚拟 GPU 云论文（快照 ▲203）: query_raw_items(source=hackernews, published_after=2026-10-13T00:00:00Z)[id:475918] = 聚合闲置 Apple Silicon 设备做分布式推理; 正文来源 fetch_url(https://machinelearning.apple.com/research/distributed-gpu-cloud)
+- Anthropic Scion 版本控制系统（快照 ▲103）: query_raw_items(source=hackernews, published_after=2026-10-13T00:00:00Z)[id:476611] = 日合并量 2500→30000+、5 个月迁移; 正文来源 fetch_url(https://www.anthropic.com/engineering/redesigning-source-control)（主分支历史 ~100GB、日 2500 万次 CI 检出、朴素拉取 600PB/日）
+- Embedding Gemma Transcribe 13 秒转录 1 小时（快照 ▲348）: query_raw_items(source=hackernews, published_after=2026-10-13T00:00:00Z)[id:475692] = 端侧语音转写; 正文来源 fetch_url(https://eg2.haku.sh/)（M3 Air 12.6s/小时、288x 实时、WER ~5%、reader 训练 <2 小时 8×H100）
+- Indra OCR 1M 参数模型（快照 ▲22）: query_raw_items(source=hackernews, published_after=2026-10-13T00:00:00Z)[id:476984] = 32 核 CPU 49 页/秒; 正文来源 fetch_url(https://www.datalab.to/blog/indra-ocr)（单页 ~230ms、OmniParseBench 62.1 vs PP-StructureV3 58.4）
+- XBOW Chrome 全链 exploit（快照 ▲24）: query_raw_items(source=hackernews, published_after=2026-10-13T00:00:00Z)[id:476948] = agent 流水线 6 天合成全链; 正文来源 fetch_url(https://xbow.com/labs/research/zero-to-calc-in-six-days-inside-xbow-chrome-full-chain)（gpt-5.6-sol、25 万美元奖励、API 成本 ~4 万美元、2026-08-02~08-07）
+- Anthropic 警告模型或自我复制: query_raw_items(source=hackernews, published_after=2026-10-13T00:00:00Z)[id:475690] = Reuters 报道 Anthropic 安全警告（仅标题级引用）
+- 软件工程师蓝领类比（快照 ▲89/💬188）: query_raw_items(source=hackernews, published_after=2026-10-13T00:00:00Z)[id:475066] = ptrbrynt.com 观点文; 正文来源 fetch_url(https://ptrbrynt.com/posts/were-we-blue-collar-workers-all-along)
+- HN 帖后网站遭 AI 爬虫洪泛（快照 ▲72）: query_raw_items(source=hackernews, published_after=2026-10-13T00:00:00Z)[id:476413] = sprin klz.io 作者复盘; 正文来源 fetch_url(https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic)（近半流量来自单一 AI 简报爬虫）
+
+- HN 2026-10-13 UTC 日榜快照（Top1 分数/评论）: fetch_url(hn.algolia.com/api/v1/search?tags=story&numericFilters=created_at_i>1791868800,<1791955200,points>40) = Gemini 4 Argon 886分/694评论；Rust borrow checker 649/362；Apple HomeView 628/756；Firefox Enterprise 601/252；Anthropic source control 465/458；CFTC oil trades 435/239；EmbeddingGemma 2 STT 377/84；Hittite archive 331/82；OpenAI engineer arrested 319/275；Thunderbird iOS 299/122（快照时间 2026-10-13 23:25 UTC）
+- Gemini 4 Argon 能力与性能: fetch_url(https://deepmind.google/models/gemini/) = CWE-Bench 并列第1（68%）；Argon 优化 Gemma 4 E2B 经 vLLM 在 A100 端到端提速 2.85×（约37,900→108,000 tokens/s）；Chrome 600万行遗留代码重构数周完成；xTB 量子化学包提速最高2.3×
+- Gemini 4 Argon 社区实测: fetch_url(https://news.ycombinator.com/item?id=50073879) = 用户 svara：非编码查询"明显代际跃升"；用户 A_D_E_P_T：新的首选通用模型；编码侧 Opus 5.5 仍是共识最佳
+- OpenAI 工程师被控窃听: fetch_url(https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/) = Abdulrahman Alfozan（35岁，沙特籍）9月26日被捕，设备9月30日于高管会议室电视USB口后发现（卫生纸包裹、内容加密）；配偶关联账号9月24-30日 prompts 涉及"制造连续录音器""加密SD卡"；FBI 局长 Patel 称保护AI创新为反情报最高优先级之一
+- OpenAI 窃听案评论: fetch_url(https://news.ycombinator.com/item?id=50078141) = 作者 simonw："These are not very smart spies"（用自家聊天账号留下完整证据链）；用户 adamm255：LLM prompts 全部留档可作证据
+- Rust 借用检查器 unsoundness: fetch_url(https://github.com/rust-lang/rust/issues/164250) = Issue #164250，协变字段赋值可绕过生命周期约束；存在11年；P-high；类型团队 lcner：需刻意恶意 Drop 实现才可利用，现实中大概率未被意外触发；修复为编译器拒绝该代码而非改类型系统规则
+- Rust 评论: fetch_url(https://news.ycombinator.com/item?id=50069499) = 用户 GrantMoyer：不是类型系统本身的缺陷而是编译器缺陷，修复即让编译器拒绝该代码
+- Apple HomeView 产品规格: fetch_url(https://www.apple.com/apple-homeview/) = 7英寸 Liquid Retina 屏，11月13日发售可预定；Siri AI、最多6人面容识别个性化、12MP Center Stage 摄像头、壁挂版本
+- Apple HomeView 社区质疑: fetch_url(https://news.ycombinator.com/item?id=50071017) = 用户 schmichael：最大竞品是"旧 iPad"（有电池、有App）；用户 BuritoAlPastor：核心价值是 Matter 智能家居中枢+多用户
+- Firefox Enterprise: fetch_url(https://www.firefox.com/en-US/enterprise/) = 私有化部署、原生 DLP、AI 工具管控、SIEM 集成；对齐 DORA/GDPR/NIS2/ISO27001/SOC2；即将推出 Thunderbird Enterprise
+- 荷兰税务机关取消 M365 部署: query_raw_items(source=hackernews, published_after=2026-10-12T00:00:00Z, published_before=2026-10-14T00:00:00Z)[id:477034] = 荷兰税务与海关总署放弃 Microsoft 365 公有云部署转向开源；LF《2026 State of Open Source in Europe》：94% EU 组织认为数字主权重要（61% 非常重要）
+- Anthropic 源码管理重构: fetch_url(https://www.anthropic.com/engineering/redesigning-source-control) = 日均合并量 2026年5月约2,500 → 9月超30,000；自研 Scion 5个月完成 monorepo 从 git 迁移；主分支历史近100GB、CI 日均2500万次 checkout、朴素拉取日均600PB流量
+- Anthropic 工程文评论: fetch_url(https://news.ycombinator.com/item?id=50073633) = 用户 frangonf 质疑"代码无限增长为何还要源码控制"，用户 nater5000：agent 同样依赖版本控制防改动循环
+- EmbeddingGemma 2 改造语音转写: fetch_url(https://eg2.haku.sh/) = 仅训练 reader（<2小时、8×H100）；基础版 M3 MacBook Air 上1小时音频12.6秒（288×实时）全端侧；WER 约5% vs 顶级模型2-3%
+- XBOW Chrome 全链漏洞: query_raw_items(source=hackernews, published_after=2026-10-12T00:00:00Z)[id:476948] + fetch_url(https://xbow.com/labs/research/zero-to-calc-in-six-days-inside-xbow-chrome-full-chain) = V8编译器bug+动图WebP解码器bug+Crashpad内存安全bug三连；6天建成（2026年8月2-7日），API成本约$40,000，GPT-5.6-sol 驱动；获2026年4月VRP新规首个$250,000全链奖励；LLM前同级链条需4人团队6-9个月
+- Indra OCR: query_raw_items(source=hackernews, published_after=2026-10-12T00:00:00Z)[id:476984] + fetch_url(https://www.datalab.to/blog/indra-ocr) = 1M参数识别模型，32核CPU上49页/秒，比 Tesseract/PP-OCR 快11-17×，单页延迟约230ms，输出完整版面（行框+区块标签+阅读顺序）
+- 华为麒麟芯片里程碑: query_raw_items(source=hackernews, published_after=2026-10-12T00:00:00Z)[id:477033] = 华为披露自2023年回归以来麒麟处理器设备出货超1亿台；麒麟9050系列为 LogicFolding 架构首颗量产芯片，晶体管密度提升53.5%；麒麟2027测试中
+- 科学家担忧 AI 窃取想法: fetch_url(https://www.scientificamerican.com/article/scientists-worry-ai-is-stealing-their-ideas/) = OpenAI 宣称内部模型解决百万美元数学猜想后，NYU 数学家暗示其在聊天记录中分享的思路被窃取；NYT 报道 Anthropic 与哥本哈根生物学家酶研究类似争议
+
+
+## 审查人 tech_scout 交叉核验数据源（审查时间 2026-10-13 23:37 UTC）
+
+- HN 10-13 当日全量清单（50 条，含分数/评论）: query_raw_items(source=hackernews, published_after=2026-10-12T00:00:00Z, limit=50) = 入库快照高分序：Apple HomeView ▲585 [id:475886] / Rust unsoundness ▲559 [id:475477] / Firefox Enterprise ▲493 [id:475744] / CFTC-Iran ▲376 [id:475406] / EmbeddingGemma2 语音转写 ▲348 [id:475692] / Gemini 4 Argon ▲267 [id:476415] / Apple TV 4K ▲233 [id:476217] / Apple Minions GPU 云 ▲203 [id:475918] / Switch to Safari ▲153 [id:476309] / Character.ai 破产 ▲144 [id:475691]
+- Character.ai 申请破产（涉迪士尼）: query_raw_items(source=hackernews, published_after=2026-10-12T00:00:00Z)[id:475691] = The Verge "Character.ai Files for Bankruptcy"（▲144 💬20，2026-10-13 11:24 UTC）——稿件未覆盖
+- Apple Minions 虚拟 GPU 云（闲置 Apple Silicon 组网）: query_raw_items(keyword='Minions virtual GPU', published_after=2026-10-05)[id:475918] = machinelearning.apple.com/research/distributed-gpu-cloud（▲203 💬89）——稿件未覆盖
+- Anthropic 警告小型 AI 数月内可在家庭联网设备间自我复制: query_raw_items(keyword='self-replicate OR 自我复制', published_after=2026-10-05)[id:475690]=Reuters HN 帖（▲37 💬56）；[id:476114]/[id:474799]=telegram:Financial_Express 快讯；[id:474048]=aljazeera——多源确认，稿件未覆盖
+- Gemini 4 Argon API 定价 $2/M 输入、$10/M 输出（优惠价）: query_raw_items(keyword='Gemini Argon', published_after=2026-10-01)[id:476378] = telegram:Financial_Express（2026-10-13 16:02 UTC）——稿件头条未提定价
+- OpenAI 窃听案时间线: query_raw_items(keyword='Alfozan OR bugging OR 窃听', published_after=2026-10-01)[id:477042]/[id:476929] = FE：Alfozan 10-09 被捕、2025-07 入职产品团队、羁押联邦设施——与稿件主体一致；reuters URL 字样为 former OpenAI employee
+- 微软 Maia 300 自研推理芯片数吉瓦级部署（每兆瓦 token 输出较 GPU 系统 +40%，2027 起部署，不出租算力）: query_raw_items(keyword='Minions virtual GPU', published_after=2026-10-05)[id:476234] = FE/彭博（2026-10-13 15:06 UTC）——非 HN 帖，编辑补充候选
+- SK 海力士 MARS 整机柜内存架构 + HBF（容量约 14×HBM，2028 送样，适配推理 KV 缓存）: query_raw_items(keyword='Minions virtual GPU', published_after=2026-10-05)[id:475606] = FE（2026-10-13 12:00 UTC）——非 HN 帖，编辑补充候选
+- AWS Lambda Web Functions 发布: query_raw_items(source=hackernews, published_after=2026-10-12T00:00:00Z)[id:475528] = AWS 官方博客（▲68 💬58）——稿件未覆盖
+- 华为麒麟 9050"逻辑折叠韬"架构 / 麒麟 2027 就绪: query_raw_items(keyword='麒麟 9050 OR Kirin 9050', published_after=2026-10-05)[id:474071]/[id:474410] = FE：徐松余公布"逻辑折叠韬"芯片麒麟 9050 Pro 架构图、2023 年以来麒麟终端累计发货过亿、麒麟 2027 已就绪——稿件"LogicFolding（Tau Scaling Law）"意译有源；"集成超 5,000 万混合键合"单位未能核验
+- news/company 交叉核验失败: query_longbridge_by_route(news/company, symbol=GOOG.US) = 401003 token expired（与 2026-10-04 核验一致，longbridge 仍不可用），本次审查改用 raw_items 多源（hackernews+Financial_Express+aljazeera）交叉核验

@@ -1,0 +1,6 @@
+actions:
+- priority: P2
+  recurrence: weekly
+  summary: 持续跟踪 Character.ai 法院监督出售进程（预计 2026 年 11 月底-12 月初完成），关注收购方与消费级 AI 陪伴赛道连锁反应
+  target_flow_params: {}
+  type: monitoring

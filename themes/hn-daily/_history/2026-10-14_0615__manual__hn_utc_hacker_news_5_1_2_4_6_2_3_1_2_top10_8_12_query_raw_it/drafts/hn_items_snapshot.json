@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-13T23:52:59.315070+00:00",
+  "window": {
+    "after": "2026-10-13T00:00:00+00:00",
+    "before": "2026-10-14T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "475886",
+      "title": "Apple HomeView",
+      "url": "https://www.apple.com/apple-homeview/",
+      "author": "etothet",
+      "points": 585,
+      "comments": 721,
+      "published_at": "2026-10-13T13:02:12+00:00"
+    },
+    {
+      "id": "475477",
+      "title": "11 year old unsoundness bugs found in Rust borrow checker",
+      "url": "https://github.com/rust-lang/rust/issues/164250",
+      "author": "formerly_proven",
+      "points": 559,
+      "comments": 323,
+      "published_at": "2026-10-13T10:27:00+00:00"
+    },
+    {
+      "id": "475744",
+      "title": "Mozilla Introduces Firefox Enterprise",
+      "url": "https://www.firefox.com/en-US/enterprise/",
+      "author": "recvonline",
+      "points": 493,
+      "comments": 203,
+      "published_at": "2026-10-13T12:00:42+00:00"
+    },
+    {
+      "id": "475406",
+      "title": "CFTC Staff Were Told to Retract Analysis of Suspicious Oil Trades",
+      "url": "https://www.bloomberg.com/news/features/2026-10-13/cftc-staff-told-to-retract-analysis-of-suspicious-oil-trades-on-iran",
+      "author": "helsinkiandrew",
+      "points": 376,
+      "comments": 183,
+      "published_at": "2026-10-13T10:08:00+00:00"
+    },
+    {
+      "id": "475692",
+      "title": "An hour of audio transcribed in about 13s on MacBook Air",
+      "url": "https://eg2.haku.sh/",
+      "author": "amrrs",
+      "points": 348,
+      "comments": 81,
+      "published_at": "2026-10-13T11:27:14+00:00"
+    },
+    {
+      "id": "475211",
+      "title": "Hittite royal archive found in Turkey",
+      "url": "https://www.thehistoryblog.com/archives/77107",
+      "author": "benbreen",
+      "points": 271,
+      "comments": 71,
+      "published_at": "2026-10-13T06:02:51+00:00"
+    },
+    {
+      "id": "476415",
+      "title": "Gemini 4 Argon",
+      "url": "https://deepmind.google/models/gemini/",
+      "author": "737max",
+      "points": 267,
+      "comments": 229,
+      "published_at": "2026-10-13T16:03:16+00:00"
+    },
+    {
+      "id": "473932",
+      "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "author": "sbulaev",
+      "points": 264,
+      "comments": 129,
+      "published_at": "2026-10-13T02:07:08+00:00"
+    },
+    {
+      "id": "476217",
+      "title": "New Apple TV 4K",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
+      "author": "corvad",
+      "points": 233,
+      "comments": 469,
+      "published_at": "2026-10-13T13:21:35+00:00"
+    },
+    {
+      "id": "473896",
+      "title": "OpenAI algorithm for the FFT is less a breakthrough and more a malicious exploit",
+      "url": "https://www.argmin.net/p/faster-fourier-transforms",
+      "author": "mochomocha",
+      "points": 229,
+      "comments": 144,
+      "published_at": "2026-10-13T02:46:43+00:00"
+    },
+    {
+      "id": "475845",
+      "title": "Character.ai files for Chapter 11 bankruptcy",
+      "url": "https://blog.character.ai/an-update-on-character-ai/",
+      "author": "nryoo",
+      "points": 222,
+      "comments": 241,
+      "published_at": "2026-10-13T07:28:34+00:00"
+    },
+    {
+      "id": "475918",
+      "title": "Apple's Minions: A virtual GPU cloud built from idle Apple Silicon Macs",
+      "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+      "author": "acossta",
+      "points": 203,
+      "comments": 89,
+      "published_at": "2026-10-13T12:26:36+00:00"
+    },
+    {
+      "id": "473724",
+      "title": "Leaving Tech",
+      "url": "https://ryanbigg.com/2026/10/leaving-tech",
+      "author": "jonahx",
+      "points": 169,
+      "comments": 181,
+      "published_at": "2026-10-13T02:39:35+00:00"
+    },
+    {
+      "id": "476309",
+      "title": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
+      "url": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/",
+      "author": "ivell",
+      "points": 153,
+      "comments": 256,
+      "published_at": "2026-10-13T14:26:08+00:00"
+    },
+    {
+      "id": "473764",
+      "title": "China Overtakes U.S. For First Time as Top Spender on R&D in 2024",
+      "url": "https://japannews.yomiuri.co.jp/science-nature/science/20260908-347742/",
+      "author": "mushstory",
+      "points": 148,
+      "comments": 144,
+      "published_at": "2026-10-13T02:25:00+00:00"
+    },
+    {
+      "id": "475691",
+      "title": "Character.ai Files for Bankruptcy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+      "author": "yanis_t",
+      "points": 144,
+      "comments": 20,
+      "published_at": "2026-10-13T11:24:08+00:00"
+    },
+    {
+      "id": "475529",
+      "title": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "url": "https://pdftomp3.com/connect-ai/",
+      "author": "janpmz",
+      "points": 136,
+      "comments": 69,
+      "published_at": "2026-10-13T10:08:34+00:00"
+    },
+    {
+      "id": "474120",
+      "title": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
+      "url": "https://github.com/bherbruck/solidcraft",
+      "author": "bherbruck",
+      "points": 127,
+      "comments": 37,
+      "published_at": "2026-10-13T00:11:04+00:00"
+    },
+    {
+      "id": "476975",
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "author": "forthwall",
+      "points": 114,
+      "comments": 129,
+      "published_at": "2026-10-13T20:23:55+00:00"
+    },
+    {
+      "id": "476183",
+      "title": "A Visual Intro to Complex Numbers",
+      "url": "https://photonlines.substack.com/p/a-visual-intro-to-complex-numbers",
+      "author": "surprisetalk",
+      "points": 109,
+      "comments": 68,
+      "published_at": "2026-10-13T12:00:04+00:00"
+    },
+    {
+      "id": "474309",
+      "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+      "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+      "author": "novaRom",
+      "points": 107,
+      "comments": 124,
+      "published_at": "2026-10-13T05:57:32+00:00"
+    },
+    {
+      "id": "475339",
+      "title": "Crypto thieves sell hardware wallets with secret eSIM",
+      "url": "https://www.heise.de/en/news/Crypto-thieves-sell-hardware-wallets-with-secret-eSIM-11485188.html",
+      "author": "qwertox",
+      "points": 106,
+      "comments": 80,
+      "published_at": "2026-10-13T08:34:12+00:00"
+    },
+    {
+      "id": "476412",
+      "title": "Thunderbird for iOS",
+      "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+      "author": "mjorgers",
+      "points": 105,
+      "comments": 32,
+      "published_at": "2026-10-13T15:07:37+00:00"
+    },
+    {
+      "id": "476611",
+      "title": "Redesigning Source Control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "author": "Philpax",
+      "points": 103,
+      "comments": 65,
+      "published_at": "2026-10-13T15:49:56+00:00"
+    },
+    {
+      "id": "474076",
+      "title": "The Dock on Mac, from OS 10 to macOS 27",
+      "url": "https://blog.jim-nielsen.com/2026/macos-dock-icons-over-time/",
+      "author": "soheilpro",
+      "points": 96,
+      "comments": 65,
+      "published_at": "2026-10-13T02:09:19+00:00"
+    },
+    {
+      "id": "475066",
+      "title": "Were Software Engineers blue-collar workers all along?",
+      "url": "https://ptrbrynt.com/posts/were-we-blue-collar-workers-all-along",
+      "author": "ilreb",
+      "points": 89,
+      "comments": 188,
+      "published_at": "2026-10-13T09:25:10+00:00"
+    },
+    {
+      "id": "473870",
+      "title": "NAZA: Netanyahu orders identification and prosecution of film's interviewees",
+      "url": "https://www.theguardian.com/film/2026/oct/12/naza-netanyahu-orders-identification-prosecution-interviewees-documentary-film",
+      "author": "hebelehubele",
+      "points": 84,
+      "comments": 23,
+      "published_at": "2026-10-13T02:51:50+00:00"
+    },
+    {
+      "id": "474988",
+      "title": "DishwasherBench – Can Frontier Models Stack a Dishwasher?",
+      "url": "https://github.com/composo-ai/DishwasherBench",
+      "author": "mlukewizard",
+      "points": 83,
+      "comments": 50,
+      "published_at": "2026-10-13T08:24:06+00:00"
+    },
+    {
+      "id": "474505",
+      "title": "Denmark set to allow return of 'physical force' in school",
+      "url": "https://www.lemonde.fr/en/international/article/2026/10/10/denmark-set-to-allow-the-return-of-physical-force-to-maintain-order-in-schools_6758443_4.html",
+      "author": "janisz",
+      "points": 74,
+      "comments": 64,
+      "published_at": "2026-10-13T06:27:03+00:00"
+    },
+    {
+      "id": "476413",
+      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+      "author": "sammy0910",
+      "points": 72,
+      "comments": 41,
+      "published_at": "2026-10-13T15:25:50+00:00"
+    },
+    {
+      "id": "476896",
+      "title": "OpenAI finds recording device in one of their offices",
+      "url": "https://twitter.com/OpenAINewsroom/status/2110095403198849132",
+      "author": "jaredwiener",
+      "points": 69,
+      "comments": 41,
+      "published_at": "2026-10-13T19:55:31+00:00"
+    },
+    {
+      "id": "475528",
+      "title": "AWS Lambda Web Functions",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
+      "author": "HatchedLake721",
+      "points": 68,
+      "comments": 58,
+      "published_at": "2026-10-13T10:07:03+00:00"
+    },
+    {
+      "id": "476612",
+      "title": "Cyberattack halts construction of tunnel between Denmark and Germany",
+      "url": "https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24",
+      "author": "paaloeye",
+      "points": 67,
+      "comments": 19,
+      "published_at": "2026-10-13T16:24:15+00:00"
+    },
+    {
+      "id": "476307",
+      "title": "BB(10) > Graham's Number",
+      "url": "https://github.com/jeff87654/busy-beaver/blob/main/BB10/1RB0RA_1LC1LF_1RD0LB_1RA1LE_1LI0LC_0RG1LD_1RH1LG_1LC0RG_0LJ0LI_1RZ0LC.md",
+      "author": "surprisetalk",
+      "points": 63,
+      "comments": 57,
+      "published_at": "2026-10-13T12:40:04+00:00"
+    },
+    {
+      "id": "474919",
+      "title": "Where is all the new, good software?",
+      "url": "https://www.natemeyvis.com/where-is-all-the-new-good-software/",
+      "author": "ingve",
+      "points": 52,
+      "comments": 110,
+      "published_at": "2026-10-13T08:34:35+00:00"
+    },
+    {
+      "id": "474308",
+      "title": "Vi Hart's Big Navier-Stokes Post",
+      "url": "https://www.patreon.com/vihart/posts/vi-harts-big-171939430",
+      "author": "signa11",
+      "points": 51,
+      "comments": 29,
+      "published_at": "2026-10-13T05:22:28+00:00"
+    },
+    {
+      "id": "476758",
+      "title": "A plea not to use uv-build",
+      "url": "https://blogs.gentoo.org/mgorny/2026/10/12/a-plea-not-to-use-uv-build/",
+      "author": "Ravencentric",
+      "points": 49,
+      "comments": 38,
+      "published_at": "2026-10-13T18:09:26+00:00"
+    },
+    {
+      "id": "476308",
+      "title": "A Book That Will Never Be Read",
+      "url": "https://forbetterscience.com/2026/09/22/a-book-that-will-never-be-read/",
+      "author": "jruohonen",
+      "points": 47,
+      "comments": 21,
+      "published_at": "2026-10-13T14:21:40+00:00"
+    },
+    {
+      "id": "475790",
+      "title": "Document Review with Unsiloed and TypeSafe Jev",
+      "url": "https://www.unsiloed.ai/blog/document-review-unsiloed-typesafe-jev",
+      "author": "ritzaco",
+      "points": 42,
+      "comments": 7,
+      "published_at": "2026-10-13T08:24:51+00:00"
+    },
+    {
+      "id": "476431",
+      "title": "The United Kingdom Generates Less Electricity per Person Than in the 1970s",
+      "url": "https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak",
+      "author": "karakoram",
+      "points": 38,
+      "comments": 19,
+      "published_at": "2026-10-13T15:12:57+00:00"
+    },
+    {
+      "id": "474352",
+      "title": "Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video]",
+      "url": "https://www.youtube.com/watch?v=sjNpfz4UzqU",
+      "author": "johnnyApplePRNG",
+      "points": 37,
+      "comments": 2,
+      "published_at": "2026-10-13T02:32:53+00:00"
+    },
+    {
+      "id": "475690",
+      "title": "AI models may soon self-replicate without access to data centers",
+      "url": "https://www.reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/",
+      "author": "samizdis",
+      "points": 37,
+      "comments": 56,
+      "published_at": "2026-10-13T10:08:18+00:00"
+    },
+    {
+      "id": "476610",
+      "title": "How to engineer an AI harness for game development",
+      "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+      "author": "kkukshtel",
+      "points": 37,
+      "comments": 12,
+      "published_at": "2026-10-13T14:14:23+00:00"
+    },
+    {
+      "id": "473869",
+      "title": "Strengthening our defenses against distillation attacks",
+      "url": "https://www.anthropic.com/research/distillation-defenses",
+      "author": "porridgeraisin",
+      "points": 36,
+      "comments": 87,
+      "published_at": "2026-10-13T01:46:47+00:00"
+    },
+    {
+      "id": "476613",
+      "title": "Americans Trust in Federal Government Sinks to New Depths",
+      "url": "https://news.gallup.com/poll/715361/trust-federal-government-sinks-new-depths.aspx",
+      "author": "giuliomagnifico",
+      "points": 35,
+      "comments": 30,
+      "published_at": "2026-10-13T16:48:18+00:00"
+    },
+    {
+      "id": "475993",
+      "title": "10 Years of the SRE book: Announcing the second edition",
+      "url": "https://cloud.google.com/blog/products/devops-sre/sre-book-second-edition",
+      "author": "geoffbp",
+      "points": 34,
+      "comments": 6,
+      "published_at": "2026-10-13T07:35:48+00:00"
+    },
+    {
+      "id": "476861",
+      "title": "Show HN: XY Music Notation",
+      "url": "https://music.xy.dev/",
+      "author": "jmole",
+      "points": 33,
+      "comments": 24,
+      "published_at": "2026-10-13T17:43:05+00:00"
+    },
+    {
+      "id": "476492",
+      "title": "Worlds More Habitable Than Earth? They're Out There",
+      "url": "https://www.nytimes.com/2026/10/13/science/inhabitable-planets-solar-system.html",
+      "author": "cainxinth",
+      "points": 32,
+      "comments": 38,
+      "published_at": "2026-10-13T12:23:34+00:00"
+    },
+    {
+      "id": "476705",
+      "title": "Show HN: How Random Are You?",
+      "url": "https://lab.specr.net/rigged-draw/",
+      "author": "vunderba",
+      "points": 32,
+      "comments": 15,
+      "published_at": "2026-10-13T16:57:57+00:00"
+    },
+    {
+      "id": "476614",
+      "title": "Gemini 4 Argon for Robotics",
+      "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+      "author": "xnx",
+      "points": 31,
+      "comments": 7,
+      "published_at": "2026-10-13T16:55:47+00:00"
+    },
+    {
+      "id": "476845",
+      "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
+      "url": "https://guitoro.com/",
+      "author": "talccc",
+      "points": 31,
+      "comments": 8,
+      "published_at": "2026-10-13T19:11:48+00:00"
+    },
+    {
+      "id": "474353",
+      "title": "Software engineers don't get to be Luddites about AI",
+      "url": "https://www.seangoedecke.com/software-engineers-dont-get-to-be-luddites-about-ai/",
+      "author": "vismit2000",
+      "points": 27,
+      "comments": 23,
+      "published_at": "2026-10-13T04:48:45+00:00"
+    },
+    {
+      "id": "476702",
+      "title": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
+      "url": "https://news.ycombinator.com/item?id=50073471",
+      "author": "ericmags",
+      "points": 27,
+      "comments": 15,
+      "published_at": "2026-10-13T15:41:00+00:00"
+    },
+    {
+      "id": "476704",
+      "title": "Scientists wonder: Is my AI stealing my ideas?",
+      "url": "https://www.scientificamerican.com/article/scientists-worry-ai-is-stealing-their-ideas/",
+      "author": "geox",
+      "points": 27,
+      "comments": 15,
+      "published_at": "2026-10-13T16:05:51+00:00"
+    },
+    {
+      "id": "477034",
+      "title": "Dutch tax authorities cancel Microsoft 365 cloud rollout and turn to open source",
+      "url": "https://www.zdnet.com/business/dutch-tax-authorities-cancel-microsoft-365-cloud-rollout/",
+      "author": "CrankyBear",
+      "points": 27,
+      "comments": 0,
+      "published_at": "2026-10-13T21:01:37+00:00"
+    },
+    {
+      "id": "475689",
+      "title": "Firefox Enterprise",
+      "url": "https://blog.mozilla.org/en/firefox/introducing-firefox-enterprise/",
+      "author": "soheilpro",
+      "points": 25,
+      "comments": 3,
+      "published_at": "2026-10-13T06:00:14+00:00"
+    },
+    {
+      "id": "477032",
+      "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+      "url": "https://parsimony.lasu.dev/",
+      "author": "lasu",
+      "points": 25,
+      "comments": 2,
+      "published_at": "2026-10-13T19:50:31+00:00"
+    },
+    {
+      "id": "476948",
+      "title": "Zero to Calc in Six Days: Inside XBOW's Chrome Full Chain",
+      "url": "https://xbow.com/labs/research/zero-to-calc-in-six-days-inside-xbow-chrome-full-chain",
+      "author": "ollin",
+      "points": 24,
+      "comments": 8,
+      "published_at": "2026-10-13T18:37:45+00:00"
+    },
+    {
+      "id": "474695",
+      "title": "AI Company Lets Cops Pinpoint Specific Houses Based on a Single Interior Photo",
+      "url": "https://www.404media.co/ai-company-lets-cops-pinpoint-specific-houses-based-on-a-single-interior-photo/",
+      "author": "bookofjoe",
+      "points": 23,
+      "comments": 3,
+      "published_at": "2026-10-13T00:38:48+00:00"
+    },
+    {
+      "id": "476432",
+      "title": "Now That Information Is Free, What's a College Campus For?",
+      "url": "https://commonedge.org/now-that-information-is-free-whats-a-college-campus-for/",
+      "author": "surprisetalk",
+      "points": 23,
+      "comments": 56,
+      "published_at": "2026-10-13T15:40:03+00:00"
+    },
+    {
+      "id": "476502",
+      "title": "Ukraine Is Successfully Bombing the Heart of Russia's Disinformation Machine",
+      "url": "https://cmarmitage.substack.com/p/ukraine-is-successfully-bombing-the",
+      "author": "rectang",
+      "points": 23,
+      "comments": 0,
+      "published_at": "2026-10-13T16:14:16+00:00"
+    },
+    {
+      "id": "477015",
+      "title": "OpenAI employee arrested by FBI over hidden listening device, company says",
+      "url": "https://www.reuters.com/world/us/fbi-arrests-former-openai-employee-planting-listening-device-2026-10-13/",
+      "author": "jawiggins",
+      "points": 23,
+      "comments": 5,
+      "published_at": "2026-10-13T20:59:13+00:00"
+    },
+    {
+      "id": "476197",
+      "title": "Show HN: MemorySync – Memory for AI Agents",
+      "url": "https://memorysync.io/try",
+      "author": "mohd_rafay",
+      "points": 22,
+      "comments": 1,
+      "published_at": "2026-10-13T12:35:42+00:00"
+    },
+    {
+      "id": "476947",
+      "title": "Heat Pumps Are Coming for Coal's Industrial Heat Market",
+      "url": "https://oilprice.com/Energy/Energy-General/Heat-Pumps-Are-Coming-for-Coals-Industrial-Heat-Market.html",
+      "author": "thelastgallon",
+      "points": 22,
+      "comments": 1,
+      "published_at": "2026-10-13T14:30:14+00:00"
+    },
+    {
+      "id": "476960",
+      "title": "Show HN: Deslop – Oxlint rules for AI-generated TypeScript",
+      "url": "https://github.com/maharshi365/deslop",
+      "author": "maharshi365",
+      "points": 22,
+      "comments": 5,
+      "published_at": "2026-10-13T17:52:57+00:00"
+    },
+    {
+      "id": "476984",
+      "title": "Indra OCR: a 1M-parameter OCR model that reads 49 pages per second on CPU",
+      "url": "https://www.datalab.to/blog/indra-ocr",
+      "author": "runtimewire",
+      "points": 22,
+      "comments": 0,
+      "published_at": "2026-10-13T19:21:25+00:00"
+    },
+    {
+      "id": "477033",
+      "title": "Huawei, once hobbled by US sanctions, passes 100M Kirin chip milestone",
+      "url": "https://www.scmp.com/tech/big-tech/article/3370766/huawei-once-hobbled-us-sanctions-passes-100-million-kirin-chip-milestone",
+      "author": "yogthos",
+      "points": 22,
+      "comments": 2,
+      "published_at": "2026-10-13T19:57:33+00:00"
+    },
+    {
+      "id": "477068",
+      "title": "The Four Colour Theorem: The first time machines mogged mathematicians",
+      "url": "https://newsletter.pessimistsarchive.org/p/the-1st-time-machines-mogged-mathematicians",
+      "author": "list",
+      "points": 22,
+      "comments": 19,
+      "published_at": "2026-10-13T19:17:19+00:00"
+    },
+    {
+      "id": "476310",
+      "title": "Nearly all 19 car brands send driver data to third parties (Northeastern/CR)",
+      "url": "https://news.auravision.co/car-is-spying/",
+      "author": "plc",
+      "points": 21,
+      "comments": 20,
+      "published_at": "2026-10-13T15:07:20+00:00"
+    },
+    {
+      "id": "477100",
+      "title": "日经指数期货在新加坡交易所开盘基本持平，报 68050 点。",
+      "url": "https://t.me/Financial_Express/3531968",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:32:42+00:00"
+    },
+    {
+      "id": "477101",
+      "title": "中央气象台对台风“小熊”停止编号",
+      "url": "https://t.me/Financial_Express/3531969",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:33:02+00:00"
+    },
+    {
+      "id": "477102",
+      "title": "港股 IPO 基石认购降温 9 月认购占比回落至 31.18%",
+      "url": "https://t.me/Financial_Express/3531970",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:33:22+00:00"
+    },
+    {
+      "id": "477109",
+      "title": "集中发布 AI 眼镜、鸿蒙产业应用、兆瓦超充等标准体系实施路线图 深圳加速标准化服务前沿产业发展",
+      "url": "https://t.me/Financial_Express/3531971",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:33:42+00:00"
+    },
+    {
+      "id": "477110",
+      "title": "摩根士丹利将第四季度布伦特原油价格预期上调每桶 5 美元至 105 美元。",
+      "url": "https://t.me/Financial_Express/3531972",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:34:22+00:00"
+    },
+    {
+      "id": "477111",
+      "title": "券商龙虎榜营业部大洗牌 头部席位重点布局硬科技主线",
+      "url": "https://t.me/Financial_Express/3531973",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:34:42+00:00"
+    },
+    {
+      "id": "477112",
+      "title": "天文学家借助詹姆斯·韦布空间望远镜，在一颗类似早期地球的系外行星上找到了大气层存在的有力证据。这颗名为 HD 3167b 的星球属于熔岩行星，但对熔岩行星来说它很冷，对生命来说它又太热了。此前学界普遍认为，如此靠近恒星的岩石行星，大气会被恒",
+      "url": "https://t.me/Financial_Express/3531974",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:35:35+00:00"
+    },
+    {
+      "id": "477113",
+      "title": "美国国家飓风中心表示，小型飓风“西蒙”在墨西哥中西部海岸附近强度变化不大，该地区以及南下加利福尼亚州相关方应继续监测这场飓风。",
+      "url": "https://t.me/Financial_Express/3531975",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:36:22+00:00"
+    },
+    {
+      "id": "477114",
+      "title": "如何让飞驰的光子在微芯片上“停下来”，一直是量子信息处理领域的一项难题。美国伊利诺伊大学厄巴纳-香槟分校科学家开发出一种新型片上光存储平台，可将光子存储超过 1 微秒，还能同时存储多个光子。这项技术有望为量子存储器的规模化制造开辟新路径，推",
+      "url": "https://t.me/Financial_Express/3531976",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:36:30+00:00"
+    },
+    {
+      "id": "477115",
+      "title": "摩根士丹利将第四季度布伦特原油预期上调 5 美元至 105 美元/桶。",
+      "url": "https://t.me/Financial_Express/3531977",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:36:37+00:00"
+    },
+    {
+      "id": "477116",
+      "title": "北交所做市商扩容提速 年内 5 家券商获业务资格",
+      "url": "https://t.me/Financial_Express/3531978",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:36:42+00:00"
+    },
+    {
+      "id": "477117",
+      "title": "德勤调查：CFO 们认为 AI 将导致英国半数以上企业裁员",
+      "url": "https://t.me/Financial_Express/3531979",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:38:22+00:00"
+    },
+    {
+      "id": "477118",
+      "title": "新一轮硅料产能限制计划正在酝酿 供给端收缩力度或将加大",
+      "url": "https://t.me/Financial_Express/3531980",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:38:42+00:00"
+    },
+    {
+      "id": "477119",
+      "title": "驻英国使馆发言人就英情报官员涉华错误言论答记者问",
+      "url": "https://t.me/Financial_Express/3531981",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:38:42+00:00"
+    },
+    {
+      "id": "477120",
+      "title": "横琴口岸联合一站式车道出入境车流量突破 1000 万辆次",
+      "url": "https://t.me/Financial_Express/3531982",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:39:02+00:00"
+    },
+    {
+      "id": "477121",
+      "title": "委内瑞拉拟明年恢复加拉加斯和罗马间直航",
+      "url": "https://t.me/Financial_Express/3531983",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:39:22+00:00"
+    },
+    {
+      "id": "477122",
+      "title": "361 度第三季度主品牌零售销售额录得中个位数增长。",
+      "url": "https://t.me/Financial_Express/3531984",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:40:42+00:00"
+    },
+    {
+      "id": "477123",
+      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+      "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:42:22+00:00"
+    },
+    {
+      "id": "477124",
+      "title": "又一家！全球最大资管下调美股评级",
+      "url": "https://t.me/Financial_Express/3531985",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:43:22+00:00"
+    },
+    {
+      "id": "477125",
+      "title": "俄称仍在就能源停火进行接触",
+      "url": "https://t.me/Financial_Express/3531986",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:44:22+00:00"
+    },
+    {
+      "id": "477126",
+      "title": "新能源汽车增值税出口退税率将降至 9% 外贸“新三样”进入体系化竞争阶段",
+      "url": "https://t.me/Financial_Express/3531987",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:44:22+00:00"
+    },
+    {
+      "id": "477127",
+      "title": "泰国央行副行长称，央行目前没有立即调整利率的压力。",
+      "url": "https://t.me/Financial_Express/3531988",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:44:42+00:00"
+    },
+    {
+      "id": "477128",
+      "title": "泰国央行副行长称，尽管遭遇油价冲击，泰国经济仍表现稳健。",
+      "url": "https://t.me/Financial_Express/3531989",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:45:02+00:00"
+    },
+    {
+      "id": "477129",
+      "title": "泰国央行副行长",
+      "url": "https://t.me/Financial_Express/3531990",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:45:03+00:00"
+    },
+    {
+      "id": "477130",
+      "title": "委内瑞拉拟明年恢复加拉加斯和罗马间直航",
+      "url": "https://t.me/Financial_Express/3531991",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:45:22+00:00"
+    },
+    {
+      "id": "477131",
+      "title": "泰国央行副行长称泰国经济增长速度与上半年大致相同。",
+      "url": "https://t.me/Financial_Express/3531992",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:45:23+00:00"
+    },
+    {
+      "id": "477132",
+      "title": "华泰证券：旺季催化价格改善，聚焦油运与快递",
+      "url": "https://t.me/Financial_Express/3531993",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:46:02+00:00"
+    },
+    {
+      "id": "477133",
+      "title": "日本日经 225 指数期货早盘持平。",
+      "url": "https://t.me/Financial_Express/3531995",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:46:22+00:00"
+    },
+    {
+      "id": "477134",
+      "title": "基准 10 年期日本国债期货早盘下跌 0.1 个点。",
+      "url": "https://t.me/Financial_Express/3531996",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:46:42+00:00"
+    },
+    {
+      "id": "477135",
+      "title": "大选在即，新西兰人移居澳大利亚人数创 13 年新高",
+      "url": "https://t.me/Financial_Express/3531997",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:47:02+00:00"
+    },
+    {
+      "id": "477136",
+      "title": "四川找矿成果上新 马尔康加达锂矿增储超 42 万吨",
+      "url": "https://t.me/Financial_Express/3531998",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-13T23:47:22+00:00"
+    }
+  ]
+}
