@@ -1,0 +1,12 @@
+actions:
+- priority: P2
+  recurrence: weekly
+  summary: 持续监控 AI 数据中心信贷信号：Oracle CDS 走势、380 亿美元项目债分销进展、各银行 SRT 甩卖动作，与 ASML 订单取消条款硬化程度对照
+  target_flow_params: {}
+  type: monitoring
+- priority: P3
+  recurrence: weekly
+  summary: 跟踪端侧推理支线（Muse Spark Open 桌面运行生态、LFM2.5 系列、Apple Minions）是否持续侵蚀集中式数据中心 capex
+    叙事
+  target_flow_params: {}
+  type: monitoring
