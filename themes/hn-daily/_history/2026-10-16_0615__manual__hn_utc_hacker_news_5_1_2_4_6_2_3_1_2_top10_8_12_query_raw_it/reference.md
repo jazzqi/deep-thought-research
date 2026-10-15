@@ -72,3 +72,29 @@
 - AI 数据中心交易承压（未覆盖）: query_raw_items(source=hackernews, 2026-10-13~10-16)[id:484529] = Reuters 抛售+利率测试 AI data centre deal boom，▲51
 - Jev 电车难题帖（未覆盖）: query_raw_items(source=hackernews, 2026-10-13~10-16)[id:484658] = Jev Meets the Trolley Problem，▲65
 - Simons Foundation AI 时代数学家（未覆盖）: query_raw_items(source=hackernews, 2026-10-13~10-16)[id:484298] = $15M effort，▲215
+
+
+# 数据溯源增补 · HN 书摘 2026-10-15（终稿轮 tech_generalist）
+
+- Siri 落后社区帖复核: query_raw_items(keyword='Siri', source=hackernews, published_after='2026-10-14T00:00:00Z')[id:484297] = Reddit r/apple "Siri is so bad at everything"，HN 快照 55 分/32 评论，抓取时 ▲80/💬62（10-15 14:47 发布）
+- 陶哲轩《Why are we even doing all this?》: query_raw_items(keyword='Mathematicians OR Simons OR Tao', source=hackernews, published_after='2026-10-14T00:00:00Z')[id:484851] = terrytao.wordpress.com，▲56/💬26（快照 29 分/13 评论，10-15 20:22 发布）
+- Simons Foundation $15M 数学家计划: query_raw_items(...同上)[id:484298] = simonsfoundation.org，▲76/💬36（快照 33 分/11 评论）
+- Thompson 数学家长文分数复核: query_raw_items(...同上)[id:484074] = ▲310/💬502（快照 46 分/33 评论）
+- 陶哲轩 9 月系列制度化时间线锚点: query_raw_items(...同上)[id:427673/428820/432437] = 9-18《If math is more than proof》▲423 / 9-19《Why Do We Need Human Mathematicians Anymore?》▲290 / 9-21 Advisory Group ▲87
+- TrendForce 2027 年九大 CSP 资本开支预测: query_raw_items(keyword='Oracle', published_after='2026-10-13T00:00:00Z')[id:478370] = telegram:Financial_Express：预估 2027 年 CSP 资本支出总额破 1.5 万亿美元（含 Google/Amazon/Meta/Microsoft/Oracle/字节/腾讯/阿里/百度），10-14 07:09 发布
+- 微软 Frontier Pre-Training 博文: query_raw_items(keyword='Microsoft chip OR Xbox OR自研芯片', source=hackernews, published_after='2026-10-12T00:00:00Z')[id:484745] = microsoft.ai/news/frontier-pre-training-at-microsoft-ai，▲22/💬1
+- 10-08 Oracle 单日大跌快讯: query_raw_items(keyword='Oracle', published_after='2026-10-13T00:00:00Z')[id:470747] = 金十/FE：甲骨文收盘跌 5.6%，创 7 月 16 日以来最大单日跌幅（同日纳指 -1.25%，OpenAI ARR 传闻下修 $20B）
+- 终稿轮实时行情复核（失败记录）: market_quote(symbols=['ASML.US','ORCL.US']) = 401003 token expired，未能复核最新报价，稿中维持 #8 既有 1,650 欧元快照并已标注
+
+
+# 数据溯源增补 · HN 书摘 2026-10-15（终稿合并轮 · tech_generalist）
+
+- 合并说明: 终稿为双支线合并——以磁盘稿（tech_generalist 终稿分支：共识节/#4/#6/#12 视角段）为基底，并回 tech_scout 二次深化分支增量（四句话④双面性改写、#3 视角段 404media 第五源、Big Picture tech_scout 视角升级、技术雷达节尾 Goodfire 雷达外观察）；两条增量数据点已在上文"tech_scout 复核轮追加"节溯源（[id:484294]、[id:484505]），本轮无新增数据点
+- 行情二次复核（终稿合并轮 10-15 23:24 UTC）: market_quote(symbols=['ASML.US','ORCL.US']) = 401003 token expired，仍未能复核最新报价，稿中维持 #8 的 ASML 1,650 欧元（10-14 前收盘，Yahoo Finance 日本站）快照并标注
+
+
+# 数据溯源增补 · HN 书摘 2026-10-15（tech_scout 交叉审查轮）
+
+- 窗口高分帖独立复核（10-13~10-16, hn_points≥200, 58 条）: query_raw_items(source=hackernews, published_after=2026-10-13T00:00:00Z, published_before=2026-10-16T12:00:00Z, min_points=200, limit=60) = 核验引用 id 分数：480719(▲938)、480955(▲813)、480381(▲637)、483860(▲491)、484505(▲444)、480939(▲407)、480775(▲378)、480976(▲326)、484074(▲310)、484092(▲308)、481225(▲278)、484393(▲254)、484298(▲215)，与稿中快照一致（快照略低于当前分属正常时滞）
+- Krea 3 未覆盖项确认: query_raw_items(keyword='Krea', published_after=2026-10-13)[id:484506] = ▲226/💬75，Krea 3 frontier image model，宣称 4× 快于 Nano Banana Pro，10-15 16:04 发布——当日新模型发布，技术雷达未收录
+- 窗口内其他未覆盖高分项（审查发现）: query_raw_items(min_points=200, 10-13~10-16 窗口) = [id:480661]▲501 Google 跨账号静默关联手机号（已入 Top10 表但无正文处理）、[id:480067]▲241 瑞士提议禁止对未成年人定向广告（与 #3 adtech 监管主题同日共振但未提）、[id:480662]▲295 Go 1.27 HTTP 连接复用、[id:479831]▲206 timescale/pg_vectorsearch、[id:484296] prompt injection 217M Web 响应实测（reference 已标未覆盖）
