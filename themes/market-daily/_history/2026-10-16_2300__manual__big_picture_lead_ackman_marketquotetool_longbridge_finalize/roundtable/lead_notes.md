@@ -1,0 +1,4 @@
+## 第 1 轮 Lead 综合（ackman）
+
+{"action": "finalize", "questions": [], "confirmed_missing_indicators": [], "confirmed_event_mappings": [], "actions": [{"type": "monitoring", "priority": "P1", "summary": "监控10/27-28 FOMC：暂停加息已基本定价（>80%），重点盯声明/点阵是否暗示12月或2027年再加息，若偏鹰则美元与长端利率将快速反弹", "recurrence": "weekly"}, {"type": "monitoring", "priority": "P1", "summary": "监控芯片股连跌（截至10/16已八日，2008年以来最长）与CoreWeave/SK海力士走势，及10月底巨头财报是否下修AI capex指引——叙事质疑变基本面证伪的分水岭", "recurrence": "daily"}, {"type": "monitoring", "priority": "P2", "summary": "监控布伦特油价（10/16盘中破$106）与SPR 1700万桶置换招标的对冲效果，油价若站稳$105+将持续向核心CPI传导并同时压制债市与股市估值", "recurrence": "daily"}, {"type": "follow_up", "priority": "P2", "summary": "验证'VIX 16.87漏定价AI链尾部'的判断：若芯片连跌终结后VIX仍低于20且无系统性抛售，则背离①判断错误，需修正波动率框架", "verification_date": "2026-10-31"}]}
+

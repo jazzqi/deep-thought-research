@@ -1,0 +1,171 @@
+# 数据来源溯源（2026-10-16 本期）
+
+- 标普500基本持平/纳指100 -1%/CoreWeave -7.5%（美东盘中）: query_raw_items(source=telegram:Financial_Express, published_after=2026-10-16)[id:487847] = 沃什讲话强化暂停加息预期但AI概念股仍承压
+- 芯片股暴跌进入第八个交易日（2008年以来最长连跌）: query_raw_items(...)[id:487861] = 华尔街动荡一周尾声，芯片制造商持续抛售
+- SK海力士ADR盘中跌超5.8%、连续第十个交易日下挫: query_raw_items(...)[id:487842]
+- 美股早盘乏力芯片股延续跌势/JPM Tyler"关注选择性逢低买入": query_raw_items(...)[id:487817]
+- 沃什IMF讲话"不预判10月会议结果、美联储不再预告政策": query_raw_items(...)[id:485895][id:487576]
+- 沃什称AI是其此生所见对经济影响最深远的变革: query_raw_items(...)[id:486558]
+- 沃什生产力与就业工作组11月16日湾区听证会: query_raw_items(...)[id:485899]
+- 沃什讲话后加息预期降温、美股期货与亚洲股市走高: query_raw_items(...)[id:485921]
+- 澳洲联邦银行：美元走弱反映市场对沃什讲话失望: query_raw_items(...)[id:485930]
+- 欧元兑美元+0.3%报1.1254（收复17个月低位部分失地）: query_raw_items(...)[id:487857]
+- 美元指数 121.60（10/9发布）: query_indicators(country=us, category=, 7d)[dollar_index] = 121.6023
+- 10Y美债 5.21%（10/13）/ 2Y 4.79% / 2s10s 0.37（10/14）: query_indicators(yield_10y/yield_2y/yield_spread_2s10s)
+- VIX 16.87（10/14）: query_indicators(vix)
+- 高收益债利差 3.25 / 公司债利差 0.84（10/14）: query_indicators(high_yield_spread/corporate_spread)
+- 初请失业金 19.9万（10/10当周，预期20.0万）/续请 171.0万: query_calendar_events(lookback=2)
+- 9月PPI同比6.3%（预期5.4，前值5.6）/核心PPI同比5.0%/PPI环比+1.3%: query_calendar_events
+- 9月零售销售环比+0.8%（预期+0.3%）/除汽车汽油核心控制组+0.2%: query_calendar_events
+- 10月费城联储制造业指数20.9（前值37.8）/纽约联储25.5（前值7.6）: query_calendar_events
+- 美国9月CPI高于预期引发全球科技/半导体抛售: query_raw_items(...)[id:486803]
+- 麦格理：9月CPI加速不推动10月加息（隔次会议加息节奏）: query_raw_items(published_after=2026-10-12)[id:474100]
+- WTI 97.371美元/桶、布伦特105.74美元/桶（盘前）: query_raw_items(...)[id:487576]
+- 布伦特盘中突破106美元/桶: query_raw_items(...)[id:487235]
+- 美国能源部SPR置换招标至多1700万桶: query_raw_items(...)[id:487799][id:487826]
+- 美联储报告称高油价对经济产生广泛影响: query_raw_items(...)[id:487444]
+- 油价推高食品通胀风险（桑坦德Stanley）: query_raw_items(...)[id:487207]
+- 欧元区9月HICP终值同比3.8%/核心2.5%: query_raw_items(...)[id:486765][id:486766]
+- 伊拉克外长：美伊冲突致伊拉克损失约600亿美元: query_raw_items(...)[id:487859]
+- 俄罗斯苏尔古特油气设施遭无人机袭击: query_raw_items(...)[id:487844]
+- 印尼基准股指日内暴跌11%/MSCI考虑降级为独立市场/韩国+3.6%: query_raw_items(...)[id:485924]
+- 长鑫科技拟回购10-20亿元: query_raw_items(...)[id:487862]
+- 中国拟禁止/限制出口AI、生物医药、光伏40项技术: query_raw_items(...)[id:487605]
+- BTCUSDT 81,861.5美元，24h变动-0.008%（基本持平）: binance_get_ticker(BTCUSDT)
+- 下次FOMC 2026-10-27/28（10天后，无SEP）: query_fomc(lookahead=90)
+- 基线（2026-09-25定版）: ReadThemeDocsTool(themes/market-daily/index.md) = SPX 7,704收盘、10Y 5.23%、MOVE周涨29.69%、霍尔木兹通行量9艘
+
+# Reference — 2026-10-16 市场日报（relay_1 tech_generalist）
+
+## 行情（10/16 美股盘中，telegram:Financial_Express）
+- 纳指-1.00%报26445.49、道指+0.42%报52398.05、标普500 -0.21%报7727.70（15:07 UTC）: query_raw_items(limit=50)[id:487897] = 纳指跌1%；道指涨0.42%；标普500跌0.21%
+- 纳指跌1%，SK海力士跌超5%，闪迪跌4%: query_raw_items(limit=50)[id:487898] = 存储链领跌
+- 芯片巨头连跌第8个交易日（2008年以来最长），CoreWeave -7.5%，标普多数成分股上涨: query_raw_items(keyword=CoreWeave)[id:487861] = 华尔街在芯片抛售中震荡，AI交易前景存疑
+- 费城半导体指数-2.04%报11345.01；NVDA -0.53%、博通-2.27%、美光-3.24%、英特尔-1.87%、AMD -2.72%、高通-2.19%、台积电-0.84%、ASML -0.32%: query_raw_items(keyword=英伟达)[id:487686] = 费半日内跌2%
+- 开盘七姐妹：苹果+1.13%、特斯拉+0.86%、微软+0.49%、Meta +0.13%、亚马逊+0.08%、谷歌-0.05%、英伟达-0.64%；CoreWeave -6.56%、NBIS -3.85%: query_raw_items(keyword=CoreWeave)[id:487687] = 美股开盘三大股指涨跌不一
+- CoreWeave开盘-7.7%，联创售33亿美元股票: query_raw_items(keyword=CoreWeave)[id:487692] = 此前公司联合创始人通过出售33亿美元股票锁定收益
+- CoreWeave三创始人自IPO以来累计套现33亿美元，仍持约20%: query_raw_items(keyword=发债 OR 信贷 OR 利差)[id:486119] = 三位联合创始人自IPO以来已套现33亿美元
+- 空头周三该股-15.5%当日账面浮盈约8.06亿美元: query_raw_items(keyword=CoreWeave)[id:487609] = CoreWeave空头获8.06亿美元账面利润
+- 黄仁勋称CoreWeave财务改善、英伟达无需兜底、"其资本成本实际上正在下降": query_raw_items(keyword=发债 OR 信贷 OR 利差)[id:485098] = 黄仁勋称CoreWeave财务实力改善
+- 德银泽尔nick：CoreWeave抛售是"买入机会"，找不到基本面解释: query_raw_items(keyword=发债 OR 信贷 OR 利差)[id:484414] = 德意志银行称存在买入机会
+- SK海力士ADR -5.8%连跌10日（ackman圆桌引用）: query_raw_items(id来源圆桌)[id:487842] = 海力士ADR连跌
+- 美光-4.26%、市值1.01万亿美元反超SK海力士（ackman圆桌引用）: query_raw_items(id来源圆桌)[id:487754] = 美光市值反超海力士
+- 特斯拉Roadster发布高开后回吐: query_raw_items(limit=50)[id:487875] = 特斯拉股价回吐开盘涨幅
+- 苹果iPhone Duo折叠屏预购现货秒空、发货排到明年、苹果+1%: query_raw_items(keyword=CoreWeave)[id:487705] = 苹果首款折叠屏手机开启预购
+- iPhone Duo 10/16 20:00正式开售首批售罄、旗舰店入口卡顿: query_raw_items(limit=50)[id:487876] = 双11 iPhone duo平台大战
+- Eutelsat（欧洲版星链）+20%，因Starshield对乌限制争议重获关注: query_raw_items(limit=50)[id:487880] = 法国卫星通信运营商股价大涨20%
+- 长鑫科技董事长提议回购10-20亿元（约占流通盘近1%）: query_raw_items(limit=50)[id:487862] = 业内分析长鑫科技拟大额回购
+- 美银拟发行最多四档投资级债券（3-11年），最长一档较美债+约120bp；罕见周五发债，多家企业近日推迟发行: query_raw_items(keyword=发债 OR 信贷 OR 利差)[id:487715] = 美国银行拟发行最多四档投资级债券
+- TCW将信用敞口降至30年最低，警告CCC级借款人最先撑不住、随后单B/双B: query_raw_items(keyword=发债 OR 信贷 OR 利差)[id:484988] = TCW警告CCC级借款人会最先撑不住
+- 摩根大通：CoreWeave需年新增电力产能提升4-5倍才能转正FCF、拐点2030年、每GW新增产能约350亿美元前期资本: query_raw_items(keyword=CoreWeave)[id:487784] = 摩根大通最新研报
+
+## 宏观/利率/汇率（10/16 及近日）
+- 沃什IMF讲话强化10月暂停预期，AI股仍承压；Tyler"仍在关注选择性逢低买入": query_raw_items(keyword=CoreWeave)[id:487847] = 美联储主席沃什讲话强化暂停加息预期
+- 沃什"美联储不再提前预告"、拒预判10月会议（ackman圆桌引用）: query_raw_items(id来源圆桌)[id:485895] = 沃什IMF讲话
+- 摩根大通Tyler选择性逢低买入 vs 美银Hartnett"实际收益率3%、未来3-4周规避风险、预计10月加息恢复信誉"（ackman圆桌引用）: query_raw_items(id来源圆桌)[id:487343] = 机构分歧极值
+- 盛宝：投资者开始区分AI赢家和输家——台积电/三星/ASML强业绩 vs CoreWeave/Nebius/甲骨文高杠杆，CoreWeave债券二级市场创新增低: query_raw_items(keyword=ASML)[id:483702] = 投资者正开始区分AI领域的赢家和输家
+- 10Y美债+3.8bp至5.125%、30Y 5.458%、2Y 4.766%（ackman圆桌引用）: query_raw_items(id来源圆桌)[id:487674] = 美债收益率回升
+- 欧元+0.3%报1.1254，收复周三17个月低位部分失地: query_raw_items(limit=50)[id:487857] = 欧元上涨，美联储主席沃什讲话令美元走弱
+- 德国10Y 3.413%、英国10Y 5.371%（10/15欧市尾盘）: query_raw_items(keyword=发债 OR 信贷 OR 利差)[id:484423]/[id:484325] = 欧洲国债收益率下跌
+- 美国9月CPI同比3.7%（预期3.6、前值3.4）；核心CPI 2.6%（预期2.5、前值2.4）；能源分项+20.4%（10/14公布）: query_calendar_events(days=2,lookback_days=3,country=US)[日历] = 9月CPI数据
+- 美国9月PPI同比6.3%（预期5.4、前值5.6）、环比+1.3%（预期+0.6）；核心PPI同比5.0%（预期4.4、前值4.6）、环比+0.7%（10/15公布）: query_calendar_events(days=2,lookback_days=3,country=US)[日历] = 9月PPI数据
+- 美国9月零售环比+0.8%（预期+0.3、前值+1.2）；除汽车与汽油仅+0.2%: query_calendar_events(days=2,lookback_days=3,country=US)[日历] = 9月零售销售
+- 美国10/10当周初请19.9万（预期20.0、前值19.8）；续请171.0万: query_calendar_events(days=2,lookback_days=3,country=US)[日历] = 初请数据
+- 10月费城联储制造业指数20.9（预期28、前值37.8）；纽约联储25.5（前值7.6）: query_calendar_events(days=2,lookback_days=3,country=US)[日历] = 区域制造业指数
+- 美国9月工业产值+0.7%（五个月最大）、制造业产值+0.3%、半导体生产强劲: query_raw_items(limit=50)[id:487869] = 美国9月制造业产值反弹 半导体生产表现强劲
+- FOMC 10/27-28召开；当前利率区间3.75-4.00%；12/8-9下次会议含SEP: query_fomc(lookback=30,lookahead=60) + query_calendar_events = FOMC日程
+- 10/15美财政部季度交易商问卷发布（贝森特是否再次干预收益率成焦点）: query_raw_items(keyword=发债 OR 信贷 OR 利差)[id:484520] = 华尔街忌惮贝森特再次出招遏制收益率
+
+## 中国/欧洲/地缘
+- 中国9月出口（美元计价）同比+36.3%（预期25.3、前值25.0）；进口+31.0%；贸易顺差1335.3亿美元: query_calendar_events(days=14)[日历] = 9月贸易数据
+- 中国9月CPI同比+0.9%（预期1.0、前值0.8）、PPI同比+5.0%（预期4.5、前值3.8）: query_calendar_events(days=14)[日历] = 9月通胀数据
+- 中国9月M2同比7.2%（前值7.5）；前三季新增贷款11.52万亿元、社融增量27.46万亿元: query_calendar_events(days=14)[日历] = 9月金融数据
+- 中国Q3 GDP 10/19公布（预期4.4、前值4.3）；10/20 LPR（1Y 3.0%/5Y 3.5%预期不变）: query_calendar_events(days=14)[日历] = 中国宏观日历
+- WTI 97.4美元/桶、布伦特105.7美元（soros圆桌引用）: query_raw_items(id来源圆桌)[id:487576] = 油价
+- 美能源部SPR招标置换至多1700万桶（soros圆桌引用）: query_raw_items(id来源圆桌)[id:487826] = SPR操作
+- EIA 10/9当周原油库存-855.7万桶（预期方向大幅去库）: query_calendar_events(days=14)[日历] = EIA库存
+- 伊拉克外长：美伊冲突致伊拉克损失约600亿美元: query_raw_items(limit=50)[id:487859] = 伊拉克外长声明
+- 俄罗斯苏尔古特油气设施遭无人机袭击: query_raw_items(limit=50)[id:487844] = 俄油气重镇遭袭
+- 澳大利亚建议公民不要前往沙特: query_raw_items(limit=50)[id:487850] = 澳旅行警告
+- 特朗普称"可能"选前对伊朗采取军事行动（10/11日历条目）: query_calendar_events(days=14)[日历] = 中东局势
+- 意大利与欧盟就天然气价格上限法案达成协议: query_raw_items(limit=50)[id:487896] = 意大利欧盟协议
+- 德法就汽车产业一揽子计划达成协议（VDA称仍不够）: query_raw_items(limit=50)[id:487881] = 德法汽车计划
+- 默茨：对俄制裁还有空间；11月欧盟理事会特别会议: query_raw_items(limit=50)[id:487871]/[id:487855] = 默茨表态
+- 巴西大选二轮10/25；高盛称政策明朗化仍有上行空间: query_raw_items(limit=50)[id:487848] = 高盛看多巴西
+- 铜精矿加工费负300美元/吨以下（soros圆桌引用）: query_raw_items(limit=50)[id:487872] = 铜精矿负加工费
+
+## 科技/产业
+- ASML Q3净销售额创纪录117亿欧元、毛利率57.5%、订单动能强劲: query_raw_items(keyword=ASML)[id:484070] = ASML Q3电话会要点
+- ASML Q4销售指引超预期，"强劲订单缓解AI支出见顶担忧"（Reuters/HN）: query_raw_items(keyword=ASML)[id:480376] = ASML forecasts Q4 sales above expectations
+- ASML CFO：马斯克Terafab需求已纳入2027年及以后预测: query_raw_items(keyword=ASML)[id:478543] = Terafab需求入册
+- ASML目标价：花旗2300欧[ id:482062]、巴克莱2500欧[id:482720]、瑞银2400欧[id:482768]、摩根大通下调至2350[id:481731]、美银下调至2507欧[id:480290]: query_raw_items(keyword=ASML) = 目标价调整潮
+- OCP 2026峰会：联想全球交付英伟达Vera Rubin NVL72（72 Rubin GPU+36 Vera CPU，每兆瓦吞吐最高30倍、百万Token推理成本1/45）: query_raw_items(keyword=OCP)[id:485977] = 联想开始交付Vera Rubin
+- SK海力士OCP发布MARS整机柜内存架构（首token速度最高5倍）、HBF带宽约HBM一半但容量14倍、2028年送样: query_raw_items(keyword=OCP)[id:475606] = MARS/HBF发布
+- 英伟达扩大与梅赛德斯-奔驰合作开发SAE L4级自动驾驶: query_raw_items(keyword=英伟达)[id:486501] = NVDA-奔驰合作
+- 德国政府下周宣布与英伟达协议（聚焦工业AI）: query_raw_items(keyword=英伟达)[id:487236] = 德国-NVDA协议
+- Anthropic 6月获最高级别垃圾级信用评级；10/13 Pre-IPO投资者日: query_raw_items(keyword=Anthropic)[id:487392] + query_calendar_events = Anthropic资本市场动向
+- 美国9月制造业产值/半导体生产: [id:487869]（同上）
+
+- 芯片巨头连跌第8个交易日(2008年来最长)/费半-2.04%/CoreWeave再跌7.5%: query_raw_items(keyword='chip OR 芯片 OR CoreWeave')[id:487861] = 纳指跌1%、芯片股连续第8日抛售
+- CoreWeave三位联创IPO以来套现33亿美元: query_raw_items(keyword='CoreWeave')[id:486119] = 联创累计减持约33亿美元
+- 美银周五以+120bp溢价发多档IG债券、多家企业推迟发行: query_raw_items(keyword='美银 OR bank OR 债券')[id:487715] = 信用边际收紧信号
+- CoreWeave CDS 5Y 1194bp新高/CDX IG 62.3bp(4月2日来最高): query_raw_items[相关条目] = 信用利差创新高
+- 沃什IMF讲话拒绝预判10月会议/暂停预期强化: query_raw_items(keyword='Warsh OR 沃什')[id:485895] = 美联储不再提前预告
+- 美元走弱/欧元回升至1.1254: query_raw_items[市场快讯][id:487857] = 欧元兑美元+0.3%
+- 9月CPI同比3.7%/核心2.6%/能源分项+20.4%: query_calendar_events(US CPI, lookback) = 10/14公布
+- 9月PPI同比6.3%(预期5.4)/环比+1.3%/核心PPI 5.0%: query_calendar_events(US PPI) = 10/15公布
+- 9月零售环比+0.8%(除汽车汽油+0.2%): query_calendar_events(US Retail) = 超预期但结构弱
+- 摩根大通测算CoreWeave每GW新增产能需约350亿美元/FCF拐点2030年: query_raw_items(keyword='CoreWeave')[id:487784] = 长久期信用资产重定价
+- 空头周三单日浮盈约8.06亿美元: query_raw_items(keyword='CoreWeave OR 空头')[id:487609] = 单日挤压
+- 黄仁勋力挺CoreWeave"资本成本实际上正在下降": query_raw_items(keyword='黄仁勋 OR Huang')[id:485098] = 大佬唱多仅换一日反弹
+- ASML Q3净销售额创纪录117亿欧元/毛利率57.5%: query_raw_items(keyword='ASML')[id:484070] = 强劲订单缓解AI支出见顶担忧
+- Vera Rubin NVL72全球交付(联想)/推理成本降至1/45: query_raw_items(keyword='Vera Rubin')[id:485977] = OCP 2026峰会
+- 9月美国工业产值+0.7%(五个月最大)/半导体生产强劲: query_raw_items(keyword='工业产值 OR industrial')[id:487869] = 10/15数据
+- 10Y美债收益率5.125%(+3.8bp)/30Y 5.458%/2S 4.766%: query_raw_items(keyword='美债 OR treasury')[id:487674] = 利率高位
+- SK海力士跌超5%/闪迪-4%: query_raw_items(keyword='海力士 OR memory')[id:487898] = 存储链杀跌扩散
+- 美光市值1.01万亿美元反超海力士: query_raw_items(keyword='美光 OR Micron')[id:487754] = 存储分化
+- 苹果iPhone Duo预购售罄/今日20:00开售首批售罄/苹果+1%: query_raw_items(keyword='苹果 OR Apple')[id:487705][id:487876] = 真实产品周期被买单
+- WTI 97.4美元/布伦特105.7美元/EIA原油库存-855.7万桶: query_raw_items(keyword='原油 OR oil')[id:487576] = 油价高位
+- Anthropic 6月获最高级别垃圾级评级: query_raw_items(keyword='Anthropic')[id:487392] = AI基建资本成本高收益债化
+- TCW将信用敞口降至30年最低/警告CCC级借款人: query_raw_items(keyword='TCW OR credit')[id:484988] = 信用边际收紧
+- 盛宝:投资者开始区分AI赢家与输家/CoreWeave债券二级市场新低: query_raw_items(keyword='盛宝 OR Saxo')[id:483702] = 分层断裂
+- 摩根大通Tyler"仍在关注选择性逢低买入": query_raw_items(keyword='摩根大通 OR JPM')[id:487847] vs 美银Hartnett"实际收益率3%/3-4周规避风险"[id:487343] = 机构分歧极值
+- 伊拉克外长称美伊冲突致其损失约600亿美元: query_raw_items(keyword='伊拉克 OR iraq')[id:487859] = 地缘风险
+- 俄罗斯苏尔古特油气设施遭无人机袭击: query_raw_items(keyword='俄罗斯 OR russia')[id:487844]
+- 中国9月出口(美元计价)同比+36.3%/PPI同比5.0%: 10/13-14公布数据 = 外需强再通胀
+- 10月费城联储20.9(前值37.8)/纽约联储25.5: query_calendar_events = 区域制造业信号矛盾
+- 初请失业金19.9万: query_calendar_events = 就业韧性
+- FOMC 10/27-28(当前区间3.75-4.00%,暂停已定价): query_fomc
+
+- 巴克莱利率预测上调（12月+1月各25bp）: query_raw_items(keyword='巴克莱 OR 加息', published_after='2026-10-16T08:00:00Z')[id:487944] = 巴克莱预期美联储将在12月与1月各加息25个基点，此前预测仅今年12月加息
+- 美债长端涨势止步: query_raw_items(keyword='巴克莱 OR 加息', published_after='2026-10-16T08:00:00Z')[id:487921] = 长债下跌，10Y-30Y收益率盘中一度涨超5bp后收窄；沃什IMF未谈货币政政策，市场仍定价10月暂停、12月加息；财政部季度交易商问卷当日纽约中午公布
+- SPR交换招标细节: query_raw_items(source='telegram:Financial_Express', published_after='2026-10-16T14:00:00Z')[id:487945] = 美能源部以交换形式释出至多1700万桶SPR，交付11月至明年1月，投标截止10/21，2028-29年归还并额外归还至少12.5%
+- 巴克莱油价预测: query_raw_items(source='telegram:Financial_Express', published_after='2026-10-16T14:00:00Z')[id:487932] = 维持布伦特2026年100美元/2027年85美元预测，近期油价风险偏向上行；石油运费上涨或持续数周
+- 俄罗斯梁赞炼油厂遭袭停运: query_raw_items(source='telegram:Financial_Express', published_after='2026-10-16T14:00:00Z')[id:487949] = Ryazan炼油厂10/15遭无人机袭击后一套主要装置停止运行
+- 欧洲股市收盘: query_raw_items(source='telegram:Financial_Express', published_after='2026-10-16T14:00:00Z')[id:487924][id:487925] = STOXX600 +0.75%报644.98（周+2.1%）；DAX +1.09%报25656.97（周+2.3%），银行指数+1.16%
+- 苹果英国监管风险: query_raw_items(source='telegram:Financial_Express', published_after='2026-10-16T14:00:00Z')[id:487922] = 英国CMA下周将建议苹果就"轻触支付"调整iPhone OS
+- 植田和男鹰派表态: query_raw_items(keyword='巴克莱 OR 加息 OR 沃什 OR 12月', published_after='2026-10-16T08:00:00Z')[id:487639] = 不能容忍基础通胀进一步高于2%；日央行9月加息为1990年以来最快紧缩步伐
+- 特斯拉-SpaceX合并概率: query_raw_items(keyword='巴克莱 OR 加息 OR 沃什 OR 12月', published_after='2026-10-16T08:00:00Z')[id:487722] = 预测市场将2027年3月前合并概率推升至56%（此前29%），受巴克莱研报推演影响
+- 美股盘中行情（15:07 UTC）: query_raw_items(keyword='CoreWeave OR 芯片 OR 半导体 OR 纳指 OR 标普', published_after='2026-10-16T12:00:00Z')[id:487897] = 纳指-1.00%报26445.491；道指+0.42%报52398.051；标普-0.21%报7727.700
+- 美股行情工具状态: market_quote(SRWV/NVDA/SOXX) = token expired，行情取自快讯
+- 经济日历: query_calendar_events(days=8, importance='high,medium') = 返回空集（数据缺失，事件改用快讯与既有信息）
+
+
+## taleb 审查核验来源（2026-10-16 16:09 UTC 独立核验，D82）
+- 美银今日（10/16周五）启动最多四档投资级债券（3-11年），最长档较美债+120bp，为本周第三家发债大行，正值多家企业推迟发行: query_raw_items(美银 OR 投资级债券 OR 推迟发行)[id:487715] = 美国银行已启动投资级债券发行…此次罕见的周五发债正值多家企业近几日推迟发行高评级债券之际
+- 甲骨文 5Y CDS 利差 +26bp 至 288bp 创纪录高位（10/15）: query_raw_items(Oracle OR 甲骨文)[id:482041] = 标普全球市场财智：甲骨文5年期CDS利差扩大26个基点，创288个基点的纪录高位
+- Anthropic Q3 营收168亿美元但月度增速骤降至个位数，投资者下调IPO估值预期约2万亿→约1.5万亿美元（10/15）: query_raw_items(Anthropic)[id:484859][id:485005][id:484991] = 金十/路透援引四名知情人士：部分投资者讨论估值约1.5万亿美元，明显低于此前约2万亿美元预期
+- CoreWeave 5Y CDS 一度+74.5bp 至 1194.5bp 盘中历史新高，隐含5年违约概率超60%（10/15）: query_raw_items(CoreWeave)[id:484088] = CoreWeave五年期债务违约保护成本一度上涨74.5个基点至1194.5个基点，创盘中历史最高
+- CDX 投资级指数一度+1.75bp 至 62.3，创4月2日以来最高（10/15）: query_raw_items(CoreWeave)[id:484100] = 标普道琼斯旗下CDX投资级指数一度上涨1.75个基点至62.3
+- 巴克莱：预计美联储12月与明年1月各加息25bp（此前预测仅12月）: query_raw_items(巴克莱 OR 加息 OR PPI)[id:487944] = 巴克莱预期美联储将在12月与1月各加息25个基点
+- 摩根大通：CoreWeave 需将年新增电力产能提升4-5倍、每GW新增产能约350亿美元前期资本、正FCF拐点预计2030年: query_raw_items(CoreWeave)[id:487784] = 摩根大通最新研报：拐点将在2030年出现…每吉瓦新增产能需约350亿美元前期资本
+- CoreWeave 三位联创自IPO累计套现33亿美元，留存股市值较套现所得缩水近三分之一: query_raw_items(CoreWeave)[id:486119] = 三位联合创始人自去年IPO以来已累计减持价值33亿美元的公司股票
+- 费半日内-2.04%至11345.01点；芯片股连跌第8日为2008年以来最长；CoreWeave再跌7.5%: query_raw_items(keyword=CoreWeave, published_after=2026-10-15)[id:487686][id:487861][id:487817] = 费城半导体指数日内跌2.04%现报11345.01点 / 芯片巨头暴跌进入第八个交易日为2008年以来最长
+- 美9月CPI同比3.7（预期3.6）、核心2.6（预期2.5）、能源分项+20.4；9月零售环比+0.8（预期0.3）；初请19.9万（预期20.0）；EIA原油库存-855.7万桶；中国Q3 GDP 10/19 02:00 UTC（预期4.4前值4.3）；10月LPR 10/20（3.0/3.5预期不变）；欧元区制造业PMI初值10/23（前值52.9）；苹果第二场发布会10/26: query_calendar_events(days=14, lookback=7, importance=high,medium) = 日历事件与实际值确认
+- FOMC 会议序列：10/27-28 会议无SEP；12/8-9 为含SEP会议: query_fomc(lookback=60, lookahead=120) = meetings 列表确认
+- 央视财经：美国9月PPI环比同比显著上涨，上游成本或向消费端传导，市场对美联储加息预期升温: query_raw_items(巴克莱 OR 加息 OR PPI)[id:487195] = PPI数据…已意味着通胀压力正从能源领域传导至更广泛的实体经济领域
+- 能源冲击外溢：9月机票/快递/货运价格大涨，9月加息为三年多来首次，10月料按兵不动: query_raw_items(巴克莱 OR 加息 OR PPI)[id:487956] = 能源冲击正开始外溢至美国经济各领域
+- 沃什：不预判会议结果，美联储不再提前预告政策决定（10/16）: query_raw_items(巴克莱 OR 加息 OR PPI)[id:487576][id:487847] = 我不会预判会议结果…美联储已不再提前预告政策决定
+- 巴克莱：维持布伦特2026年100美元/2027年85美元预测，石油运费上涨或再持续数周，风险偏上行: query_raw_items(巴克莱 OR 加息 OR PPI)[id:487941][id:487932] = …
+- 特斯拉/SpaceX 2027年3月前合并概率 29%→56%: query_raw_items(巴克莱 OR 加息 OR PPI)[id:487722] = 预测市场交易者将两家企业在2027年初合并的概率推升至50%以上
+- 未能独立验证：美光市值1.01万亿美元反超海力士[id:487754 未复查]、博通为Anthropic安排最高600亿美元融资+10GW（检索 Anthropic 关键词 2026-09-20 以来未命中该消息，稿中无[id]）、Oracle 380亿美元建设债超6个月未分销/SRT甩卖（稿注"行业追踪"，库中无对应[id]）；market_quote 实时行情获取失败（token expired），MU/CRWV/NVDA 报价未核。
