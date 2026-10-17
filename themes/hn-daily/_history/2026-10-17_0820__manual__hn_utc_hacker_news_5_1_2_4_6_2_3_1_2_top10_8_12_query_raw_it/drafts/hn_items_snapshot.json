@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-17T01:44:25.819234+00:00",
+  "window": {
+    "after": "2026-10-16T00:00:00+00:00",
+    "before": "2026-10-17T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "485415",
+      "title": "Tesla Roadster",
+      "url": "https://www.tesla.com/roadster",
+      "author": "shekhar101",
+      "points": 1054,
+      "comments": 1909,
+      "published_at": "2026-10-16T01:32:45+00:00"
+    },
+    {
+      "id": "488215",
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "author": "speckx",
+      "points": 391,
+      "comments": 325,
+      "published_at": "2026-10-16T17:08:38+00:00"
+    },
+    {
+      "id": "487703",
+      "title": "I Love Software Rendering",
+      "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
+      "author": "speckx",
+      "points": 261,
+      "comments": 179,
+      "published_at": "2026-10-16T12:52:08+00:00"
+    },
+    {
+      "id": "485641",
+      "title": "Any window from your Mac, on your iPhone and iPad",
+      "url": "https://github.com/Saffsanity/sill",
+      "author": "chanana",
+      "points": 246,
+      "comments": 74,
+      "published_at": "2026-10-16T01:43:17+00:00"
+    },
+    {
+      "id": "487907",
+      "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "author": "antipaul",
+      "points": 246,
+      "comments": 109,
+      "published_at": "2026-10-16T13:43:48+00:00"
+    },
+    {
+      "id": "488280",
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "author": "ahlCVA",
+      "points": 244,
+      "comments": 98,
+      "published_at": "2026-10-16T18:55:59+00:00"
+    },
+    {
+      "id": "487909",
+      "title": "Hello Toronto – Waymo Is En Route",
+      "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+      "author": "ChrisArchitect",
+      "points": 231,
+      "comments": 331,
+      "published_at": "2026-10-16T14:44:17+00:00"
+    },
+    {
+      "id": "485360",
+      "title": "RPKI Now Protects 70% of Internet Routes, Up from 54% a Year Ago",
+      "url": "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
+      "author": "emot",
+      "points": 219,
+      "comments": 100,
+      "published_at": "2026-10-16T00:52:35+00:00"
+    },
+    {
+      "id": "488243",
+      "title": "Anthropic assigned highest junk credit rating in June",
+      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+      "author": "JumpCrisscross",
+      "points": 208,
+      "comments": 65,
+      "published_at": "2026-10-16T18:11:42+00:00"
+    },
+    {
+      "id": "486562",
+      "title": "The Folders Programming Language",
+      "url": "https://danieltemkin.com/esolangs/folders",
+      "author": "gurst",
+      "points": 201,
+      "comments": 36,
+      "published_at": "2026-10-16T05:11:28+00:00"
+    },
+    {
+      "id": "488113",
+      "title": "JPEG XL vs. AVIF for web use-cases",
+      "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+      "author": "farlight",
+      "points": 195,
+      "comments": 143,
+      "published_at": "2026-10-16T16:12:02+00:00"
+    },
+    {
+      "id": "488114",
+      "title": "Desire to Move Permanently to U.S. at New Low",
+      "url": "https://news.gallup.com/poll/708614/desire-migrate-drops-new-low.aspx",
+      "author": "karakoram",
+      "points": 186,
+      "comments": 189,
+      "published_at": "2026-10-16T16:38:02+00:00"
+    },
+    {
+      "id": "488028",
+      "title": "US Rep Announces Congressional Legislation to Protect Video Game Ownership",
+      "url": "https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games",
+      "author": "DeepLogin",
+      "points": 182,
+      "comments": 102,
+      "published_at": "2026-10-16T16:03:02+00:00"
+    },
+    {
+      "id": "487928",
+      "title": "Show HN: Gemini 4 Argon plays StarCraft",
+      "url": "https://starskirmish.com/bench/v0-2/",
+      "author": "__cayenne__",
+      "points": 177,
+      "comments": 82,
+      "published_at": "2026-10-16T14:18:44+00:00"
+    },
+    {
+      "id": "488112",
+      "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+      "author": "magoghm",
+      "points": 177,
+      "comments": 66,
+      "published_at": "2026-10-16T15:55:40+00:00"
+    },
+    {
+      "id": "488235",
+      "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
+      "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
+      "author": "7402",
+      "points": 163,
+      "comments": 132,
+      "published_at": "2026-10-16T18:06:17+00:00"
+    },
+    {
+      "id": "487908",
+      "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
+      "url": "https://calif.io/research/big-fish",
+      "author": "rs_rs_rs_rs_rs",
+      "points": 154,
+      "comments": 44,
+      "published_at": "2026-10-16T14:44:02+00:00"
+    },
+    {
+      "id": "488150",
+      "title": "/dev/null: social network for developers",
+      "url": "https://dev-null.sh",
+      "author": "mnapoli",
+      "points": 124,
+      "comments": 110,
+      "published_at": "2026-10-16T16:57:49+00:00"
+    },
+    {
+      "id": "485729",
+      "title": "Thank You, Deno",
+      "url": "https://www.vlt.io/blog/competition-keeps-javascript-moving",
+      "author": "jcbhmr",
+      "points": 123,
+      "comments": 34,
+      "published_at": "2026-10-16T00:52:40+00:00"
+    },
+    {
+      "id": "487971",
+      "title": "What on Earth Is Dekton?",
+      "url": "https://www.worksinprogress.news/p/porcelain",
+      "author": "wawayanda",
+      "points": 118,
+      "comments": 43,
+      "published_at": "2026-10-16T14:31:43+00:00"
+    },
+    {
+      "id": "487829",
+      "title": "Artificial intelligence is capitalism's final destination",
+      "url": "https://www.equator.org/articles/arundhati-roy-artificial-intelligence",
+      "author": "tirumaraiselvan",
+      "points": 99,
+      "comments": 111,
+      "published_at": "2026-10-16T12:08:40+00:00"
+    },
+    {
+      "id": "487950",
+      "title": "RFC8950: Announce IPv4 with an IPv6 next-hop",
+      "url": "https://anuragbhatia.com/post/2026/06/rfc8950-announce-ipv4-with-ipv6-next-hop/",
+      "author": "porridgeraisin",
+      "points": 97,
+      "comments": 51,
+      "published_at": "2026-10-16T13:38:25+00:00"
+    },
+    {
+      "id": "488256",
+      "title": "Designing more efficient quantum circuits with Claude",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "author": "pretext",
+      "points": 96,
+      "comments": 18,
+      "published_at": "2026-10-16T18:00:18+00:00"
+    },
+    {
+      "id": "488056",
+      "title": "America's Wumao: Inside Polymarket's Paid Quote-Retweet Esports Program",
+      "url": "https://www.readergrev.com/p/polymarket-paid-quote-retweet-esports-investigation",
+      "author": "paimapi",
+      "points": 88,
+      "comments": 58,
+      "published_at": "2026-10-16T15:56:25+00:00"
+    },
+    {
+      "id": "488254",
+      "title": "Anthropic Console overcharged my card 100x due to internationalization input bug",
+      "url": "https://news.ycombinator.com/item?id=50121562",
+      "author": "rsorto",
+      "points": 86,
+      "comments": 32,
+      "published_at": "2026-10-16T17:31:42+00:00"
+    },
+    {
+      "id": "486000",
+      "title": "Comparing Chromium Development at Google and Igalia",
+      "url": "https://lwn.net/Articles/1094721/",
+      "author": "signa11",
+      "points": 85,
+      "comments": 27,
+      "published_at": "2026-10-16T01:56:37+00:00"
+    },
+    {
+      "id": "488004",
+      "title": "What was a Token Ring network?",
+      "url": "https://dfarq.homeip.net/what-was-a-token-ring-network/",
+      "author": "ibobev",
+      "points": 85,
+      "comments": 64,
+      "published_at": "2026-10-16T13:43:30+00:00"
+    },
+    {
+      "id": "488027",
+      "title": "My old job feels distant now",
+      "url": "https://www.pinecoder.dev/blog/2026-10-15/my-old-job-is-distant/",
+      "author": "speckx",
+      "points": 74,
+      "comments": 76,
+      "published_at": "2026-10-16T13:18:59+00:00"
+    },
+    {
+      "id": "486415",
+      "title": "Last rites for Gentoo's Chromium package",
+      "url": "https://lwn.net/Articles/1097760/",
+      "author": "signa11",
+      "points": 72,
+      "comments": 76,
+      "published_at": "2026-10-16T05:14:42+00:00"
+    },
+    {
+      "id": "487505",
+      "title": "Tesla's new Roadster makes a flying debut, hitting 60 MPH in under a second",
+      "url": "https://www.foxbusiness.com/technology/teslas-new-roadster-makes-flying-debut-hitting-60-mph-under-second",
+      "author": "nsoonhui",
+      "points": 70,
+      "comments": 6,
+      "published_at": "2026-10-16T09:40:47+00:00"
+    },
+    {
+      "id": "487951",
+      "title": "How to Formalize All of Mathematics",
+      "url": "https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/",
+      "author": "practal",
+      "points": 70,
+      "comments": 68,
+      "published_at": "2026-10-16T14:01:53+00:00"
+    },
+    {
+      "id": "486045",
+      "title": "Tesla makes cars that fly? [video]",
+      "url": "https://www.youtube.com/watch?v=7p5LxFdc-Qg",
+      "author": "merinpapz10",
+      "points": 69,
+      "comments": 2,
+      "published_at": "2026-10-16T04:27:54+00:00"
+    },
+    {
+      "id": "487004",
+      "title": "The insider trading you're allowed to do",
+      "url": "https://coached.com/essays/the-insider-trading-youre-allowed-to-do/",
+      "author": "rohanm93",
+      "points": 67,
+      "comments": 59,
+      "published_at": "2026-10-16T07:12:09+00:00"
+    },
+    {
+      "id": "485623",
+      "title": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans",
+      "url": "https://www.reuters.com/investigates/special-report/iran-crisis-infrastructure-attacks/",
+      "author": "usernomdeguerre",
+      "points": 66,
+      "comments": 21,
+      "published_at": "2026-10-16T00:37:06+00:00"
+    },
+    {
+      "id": "487967",
+      "title": "Tesla Unveils 'Flying' Roadster with SpaceX Thrusters [video]",
+      "url": "https://www.youtube.com/watch?v=eqOfmtTJD1A",
+      "author": "skadamat",
+      "points": 63,
+      "comments": 2,
+      "published_at": "2026-10-16T14:12:15+00:00"
+    },
+    {
+      "id": "488279",
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "url": "https://github.com/cobanov/PS5LM",
+      "author": "Anon84",
+      "points": 61,
+      "comments": 11,
+      "published_at": "2026-10-16T18:32:35+00:00"
+    },
+    {
+      "id": "485562",
+      "title": "Woman arrested after blocking delivery robot in Center City Philadelphia",
+      "url": "https://6abc.com/post/woman-arrested-blocking-delivery-robot-center-city-philadelphia-confrontation/19941323/",
+      "author": "snarky-comments",
+      "points": 58,
+      "comments": 59,
+      "published_at": "2026-10-16T02:04:26+00:00"
+    },
+    {
+      "id": "488490",
+      "title": "I never authorized an integration that scans my secrets",
+      "url": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+      "author": "trvrprkr",
+      "points": 53,
+      "comments": 14,
+      "published_at": "2026-10-16T20:33:41+00:00"
+    },
+    {
+      "id": "488111",
+      "title": "Show HN: rStation – A shared research lab for your AI agents",
+      "url": "https://rstation.ai/",
+      "author": "stephenchung",
+      "points": 50,
+      "comments": 19,
+      "published_at": "2026-10-16T14:35:43+00:00"
+    },
+    {
+      "id": "488149",
+      "title": "How to make System 1 LLMs show System 2 competencies?",
+      "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
+      "author": "porridgeraisin",
+      "points": 48,
+      "comments": 24,
+      "published_at": "2026-10-16T14:16:34+00:00"
+    },
+    {
+      "id": "488331",
+      "title": "Claude writes about 90% of Claude Code's code",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "author": "pretext",
+      "points": 48,
+      "comments": 43,
+      "published_at": "2026-10-16T19:04:47+00:00"
+    },
+    {
+      "id": "487863",
+      "title": "Seized server Autistici/Inventati (A/I) in Amsterdam for U.S. authorities",
+      "url": "https://nltimes.nl/2026/10/14/amsterdam-server-seized-request-us-authorities-antifa-allegations",
+      "author": "oriettaxx",
+      "points": 47,
+      "comments": 29,
+      "published_at": "2026-10-16T13:09:25+00:00"
+    },
+    {
+      "id": "487970",
+      "title": "Bark: The Toll-Free BBS for 90s Teens",
+      "url": "https://blog.bityard.net/articles/2026/October/bark-the-toll-free-bbs-for-90s-teens",
+      "author": "bityard",
+      "points": 46,
+      "comments": 12,
+      "published_at": "2026-10-16T12:22:13+00:00"
+    },
+    {
+      "id": "487568",
+      "title": "Geoffrey Hinton: 'We're creating alien beings. I'm willing to choose humans'",
+      "url": "https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
+      "author": "Michelangelo11",
+      "points": 39,
+      "comments": 19,
+      "published_at": "2026-10-16T09:13:43+00:00"
+    },
+    {
+      "id": "485414",
+      "title": "Tesla Debuts 2026 Roadster",
+      "url": "https://www.nytimes.com/2026/10/15/business/tesla-roadster-2026-ev-sports-car.html",
+      "author": "andsoitis",
+      "points": 38,
+      "comments": 20,
+      "published_at": "2026-10-16T00:57:58+00:00"
+    },
+    {
+      "id": "487377",
+      "title": "Japanese people still aren't having sex. And nobody knows why",
+      "url": "https://www.sciencefocus.com/news/japanese-people-sex-inactivity-inexperience",
+      "author": "baranul",
+      "points": 38,
+      "comments": 115,
+      "published_at": "2026-10-16T09:54:55+00:00"
+    },
+    {
+      "id": "487795",
+      "title": "Qualcomm Legally Proves Arm Breached Its License, Wins $2",
+      "url": "https://www.techpowerup.com/353776/qualcomm-legally-proves-arm-breached-its-license-wins-usd-2",
+      "author": "LorenDB",
+      "points": 38,
+      "comments": 8,
+      "published_at": "2026-10-16T12:16:42+00:00"
+    },
+    {
+      "id": "488242",
+      "title": "Firefox 158 released with JPEG XL support by default",
+      "url": "https://www.firefox.com/en-US/firefox/158.0/releasenotes/",
+      "author": "farlight",
+      "points": 36,
+      "comments": 2,
+      "published_at": "2026-10-16T16:14:55+00:00"
+    },
+    {
+      "id": "488234",
+      "title": "I sold all my SP500 yesterday morning",
+      "url": "https://twitter.com/dwlz/status/2111116751735791742",
+      "author": "tosh",
+      "points": 35,
+      "comments": 43,
+      "published_at": "2026-10-16T16:45:58+00:00"
+    },
+    {
+      "id": "488005",
+      "title": "iPhone Duo sells out now backordered until next year",
+      "url": "https://9to5mac.com/2026/10/16/iphone-duo-pre-orders-now-backordered-to-next-year/",
+      "author": "johnbehnke",
+      "points": 34,
+      "comments": 18,
+      "published_at": "2026-10-16T14:09:10+00:00"
+    },
+    {
+      "id": "488055",
+      "title": "$137M in A.I.-Generated Ads Flood the Midterms",
+      "url": "https://www.nytimes.com/2026/10/16/us/politics/midterm-elections-ai-generated-ads.html",
+      "author": "elicash",
+      "points": 34,
+      "comments": 3,
+      "published_at": "2026-10-16T14:20:32+00:00"
+    },
+    {
+      "id": "488348",
+      "title": "The NIST Elliptic Curves Seeds Bounty Has Been Claimed",
+      "url": "https://words.filippo.io/seeds-solved/",
+      "author": "aburan28",
+      "points": 34,
+      "comments": 6,
+      "published_at": "2026-10-16T19:03:32+00:00"
+    },
+    {
+      "id": "487929",
+      "title": "Redesigning Source Control at Anthropic",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "author": "hn9zmdcaou",
+      "points": 31,
+      "comments": 40,
+      "published_at": "2026-10-16T14:34:47+00:00"
+    },
+    {
+      "id": "488255",
+      "title": "Katie Zacharia Is Fired After 5 Days as White House Press Secretary",
+      "url": "https://www.nytimes.com/2026/10/16/us/politics/katie-zacharia-fired-press-secretary.html",
+      "author": "mikelgan",
+      "points": 31,
+      "comments": 10,
+      "published_at": "2026-10-16T17:59:45+00:00"
+    },
+    {
+      "id": "486750",
+      "title": "Porsche Mission S",
+      "url": "https://www.porsche.com/international/models/mission-s/",
+      "author": "porphyra",
+      "points": 30,
+      "comments": 56,
+      "published_at": "2026-10-16T03:09:14+00:00"
+    },
+    {
+      "id": "488214",
+      "title": "Here's What Telegram Giving Data to the U.S. Government Looks Like",
+      "url": "https://www.404media.co/heres-what-telegram-giving-data-to-the-u-s-government-looks-like/",
+      "author": "jbegley",
+      "points": 30,
+      "comments": 1,
+      "published_at": "2026-10-16T15:32:54+00:00"
+    },
+    {
+      "id": "488225",
+      "title": "Why I Still Shun Passkeys",
+      "url": "https://lapcatsoftware.com/articles/2026/10/6.html",
+      "author": "HotGarbage",
+      "points": 29,
+      "comments": 3,
+      "published_at": "2026-10-16T15:07:31+00:00"
+    },
+    {
+      "id": "488459",
+      "title": "The Fatal Flaw of 911",
+      "url": "https://www.themarshallproject.org/2026/10/16/911-book-policing-mental-health",
+      "author": "plunge",
+      "points": 29,
+      "comments": 33,
+      "published_at": "2026-10-16T19:33:00+00:00"
+    },
+    {
+      "id": "488489",
+      "title": "Flux 3 Image Klein: open weights, 5.6B parameters",
+      "url": "https://bfl.ai/blog/flux-3-image-klein",
+      "author": "gmays",
+      "points": 29,
+      "comments": 6,
+      "published_at": "2026-10-16T19:47:13+00:00"
+    },
+    {
+      "id": "486629",
+      "title": "Greece drafts law requiring data centers source 60% of power from renewables",
+      "url": "https://www.datacenterdynamics.com/en/news/greece-drafts-legislation-requiring-data-centers-source-60-of-power-from-renewables/",
+      "author": "giuliomagnifico",
+      "points": 28,
+      "comments": 4,
+      "published_at": "2026-10-16T04:53:19+00:00"
+    },
+    {
+      "id": "488437",
+      "title": "GifCities",
+      "url": "https://gifcities.org/",
+      "author": "augury",
+      "points": 28,
+      "comments": 0,
+      "published_at": "2026-10-16T17:35:07+00:00"
+    },
+    {
+      "id": "488367",
+      "title": "Musk approached Trump to slow down Starlink in Ukraine",
+      "url": "https://www.telegraph.co.uk/world-news/2026/10/16/musk-approached-trump-slow-down-starlink-help-ukraine/",
+      "author": "defly",
+      "points": 27,
+      "comments": 13,
+      "published_at": "2026-10-16T18:28:12+00:00"
+    },
+    {
+      "id": "488458",
+      "title": "C++26: The New Debugging Header",
+      "url": "https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging",
+      "author": "jandeboevrie",
+      "points": 27,
+      "comments": 1,
+      "published_at": "2026-10-16T18:52:39+00:00"
+    },
+    {
+      "id": "488487",
+      "title": "Meta employees said Lula's accounts were hindered during Brazil election",
+      "url": "https://www.reuters.com/world/americas/meta-employees-said-lulas-accounts-were-hindered-during-brazil-election-folha-2026-10-16/",
+      "author": "01-_-",
+      "points": 27,
+      "comments": 1,
+      "published_at": "2026-10-16T18:51:39+00:00"
+    },
+    {
+      "id": "487623",
+      "title": "Order to limit Starshield for Ukraine came from inside White House, sources say",
+      "url": "https://www.reuters.com/world/europe/order-limit-starshield-ukraine-came-inside-white-house-sources-say-2026-10-15/",
+      "author": "geox",
+      "points": 26,
+      "comments": 3,
+      "published_at": "2026-10-16T03:02:06+00:00"
+    },
+    {
+      "id": "488488",
+      "title": "You could have invented transformers from memory",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "author": "speckx",
+      "points": 26,
+      "comments": 1,
+      "published_at": "2026-10-16T19:01:17+00:00"
+    },
+    {
+      "id": "487597",
+      "title": "Sergey Brin says Google's AI models are reaching recursive self-improvement",
+      "url": "https://www.businessinsider.com/sergey-brin-google-gemini-ai-argon-recursive-self-improvement-rsi-2026-10",
+      "author": "ryan_j_naughton",
+      "points": 25,
+      "comments": 25,
+      "published_at": "2026-10-16T03:49:35+00:00"
+    },
+    {
+      "id": "488171",
+      "title": "Tesla Roadster: It Flies, Flips, and Hits 0-60 in 0.81s",
+      "url": "https://www.notateslaapp.com/news/4837/tesla-roadster-event-recap-it-flies-flips-and-hits-0-60-in-081s",
+      "author": "Cabal",
+      "points": 24,
+      "comments": 1,
+      "published_at": "2026-10-16T14:03:15+00:00"
+    },
+    {
+      "id": "488253",
+      "title": "Fruits and Vegetables 50% Less Nutritious Than in the 1960s",
+      "url": "https://www.independent.co.uk/news/uk/home-news/vegetables-nutrition-soil-quality-decline-b3063325.html",
+      "author": "karakoram",
+      "points": 24,
+      "comments": 11,
+      "published_at": "2026-10-16T15:49:46+00:00"
+    },
+    {
+      "id": "487637",
+      "title": "Tesla Roadster",
+      "url": "https://x.com/i/broadcasts/1yKAPwNggRaxb",
+      "author": "tosh",
+      "points": 23,
+      "comments": 28,
+      "published_at": "2026-10-16T07:24:49+00:00"
+    },
+    {
+      "id": "488347",
+      "title": "Chicago-Area Cops Helped HSI Spy on Minnesota Anti-ICE Activists",
+      "url": "https://www.wired.com/story/chicago-area-cops-helped-hsi-spy-on-minnesota-anti-ice-activists/",
+      "author": "chaps",
+      "points": 23,
+      "comments": 0,
+      "published_at": "2026-10-16T18:29:16+00:00"
+    },
+    {
+      "id": "488580",
+      "title": "Why harnesses matter for energy (and token) efficiency",
+      "url": "https://neuralwatt.com/news/why-harnesses-matter-for-energy-efficiency",
+      "author": "ccgibson",
+      "points": 21,
+      "comments": 5,
+      "published_at": "2026-10-16T21:01:23+00:00"
+    },
+    {
+      "id": "488644",
+      "title": "Gnome OS Preview",
+      "url": "https://lwn.net/Articles/1101057/",
+      "author": "mtbkvc",
+      "points": 21,
+      "comments": 5,
+      "published_at": "2026-10-16T20:30:58+00:00"
+    },
+    {
+      "id": "487794",
+      "title": "Matt Mullenweg Orders Accessibility Revert, Bans Core Wordpress Committer",
+      "url": "https://www.therepository.email/matt-mullenweg-orders-accessibility-revert-tells-core-committer-to-contribute-your-talents-to-another-project",
+      "author": "slyall",
+      "points": 20,
+      "comments": 1,
+      "published_at": "2026-10-16T02:47:15+00:00"
+    },
+    {
+      "id": "488576",
+      "title": "Show HN: Stoke Money – Personal finance app built around a cash flow forecast",
+      "url": "https://stoke.money",
+      "author": "_wesley",
+      "points": 20,
+      "comments": 17,
+      "published_at": "2026-10-16T18:54:47+00:00"
+    },
+    {
+      "id": "488682",
+      "title": "Nine-Inch Snails",
+      "url": "https://www.theatlantic.com/science/2026/10/giant-african-snails-florida-invasion/688850/",
+      "author": "zdw",
+      "points": 20,
+      "comments": 4,
+      "published_at": "2026-10-16T22:21:05+00:00"
+    },
+    {
+      "id": "488597",
+      "title": "银行优先股退场 理财“固收+”承压",
+      "url": "https://t.me/Financial_Express/3542687",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:11:22+00:00"
+    },
+    {
+      "id": "488598",
+      "title": "根据彭博汇编的数据，CDX 高收益指数价格下跌 0.4 点，至 105.84。",
+      "url": "https://t.me/Financial_Express/3542688",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:11:58+00:00"
+    },
+    {
+      "id": "488603",
+      "title": "直播间“高价航展门票”能买吗？官方回应",
+      "url": "https://t.me/Financial_Express/3542689",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:15:42+00:00"
+    },
+    {
+      "id": "488604",
+      "title": "纳斯达克生物科技指数收跌 2.56%。",
+      "url": "https://t.me/Financial_Express/3542690",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:16:58+00:00"
+    },
+    {
+      "id": "488605",
+      "title": "美国",
+      "url": "https://t.me/Financial_Express/3542691",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:17:42+00:00"
+    },
+    {
+      "id": "488606",
+      "title": "美国",
+      "url": "https://t.me/Financial_Express/3542692",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:18:22+00:00"
+    },
+    {
+      "id": "488607",
+      "title": "机构扎堆调研三季报预喜企业 源杰科技获 284 家机构关注",
+      "url": "https://t.me/Financial_Express/3542693",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:18:42+00:00"
+    },
+    {
+      "id": "488608",
+      "title": "欧洲汽车业对法国和德国之间达成的一项协议表示欢迎，该协议将为正在应对高成本和中国同行激烈竞争的汽车制造商带来缓解。",
+      "url": "https://t.me/Financial_Express/3542694",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:20:22+00:00"
+    },
+    {
+      "id": "488609",
+      "title": "特朗普在佐治亚州宣扬制造业增长 共和党瞄准奥索夫",
+      "url": "https://t.me/Financial_Express/3542695",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:25:42+00:00"
+    },
+    {
+      "id": "488610",
+      "title": "默茨：欧盟应保持财政克制 反对大幅扩增预算规模",
+      "url": "https://t.me/Financial_Express/3542696",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:32:02+00:00"
+    },
+    {
+      "id": "488611",
+      "title": "标普 500 指数收跌 84.62 点，跌幅 1.09%，报 7659.44 点，跌穿 50 日均线（该技术指标暂报 7706.42 点），100 日均线已经上移至 7597.96 点，本周累计下跌 1.95%，创 6 月 26 日以来最大",
+      "url": "https://t.me/Financial_Express/3542697",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:38:22+00:00"
+    },
+    {
+      "id": "488612",
+      "title": "Albanian PM blames ‘foreign hands’ for unrest as student protests intensify",
+      "url": "https://www.aljazeera.com/news/2026/10/16/albanian-pm-blames-foreign-hands-for-unrest-as-student-protests-intensify?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:27:01+00:00"
+    },
+    {
+      "id": "488613",
+      "title": "美国国家飓风中心表示，过去几小时特鲁迪强度变化不大，预计特鲁迪将于本周末逼近墨西哥西南和中西部海岸。",
+      "url": "https://t.me/Financial_Express/3542698",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:45:22+00:00"
+    },
+    {
+      "id": "488614",
+      "title": "伊尔汗・奥马尔发律师函，抵制住宅搜查。",
+      "url": "https://t.me/Financial_Express/3542699",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:45:23+00:00"
+    },
+    {
+      "id": "488615",
+      "title": "伊尔汗·奥马尔在新函件中反击住宅搜查",
+      "url": "https://t.me/Financial_Express/3542700",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:47:02+00:00"
+    },
+    {
+      "id": "488616",
+      "title": "人民币汇率延续双向波动格局 市场化程度和政策透明度将继续提高",
+      "url": "https://t.me/Financial_Express/3542701",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:47:03+00:00"
+    },
+    {
+      "id": "488617",
+      "title": "沙特领导的联军称，其在也门萨达摧毁了两个弹道导弹发射器。",
+      "url": "https://t.me/Financial_Express/3542702",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:50:02+00:00"
+    },
+    {
+      "id": "488618",
+      "title": "A 股市场性价比进一步提升 上市公司积极开展回购",
+      "url": "https://t.me/Financial_Express/3542703",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:51:22+00:00"
+    },
+    {
+      "id": "488619",
+      "title": "机构：第三季度上海办公楼市场需求回暖",
+      "url": "https://t.me/Financial_Express/3542704",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:57:22+00:00"
+    },
+    {
+      "id": "488620",
+      "title": "巴拿马发生 5.2 级地震",
+      "url": "https://t.me/Financial_Express/3542705",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:57:23+00:00"
+    },
+    {
+      "id": "488622",
+      "title": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:54:35+00:00"
+    },
+    {
+      "id": "488623",
+      "title": "OpenAI Codex 产品负责人",
+      "url": "https://t.me/Financial_Express/3542706",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:58:02+00:00"
+    },
+    {
+      "id": "488624",
+      "title": "OpenAI Codex 产品负责人",
+      "url": "https://t.me/Financial_Express/3542707",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:58:22+00:00"
+    },
+    {
+      "id": "488645",
+      "title": "Trump mocks Middle Eastern names with ‘Mohammed’ joke",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/trump-mocks-middle-eastern-names-with-mohammed-joke?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-16T23:55:57+00:00"
+    }
+  ]
+}
