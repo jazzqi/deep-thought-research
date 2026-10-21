@@ -1,0 +1,16 @@
+actions:
+- priority: P1
+  recurrence: daily
+  summary: 监控10/28 FOMC声明与点阵：85%定价年内再加息一次，重点盯是否为12月/1月加息铺路，偏鹰则今日risk-on立即逆转
+  target_flow_params: {}
+  type: monitoring
+- priority: P1
+  recurrence: daily
+  summary: 监控AI信用铁三角（CoreWeave CDS、CDX IG、IG发债利差）与新云股走势：芯片+2%与新云-3%的背离若恶化，说明融资端折价未见顶、今日反弹是死猫跳
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: 验证'10/21芯片反弹=分化修复而非死猫跳'：以10月底hyperscaler capex指引与Oracle/CoreWeave再融资进展为判据
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-10-31'
