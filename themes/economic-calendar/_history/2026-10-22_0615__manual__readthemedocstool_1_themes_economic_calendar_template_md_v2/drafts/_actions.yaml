@@ -1,0 +1,19 @@
+actions:
+- assignee: ackman
+  priority: P1
+  recurrence: daily
+  summary: FOMC（10-28）+ 9月核心PCE（10-29）落地后重估12月加息定价与久期扳机（核心PCE≥3.3%转防守 / ≤3.0%加中久期一格）
+  target_flow_params: {}
+  type: monitoring
+- assignee: soros
+  priority: P1
+  recurrence: daily
+  summary: 霍尔木兹/伊朗谈判信号与油价（WTI 98美元）——头号未定价尾部，任何正式谈判信号触发组合翻转评估
+  target_flow_params: {}
+  type: monitoring
+- assignee: zhou_jintao
+  priority: P2
+  summary: 五中全会规划定调 + 10-31中国官方PMI + OPEC+供给决策三件套，验证中国政策预期与能源tilt
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-10-31'
