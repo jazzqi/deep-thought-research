@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-21T23:37:47.266747+00:00",
+  "window": {
+    "after": "2026-10-20T00:00:00+00:00",
+    "before": "2026-10-21T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "495985",
+      "title": "DeepSeek just open-sourced its inference engine",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "author": "ggcr",
+      "points": 2298,
+      "comments": 881,
+      "published_at": "2026-10-20T09:08:54+00:00"
+    },
+    {
+      "id": "498032",
+      "title": "Upcoming Critical PHP Security Release",
+      "url": "https://news-web.php.net/php.announce/509",
+      "author": "xd",
+      "points": 1477,
+      "comments": 642,
+      "published_at": "2026-10-20T20:15:50+00:00"
+    },
+    {
+      "id": "497005",
+      "title": "EMudhra Intermediate CA Compromise",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "author": "galadran",
+      "points": 1173,
+      "comments": 458,
+      "published_at": "2026-10-20T13:58:33+00:00"
+    },
+    {
+      "id": "497627",
+      "title": "SimCity, but with Permits",
+      "url": "https://permit.petercai.com/",
+      "author": "pcai",
+      "points": 904,
+      "comments": 408,
+      "published_at": "2026-10-20T18:29:09+00:00"
+    },
+    {
+      "id": "497282",
+      "title": "Voxtral 3",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "author": "ilreb",
+      "points": 752,
+      "comments": 194,
+      "published_at": "2026-10-20T16:02:07+00:00"
+    },
+    {
+      "id": "496734",
+      "title": "Apple broke an essential presentation feature of iPads",
+      "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+      "author": "evanb",
+      "points": 597,
+      "comments": 293,
+      "published_at": "2026-10-20T12:17:28+00:00"
+    },
+    {
+      "id": "494629",
+      "title": "OpenBSD 8.0",
+      "url": "https://www.openbsd.org/80.html",
+      "author": "privong",
+      "points": 484,
+      "comments": 157,
+      "published_at": "2026-10-20T02:06:40+00:00"
+    },
+    {
+      "id": "497495",
+      "title": "What Shall I Teach My Son?",
+      "url": "https://stevekrouse.com/ends",
+      "author": "Curiositry",
+      "points": 468,
+      "comments": 614,
+      "published_at": "2026-10-20T17:25:07+00:00"
+    },
+    {
+      "id": "497094",
+      "title": "Facebook now charging to post more than 2 links a month",
+      "url": "https://mastodon.gamedev.place/@AshleyGullen/117473851565913919",
+      "author": "AshleysBrain",
+      "points": 458,
+      "comments": 398,
+      "published_at": "2026-10-20T15:06:08+00:00"
+    },
+    {
+      "id": "497003",
+      "title": "Tsrs: A Port of TypeScript to Rust",
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "author": "hnisjafx40",
+      "points": 426,
+      "comments": 209,
+      "published_at": "2026-10-20T13:18:07+00:00"
+    },
+    {
+      "id": "495820",
+      "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+      "url": "https://github.com/microg/GmsCore/wiki",
+      "author": "theanonymousone",
+      "points": 418,
+      "comments": 130,
+      "published_at": "2026-10-20T06:37:07+00:00"
+    },
+    {
+      "id": "497093",
+      "title": "Ofcom Concedes Defeat in the 4chan Case",
+      "url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/",
+      "author": "iamnothere",
+      "points": 414,
+      "comments": 382,
+      "published_at": "2026-10-20T14:30:31+00:00"
+    },
+    {
+      "id": "496273",
+      "title": "Google cloud outage takes down banks",
+      "url": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
+      "author": "paweladamczuk",
+      "points": 398,
+      "comments": 203,
+      "published_at": "2026-10-20T10:26:02+00:00"
+    },
+    {
+      "id": "497004",
+      "title": "How I got over 300 Tor exit nodes removed",
+      "url": "https://kaba.cx/posts/20261020_Tor/",
+      "author": "kabakabakaba",
+      "points": 389,
+      "comments": 100,
+      "published_at": "2026-10-20T13:39:24+00:00"
+    },
+    {
+      "id": "495931",
+      "title": "AfD Leak: What 421,179 Hacked Emails Show about the German Far Right",
+      "url": "https://www.heistberlin.com/news/afd-leak-what-421-179-hacked-emails-show-about-the-german-far-right/",
+      "author": "firefax",
+      "points": 382,
+      "comments": 549,
+      "published_at": "2026-10-20T09:35:40+00:00"
+    },
+    {
+      "id": "497323",
+      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+      "url": "https://github.com/google-pytorch/torch_tpu",
+      "author": "ilreb",
+      "points": 375,
+      "comments": 86,
+      "published_at": "2026-10-20T16:40:24+00:00"
+    },
+    {
+      "id": "496931",
+      "title": "Publish fake stats, get cited in LLMs",
+      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+      "author": "robtherobber",
+      "points": 355,
+      "comments": 202,
+      "published_at": "2026-10-20T13:06:22+00:00"
+    },
+    {
+      "id": "497590",
+      "title": "Sixteen Years After Deepwater Horizon, Deep Sea Life Shows Few Signs of Recovery",
+      "url": "https://e360.yale.edu/digest/deepwater-horizon-deep-sea-recovery",
+      "author": "speckx",
+      "points": 317,
+      "comments": 185,
+      "published_at": "2026-10-20T15:59:06+00:00"
+    },
+    {
+      "id": "494285",
+      "title": "Lula supporters protest against Meta to denounce its 'electoral interference'",
+      "url": "https://efe.com/english/latest-news/2026-10-20/lula-supporters-protest-against-meta-to-denounce-its-electoral-interference/",
+      "author": "jumpocelot",
+      "points": 290,
+      "comments": 187,
+      "published_at": "2026-10-20T00:53:52+00:00"
+    },
+    {
+      "id": "498059",
+      "title": "The Other Epidemic: Trying to get off benzodiazepines",
+      "url": "https://www.thebeliever.net/the-other-epidemic/",
+      "author": "gaplong",
+      "points": 279,
+      "comments": 222,
+      "published_at": "2026-10-20T23:04:09+00:00"
+    },
+    {
+      "id": "497971",
+      "title": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
+      "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "author": "Bender",
+      "points": 260,
+      "comments": 133,
+      "published_at": "2026-10-20T22:21:05+00:00"
+    },
+    {
+      "id": "494123",
+      "title": "France's Supermarket Fridges Were Vulnerable Online for Months",
+      "url": "https://ipinfo.io/blog/france-fridges-hack",
+      "author": "emot",
+      "points": 242,
+      "comments": 221,
+      "published_at": "2026-10-20T00:00:49+00:00"
+    },
+    {
+      "id": "497871",
+      "title": "Academics have a duty to defend open knowledge systems like Wikipedia",
+      "url": "https://blogs.lse.ac.uk/impactofsocialsciences/2026/10/19/academics-have-a-duty-to-defend-open-knowledge-systems-like-wikipedia/",
+      "author": "jruohonen",
+      "points": 222,
+      "comments": 134,
+      "published_at": "2026-10-20T18:51:40+00:00"
+    },
+    {
+      "id": "497006",
+      "title": "My Friend Bob Cringely",
+      "url": "https://tyma.com/my-cringe-story/",
+      "author": "zinxq",
+      "points": 208,
+      "comments": 53,
+      "published_at": "2026-10-20T14:13:49+00:00"
+    },
+    {
+      "id": "497437",
+      "title": "IKEA – 3D Guide",
+      "url": "https://sael.net/flatpack/",
+      "author": "punnerud",
+      "points": 197,
+      "comments": 68,
+      "published_at": "2026-10-20T15:42:45+00:00"
+    },
+    {
+      "id": "496930",
+      "title": "NixOS is making me less afraid",
+      "url": "https://entropicthoughts.com/nixos-is-making-me-less-afraid",
+      "author": "ibobev",
+      "points": 191,
+      "comments": 131,
+      "published_at": "2026-10-20T12:43:05+00:00"
+    },
+    {
+      "id": "497092",
+      "title": "2026 is an exciting year for the Rust compiler (and me)",
+      "url": "https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/",
+      "author": "panstromek",
+      "points": 191,
+      "comments": 107,
+      "published_at": "2026-10-20T13:53:48+00:00"
+    },
+    {
+      "id": "497008",
+      "title": "Show HN: VoidAccess – open-source dark web OSINT, from query to a graph",
+      "url": "https://github.com/KatrielMoses/voidaccess",
+      "author": "coding-maniac",
+      "points": 187,
+      "comments": 13,
+      "published_at": "2026-10-20T14:49:33+00:00"
+    },
+    {
+      "id": "497796",
+      "title": "Anthropic logged net loss of over $80B in first half of 2026",
+      "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
+      "author": "throwa356262",
+      "points": 185,
+      "comments": 91,
+      "published_at": "2026-10-20T20:09:46+00:00"
+    },
+    {
+      "id": "497322",
+      "title": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+      "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+      "author": "4gateftw",
+      "points": 183,
+      "comments": 221,
+      "published_at": "2026-10-20T15:48:26+00:00"
+    },
+    {
+      "id": "498469",
+      "title": "PingCap TiDB Leaks",
+      "url": "https://fulcrumsec.vg/pingcap/",
+      "author": "swyx",
+      "points": 160,
+      "comments": 23,
+      "published_at": "2026-10-20T22:45:39+00:00"
+    },
+    {
+      "id": "494715",
+      "title": "Go will reject certificate chains containing eight distrusted SPKIs",
+      "url": "https://github.com/golang/go/issues/82345",
+      "author": "mendym",
+      "points": 137,
+      "comments": 79,
+      "published_at": "2026-10-20T03:05:07+00:00"
+    },
+    {
+      "id": "497847",
+      "title": "Upcoming Critical PHP Security Release",
+      "url": "https://www.php.net/archive/2026.php",
+      "author": "choult",
+      "points": 134,
+      "comments": 1,
+      "published_at": "2026-10-20T19:34:03+00:00"
+    },
+    {
+      "id": "497710",
+      "title": "Claude designed protein binders against scorpion neurotoxins",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "author": "artninja1988",
+      "points": 117,
+      "comments": 75,
+      "published_at": "2026-10-20T17:48:29+00:00"
+    },
+    {
+      "id": "497152",
+      "title": "Why do we have so many meetings?",
+      "url": "https://www.nber.org/papers/w35706",
+      "author": "ilamont",
+      "points": 111,
+      "comments": 160,
+      "published_at": "2026-10-20T15:19:19+00:00"
+    },
+    {
+      "id": "497767",
+      "title": "Subaru is killing off gas cars and will only sell EVs in Europe",
+      "url": "https://electrek.co/2026/10/20/subaru-killing-off-gas-cars-europe-will-only-sell-evs/",
+      "author": "toomuchtodo",
+      "points": 107,
+      "comments": 63,
+      "published_at": "2026-10-20T19:56:53+00:00"
+    },
+    {
+      "id": "497823",
+      "title": "Musk Ordered Starlink Slowdown That Blindsided Ukraine",
+      "url": "https://www.wsj.com/world/ukraine-starlink-elon-musk-trump-dbc49193",
+      "author": "jaredwiener",
+      "points": 105,
+      "comments": 53,
+      "published_at": "2026-10-20T20:29:38+00:00"
+    },
+    {
+      "id": "494952",
+      "title": "Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs",
+      "url": "https://deathplanswitch.com/",
+      "author": "romeo19361",
+      "points": 102,
+      "comments": 65,
+      "published_at": "2026-10-20T04:37:43+00:00"
+    },
+    {
+      "id": "497591",
+      "title": "Advanced coding in low-resource programming languages",
+      "url": "https://openai.com/index/low-resource-programming-languages/",
+      "author": "sumnole",
+      "points": 98,
+      "comments": 95,
+      "published_at": "2026-10-20T17:43:11+00:00"
+    },
+    {
+      "id": "496123",
+      "title": "Revolut down as users report app not working",
+      "url": "https://www.bbc.com/news/articles/cxdd8mm6qy4mo",
+      "author": "baal80spam",
+      "points": 96,
+      "comments": 87,
+      "published_at": "2026-10-20T09:54:48+00:00"
+    },
+    {
+      "id": "496179",
+      "title": "There is no official XScreenSaver GitHub repository",
+      "url": "https://github.com/xscreensaver-official/xscreensaver",
+      "author": "st_goliath",
+      "points": 92,
+      "comments": 66,
+      "published_at": "2026-10-20T08:51:31+00:00"
+    },
+    {
+      "id": "497766",
+      "title": "On AI writing",
+      "url": "https://www.bolkunov.com/p/on-ai-writing",
+      "author": "dbolkunov",
+      "points": 92,
+      "comments": 60,
+      "published_at": "2026-10-20T19:55:11+00:00"
+    },
+    {
+      "id": "497872",
+      "title": "Judge Orders Meta to Name Employees Who Approved Torrenting",
+      "url": "https://torrentfreak.com/judge-orders-meta-to-name-employees-who-approved-torrenting-annas-archive-and-libgen/",
+      "author": "franczesko",
+      "points": 73,
+      "comments": 16,
+      "published_at": "2026-10-20T20:32:11+00:00"
+    },
+    {
+      "id": "498181",
+      "title": "Victory! Court Rules OPM Data Disclosure to DOGE Is Unlawful",
+      "url": "https://www.eff.org/deeplinks/2026/10/victory-court-rules-opms-disclosure-personal-records-doge-unlawful",
+      "author": "hn_acker",
+      "points": 70,
+      "comments": 14,
+      "published_at": "2026-10-20T22:26:40+00:00"
+    },
+    {
+      "id": "498182",
+      "title": "SCOTUS couldn't take up a copyright case because four justices have book deals",
+      "url": "https://news.bloomberglaw.com/ip-law/supreme-court-affirms-foreign-rights-ruling-after-lacking-quorum",
+      "author": "pessimizer",
+      "points": 69,
+      "comments": 8,
+      "published_at": "2026-10-20T23:05:39+00:00"
+    },
+    {
+      "id": "494556",
+      "title": "Novo Nordisk, Eli Lilly Report GLP-1 Signals of Slowed Biological Aging at ARDD",
+      "url": "https://trial.medpath.com/news/novo-nordisk-and-eli-lilly-report-glp-1-signals-of-slowed-biological-aging-at-ardd",
+      "author": "hnburnsy",
+      "points": 68,
+      "comments": 82,
+      "published_at": "2026-10-20T01:34:58+00:00"
+    },
+    {
+      "id": "495986",
+      "title": "UK Defence Startups Are Being Denied Banking Services Under ESG Rules",
+      "url": "https://foxandlion.pub/analysis/uk-defence-start-ups-are-being-denied-banking-services-under-esg-rules",
+      "author": "fascinnn",
+      "points": 68,
+      "comments": 57,
+      "published_at": "2026-10-20T09:30:31+00:00"
+    },
+    {
+      "id": "497235",
+      "title": "Show HN: Jev Cards, Can you beat a vision model at a picture quiz?",
+      "url": "https://jevcards.com",
+      "author": "totisjosema",
+      "points": 68,
+      "comments": 51,
+      "published_at": "2026-10-20T15:11:56+00:00"
+    },
+    {
+      "id": "494810",
+      "title": "U.S. Supreme Court to review 1868 federal ban on home distilling of liquor",
+      "url": "https://www.staradvertiser.com/2026/10/19/breaking-news/u-s-supreme-court-to-review-1868-federal-ban-on-home-distilling-of-liquor/",
+      "author": "Jimmc414",
+      "points": 67,
+      "comments": 110,
+      "published_at": "2026-10-20T04:02:26+00:00"
+    },
+    {
+      "id": "496586",
+      "title": "Demographic \"Doomsday\" Misses the Mark",
+      "url": "https://www.science.org/doi/10.1126/science.ael8752",
+      "author": "YeGoblynQueenne",
+      "points": 67,
+      "comments": 147,
+      "published_at": "2026-10-20T12:22:28+00:00"
+    },
+    {
+      "id": "497436",
+      "title": "How Corruption Got This Bad",
+      "url": "https://www.theatlantic.com/ideas/2026/10/constitution-trump-doj-supreme-court-corruption/689042/",
+      "author": "Kapura",
+      "points": 64,
+      "comments": 23,
+      "published_at": "2026-10-20T15:03:58+00:00"
+    },
+    {
+      "id": "497299",
+      "title": "Show HN: Penmentor – Claude marks up your handwritten math like a teacher",
+      "url": "https://github.com/AbdullahAlhariri/penmentor",
+      "author": "abdullahalharir",
+      "points": 63,
+      "comments": 7,
+      "published_at": "2026-10-20T15:10:54+00:00"
+    },
+    {
+      "id": "494735",
+      "title": "Developing Taste",
+      "url": "https://emilkowal.ski/ui/developing-taste",
+      "author": "cat-whisperer",
+      "points": 52,
+      "comments": 51,
+      "published_at": "2026-10-20T01:12:03+00:00"
+    },
+    {
+      "id": "497321",
+      "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
+      "url": "https://news.ycombinator.com/item?id=50167583",
+      "author": "Andydy25",
+      "points": 52,
+      "comments": 21,
+      "published_at": "2026-10-20T15:09:29+00:00"
+    },
+    {
+      "id": "497918",
+      "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
+      "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
+      "author": "hackdna",
+      "points": 48,
+      "comments": 1,
+      "published_at": "2026-10-20T20:11:25+00:00"
+    },
+    {
+      "id": "498180",
+      "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
+      "url": "https://research.poh.org/bot-benchmarking-2026/",
+      "author": "mdahardy",
+      "points": 48,
+      "comments": 8,
+      "published_at": "2026-10-20T17:10:31+00:00"
+    },
+    {
+      "id": "497522",
+      "title": "DHS Claimed It Searched GrapheneOS Phone Wiper for Child Abuse Material. It Lied",
+      "url": "https://www.404media.co/dhs-said-they-searched-man-who-wiped-grapheneos-phone-for-child-abuse-material-they-lied/",
+      "author": "cdrnsf",
+      "points": 46,
+      "comments": 10,
+      "published_at": "2026-10-20T16:13:35+00:00"
+    },
+    {
+      "id": "494953",
+      "title": "Americans Are Spending More Money to Drive Worse Cars",
+      "url": "https://www.theatlantic.com/technology/2026/10/americans-not-buying-electric-cars/689071/",
+      "author": "fortran77",
+      "points": 41,
+      "comments": 86,
+      "published_at": "2026-10-20T04:55:36+00:00"
+    },
+    {
+      "id": "497002",
+      "title": "New Skydance Worth Less Than Half of Warner Brothers, Paramount Combined",
+      "url": "https://www.techdirt.com/2026/10/20/new-skydance-already-worth-less-than-half-of-warner-brothers-paramount-were-combined/",
+      "author": "cdrnsf",
+      "points": 41,
+      "comments": 11,
+      "published_at": "2026-10-20T12:40:46+00:00"
+    },
+    {
+      "id": "498101",
+      "title": "Anthropic recorded a staggering $80B net loss in the first half of 2026",
+      "url": "https://twitter.com/Polymarket/status/2112634886070919426",
+      "author": "koolba",
+      "points": 41,
+      "comments": 20,
+      "published_at": "2026-10-20T22:27:07+00:00"
+    },
+    {
+      "id": "494589",
+      "title": "People are using AI to make smart TVs, dumb TVs",
+      "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+      "author": "privacyisntdead",
+      "points": 37,
+      "comments": 2,
+      "published_at": "2026-10-20T00:19:13+00:00"
+    },
+    {
+      "id": "495821",
+      "title": "Everything is going wrong for Muhammad bin Salman",
+      "url": "https://www.economist.com/middle-east-and-africa/2026/10/19/everything-is-going-wrong-for-muhammad-bin-salman",
+      "author": "u1hcw9nx",
+      "points": 37,
+      "comments": 59,
+      "published_at": "2026-10-20T08:16:55+00:00"
+    },
+    {
+      "id": "497795",
+      "title": "Some Final Words on Foursquare",
+      "url": "https://teendrama.substack.com/p/some-final-words-on-foursquare",
+      "author": "hornokplease",
+      "points": 37,
+      "comments": 4,
+      "published_at": "2026-10-20T15:16:03+00:00"
+    },
+    {
+      "id": "497550",
+      "title": "Making a VGA Driver in SystemVerilog",
+      "url": "https://lukaswerner.com/post/2026-10-20@bottom-up-vga",
+      "author": "derHackerman",
+      "points": 35,
+      "comments": 7,
+      "published_at": "2026-10-20T16:00:15+00:00"
+    },
+    {
+      "id": "497647",
+      "title": "Whoops: Grok Bot Spills Tech CEO's Bank Data in Public Slack",
+      "url": "https://www.techdirt.com/2026/10/19/whoops-grok-bot-spills-tech-ceos-bank-data-in-public-slack/",
+      "author": "speckx",
+      "points": 34,
+      "comments": 15,
+      "published_at": "2026-10-20T16:48:22+00:00"
+    },
+    {
+      "id": "497435",
+      "title": "Data center stocks slide as Korea IPO plunges 30%, pressuring tech sentiment",
+      "url": "https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html",
+      "author": "PLenz",
+      "points": 32,
+      "comments": 2,
+      "published_at": "2026-10-20T14:50:08+00:00"
+    },
+    {
+      "id": "495928",
+      "title": "GCP Europe-West2 Outage",
+      "url": "https://news.ycombinator.com/item?id=50162712",
+      "author": "jack7e",
+      "points": 31,
+      "comments": 12,
+      "published_at": "2026-10-20T07:56:59+00:00"
+    },
+    {
+      "id": "497848",
+      "title": "Deepfake of Washington County, Oregon, Candidate Goes Viral Nationwide",
+      "url": "https://www.oregonjournalismproject.org/deepfake-of-washington-county-oregon-candidate-goes-viral-nationwide",
+      "author": "aliasxneo",
+      "points": 31,
+      "comments": 53,
+      "published_at": "2026-10-20T20:46:55+00:00"
+    },
+    {
+      "id": "494736",
+      "title": "OpenBSD 8.0: released Oct 20, 2026",
+      "url": "https://marc.info/?l=openbsd-misc&m=179245849770356&w=2",
+      "author": "erikschoster",
+      "points": 27,
+      "comments": 2,
+      "published_at": "2026-10-20T01:53:51+00:00"
+    },
+    {
+      "id": "497298",
+      "title": "Getting Banned from r/java",
+      "url": "https://sjhannah.com/blog/2026/05/30/getting-banned-from-r-java/",
+      "author": "davidpolberger",
+      "points": 26,
+      "comments": 80,
+      "published_at": "2026-10-20T15:05:07+00:00"
+    },
+    {
+      "id": "495174",
+      "title": "Google's selfie video sign-in puts your face on its servers",
+      "url": "https://proton.me/blog/google-selfie-video",
+      "author": "jethronethro",
+      "points": 24,
+      "comments": 2,
+      "published_at": "2026-10-20T00:41:12+00:00"
+    },
+    {
+      "id": "498331",
+      "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
+      "url": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+      "author": "pseudolus",
+      "points": 24,
+      "comments": 9,
+      "published_at": "2026-10-20T19:03:11+00:00"
+    },
+    {
+      "id": "495228",
+      "title": "Vite+ an excellent toolchain for AI agent development",
+      "url": "https://janmichalek.com/blog/vite-plus-agentni-vyvoj?lang=en",
+      "author": "kanbaruu",
+      "points": 23,
+      "comments": 20,
+      "published_at": "2026-10-20T06:40:49+00:00"
+    },
+    {
+      "id": "497589",
+      "title": "'Reverse-Engineer Anything' Is the New Wild West of AI",
+      "url": "https://www.404media.co/reverse-engineer-anything-is-the-new-wild-west-of-ai/",
+      "author": "toomuchtodo",
+      "points": 23,
+      "comments": 8,
+      "published_at": "2026-10-20T15:10:01+00:00"
+    },
+    {
+      "id": "496661",
+      "title": "Google outage hits websites and apps as some bank customers report issues",
+      "url": "https://www.bbc.co.uk/news/live/c58jd2kjp93xt",
+      "author": "whyleyc",
+      "points": 22,
+      "comments": 3,
+      "published_at": "2026-10-20T10:29:35+00:00"
+    },
+    {
+      "id": "498635",
+      "title": "Critical Vulnerabilities in PHP",
+      "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+      "author": "defly",
+      "points": 22,
+      "comments": 1,
+      "published_at": "2026-10-20T21:57:31+00:00"
+    },
+    {
+      "id": "500300",
+      "title": "Upcoming Critical PHP Security Release (CVSSv4 score of 9.2)",
+      "url": "https://www.php.net/index.php",
+      "author": "kacy",
+      "points": 21,
+      "comments": 2,
+      "published_at": "2026-10-20T23:41:12+00:00"
+    },
+    {
+      "id": "498012",
+      "title": "中信建投：粘胶短纤供需共振 行业有望迈入复苏新周期",
+      "url": "https://t.me/Financial_Express/3551260",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:49:42+00:00"
+    },
+    {
+      "id": "498013",
+      "title": "日本 9 月进口同比 18.9%，预期 20.4%，前值 28%。",
+      "url": "https://t.me/Financial_Express/3551261",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:50:00+00:00"
+    },
+    {
+      "id": "498014",
+      "title": "日本 9 月出口同比 16.7%，预期 21.3%，前值 19.3%。",
+      "url": "https://t.me/Financial_Express/3551262",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:50:01+00:00"
+    },
+    {
+      "id": "498015",
+      "title": "日本 9 月未季调商品贸易帐 -5365 亿日元，预期 -2104 亿日元，前值 -11056 亿日元。",
+      "url": "https://t.me/Financial_Express/3551263",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:50:01+00:00"
+    },
+    {
+      "id": "498016",
+      "title": "日本 9 月季调后商品贸易帐 -7039.67 亿日元，预期 -2501 亿日元，前值 -8406 亿日元。",
+      "url": "https://t.me/Financial_Express/3551264",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:50:02+00:00"
+    },
+    {
+      "id": "498017",
+      "title": "日本 9 月未季调商品贸易帐 -5365 亿日元，预期 -2104 亿日元，前值 -11056 亿日元。日本 9 月季调后商品贸易帐 -7039.67 亿日元，预期 -2501 亿日元，前值 -8406 亿日元。",
+      "url": "https://t.me/Financial_Express/3551265",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:50:42+00:00"
+    },
+    {
+      "id": "498018",
+      "title": "14 家化工上市公司三季度业绩正增长",
+      "url": "https://t.me/Financial_Express/3551266",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:51:02+00:00"
+    },
+    {
+      "id": "498019",
+      "title": "日本 9 月份对中国出口同比增长 8.6%，对美国出口增长 22.9%，对欧盟出口增长 10.5%。",
+      "url": "https://t.me/Financial_Express/3551267",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:51:09+00:00"
+    },
+    {
+      "id": "498020",
+      "title": "日本财务省",
+      "url": "https://t.me/Financial_Express/3551268",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:52:02+00:00"
+    },
+    {
+      "id": "498021",
+      "title": "日本 9 月未季调商品贸易帐 -5365 亿日元，预期-1810 亿日元，前值由-11056 亿日元修正为-11119 亿日元。",
+      "url": "https://t.me/Financial_Express/3551269",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:52:22+00:00"
+    },
+    {
+      "id": "498022",
+      "title": "日本 9 月季调后商品贸易帐 -7039.67 亿日元，前值-8406 亿日元。",
+      "url": "https://t.me/Financial_Express/3551270",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:52:23+00:00"
+    },
+    {
+      "id": "498023",
+      "title": "日本 9 月商品出口年率 16.7%，预期 20.10%，前值 19.30%。",
+      "url": "https://t.me/Financial_Express/3551271",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:52:42+00:00"
+    },
+    {
+      "id": "498024",
+      "title": "日本 9 月商品进口年率 18.9%，预期 19.6%，前值 28.00%。",
+      "url": "https://t.me/Financial_Express/3551272",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:52:43+00:00"
+    },
+    {
+      "id": "498025",
+      "title": "澳大利亚数据中心运营商 Nextdc 股价暴跌 墨尔本项目因社区反对而延期",
+      "url": "https://t.me/Financial_Express/3551273",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:53:42+00:00"
+    },
+    {
+      "id": "498026",
+      "title": "中国生物制药",
+      "url": "https://t.me/Financial_Express/3551274",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:56:42+00:00"
+    },
+    {
+      "id": "498027",
+      "title": "美团：“红灯停表”近期将在杭州落地",
+      "url": "https://t.me/Financial_Express/3551275",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:56:42+00:00"
+    },
+    {
+      "id": "498028",
+      "title": "中泰证券：科技板块后续行情持续性仍需关注海外利率环境、全球风险偏好及企业盈利变化",
+      "url": "https://t.me/Financial_Express/3551276",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:57:22+00:00"
+    },
+    {
+      "id": "498029",
+      "title": "张工会见空客公司首席执行官傅里",
+      "url": "https://t.me/Financial_Express/3551277",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:58:02+00:00"
+    },
+    {
+      "id": "498030",
+      "title": "中信建投：半导体设备订单持续景气",
+      "url": "https://t.me/Financial_Express/3551278",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:58:03+00:00"
+    },
+    {
+      "id": "498038",
+      "title": "Borneo is burning - living on the frontline of Asia's toxic haze",
+      "url": "https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:51:43+00:00"
+    },
+    {
+      "id": "498039",
+      "title": "中信建投：对债市长期维持缓慢偏强的判断",
+      "url": "https://t.me/Financial_Express/3551279",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:58:22+00:00"
+    },
+    {
+      "id": "498040",
+      "title": "伊朗总统会见巴陆军参谋长 强调美必须解除制裁",
+      "url": "https://t.me/Financial_Express/3551280",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:59:02+00:00"
+    },
+    {
+      "id": "498041",
+      "title": "中信建投：对债市长期维持缓慢偏强的判断",
+      "url": "https://t.me/Financial_Express/3551281",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-20T23:59:22+00:00"
+    }
+  ]
+}

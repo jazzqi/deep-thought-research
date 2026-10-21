@@ -1,0 +1,16 @@
+actions:
+- priority: P2
+  recurrence: daily
+  summary: 跟踪 PHP CVSS9.2 补丁全球部署率与 eMudhra 8 个中间 CA 吊销在非浏览器信任库的传播（每日，至11月初）
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: DeepSeek 一周内『模型开源+推理引擎开源+DHS联邦禁令』产品/监管两线对撞的全链路影响研究
+  target_flow: theme_update
+  target_flow_params: {}
+  type: research
+- priority: P3
+  recurrence: weekly
+  summary: Mistral 产品周（Voxtral 3/Timestral/Large 4/CERN 合作）后续基准表现与欧洲主权AI采购信号
+  target_flow_params: {}
+  type: monitoring
