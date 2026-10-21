@@ -1,0 +1,11 @@
+actions:
+- priority: P3
+  recurrence: weekly
+  summary: 跟踪 PHP 9.2 级 RCE 存量僵尸版本的在野利用情况及后续补丁分发
+  target_flow_params: {}
+  type: monitoring
+- priority: P3
+  summary: 验证分歧：DHS DeepSeek 禁令的'第三方服务'长臂条款是否引发州级/盟国复制及企业主动剥离
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-11-21'

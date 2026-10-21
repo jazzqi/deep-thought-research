@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-21T23:34:35.831170+00:00",
+  "window": {
+    "after": "2026-10-19T00:00:00+00:00",
+    "before": "2026-10-20T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "494357",
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "author": "ds",
+      "points": 737,
+      "comments": 216,
+      "published_at": "2026-10-19T23:22:18+00:00"
+    },
+    {
+      "id": "492865",
+      "title": "Documents: Police officer gave her Flock login to her ICE agent husband",
+      "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+      "author": "DeepLogin",
+      "points": 647,
+      "comments": 372,
+      "published_at": "2026-10-19T10:45:14+00:00"
+    },
+    {
+      "id": "491789",
+      "title": "Linux 7.3 Released",
+      "url": "https://lwn.net/Articles/1101143/",
+      "author": "cjd8",
+      "points": 631,
+      "comments": 294,
+      "published_at": "2026-10-19T07:23:57+00:00"
+    },
+    {
+      "id": "492766",
+      "title": "Timestral: Mistral release time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "author": "groar",
+      "points": 619,
+      "comments": 122,
+      "published_at": "2026-10-19T09:59:32+00:00"
+    },
+    {
+      "id": "493298",
+      "title": "Wine Ported to OpenBSD",
+      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+      "author": "iamnothere",
+      "points": 613,
+      "comments": 217,
+      "published_at": "2026-10-19T13:35:34+00:00"
+    },
+    {
+      "id": "491127",
+      "title": "Starcraft: Ashfall",
+      "url": "https://starcraft-shooter-2026.pages.dev/",
+      "author": "debo_",
+      "points": 578,
+      "comments": 193,
+      "published_at": "2026-10-19T01:18:02+00:00"
+    },
+    {
+      "id": "493755",
+      "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+      "url": "https://public-inspection.federalregister.gov/2026-21447.pdf",
+      "author": "cmrdporcupine",
+      "points": 576,
+      "comments": 535,
+      "published_at": "2026-10-19T16:16:46+00:00"
+    },
+    {
+      "id": "493523",
+      "title": "I no longer care to work on any Ruby gems so I've archived all my repositories",
+      "url": "https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository",
+      "author": "phoronixrly",
+      "points": 516,
+      "comments": 510,
+      "published_at": "2026-10-19T16:37:10+00:00"
+    },
+    {
+      "id": "493597",
+      "title": "MiniMax M3.1 Flash",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "author": "jtg",
+      "points": 515,
+      "comments": 218,
+      "published_at": "2026-10-19T16:39:09+00:00"
+    },
+    {
+      "id": "494356",
+      "title": "An ad-free Android TV",
+      "url": "https://cretezy.com/2026/ad-free-android-tv",
+      "author": "CraftThatBlock",
+      "points": 426,
+      "comments": 184,
+      "published_at": "2026-10-19T22:32:37+00:00"
+    },
+    {
+      "id": "493779",
+      "title": "Ukraine claims first drone evacuation of wounded soldier",
+      "url": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310",
+      "author": "yzydserd",
+      "points": 416,
+      "comments": 331,
+      "published_at": "2026-10-19T15:31:34+00:00"
+    },
+    {
+      "id": "493498",
+      "title": "CERN and Mistral join forces to accelerate AI for science",
+      "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+      "author": "kensai",
+      "points": 362,
+      "comments": 61,
+      "published_at": "2026-10-19T15:28:24+00:00"
+    },
+    {
+      "id": "493606",
+      "title": "Android apps running native on macOS",
+      "url": "https://github.com/kksimp/Mac.apk",
+      "author": "flocked",
+      "points": 346,
+      "comments": 191,
+      "published_at": "2026-10-19T16:45:30+00:00"
+    },
+    {
+      "id": "492979",
+      "title": "Alternatives to Animal Testing Are Finally Taking Off",
+      "url": "https://spectrum.ieee.org/alternatives-to-animal-testing",
+      "author": "rbanffy",
+      "points": 344,
+      "comments": 112,
+      "published_at": "2026-10-19T11:10:54+00:00"
+    },
+    {
+      "id": "493882",
+      "title": "Putting Linux on my RTX spark laptop because I don't have a Microsoft account",
+      "url": "https://josie.lol/blog/linux-rtx-spark",
+      "author": "pfeifferj",
+      "points": 285,
+      "comments": 140,
+      "published_at": "2026-10-19T21:08:18+00:00"
+    },
+    {
+      "id": "492866",
+      "title": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+      "author": "gslin",
+      "points": 267,
+      "comments": 103,
+      "published_at": "2026-10-19T10:53:39+00:00"
+    },
+    {
+      "id": "493573",
+      "title": "Inception \"Mercury 3\", 1000 tok/s diffusion LLM",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "author": "cmrdporcupine",
+      "points": 256,
+      "comments": 91,
+      "published_at": "2026-10-19T17:27:11+00:00"
+    },
+    {
+      "id": "494225",
+      "title": "“bonsoir, Elliot”: How abliterated models can get you pwned",
+      "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
+      "author": "chatmasta",
+      "points": 244,
+      "comments": 137,
+      "published_at": "2026-10-19T23:08:52+00:00"
+    },
+    {
+      "id": "493756",
+      "title": "The reverts will continue until morale improves",
+      "url": "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves",
+      "author": "hans_castorp",
+      "points": 234,
+      "comments": 47,
+      "published_at": "2026-10-19T18:42:32+00:00"
+    },
+    {
+      "id": "493356",
+      "title": "Maybe There Was an Egg Cartel After All",
+      "url": "https://www.politico.com/news/magazine/2026/10/18/egg-prices-conspiracy-affordability-issue-01100411",
+      "author": "iamnothere",
+      "points": 228,
+      "comments": 131,
+      "published_at": "2026-10-19T14:31:11+00:00"
+    },
+    {
+      "id": "493522",
+      "title": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
+      "url": "http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
+      "author": "mindracer",
+      "points": 218,
+      "comments": 116,
+      "published_at": "2026-10-19T13:36:43+00:00"
+    },
+    {
+      "id": "493861",
+      "title": "Germany's far-right AfD: half a million internal documents leaked",
+      "url": "https://hexane.cc/",
+      "author": "else42",
+      "points": 214,
+      "comments": 115,
+      "published_at": "2026-10-19T20:31:05+00:00"
+    },
+    {
+      "id": "491353",
+      "title": "DeepSeek v4.1 Flash 1017 scores 45 in Artificial Analysis",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+      "author": "theanonymousone",
+      "points": 190,
+      "comments": 95,
+      "published_at": "2026-10-19T04:41:46+00:00"
+    },
+    {
+      "id": "493888",
+      "title": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
+      "url": "https://bsd.network/@brynet/117407035545900963",
+      "author": "doener",
+      "points": 181,
+      "comments": 45,
+      "published_at": "2026-10-19T21:11:45+00:00"
+    },
+    {
+      "id": "492206",
+      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "author": "ankitg12",
+      "points": 170,
+      "comments": 128,
+      "published_at": "2026-10-19T05:55:31+00:00"
+    },
+    {
+      "id": "493574",
+      "title": "Europe EV sales rose 70.3% in September, 32.6% of market share",
+      "url": "https://www.reuters.com/business/europe-ev-sales-rose-70-september-almost-30-market-share-2026-10-19/",
+      "author": "giuliomagnifico",
+      "points": 164,
+      "comments": 169,
+      "published_at": "2026-10-19T17:30:26+00:00"
+    },
+    {
+      "id": "493462",
+      "title": "Another day another GitHub incident",
+      "url": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
+      "author": "gateauxd",
+      "points": 158,
+      "comments": 132,
+      "published_at": "2026-10-19T15:52:26+00:00"
+    },
+    {
+      "id": "493119",
+      "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
+      "url": "https://100toolkit.com/blog/deslop-model/",
+      "author": "erikkannike",
+      "points": 157,
+      "comments": 112,
+      "published_at": "2026-10-19T13:00:47+00:00"
+    },
+    {
+      "id": "491267",
+      "title": "Superlite: A Faster Alternatie to Superpowers",
+      "url": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
+      "author": "iheatuchriswogu",
+      "points": 154,
+      "comments": 70,
+      "published_at": "2026-10-19T02:01:16+00:00"
+    },
+    {
+      "id": "494065",
+      "title": "One Hash Bloom Filters",
+      "url": "https://calabro.io/ohbf",
+      "author": "jcalabro",
+      "points": 150,
+      "comments": 15,
+      "published_at": "2026-10-19T20:50:08+00:00"
+    },
+    {
+      "id": "491128",
+      "title": "Footage of the Flock search that a judge ruled was uncosntitutional",
+      "url": "https://www.404media.co/watch-footage-of-the-flock-search-a-judge-ruled-unconstitutional/",
+      "author": "anigbrowl",
+      "points": 136,
+      "comments": 77,
+      "published_at": "2026-10-19T01:55:03+00:00"
+    },
+    {
+      "id": "492981",
+      "title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+      "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "author": "isuruwijesiri",
+      "points": 132,
+      "comments": 64,
+      "published_at": "2026-10-19T12:07:41+00:00"
+    },
+    {
+      "id": "493698",
+      "title": "Maxwell: A new kind of model that sits between code and hardware",
+      "url": "https://heymaxwell.ai/",
+      "author": "laginimaineb",
+      "points": 132,
+      "comments": 66,
+      "published_at": "2026-10-19T13:47:56+00:00"
+    },
+    {
+      "id": "493461",
+      "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix",
+      "url": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf",
+      "author": "tosh",
+      "points": 129,
+      "comments": 30,
+      "published_at": "2026-10-19T15:10:20+00:00"
+    },
+    {
+      "id": "493613",
+      "title": "Ukraine carries out aerial drone evacuation of a wounded soldier",
+      "url": "https://www.dailymail.com/news/article-16220441/Ukraine-carries-aerial-drone-evacuation-wounded-soldier-frontline.html",
+      "author": "theflyingelvis",
+      "points": 122,
+      "comments": 2,
+      "published_at": "2026-10-19T17:26:38+00:00"
+    },
+    {
+      "id": "491414",
+      "title": "Verisign .com Domain Name Registry Consumer Class Action",
+      "url": "https://www.hbsslaw.com/cases/verisign-com-domain-name-registry-consumer-class-action",
+      "author": "greyface-",
+      "points": 114,
+      "comments": 71,
+      "published_at": "2026-10-19T04:40:18+00:00"
+    },
+    {
+      "id": "493354",
+      "title": "The Annotated VT100 Firmware",
+      "url": "https://vt100.net/dec/vt100/rom/",
+      "author": "Aleksandr_NFA",
+      "points": 82,
+      "comments": 6,
+      "published_at": "2026-10-19T02:40:04+00:00"
+    },
+    {
+      "id": "493234",
+      "title": "Harness2 by Google Research – Recursive Agent Harnessing",
+      "url": "https://github.com/google-research/harness2",
+      "author": "irthomasthomas",
+      "points": 79,
+      "comments": 19,
+      "published_at": "2026-10-19T11:28:45+00:00"
+    },
+    {
+      "id": "494122",
+      "title": "Drupal is now light-years ahead of its reputation",
+      "url": "https://dri.es/state-of-drupal-presentation-september-2026",
+      "author": "scottfalconer",
+      "points": 79,
+      "comments": 92,
+      "published_at": "2026-10-19T21:38:02+00:00"
+    },
+    {
+      "id": "493448",
+      "title": "Big Tech Oligarchs Have a Terrible Plan for Humanity",
+      "url": "https://www.theatlantic.com/ideas/2026/10/ai-regulation-transhumanism-oligarchs/689013/",
+      "author": "01-_-",
+      "points": 75,
+      "comments": 45,
+      "published_at": "2026-10-19T15:07:11+00:00"
+    },
+    {
+      "id": "493837",
+      "title": "Introducing Clairic, a new System One class of extraction models",
+      "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+      "author": "shishy",
+      "points": 73,
+      "comments": 7,
+      "published_at": "2026-10-19T18:18:33+00:00"
+    },
+    {
+      "id": "493053",
+      "title": "ESA's Hera Will View Asteroid Scars from DART's Strike",
+      "url": "https://spectrum.ieee.org/esa-hera-dimorphos-rendezvous",
+      "author": "rbanffy",
+      "points": 72,
+      "comments": 11,
+      "published_at": "2026-10-19T11:12:02+00:00"
+    },
+    {
+      "id": "491869",
+      "title": "Flatpak – An Insecurity Nightmare",
+      "url": "https://oro.gay/posts/flatpak-an-insecurity-nightmare/",
+      "author": "jannesan",
+      "points": 69,
+      "comments": 62,
+      "published_at": "2026-10-19T05:11:24+00:00"
+    },
+    {
+      "id": "493371",
+      "title": "Show HN: KiviDB, a faster Redis-compatible memory database and vector cache",
+      "url": "https://github.com/kividbio/kividb",
+      "author": "murtazayusuf",
+      "points": 69,
+      "comments": 42,
+      "published_at": "2026-10-19T13:53:52+00:00"
+    },
+    {
+      "id": "493780",
+      "title": "The US orders every civilian agency to rip out DeepSeek, even tools built on it",
+      "url": "https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/",
+      "author": "jacquesm",
+      "points": 66,
+      "comments": 2,
+      "published_at": "2026-10-19T18:41:10+00:00"
+    },
+    {
+      "id": "493596",
+      "title": "Show HN: I built a task system to handle the drudgery so I could focus on tasks",
+      "url": "https://3anddoneapp.com/try",
+      "author": "dmayle",
+      "points": 61,
+      "comments": 53,
+      "published_at": "2026-10-19T13:07:07+00:00"
+    },
+    {
+      "id": "493447",
+      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "author": "dkobia",
+      "points": 60,
+      "comments": 3,
+      "published_at": "2026-10-19T14:23:17+00:00"
+    },
+    {
+      "id": "494010",
+      "title": "The End of Rationing",
+      "url": "https://sanketsaurav.com/writing/end-of-rationing",
+      "author": "sanketsaurav",
+      "points": 60,
+      "comments": 68,
+      "published_at": "2026-10-19T19:19:33+00:00"
+    },
+    {
+      "id": "493588",
+      "title": "Launch HN: Laminar (YC S24) – We trained a model to catch silent agent failures",
+      "url": "https://news.ycombinator.com/item?id=50154029",
+      "author": "skull8888888",
+      "points": 59,
+      "comments": 28,
+      "published_at": "2026-10-19T16:00:18+00:00"
+    },
+    {
+      "id": "493118",
+      "title": "8 in 10 Americans oppose live-streaming execution",
+      "url": "https://www.washingtonpost.com/national-security/2026/10/15/8-10-americans-oppose-live-streaming-execution-fort-hood-shooter-poll-shows/",
+      "author": "geox",
+      "points": 52,
+      "comments": 65,
+      "published_at": "2026-10-19T13:00:29+00:00"
+    },
+    {
+      "id": "493181",
+      "title": "Stripe will acquire OpenRouter for $7.5B",
+      "url": "https://startupfortune.com/stripe-will-pay-75-billion-for-openrouter-the-ai-model-traffic-cop/",
+      "author": "novaRom",
+      "points": 51,
+      "comments": 7,
+      "published_at": "2026-10-19T13:27:49+00:00"
+    },
+    {
+      "id": "494143",
+      "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+      "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+      "author": "ibobev",
+      "points": 46,
+      "comments": 13,
+      "published_at": "2026-10-19T17:09:45+00:00"
+    },
+    {
+      "id": "494107",
+      "title": "Token-maxxing is dead, OpenRouter's token usage plateaus",
+      "url": "https://openrouter.ai/rankings",
+      "author": "pranshuchittora",
+      "points": 44,
+      "comments": 49,
+      "published_at": "2026-10-19T23:40:15+00:00"
+    },
+    {
+      "id": "493087",
+      "title": "America Is Now an Ally of Russia",
+      "url": "https://www.theatlantic.com/ideas/2026/10/america-now-ally-russia/689066/",
+      "author": "robtherobber",
+      "points": 41,
+      "comments": 21,
+      "published_at": "2026-10-19T11:01:56+00:00"
+    },
+    {
+      "id": "495819",
+      "title": "Show HN: RoadRash ported to Three.js to run in the browser",
+      "url": "https://roadrash.pages.dev",
+      "author": "olucurious",
+      "points": 36,
+      "comments": 9,
+      "published_at": "2026-10-19T22:01:54+00:00"
+    },
+    {
+      "id": "493499",
+      "title": "AI lab offers free plumbing and HVAC repairs across three cities to train robots",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning",
+      "author": "whatdowecallu",
+      "points": 34,
+      "comments": 79,
+      "published_at": "2026-10-19T16:03:29+00:00"
+    },
+    {
+      "id": "493927",
+      "title": "Diablo 2 Survivors",
+      "url": "https://d2survivors.lol/",
+      "author": "bigwheels",
+      "points": 34,
+      "comments": 18,
+      "published_at": "2026-10-19T21:10:57+00:00"
+    },
+    {
+      "id": "492205",
+      "title": "US Global Entry revoked for importing $12 of ESP32 boards",
+      "url": "https://www.reddit.com/r/esp32/comments/1x3bmjh/ordering_esp32_from_overseas_watch_out_global/",
+      "author": "z2",
+      "points": 33,
+      "comments": 2,
+      "published_at": "2026-10-19T02:16:36+00:00"
+    },
+    {
+      "id": "493803",
+      "title": "Raw Chicken, Malnutrition and Fear: Pregnancy in ICE Detention Camps",
+      "url": "https://www.themarshallproject.org/2026/10/14/texas-ice-woman-pregnant-immigrant",
+      "author": "paimapi",
+      "points": 33,
+      "comments": 7,
+      "published_at": "2026-10-19T17:58:34+00:00"
+    },
+    {
+      "id": "492264",
+      "title": "Writing is no longer proof of work",
+      "url": "https://www.seangoedecke.com/writing-is-no-longer-proof-of-work/",
+      "author": "gpi",
+      "points": 31,
+      "comments": 9,
+      "published_at": "2026-10-19T06:01:30+00:00"
+    },
+    {
+      "id": "493844",
+      "title": "Japanese TV Station Interviews Americans About Their Love for Kei Trucks",
+      "url": "https://www.thedrive.com/news/japanese-tv-station-interviews-americans-about-their-love-for-kei-trucks-and-its-too-wholesome",
+      "author": "cf100clunk",
+      "points": 30,
+      "comments": 0,
+      "published_at": "2026-10-19T16:09:22+00:00"
+    },
+    {
+      "id": "493845",
+      "title": "Towards Company World Models",
+      "url": "https://www.beaconholdings.com/research/towards-company-world-models",
+      "author": "rafaelc",
+      "points": 25,
+      "comments": 5,
+      "published_at": "2026-10-19T18:51:09+00:00"
+    },
+    {
+      "id": "493802",
+      "title": "Pentulive (Puppy Live) [video]",
+      "url": "https://yle.fi/t/18-332106/fi",
+      "author": "NaOH",
+      "points": 24,
+      "comments": 4,
+      "published_at": "2026-10-19T16:09:10+00:00"
+    },
+    {
+      "id": "491398",
+      "title": "Show HN: Strot – Compile an LLM's intent once, run decisions locally forever",
+      "url": "https://github.com/strot-ai/Project-STROT",
+      "author": "solohunter001",
+      "points": 23,
+      "comments": 14,
+      "published_at": "2026-10-19T04:32:07+00:00"
+    },
+    {
+      "id": "491623",
+      "title": "Sanity's Edge – A voice BBS from 1994",
+      "url": "https://sanitys-edge.shouden.us",
+      "author": "indigodaddy",
+      "points": 23,
+      "comments": 1,
+      "published_at": "2026-10-19T00:30:34+00:00"
+    },
+    {
+      "id": "494628",
+      "title": "Cloud of suspicion lifted from NIST curves",
+      "url": "https://www.johndcook.com/blog/2026/10/17/nist-curves-exonorated/",
+      "author": "ibobev",
+      "points": 23,
+      "comments": 14,
+      "published_at": "2026-10-19T18:36:00+00:00"
+    },
+    {
+      "id": "494555",
+      "title": "Show HN: Open-source early-reading reader with phonics help",
+      "url": "https://github.com/finereli/yarareads",
+      "author": "zoozla",
+      "points": 22,
+      "comments": 10,
+      "published_at": "2026-10-19T17:58:54+00:00"
+    },
+    {
+      "id": "494026",
+      "title": "多只银行股创年内新高 高股息资产受机构看好",
+      "url": "https://t.me/Financial_Express/3547519",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:34:02+00:00"
+    },
+    {
+      "id": "494027",
+      "title": "10 月需防范这几类传染病，中疾控发布健康提示",
+      "url": "https://t.me/Financial_Express/3547520",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:34:22+00:00"
+    },
+    {
+      "id": "494028",
+      "title": "AI 智能硬件新品密集发布 企业加快探索多元应用场景",
+      "url": "https://t.me/Financial_Express/3547521",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:35:42+00:00"
+    },
+    {
+      "id": "494029",
+      "title": "哥伦比亚西南部一金矿发生塌方 至少 9 人死亡",
+      "url": "https://t.me/Financial_Express/3547522",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:36:42+00:00"
+    },
+    {
+      "id": "494030",
+      "title": "澳大利亚国民银行计划裁员 2500 人，澳大利亚房贷市场困境冲击银行业",
+      "url": "https://t.me/Financial_Express/3547523",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:37:02+00:00"
+    },
+    {
+      "id": "494031",
+      "title": "大风蓝色预警：内蒙古新疆等 11 省区市部分地区有 7 至 9 级阵风",
+      "url": "https://t.me/Financial_Express/3547524",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:37:22+00:00"
+    },
+    {
+      "id": "494032",
+      "title": "群核科技核心管理层自愿延长禁售承诺 12 个月 彰显长期发展信心",
+      "url": "https://t.me/Financial_Express/3547525",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:39:02+00:00"
+    },
+    {
+      "id": "494033",
+      "title": "前谷歌 CEO 埃里克·施密特据报持有 Anthropic 约 1%股份",
+      "url": "https://t.me/Financial_Express/3547526",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:39:22+00:00"
+    },
+    {
+      "id": "494034",
+      "title": "中方呼吁推动海地政治进程取得实质进展",
+      "url": "https://t.me/Financial_Express/3547527",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:42:22+00:00"
+    },
+    {
+      "id": "494035",
+      "title": "哥伦比亚西南部发生山体滑坡 已致 14 人死亡",
+      "url": "https://t.me/Financial_Express/3547528",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:42:42+00:00"
+    },
+    {
+      "id": "494036",
+      "title": "OpenAI 据悉加速 300 亿美元融资，抢在 Anthropic 上市前锁定资金",
+      "url": "https://t.me/Financial_Express/3547529",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:43:02+00:00"
+    },
+    {
+      "id": "494037",
+      "title": "美国特使威特科夫将在就乌克兰的会谈后前往俄罗斯与普京会晤",
+      "url": "https://t.me/Financial_Express/3547530",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:43:22+00:00"
+    },
+    {
+      "id": "494039",
+      "title": "中金公司：市场积极信号正在增多",
+      "url": "https://t.me/Financial_Express/3547531",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:44:42+00:00"
+    },
+    {
+      "id": "494040",
+      "title": "万斯拒绝表态支持内塔尼亚胡连任",
+      "url": "https://t.me/Financial_Express/3547532",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:44:43+00:00"
+    },
+    {
+      "id": "494041",
+      "title": "全球配置需求升温 公募竞逐 QDII 业务",
+      "url": "https://t.me/Financial_Express/3547533",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:45:22+00:00"
+    },
+    {
+      "id": "494042",
+      "title": "日经 225 指数期货早盘下跌 0.12%。",
+      "url": "https://t.me/Financial_Express/3547534",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:46:02+00:00"
+    },
+    {
+      "id": "494043",
+      "title": "基准 10 年期日本国债期货早盘下跌 0.22 点。",
+      "url": "https://t.me/Financial_Express/3547535",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:46:22+00:00"
+    },
+    {
+      "id": "494044",
+      "title": "335 场新品首发！广交会首期秀出中国先进制造实力",
+      "url": "https://t.me/Financial_Express/3547536",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:47:02+00:00"
+    },
+    {
+      "id": "494045",
+      "title": "中信建投：建议关注企业级 AI 应用、算力服务及国产芯片和超节点",
+      "url": "https://t.me/Financial_Express/3547537",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:47:42+00:00"
+    },
+    {
+      "id": "494046",
+      "title": "中信证券：A 股正转向多元化定价",
+      "url": "https://t.me/Financial_Express/3547538",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:49:22+00:00"
+    },
+    {
+      "id": "494047",
+      "title": "3M 与亚马逊扩大合作，亚马逊可在七年内认购逾 316 万股 3M 股票",
+      "url": "https://t.me/Financial_Express/3547539",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:49:42+00:00"
+    },
+    {
+      "id": "494048",
+      "title": "美国国家飓风中心表示，未来 48 小时内，美国东海岸外的风暴形成气旋的可能性为 20%。",
+      "url": "https://t.me/Financial_Express/3547540",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:51:42+00:00"
+    },
+    {
+      "id": "494049",
+      "title": "险资“调仓不减势”，四季度掘金高股息与科技成长主线",
+      "url": "https://t.me/Financial_Express/3547541",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:53:22+00:00"
+    },
+    {
+      "id": "494050",
+      "title": "英特尔向 FCC 申请豁免外国机器人禁令 以确保美国芯片工厂设备正常运行",
+      "url": "https://t.me/Financial_Express/3547542",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:54:22+00:00"
+    },
+    {
+      "id": "494051",
+      "title": "畅通跨境投资渠道 60/40 结构 ETF 密集上市",
+      "url": "https://t.me/Financial_Express/3547543",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:54:42+00:00"
+    },
+    {
+      "id": "494052",
+      "title": "医保钱包 2.0 版上线 个人账户资金跨省共济全面落地",
+      "url": "https://t.me/Financial_Express/3547544",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:55:22+00:00"
+    },
+    {
+      "id": "494053",
+      "title": "中信建投：建议关注企业级 AI 应用、算力服务及国产芯片和超节点",
+      "url": "https://t.me/Financial_Express/3547545",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:56:22+00:00"
+    },
+    {
+      "id": "494054",
+      "title": "网传大闸蟹“全面滞销”？记者调查最新行情",
+      "url": "https://t.me/Financial_Express/3547546",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:56:23+00:00"
+    },
+    {
+      "id": "494055",
+      "title": "算力储能等产品受客商青睐 我国外贸再添新引擎",
+      "url": "https://t.me/Financial_Express/3547547",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:57:02+00:00"
+    },
+    {
+      "id": "494056",
+      "title": "万斯拒绝公开支持内塔尼亚胡连任：不会介入以色列选举",
+      "url": "https://t.me/Financial_Express/3547548",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:57:42+00:00"
+    },
+    {
+      "id": "494090",
+      "title": "Colombia illegal gold mine collapse kills 14 people",
+      "url": "https://www.aljazeera.com/news/2026/10/19/colombia-illegal-gold-mine-collapse-kills-14-people?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:56:17+00:00"
+    },
+    {
+      "id": "494091",
+      "title": "Mahmoud Khalil takes deportation fight to the US Supreme Court",
+      "url": "https://www.aljazeera.com/news/2026/10/19/mahmoud-khalil-takes-deportation-fight-to-the-us-supreme-court?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:56:32+00:00"
+    },
+    {
+      "id": "494109",
+      "title": "Jane Fraser says empathy during layoffs means telling employees the \"hard truth\"",
+      "url": "https://www.youtube.com/watch?v=ubh68153EEM",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-19T23:51:28+00:00"
+    }
+  ]
+}
