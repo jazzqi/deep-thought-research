@@ -1,0 +1,17 @@
+actions:
+- priority: P1
+  recurrence: daily
+  summary: 监控 10-28 FOMC 前 12 月加息定价（当前 74.8%）与 AI 去杠杆叙事的赛跑——若定价跌破 50% 则回补久期、若升至 90%
+    则加码短端
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: W42 两条跨周预测落空（中国M2预判7.3-7.7实际7.2；初请预判20-21万实际19.9万），补写 W42 recap 时校准置信度锚定（同类预判下移0.2-0.3pp）
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-10-25'
+- priority: P2
+  recurrence: daily
+  summary: 跟踪 10Y 是否有效跌破 4.9307%（9-23低点）及法国 OAT-Bund 利差（178bp）与周末抗议对欧债的溢出
+  target_flow_params: {}
+  type: monitoring
