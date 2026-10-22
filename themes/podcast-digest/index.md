@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-10-23T00:41:39+08:00
-revision: 2026-10-23T00:41:39+08:00
+updated: 2026-10-23T01:40:31+08:00
+revision: 2026-10-23T01:40:31+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer —— All-In Podcast（Chamath/Jason/Sacks + 客座 Ben Horowitz）· 2026-10-17](./all-in/coreweave-crash-ai-trade-cracks-anthropic-ipo-red-flags-bill.md)
+- [Billy Evans 首次面对面受访：Elizabeth Holmes 的定罪叙事存在系统性偏差，他将公布"还原真相"的材料 —— All-In Podcast · 2026-10-15](./all-in/elizabeth-holmes-husband-billy-evans-the-trial-prison-nathan.md)
 
 ## 往期
 
+- [Billy Evans 首次面对面受访：Elizabeth Holmes 的定罪叙事存在系统性偏差，他将公布"还原真相"的材料 —— All-In Podcast · 2026-10-15](./all-in/elizabeth-holmes-husband-billy-evans-the-trial-prison-nathan.md)
 - [CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer —— All-In Podcast（Chamath/Jason/Sacks + 客座 Ben Horowitz）· 2026-10-17](./all-in/coreweave-crash-ai-trade-cracks-anthropic-ipo-red-flags-bill.md)
 - [AI 正在重估每一家软件公司 —— Christina Cacioppo（Vanta 创始人兼 CEO）· @ILTB_Podcast · 2026-10-20](./iltb/how-ai-is-repricing-every-software-company.md)
 - [世界最大数字银行正面进攻美国最古老银行体系 —— ILTB Podcast · 2026-10-13](./iltb/the-worlds-largest-digital-bank-taking-on-americas-biggest-f.md)
