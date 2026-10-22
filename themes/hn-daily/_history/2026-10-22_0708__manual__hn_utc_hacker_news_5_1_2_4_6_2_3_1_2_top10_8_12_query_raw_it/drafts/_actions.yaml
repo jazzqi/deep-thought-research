@@ -1,0 +1,15 @@
+actions:
+- priority: P3
+  summary: 补抓 2026-10-18/10-19 两日 HN UTC 窗口书摘缺口，或确认放弃覆盖并在往期列表标注
+  target_flow_params: {}
+  type: follow_up
+- priority: P4
+  recurrence: weekly
+  summary: 跟踪 DeepInfer 开源后社区反馈与昇腾 950 生态采用情况（AI 算力管制叙事验证）
+  target_flow_params: {}
+  type: monitoring
+- priority: P3
+  summary: 验证 peec.ai 伪造统计实验的后续：ChatGPT/OpenAI 是否修复引用源与 stateglobe.com 处置
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-11-21'
