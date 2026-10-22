@@ -1,0 +1,8 @@
+actions:
+- confidence: 0.6
+  priority: P2
+  summary: 验证 noexploit 反证与 PHP 第三条关键 CVE：原生 PHP 上是否出现可工作的公开 exploit、CVE-2026-109618/109619
+    之外的第三条是否落定
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-10-24'

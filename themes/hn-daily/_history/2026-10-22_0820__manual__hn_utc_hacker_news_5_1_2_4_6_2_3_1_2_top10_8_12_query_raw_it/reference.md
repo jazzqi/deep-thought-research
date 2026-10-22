@@ -1,0 +1,56 @@
+- HN 10-21 UTC 窗口高分条目数: query_raw_items(source=hackernews, published_after=2026-10-21T00:00:00Z, published_before=2026-10-22T00:00:00Z, min_points=20, limit=100) = 84 条
+- HN 10-22 UTC 窗口新增条目（回退 min_points=1）: query_raw_items(source=hackernews, published_after=2026-10-22T00:00:00Z, published_before=2026-10-23T00:00:00Z, min_points=1) = NO_DATA（0 条）
+- 当日 Top1 PHP 8.2.35 紧急发版: query_raw_items(source=hackernews, 10-21 窗口)[id:501080] = ▲912 💬510
+- Top2 eMudhra CA 密钥秒破: query_raw_items(source=hackernews, 10-21 窗口)[id:500159] = ▲802 💬392
+- Top3 PHP Foundation 安全发布: query_raw_items(source=hackernews, 10-21 窗口)[id:501425] = ▲647 💬321
+- Top4 UNEP 排放差距报告: query_raw_items(source=hackernews, 10-21 窗口)[id:499998] = ▲609 💬745
+- Top5 CSS interop 2027: query_raw_items(source=hackernews, 10-21 窗口)[id:498506] = ▲588 💬260
+- Top6 No Kings 封禁: query_raw_items(source=hackernews, 10-21 窗口)[id:501234] = ▲475 💬461
+- Top7 PHP2Shell Wiz 披露: query_raw_items(source=hackernews, 10-21 窗口)[id:501116] = ▲423 💬167
+- Top8 LiteLLM PyPI 投毒: query_raw_items(source=hackernews, 10-21 窗口)[id:501374] = ▲395 💬123
+- Top9 Meta Muse 泄密: query_raw_items(source=hackernews, 10-21 窗口)[id:498710] = ▲361 💬153
+- Top10 DuckDB 2.0: query_raw_items(source=hackernews, 10-21 窗口)[id:501233] = ▲332 💬38
+- 补录候选 noexploit 反证文: query_raw_items(source=hackernews, 10-21 窗口)[id:502221] = ▲31 💬0（发布于 10-21 23:13 UTC，晚于基线会话启动）
+- 补录候选 Anthropic 攻击面缩减: query_raw_items(source=hackernews, 10-21 窗口)[id:499286] = ▲128 💬84
+- 补录候选 EA 关停 BioWare: query_raw_items(source=hackernews, 10-21 窗口)[id:501553] = ▲48 💬15
+- 补录候选 Texas 数据中心空气质量: query_raw_items(source=hackernews, 10-21 窗口)[id:501625] = ▲31 💬10
+- 补录候选 Trail of Bits 回归检测插件: query_raw_items(source=hackernews, 10-21 窗口)[id:501538] = ▲28 💬2
+- 补录候选 solo founding: query_raw_items(source=hackernews, 10-21 窗口)[id:501929] = ▲27 💬25
+- eMudhra 私钥为单字节: fetch_url(https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/) = 8 把 P-384 中间 CA 私钥取值 0..255（EM OV TLS CA-G3C 的 d=4），笔记本毫秒级暴力恢复；作者 作者 scotthelme
+- noexploit 反证要点: fetch_url(https://eliastaylor.com/noexploit/) = 原生 PHP 实例上无可用 exploit，数千 LLM 生成 PoC 依赖 LFI 前置或仅实验室可用，发布 10 小时后仍无可打 botnet 的利用链
+- eMudhra 高质量评论: fetch_url(https://hn.algolia.com/api/v1/items/50177916) = 作者 unsupp0rted "This wasnt malice its was laziness..."（懒惰 vs 后门两派争论）
+- EA 关停 BioWare: fetch_url(https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware) = 全公司裁员约 400 人、BioWare 约 50 人，下一款 Mass Effect 终止，系 $55B 私有化（PIF/Silver Lake/Affinity，2026-08 交割）后重组
+- Texas 数据中心空气质量: fetch_url(https://www.texastribune.org/2026/10/20/data-centers-texas-air-quality-report-pollution-health-risks/) = HARC 报告：全州 288 个数据中心项目，2031 年 NOx 或升 35%（即使净零情景）
+- Anthropic 攻击面缩减: fetch_url(https://www.anthropic.com/research/attack-surface-reduction) = Claude 扫描 25 个开源项目发现 493 个攻击面问题，主打默认配置/配置交互/可达性收紧三法
+- Trail of Bits 回归数据: fetch_url(https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/) = 130+ 合并 PR 复查确认 21 个回归（58 候选 ~36% 精度），发布 patching-bugs/regression-hunt 两插件（Patch the Planet 与 OpenAI 合作）
+- solo founding 数据: fetch_url(https://every.to/thesis-statements/julian-weisser) = Carta 合作报告：solo 创始人占比 2018→2026 翻倍至 39%；Wasserman：65% 高潜 startups 死于合伙人冲突
+
+
+## 2026-10-22 接力首棒（tech_scout）数据来源
+
+- PHP2Shell 漏洞详情（CVSS 9.2、影响 PHP 5.4 起全部版本、2026-10-21 发补丁、Wiz/OpenAI/Calif 协作、类比 Heartbleed/Log4Shell、复杂度不再是防线）: fetch_url(https://www.wiz.io/blog/php2shell-php-rce) = Wiz Research 披露 PHP 核心内存泄露与未授权 RCE，前沿模型将跨目标利用链开发压缩到数小时
+- PHP2Shell HN 评论时间线争议（Calif 与 OpenAI 同日报告同根因）: fetch_url(https://news.ycombinator.com/item?id=50180836) = 作者 hashstring 引 PHP Foundation 时间线质疑"独立发现"叙事
+- Mistral Large 4 规格与安全跑分: fetch_url(https://mistral.ai/news/mistral-large-4/) = 1T 参数/52B 激活、3800 块 Grace Blackwell 训练、Cyber Index 82% 全场最高、Cybench 93%、Claude Opus 5.5 与 GPT-6 Astra 因拒答近零分
+- Mistral Large 4 HN 评论（价格约为 DeepSeek 10 倍、权重月底发布）: fetch_url(https://news.ycombinator.com/item?id=50186129) = 作者 Flux159 对比 DeepSeek 4.1 Flash；评论区争论"Mistral 是否政府扶持垄断"
+- DuckDB 2.0.0 LTS 特性（Quack 协议、CONNECT、VARIANT、agent mode、触发器、2 万提交、LTS 至 2027-10）: fetch_url(https://duckdb.org/2026/10/21/announcing-duckdb-200) = 官方发布公告
+- LiteLLM 1.107.0 PyPI 投毒机制（cook.pth/sitecustomize.py、窃取 SSH/云凭证/LLM key、一行 maturin data="cook" 注入、PyPI 已下架）: fetch_url(https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/) = SafeDep 披露
+- Meta 250 亿美元罚单（43,899,725 次违法、NM 不公平贸易行为法、2026-10-21 法院命令）: fetch_url(https://nmdoj.gov/press-release/the-new-mexico-department-of-justice-secures-another-landmark-victory-against-big-tech-with-historic-25-billion-penalty-against-facebook/) = 新墨西哥州总检察长新闻稿
+- Claude Duet 产品详情（Opus 5.5 驱动、Pro/Max 美国候补、6000+ 连接器、早报/委派/关键节点审批）: fetch_url(https://claude.com/product/claude-duet) = Anthropic 产品页
+- Rust off Rails（60 个 Markdown 文件即框架、所有代码由 agent 生成、Claude Code 插件分发）: fetch_url(https://rustoffrails.org/) = 项目官网
+- LayerFS（每次 Bash 调用挂载临时工作区并提交、共享无服务器 Store、fork 零复制、10 份拷贝压缩至 0.31）: fetch_url(https://layerfs.ai/) = 项目官网
+- GitHub agent-scale Git（99.99999% 仓库双活于自有 DC 与 Azure、Azure 承载约半数 Git 流量、25ms 跨区往返瓶颈、quorum 序列化改造、动因=agentic shift+电力上限）: fetch_url(https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/) = GitHub 官方博客
+- Trail of Bits agent 补丁插件（patching-bugs/regression-hunt、130+ PR 确认 21 回归、36% 精确率、误报降 25%、Patch the Planet 与 OpenAI 合作）: fetch_url(https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/) = Trail of Bits 官方博客
+- "编译器也曾要终结编程"文章（1954 FORTRAN 预言、2031 agent 周二构想、代码变稀缺的是写清规则）: fetch_url(https://hrih.si/articles/the-compiler-was-supposed-to-end-programming/) = 原文
+- 该文 HN 评论分歧（作者 cbarrick 反乌托邦 vs 作者 solyin 马车夫类比、作者 kazinator 史实纠正）: fetch_url(https://news.ycombinator.com/item?id=50185045) = HN 评论页
+- 当日 HN 条目与热度快照（头条/值读/雷达/之声选题池）: query_raw_items(source=hackernews, published_after=2026-10-21T00:00:00Z, published_before=2026-10-22T09:00:00Z, limit=60) = 60 条，含 [id:501116][id:501978][id:501233][id:501374][id:501928][id:501713][id:501519][id:501042][id:501624][id:501538][id:501626]
+
+- eMudhra CA 私钥破解详情（8 张中间证书私钥为单字节整数 4/56/115/155/156/66/230/237，P-384 曲线 ≤255 步可破，2025-04 签发、17 个月暴露窗口，研究员 wayne 用 Google paranoid_crypto 检出，Chrome CRLSet 当晚拉黑、Mozilla 10-20 移除根证书）: fetch_url(scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds) = 正文全文
+- eMudhra HN 评论（john_strinlai 贴原始报告者 wayne 邮件：开箱即用检出、已复查全部 CCADB 证书；renhanxue 指 paranoid_crypto 2026-08-19 已归档只读）: fetch_url(news.ycombinator.com/item?id=50177916) = 835 分/400 评论（抓取时点）
+- noexploit 反证文（数千 LLM 生成 PoC 无一能攻破原生 PHP 实例、多数依赖 LFI 前置、披露 10 小时无实弹、LLM 自证式作弊与 Decision Schelling Points 机制）: fetch_url(eliastaylor.com/noexploit/) = 正文全文
+- 头条1 评论核验（hashstring 质疑"独立发现"时间线属实；fwlr 发现链条串、ToValueFunfetti 反驳训练数据假说）: fetch_url(news.ycombinator.com/item?id=50180836) = 432 分/172 评论（抓取时点）
+- 头条2 评论核验（Flux159 评论属实：权重月底上 HF、视觉超 DeepSeek 4.1 Flash、编码不及、价格约 10 倍；该帖标注 [dupe]，前情帖 2044 分/1254 评论）: fetch_url(news.ycombinator.com/item?id=50186129) = 315 分/93 评论（抓取时点）
+- eMudhra 主帖热度: query_raw_items(source=hackernews, keyword=private key OR hash OR broken OR entropy)[id:500159] = ▲802 💬392，scotthelme.co.uk
+- noexploit 条目热度: query_raw_items(source=hackernews, keyword=PHP exploit OR PHP2Shell)[id:502221] = ▲31 💬0，eliastaylor.com
+- mitmproxy 新增 --emudhra 选项: query_raw_items(source=hackernews, keyword=eMudhra OR CA OR certificate)[id:502257] = ▲46 💬10，github.com/mitmproxy
+- Oracle CVE-2026-91403 eMudhra 证书吊销公告: query_raw_items(source=hackernews, keyword=eMudhra OR CA OR certificate)[id:502128] = ▲21 💬3，oracle.com
+- 潜在第三个关键 PHP CVE（未坐实，跟踪中）: query_raw_items(source=hackernews, keyword=PHP exploit OR PHP2Shell)[id:501927] = ▲33 💬9，elk.zone mastodon 线索
