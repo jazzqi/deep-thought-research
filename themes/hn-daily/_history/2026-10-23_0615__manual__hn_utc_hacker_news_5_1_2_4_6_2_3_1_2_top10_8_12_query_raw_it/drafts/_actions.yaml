@@ -1,0 +1,17 @@
+actions:
+- priority: P2
+  summary: 跟踪 PHP2Shell 原生实例通用 exploit 是否被独立复现（kevin_kelly 少数派条件二）：在野利用已被 AWS MadPot
+    证实，若原生实例通用 exploit 复现则头条升格为 Log4Shell 级参照系，否则实战杀伤力下修一档
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-10-29'
+- priority: P3
+  recurrence: weekly
+  summary: 监控是否再有中小 CA 因弱密钥/信任事故退出 SSL/TLS 业务——第二例出现则'eMudhra 引发供给侧退出与根信任集中度上升'从单例观察升格为趋势判断
+  target_flow_params: {}
+  type: monitoring
+- priority: P3
+  recurrence: weekly
+  summary: 跟踪苹果 App Store 分发规则跨法域演变（欧盟 DMA/美国/澳洲）与 Meta 250 亿罚单的市场定价反应——平台监管三线落地后的行业格局定价验证
+  target_flow_params: {}
+  type: monitoring

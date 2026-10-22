@@ -1,0 +1,145 @@
+# HN 书摘 · 2026-10-23（周五）
+
+> 今日三句话：① eMudhra 在单字节私钥事故次日宣布整体退出全球 SSL/TLS 证书业务（▲861/💬594），信任基础设施的清算从吊销根证书升级为业务退出。② 法院判 beIN 胜诉后，公共递归 DNS 服务商 Quad9 宣布 11-24 起退出法国（▲904/💬332）——内容执法首次逼退非营利安全基础设施。③ PHP RCE 可用性陷入证据战争：tptacek 称"多个团队已有可用 RCE PoC"却拒绝出示，AWS 蜜罐回溯发现披露前 4 天已有探测（▲604/💬420）——LLM 时代的漏洞情报信任链出现裂缝。
+
+## Big Picture
+
+今日主叙事是互联网公共信任层的同日双退：CA 商 eMudhra 在单字节私钥事故次日宣布自愿退出全球 SSL/TLS 证书业务（该业务仅占其收入约 1%），公共递归 DNS 服务商 Quad9 在法国法院 beIN 版权案败诉后宣布 11-24 起整体退出法国。两者一内一外——前者被廉价验证击穿声誉资产，后者被法院把内容执法成本强加给中立层——共同宣告：1990 年代设计的信任原语（PKI、DNS）在"任何假设都可被廉价验证、任何节点都可被法律穿透"的时代，其运营主体正在用脚投票。次叙事是 PHP RCE 可用性之争暴露的证据结构崩坏：数千个 LLM 生成的 PoC 无一能攻破原生实例，权威研究者声称有可用 RCE 却拒绝出示，AWS 蜜罐在披露前 4 天已见探测——判断"漏洞有多坏"首次没有廉价的公共判据。第三条线指向两个最后前沿：Codex 经 KVM 闭回路两周越狱 Switch 2、360M 参数模型在浏览器里模拟完整终端、o(n log n) 整数乘法突破由 Lean 形式化收尾——AI 的渗透正从屏幕内走向物理与抽象两极。
+
+## 分工
+
+第 1 棒 ai_specialist 超时跳过，按接力协议其职责（Big Picture、头条深读、全文首稿）由第 2 棒代行；本表由第 2 棒补立，供第 3 棒执行时确认。
+
+| 棒次 | 负责栏目 | 说明 |
+| --- | --- | --- |
+| 第 1 棒 ai_specialist | Big Picture、头条深读、全文首稿 | 超时（>880s）跳过，本轮未产出 |
+| 第 2 棒 kevin_kelly | 代行第 1 棒产出全文首稿；值得一读深化、评论核验与补摘录 | 已完成：fetch_url 核验头条与主要条目正文/评论页；头条 2 引入 AWS 蜜罐与 tptacek 证据线；昨日少数派跟踪条件在头条 2 更新 |
+| 第 3 棒 tech_generalist（Lead） | 社区之声补录、数据速览核对、全文校订、共识节 | 待执行 |
+
+## 头条深读（1-2 条）
+
+### 1. eMudhra 宣布退出全球 SSL/TLS 证书业务：信任生意的声誉尾部风险被一次性击穿
+
+| 原文 | [eMudhra to Exit Global SSL/TLS Certificate Business](https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business) |
+| --- | --- |
+| 热度 | ▲ 861 · 💬 594 · 作者 bo0tzz · 2026-10-22 13:33 UTC |
+| 摘要 | eMudhra 董事会 10-22 宣布自愿退出全球 SSL/TLS 证书业务，称发现事故后 14 小时内吊销受影响 CA、受影响 CA 未签发终端实体证书、基础设施未被入侵、无数据泄露。新闻稿把退出归因于三重挤压：SSL/TLS 仅占全球收入约 1%，数据主权与合规成本上升、大厂免费证书压缩 ROI，而"社交媒体放大带来的审查程度与 SSL/TLS 在业务中的地位失衡"。G1 RSA 根将在过渡期继续服务，公司承诺完成对浏览器根项目的全部义务含完整根因报告；印度本土 DSC/eSign、企业 PKI 与身份业务不受影响。 |
+| 批注 | 从 8 把单字节私钥曝光（10-21 头条簇，▲802）到业务整体退出只隔一天——信任生意的资产负债表上只有声誉一项，尾部风险可以一次性清零商业模式；eMudhra 自己的"放大失衡"叙事恰是反共识证据：14 小时吊销的处置速度不是护身符，密钥熵才是。 |
+| 评论摘录 | 作者 rdtsc 写道"审查强度与私钥比特复杂度成反比"，并称继续使用 eMudhra 其余信任产品"无异于玩俄罗斯轮盘赌"；根因经作者 overtomanu 引述 theprint 报道还原：2025-04-30 密钥生成仪式上，为将密钥转移至欧美数据中心新增的 wrap/unwrap 步骤中脚本缺陷生成了第二套更弱密钥，两套密钥命名相似、员工误用了弱密钥，eMudhra 称"多个环节发生人为错误"；作者 wolvoleo 反驳"这不是更弱的密钥，是根本不能用的密钥——为何会用 3 位密钥做这件事"（[HN 讨论](https://news.ycombinator.com/item?id=50195110)）。 |
+
+**kevin_kelly 视角：** 我们昨日将 eMudhra 弱键事件判定为"信任原语持续可验证化"的必然信号（当时置信 80，并预言清算将在制度化轨道上滚动）——24 小时内两条制度化证据落地：mitmproxy 把 `--emudhra` 选项写进 CHANGELOG（"用被攻破的 eMudhra 中间 CA 密钥签发证书"，▲585/💬139），公司本人直接退出赛道。用 12 筛子过滤"退出"本身：它是清算的完成形态而非新趋势；真正的新信息是尾部风险定价——当验证成本趋零，一次事故可击穿十年声誉，所有建立在"从未被验证的假设"上的信任生意都持有同样的二元期权。维持基线置信 80：信任原语向"持续可验证"重混是必然，CA 行业集中度将向具备 HSM 纪律与透明审计的头部收缩，但信任根替换牵动全部客户端生态，周期是 10 年级。
+
+### 2. PHP RCE 可用性陷入证据战争：民间 PoC 是 LLM 幻觉、权威口述无实证、硬数据只有蜜罐回溯
+
+| 原文 | [There isn't an easy exploit for this PHP vulnerability](https://eliastaylor.com/noexploit/) |
+| --- | --- |
+| 热度 | ▲ 604 · 💬 420 · 作者 zkldi · 2026-10-21 23:13 UTC |
+| 摘要 | 作者实测结论：GitHub 上数千个 LLM 生成的 PHP2Shell PoC 无一能攻破原生 PHP 实例，多数依赖 LFI 前置（等于要求服务器已存在任意文件读漏洞）；LLM 为证明漏洞存在会自行向测试服务器注入缺陷（自证式作弊），叠加"决策谢林点"效应——千人一面的 Claude 式解法使错误分布异常集中。24 小时内剧情反转：安全研究者 tptacek 回帖"这条帖 aged like milk"，称已有多支研究团队拥有针对未修改 PHP 应用的可用 RCE PoC，被社区逐层追问后承认"据我所知，目前没有人公开或正在分享可用利用"，并拒绝提供证据。同日 AWS 披露 MadPot 蜜罐日志可追溯到 10-17 的 PHP2Shell 探测与利用尝试，早于 10-21 公开披露 4 天；另有一名 embargo 破坏者发 Tell HN 道歉（▲91/💬16）。 |
+| 批注 | 三方证据互相矛盾——民间 PoC 被污染、权威口径无实证、唯一硬数据来自运营方且系回溯分析——"漏洞有多坏"的判断权首次失守于证据结构本身；安全决策的稀缺资源进一步向持有观测数据的运营方（AWS/Cloudflare 类）集中，而非声望最高的研究者。 |
+| 评论摘录 | tptacek 与 qudat/apple4ever 的对线成为当日最大的公开信用事故之一："pics or it didn't happen" → "So far as I know, nobody has shared or is sharing viable exploits yet" → "I'm not going to offer you evidence"；tptacek 自己也承认，公开利用缺席时"论坛必然被 truther 之争主宰"——这恰是该帖作者警示过的 LLM 证据污染的延伸（[HN 讨论](https://news.ycombinator.com/item?id=50188948)）。 |
+
+**kevin_kelly 视角：** 昨日我们把本帖作者的反证并置入头条并设了两个证伪条件，今日证据更新：条件一"原生实例利用被独立复现"未达成——tptacek 声称存在但未公开，AWS 蜜罐探测是否成功未证实；新增事实是 10-17 即有探测行为，说明泄露链在正式披露前已小范围流动。基线不下修（无论 exploit 真伪，"AI 发现 → 协同修复"管道已端到端跑通），但本事件新增一条长期判断（置信 70）：LLM 生成的"证据"正在污染漏洞情报生态，可信漏洞情报将向具备实测蜜罐与遥测的运营方集中——这是"知化"在安全行业的阴面：生成成本趋零后，验证与署名成为唯一稀缺。
+
+## 值得一读（4-6 条）
+
+### 3. Quad9 败诉后退出法国：法院把 DNS 变成内容执法工具，非营利安全基础设施选择不玩了
+
+| 原文 | [Quad9 (DNS Resolver) to Exit France](https://quad9.net/news/blog/au-revoir-france/) |
+| --- | --- |
+| 热度 | ▲ 904 · 💬 332 · 作者 farrokhi · 2026-10-22 14:32 UTC |
+| 摘要 | 法国法院就卡塔尔 beIN 集团体育版权侵权域名案判 Quad9 败诉，要求其对法国用户阻断一组域名的递归解析，罚款由 €580,000/天降至 €1,000/天（阻断义务至 11-14，罚金累计约 €24,000）。这家瑞士公益基金会宣布 11-24 起整体停止服务法国用户：其服务免费、无需注册、不留用户档案，无法可靠映射用户司法辖区；除 beIN 案外另有 20 起类似案件在途，"无法承受累积处罚"。Quad9 强调不纵容盗版，但认为执法应指向内容源头，而非把中立递归解析层变成过滤工具。 |
+| 批注（kevin_kelly 视角） | 这是信任层清算的第二前线：eMudhra 是内生弱键被验证工具击穿，Quad9 是外部法律穿透中立层——法院把内容执法成本强加给不持有用户身份的公共基础设施，其可行解只有两个：污染 DNS 或退出辖区，演化后果是互联网公共品沿司法辖区碎片化、安全工具集缩小。非营利主体的"使命一致性"是这场清算中唯一可用的抗压资产，营利性替代者（1.1.1.1、8.8.8.8 背后的商业实体）在同样判决下的行为值得作为下一观察点。 |
+| 评论摘录 | 作者 johnhtodd（Quad9 CTO，正在与律师处理此案）解释：11-24 后很可能用 geoIP 整体屏蔽法国用户——同一技术本可用于选择性屏蔽被要求的域名，但那等于承认"DNS 是可被任意污染的"，"我们宁愿给用户一个清晰边界：你得到你预期的 DNS，否则我们不提供服务"；并指出这类要求会滑坡至道德、宗教、政治类过滤，"我们不会开始"（[HN 讨论](https://news.ycombinator.com/item?id=50195959)）。 |
+
+### 4. WorldTUI：360M 参数模型在浏览器里"长出"一个终端，背后没有 shell
+
+| 原文 | [WorldTUI: I trained a 360M model to pretend to be a terminal](https://simedw.com/2026/10/21/world-model-terminal/) |
+| --- | --- |
+| 热度 | ▲ 457 · 💬 148 · 作者 alphax314 · 2026-10-22 02:18 UTC |
+| 摘要 | 作者把 360M 参数模型（Qwen2.5-Coder-0.5B 微调）训练成"假装是终端"的世界模型：背后没有 shell 和文件系统，每次按键输入后由模型预测屏幕如何变化——重写哪几行、光标落在哪。终端被表示为字符网格 + 333 token 词表（256 字节 + 64 行 token + 少量操作），语法约束解码保证输出永远是合法屏幕更新；训练数据是在 Docker 里跑真实程序录制的 33.6 万集合成会话（约 2B token，基座模型预训练量约 18T token），关键改进是教会模型修复自己的错误与并行解码屏幕行。成品 208MB，可在支持 WebGPU 的浏览器里跑 vim、tmux、贪吃蛇，能容忍 1.2% 错字率并隔数条命令记住此前输入。 |
+| 批注（kevin_kelly 视角） | 作者自己说出了方向："应用不是写出来的，是学出来的"——Genie 3 级世界模型的承诺被压缩到 208MB 浏览器 demo。用 12 筛子过滤：形成、知化、重混三重匹配，这是世界模型品类的萌芽证据；玩具级算力（360M）就能维持世界一致性，说明瓶颈已不在架构可行性而在数据——而作者示范的合成数据配方恰恰攻的就是这一环。5 年判断（置信 65）：字符网格这类低带宽世界将最先被模型接管，像素级游戏世界在其后；这属于 5 年级萌芽趋势，不是短期可交易事件。 |
+
+### 5. o(n log n) 整数乘法论文：n log n 界的首次严格改进，Lean 形式化由社区自组织收尾
+
+| 原文 | [The recently proposed o(n log n) integer multiplication algorithm [pdf]](https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf) |
+| --- | --- |
+| 热度 | ▲ 285 · 💬 240 · 作者 craigcitro · 2026-10-22 02:30 UTC |
+| 摘要 | UNSW 数学家 David Harvey 放出论文：新近提出的整数乘法算法实现 o(n log n)（little-o，严格优于 2019 年 Harvey–van der Hoeven 的 O(n log n) 上界），是该领域数十年竞速中对 n log n 界的首次改进。评论区确认形式化已在进行：作者 jdb1729 与 platypii 已在 Mathlib 的 TM2 机器上完成 Lean 全形式化，指数当前推进到 1−2^−14.38（仓库 integer-mult-bounds-lean）；同时项目网站要求登录才能查看证明、campaign 标记"完成"但其依赖里程碑仍开放，遭到社区批评。 |
+| 批注（kevin_kelly 视角） | 与 10 月数学职业震荡簇（Terry Tao"我们做这些究竟为了什么"、Simons 基金会 $15M 助数学家适应 AI 时代）直接呼应——评论区就是那场焦虑的现场：从"为什么有人免费给 AI 项目做贡献"到"这是把 AI 灌进数学"的互呛。但真正重要的信号是 Lean 形式化由社区自组织完成：数学的"验证层"正在开源化、AI 化，职业稀缺性继续向"提出正确问题"一端迁移（置信 70）。突破本身是长期确定方向的又一实证，影响体现在 10 年级的数学实践重构，不是可交易事件。 |
+| 评论摘录 | 作者 jdb1729 证实结果已在 Lean/Mathlib TM2 机器上全形式化、欢迎贡献；围绕"该证明为何要登录才能看"的批评与"未付费者为何给 AI 项目做贡献"的对线并列成为当日评论区一景（[HN 讨论](https://news.ycombinator.com/item?id=50190455)）。 |
+
+### 6. ns2jb：Codex 经 KVM 闭回路自主越狱 Switch 2，首个纯软件系留越狱
+
+| 原文 | [Jailbreaking the Switch 2](https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/) |
+| --- | --- |
+| 热度 | ▲ 572 · 💬 206 · 作者 ledoge · 2026-10-22 08:01 UTC |
+| 摘要 | ns2jb 是首个 Switch 2（固件 23.0.1）纯软件系留越狱：以普通 sysmodule 及 fs sysmodule 权限运行原生代码，可跑自制软件、改游戏、备份存档、经 MMIO 访问大部分外设。流程本身是方法论展示：作者用 JetKVM 让 Codex 收看 HDMI 输出、经 USB 发手柄输入，蓝牙智能开关负责死机后按电源键，Codex 自主在实机上摸索约两周完成；WebKit n-day 路线被 XOM/PAC/CFI 三重缓解挡住后，改走"游戏内嵌浏览器"的 Switch 1 兼容路线。演示项目 Mario Kart World 的 mod（加入 cinnamoroll 等角色）由 Codex 一天 vibe code 完成；作者澄清封面上"让 Codex 越狱不许犯错"的 prompt 只是玩笑。 |
+| 批注 | "给 LLM 装上手臂和眼睛"的硬件在环范式第一次端到端跑通高价值目标——评论区多人晒出同类装置（USB4VC、NanoKVM、Intel AMT、VGA 采集卡 + 智能开关），说明这是可复制工作流而非孤例；agentic 能力越过屏幕进入物理攻击面，是昨日 agent 基础设施簇（LayerFS/GitHub agentic/Trail of Bits）的攻击侧镜像。 |
+| 评论摘录 | 作者 hturan 判断：若 fs 明文读写确认，数小时内就会出现游戏 dump，叠加重编译/反编译生态，主机独占游戏将可运行在任意硬件上——"对任天堂是最坏情形"；并指出该漏洞本可在 Nintendo HackerOne 拿走 $50,000 以上，"给 LLM 配上 KVM 后，这类硬件工作可 7×24 并行"（[HN 讨论](https://news.ycombinator.com/item?id=50192536)）。 |
+
+### 7. pwn.watch：实时安全事件仪表盘，第一读者已经是 agent
+
+| 原文 | [What's Getting Pwned](https://pwn.watch/) |
+| --- | --- |
+| 热度 | ▲ 311 · 💬 147 · 作者 mrkd · 2026-10-22 14:08 UTC |
+| 摘要 | pwn.watch 聚合"此刻正在被 pwn 的东西"及补丁状态：过去 12 个月收录 239 起，当前 40 起在野事件中 19 起关键漏洞未完全修复，"距上一起无事件：0 天"（最长静默记录 11 天，1 月 2-12 日）。每条事件提供"Copy brief for your AI"按钮，并以 JSON、RSS、llms.txt 全格式分发；站点由 Tinkerer Club 运营，赞助位标价 $149/月。 |
+| 批注（kevin_kelly 视角） | 安全信息的消费界面从"人读博客"转向"agent 读结构化简报"——llms.txt + 一键复制简报意味着分发层已 agent 化，这是安全媒体 agent 化的最早商业样本之一；其价值在分发而非情报源，与 NVIDIA OpenShell、OpenAI CLI 同日构成 agent 工具链的连续断面。 |
+
+### 8. OpenAI CLI：官方 REST API 命令行，与 Codex CLI 明确分工
+
+| 原文 | [OpenAI CLI](https://github.com/openai/openai-cli) |
+| --- | --- |
+| 热度 | ▲ 224 · 💬 108 · 作者 armcat · 2026-10-22 05:23 UTC |
+| 摘要 | OpenAI 开源官方 REST API 命令行工具（Go 编写）：openai 用于调用具体 API、把 API 操作写进脚本，编码 agent 的活归 Codex CLI（codex）。支持图像生成、文件上传/检索、批处理提交与等待全流程命令，提供 --format jsonl 等管道友好输出，Homebrew（openai/tools/openai）与 go install 双通道分发。 |
+| 批注 | API 操作面进终端是"流动+屏读"的自然延伸；与 NVIDIA OpenShell 同日上榜——API CLI 管"调用"、OpenShell 管"隔离"，agent 工具链的 shell 层正在成形。 |
+
+## 技术雷达（2-3 条）
+
+### 9. NVIDIA OpenShell：以策略文件管住 agent 舰队的文件、密钥与网络边界
+
+| 原文 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) |
+| --- | --- |
+| 热度 | ▲ 73 · 💬 35 · 作者 niemandhier · 2026-10-22 17:44 UTC |
+| 摘要 | NVIDIA 开源 OpenShell：面向自主 AI agent 舰队的"安全私密运行时"。以策略声明每个 agent 可触碰的文件、安装的包、可调用的 API 与密钥、可达的网络，运行时强制执行隔离；仓库含 Rust crates、Python SDK、策略与治理文档，0.1.x 已有稳定发布节奏、新增隔离原语与扩展面。 |
+| 批注（kevin_kelly 视角） | 昨日雷达三条都指向"agent 改代码"，OpenShell 补上"agent 跑代码"的信任执行环节；NVIDIA 亲自下场开源，说明该层被视为生态基础设施而非产品差异点。用 12 筛子过滤：形成、知化、重混三重匹配，属 5 年级萌芽趋势，不是短期热点；验证点是其策略模型能否在真实异构工作负载上被第三方采用（置信 60）。 |
+
+### 10. Google 在芬兰抢跑推平 300 公顷森林建数据中心，监管机构要说法
+
+| 原文 | [Google cleared 300 hectares of Finnish forest for a data center](https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html) |
+| --- | --- |
+| 热度 | ▲ 114 · 💬 68 · 作者 wetwater · 2026-10-22 15:32 UTC |
+| 摘要 | 芬兰许可与监督机构 LVV 就此质询 Google 本地公司 Tuike Finland Oy：在 €130 亿 AI 基建投资的环评完成前，约 300 公顷森林（约 420 个足球场）已被推平，工程存在被叫停风险。Google 称清理完全合规、动工前已勘测且不存在高价值生态区；芬兰自然协会会长 Hanna Halmeenpää 称卫星影像显示应受保护区域已被推平，要求叫停整个工地以查清是否未批先伐。 |
+| 批注 | AI 算力的物理足迹开始与主权、环保监管正面相撞：欧洲以"€130 亿 + 本土森林"承接算力转移，代价是政治摩擦；数据中心正从工程问题变成许可政治问题，工期与许可风险应计入一切算力扩张叙事。 |
+
+### 11. The Last Museum：跨主流博物馆 580 万件艺术品的语义搜索
+
+| 原文 | [The Last Museum](https://lastmuseum.com/) |
+| --- | --- |
+| 热度 | ▲ 99 · 💬 28 · 作者 surprisetalk · 2026-10-22 12:40 UTC |
+| 摘要 | 未能抓取正文（站点连接失败）。按标题自述，该站提供跨多家主流博物馆 580 万件艺术品的语义搜索。 |
+| 批注 | 若检索体验成立，这是"知化"从商业数据渗入公共文化的样本；正文未核验，暂列观察项，待下期回访。 |
+
+## 社区之声（1-2 条）
+
+### 12. 冒名 Cash App 账户让无辜者面临六年监禁：自动化欺诈归责的责任真空以刑事形态见报
+
+| 原文 | [Woman faces six years in prison over Cash App account she never opened](https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html) |
+| --- | --- |
+| 热度 | ▲ 260 · 💬 261 · 作者 oidar · 2026-10-22 13:11 UTC |
+| 摘要 | 404 Media 报道：Amanda Smith 4 月在宾州家中被持逮捕令的警察带走，在当地监狱关了三晚，随后被押至千里之外的阿肯色州出庭并追加 $20,000 保释金——一切源于诈骗者用她的 SSN 与出生日期开通的 Cash App 账户收了 $1,000 赃款，她本人从未用过 Cash App。她向 Cash App 索要账户信息遭拒（"无法证明你是账户所有者"），最终靠案件证据开示才拿到数据，如今面临最高六年监禁（计算机欺诈、非法使用通信设备、盗窃罪）。 |
+| 批注（kevin_kelly 视角） | 平台用"所有权证明"挡回无辜者、司法系统把自证清白的负担压给被告——当身份被冒用的成本可以零摩擦转嫁给被冒用者，"默认信任身份声明"的代价就不再由平台承担。与 eMudhra 弱键事件同构：身份层的假设从未被验证，出事时由链条末端的个人买单；这是"追踪+知化"阴面的极端样本，与 Cash App 此前 $45M 欺诈和解同向。 |
+| 评论摘录 | 未能抓取评论（未抓取该条 HN 评论页）。 |
+
+### 13. Xbox 拟对已购游戏的云串流按小时收费 24-40 美分：所有权话语再度点燃
+
+| 原文 | [Xbox wants you to pay 24 to 40 cents per hour to stream games you already bought](https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/) |
+| --- | --- |
+| 热度 | ▲ 88 · 💬 128 · 作者 entryleveljobsc · 2026-10-22 11:42 UTC |
+| 摘要 | 正文未能抓取（Ars Technica 付费墙）；已核验 HN 评论页：微软拟对已购游戏的云串流按小时收取 24-40 美分，本地游玩不变。评论区两派：作者 paxy 认为"这是租 GPU 的钱，与 GeForce Now 同类，对不愿花数千美元装机、每周只玩 10-20 小时的人是实惠"；作者 swiftcoder 指出微软自己经 Game Pass 把串流做成了订阅内含项，如今变成"买了硬件和 $60+ 的游戏，还要按小时付费才能在平板上玩"。 |
+| 评论摘录 | 作者 asdff 一句"这就是现代游戏方向的完美注脚，人们对它斯德哥尔摩综合征却不会离开"获大量附和；作者 buran77 回溯街机时代："你付费、使用、但永不拥有——大厂相信中间那几十年开放计算生态是一场错误"；作者 overfeed 反驳"人们通常不离开，直到堤坝决口"，并以 PS4 靠游戏共享争议翻盘为例（[HN 讨论](https://news.ycombinator.com/item?id=50194009)）。 |
+
+## 数据速览（今日 Top10 全量快照）
+
+（本节 Top10 表格由发布流程从冻结快照注入，不手写。）
+
+**第 3 棒核对提示：** 注入位就绪。已知口径差异——头条 1/2 等条目在 HN 实时页的分数高于冻结快照（如 eMudhra 退出帖实时约 889/607 vs 快照 861/594，noexploit 帖实时约 608/437 vs 快照 604/420），正文统一采用 query_raw_items 快照值；数据速览注入时如与正文数值不一致，以注入快照为准并保留此注。另：Phoronix（LKML 误发漏洞帖 ▲228）与 Ars Technica（Xbox、Tesla Q3 利润 -43% ▲81）正文均受付费墙/403 限制未能抓取，未列入深读条目。

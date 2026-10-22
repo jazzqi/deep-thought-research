@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-22T23:38:40.146784+00:00",
+  "window": {
+    "after": "2026-10-22T00:00:00+00:00",
+    "before": "2026-10-23T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "505606",
+      "title": "Quad9 (DNS Resolver) to Exit France",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "author": "farrokhi",
+      "points": 904,
+      "comments": 332,
+      "published_at": "2026-10-22T14:32:38+00:00"
+    },
+    {
+      "id": "505378",
+      "title": "eMudhra to Exit Global SSL/TLS Certificate Business",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "author": "bo0tzz",
+      "points": 861,
+      "comments": 594,
+      "published_at": "2026-10-22T13:33:39+00:00"
+    },
+    {
+      "id": "504838",
+      "title": "Jailbreaking the Switch 2",
+      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+      "author": "ledoge",
+      "points": 572,
+      "comments": 206,
+      "published_at": "2026-10-22T08:01:52+00:00"
+    },
+    {
+      "id": "503030",
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "author": "alphax314",
+      "points": 457,
+      "comments": 148,
+      "published_at": "2026-10-22T02:18:41+00:00"
+    },
+    {
+      "id": "504147",
+      "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
+      "author": "keks24",
+      "points": 327,
+      "comments": 114,
+      "published_at": "2026-10-22T08:51:31+00:00"
+    },
+    {
+      "id": "505541",
+      "title": "What's Getting Pwned",
+      "url": "https://pwn.watch/",
+      "author": "mrkd",
+      "points": 311,
+      "comments": 147,
+      "published_at": "2026-10-22T14:08:12+00:00"
+    },
+    {
+      "id": "502716",
+      "title": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
+      "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
+      "author": "craigcitro",
+      "points": 285,
+      "comments": 240,
+      "published_at": "2026-10-22T02:30:52+00:00"
+    },
+    {
+      "id": "505259",
+      "title": "Woman faces six years in prison over Cash App account she never opened",
+      "url": "https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
+      "author": "oidar",
+      "points": 260,
+      "comments": 261,
+      "published_at": "2026-10-22T13:11:00+00:00"
+    },
+    {
+      "id": "505051",
+      "title": "Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure",
+      "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+      "author": "cubefox",
+      "points": 238,
+      "comments": 86,
+      "published_at": "2026-10-22T11:50:36+00:00"
+    },
+    {
+      "id": "504873",
+      "title": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
+      "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
+      "author": "mrkn1",
+      "points": 228,
+      "comments": 80,
+      "published_at": "2026-10-22T11:12:37+00:00"
+    },
+    {
+      "id": "503216",
+      "title": "OpenAI CLI",
+      "url": "https://github.com/openai/openai-cli",
+      "author": "armcat",
+      "points": 224,
+      "comments": 108,
+      "published_at": "2026-10-22T05:23:11+00:00"
+    },
+    {
+      "id": "502669",
+      "title": "Epic vs. Apple AU:Court Orders Alt App Stores,Sideloading and 3rd Party Payments",
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2026/2026fca1552",
+      "author": "Mayzie",
+      "points": 173,
+      "comments": 129,
+      "published_at": "2026-10-22T01:52:03+00:00"
+    },
+    {
+      "id": "505432",
+      "title": "Crystal 1.22.0 Is Released",
+      "url": "https://crystal-lang.org/2026/10/12/1.22.0-released/",
+      "author": "ksec",
+      "points": 166,
+      "comments": 85,
+      "published_at": "2026-10-22T13:20:13+00:00"
+    },
+    {
+      "id": "504555",
+      "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
+      "url": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
+      "author": "molind",
+      "points": 165,
+      "comments": 33,
+      "published_at": "2026-10-22T09:31:18+00:00"
+    },
+    {
+      "id": "506258",
+      "title": "Jared Kushner Hacked Phone Reveals Secret Negotiations, Millions in Transactions",
+      "url": "https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations",
+      "author": "ck2",
+      "points": 129,
+      "comments": 40,
+      "published_at": "2026-10-22T21:24:41+00:00"
+    },
+    {
+      "id": "505736",
+      "title": "Google cleared 300 hectares of Finnish forest",
+      "url": "https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html",
+      "author": "wetwater",
+      "points": 114,
+      "comments": 68,
+      "published_at": "2026-10-22T15:32:46+00:00"
+    },
+    {
+      "id": "505261",
+      "title": "eMudhra to Exit Global SSL/TLS Certificate Business;",
+      "url": "https://news.ycombinator.com/item?id=50194909",
+      "author": "parimm",
+      "points": 104,
+      "comments": 2,
+      "published_at": "2026-10-22T13:17:29+00:00"
+    },
+    {
+      "id": "505578",
+      "title": "The Last Museum: Semantic search across 5.8M artworks from major museums",
+      "url": "https://lastmuseum.com/",
+      "author": "surprisetalk",
+      "points": 99,
+      "comments": 28,
+      "published_at": "2026-10-22T12:40:04+00:00"
+    },
+    {
+      "id": "504820",
+      "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
+      "url": "https://news.ycombinator.com/item?id=50193416",
+      "author": "petecooper",
+      "points": 91,
+      "comments": 16,
+      "published_at": "2026-10-22T10:11:44+00:00"
+    },
+    {
+      "id": "505050",
+      "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
+      "url": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
+      "author": "entryleveljobsc",
+      "points": 88,
+      "comments": 128,
+      "published_at": "2026-10-22T11:42:03+00:00"
+    },
+    {
+      "id": "503471",
+      "title": "Claude Now Works with Google Docs, Sheets, and Slides",
+      "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+      "author": "gmays",
+      "points": 83,
+      "comments": 10,
+      "published_at": "2026-10-22T02:17:58+00:00"
+    },
+    {
+      "id": "502634",
+      "title": "Tesla profits drop 43% in Q3",
+      "url": "https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/",
+      "author": "throw0101a",
+      "points": 81,
+      "comments": 51,
+      "published_at": "2026-10-22T01:02:23+00:00"
+    },
+    {
+      "id": "505764",
+      "title": "Show HN: Run full iOS 16.5 firmware on Android Devices",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+      "author": "aghuang",
+      "points": 73,
+      "comments": 30,
+      "published_at": "2026-10-22T15:26:22+00:00"
+    },
+    {
+      "id": "505978",
+      "title": "Nvidia OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "author": "niemandhier",
+      "points": 73,
+      "comments": 35,
+      "published_at": "2026-10-22T17:44:06+00:00"
+    },
+    {
+      "id": "505735",
+      "title": "MPs moving to restrict gambling ads in Canada amid mounting harms",
+      "url": "https://www.cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888",
+      "author": "Teever",
+      "points": 71,
+      "comments": 17,
+      "published_at": "2026-10-22T14:26:40+00:00"
+    },
+    {
+      "id": "506097",
+      "title": "eMudhra logins can be bruteforced",
+      "url": "https://mastodon.catgirl.cloud/@49016/117475976434068995",
+      "author": "tensegrist",
+      "points": 68,
+      "comments": 13,
+      "published_at": "2026-10-22T19:14:01+00:00"
+    },
+    {
+      "id": "502991",
+      "title": "I can't believe PowerShell is good",
+      "url": "https://www.spacebar.news/powershell-is-actually-good/",
+      "author": "corbindavenport",
+      "points": 64,
+      "comments": 75,
+      "published_at": "2026-10-22T03:47:37+00:00"
+    },
+    {
+      "id": "503704",
+      "title": "A Markdown File Should Just Open",
+      "url": "https://joshuamorris.info/notes/2026/10/13/a-markdown-file-should-just-open/",
+      "author": "TheWoollyBully",
+      "points": 62,
+      "comments": 75,
+      "published_at": "2026-10-22T07:21:52+00:00"
+    },
+    {
+      "id": "504379",
+      "title": "Achieving AI-style reasoning without an LLM",
+      "url": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/",
+      "author": "edwardchalk",
+      "points": 44,
+      "comments": 31,
+      "published_at": "2026-10-22T08:46:58+00:00"
+    },
+    {
+      "id": "505830",
+      "title": "Arc Is Sunsetting",
+      "url": "https://arc.net/",
+      "author": "suhdonghwi",
+      "points": 44,
+      "comments": 27,
+      "published_at": "2026-10-22T16:27:47+00:00"
+    },
+    {
+      "id": "506083",
+      "title": "Hedra is a 3D open world game I wrote from scratch while in highschool",
+      "url": "https://github.com/maxilevi/project-hedra/tree/pre-ai",
+      "author": "maxilevi",
+      "points": 42,
+      "comments": 9,
+      "published_at": "2026-10-22T18:44:36+00:00"
+    },
+    {
+      "id": "505874",
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "author": "rakannimer",
+      "points": 41,
+      "comments": 64,
+      "published_at": "2026-10-22T16:08:00+00:00"
+    },
+    {
+      "id": "505691",
+      "title": "SBD: We Have a Filesystem at Home",
+      "url": "https://fly.io/blog/sprites-block-device/",
+      "author": "torutofu",
+      "points": 40,
+      "comments": 28,
+      "published_at": "2026-10-22T13:09:33+00:00"
+    },
+    {
+      "id": "505653",
+      "title": "'Pure arrogance': anger in Finland as Google illegally fells 250k trees",
+      "url": "https://www.theguardian.com/environment/ng-interactive/2026/oct/22/finland-google-felling-trees-datacentre",
+      "author": "Symbiote",
+      "points": 38,
+      "comments": 4,
+      "published_at": "2026-10-22T12:17:26+00:00"
+    },
+    {
+      "id": "505802",
+      "title": "Where Wealth Is Moving in America",
+      "url": "https://thestatedtruth.com/?p=28732",
+      "author": "hihetej",
+      "points": 35,
+      "comments": 56,
+      "published_at": "2026-10-22T16:22:31+00:00"
+    },
+    {
+      "id": "506082",
+      "title": "Show HN: UI micro interactions prompts for AI",
+      "url": "https://www.typeui.sh/micro-interactions",
+      "author": "elwingo1",
+      "points": 34,
+      "comments": 15,
+      "published_at": "2026-10-22T18:32:57+00:00"
+    },
+    {
+      "id": "502534",
+      "title": "The era of speedball capitalism has dawned",
+      "url": "https://www.economist.com/business/2026/09/30/the-era-of-speedball-capitalism-has-dawned",
+      "author": "mikhael",
+      "points": 32,
+      "comments": 19,
+      "published_at": "2026-10-22T00:48:10+00:00"
+    },
+    {
+      "id": "502925",
+      "title": "LLM agents play Pokemon showdown",
+      "url": "https://olivergrabner.com/research/pokemon/",
+      "author": "grabnero",
+      "points": 31,
+      "comments": 17,
+      "published_at": "2026-10-22T02:13:48+00:00"
+    },
+    {
+      "id": "506081",
+      "title": "AI and the Enclosure of the Scientific Commons",
+      "url": "https://arxiv.org/abs/2610.27251",
+      "author": "jrepinc",
+      "points": 30,
+      "comments": 8,
+      "published_at": "2026-10-22T18:28:16+00:00"
+    },
+    {
+      "id": "503029",
+      "title": "Data centers could erase decades of air quality gains",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
+      "author": "cdrnsf",
+      "points": 29,
+      "comments": 1,
+      "published_at": "2026-10-22T01:28:14+00:00"
+    },
+    {
+      "id": "505540",
+      "title": "I own a relatively new (2025) Samsung TV. I kept getting weirdly targeted ads",
+      "url": "https://twitter.com/log4j/status/2113014142600953868",
+      "author": "MrBuddyCasino",
+      "points": 29,
+      "comments": 7,
+      "published_at": "2026-10-22T10:40:33+00:00"
+    },
+    {
+      "id": "506223",
+      "title": "Arc is being sunset on December 22, 2026",
+      "url": "https://resources.arc.net/hc/en-us/articles/20498285812375-Release-Notes",
+      "author": "saharshpruthi",
+      "points": 28,
+      "comments": 2,
+      "published_at": "2026-10-22T20:59:38+00:00"
+    },
+    {
+      "id": "506272",
+      "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+      "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+      "author": "karakoram",
+      "points": 26,
+      "comments": 14,
+      "published_at": "2026-10-22T20:51:23+00:00"
+    },
+    {
+      "id": "505843",
+      "title": "Getting ready to operate GNU Taler in Germany",
+      "url": "https://www.taler.net/en/news/2026-13.html",
+      "author": "dewey",
+      "points": 25,
+      "comments": 1,
+      "published_at": "2026-10-22T16:14:31+00:00"
+    },
+    {
+      "id": "506123",
+      "title": "Mini brain organoids 'reading' Braille key step towards biohybrid computing",
+      "url": "https://www.frontiersin.org/news/2026/10/16/mini-brain-organoids-reading-braille-biohybrid-computing-frontiers-artificial-intelligence",
+      "author": "CharlesW",
+      "points": 25,
+      "comments": 17,
+      "published_at": "2026-10-22T16:16:45+00:00"
+    },
+    {
+      "id": "506244",
+      "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "url": "https://news.ycombinator.com/item?id=50200997",
+      "author": "ex-aws-dude",
+      "points": 25,
+      "comments": 18,
+      "published_at": "2026-10-22T21:03:55+00:00"
+    },
+    {
+      "id": "506019",
+      "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+      "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+      "author": "brandonb",
+      "points": 24,
+      "comments": 11,
+      "published_at": "2026-10-22T18:02:54+00:00"
+    },
+    {
+      "id": "506096",
+      "title": "United Airlines CEO Calls for National Wealth Tax",
+      "url": "https://firstformoney.com/united-airlines-ceo-calls-for-national-wealth-tax-inheritance-tax-i-would-pay-them/",
+      "author": "measurablefunc",
+      "points": 24,
+      "comments": 12,
+      "published_at": "2026-10-22T18:31:35+00:00"
+    },
+    {
+      "id": "506329",
+      "title": "Railpass",
+      "url": "https://train.samismith.com/",
+      "author": "CharlesW",
+      "points": 24,
+      "comments": 6,
+      "published_at": "2026-10-22T21:38:32+00:00"
+    },
+    {
+      "id": "505430",
+      "title": "Cloudflare is rewriting everything in Rust",
+      "url": "https://kerkour.com/rust-at-cloudflare",
+      "author": "tonyedgecombe",
+      "points": 23,
+      "comments": 3,
+      "published_at": "2026-10-22T09:04:57+00:00"
+    },
+    {
+      "id": "505431",
+      "title": "\"Flying Tesla is just another Lie\" [TopCars TV] [video]",
+      "url": "https://www.youtube.com/watch?v=SY6OhPs3ltM",
+      "author": "Kevin_Flynn",
+      "points": 23,
+      "comments": 6,
+      "published_at": "2026-10-22T11:50:00+00:00"
+    },
+    {
+      "id": "505763",
+      "title": "Meta strikes deal with Zuckerberg to protect him from California wealth tax",
+      "url": "https://www.theguardian.com/technology/2026/oct/22/meta-mark-zuckerberg-california-wealth-tax",
+      "author": "samizdis",
+      "points": 23,
+      "comments": 30,
+      "published_at": "2026-10-22T10:40:46+00:00"
+    },
+    {
+      "id": "505873",
+      "title": "Important updates to AI use on Etsy",
+      "url": "https://www.etsy.com/seller-handbook/article/1522733284810",
+      "author": "bdcravens",
+      "points": 23,
+      "comments": 1,
+      "published_at": "2026-10-22T15:18:17+00:00"
+    },
+    {
+      "id": "506191",
+      "title": "Iceye and Nokia partner with Ukraine to develop satcom capability",
+      "url": "https://www.iceye.com/newsroom/press-releases/iceye-and-nokia-partner-with-the-ministry-of-defence-of-ukraine-to-develop-sovereign-satcom-capability",
+      "author": "cl-coder",
+      "points": 23,
+      "comments": 0,
+      "published_at": "2026-10-22T18:09:10+00:00"
+    },
+    {
+      "id": "506222",
+      "title": "It's Time to Take Starlink Away from Elon Musk",
+      "url": "https://paulkrugman.substack.com/p/its-time-to-take-starlink-away-from",
+      "author": "martythemaniak",
+      "points": 23,
+      "comments": 10,
+      "published_at": "2026-10-22T18:21:55+00:00"
+    },
+    {
+      "id": "506192",
+      "title": "Mark Zuckerberg Threatened to Leave California. Meta's Board Cut Him a Deal",
+      "url": "https://www.wsj.com/business/mark-zuckerberg-discussed-leaving-california-over-wealth-tax-21b0b522",
+      "author": "otterley",
+      "points": 21,
+      "comments": 24,
+      "published_at": "2026-10-22T18:32:19+00:00"
+    },
+    {
+      "id": "506257",
+      "title": "Show HN: agent-usage-guard – a Claude Code mod to protect your usage window",
+      "url": "https://github.com/rbartoli/agent-usage-guard",
+      "author": "zzyyxx332211",
+      "points": 20,
+      "comments": 7,
+      "published_at": "2026-10-22T18:02:38+00:00"
+    },
+    {
+      "id": "506304",
+      "title": "今天（23 日），工业和信息化部发布 2026 年 1—9 月全国船舶工业统计数据，造船业三大指标持续全球领跑，中国造船继续占据全球市场主导地位。",
+      "url": "https://t.me/Financial_Express/3559015",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:10:49+00:00"
+    },
+    {
+      "id": "506305",
+      "title": "全球超八成新船订单涌向中国",
+      "url": "https://t.me/Financial_Express/3559016",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:11:02+00:00"
+    },
+    {
+      "id": "506306",
+      "title": "全球超八成新船订单涌向中国",
+      "url": "https://t.me/Financial_Express/3559017",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:12:02+00:00"
+    },
+    {
+      "id": "506307",
+      "title": "LNG 液化天然气运输船代表造船行业顶尖难度，全球最大 27.1 万立方米 LNG 船订单，沪东中华一口气拿下 24 艘，订单交付期排到 2031 年。",
+      "url": "https://t.me/Financial_Express/3559018",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:13:02+00:00"
+    },
+    {
+      "id": "506308",
+      "title": "西部战区空军 1 架无人机飞赴那曲震区进行勘察",
+      "url": "https://t.me/Financial_Express/3559019",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:13:22+00:00"
+    },
+    {
+      "id": "506309",
+      "title": "SK 海力士取消旗下 Solidigm 赴美上市计划，监管审查与股东反对成阻力",
+      "url": "https://t.me/Financial_Express/3559020",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:13:42+00:00"
+    },
+    {
+      "id": "506310",
+      "title": "印尼塞梅鲁火山喷发 灰柱高约 1200 米",
+      "url": "https://t.me/Financial_Express/3559021",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:13:42+00:00"
+    },
+    {
+      "id": "506311",
+      "title": "当地时间 10 月 22 日，OpenAI 宣布正式全面开放决策 API，由 GPT-6Luna 提供支持。定价方面，决策 API 输入每百万 token 收费 0.10 美元，缓存输入每百万 token 收费 0.01 美元。在整个 Op",
+      "url": "https://t.me/Financial_Express/3559022",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:14:24+00:00"
+    },
+    {
+      "id": "506312",
+      "title": "选择出售而非扩张的英国创业者数量达到八年来最高点",
+      "url": "https://t.me/Financial_Express/3559023",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:14:42+00:00"
+    },
+    {
+      "id": "506313",
+      "title": "私募策略分化 CTA 策略今年以来平均收益近 9%",
+      "url": "https://t.me/Financial_Express/3559024",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:16:02+00:00"
+    },
+    {
+      "id": "506314",
+      "title": "可转债风险收益比改善 基金调仓布局结构性机会",
+      "url": "https://t.me/Financial_Express/3559025",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:18:22+00:00"
+    },
+    {
+      "id": "506315",
+      "title": "锂矿企业三季报业绩高增背后隐现预期分歧",
+      "url": "https://t.me/Financial_Express/3559026",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:18:23+00:00"
+    },
+    {
+      "id": "506316",
+      "title": "境外资产配置成“卖点” 保险业“开门红”换新打法",
+      "url": "https://t.me/Financial_Express/3559027",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:18:42+00:00"
+    },
+    {
+      "id": "506317",
+      "title": "2026 年西太平洋海军论坛医学研讨会在上海举办",
+      "url": "https://t.me/Financial_Express/3559028",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:19:02+00:00"
+    },
+    {
+      "id": "506318",
+      "title": "特步国际第三季度主品牌零售销售增长取得中单位数同比下跌",
+      "url": "https://t.me/Financial_Express/3559029",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:21:02+00:00"
+    },
+    {
+      "id": "506319",
+      "title": "SPACEX 公司表示，由于天气原因，将取消星链发射计划。",
+      "url": "https://t.me/Financial_Express/3559030",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:21:22+00:00"
+    },
+    {
+      "id": "506320",
+      "title": "SPACEX 表示，下一次星链发射机会将在 10 月 23 日。",
+      "url": "https://t.me/Financial_Express/3559031",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:21:22+00:00"
+    },
+    {
+      "id": "506321",
+      "title": "SpaceX 表示，因天气原因取消本次星链发射，下一个星链发射窗口为 10 月 23 日。",
+      "url": "https://t.me/Financial_Express/3559032",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:23:18+00:00"
+    },
+    {
+      "id": "506322",
+      "title": "由于天气原因，SpaceX 推迟了星链发射",
+      "url": "https://t.me/Financial_Express/3559033",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:24:02+00:00"
+    },
+    {
+      "id": "506323",
+      "title": "香港新引进 18 家重点企业",
+      "url": "https://t.me/Financial_Express/3559034",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:24:22+00:00"
+    },
+    {
+      "id": "506324",
+      "title": "从那曲市抗震救灾指挥部了解到，截至 10 月 23 日 5 时 20 分，经进一步排查统计，西藏那曲巴青 7.0 级地震已造成 16 人遇难，46 人受伤，其中重伤 11 人、轻伤 35 人；房屋倒塌及受损情况 339 户；牲畜棚圈受损 2",
+      "url": "https://t.me/Financial_Express/3559036",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:25:16+00:00"
+    },
+    {
+      "id": "506325",
+      "title": "西藏 7 级地震余震统计，截至 10 月 23 日 07 时 00 分，共记录到余震 413 次，其中 3.0 级以下 393 次，3.0 级及以上 20 次：3.0-3.9 级 15 次，4.0-4.9 级 5 次，5.0 级及以上 0 ",
+      "url": "https://t.me/Financial_Express/3559037",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:25:22+00:00"
+    },
+    {
+      "id": "506326",
+      "title": "海博会“数智化”成焦点 多家大型央企与头部公司集中参展",
+      "url": "https://t.me/Financial_Express/3559039",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:26:22+00:00"
+    },
+    {
+      "id": "506327",
+      "title": "中小银行债券投资“攻守换防” 久期策略回归审慎",
+      "url": "https://t.me/Financial_Express/3559040",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:26:23+00:00"
+    },
+    {
+      "id": "506328",
+      "title": "行业维持高景气 船企生产交付忙",
+      "url": "https://t.me/Financial_Express/3559041",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:26:42+00:00"
+    },
+    {
+      "id": "506330",
+      "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
+      "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:16:16+00:00"
+    },
+    {
+      "id": "506331",
+      "title": "Surveillance and 'constant paranoia': Western diplomats tell BBC of life in war-time Moscow",
+      "url": "https://www.bbc.co.uk/news/articles/cj75p1xr7p7vo?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:16:20+00:00"
+    },
+    {
+      "id": "506332",
+      "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
+      "url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:22:45+00:00"
+    },
+    {
+      "id": "506333",
+      "title": "澳大利亚维多利亚州批准 7 亿澳元天然气项目",
+      "url": "https://t.me/Financial_Express/3559042",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:28:42+00:00"
+    },
+    {
+      "id": "506334",
+      "title": "日本 9 月 CPI(除生鲜食品)同比 2.1%，预期 2.1%，前值 1.7%。",
+      "url": "https://t.me/Financial_Express/3559043",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:30:03+00:00"
+    },
+    {
+      "id": "506335",
+      "title": "日本 9 月 CPI 同比 2.1%，预期 2.1%，前值 1.9%。",
+      "url": "https://t.me/Financial_Express/3559044",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:30:04+00:00"
+    },
+    {
+      "id": "506336",
+      "title": "日本 9 月 CPI(除生鲜食品及能源)同比 2.4%，预期 2.3%，前值 1.9%。",
+      "url": "https://t.me/Financial_Express/3559045",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:30:04+00:00"
+    },
+    {
+      "id": "506337",
+      "title": "日本 9 月全国 CPI 年率 2.1%，预期 2.10%，前值 1.90%。",
+      "url": "https://t.me/Financial_Express/3559046",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:30:22+00:00"
+    },
+    {
+      "id": "506338",
+      "title": "避险情绪卷土重来，纳指跌超 2%，10 年期美债收益率跌破 5%；黄金重挫，原油大涨。",
+      "url": "https://t.me/Financial_Express/3559047",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:30:22+00:00"
+    },
+    {
+      "id": "506339",
+      "title": "海南“向种图强” 新品种从实验室走向田间",
+      "url": "https://t.me/Financial_Express/3559048",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:30:23+00:00"
+    },
+    {
+      "id": "506340",
+      "title": "日本 9 月全国核心消费者物价指数(CPI)较上年同期上升 2.1%，调查预估为上升 2.1%。",
+      "url": "https://t.me/Financial_Express/3559049",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:30:42+00:00"
+    },
+    {
+      "id": "506341",
+      "title": "日本 9 月全国整体消费者物价指数(CPI)较上年同期上升 2.1%。日本全国核心、核心-核心和整体 CPI 均上涨超过 2%。",
+      "url": "https://t.me/Financial_Express/3559050",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:31:02+00:00"
+    },
+    {
+      "id": "506342",
+      "title": "中国地震台网正式测定",
+      "url": "https://t.me/Financial_Express/3559051",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:31:03+00:00"
+    },
+    {
+      "id": "506343",
+      "title": "日本核心-核心 CPI 涨幅超过 2%，为 3 月以来首次。",
+      "url": "https://t.me/Financial_Express/3559053",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:32:02+00:00"
+    },
+    {
+      "id": "506344",
+      "title": "日本整体消费者物价指数（CPI）涨幅超过 2%，为 2025 年 12 月以来首次。",
+      "url": "https://t.me/Financial_Express/3559054",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:32:22+00:00"
+    },
+    {
+      "id": "506345",
+      "title": "日本 9 月全国未季调 CPI 月率 0%，前值 0.1%。",
+      "url": "https://t.me/Financial_Express/3559055",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:32:42+00:00"
+    },
+    {
+      "id": "506346",
+      "title": "多只医药主题基金实现“业绩突围”",
+      "url": "https://t.me/Financial_Express/3559056",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:33:02+00:00"
+    },
+    {
+      "id": "506347",
+      "title": "多因素共振驱动煤炭板块走强 后市投资机构看好两类标的",
+      "url": "https://t.me/Financial_Express/3559057",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-22T23:33:03+00:00"
+    }
+  ]
+}
