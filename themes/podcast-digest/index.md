@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-10-14T07:22:48+08:00
-revision: 2026-10-14T07:22:48+08:00
+updated: 2026-10-22T08:27:31+08:00
+revision: 2026-10-22T08:27:31+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [世界最大数字银行正面进攻美国最古老银行体系 —— ILTB Podcast · 2026-10-13](./iltb/the-worlds-largest-digital-bank-taking-on-americas-biggest-f.md)
+- [AI 正在重估每一家软件公司 —— Christina Cacioppo（Vanta 创始人兼 CEO）· @ILTB_Podcast · 2026-10-20](./iltb/how-ai-is-repricing-every-software-company.md)
 
 ## 往期
 
+- [AI 正在重估每一家软件公司 —— Christina Cacioppo（Vanta 创始人兼 CEO）· @ILTB_Podcast · 2026-10-20](./iltb/how-ai-is-repricing-every-software-company.md)
 - [世界最大数字银行正面进攻美国最古老银行体系 —— ILTB Podcast · 2026-10-13](./iltb/the-worlds-largest-digital-bank-taking-on-americas-biggest-f.md)
 - [Is Claude Conscious? Pope Rejects, Model Welfare Movement, OpenAI's Math Backlash, France Riots —— All-In Podcast · 2026-10-10](./all-in/is-claude-conscious-pope-rejects-model-welfare-movement-open.md)
 - [Why Every AI Lab Will Become a Biotech Company —— Andrew Huberman · @ILTB_Podcast · 2026-10-06](./iltb/why-every-ai-lab-will-become-a-biotech-company-andrew-huberm.md)
