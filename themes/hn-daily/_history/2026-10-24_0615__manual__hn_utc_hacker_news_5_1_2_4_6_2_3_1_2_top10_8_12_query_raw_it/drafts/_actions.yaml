@@ -1,0 +1,6 @@
+actions:
+- priority: P3
+  recurrence: weekly
+  summary: 追踪 Kimi K3.1 Pro 上线后第三方实测成本（高啰嗦度对真实代理任务成本的放大倍数）及企业 API 迁移信号
+  target_flow_params: {}
+  type: monitoring
