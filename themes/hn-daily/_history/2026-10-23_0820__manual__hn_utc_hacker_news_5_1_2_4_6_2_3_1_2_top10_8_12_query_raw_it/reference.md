@@ -1,0 +1,28 @@
+- 10-22 UTC 窗口 HN 候选（hn_points≥20，59 条）: query_raw_items(source=hackernews, published_after=2026-10-22T00:00:00Z, published_before=2026-10-23T00:00:00Z, min_points=20) = 59 条含 eMudhra 退出[id:505378]、Quad9 退出法国[id:505606]、Switch 2 越狱[id:504838]、WorldTUI[id:503030] 等（详见各条 id）
+- Arc 停服（2026-12-22）: query_raw_items(source=hackernews, window 10-22)[id:506223] = Arc Release Notes 快照"Arc is being sunset on December 22, 2026"；主帖 [id:505830]▲222/💬201，正文 fetch_url(https://arc.net/) = 403 未能抓取
+- Epic v Apple 澳法院判决: query_raw_items(source=hackernews, window 10-22)[id:502669] = FCA 2026fca1552 判令 Apple 开放第三方应用商店/侧载/第三方支付，▲184/💬136
+- Anthropic 形式化验证: query_raw_items(source=hackernews, window 10-22)[id:506443] + fetch_url(https://www.anthropic.com/research/formal-verification) = Claude+Theorem 对 100+ 真实开源库完成 RISC-V 汇编级形式化证明，发现逃过数万亿次测试的旧 bug；seL4 形式化曾耗 20 人年
+- Guardian Google 芬兰砍树 25 万棵: query_raw_items(source=hackernews, window 10-22)[id:505653] = "'Pure arrogance': anger in Finland as Google illegally fells 250k trees"，▲38
+- 美国民调反 AI/数据中心: query_raw_items(source=hackernews, window 10-22)[id:506272] = ABC/Ipsos"Most Americans Say AI Is Bad for Society, Oppose More Data Centers"，▲26/💬14
+- eMudhra 登录可爆破: query_raw_items(source=hackernews, window 10-22)[id:506097] = Mastodon 快照"eMudhra logins can be bruteforced"，▲68
+- 财富税协议（未补入，线索）: query_raw_items(source=hackernews, window 10-22)[id:505763][id:506192] = Meta 与 Zuckerberg 加州财富税协议，Guardian▲34/WSJ▲21
+
+- Mistral Large 4 规格与基准（1T 参数/52B 激活、3800 块 Grace Blackwell、160+ 语言、Cyber Index 82%/Cybench 93%）: query_raw_items(source='hackernews', keyword='AI OR LLM OR model', published_after='2026-10-21')[id:501978] + fetch_url(https://mistral.ai/news/mistral-large-4/) = Mistral 公开预览 le Chonk，权重月底开放
+- ML4 与 DeepSeek 4.1 Flash 的视觉/编码/成本对比（约 10 倍成本）: fetch_url(https://news.ycombinator.com/item?id=50186129) 评论作者 Flux159 = 视觉优于 DS4.1 Flash、编码不及、OpenRouter 成本约 10 倍
+- 前帖热度参照（▲2044/1254 评论，15 天前公告帖）: fetch_url(https://news.ycombinator.com/item?id=50186129) 评论作者 yorwba = 指向 id 49977979 旧讨论
+- Claude Duet 产品定义（Opus 5.5 驱动、云端自有电脑、6000+ 连接器、美国 Pro/Max 候补）: query_raw_items(source='hackernews', keyword='AI OR LLM OR model', published_after='2026-10-21')[id:501713] + fetch_url(https://claude.com/product/claude-duet) = 主动代理研究预览
+- Claude Duet 评论主批评（UX 割裂、候补申请未与聊天整合）: fetch_url(https://news.ycombinator.com/item?id=50186037) 评论作者 TheAceOfHearts = 要求从 Claude 会话内直接申请候补
+- OpenAI CLI 功能与安装（Go、与 Codex CLI 分工、brew/go install）: query_raw_items(source='hackernews', keyword='AI OR LLM OR model', published_after='2026-10-21')[id:503216] + fetch_url(https://github.com/openai/openai-cli) = 官方 REST API CLI 开源
+- WorldTUI 360M 终端世界模型（Qwen2.5-Coder-0.5B 微调、333 token 词表、COPY 行操作、WebGPU 208MB）: query_raw_items(source='hackernews', keyword='AI OR LLM OR model', published_after='2026-10-21')[id:503030] + fetch_url(https://simedw.com/2026/10/21/world-model-terminal/) = 行级重写+并行解码+错误修复训练
+- Anthropic 形式化验证（123 库、RISC-V 汇编级、seL4 对照 20 人年）: query_raw_items(source='hackernews', keyword='AI OR LLM OR model', published_after='2026-10-21')[id:506443] + fetch_url(https://www.anthropic.com/research/formal-verification) = Claude 发现逃逸数万亿次测试的 bug
+- Google DeepMind 员工因军方合同辞职: query_raw_items(source='hackernews', keyword='AI OR LLM OR model', published_after='2026-10-21')[id:501748] + fetch_url(https://www.bbc.com/news/articles/cmreyvepnv0po) = Sofia Liguori 署名发声，Hegseth "AI-first warfighting force"
+- Meta 250 亿美元罚单（43,899,725 次违法认定）: query_raw_items(source='hackernews', keyword='AI OR LLM OR model', published_after='2026-10-21')[id:501928] + fetch_url(https://nmdoj.gov/press-release/...-25-billion-penalty-against-facebook/) = 新墨西哥州总检察长 Torrez 10-21 宣布
+- Meta Muse 分享对话泄露机密（仅元数据，正文抓取 405 失败）: query_raw_items(source='hackernews', keyword='Show HN', published_after='2026-10-21')[id:498710] = Ars Technica 报道，HN 高热
+- O(n log n) 整数乘法论文（正文 PDF 未能提取，仅标题信息）: query_raw_items(source='hackernews', keyword='AI OR LLM OR model', published_after='2026-10-21')[id:502716] = David Harvey (UNSW) PDF
+- Minotaur 无 LLM 推理架构（单核 0.25 秒/题、盲测自称匹配 LLM）: query_raw_items(source='hackernews', keyword='AI OR LLM OR model', published_after='2026-10-21')[id:504379] + fetch_url(https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/) = 作者自述，未独立核验
+- AI 与科学公地圈地论文: query_raw_items(source='hackernews', keyword='AI OR LLM OR model', published_after='2026-10-21')[id:506081] + fetch_url(https://arxiv.org/abs/2610.27251) = P.K.G. Williams，arXiv 2610.27251，10-19 提交
+- Ask HN 模型商业化讨论（五点高赞回复、OpenAI 杠杆之争）: query_raw_items(source='hackernews', keyword='AI OR LLM OR model', published_after='2026-10-21')[id:506244] + fetch_url(https://news.ycombinator.com/item?id=50200997) = 作者 CoolestBeans / nl / bigyabai
+- ABC/WaPo/Ipsos AI 民调（57% 有害、2/3 反数据中心、30 岁以下 65%）: query_raw_items(source='hackernews', keyword='AI OR LLM OR model', published_after='2026-10-21')[id:506272] + fetch_url(https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085) = 10-21 发布，KnowledgePanel
+
+- Quad9 退出法国（SREN 法域名封锁义务、beIN 版权案、罚款 58 万欧元/日降至 1000 欧元/日、11-24 退出、窗口最高分帖 ▲904/💬332）: query_raw_items(source=hackernews, window 10-22)[id:505606] = 公共加密 DNS 供应商整体退场，与 2026-09-04 Mullvad 关闭公共加密 DNS [id:292981] 连成欧洲监管挤出隐私基础设施趋势线
+- 终审共识节数据复用（无新增外部数据点，全部来自上列已溯源条目）: 本 session drafts/current.md `## 共识` 节 = 三位接力者交叉校对结论，引用 id 505378/505606/504820/506443/506272 等既有溯源条目

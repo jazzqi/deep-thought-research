@@ -1,0 +1,19 @@
+actions:
+- confidence: 0.8
+  priority: P3
+  summary: Arc 停服帖正文 403 未能抓取，下期回访 arc.net/发布说明补全摘要（停服日期 2026-12-22 已由发布说明快照确认）
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-10-24'
+- confidence: 0.75
+  priority: P2
+  recurrence: daily
+  summary: PHP RCE 证据战争复核条件：原生 PHP 实例可用利用是否被独立复现、AWS 蜜罐 10-17 探测是否证实成功，有新证据即更新头条 2
+  target_flow_params: {}
+  type: monitoring
+- confidence: 0.7
+  priority: P3
+  recurrence: daily
+  summary: 数据中心许可政治跟踪：Guardian 25 万棵树报道与 ABC/Ipsos 反 AI 民调入正文后，观察芬兰监管机构 LVV 是否叫停工地、民意变量是否进入政策议程
+  target_flow_params: {}
+  type: monitoring
