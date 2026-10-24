@@ -1,0 +1,7 @@
+actions:
+- assignee: tech_generalist
+  priority: P2
+  summary: 定位并清理 hn-daily 2026-10-24 基线遗留的 7 项评审 blocker：基线 session 的 review.md 路径不存在导致无法溯源，需恢复评审文件或在下期定版前逐项核销
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-10-25'
