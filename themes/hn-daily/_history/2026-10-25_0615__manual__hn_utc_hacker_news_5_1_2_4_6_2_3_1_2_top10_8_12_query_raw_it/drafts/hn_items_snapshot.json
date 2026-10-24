@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-24T22:49:45.853692+00:00",
+  "window": {
+    "after": "2026-10-24T00:00:00+00:00",
+    "before": "2026-10-25T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "533572",
+      "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+      "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+      "author": "testing22321",
+      "points": 475,
+      "comments": 191,
+      "published_at": "2026-10-24T05:49:57+00:00"
+    },
+    {
+      "id": "533498",
+      "title": "OBS Studio 33",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "author": "pentagrama",
+      "points": 431,
+      "comments": 154,
+      "published_at": "2026-10-24T04:49:58+00:00"
+    },
+    {
+      "id": "533613",
+      "title": "Around a dozen banking apps began specifically permitting GrapheneOS",
+      "url": "https://grapheneos.social/@GrapheneOS/117492375462459244",
+      "author": "privacyishuman",
+      "points": 424,
+      "comments": 144,
+      "published_at": "2026-10-24T01:15:14+00:00"
+    },
+    {
+      "id": "533952",
+      "title": "Root shell on Samsung TV",
+      "url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
+      "author": "testing22321",
+      "points": 417,
+      "comments": 158,
+      "published_at": "2026-10-24T05:49:57+00:00"
+    },
+    {
+      "id": "533836",
+      "title": "Elon Musk Just Gave Europe a Reason to Replace American Technology",
+      "url": "https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/",
+      "author": "sblank",
+      "points": 392,
+      "comments": 424,
+      "published_at": "2026-10-24T13:09:28+00:00"
+    },
+    {
+      "id": "533174",
+      "title": "Twelve Years of Distributed SQLite",
+      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+      "author": "otoolep",
+      "points": 329,
+      "comments": 49,
+      "published_at": "2026-10-24T01:16:58+00:00"
+    },
+    {
+      "id": "533343",
+      "title": "How close can pure functional programming get to C?",
+      "url": "https://rtfeldman.com/fp-vs-c",
+      "author": "stmonty",
+      "points": 232,
+      "comments": 68,
+      "published_at": "2026-10-24T03:43:54+00:00"
+    },
+    {
+      "id": "533909",
+      "title": "Google illegally cut down 250K trees in Finland for data center",
+      "url": "https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/",
+      "author": "rustybolt",
+      "points": 227,
+      "comments": 145,
+      "published_at": "2026-10-24T14:38:34+00:00"
+    },
+    {
+      "id": "533763",
+      "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+      "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+      "author": "theanonymousone",
+      "points": 221,
+      "comments": 101,
+      "published_at": "2026-10-24T08:06:39+00:00"
+    },
+    {
+      "id": "533715",
+      "title": "I Don't Understand Quantum Physics",
+      "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+      "author": "rramadass",
+      "points": 214,
+      "comments": 151,
+      "published_at": "2026-10-24T09:53:26+00:00"
+    },
+    {
+      "id": "533496",
+      "title": "Apple Security Research Device",
+      "url": "https://security.apple.com/research-device/",
+      "author": "neom",
+      "points": 168,
+      "comments": 109,
+      "published_at": "2026-10-24T02:36:38+00:00"
+    },
+    {
+      "id": "533896",
+      "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+      "url": "https://github.com/Zagitta/gpu-unlock",
+      "author": "fragebogen",
+      "points": 149,
+      "comments": 56,
+      "published_at": "2026-10-24T09:58:27+00:00"
+    },
+    {
+      "id": "533161",
+      "title": "Alzheimer's breakthrough: 2 hrs of sleep restored without clearing brain plaques",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
+      "author": "amichail",
+      "points": 125,
+      "comments": 26,
+      "published_at": "2026-10-24T01:53:10+00:00"
+    },
+    {
+      "id": "533497",
+      "title": "How Block Blast harvests its players for ad money",
+      "url": "https://ayoships.com/breakdowns/block-blast",
+      "author": "motionlessveloc",
+      "points": 107,
+      "comments": 47,
+      "published_at": "2026-10-24T02:43:43+00:00"
+    },
+    {
+      "id": "534057",
+      "title": "The Goose Programming Language",
+      "url": "https://aardappel.github.io/goose/",
+      "author": "andsoitis",
+      "points": 95,
+      "comments": 35,
+      "published_at": "2026-10-24T19:27:41+00:00"
+    },
+    {
+      "id": "533324",
+      "title": "Password, Please: Border Searches of Laptops, Phones Up 32% This Year",
+      "url": "https://gizmodo.com/password-please-border-searches-of-laptops-phones-up-32-this-year-2000830213",
+      "author": "gumby",
+      "points": 91,
+      "comments": 18,
+      "published_at": "2026-10-24T01:37:28+00:00"
+    },
+    {
+      "id": "533773",
+      "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+      "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+      "author": "TangerineDream",
+      "points": 85,
+      "comments": 44,
+      "published_at": "2026-10-24T11:18:54+00:00"
+    },
+    {
+      "id": "534017",
+      "title": "Danish Government silently drops plan to dump MS Office",
+      "url": "https://www.computerworld.dk/art/297226/digitaliseringsministeriet-har-i-al-stilhed-droppet-stort-anlagt-forsoeg-med-open-source-alternativ-til-microsoft",
+      "author": "lowkeyokay",
+      "points": 82,
+      "comments": 30,
+      "published_at": "2026-10-24T18:31:48+00:00"
+    },
+    {
+      "id": "533955",
+      "title": "Roku developer repositories moved from GitHub to GitLab",
+      "url": "https://blog.roku.com/developer/gitlab-move",
+      "author": "cxr",
+      "points": 73,
+      "comments": 31,
+      "published_at": "2026-10-24T16:06:26+00:00"
+    },
+    {
+      "id": "534024",
+      "title": "Why is AI generated language so hard to understand?",
+      "url": "https://arxiv.org/abs/2610.29162",
+      "author": "canjobear",
+      "points": 72,
+      "comments": 60,
+      "published_at": "2026-10-24T18:04:57+00:00"
+    },
+    {
+      "id": "533144",
+      "title": "Mark Zuckerberg Pushed Meta to Shield Him from California's Proposed Wealth Tax",
+      "url": "https://www.nytimes.com/2026/10/21/technology/mark-zuckerberg-meta-california-wealth-tax.html",
+      "author": "JKCalhoun",
+      "points": 66,
+      "comments": 94,
+      "published_at": "2026-10-24T01:35:49+00:00"
+    },
+    {
+      "id": "534025",
+      "title": "PHP Foundation 'under-funded' with one full-time staff member, director says",
+      "url": "https://www.reuters.com/technology/php-foundation-under-funded-with-one-full-time-staff-member-director-says-2026-10-23/",
+      "author": "firesteelrain",
+      "points": 61,
+      "comments": 14,
+      "published_at": "2026-10-24T19:03:59+00:00"
+    },
+    {
+      "id": "534099",
+      "title": "Steal My Bitcoin",
+      "url": "https://stealmybitcoin.com/",
+      "author": "cloudlandsdev",
+      "points": 53,
+      "comments": 6,
+      "published_at": "2026-10-24T20:30:31+00:00"
+    },
+    {
+      "id": "534069",
+      "title": "Listen and read USA nuclear forces Emergency Action Messages, heard on 11175 kHz",
+      "url": "https://missileer.watch",
+      "author": "liotier",
+      "points": 49,
+      "comments": 22,
+      "published_at": "2026-10-24T19:43:27+00:00"
+    },
+    {
+      "id": "533346",
+      "title": "Elon Musk Acquires $1B Stake in CNN's Parent Company",
+      "url": "https://symby.com/news?_cid=101605177&preferredLanguage=en",
+      "author": "Alien1Being",
+      "points": 47,
+      "comments": 23,
+      "published_at": "2026-10-24T04:42:10+00:00"
+    },
+    {
+      "id": "533571",
+      "title": "Indian government sites are serving revoked eMudhra certificates",
+      "url": "https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/",
+      "author": "adityaathalye",
+      "points": 47,
+      "comments": 19,
+      "published_at": "2026-10-24T04:05:02+00:00"
+    },
+    {
+      "id": "533703",
+      "title": "ThinkRail from JetBrains",
+      "url": "https://thinkrail.ai/",
+      "author": "wilsonjholmes",
+      "points": 47,
+      "comments": 73,
+      "published_at": "2026-10-24T08:08:42+00:00"
+    },
+    {
+      "id": "534039",
+      "title": "John Carmack on the Goose Language: multiple data stacks and relative references",
+      "url": "https://twitter.com/ID_AA_Carmack/status/2113704269274636568",
+      "author": "bobbydigitales",
+      "points": 47,
+      "comments": 11,
+      "published_at": "2026-10-24T19:06:55+00:00"
+    },
+    {
+      "id": "533980",
+      "title": "Sam Altman: 'I No Longer Think We're Gonna Be Able to Just Patch All the Bugs'",
+      "url": "https://gizmodo.com/sam-altman-i-no-longer-think-were-gonna-be-able-to-just-patch-all-the-bugs-2000829947",
+      "author": "warrenmiller",
+      "points": 46,
+      "comments": 78,
+      "published_at": "2026-10-24T16:47:19+00:00"
+    },
+    {
+      "id": "533889",
+      "title": "One Must Fall 2097 Remastered",
+      "url": "https://github.com/Jared-woodruff/OMF-2097-Remastered/",
+      "author": "hmm37",
+      "points": 43,
+      "comments": 29,
+      "published_at": "2026-10-24T13:47:07+00:00"
+    },
+    {
+      "id": "533929",
+      "title": "FreeDNS",
+      "url": "https://freedns.afraid.org/",
+      "author": "esher",
+      "points": 42,
+      "comments": 3,
+      "published_at": "2026-10-24T15:20:01+00:00"
+    },
+    {
+      "id": "533979",
+      "title": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
+      "url": "https://de.numista.com/9866",
+      "author": "schleck8",
+      "points": 38,
+      "comments": 3,
+      "published_at": "2026-10-24T16:41:55+00:00"
+    },
+    {
+      "id": "534010",
+      "title": "Dream-1",
+      "url": "https://dreamlabs.ai/research/dream-1/",
+      "author": "GaggiX",
+      "points": 32,
+      "comments": 6,
+      "published_at": "2026-10-24T18:23:24+00:00"
+    },
+    {
+      "id": "534049",
+      "title": "No Signs of AI Payoff Outside the Tech Sector",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "author": "the-mitr",
+      "points": 29,
+      "comments": 13,
+      "published_at": "2026-10-24T19:47:19+00:00"
+    },
+    {
+      "id": "534028",
+      "title": "Glymphatic clearance to alleviate traumatic brain edema& Alzheimer's pathology",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aeh8870",
+      "author": "ersinesen",
+      "points": 28,
+      "comments": 7,
+      "published_at": "2026-10-24T18:19:05+00:00"
+    },
+    {
+      "id": "533954",
+      "title": "Neural chip decodes interactions between brain regions",
+      "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+      "author": "giuliomagnifico",
+      "points": 26,
+      "comments": 3,
+      "published_at": "2026-10-24T15:57:17+00:00"
+    },
+    {
+      "id": "534056",
+      "title": "The first broken iPhone Duos are here",
+      "url": "https://www.theverge.com/tech/1017623/iphone-duo-broken-cracked-screen",
+      "author": "thm",
+      "points": 25,
+      "comments": 13,
+      "published_at": "2026-10-24T17:57:30+00:00"
+    },
+    {
+      "id": "533914",
+      "title": "Show HN: Autonomous root for Tcl Android TV via CVE-2022-22706",
+      "url": "https://gitlab.com/c4psu13/mali-pagecache-root",
+      "author": "t20n",
+      "points": 24,
+      "comments": 4,
+      "published_at": "2026-10-24T10:51:35+00:00"
+    },
+    {
+      "id": "534037",
+      "title": "Proton hosts Flock map revealing over 300k cameras, defying cease-and-desist",
+      "url": "https://www.tomshardware.com/software/maps/proton-hosts-flock-map-revealing-over-300-000-cameras-defying-cease-and-desist-threats-against-creator-privacy-focused-company-hosts-site-on-swiss-servers-says-users-have-the-right-to-know-whos-recording-them",
+      "author": "ryan_j_naughton",
+      "points": 23,
+      "comments": 1,
+      "published_at": "2026-10-24T16:01:34+00:00"
+    },
+    {
+      "id": "534083",
+      "title": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
+      "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
+      "author": "tokepi",
+      "points": 21,
+      "comments": 17,
+      "published_at": "2026-10-24T15:35:17+00:00"
+    },
+    {
+      "id": "534098",
+      "title": "2k Boeing 737s Must Get Tail Inspections After Jets Pitched Up&Down Mid-Flight",
+      "url": "https://simpleflying.com/nearly-2000-boeing-737-tail-inspections-faa/",
+      "author": "firesteelrain",
+      "points": 20,
+      "comments": 10,
+      "published_at": "2026-10-24T13:51:17+00:00"
+    },
+    {
+      "id": "534147",
+      "title": "SpeedCrunch 1.1",
+      "url": "https://www.speedcrunch.org/",
+      "author": "LordNibbler",
+      "points": 20,
+      "comments": 3,
+      "published_at": "2026-10-24T19:19:43+00:00"
+    },
+    {
+      "id": "533842",
+      "title": "Investment House LLC Sells 28,405 Shares of NIKE, Inc. $NKE",
+      "url": "https://longbridge.cn/news/302965093",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:29:04+00:00"
+    },
+    {
+      "id": "533851",
+      "title": "1,558 Shares of Advanced Micro Devices, Inc. $AMD Purchased by NBT Bank N.A.",
+      "url": "https://longbridge.cn/news/302965256",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:37:04+00:00"
+    },
+    {
+      "id": "533852",
+      "title": "NBT Bank N.A. Makes New $918,000 Investment in Otis Worldwide Corporation $OTIS",
+      "url": "https://longbridge.cn/news/302965255",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:37:05+00:00"
+    },
+    {
+      "id": "533863",
+      "title": "",
+      "url": "https://longbridge.cn/news/302965975",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:01:40+00:00"
+    },
+    {
+      "id": "533874",
+      "title": "Berkshire Hathaway, Blackstone in gainers; HSBC, Globe Life among losers: week's financials wrap",
+      "url": "https://longbridge.cn/news/302966116",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:00:09+00:00"
+    },
+    {
+      "id": "533875",
+      "title": "iPhone Duo in Short Supply, Yet Markup Space Has Shrunk Significantly",
+      "url": "https://longbridge.cn/news/302965785",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:00:44+00:00"
+    },
+    {
+      "id": "533876",
+      "title": "14,084 Shares in SpaceX $SPCX Bought by Private Wealth Partners LLC",
+      "url": "https://longbridge.cn/news/302966355",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:16:34+00:00"
+    },
+    {
+      "id": "533887",
+      "title": "Royal Fund Management LLC Sells 28,550 Shares of Shopify Inc. $SHOP",
+      "url": "https://longbridge.cn/news/302965981",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:03:51+00:00"
+    },
+    {
+      "id": "533888",
+      "title": "",
+      "url": "https://longbridge.cn/news/302966614",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:29:23+00:00"
+    },
+    {
+      "id": "533890",
+      "title": "Berkshire Hathaway Is Hot Again: Is It Still a Bargain?",
+      "url": "https://longbridge.cn/news/302966762",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:21:57+00:00"
+    },
+    {
+      "id": "533891",
+      "title": "Long-Term Large-Denomination Certificates of Deposit Launch Intensively, Signaling a Shift in Banks' Liability Logic",
+      "url": "https://longbridge.cn/news/302966781",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:23:13+00:00"
+    },
+    {
+      "id": "533892",
+      "title": "Notable analyst calls this week: Intel, Apple and Zoom among top picks",
+      "url": "https://longbridge.cn/news/302966884",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:30:48+00:00"
+    },
+    {
+      "id": "533893",
+      "title": "Analysis: SpaceX Significantly Raises Q4 Capex Guidance, Surges AI Computing Power Procurement",
+      "url": "https://longbridge.cn/news/302967043",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:43:19+00:00"
+    },
+    {
+      "id": "533894",
+      "title": "Marvell Technology, Inc. $MRVL Shares Newly Purchased by Wedbush Securities Inc.",
+      "url": "https://longbridge.cn/news/302967073",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:48:40+00:00"
+    },
+    {
+      "id": "533905",
+      "title": "Dan Bin's Q3 U.S. Stock Portfolio Adjustments Revealed! On A-Share Corrections, He Advocates for \"Selling High and Buying Low\"",
+      "url": "https://longbridge.cn/news/302967088",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:38:52+00:00"
+    },
+    {
+      "id": "533919",
+      "title": "Next week, the Federal Reserve Meeting arrives with high impact; probability of holding rates steady rises to 90.6%; market focuses on three key issues as expectations for a December rate hike strengthen",
+      "url": "https://longbridge.cn/news/302967614",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T23:07:07+00:00"
+    },
+    {
+      "id": "533925",
+      "title": "Rogers deepens Starlink partnership to expand satellite-to-mobile coverage to more of Canada",
+      "url": "https://longbridge.cn/news/302968001",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T23:41:39+00:00"
+    },
+    {
+      "id": "533935",
+      "title": "Strategy Inc Variable Rate Series A Perpetual Stretch Preferred Stock (NASDAQ:STRC) Shareholders to Get $0.03 Dividend",
+      "url": "https://longbridge.cn/news/302968063",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T23:50:28+00:00"
+    },
+    {
+      "id": "533936",
+      "title": "Russian Energy Giant Secretly Funds and Controls $25 Billion Alaska Natural Gas Project",
+      "url": "https://longbridge.cn/news/302968087",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T23:51:20+00:00"
+    },
+    {
+      "id": "534117",
+      "title": "也门胡塞武装称沙特一天内发动百次空袭",
+      "url": "https://t.me/Financial_Express/3563509",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:14:42+00:00"
+    },
+    {
+      "id": "534118",
+      "title": "伊拉克北部一处伊朗库尔德反对派营地遭无人机袭击",
+      "url": "https://t.me/Financial_Express/3563510",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:17:02+00:00"
+    },
+    {
+      "id": "534119",
+      "title": "美国国务卿鲁比奥谈乌克兰冲突",
+      "url": "https://t.me/Financial_Express/3563511",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:17:22+00:00"
+    },
+    {
+      "id": "534120",
+      "title": "伯纳姆对恢复欧盟自由流动敞开大门，呼吁就移民问题进行 \"坦诚讨论\"",
+      "url": "https://t.me/Financial_Express/3563512",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:18:22+00:00"
+    },
+    {
+      "id": "534122",
+      "title": "特朗普将于 10 月 30 日前往佛罗里达代托纳。",
+      "url": "https://t.me/Financial_Express/3563513",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:20:22+00:00"
+    },
+    {
+      "id": "534123",
+      "title": "美国国务卿鲁比奥",
+      "url": "https://t.me/Financial_Express/3563514",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:22:22+00:00"
+    },
+    {
+      "id": "534124",
+      "title": "美国国务卿鲁比奥",
+      "url": "https://t.me/Financial_Express/3563515",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:22:42+00:00"
+    },
+    {
+      "id": "534127",
+      "title": "Unrest Erupts Again in France, but This Time, With Less Property Damage",
+      "url": "https://www.nytimes.com/2026/10/24/world/europe/france-protests-unrest-clashes-police.html",
+      "author": "Mark Landler, Catherine Porter and Ségolène Le Stradic",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:23:15+00:00"
+    },
+    {
+      "id": "534128",
+      "title": "消息人士",
+      "url": "https://t.me/Financial_Express/3563516",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:30:22+00:00"
+    },
+    {
+      "id": "534129",
+      "title": "特朗普：暂未考虑赦免下属官员，但坚称自己拥有赦免权",
+      "url": "https://t.me/Financial_Express/3563517",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:31:02+00:00"
+    },
+    {
+      "id": "534130",
+      "title": "数据机构 Datafolha 民调显示，巴西总统决选中，弗拉维奥·博索纳罗预计获得 51%的有效选票，卢拉获得 49%。",
+      "url": "https://t.me/Financial_Express/3563518",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:33:23+00:00"
+    },
+    {
+      "id": "534131",
+      "title": "民调显示：博尔索纳罗与卢拉进入决胜轮前一日支持率持平",
+      "url": "https://t.me/Financial_Express/3563519",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:35:22+00:00"
+    },
+    {
+      "id": "534132",
+      "title": "伊朗否认以霍尔木兹海峡换解除封锁的报道，称系\"谎言与幻想\"",
+      "url": "https://t.me/Financial_Express/3563520",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:38:02+00:00"
+    },
+    {
+      "id": "534133",
+      "title": "市场资讯",
+      "url": "https://t.me/Financial_Express/3563521",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:39:02+00:00"
+    },
+    {
+      "id": "534134",
+      "title": "日本首相将于周三会见德国总理默茨，就电动汽车议题进行讨论。",
+      "url": "https://t.me/Financial_Express/3563522",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:40:02+00:00"
+    },
+    {
+      "id": "534135",
+      "title": "利雅得机场今天恢复运营",
+      "url": "https://t.me/Financial_Express/3563523",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:41:22+00:00"
+    },
+    {
+      "id": "534136",
+      "title": "伊朗驻印度大使馆表示，议会议长卡利巴夫因“不可预见的情况”将不出席在新德里举行的金砖国家议会会议。使馆未作进一步解释。",
+      "url": "https://t.me/Financial_Express/3563524",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:51:02+00:00"
+    },
+    {
+      "id": "534137",
+      "title": "Iran blames US for deal failure, urges new try amid fear of new attacks",
+      "url": "https://www.aljazeera.com/news/2026/10/24/iran-blames-us-for-deal-failure-urges-new-try-amid-fear-of-new-attacks?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:30:11+00:00"
+    },
+    {
+      "id": "534138",
+      "title": "Brazil’s candidates hold final rallies before knife-edge run off",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/brazils-candidates-hold-final-rallies-before-knife-edge-run-off?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:36:23+00:00"
+    },
+    {
+      "id": "534139",
+      "title": "Brazil’s Lula, Bolsonaro draw thousands to election-eve rallies",
+      "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:39:29+00:00"
+    },
+    {
+      "id": "534140",
+      "title": "Zillow 与 Thumbtack 发布的新报告显示，美国隐性持房成本在过去五年飙升近 32%，普通房主目前每年为维修、保险和房产税支出 16566 美元。房主保险涨幅最大，五年上涨 54%，维修成本则上涨 32%。",
+      "url": "https://t.me/Financial_Express/3563525",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:59:02+00:00"
+    },
+    {
+      "id": "534141",
+      "title": "美国更新中东 13 国旅行警告",
+      "url": "https://t.me/Financial_Express/3563526",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:00:22+00:00"
+    },
+    {
+      "id": "534142",
+      "title": "意大利外交部表示，五名在约旦河西岸被以色列军队拘留的意大利活动人士已返回意大利。",
+      "url": "https://t.me/Financial_Express/3563527",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:01:02+00:00"
+    },
+    {
+      "id": "534143",
+      "title": "沙特领导的联军称，在利雅得地区拦截并摧毁了一架无人机。",
+      "url": "https://t.me/Financial_Express/3563528",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:02:22+00:00"
+    },
+    {
+      "id": "534144",
+      "title": "Who are the candidates in Brazil's presidential election?",
+      "url": "https://www.bbc.co.uk/news/videos/cm0e0del4jewo?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:08:47+00:00"
+    },
+    {
+      "id": "534145",
+      "title": "台风预警持续！“蔷琵”强度减弱 江浙沿海仍有大风",
+      "url": "https://t.me/Financial_Express/3563529",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:24:42+00:00"
+    },
+    {
+      "id": "534146",
+      "title": "泽连斯基：各方已就阿列什基人道主义行动达成协议",
+      "url": "https://t.me/Financial_Express/3563530",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:27:42+00:00"
+    },
+    {
+      "id": "534148",
+      "title": "How data centers became a bipartisan political issue in Wisconsin",
+      "url": "https://www.npr.org/2026/10/24/nx-s1-6011182/how-data-centers-became-a-bipartisan-political-issue-in-wisconsin",
+      "author": "Sacha Pfeiffer",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:20:53+00:00"
+    },
+    {
+      "id": "534149",
+      "title": "4 Bodies Found in Haiti Believed to Be Those of Missing Salvadoran Soldiers",
+      "url": "https://www.nytimes.com/2026/10/24/world/americas/salvadoran-soldiers-haiti-dead.html",
+      "author": "David C. Adams and Frances Robles",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:28:26+00:00"
+    },
+    {
+      "id": "534150",
+      "title": "特朗普抵达佐治亚州罗宾斯空军基地。",
+      "url": "https://t.me/Financial_Express/3563531",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:37:22+00:00"
+    },
+    {
+      "id": "534151",
+      "title": "我国成功发射遥感五十三号 07-09 星、遥感五十六号 19-21 星",
+      "url": "https://t.me/Financial_Express/3563532",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:41:22+00:00"
+    },
+    {
+      "id": "534152",
+      "title": "美驻土耳其大使称周末可能打击伊朗 特朗普称对此不知情",
+      "url": "https://t.me/Financial_Express/3563533",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:41:23+00:00"
+    },
+    {
+      "id": "534153",
+      "title": "巴克莱",
+      "url": "https://t.me/Financial_Express/3563534",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:41:23+00:00"
+    },
+    {
+      "id": "534154",
+      "title": "巴克莱",
+      "url": "https://t.me/Financial_Express/3563535",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:41:24+00:00"
+    },
+    {
+      "id": "534155",
+      "title": "巴克莱",
+      "url": "https://t.me/Financial_Express/3563536",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:41:24+00:00"
+    },
+    {
+      "id": "534156",
+      "title": "法国暂时躲过穆迪降级 但展望仍为负面",
+      "url": "https://t.me/Financial_Express/3563537",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:41:28+00:00"
+    },
+    {
+      "id": "534157",
+      "title": "Trade tariffs cause whiplash at Port Milwaukee",
+      "url": "https://www.npr.org/2026/10/24/nx-s1-6011193/trade-tariffs-cause-whiplash-at-port-milwaukee",
+      "author": "Sacha Pfeiffer",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T21:20:55+00:00"
+    },
+    {
+      "id": "534158",
+      "title": "How have Democrats’ policies shifted since the last major US election?",
+      "url": "https://www.aljazeera.com/economy/2026/10/24/how-have-democrats-policies-shifted-since-the-last-major-us-election?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:28:37+00:00"
+    },
+    {
+      "id": "534159",
+      "title": "Gunmen kill at least 10 people in eastern Nigeria, police say",
+      "url": "https://www.aljazeera.com/news/2026/10/24/gunmen-kill-at-least-10-people-in-eastern-nigeria-police-say?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-24T22:35:45+00:00"
+    }
+  ]
+}
