@@ -1,0 +1,11 @@
+actions:
+- priority: P2
+  recurrence: daily
+  summary: 持续跟踪欧洲技术主权/替换美国技术叙事（Starshield 断供后续）与 Google 芬兰数据中心监管摩擦
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: 验证 CVE-2026-111497（HTTP2Shell）补丁覆盖进度与是否出现大规模利用事件
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-10-31'
