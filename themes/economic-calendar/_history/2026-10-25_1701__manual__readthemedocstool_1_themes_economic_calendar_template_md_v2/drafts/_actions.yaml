@@ -1,0 +1,17 @@
+actions:
+- priority: P1
+  recurrence: daily
+  summary: 10-28 FOMC 沃什记者会 12 月加息指引 + 10-29 美国 Q3 GDP/9月核心 PCE 落地验证（基准：GDP 3.0-3.5%、核心PCE
+    3.0-3.1%、12月概率维持50-65%）
+  target_flow_params: {}
+  type: monitoring
+- priority: P1
+  recurrence: daily
+  summary: 微软/谷歌/英特尔/亚马逊与 SK 海力士/三星/铠侠财报的 AI 资本开支措辞，判定 AI 去杠杆是否二次发酵
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: 修复行情数据缺口：DXY 口径冲突（121.40 vs 101.60）与 USDCNH 缺失，下次定版前接入可信实时源
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-11-01'

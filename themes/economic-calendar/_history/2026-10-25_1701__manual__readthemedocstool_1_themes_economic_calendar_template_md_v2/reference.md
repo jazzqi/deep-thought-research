@@ -1,0 +1,124 @@
+# 数据溯源 reference（forecast 2026-10-26~2026-11-01，定版 2026-10-25）
+
+- 目标周全部日历事件（前值/共识/实际）: query_calendar_events(days=14,lookback_days=3,importance=high,medium,country='') = 501 条匹配，返回 200 条
+- 目标周 10-25~11-01 事件补全（FOMC 10-28 18:00、GDP/PCE 10-29 12:30、ECB 10-29 13:15、BOJ 10-30 03:30、OPEC+ 10-31、韩国出口 11-01 等）: query_calendar_events(days=7,lookback_days=0,importance=high,medium) = 234 条匹配，返回 200 条
+- 美国 Q3 GDP 初值: query_calendar_events = 前值 2.2 / 共识 3.0（另一行 3.2）
+- 美国 9 月核心 PCE 同比: query_calendar_events = 前值 3.0 / 共识 3.1
+- 美国 9 月 PCE 总体同比: query_calendar_events = 前值 3.4 / 共识 3.6
+- 美国 GDP 隐性平减指数: query_calendar_events = 前值 6.1 / 共识 3.5
+- FOMC 联邦基金利率目标: query_calendar_events = 3.75%-4.00%，FOMC 决议 2026-10-28T18:00Z、沃什记者会 18:30Z
+- 欧洲央行存款便利利率: query_calendar_events = 前值 2.5 / 共识 2.5（2026-10-29T13:15Z，冬令时后延 1 小时）
+- 日本央行政策利率: query_calendar_events = 前值 1.25 / 共识 1.25（2026-10-30T03:30Z）
+- 加拿大央行政策利率: query_calendar_events = 前值 2.25 / 共识 2.25（2026-10-28T13:45Z）
+- 新西兰 OCR: query_calendar_events = 前值 2.75 / 共识冲突（2.75 与 3.0 两行）
+- 澳大利亚 Q3 CPI 年率: query_calendar_events = 前值 4.0 / 共识 3.9（季调口径另一行 4.2）
+- 中国 9 月工业企业利润单月同比: query_calendar_events = 前值 4.2，缺共识（2026-10-27T01:30Z）
+- 德国 10 月 IFO 商业景气: query_calendar_events = 前值 89.9 / 共识 89.9~90.0（2026-10-26）
+- 美国 9 月耐用品订单环比初值: query_calendar_events = 前值 -0.1 / 共识冲突（1.4 与 0.6 两行）
+- 美国 10 月谘商会消费者信心: query_calendar_events = 前值 81.9 / 共识 80.4
+- 10 月欧元区/德国/法国 PMI 初值（实际值）: query_calendar_events(lookback 3 天) = 欧元区制造业 52.4（预期 52.8）、服务业 51.7、综合 51.9；德国制造业 54.2；法国综合 48.4
+- 日本 9 月全国 CPI: query_calendar_events(lookback 3 天) = 同比 2.1（前值 1.9）、核心除生鲜能源 2.4（预期 2.3）
+- 美国 10 月密歇根信心终值: query_calendar_events = 48.0（前值 46.3）
+- 10-22 定版市场快照（10Y 4.953%/2Y 4.640%/30Y 5.280%/SPX 7663.43/Brent 113.17/Gold 4028.58/DXY 101.60）: CIO 个人记忆（2026-10-22 定版锚点），工具未能在 10-25 刷新实时行情
+- 美国 10Y/2Y 收益率（旧）: query_indicators(country=us) = yield_10y 5.09 / yield_2y 4.74（openbb，2026-10-16，滞后 9 天）
+- 美元指数（旧，冲突源）: query_indicators(country=us) = dollar_index 121.4048（openbb，2026-10-16）
+- 原油（旧）: query_indicators = crude_oil 101.91（openbb，2026-10-14）
+- VIX/信用利差: query_indicators(country=us) = vix 18.44、high_yield_spread 3.29、corporate_spread 0.87（openbb，2026-10-19）
+- 中国 10Y 国债收益率: query_indicators = bond_10y_yield 1.64（akshare，2026-10-23）
+- 中国 9 月宏观锚点: query_indicators = cpi_yoy 0.9、ppi_yoy 5.0、manufacturing_pmi 50.1、m2_yoy 7.2（akshare，2026 年 9 月）
+- 高盛下调韩国 Kospi 目标 25% 至 9000: query_raw_items(source=telegram:Financial_Express,published_after=2026-10-23)[id:534701] = Kospi 较 6 月高点跌逾 35%，AI 交易担忧，调整后目标仍隐含 60%+ 上行
+- 沙特基准股指下跌 2.3%: query_raw_items(...)[id:534704] = 2026-10-25 快讯
+- 沙特拦截胡塞 10 枚弹道导弹: query_raw_items(...)[id:534700] = 中东冲突持续，油价溢价背景
+- 伊朗议长强硬表态: query_raw_items(...)[id:534688] = 伊朗不向美国军事威胁屈服
+- 三季报披露推进（A 股盈利验证）: query_raw_items(...)[id:534651] = 中信建投：三季报 AI 算力链/资源品/高端制造出海三大主线
+- FOMC 10 月暂停概率约 80%、12 月加息 62-69%、9 月加息 25bp 一致支持: CIO 个人记忆（2026-10-05~11 周 FOMC 纪要事实）
+- FactPack 锚点（FedWatch 2026-08-26：维持 59.9%/加息 40.1%/降息 0.0%）: 系统只读锚点，已滞后约 2 个月，本稿预测与其不冲突
+
+# W44 (2026-10-26~11-01) forecast 数据溯源 — dalio 第 1 棒
+
+- 10Y UST 4.9945%（10-23 收，周内区间 4.9365%–5.1525%）: roundtable discussion_log（dalio 圆桌转引新闻条目 [id:532980]，本稿未直接复核原页）
+- 2Y UST 4.6818%（10-23 收，10-23 单日 -18bp）: roundtable discussion_log（转引 [id:517851]）
+- 2s10s 约 +31bp: roundtable discussion_log（转引 [id:532980]）
+- 10Y 跌破 5% + 债券 ETF 单月流入 580 亿美元: query_raw_items(keyword='10年期 OR treasury OR 收益率 OR dollar OR 美元指数', published_after=2026-10-22)[id:533269] = "U.S. Treasuries staged a strong reversal, with the 10-Year Treasury Yield falling below 5%, bond ETFs $58B monthly inflows"
+- FOMC 10 月维持概率 90.6%、会议 10-27/28: query_raw_items(keyword='FOMC OR Warsh OR Fed OR 美联储', published_after=2026-10-18)[id:533919] = "probability of holding rates steady rises to 90.6%; December hike expectations strengthen"
+- 12 月加息定价 90.2%→74.2%: roundtable discussion_log（soros 转引 [id:532976]）
+- S&P 500 周跌 0.47% / SGOV 周报: query_raw_items(keyword='10年期 OR treasury...')[id:533315] = "Weekly Recap | SGOV.US +0.07%... S&P 500 fell 0.47% over the same period"
+- Q3 标普 EPS +29.5% vs AI 泡沫担忧 + $117 油价: query_raw_items(keyword='OPEC OR oil OR 原油 OR 油价', published_after=2026-10-23)[id:534392] = "S&P 500 and Nasdaq 100 Slip as Strong Earnings Collide With AI Bubble Fears and $117 Oil"
+- 下周 FOMC + MSFT/GOOGL/AMZN 财报周历: query_raw_items(keyword='FOMC OR Warsh OR Fed OR 美联储')[id:534479] = "The Week Ahead: Fed Rate Decision Looming as Microsoft, Alphabet, and Amazon Report Earnings"
+- 下周三央行+PCE+GDP+PMI+以色列/巴西选举周历: query_raw_items(keyword='OPEC OR oil...')[id:534384] = "Key Events Next Week: Fed Decision and Tech Giant Earnings; Israeli election impacts oil, Brazil election, US core PCE, Q3 GDP, China PMI"
+- Brent 116.72 美元/桶（10-23 收 +3.14%，6 个月新高，周涨 6.24%）/ WTI 103.27: roundtable discussion_log（soros/dalio 转引 [id:533080]/[id:530645]）
+- 波斯湾成品油出口低于正常约 30%、燃料油出口 90→50 万桶/日: query_raw_items(keyword='OPEC OR oil...')[id:534200] = "10月以来霍尔木兹海峡通航受阻，波斯湾成品油出口较正常水平低约 30%…燃料油出口从约90万桶/日回落至50万桶/日"
+- 特朗普称油价很快下跌: query_raw_items(keyword='OPEC OR oil...')[id:534203] = "特朗普：油价很快就会下跌"
+- 伊朗经巴基斯坦提交重开海峡换解除封锁提议: query_raw_items(keyword='iran OR hormuz OR ceasefire OR 停火', published_after=2026-10-15)[id:534030] = "Iran submitted proposal to US via Pakistan, willing to resume negotiations… Al Arabiya/Hadath"
+- Tasnim 否认/澄清 Al Arabiya 报道: query_raw_items(keyword='iran OR hormuz...')[id:534090] = "Iran's Tasnim source on Saudi Al Arabiya claims Iran proposed reopening Strait of Hormuz"
+- 特朗普暗示周日攻击伊朗或达成协议: query_raw_items(keyword='iran OR hormuz...')[id:534216] = "Trump says US considering possible attack on Iran as soon as Sunday, or could reach a major deal"
+- 特朗普倾向恢复对伊重大行动: query_raw_items(keyword='iran OR hormuz...')[id:533949] = "US officials: Trump inclined to resume major actions against Iran, no final decision"
+- 伊朗暗杀美国海外官员阴谋进入高级阶段: query_raw_items(keyword='iran OR hormuz...')[id:534274] = " Axios: US intelligence memo warns Iran assassination plot 'advanced stage'"
+- 伊朗官员证实瞄准美方外交人员: query_raw_items(keyword='iran OR hormuz...')[id:534315] = "伊朗官员证实瞄准美方外交人员 称袭击美国人属于合理目标"
+- 波斯湾燃料油/物流/库存四重支撑: query_raw_items(keyword='iran OR hormuz...')[id:534200]（同上）
+- 黄金 10-23 跌破 4000 至 3996.10 美元、周跌 4.07%: roundtable discussion_log（dalio 转引 [id:532964]）
+- PAXG 3997.48（10-25 实时，黄金现货代理）: binance_get_price(symbol='PAXGUSDT') = 3997.48
+- SPDR 黄金持仓三连流出 1059.04→1058.47→1045.64→1041.65 吨: query_calendar_events(importance=high,medium, days=7, lookback=7) 条目 "SPDR黄金持仓-每日更新(吨)" 10-19/20/22/23 actual 值
+- 深圳水贝抢金潮、分析师归因（高油价/12月加息/流动性收紧）: query_raw_items(keyword='OPEC OR oil...')[id:534226] = "深圳水贝被挤爆…金价大跌买金比菜市场人多；三大因素：高油价、美联储12月加息预期升温、全球流动性收紧和去杠杆"
+- 对冲基金欧元空头 118 亿欧元（2020 年 3 月以来最高）: roundtable discussion_log（soros 转引 [id:52868]）
+- 加央行共识冲突（路透调查 19/34 预期加息至 2.5%）: roundtable discussion_log（soros 转引 [id:528390]）
+- 法国 10Y 一度触 5.14%（2002 年来最高）、政府增长预期 0.7%→0.5%: query_raw_items(keyword='10年期 OR treasury...')[id:534351] = "法国国债本周一度冲破5%，最高触达5.14%附近…今年经济增长预期从0.7%下调到0.5%"
+- 穆迪暂缓法国降级但展望负面、法德利差 178bp、S&P 11-27 更新: query_raw_items(keyword='10年期 OR treasury...')[id:534156] = "法国暂时躲过穆迪降级 但展望仍为负面…法德10年期国债收益率利差周四扩大至178个基点"
+- 美财政部 10-23 新版对外投资限制拟议规则、中方反对: query_raw_items(keyword='10年期 OR treasury...')[id:533764] = "商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问"
+- 美司法部要求加州核查选民身份: query_raw_items(keyword='FOMC OR Warsh OR Fed OR 美联储')[id:534096]
+- 美国 9 月 CPI 同比 3.7%/核心 2.6%、PPI 6.3%、初请 19.4 万: calendar 实际值（W43 已核，本稿复用）+ query_calendar_events(10-22 初请 actual=194.0 千人/19.4万)
+- 中国 Q3 GDP 4.5%/环比 1.2%、9 月工业 5.5%/社零 1.1%/固投 -7.2%/地产 -20.6%、9 月 CPI 0.9%/PPI 5.0%、PMI 50.1: query_indicators(country='china') + query_calendar_events(10-19 actual 值)
+- 日本 9 月全国 CPI 2.1%/除能核心 2.1%/除能除生鲜 2.4%: query_calendar_events(10-22 JP actual)
+- 英国 9 月 CPI 3.5%/核心 2.8%/输入 PPI 8.3%、零售 -0.4%: query_calendar_events(10-21/23 GB actual)
+- 10 月欧元区制造业 PMI 52.4（前值 52.9）、法/德/英 PMI 初值: query_calendar_events(10-23 EU/FR/DE/GB actual)
+- 美国 10 月密歇根终值 48.0、标普服务业 PMI 57.9: query_calendar_events(10-23 US actual)
+- SPY 759.97（10-23 收，-0.52%）/ QQQ 704.40: market_quote(symbols=['SPY.US','QQQ.US'])
+- 中国 10Y 1.64%/2Y 1.2452%（10-23）、shibor3m 1.4078: query_indicators(country='china', time_range='7d')
+- VIX 18.44、HY 利差 3.29、IG 0.87（10-19）: query_indicators(category='', country='us', time_range='7d')
+- 美元广义指数 121.4048（10-16，openbb 口径）: query_indicators(country='us') [dollar_index]
+- yield_10y 5.09/2y 4.74（10-16，openbb，已过时仅作对照）: query_indicators(country='us')
+- MBA 30 年房贷利率 7.41%（10-21）、新屋开工 -5.2%、成屋签约 -7.3%、NAHB 32: query_calendar_events(10-19~21 US actual)
+- 20Y 美债拍卖得标 5.469%（前值 5.42%）、BC 2.73: query_calendar_events(10-21 US Bond Auction actual)
+- 加拿大 9 月 CPI 3.1%/核心 2.2%、8 月零售 +1.2%: query_calendar_events(10-19/23 CA actual)
+- 欧元区 10 月消费者信心 -17.9、ZEW 景气 18.5、德国现况 -35.9: query_calendar_events(10-20/22 EU/DE actual)
+- 韩国 10 月出口前 20 天 +105.4%: query_calendar_events(10-21 KR actual)
+- 巴西大选决选 10-23/24、以色列大选、五中全会 10-26~29、德国总统访华 27-31、冬令时切换 10-25/11-01: query_calendar_events(lookback=3, days=7) 事件条目
+- FOMC/ECB/日央行/加央行/新西兰/澳洲决议日期与前值: query_calendar_events(10-26~11-01 条目)
+- 9 月美国 CPI 3.7%/核心 2.6%、PPI 6.3%/核心 5.0%、能源分项 +20.4%、零售 +0.8%/控制组 +0.1%: dalio 个人记忆（2026-10-19 目标周核对，日历工具实际值）+ backdrops/us-macro-backdrop.md 2026-10-15 版
+- Fed 9-16 加息至 3.75%–4.00% 全票、点阵图中位 4.1%、12 人预计年内再加: backdrops/us-macro-backdrop.md（2026-10-15 版 §4.1）
+- 中美习特会 300 亿美元对等降税、SI 沟通渠道: backdrops/us-macro-backdrop.md §3.1
+
+
+## 第 3 棒（ackman 终棒改写）新增来源
+
+- 10Y 4.9945%（+4.15bp，周累跌 7.83bp，周内区间 5.1525%-4.9365%）、2Y 4.6818%（+4.21bp，周累跌 2.65bp，周内高点 4.8295%→10-22 低点 4.6098%）、2s10s≈+31.3bp: query_raw_items(keyword='期限利差 OR 4.6818 OR 4.9945 OR 债收盘', published_after=2026-10-23T12:00:00Z)[id:532980] = 周五（10-23）纽约尾盘美债收盘全景
+- 现货黄金 3,996.10 美元/盎司（-0.71%，盘中低点 3,975.75，周跌 4.07%，跌穿 4,000 心理关口）、现货白银 53.8897 美元、COMEX 期金累跌 4.09%: query_raw_items(keyword='现货金 OR 3996 OR 黄金周', published_after=2026-10-23T12:00:00Z)[id:532964]（同源 [id:532956]）
+- 澳联储官员亨特：澳大利亚通胀"尚未完全"受控、需要更多时间才能让通胀回落（10-25 09:46 UTC）: query_raw_items(source=telegram:Financial_Express, published_after=2026-10-24T12:00:00Z)[id:534743][id:534744] = 澳洲联储官员亨特鹰派表态
+- 伊朗外长阿拉格齐：即便美国发动新一轮打击也无法改变德黑兰立场；特朗普周五称"或许会再来一次小规模的'史诗狂怒'"（10-25）: query_raw_items(keyword='伊朗 OR 霍尔木兹 OR OPEC', published_after=2026-10-24T00:00:00Z)[id:534727]
+- 伊朗议长卡利巴夫：伊朗人民不会屈服于美国（10-25）: query_raw_items(keyword='伊朗 OR 霍尔木兹 OR OPEC')[id:534688]
+- 伊朗议员：允许美国借本国领土空域打击伊朗者将成为合法军事目标（10-25）: query_raw_items(keyword='伊朗 OR 霍尔木兹 OR OPEC')[id:534491]
+- 俄总统助理乌沙科夫：俄方愿 11-4 之后恢复俄美乌三方谈判: query_raw_items(keyword='伊朗 OR 霍尔木兹 OR OPEC')[id:534726]（同源 [id:534742]）
+- 拉夫罗夫访德黑兰、伊朗议员称体现伊俄关系根基: query_raw_items(keyword='伊朗 OR 霍尔木兹 OR OPEC')[id:534502]
+- 燃料油供给四支撑：波斯湾成品油出口低于正常约 30%、俄炼厂遭袭致燃料油出口从约 90 万桶/日回落至 50 万桶/日附近: query_raw_items(keyword='伊朗 OR 霍尔木兹 OR OPEC')[id:534200]
+- 高盛 Kospi 12 个月目标 12,000→9,000（-25%），指数较 6 月高点跌逾 35%: query_raw_items(published_after=2026-10-24T12:00:00Z)[id:534694]（同源 [id:534701]）
+- 微软/亚马逊财报精确日期复核仍缺: query_raw_items(keyword='微软 OR 亚马逊财报 OR Alphabet OR 微软财报', published_after=2026-10-24T00:00:00Z) = 仅确认 Alphabet 10-28（[id:533778]），MSFT/AMZN 精确日未返回
+- FOMC 周预览复核: query_raw_items(keyword='美联储 OR FOMC OR 沃什', published_after=2026-10-23T12:00:00Z)[id:534479][id:534077][id:533919][id:532976][id:517851][id:529546] = 按兵 90.6%、12 月定价、高盛观点复核一致
+
+
+## Soros 交叉审查（2026-10-25）核验来源
+- SPY 现价核验（与稿件快照一致）: market_quote(symbols=['SPY.US']) = 759.97（prev 763.96，-0.52%，10-23 收盘口径）
+- 三巨头+CoreWeave 现价核验: market_quote(['GOOGL.US','MSFT.US','AMZN.US','CRWV.US']) = GOOGL 320.21(-1.24%)、MSFT 524.51(prev 521.08,+0.66%)、AMZN 248.00(-0.95%)、CRWV 54.23(-2.46%)（周五收盘口径，CRWV 仍在下行）
+- 布伦特行情核验失败（口径不符）: market_quote(['BZ.US']) = 16.46（与 116.72 美元新闻值口径不符，不可用于核验；GC.US 停牌无数据）
+- 未来9天日历交叉核验（FOMC/PCE/中国官方PMI 确未由日历源返回；新西兰OCR共识两源 2.75/3.0；苹果发布会两处 10-26 16:00/10-28 17:00；以色列大选国家字段=沙特异常；欧洲冬令时 10-25、北美冬令时 11-01 均确认）: query_calendar_events(days=9, lookback_days=3, importance=high,medium, limit=200)
+- FOMC 数据库无返回（日期仅能依赖新闻源）: query_fomc(lookback_days=60, lookahead_days=120, limit=6) = 0 meetings
+- 密歇根10月终值48.0、9月终值48.1、初值/路透预期46.3: query_raw_items(密歇根)[id:525464] = 信心终值从9月48.1微降至48（五个月低点），好于初值46.3与所有经济学家预测
+- 密歇根通胀预期与利率预期（现稿缺失项）: query_raw_items(密歇根)[id:525471] = 1年通胀预期4.7%、5-10年3.5%均5月以来最高；近70%消费者预计利率上升为三年多最高
+- 通胀预期固化风险表态（现稿缺失项）: query_raw_items(密歇根)[id:525468] = 调查主任Hsu：短长期通胀预期近几月均上升，暴露高通胀预期固化风险
+- 特朗普政府10-23调整对加关税（现稿加央行一节缺失背景）: query_raw_items(密歇根)[id:532887] = 取消部分加拿大商品50%关税、另对其他产品加税，正值11-3中期选举前夕
+- 伊朗周末升级核验（现稿已覆盖）: query_raw_items(伊朗 OR 霍尔木兹)[id:534551] = 伊朗军方称在阿巴斯港上空击落美无人机（10-25）
+- 伊朗立场强硬核验（现稿已覆盖）: query_raw_items(伊朗 OR 霍尔木兹)[id:534727] = 伊朗外长：即便美国发动新一轮打击也无法改变德黑兰立场（10-25）
+- AI融资侧压力簇（现稿完全缺失，blocker 依据）: query_raw_items(CoreWeave OR 高收益债 OR 信用利差, published_after=2026-10-20)[id:533225] = neocloud（CoreWeave/Nebius）重挫、CDS利差升至困境水平、Solidigm因波动撤回IPO（10-24）
+- 10月半导体/AI市值蒸发2.2万亿美元: query_raw_items(CoreWeave OR 高收益债 OR 信用利差, published_after=2026-10-20)[id:533654] = "AI算力过剩"论冲击半导体板块，10月市值蒸发2.2万亿美元（10-24）
+- Nvidia AI融资方首次大考: query_raw_items(CoreWeave OR 高收益债 OR 信用利差, published_after=2026-10-20)[id:533750] = neocloud股价与信用市场承压，Nvidia数十亿担保承诺面临检验（10-24）
+- SpaceX 400亿美元债定价利率>8%（AI基建融资成本坐标）: query_raw_items(CoreWeave OR 高收益债 OR 信用利差, published_after=2026-10-20)[id:529519] = SpaceX 400亿美元债务交易定价高于8%（10-24）
+- 布伦特/期金新闻源（稿件引用核验一致）: query_raw_items(Fed OR 沃什 OR 加息)[id:533080] = 期金4007.90美元(-1.29%)、白银53.949(-1.92%)、布油116.72(+3.14%)

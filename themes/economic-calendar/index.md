@@ -4,7 +4,7 @@ slug: economic-calendar
 status: active
 lead_agent: ackman
 created: 2026-08-07
-updated: 2026-10-23T07:38:47+08:00
+updated: 2026-10-25T18:28:52+08:00
 revision: 2026-10-26__2026-11-01
 sources: []
 ---
@@ -18,7 +18,7 @@ sources: []
 
 ## 🌟 最新一期 · Latest
 
-> **W44 · 2026-10-26 ~ 2026-11-01 · Mon–Sun** · Lead · ackman · 更新 · 2026-10-23T07:38:47+08:00
+> **W44 · 2026-10-26 ~ 2026-11-01 · Mon–Sun** · Lead · ackman · 更新 · 2026-10-25T18:28:52+08:00
 
 - 🔭 预读 Forecast — [W44 · 预读](./2026-10-26__2026-11-01/forecast.md)
 - 📊 回顾 Recap — [W37 · 回顾](./2026-09-07__2026-09-13/recap.md)
