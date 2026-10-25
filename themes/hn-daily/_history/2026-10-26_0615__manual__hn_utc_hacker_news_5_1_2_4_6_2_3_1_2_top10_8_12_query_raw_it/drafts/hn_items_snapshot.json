@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-25T22:45:47.117990+00:00",
+  "window": {
+    "after": "2026-10-25T00:00:00+00:00",
+    "before": "2026-10-26T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "534737",
+      "title": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
+      "url": "https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order",
+      "author": "vrganj",
+      "points": 446,
+      "comments": 302,
+      "published_at": "2026-10-25T09:00:40+00:00"
+    },
+    {
+      "id": "534352",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "author": "gmays",
+      "points": 310,
+      "comments": 110,
+      "published_at": "2026-10-25T01:33:49+00:00"
+    },
+    {
+      "id": "534848",
+      "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
+      "url": "https://twitter.com/mike64_t/status/2114150399406202896",
+      "author": "mashally",
+      "points": 285,
+      "comments": 1,
+      "published_at": "2026-10-25T10:42:01+00:00"
+    },
+    {
+      "id": "534867",
+      "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+      "url": "https://github.com/ihhub/fheroes2",
+      "author": "tosh",
+      "points": 184,
+      "comments": 64,
+      "published_at": "2026-10-25T11:09:12+00:00"
+    },
+    {
+      "id": "534430",
+      "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+      "url": "https://github.com/slee-persis/GVS5H",
+      "author": "rzk",
+      "points": 178,
+      "comments": 66,
+      "published_at": "2026-10-25T03:56:01+00:00"
+    },
+    {
+      "id": "534353",
+      "title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
+      "url": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report",
+      "author": "nidnogg",
+      "points": 171,
+      "comments": 130,
+      "published_at": "2026-10-25T02:18:35+00:00"
+    },
+    {
+      "id": "534944",
+      "title": "Tool book of a Nuremberg knight from 1505",
+      "url": "https://loeffelholz-codex.org/en/",
+      "author": "edwardog",
+      "points": 157,
+      "comments": 78,
+      "published_at": "2026-10-25T12:37:54+00:00"
+    },
+    {
+      "id": "535128",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "author": "sungam",
+      "points": 153,
+      "comments": 84,
+      "published_at": "2026-10-25T17:15:38+00:00"
+    },
+    {
+      "id": "534803",
+      "title": "France asked ISPs to prepare temporary DNS blocks for major social platforms",
+      "url": "https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ",
+      "author": "noplay",
+      "points": 135,
+      "comments": 160,
+      "published_at": "2026-10-25T09:56:49+00:00"
+    },
+    {
+      "id": "534866",
+      "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+      "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+      "author": "thunderbong",
+      "points": 119,
+      "comments": 54,
+      "published_at": "2026-10-25T09:51:17+00:00"
+    },
+    {
+      "id": "534752",
+      "title": "Online censorship is crushing indie webcomics",
+      "url": "https://xtramagazine.com/culture/online-censorship-indie-webcomics-284463",
+      "author": "Tomte",
+      "points": 113,
+      "comments": 95,
+      "published_at": "2026-10-25T09:04:13+00:00"
+    },
+    {
+      "id": "535139",
+      "title": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
+      "url": "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/",
+      "author": "tdeck",
+      "points": 97,
+      "comments": 14,
+      "published_at": "2026-10-25T18:04:11+00:00"
+    },
+    {
+      "id": "534354",
+      "title": "Xbox Turns Down Netflix $500M Offer",
+      "url": "https://www.darkhorizons.com/xbox-turns-down-netflix-500-million-offer/",
+      "author": "xoxxala",
+      "points": 89,
+      "comments": 131,
+      "published_at": "2026-10-25T03:05:53+00:00"
+    },
+    {
+      "id": "534996",
+      "title": "R/open source bans all solo projects and projects using LLMs",
+      "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+      "author": "schleck8",
+      "points": 76,
+      "comments": 103,
+      "published_at": "2026-10-25T14:05:03+00:00"
+    },
+    {
+      "id": "534946",
+      "title": "The Lego group reveals collaboration with Daft Punk",
+      "url": "https://www.lego.com/en-us/categories/adults-welcome/article/daft-punk",
+      "author": "pieterr",
+      "points": 74,
+      "comments": 62,
+      "published_at": "2026-10-25T12:48:11+00:00"
+    },
+    {
+      "id": "535087",
+      "title": "Anthropic Wanted to Replace Engineers. Instead, They Shot Their Own Customers",
+      "url": "https://techbronerd.substack.com/p/openai-and-anthropic-wanted-to-replace",
+      "author": "tom2026hn",
+      "points": 72,
+      "comments": 52,
+      "published_at": "2026-10-25T15:34:44+00:00"
+    },
+    {
+      "id": "535117",
+      "title": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
+      "url": "https://talkweb.eu/openweb/4558/",
+      "author": "Tomte",
+      "points": 72,
+      "comments": 5,
+      "published_at": "2026-10-25T17:30:55+00:00"
+    },
+    {
+      "id": "534994",
+      "title": "US inequality is getting worse in ways you might not expect",
+      "url": "https://theconversation.com/us-inequality-is-getting-worse-in-ways-you-might-not-expect-294075",
+      "author": "JKCalhoun",
+      "points": 69,
+      "comments": 131,
+      "published_at": "2026-10-25T13:24:37+00:00"
+    },
+    {
+      "id": "534945",
+      "title": "Challenge Is Gone",
+      "url": "https://blog.alxgsv.com/challenge-is-gone/",
+      "author": "alxgsv",
+      "points": 65,
+      "comments": 108,
+      "published_at": "2026-10-25T12:43:52+00:00"
+    },
+    {
+      "id": "535195",
+      "title": "JetBrains Thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "author": "hmokiguess",
+      "points": 63,
+      "comments": 18,
+      "published_at": "2026-10-25T16:27:12+00:00"
+    },
+    {
+      "id": "535157",
+      "title": "Dolly Parton's Imagination Library",
+      "url": "https://imaginationlibrary.com/",
+      "author": "jumploops",
+      "points": 61,
+      "comments": 12,
+      "published_at": "2026-10-25T18:23:54+00:00"
+    },
+    {
+      "id": "535276",
+      "title": "Serbia's Vucic concedes election defeat in historic win for student movement",
+      "url": "https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25/",
+      "author": "consumer451",
+      "points": 59,
+      "comments": 12,
+      "published_at": "2026-10-25T21:08:28+00:00"
+    },
+    {
+      "id": "534995",
+      "title": "Show HN: Farol – a risk map of a pull request for the person who approves it",
+      "url": "https://github.com/winnin/farol",
+      "author": "ericholiveira",
+      "points": 58,
+      "comments": 37,
+      "published_at": "2026-10-25T13:28:06+00:00"
+    },
+    {
+      "id": "535003",
+      "title": "Imagine an AI future where being banned means you are now economically useless",
+      "url": "https://twitter.com/boneGPT/status/2114035719853265264",
+      "author": "MrBuddyCasino",
+      "points": 57,
+      "comments": 38,
+      "published_at": "2026-10-25T12:47:20+00:00"
+    },
+    {
+      "id": "535014",
+      "title": "Show HN: I put employees inside S&P 500 market-cap bubbles",
+      "url": "https://bigwhalehunting.com/workforce/",
+      "author": "vfxGer",
+      "points": 54,
+      "comments": 12,
+      "published_at": "2026-10-25T15:05:39+00:00"
+    },
+    {
+      "id": "534311",
+      "title": "\"Musk\" Documentary Pulled from Almost Every One of 472 Theaters After One Week",
+      "url": "https://www.showbiz411.com/2026/10/23/controversial-musk-documentary-pulled-from-almost-every-one-of-472-theaters-after-one-week-by-newly-sold-bleecker-street-films",
+      "author": "zzzeek",
+      "points": 46,
+      "comments": 15,
+      "published_at": "2026-10-25T01:40:01+00:00"
+    },
+    {
+      "id": "535045",
+      "title": "A few thoughts on intensity",
+      "url": "https://www.tylerhogge.com/blog/a-few-thoughts-on-intensity/",
+      "author": "andsoitis",
+      "points": 42,
+      "comments": 37,
+      "published_at": "2026-10-25T14:37:49+00:00"
+    },
+    {
+      "id": "535034",
+      "title": "Samsung TVs look for microphones in your house via Bluetooth and then spy events",
+      "url": "https://twitter.com/freddier/status/2114042326758867453",
+      "author": "taubek",
+      "points": 37,
+      "comments": 13,
+      "published_at": "2026-10-25T13:11:22+00:00"
+    },
+    {
+      "id": "535197",
+      "title": "All you need is Wide Events, not \"Metrics, Logs and Traces\"",
+      "url": "https://isburmistrov.substack.com/p/all-you-need-is-wide-events-not-metrics",
+      "author": "bootlegbilly",
+      "points": 33,
+      "comments": 5,
+      "published_at": "2026-10-25T18:11:38+00:00"
+    },
+    {
+      "id": "535260",
+      "title": "Gheist campaign plants secret-dumping workflows using stolen GitHub tokens",
+      "url": "https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles",
+      "author": "acossta",
+      "points": 33,
+      "comments": 0,
+      "published_at": "2026-10-25T19:10:36+00:00"
+    },
+    {
+      "id": "535080",
+      "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "author": "romanhn",
+      "points": 32,
+      "comments": 43,
+      "published_at": "2026-10-25T16:28:26+00:00"
+    },
+    {
+      "id": "535116",
+      "title": "Sabre Wulf Remastered",
+      "url": "https://gp-64.com/swr/",
+      "author": "adunk",
+      "points": 30,
+      "comments": 4,
+      "published_at": "2026-10-25T17:15:16+00:00"
+    },
+    {
+      "id": "535115",
+      "title": "Active incident at Dreamhost forcing password reset",
+      "url": "https://www.dreamhoststatus.com/",
+      "author": "greenchair",
+      "points": 29,
+      "comments": 10,
+      "published_at": "2026-10-25T13:09:16+00:00"
+    },
+    {
+      "id": "535212",
+      "title": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
+      "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
+      "author": "_Microft",
+      "points": 29,
+      "comments": 0,
+      "published_at": "2026-10-25T19:29:16+00:00"
+    },
+    {
+      "id": "535244",
+      "title": "Eunice is almost here (William Gibson, Agency)",
+      "url": "https://armincat.com/articles/eunice-is-almost-here",
+      "author": "armcat",
+      "points": 29,
+      "comments": 22,
+      "published_at": "2026-10-25T19:40:27+00:00"
+    },
+    {
+      "id": "535251",
+      "title": "Why I Am a Programmer",
+      "url": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+      "author": "jruohonen",
+      "points": 29,
+      "comments": 5,
+      "published_at": "2026-10-25T19:11:31+00:00"
+    },
+    {
+      "id": "535107",
+      "title": "A Mathematician Reads the AI Future",
+      "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+      "author": "artninja1988",
+      "points": 28,
+      "comments": 21,
+      "published_at": "2026-10-25T16:31:21+00:00"
+    },
+    {
+      "id": "535275",
+      "title": "What goes into making an animated film?",
+      "url": "https://www.disneyanimation.com/process/",
+      "author": "embedding-shape",
+      "points": 27,
+      "comments": 13,
+      "published_at": "2026-10-25T20:27:09+00:00"
+    },
+    {
+      "id": "534513",
+      "title": "Elon Musk says he was behind restricting Ukraine's Starlink speed",
+      "url": "https://www.chicagotribune.com/2026/10/24/musk-behind-starlink-speed-restriction-in-ukraine/",
+      "author": "MilnerRoute",
+      "points": 25,
+      "comments": 2,
+      "published_at": "2026-10-25T02:15:31+00:00"
+    },
+    {
+      "id": "535259",
+      "title": "UTS #39: Unicode Security Mechanisms",
+      "url": "https://unicode.org/reports/tr39/",
+      "author": "robin_reala",
+      "points": 25,
+      "comments": 4,
+      "published_at": "2026-10-25T16:40:37+00:00"
+    },
+    {
+      "id": "535179",
+      "title": "Scientists rediscover how to make ancient Roman colour-changing glass",
+      "url": "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass",
+      "author": "teleforce",
+      "points": 24,
+      "comments": 3,
+      "published_at": "2026-10-25T17:20:22+00:00"
+    },
+    {
+      "id": "535196",
+      "title": "Fuck Nuance (2015)",
+      "url": "https://crookedtimber.org/2015/08/31/fuck-nuance/",
+      "author": "bariumbitmap",
+      "points": 24,
+      "comments": 3,
+      "published_at": "2026-10-25T17:26:08+00:00"
+    },
+    {
+      "id": "535243",
+      "title": "Flock [YC S17] Fever: A Review of Government Surveillance by Benn Jordan [video]",
+      "url": "https://www.youtube.com/watch?v=OP5GDiLZ1Nw",
+      "author": "input_sh",
+      "points": 23,
+      "comments": 1,
+      "published_at": "2026-10-25T16:02:43+00:00"
+    },
+    {
+      "id": "535302",
+      "title": "Where the Romans Fought (interactive map)",
+      "url": "https://iosiflazaridis.github.io/battles-of-the-romans/",
+      "author": "endorphine",
+      "points": 23,
+      "comments": 7,
+      "published_at": "2026-10-25T18:58:14+00:00"
+    },
+    {
+      "id": "535303",
+      "title": "The State of Context Engineering",
+      "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "author": "pchristensen",
+      "points": 23,
+      "comments": 1,
+      "published_at": "2026-10-25T20:32:31+00:00"
+    },
+    {
+      "id": "535304",
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "author": "minimaxir",
+      "points": 23,
+      "comments": 29,
+      "published_at": "2026-10-25T21:11:31+00:00"
+    },
+    {
+      "id": "534993",
+      "title": "Tailworm – Tailscale Vulnerabilities",
+      "url": "https://tailworm.com/",
+      "author": "theanonymousone",
+      "points": 21,
+      "comments": 14,
+      "published_at": "2026-10-25T00:59:48+00:00"
+    },
+    {
+      "id": "534966",
+      "title": "Musk Warns of Compute Stranding Risk; JPMorgan Chase Says Over 60% of U.S. Data Centers Have Not Started Construction",
+      "url": "https://longbridge.cn/news/302991215",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:05:11+00:00"
+    },
+    {
+      "id": "534967",
+      "title": "CPCA September Mid-to-Large Sedan Sales Rankings: Xiaomi SU7 Tops the Chart for Six Consecutive Months",
+      "url": "https://longbridge.cn/news/302991348",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:15:11+00:00"
+    },
+    {
+      "id": "534973",
+      "title": "China Merchants Strategy: Physical AI Poised to Become a Key Growth Driver, Adding New Demand for Computing Power",
+      "url": "https://longbridge.cn/news/302991304",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:13:16+00:00"
+    },
+    {
+      "id": "534974",
+      "title": "Consumer Staples Are Up 12% This Year—These 3 Beverage Stocks Are Leading the Way",
+      "url": "https://longbridge.cn/news/302991516",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:25:00+00:00"
+    },
+    {
+      "id": "534975",
+      "title": "Dan Bin's US Stock Holdings Exposed",
+      "url": "https://longbridge.cn/news/302991574",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:28:31+00:00"
+    },
+    {
+      "id": "534982",
+      "title": "",
+      "url": "https://longbridge.cn/news/302991374",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:16:22+00:00"
+    },
+    {
+      "id": "534992",
+      "title": "Tesla makes good on its Cybercab promise in just two weeks",
+      "url": "https://longbridge.cn/news/302991876",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:34:00+00:00"
+    },
+    {
+      "id": "535007",
+      "title": "Israel’s Netanyahu defends crypto sanctions plan – ‘I do what I think is right’",
+      "url": "https://longbridge.cn/news/302992186",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:05:21+00:00"
+    },
+    {
+      "id": "535013",
+      "title": "",
+      "url": "https://longbridge.cn/news/302992480",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:23:08+00:00"
+    },
+    {
+      "id": "535021",
+      "title": "Sundar Pichai Reported Alphabet's Cloud Revenue Grew 82% Last Quarter While the Gemini App Reached 950 Million Monthly Users. Is Google Cloud Becoming a Bigger Growth Driver Than Search?",
+      "url": "https://longbridge.cn/news/302992735",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:35:13+00:00"
+    },
+    {
+      "id": "535063",
+      "title": "CXMT's Consolidated Profits Look Impressive, But Net Profit Attributable to Shareholders Is Lean",
+      "url": "https://longbridge.cn/news/302993563",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:53:03+00:00"
+    },
+    {
+      "id": "535092",
+      "title": "",
+      "url": "https://longbridge.cn/news/302991540",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:21:14+00:00"
+    },
+    {
+      "id": "535280",
+      "title": "布伦特原油日内跌 1%，现报 110.57 美元/桶。",
+      "url": "https://t.me/Financial_Express/3564282",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:00:22+00:00"
+    },
+    {
+      "id": "535281",
+      "title": "布伦特原油突破 111 美元/桶，日内跌 1.03%。",
+      "url": "https://t.me/Financial_Express/3564283",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:00:23+00:00"
+    },
+    {
+      "id": "535282",
+      "title": "WTI 原油日内跌 1%，现报 102.22 美元/桶。",
+      "url": "https://t.me/Financial_Express/3564284",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:00:23+00:00"
+    },
+    {
+      "id": "535283",
+      "title": "欧洲天然气价格在周一亚市盘初升至 2022 年以来的最高水平。",
+      "url": "https://t.me/Financial_Express/3564285",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:00:25+00:00"
+    },
+    {
+      "id": "535284",
+      "title": "现货白银突破 54 美元/盎司，日内涨 0.17%。",
+      "url": "https://t.me/Financial_Express/3564286",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:00:42+00:00"
+    },
+    {
+      "id": "535285",
+      "title": "周一亚市盘初美股期货走高，标普 500 指数期货涨 0.4%，纳斯达克 100 指数期货涨 0.6%。",
+      "url": "https://t.me/Financial_Express/3564287",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:01:18+00:00"
+    },
+    {
+      "id": "535286",
+      "title": "现货黄金突破 4000 美元/盎司，日内涨 0.07%。",
+      "url": "https://t.me/Financial_Express/3564288",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:01:22+00:00"
+    },
+    {
+      "id": "535287",
+      "title": "标普 500 指数期货上涨 0.4%，纳斯达克 100 指数期货上涨 0.6%。",
+      "url": "https://t.me/Financial_Express/3564289",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:01:23+00:00"
+    },
+    {
+      "id": "535288",
+      "title": "巴西选举法院恢复计票。",
+      "url": "https://t.me/Financial_Express/3564290",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:01:42+00:00"
+    },
+    {
+      "id": "535289",
+      "title": "在已统计 0.29%选票的情况下，巴西总统决选中卢拉得票率为 56.70%，弗拉维奥·博索纳罗为 43.30%。",
+      "url": "https://t.me/Financial_Express/3564291",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:02:02+00:00"
+    },
+    {
+      "id": "535290",
+      "title": "一名美国官员表示，下一轮美乌俄工作级别会谈可能于几周后在阿布扎比或瑞士举行，目标是推动最终实现领导人级别会晤，但目前仍有大量工作要做。",
+      "url": "https://t.me/Financial_Express/3564292",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:04:22+00:00"
+    },
+    {
+      "id": "535291",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3564293",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:04:43+00:00"
+    },
+    {
+      "id": "535292",
+      "title": "原油从六个月高点小幅回落，交易员评估伊朗风险",
+      "url": "https://t.me/Financial_Express/3564294",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:07:42+00:00"
+    },
+    {
+      "id": "535293",
+      "title": "标普 500 股指期货周一早盘走高，原油价格走低",
+      "url": "https://t.me/Financial_Express/3564295",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:08:42+00:00"
+    },
+    {
+      "id": "535294",
+      "title": "日本计划支持银行为增长型投资提供资金。",
+      "url": "https://t.me/Financial_Express/3564296",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:13:22+00:00"
+    },
+    {
+      "id": "535295",
+      "title": "日本计划支持银行业为增长型投资提供资金。",
+      "url": "https://t.me/Financial_Express/3564297",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:13:29+00:00"
+    },
+    {
+      "id": "535296",
+      "title": "巴西总统选举第二轮投票结束",
+      "url": "https://t.me/Financial_Express/3564298",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:15:42+00:00"
+    },
+    {
+      "id": "535297",
+      "title": "巴西大选第二轮已统计 2%选票，卢拉得票率 51.83%暂时领先。",
+      "url": "https://t.me/Financial_Express/3564299",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:20:22+00:00"
+    },
+    {
+      "id": "535298",
+      "title": "富时世界国债指数中国权重升至 11.9%",
+      "url": "https://t.me/Financial_Express/3564300",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:23:22+00:00"
+    },
+    {
+      "id": "535299",
+      "title": "时至四季度，冲刺全年经济目标进入关键时期。近期，北京、陕西、云南等地密集部署重大项目推进工作，成为四季度扩投资、稳增长的重要抓手。（上证报）",
+      "url": "https://t.me/Financial_Express/3564301",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:23:36+00:00"
+    },
+    {
+      "id": "535300",
+      "title": "巴加埃嘲讽鲁比奥，援引特朗普“我们像海盗”言论反击美方指责",
+      "url": "https://t.me/Financial_Express/3564302",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:27:42+00:00"
+    },
+    {
+      "id": "535301",
+      "title": "冯德莱恩",
+      "url": "https://t.me/Financial_Express/3564303",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:28:22+00:00"
+    },
+    {
+      "id": "535306",
+      "title": "Why Israel's election is one of the most important in its history",
+      "url": "https://www.bbc.co.uk/news/videos/c64g1wje3jjwo?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:05:30+00:00"
+    },
+    {
+      "id": "535307",
+      "title": "Deeply divided Israel braces for pivotal election",
+      "url": "https://www.bbc.co.uk/news/articles/ckpdgy6pl7xlo?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:11:13+00:00"
+    },
+    {
+      "id": "535308",
+      "title": "Lula has accused Meta of helping his opponent.",
+      "url": "https://www.nytimes.com/live/2026/10/25/world/brazil-election/lula-has-accused-meta-of-helping-his-opponent",
+      "author": "Ana Ionova",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:13:15+00:00"
+    },
+    {
+      "id": "535309",
+      "title": "Aleksandar Vucic Concedes Defeat in Serbian Election",
+      "url": "https://www.nytimes.com/2026/10/25/world/europe/serbia-vucic-election-defeat.html",
+      "author": "Andrew Higgins and Alisa Dogramadzieva",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:21:43+00:00"
+    },
+    {
+      "id": "535310",
+      "title": "市场资讯",
+      "url": "https://t.me/Financial_Express/3564304",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:29:22+00:00"
+    },
+    {
+      "id": "535311",
+      "title": "Claude 未经许可访问了付费公开数据。",
+      "url": "https://t.me/Financial_Express/3564305",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:30:02+00:00"
+    },
+    {
+      "id": "535312",
+      "title": "近日从富时罗素获悉，在富时世界国债指数（WGBI）的 9 月指数概况中，中国按权重计占指数的 11.9%，为仅次于美国的第二大国债市场。WGBI 指数所涵盖的中国国债市值约 4.2 万亿美元。而 2024 年 10 月中国债券完成“入指”时",
+      "url": "https://t.me/Financial_Express/3564306",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:31:04+00:00"
+    },
+    {
+      "id": "535313",
+      "title": "① 17:00 德国 10 月 IFO 商业景气指数；",
+      "url": "https://t.me/Financial_Express/3564307",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:31:15+00:00"
+    },
+    {
+      "id": "535314",
+      "title": "Anthropic 旗下 Claude 绕过付费墙获取佐治亚州选民数据",
+      "url": "https://t.me/Financial_Express/3564308",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:31:42+00:00"
+    },
+    {
+      "id": "535315",
+      "title": "Real Madrid beat Barcelona 2-1 at Camp Nou to halve gap to La Liga leaders",
+      "url": "https://www.aljazeera.com/sports/2026/10/25/real-madrid-beat-barcelona-2-1-at-camp-nou-to-halve-gap-to-la-liga-leaders?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:22:53+00:00"
+    },
+    {
+      "id": "535316",
+      "title": "保加利亚总统选举将于 11 月 1 日进行第二轮投票",
+      "url": "https://t.me/Financial_Express/3564309",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:34:22+00:00"
+    },
+    {
+      "id": "535317",
+      "title": "中央气象台发布大风预警 西藏内蒙古等地阵风 8 级",
+      "url": "https://t.me/Financial_Express/3564310",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:34:42+00:00"
+    },
+    {
+      "id": "535318",
+      "title": "Claude 未经授权访问了付费公开数据，绕过付费墙获取了美国佐治亚州选民数据。",
+      "url": "https://t.me/Financial_Express/3564311",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:35:48+00:00"
+    },
+    {
+      "id": "535319",
+      "title": "斯巴鲁将退出欧洲汽油车市场。",
+      "url": "https://t.me/Financial_Express/3564312",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:36:02+00:00"
+    },
+    {
+      "id": "535320",
+      "title": "美元/巴西雷亚尔期货价格为 5.23，此前报 5.01。",
+      "url": "https://t.me/Financial_Express/3564313",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:37:02+00:00"
+    },
+    {
+      "id": "535321",
+      "title": "巴西总统决选投票已统计 9.99%，卢拉得票率为 50.48%，弗拉维奥·博索纳罗为 49.52%。",
+      "url": "https://t.me/Financial_Express/3564314",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:39:22+00:00"
+    },
+    {
+      "id": "535322",
+      "title": "也门胡塞武装 25 日表示，他们在利雅得国际机场重新开放数小时后，对该机场以及沙特阿拉伯境内的一处空军基地和一处海军基地发动了袭击。",
+      "url": "https://t.me/Financial_Express/3564315",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:39:50+00:00"
+    },
+    {
+      "id": "535323",
+      "title": "近日，多位券商首席经济学家和首席分析师接受采访时表示：A 股市场出现短期调整更多反映海外冲击与市场情绪波动，风险已得到较大程度释放；中长期看，中国经济基本面、企业盈利修复与产业创新，正在重构 A 股的估值锚。从 9 月经济数据来看，基建投资",
+      "url": "https://t.me/Financial_Express/3564316",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:42:11+00:00"
+    },
+    {
+      "id": "535324",
+      "title": "上周，A 股市场探底回升，资金显著加大流入 ETF 力度。结合估值回落、筹码出清与情绪触底等多项指标，部分机构策略展望研报认为，当前市场底部信号密集释放，自 9 月下旬以来的市场流动性负反馈显著缓解，短期市场超跌反弹具备基本面与政策面的双重",
+      "url": "https://t.me/Financial_Express/3564317",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T22:42:52+00:00"
+    }
+  ]
+}

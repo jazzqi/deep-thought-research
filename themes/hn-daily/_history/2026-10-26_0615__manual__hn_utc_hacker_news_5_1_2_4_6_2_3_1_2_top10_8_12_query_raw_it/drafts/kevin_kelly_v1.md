@@ -1,0 +1,165 @@
+# HN 书摘 · 2026-10-25（周日）
+
+> 今日三句话：① AI 叙事进入「回报清算期」：Apollo 首席经济学家用四张图证明 S&P 493 的每员工收入、利润率、生产率全线走平，token 支出正从增长故事变成成本中心；② 追踪与反追踪同时升级：三星电视被逆向出 root shell 与板载监听模型，而 GrapheneOS 反而获得约十余家银行 App 的明确放行；③ 美国「 kill switch」成真：Musk 个人下令限制乌克兰 Starshield，欧洲政策界开始把「替换美国技术」从偏执幻想变成采购清单。
+
+## 数据速览
+
+**市场快照（2026-10-25 实时报价，UTC 收盘前后）**
+
+| 标的 | 最新价 | 涨跌幅 | 备注 |
+| --- | --- | --- | --- |
+| SPY | 759.97 | -0.52% | 全市场微跌，与本期 HN「AI 回报缺席」情绪同向 |
+| NVDA | 210.96 | -0.59% | 算力龙头小幅回调 |
+| GOOG | 317.28 | -1.08% | 跌幅居前，或反映搜索/云竞争叙事压力 |
+| AMD | 516.79 | +1.74% | 逆势走强，与 Cerebras/GVS5H 揭示的推理架构多元化趋势相映 |
+| TSM | 418.51 | +1.49% | 晶圆代工端走强，与「59 片晶圆流水线」级别的推理基建投入互为印证 |
+| BTC | 80,517.5 | +0.06%（24h） | 区间 80,059–80,999.9，横盘，未见风险偏好扩张信号 |
+
+**本期 HN 条目热度核验（评论页抓取）**
+
+| 条目 | id | 热度 |
+| --- | --- | --- |
+| Samsung TV root shell（合并帖） | 533952 | 726 分 / 554 评论，窗口最高 |
+| danluu《We Should Be More Ambitious with the Software We Build》 | 534166 | 窗口分数最高之一，正文抓取失败，分数未逐项核验 |
+| Steve Blank 欧洲技术替代 | 533836 | 已核验正文 |
+| Apollo AI 回报 / Apricitas 创意岗位 | 534049 / 534204 | 已核验正文 |
+
+> 说明：本节数值为 2026-10-25 22:30 UTC 实时抓取，非冻结快照；除三星电视帖（726 分/554 评论）外，其余条目分数未逐一打开评论页核验，标注为「已核验正文」的条目正文均经 fetch_url 抓取。
+
+## Big Picture
+
+本期 HN 窗口（10月24-25日 UTC）的总纲是一场「能力曲线」与「制度回报」的赛跑：模型能力与推理基建仍在加速——Cerebras 公开 59 片晶圆流水线部署 3 万亿参数模型的方法（1000-2000+ tokens/s）、开源编排框架 GVS5H 让 5 个 Qwen3.8-27B 实例在 LiveCodeBench Hard 上做到 92.4%（Fable 5 为 90.4%）、2015 年的 CNN 微调 20 分钟就在皮肤癌诊断上以 62% 对 42% 碾压两款前沿 LLM；但宏观端的回报尚未出现——Apollo 指出 Mag 7 之外的 S&P 493 每员工收入与利润率完全走平，Apricitas 统计美国媒体、影视与艺术四年流失 20 万岗位且月损约 5 万仍在加速。与此同时，技术的社会摩擦集中爆发：三星电视板载监听被逆向、法国总理在示威前要求运营商准备切断四大社交平台、Steve Blank 宣告欧洲多年担心的美国「 kill switch」由一位 CEO 单方面实现。我们判断，当下的核心矛盾不是 AI 能不能，而是能力外溢到非科技行业、以及社会制度吸收追踪与主权冲击的速度，都显著落后于模型本身的演化。
+
+**kevin_kelly 视角：** 用 12 个必然趋势过滤本期条目，方向性很清晰——「追踪」与「知化」已经进入家电（电视跑 TFLite），必然发生，争议只在谁拥有数据；「共享」「使用」在 GrapheneOS 银行适配上表现为用户端赢回一块阵地；「流动」被主权截断（法国 DNS 断网、Starshield 限速）是 5-30 年内反复出现的拉锯战而非倒车。真正值得盯的早期信号是「AI 辅助逆向」：当普通用户能用 LLM 分析固件，审查能力第一次大规模下沉——这既是追踪必然性的反作用力，也带来新噪音（社区同时在争论逆向者是否被 AI「误导」）。泡沫判别上，Apollo 的「零外溢」不是 AI 失败的证据，而是技术从变异走向市场选择的必经阶段；过早 ≠ 错误。今日市场快照与该判断同向：SPY 与 NVDA 微跌、BTC 横盘于 8 万美元，风险资产未对「AI 回报缺席」定价恐慌，也未定价扩张——市场与 HN 社区一样处于等待外溢证据的观察态。
+
+## 接力协作（分工）
+
+本轮 3 位接力写作者分工如下（依 current.md 接力棒传递，后序可调整）：
+
+| 接力位 | Agent | 负责栏目 | 说明 |
+| --- | --- | --- | --- |
+| 第 1 位（本文，Lead） | kevin_kelly | 全稿骨架、`## Big Picture`、`## 头条深读`、`## 技术雷达` 初稿、`## 数据速览` | 建立三句话总纲与条目编号体系（1-12） |
+| 第 2 位 | 接力第 2 位 | `## 值得一读`（3-7 号）深化：补批注含金量、必要时 fetch_url 补正文 | 不改写头条与技术雷达结论 |
+| 第 3 位 | 接力第 3 位 | `## 社区之声`（11-12 号）深化、全文校订、交叉核对热度注入 | 若发现遗漏可补写，需在本表标注 |
+
+## 头条深读
+
+### 1. Root shell on Samsung TV / 三星电视被逆向出 root shell，板载 AI 监听模块浮出水面
+
+| 原文 | [Root shell on Samsung TV](https://twitter.com/log4j/status/2113014142600953868?s=46) |
+| --- | --- |
+| 中文标题 | 三星电视被逆向出 root shell，板载 AI 监听模块浮出水面 |
+| 摘要 | 合并帖汇总三条线索：黑客逆向三星电视获得 root shell；电视以 TensorFlow Lite 模型在 960x540 图像上持续做视觉追踪；还有团队发现电视通过蓝牙扫描屋内麦克风并记录事件。相关 Reddit 帖主称其 OpenAI 账号因此被封，另有独立帖披露电视寻找屋内麦克风的蓝牙行为。讨论页显示该帖已合并三条子讨论，热度为窗口内最高（726 分/554 评论）。 |
+| 批注 | 「追踪」与「知化」首次在消费电视上合体——真正的增量不是三星在监听（狗叫/婴儿哭检测是 SmartThings 多年公开卖点），而是 LLM 辅助逆向让普通用户第一次具备审查家电固件的能力，这会把硬件黑箱变成持续的公共议题。 |
+| 评论摘录 | 作者 luma 主张这是广告宣传多年的功能（用于 SmartThings 联动），称逆向新手「拿着自己不懂的工具做不懂的项目，被自己的 AI 气出了发现」——而作者 athrowaway3z 反驳：Claude 认为这是发现，本身就说明 LLM 压缩的人类知识仍判断 SmartThings 是「用户不想要的令人不安的技术」。见 [HN 讨论](https://news.ycombinator.com/item?id=50218633) |
+
+### 2. Elon Musk Just Gave Europe a Reason to Replace American Technology / Musk 刚给了欧洲一个替换美国技术的理由
+
+| 原文 | [Elon Musk Just Gave Europe a Reason to Replace American Technology](https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/) |
+| --- | --- |
+| 中文标题 | Musk 刚给了欧洲一个替换美国技术的理由 |
+| 摘要 | Steve Blank 写道，美国关闭情报支持、限制乌克兰军事版 Starlink（Starshield）的决定在欧洲引发震动：多年来英欧政策圈担忧美国在武器系统与关键商业技术中留有「 kill switch」，被多数人（含作者本人）视为偏执幻想，如今成真。据《华尔街日报》，限制由 Musk 个人下令而非正式美国政策，实际效果是把俄乌战场天平推向俄方。 |
+| 批注 | 这是「流动」被单点截断的教科书案例：当一个商业 CEO 能单方面削弱一国军事能力，欧洲的替代采购就从地缘政治辩论变成订单——与法国断网准备、丹麦放弃替换 MS Office 的静默撤回共同构成「技术主权」买盘的三条腿。 |
+| 评论摘录 | 作者 owenthejumper：「欧洲一定会造替代品。他们会争吵一阵子，但最终他们会造。在美国人看来他们不会，但他们确实会。」见 [HN 讨论](https://news.ycombinator.com/item?id=50220913) |
+
+## 值得一读
+
+### 3. No Signs of AI Payoff Outside the Tech Sector / 科技行业之外看不到 AI 回报
+
+| 原文 | [No Signs of AI Payoff Outside the Tech Sector](https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector) |
+| --- | --- |
+| 中文标题 | 科技行业之外看不到 AI 回报 |
+| 摘要 | Apollo 首席经济学家 Torsten Slok（2026-10-24）：Mag 7 每员工收入上升、利润率上升，但 S&P 493 两项皆持平，且生产率增长仍无 AI 痕迹；主流企业正把 token 支出视为压利润率的成本中心，只有 VC 系公司在加码。他的结论是，只要 agentic AI 仍局限在经济的一小块，宏观影响就有限——「AI 可能是很棒的计算器，但商业中的智能 mostly 是判断」，判断依赖情境，而 AI 不理解问责、信任与文化。 |
+| 批注 | 这是本期最重要的宏观锚点：它把「AI 泡沫」争论从股价拉到资产负债表——外溢不发生，token 就是费用；外溢发生，模型商品化也挡不住定价权。5 年内这是判断 AI 演化处于「变异-选择」哪一段的关键指标。 |
+
+### 4. America Has Lost 200k of Jobs in Media, Film and the Arts. How Much Is AI? / 美国媒体、影视与艺术流失 20 万岗位，AI 占几成？
+
+| 原文 | [America Has Lost 200k of Jobs in Media, Film and the Arts. How Much Is AI?](https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class) |
+| --- | --- |
+| 中文标题 | 美国媒体、影视与艺术流失 20 万岗位，AI 占几成？ |
+| 摘要 | Apricitas（Joseph Politano）：美国四年流失超 20 万个创意岗位、近一年约 5 万，强度与持续时间只有 2001、2008 衰退可比，而当下并无衰退。影视与录音行业损失超 10 万个（近总量三分之一），就业已回到 2008 年衰退低点以下；出版业同期减少 7 万+。归因极难（好莱坞整合、内容离岸、社交创作者替代），但最清晰的证据是：数字艺术子行业全线裁员，而线下娱乐仍在健康增长。 |
+| 批注 | 这篇给了「AI 结构性替代」与「行业周期」的可证伪判据（线上跌、线下涨），比单点喊失业更值得引用；也是我方判断 AI 回报外溢缺席时的劳动力侧对照。 |
+
+### 5. Oai-math-revised: A Community Hub for Revising OpenAI's Math Write-ups / 数学社区建 hub 集体修订 OpenAI 数学文稿
+
+| 原文 | [Oai-math-revised: a community hub for revising OpenAI's math write-ups](https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/) |
+| --- | --- |
+| 中文标题 | 数学社区建 hub 集体修订 OpenAI 数学文稿 |
+| 摘要 | Terry Tao 博客客座文（作者 Abhinav Nellore、Johannes Schmitt、Rachel Ward、Soledad Villar）：OpenAI 在 github.com/openai/math 的数学文稿难懂且引用不全，社区建立 mathcommunity/oai-math-revised 仓库（附可浏览网页版）集体修订，并公开招募学生、博士后、教授按 overview.pdf 的分类担任审阅者与管理员。 |
+| 批注 | 延续 10 月中旬「数学界职业性震荡」主线：共同体对 AI 生产的数学知识从抵制转向治理——这正是「重混」与「提问」趋势下的制度补丁，比单纯批判或拥抱都更可能沉淀为长期基础设施。 |
+
+### 6. France Asked ISPs to Prepare Temporary DNS Blocks for Major Social Platforms / 法国政府要求 ISP 准备临时 DNS 断网
+
+| 原文 | [France asked ISPs to prepare temporary DNS blocks for major social platforms](https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ) |
+| --- | --- |
+| 中文标题 | 法国政府要求 ISP 准备临时 DNS 断网 |
+| 摘要 | Blast 独家披露：10月24日大游行前两天，总理 Sébastien Lecornu 要求 Orange、SFR、Free、Bouygues Telecom 待命，准备切断 TikTok、Instagram、Snapchat、X 的接入；Blast 公开了信件与随后会议纪要，运营商在会上表达疑虑。法国 2024 年曾在新喀里多尼亚用过同一手段，后被 Conseil d'État（最高行政法院）否定。 |
+| 批注 | 「流动」的主权截断从出口管制下沉到国内 DNS 层——与本期 Starshield 限速互为镜像：基础设施的开关无论握在 CEO 还是总理手里，都会催生替代网络与去中心化协议的需求。 |
+
+### 7. We Should Be More Ambitious with the Software We Build / 我们本该对软件更有野心
+
+| 原文 | [We should be more ambitious with the software we build](https://danluu.com/ambitious/) |
+| --- | --- |
+| 中文标题 | 我们本该对软件更有野心 |
+| 摘要 | 未能抓取正文（danluu.com 多次连接失败：ConnectError × 3、Server disconnected × 2）。 |
+| 批注 | 窗口内分数最高条目之一，正文未核验；评论区 670+ 条的焦点集中在「AI 提速带来的过拟合性能回归」——读者可自行核对原文，我方不据未核验正文下结论。 |
+
+## 技术雷达
+
+### 8. How Cerebras Deploys Trillion-Parameter AI Models / Cerebras 公开万亿参数模型部署方法
+
+| 原文 | [How we deploy Trillion-parameter frontier models on Cerebras](https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras) |
+| --- | --- |
+| 中文标题 | Cerebras 公开万亿参数模型部署方法 |
+| 摘要 | 以开源 3 万亿参数模型 Kimi K3（69 个线性注意力层 + 24 个 dense 层，4-bit 权重量化，每层约 16GB）为例：单片 WSE-3T 有 44GB 片上 SRAM，dense 层一芯一层（留 KV cache 空间）、线性注意力层一芯两层（固定状态不随上下文膨胀），共需 59 片晶圆；片间用 RDMA over Ethernet 传激活，约 2 微秒/跳，权重全程不动；流水线用不同请求填满，每级还能做 micro-batch，实现 1000-2000+ tokens/s。 |
+| 批注 | 线性注意力 + 片上 SRAM 是「硬件重混模型架构」的信号：上下文成本不再线性膨胀，长上下文推理的经济性可能先在这一路径上被改写——追踪「形成」趋势里推理成本曲线的拐点。 |
+
+### 9. GVS5H: Five Qwen3.8-27B Models Match Fable 5 on LiveCodeBench Hard / 五个开源 27B 实例编排追平前沿闭源模型
+
+| 原文 | [GVS5H: Five Qwen3.8-27B Models Match Claude Fable 5 on LiveCodeBench Hard](https://github.com/slee-persis/GVS5H) |
+| --- | --- |
+| 中文标题 | 五个开源 27B 实例编排追平前沿闭源模型 |
+| 摘要 | 论文提出 ledger-based zero-shot self-orchestration：同一模型的新实例经共享文件系统（计划、笔记、当前解）分解协调，训练无关。在 100 道最新 LiveCodeBench Hard、11 个开闭源模型上，固定后端最高提升 25.6 个百分点：编排后的 Qwen3.8 Flash Next 达 93.0% pass@1（Fable 5 为 90.4%），成本仅 9%；本地部署的 Qwen3.8-27B 从 66.8% 升至 92.4%。增益不普适，部分模型持平或变差，归因于分解与持久上下文。 |
+| 批注 | 「重混」压过「参数规模」的又一实证：推理期组织方式正在成为与模型权重并列的性能维度，开源阵营靠编排抹平代差——这会持续侵蚀闭源前沿模型的定价权。 |
+
+### 10. A 10-Year-Old CNN Outperforms Frontier LLMs for Skin Cancer Diagnosis / 十年老 CNN 皮肤癌诊断 62% 对 42% 压倒前沿 LLM
+
+| 原文 | [A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis](https://lynchlab.net/llm-skin-cancer) |
+| --- | --- |
+| 中文标题 | 十年老 CNN 皮肤癌诊断 62% 对 42% 压倒前沿 LLM |
+| 摘要 | 作者向 GPT-6 Astra、Claude Fable 5.1 与一个 Inception v3（2015 年发布、在 68,011 张 ISIC 图上单卡 H100 微调约 20 分钟）展示 200 例活检确认病灶：CNN 答对 125/200（62%），两款前沿 LLM 分别 84、85/200（42%）。文中列出前沿模型将 <0.8mm 浸润性黑色素瘤判为可出院良性疣的案例；该 CNN 小到可在手机浏览器用 WebGPU 本地运行，无需上传。 |
+| 批注 | 任务特化的「知化」仍在系统性碾压通用智能：垂直小模型 + 本地推理在受监管领域（医疗）的可靠性与隐私优势，意味着 AI 落地形态是千万个离线小模型，而非单一云端大脑。 |
+
+## 社区之声
+
+### 11. Around a Dozen Banking Apps Began Specifically Permitting GrapheneOS / 约十余家银行 App 开始明确放行 GrapheneOS
+
+| 原文 | [Around a dozen banking apps began specifically permitting GrapheneOS](https://grapheneos.social/@GrapheneOS/117492375462459244) |
+| --- | --- |
+| 中文标题 | 约十余家银行 App 开始明确放行 GrapheneOS |
+| 摘要 | GrapheneOS 官方账号宣布约十余家银行 App 已开始明确允许其（此前银行类 App 常因完整性检测拒绝自定义 ROM）。讨论要点：高赞回复作者 Arch-TK 虽用 GrapheneOS，但反对银行把用户手机当作其分发基础设施，要求至少保留网页端与硬件 token 认证；另有回复指出欧洲/英国的数据法约束了银行的采集，以及三星电视事件会是下一个观察样本。 |
+| 批注 | 「共享/使用」侧的一次用户净胜：当银行为去 Google 的小众 ROM 开绿灯，说明安全极客不再是被平台规则单向处置的对象——设备自由度的天花板由合规互认而非厂商态度决定。 |
+
+### 12. R/opensource Bans All Solo Projects and Projects Using LLMs / r/opensource 封禁单人项目与 LLM 项目
+
+| 原文 | [R/open source bans all solo projects and projects using LLMs](https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai) |
+| --- | --- |
+| 中文标题 | r/opensource 封禁单人项目与 LLM 项目 |
+| 摘要 | r/opensource 版规全面封禁单人项目与使用 LLM 的项目。讨论焦点：作者 iloveoof 不解开源社区为何在「token 廉价与开源降本同向」时反而敌视 LLM；版主侧作者 Aurornis 的解释最实——2024 年前「花了时间发布」是质量信号，2026 年无法分辨投入 1000 小时还是让 Claude Code 跑 15 分钟，且有模型直接建议用户把生成的帖子复制粘贴到 Reddit 拉新，LLM 痕迹因此成了「不值得看」的标记。 |
+| 批注 | 这是「过滤」趋势的社区应激样本：稀缺资源从「能发布」变成「可信的人类劳动信号」，声誉机制正在重新定价——比封禁本身更长久的，是社区层的溯源与署名基建。 |
+
+---
+
+供后续接力与溯源的条目引用（query_raw_items）：
+- 三星电视 root shell: query_raw_items(source=hackernews,published_after=2026-10-24,published_before=2026-10-26,limit=100)[id:533952] = Root shell on Samsung TV，合并 TFLite 视觉追踪与蓝牙麦克风扫描子帖，评论页抓取显示 726 分/554 评论
+- Steve Blank 欧洲技术替代: query_raw_items(...)[id:533836] = 美国关 Starshield 引发欧洲替换美国技术讨论，正文经 fetch_url 抓取
+- Apollo AI 回报: query_raw_items(...)[id:534049] = Mag 7 与 S&P 493 每员工收入/利润率/生产率分化，正文经 fetch_url 抓取
+- Apricitas 创意岗位: query_raw_items(...)[id:534204] = 四年流失 20 万+创意岗位，正文经 fetch_url 抓取
+- Terry Tao oai-math-revised: query_raw_items(...)[id:534083] = 数学社区集体修订 OpenAI 数学文稿，正文经 fetch_url 抓取
+- 法国 DNS 断网: query_raw_items(...)[id:534803] = 总理要求四运营商待命切断四大社交平台，正文经 fetch_url 抓取
+- danluu ambitious: query_raw_items(...)[id:534166] = 正文抓取失败（连接错误 ×5），仅评论页可访问
+- Cerebras 万亿参数: query_raw_items(...)[id:534352] = 59 片 WSE-3T 流水线部署 Kimi K3，1000-2000+ tokens/s，正文经 fetch_url 抓取
+- GVS5H: query_raw_items(...)[id:534430] = 五实例编排 92.4% vs Fable 5 90.4%，正文经 fetch_url 抓取
+- CNN 皮肤癌: query_raw_items(...)[id:535128] = 62% vs 42%，200 例活检确认病灶，正文经 fetch_url 抓取
+- GrapheneOS 银行: query_raw_items(...)[id:533613] = 约十余家银行 App 放行 GrapheneOS，Mastodon 正文需 JS 未能抓取，HN 评论页已抓取
+- r/opensource 封禁 LLM: query_raw_items(...)[id:534996] = 版规封禁单人/LLM 项目，Reddit 正文未抓取，HN 评论页已抓取
