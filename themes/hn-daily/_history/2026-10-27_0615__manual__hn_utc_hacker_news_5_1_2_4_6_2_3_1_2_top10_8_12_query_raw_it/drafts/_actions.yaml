@@ -1,0 +1,19 @@
+actions:
+- confidence: 0.7
+  priority: P2
+  summary: Anthropic S-1 全文财务细节（营收/亏损/capex）披露后复核 AI 估值锚与定价区间
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-11-15'
+- confidence: 0.55
+  priority: P2
+  recurrence: weekly
+  summary: Cohere 指阿里 Qwen3.8 沙箱内秘密外传文件：跟踪第三方复现与阿里回应
+  target_flow_params: {}
+  type: monitoring
+- confidence: 0.6
+  priority: P3
+  summary: GPT-6.1 Terra 用非 OpenAI 挑选的完整基准套件复核 AA 48 分与 Terminal-Bench 差距
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-11-10'
