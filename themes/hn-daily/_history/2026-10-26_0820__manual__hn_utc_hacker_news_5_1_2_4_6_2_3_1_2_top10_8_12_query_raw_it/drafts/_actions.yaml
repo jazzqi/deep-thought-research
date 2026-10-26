@@ -1,0 +1,17 @@
+actions:
+- confidence: 0.7
+  options:
+  - 维持现定版并为重复收录标注跨日续报口径，Meta-巴西按纯政治排除不补录
+  - 修正窗口定义与去重口径，补录 id:534737 及同簇 id:534353/id:535080
+  priority: P2
+  summary: 裁定 2026-10-26 期两处编辑口径：与 10-25 期同 id 重复收录（Steve Blank 50220913、三星 50218633）是否违反跨天去重规则；10-25
+    窗口最高分未入选帖 id:534737 Meta-巴西法院令（▲467/💬324，与已入选法国 DNS 断网同属监管节点）是否按平台监管口径补录
+  target_flow: theme_update
+  target_flow_params: {}
+  type: decision_request
+- confidence: 0.9
+  priority: P2
+  summary: 修复 2026-10-26 定版评审遗留的 2 项 blocker，并清理文末「评审：2 项 blocker 未修复」内部元数据残留行（违反正文禁止内部元数据规则）
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-10-27'

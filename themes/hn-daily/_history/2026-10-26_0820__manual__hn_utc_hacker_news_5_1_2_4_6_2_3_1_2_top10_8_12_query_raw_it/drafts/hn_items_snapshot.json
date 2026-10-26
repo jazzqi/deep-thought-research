@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-26T01:11:33.253691+00:00",
+  "window": {
+    "after": "2026-10-25T00:00:00+00:00",
+    "before": "2026-10-26T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "534737",
+      "title": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
+      "url": "https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order",
+      "author": "vrganj",
+      "points": 467,
+      "comments": 324,
+      "published_at": "2026-10-25T09:00:40+00:00"
+    },
+    {
+      "id": "535117",
+      "title": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
+      "url": "https://talkweb.eu/openweb/4558/",
+      "author": "Tomte",
+      "points": 381,
+      "comments": 186,
+      "published_at": "2026-10-25T17:30:55+00:00"
+    },
+    {
+      "id": "534352",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "author": "gmays",
+      "points": 351,
+      "comments": 127,
+      "published_at": "2026-10-25T01:33:49+00:00"
+    },
+    {
+      "id": "534848",
+      "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
+      "url": "https://twitter.com/mike64_t/status/2114150399406202896",
+      "author": "mashally",
+      "points": 285,
+      "comments": 1,
+      "published_at": "2026-10-25T10:42:01+00:00"
+    },
+    {
+      "id": "535080",
+      "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "author": "romanhn",
+      "points": 186,
+      "comments": 267,
+      "published_at": "2026-10-25T16:28:26+00:00"
+    },
+    {
+      "id": "534867",
+      "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+      "url": "https://github.com/ihhub/fheroes2",
+      "author": "tosh",
+      "points": 184,
+      "comments": 64,
+      "published_at": "2026-10-25T11:09:12+00:00"
+    },
+    {
+      "id": "534353",
+      "title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
+      "url": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report",
+      "author": "nidnogg",
+      "points": 180,
+      "comments": 135,
+      "published_at": "2026-10-25T02:18:35+00:00"
+    },
+    {
+      "id": "534430",
+      "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+      "url": "https://github.com/slee-persis/GVS5H",
+      "author": "rzk",
+      "points": 178,
+      "comments": 66,
+      "published_at": "2026-10-25T03:56:01+00:00"
+    },
+    {
+      "id": "535014",
+      "title": "Show HN: I put employees inside S&P 500 market-cap bubbles",
+      "url": "https://bigwhalehunting.com/workforce/",
+      "author": "vfxGer",
+      "points": 162,
+      "comments": 47,
+      "published_at": "2026-10-25T15:05:39+00:00"
+    },
+    {
+      "id": "534944",
+      "title": "Tool book of a Nuremberg knight from 1505",
+      "url": "https://loeffelholz-codex.org/en/",
+      "author": "edwardog",
+      "points": 157,
+      "comments": 78,
+      "published_at": "2026-10-25T12:37:54+00:00"
+    },
+    {
+      "id": "535128",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "author": "sungam",
+      "points": 153,
+      "comments": 84,
+      "published_at": "2026-10-25T17:15:38+00:00"
+    },
+    {
+      "id": "534803",
+      "title": "France asked ISPs to prepare temporary DNS blocks for major social platforms",
+      "url": "https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ",
+      "author": "noplay",
+      "points": 147,
+      "comments": 170,
+      "published_at": "2026-10-25T09:56:49+00:00"
+    },
+    {
+      "id": "535034",
+      "title": "Samsung TVs look for microphones in your house via Bluetooth and then spy events",
+      "url": "https://twitter.com/freddier/status/2114042326758867453",
+      "author": "taubek",
+      "points": 134,
+      "comments": 3,
+      "published_at": "2026-10-25T13:11:22+00:00"
+    },
+    {
+      "id": "534752",
+      "title": "Online censorship is crushing indie webcomics",
+      "url": "https://xtramagazine.com/culture/online-censorship-indie-webcomics-284463",
+      "author": "Tomte",
+      "points": 120,
+      "comments": 102,
+      "published_at": "2026-10-25T09:04:13+00:00"
+    },
+    {
+      "id": "534866",
+      "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+      "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+      "author": "thunderbong",
+      "points": 119,
+      "comments": 54,
+      "published_at": "2026-10-25T09:51:17+00:00"
+    },
+    {
+      "id": "535115",
+      "title": "Active incident at Dreamhost forcing password reset",
+      "url": "https://www.dreamhoststatus.com/",
+      "author": "greenchair",
+      "points": 113,
+      "comments": 41,
+      "published_at": "2026-10-25T13:09:16+00:00"
+    },
+    {
+      "id": "535139",
+      "title": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
+      "url": "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/",
+      "author": "tdeck",
+      "points": 97,
+      "comments": 14,
+      "published_at": "2026-10-25T18:04:11+00:00"
+    },
+    {
+      "id": "535003",
+      "title": "Imagine an AI future where being banned means you are now economically useless",
+      "url": "https://twitter.com/boneGPT/status/2114035719853265264",
+      "author": "MrBuddyCasino",
+      "points": 94,
+      "comments": 74,
+      "published_at": "2026-10-25T12:47:20+00:00"
+    },
+    {
+      "id": "534354",
+      "title": "Xbox Turns Down Netflix $500M Offer",
+      "url": "https://www.darkhorizons.com/xbox-turns-down-netflix-500-million-offer/",
+      "author": "xoxxala",
+      "points": 90,
+      "comments": 135,
+      "published_at": "2026-10-25T03:05:53+00:00"
+    },
+    {
+      "id": "535087",
+      "title": "Anthropic Wanted to Replace Engineers. Instead, They Shot Their Own Customers",
+      "url": "https://techbronerd.substack.com/p/openai-and-anthropic-wanted-to-replace",
+      "author": "tom2026hn",
+      "points": 85,
+      "comments": 96,
+      "published_at": "2026-10-25T15:34:44+00:00"
+    },
+    {
+      "id": "534996",
+      "title": "R/open source bans all solo projects and projects using LLMs",
+      "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+      "author": "schleck8",
+      "points": 76,
+      "comments": 103,
+      "published_at": "2026-10-25T14:05:03+00:00"
+    },
+    {
+      "id": "534946",
+      "title": "The Lego group reveals collaboration with Daft Punk",
+      "url": "https://www.lego.com/en-us/categories/adults-welcome/article/daft-punk",
+      "author": "pieterr",
+      "points": 74,
+      "comments": 62,
+      "published_at": "2026-10-25T12:48:11+00:00"
+    },
+    {
+      "id": "534994",
+      "title": "US inequality is getting worse in ways you might not expect",
+      "url": "https://theconversation.com/us-inequality-is-getting-worse-in-ways-you-might-not-expect-294075",
+      "author": "JKCalhoun",
+      "points": 69,
+      "comments": 131,
+      "published_at": "2026-10-25T13:24:37+00:00"
+    },
+    {
+      "id": "534945",
+      "title": "Challenge Is Gone",
+      "url": "https://blog.alxgsv.com/challenge-is-gone/",
+      "author": "alxgsv",
+      "points": 65,
+      "comments": 108,
+      "published_at": "2026-10-25T12:43:52+00:00"
+    },
+    {
+      "id": "535195",
+      "title": "JetBrains Thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "author": "hmokiguess",
+      "points": 63,
+      "comments": 18,
+      "published_at": "2026-10-25T16:27:12+00:00"
+    },
+    {
+      "id": "535157",
+      "title": "Dolly Parton's Imagination Library",
+      "url": "https://imaginationlibrary.com/",
+      "author": "jumploops",
+      "points": 61,
+      "comments": 12,
+      "published_at": "2026-10-25T18:23:54+00:00"
+    },
+    {
+      "id": "535045",
+      "title": "A few thoughts on intensity",
+      "url": "https://www.tylerhogge.com/blog/a-few-thoughts-on-intensity/",
+      "author": "andsoitis",
+      "points": 60,
+      "comments": 47,
+      "published_at": "2026-10-25T14:37:49+00:00"
+    },
+    {
+      "id": "535276",
+      "title": "Serbia's Vucic concedes election defeat in historic win for student movement",
+      "url": "https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25/",
+      "author": "consumer451",
+      "points": 59,
+      "comments": 12,
+      "published_at": "2026-10-25T21:08:28+00:00"
+    },
+    {
+      "id": "534995",
+      "title": "Show HN: Farol – a risk map of a pull request for the person who approves it",
+      "url": "https://github.com/winnin/farol",
+      "author": "ericholiveira",
+      "points": 58,
+      "comments": 37,
+      "published_at": "2026-10-25T13:28:06+00:00"
+    },
+    {
+      "id": "535116",
+      "title": "Sabre Wulf Remastered",
+      "url": "https://gp-64.com/swr/",
+      "author": "adunk",
+      "points": 56,
+      "comments": 8,
+      "published_at": "2026-10-25T17:15:16+00:00"
+    },
+    {
+      "id": "535107",
+      "title": "A Mathematician Reads the AI Future",
+      "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+      "author": "artninja1988",
+      "points": 51,
+      "comments": 73,
+      "published_at": "2026-10-25T16:31:21+00:00"
+    },
+    {
+      "id": "534311",
+      "title": "\"Musk\" Documentary Pulled from Almost Every One of 472 Theaters After One Week",
+      "url": "https://www.showbiz411.com/2026/10/23/controversial-musk-documentary-pulled-from-almost-every-one-of-472-theaters-after-one-week-by-newly-sold-bleecker-street-films",
+      "author": "zzzeek",
+      "points": 49,
+      "comments": 17,
+      "published_at": "2026-10-25T01:40:01+00:00"
+    },
+    {
+      "id": "535304",
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "author": "minimaxir",
+      "points": 46,
+      "comments": 64,
+      "published_at": "2026-10-25T21:11:31+00:00"
+    },
+    {
+      "id": "535472",
+      "title": "Proton Flock Camera Map",
+      "url": "https://proton.me/flock-camera-map",
+      "author": "cdrnsf",
+      "points": 45,
+      "comments": 3,
+      "published_at": "2026-10-25T22:39:42+00:00"
+    },
+    {
+      "id": "535475",
+      "title": "Lula Wins a Record Fourth Term in Brazil in a Surprise Comeback",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-25/lula-wins-a-record-fourth-term-in-brazil-in-a-surprise-comeback",
+      "author": "matheusmoreira",
+      "points": 40,
+      "comments": 0,
+      "published_at": "2026-10-25T23:56:59+00:00"
+    },
+    {
+      "id": "535303",
+      "title": "The State of Context Engineering",
+      "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "author": "pchristensen",
+      "points": 39,
+      "comments": 6,
+      "published_at": "2026-10-25T20:32:31+00:00"
+    },
+    {
+      "id": "535197",
+      "title": "All you need is Wide Events, not \"Metrics, Logs and Traces\"",
+      "url": "https://isburmistrov.substack.com/p/all-you-need-is-wide-events-not-metrics",
+      "author": "bootlegbilly",
+      "points": 33,
+      "comments": 5,
+      "published_at": "2026-10-25T18:11:38+00:00"
+    },
+    {
+      "id": "535260",
+      "title": "Gheist campaign plants secret-dumping workflows using stolen GitHub tokens",
+      "url": "https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles",
+      "author": "acossta",
+      "points": 33,
+      "comments": 0,
+      "published_at": "2026-10-25T19:10:36+00:00"
+    },
+    {
+      "id": "535474",
+      "title": "F-Zero X on Nintendo 3DS",
+      "url": "https://hypnotize.works/gdx-3ds/postmortem/index.html",
+      "author": "bpierre",
+      "points": 33,
+      "comments": 10,
+      "published_at": "2026-10-25T23:27:30+00:00"
+    },
+    {
+      "id": "535212",
+      "title": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
+      "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
+      "author": "_Microft",
+      "points": 29,
+      "comments": 0,
+      "published_at": "2026-10-25T19:29:16+00:00"
+    },
+    {
+      "id": "535244",
+      "title": "Eunice is almost here (William Gibson, Agency)",
+      "url": "https://armincat.com/articles/eunice-is-almost-here",
+      "author": "armcat",
+      "points": 29,
+      "comments": 22,
+      "published_at": "2026-10-25T19:40:27+00:00"
+    },
+    {
+      "id": "535251",
+      "title": "Why I Am a Programmer",
+      "url": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+      "author": "jruohonen",
+      "points": 29,
+      "comments": 5,
+      "published_at": "2026-10-25T19:11:31+00:00"
+    },
+    {
+      "id": "535275",
+      "title": "What goes into making an animated film?",
+      "url": "https://www.disneyanimation.com/process/",
+      "author": "embedding-shape",
+      "points": 27,
+      "comments": 13,
+      "published_at": "2026-10-25T20:27:09+00:00"
+    },
+    {
+      "id": "535473",
+      "title": "Apollo says AI has delivered 'zero financial payoff' outside the tech industry",
+      "url": "https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10",
+      "author": "levzettelin",
+      "points": 27,
+      "comments": 14,
+      "published_at": "2026-10-25T22:49:06+00:00"
+    },
+    {
+      "id": "535302",
+      "title": "Where the Romans Fought (interactive map)",
+      "url": "https://iosiflazaridis.github.io/battles-of-the-romans/",
+      "author": "endorphine",
+      "points": 26,
+      "comments": 11,
+      "published_at": "2026-10-25T18:58:14+00:00"
+    },
+    {
+      "id": "534513",
+      "title": "Elon Musk says he was behind restricting Ukraine's Starlink speed",
+      "url": "https://www.chicagotribune.com/2026/10/24/musk-behind-starlink-speed-restriction-in-ukraine/",
+      "author": "MilnerRoute",
+      "points": 25,
+      "comments": 2,
+      "published_at": "2026-10-25T02:15:31+00:00"
+    },
+    {
+      "id": "535259",
+      "title": "UTS #39: Unicode Security Mechanisms",
+      "url": "https://unicode.org/reports/tr39/",
+      "author": "robin_reala",
+      "points": 25,
+      "comments": 4,
+      "published_at": "2026-10-25T16:40:37+00:00"
+    },
+    {
+      "id": "535179",
+      "title": "Scientists rediscover how to make ancient Roman colour-changing glass",
+      "url": "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass",
+      "author": "teleforce",
+      "points": 24,
+      "comments": 3,
+      "published_at": "2026-10-25T17:20:22+00:00"
+    },
+    {
+      "id": "535196",
+      "title": "Fuck Nuance (2015)",
+      "url": "https://crookedtimber.org/2015/08/31/fuck-nuance/",
+      "author": "bariumbitmap",
+      "points": 24,
+      "comments": 3,
+      "published_at": "2026-10-25T17:26:08+00:00"
+    },
+    {
+      "id": "535243",
+      "title": "Flock [YC S17] Fever: A Review of Government Surveillance by Benn Jordan [video]",
+      "url": "https://www.youtube.com/watch?v=OP5GDiLZ1Nw",
+      "author": "input_sh",
+      "points": 23,
+      "comments": 1,
+      "published_at": "2026-10-25T16:02:43+00:00"
+    },
+    {
+      "id": "534993",
+      "title": "Tailworm – Tailscale Vulnerabilities",
+      "url": "https://tailworm.com/",
+      "author": "theanonymousone",
+      "points": 22,
+      "comments": 15,
+      "published_at": "2026-10-25T00:59:48+00:00"
+    },
+    {
+      "id": "535425",
+      "title": "Europe's summer heat wave killed more han 50k people in urban areas",
+      "url": "https://www.science.org/content/article/europe-s-summer-heat-wave-killed-more-50-000-people-urban-areas",
+      "author": "rbanffy",
+      "points": 21,
+      "comments": 14,
+      "published_at": "2026-10-25T22:02:33+00:00"
+    },
+    {
+      "id": "535021",
+      "title": "Sundar Pichai Reported Alphabet's Cloud Revenue Grew 82% Last Quarter While the Gemini App Reached 950 Million Monthly Users. Is Google Cloud Becoming a Bigger Growth Driver Than Search?",
+      "url": "https://longbridge.cn/news/302992735",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:35:13+00:00"
+    },
+    {
+      "id": "535063",
+      "title": "CXMT's Consolidated Profits Look Impressive, But Net Profit Attributable to Shareholders Is Lean",
+      "url": "https://longbridge.cn/news/302993563",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:53:03+00:00"
+    },
+    {
+      "id": "535387",
+      "title": "日经期货在新加坡交易所开盘上涨 75 点，报 62900 点。",
+      "url": "https://t.me/Financial_Express/3564381",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:31:22+00:00"
+    },
+    {
+      "id": "535390",
+      "title": "月之暗面发布致 Kimi 用户的公告",
+      "url": "https://t.me/Financial_Express/3564382",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:34:42+00:00"
+    },
+    {
+      "id": "535391",
+      "title": "SK 海力士拟依托铠侠股权处置收益派发 16 万亿韩元特别分红",
+      "url": "https://t.me/Financial_Express/3564383",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:35:02+00:00"
+    },
+    {
+      "id": "535392",
+      "title": "在已统计的 60.85%的选票中，卢拉在巴西总统决选中获得 50.55%的选票，弗拉维奥·博索纳罗获得 49.45%的选票。",
+      "url": "https://t.me/Financial_Express/3564384",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:37:22+00:00"
+    },
+    {
+      "id": "535393",
+      "title": "巴西第二轮选举半数选票计票完毕，卢拉反超博索纳罗",
+      "url": "https://t.me/Financial_Express/3564385",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:38:42+00:00"
+    },
+    {
+      "id": "535394",
+      "title": "券商三季报业绩韧性显现 机构看好板块估值修复",
+      "url": "https://t.me/Financial_Express/3564386",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:39:22+00:00"
+    },
+    {
+      "id": "535395",
+      "title": "摩根士丹利将宝丰能源评级上调至超配，目标价 30 元。",
+      "url": "https://t.me/Financial_Express/3564387",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:39:23+00:00"
+    },
+    {
+      "id": "535396",
+      "title": "华泰证券 A 股策略：情绪出清下关注超跌反弹",
+      "url": "https://t.me/Financial_Express/3564388",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:40:22+00:00"
+    },
+    {
+      "id": "535397",
+      "title": "世茂集团 90.7 亿美元债务发生违约事件",
+      "url": "https://t.me/Financial_Express/3564389",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:41:02+00:00"
+    },
+    {
+      "id": "535398",
+      "title": "华泰证券：绿色燃料或带动中国生物质与绿电重估",
+      "url": "https://t.me/Financial_Express/3564390",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:41:03+00:00"
+    },
+    {
+      "id": "535399",
+      "title": "我国成功发射遥感五十三号 07-09 星、遥感五十六号 19-21 星",
+      "url": "https://t.me/Financial_Express/3564391",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:41:22+00:00"
+    },
+    {
+      "id": "535400",
+      "title": "美驻土耳其大使称周末可能打击伊朗 特朗普称对此不知情",
+      "url": "https://t.me/Financial_Express/3564392",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:41:22+00:00"
+    },
+    {
+      "id": "535401",
+      "title": "巴克莱",
+      "url": "https://t.me/Financial_Express/3564393",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:41:23+00:00"
+    },
+    {
+      "id": "535402",
+      "title": "巴克莱",
+      "url": "https://t.me/Financial_Express/3564394",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:41:23+00:00"
+    },
+    {
+      "id": "535403",
+      "title": "巴克莱",
+      "url": "https://t.me/Financial_Express/3564395",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:41:23+00:00"
+    },
+    {
+      "id": "535404",
+      "title": "法国暂时躲过穆迪降级 但展望仍为负面",
+      "url": "https://t.me/Financial_Express/3564396",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:41:30+00:00"
+    },
+    {
+      "id": "535405",
+      "title": "2026 广东科技金融周今日启幕",
+      "url": "https://t.me/Financial_Express/3564397",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:43:42+00:00"
+    },
+    {
+      "id": "535406",
+      "title": "巴西总统决选投票已统计 69.92%，卢拉得票率为 50.92%，弗拉维奥·博索纳罗为 49.08%。",
+      "url": "https://t.me/Financial_Express/3564398",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:45:42+00:00"
+    },
+    {
+      "id": "535407",
+      "title": "中信建投：当下尚无流动性风险",
+      "url": "https://t.me/Financial_Express/3564399",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:45:42+00:00"
+    },
+    {
+      "id": "535408",
+      "title": "本周有 3380 亿元公开市场逆回购到期，其中包括隔夜品种 2580 亿元，7 天期品种 800 亿元。周二另有 9000 亿元 1 年期 MLF 到期。",
+      "url": "https://t.me/Financial_Express/3564400",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:46:02+00:00"
+    },
+    {
+      "id": "535409",
+      "title": "日经 225 指数期货早盘下跌 0.3%。",
+      "url": "https://t.me/Financial_Express/3564401",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:46:03+00:00"
+    },
+    {
+      "id": "535410",
+      "title": "基准 10 年期日本国债期货早盘下跌 0.11 点。",
+      "url": "https://t.me/Financial_Express/3564402",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:46:22+00:00"
+    },
+    {
+      "id": "535411",
+      "title": "中信建投：物理 AI 与网安有望成为产业新标杆",
+      "url": "https://t.me/Financial_Express/3564403",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:46:22+00:00"
+    },
+    {
+      "id": "535412",
+      "title": "三星 SDI 与美国 Alpha Omega 签署 1 吉瓦时储能系统供应协议",
+      "url": "https://t.me/Financial_Express/3564404",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:48:03+00:00"
+    },
+    {
+      "id": "535413",
+      "title": "美团",
+      "url": "https://t.me/Financial_Express/3564405",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:48:42+00:00"
+    },
+    {
+      "id": "535414",
+      "title": "据 DATAFOLHA 预测，卢拉赢得巴西总统大选。",
+      "url": "https://t.me/Financial_Express/3564406",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:49:02+00:00"
+    },
+    {
+      "id": "535415",
+      "title": "Datafolha 民调预测",
+      "url": "https://t.me/Financial_Express/3564407",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:49:32+00:00"
+    },
+    {
+      "id": "535416",
+      "title": "特朗普再次给内塔尼亚胡背书",
+      "url": "https://t.me/Financial_Express/3564408",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:50:22+00:00"
+    },
+    {
+      "id": "535417",
+      "title": "美团",
+      "url": "https://t.me/Financial_Express/3564409",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:51:07+00:00"
+    },
+    {
+      "id": "535418",
+      "title": "巴西大选已统计 75.87%的选票，巴西现任总统卢拉得票率 51.11%，博索纳罗得票率 48.89%。",
+      "url": "https://t.me/Financial_Express/3564410",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:52:12+00:00"
+    },
+    {
+      "id": "535419",
+      "title": "韩国存储双雄业绩持续激增但股价走弱 市场亟待景气信号",
+      "url": "https://t.me/Financial_Express/3564411",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:52:22+00:00"
+    },
+    {
+      "id": "535420",
+      "title": "马斯克：SpaceX 为 GPU 采购敲定 400 亿美元债务融资",
+      "url": "https://t.me/Financial_Express/3564412",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:52:22+00:00"
+    },
+    {
+      "id": "535421",
+      "title": "媒体预测卢拉斩获巴西总统大选 拿下创纪录第四个任期",
+      "url": "https://t.me/Financial_Express/3564413",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:53:42+00:00"
+    },
+    {
+      "id": "535422",
+      "title": "马斯克称 SpaceX 完成 400 亿美元债务融资 用于购买英伟达 AI 芯片",
+      "url": "https://t.me/Financial_Express/3564414",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:54:42+00:00"
+    },
+    {
+      "id": "535423",
+      "title": "合肥出台楼市新政：有力有序推行商品住房现房销售",
+      "url": "https://t.me/Financial_Express/3564415",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:56:02+00:00"
+    },
+    {
+      "id": "535424",
+      "title": "韩国或将加密货币税推迟两年。",
+      "url": "https://t.me/Financial_Express/3564416",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:57:22+00:00"
+    },
+    {
+      "id": "535426",
+      "title": "Ballon d’Or 2026: Can Barcelona phenom Lamine Yamal become youngest winner?",
+      "url": "https://www.aljazeera.com/sports/2026/10/25/ballon-dor-2026-can-barcelona-phenom-lamine-yamal-become-youngest-winner?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:38:57+00:00"
+    },
+    {
+      "id": "535427",
+      "title": "The presidential election in Brazil is a test of Trump’s power as a kingmaker.",
+      "url": "https://www.nytimes.com/live/2026/10/25/world/brazil-election/the-presidential-election-in-brazil-is-a-test-of-trumps-power-as-a-kingmaker",
+      "author": "Ana Ionova and Adam B. Ellick",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:41:49+00:00"
+    },
+    {
+      "id": "535428",
+      "title": "合肥出台楼市新政：落实主办银行制",
+      "url": "https://t.me/Financial_Express/3564417",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:57:42+00:00"
+    },
+    {
+      "id": "535429",
+      "title": "法拉第未来宣布贾跃亭的投资者周报重新安排至 10 月 26 日；FFR 将于 10 月 26 日举行上市仪式和投资者日活动。",
+      "url": "https://t.me/Financial_Express/3564418",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:57:43+00:00"
+    },
+    {
+      "id": "535430",
+      "title": "国药控股 9 个月营运收入 4,276.1 亿元人民币。",
+      "url": "https://t.me/Financial_Express/3564419",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:58:02+00:00"
+    },
+    {
+      "id": "535431",
+      "title": "央行今日开展 7000 亿元中期借贷便利操作",
+      "url": "https://t.me/Financial_Express/3564420",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:58:22+00:00"
+    },
+    {
+      "id": "535432",
+      "title": "合肥出台楼市新政：支持土地出让价款分期缴纳",
+      "url": "https://t.me/Financial_Express/3564421",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:58:22+00:00"
+    },
+    {
+      "id": "535433",
+      "title": "武契奇承认执政党败选",
+      "url": "https://t.me/Financial_Express/3564422",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:58:23+00:00"
+    },
+    {
+      "id": "535434",
+      "title": "合肥出台楼市新政：全面推行新建商品住房“交房即发证”",
+      "url": "https://t.me/Financial_Express/3564423",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:58:42+00:00"
+    },
+    {
+      "id": "535435",
+      "title": "国药控股 9 个月净利润 53.1 亿元人民币，上年同期 53.1 亿元人民币。",
+      "url": "https://t.me/Financial_Express/3564424",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-25T23:59:22+00:00"
+    }
+  ]
+}
