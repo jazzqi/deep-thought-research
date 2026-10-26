@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-10-25T08:20:57+08:00
-revision: 2026-10-25T08:20:57+08:00
+updated: 2026-10-26T09:22:11+08:00
+revision: 2026-10-26T09:22:11+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [AI Cyber Panic, Ken Griffin's Bubble Warning, The Fall of France? —— All-In Podcast（Chamath / Jason / Friedberg，Sacks 缺席，嘉宾 Nikesh Arora）· 2026-10-23](./all-in/ai-cyber-panic-ken-griffins-bubble-warning-the-fall-of-franc.md)
+- [量子破密倒计时 2030、开源权重将吃下 75-90% 的 token、SaaS 走向大整合 —— Arvind Krishna & Nikesh Arora · All-In Podcast · 2026-10-21](./all-in/arvind-krishna-nikesh-arora-quantum-threat-open-vs-frontier.md)
 
 ## 往期
 
+- [量子破密倒计时 2030、开源权重将吃下 75-90% 的 token、SaaS 走向大整合 —— Arvind Krishna & Nikesh Arora · All-In Podcast · 2026-10-21](./all-in/arvind-krishna-nikesh-arora-quantum-threat-open-vs-frontier.md)
 - [AI Cyber Panic, Ken Griffin's Bubble Warning, The Fall of France? —— All-In Podcast（Chamath / Jason / Friedberg，Sacks 缺席，嘉宾 Nikesh Arora）· 2026-10-23](./all-in/ai-cyber-panic-ken-griffins-bubble-warning-the-fall-of-franc.md)
 - [Martin Shkreli：量子计算是骗局、光子计算才是终局，AI 恐慌论是 narcissistic self-importance —— All-In Podcast · 2026-10-12](./all-in/martin-shkreli-big-pharmas-blind-spot-betting-against-quantu.md)
 - [Billy Evans 首次面对面受访：Elizabeth Holmes 的定罪叙事存在系统性偏差，他将公布"还原真相"的材料 —— All-In Podcast · 2026-10-15](./all-in/elizabeth-holmes-husband-billy-evans-the-trial-prison-nathan.md)
