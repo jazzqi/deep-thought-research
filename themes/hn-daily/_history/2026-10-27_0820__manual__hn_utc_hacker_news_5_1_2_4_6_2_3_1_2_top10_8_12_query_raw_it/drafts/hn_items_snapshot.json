@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-27T01:01:13.847617+00:00",
+  "window": {
+    "after": "2026-10-26T00:00:00+00:00",
+    "before": "2026-10-27T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "546052",
+      "title": "Anthropic S-1",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "author": "SiNTEx",
+      "points": 1262,
+      "comments": 1223,
+      "published_at": "2026-10-26T13:04:50+00:00"
+    },
+    {
+      "id": "550474",
+      "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+      "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+      "author": "doctorzook",
+      "points": 669,
+      "comments": 566,
+      "published_at": "2026-10-26T15:35:12+00:00"
+    },
+    {
+      "id": "550473",
+      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "author": "sgiannopoulos",
+      "points": 506,
+      "comments": 76,
+      "published_at": "2026-10-26T15:11:59+00:00"
+    },
+    {
+      "id": "535526",
+      "title": "Lula wins election after final votes tallied",
+      "url": "https://www.reuters.com/live/brazil-election-live-lula-bolsonaro-face-off-presidential-runoff-2026-10-25/",
+      "author": "laurenth",
+      "points": 493,
+      "comments": 597,
+      "published_at": "2026-10-26T00:31:07+00:00"
+    },
+    {
+      "id": "544505",
+      "title": "Switzerland. Block by block. At 1:1 scale",
+      "url": "https://blocks.manifold3d.ch/",
+      "author": "theanonymousone",
+      "points": 455,
+      "comments": 213,
+      "published_at": "2026-10-26T08:46:09+00:00"
+    },
+    {
+      "id": "535868",
+      "title": "IBM CEO says open weight models are now irresistibly good and cheap on-prem",
+      "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+      "author": "Betelbuddy",
+      "points": 402,
+      "comments": 301,
+      "published_at": "2026-10-26T01:47:46+00:00"
+    },
+    {
+      "id": "536008",
+      "title": "Show HN: TitleArt – Make text like it's 1997",
+      "url": "https://titleart.dvy.io/",
+      "author": "davidbarker",
+      "points": 365,
+      "comments": 69,
+      "published_at": "2026-10-26T03:23:57+00:00"
+    },
+    {
+      "id": "551589",
+      "title": "CSS-Tricks has a new owner",
+      "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+      "author": "edent",
+      "points": 365,
+      "comments": 85,
+      "published_at": "2026-10-26T15:51:23+00:00"
+    },
+    {
+      "id": "553374",
+      "title": "Meta Employees Denounce Interference in Brazilian Elections",
+      "url": "https://www.panamericandispatch.org/p/meta-employees-denounce-interference",
+      "author": "guitcastro",
+      "points": 249,
+      "comments": 89,
+      "published_at": "2026-10-26T17:57:29+00:00"
+    },
+    {
+      "id": "545844",
+      "title": "Websites Should Be Printable",
+      "url": "https://brennenputh.me/blog/printable-websites/",
+      "author": "bagatelle",
+      "points": 235,
+      "comments": 162,
+      "published_at": "2026-10-26T10:32:14+00:00"
+    },
+    {
+      "id": "536904",
+      "title": "Behind the scenes at the NeXT Computer office",
+      "url": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
+      "author": "Austin_Conlon",
+      "points": 230,
+      "comments": 138,
+      "published_at": "2026-10-26T03:31:11+00:00"
+    },
+    {
+      "id": "548378",
+      "title": "Pharo 14",
+      "url": "https://pharo.org/news/2026-10-26-Pharo14Release.html",
+      "author": "xkriva11",
+      "points": 222,
+      "comments": 55,
+      "published_at": "2026-10-26T11:15:50+00:00"
+    },
+    {
+      "id": "536876",
+      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+      "author": "vardhan1237",
+      "points": 219,
+      "comments": 77,
+      "published_at": "2026-10-26T03:29:05+00:00"
+    },
+    {
+      "id": "535867",
+      "title": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
+      "url": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
+      "author": "textlanes33",
+      "points": 188,
+      "comments": 118,
+      "published_at": "2026-10-26T01:03:39+00:00"
+    },
+    {
+      "id": "548433",
+      "title": "DOJ says presidents should be able to sell secrets on eBay",
+      "url": "https://freedom.press/the-classifieds/doj-says-presidents-should-be-able-to-sell-secrets-on-ebay/",
+      "author": "_____k",
+      "points": 176,
+      "comments": 82,
+      "published_at": "2026-10-26T13:54:44+00:00"
+    },
+    {
+      "id": "548338",
+      "title": "Brown student maps the hidden global labor powering AI",
+      "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+      "author": "cdrnsf",
+      "points": 170,
+      "comments": 157,
+      "published_at": "2026-10-26T12:58:27+00:00"
+    },
+    {
+      "id": "535895",
+      "title": "Steal My Bitcoin CTF PoC",
+      "url": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
+      "author": "davikr",
+      "points": 160,
+      "comments": 44,
+      "published_at": "2026-10-26T00:15:17+00:00"
+    },
+    {
+      "id": "553375",
+      "title": "GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "author": "meetpateltech",
+      "points": 160,
+      "comments": 74,
+      "published_at": "2026-10-26T18:01:17+00:00"
+    },
+    {
+      "id": "547366",
+      "title": "OLED iPad Mini",
+      "url": "https://www.apple.com/shop/buy-ipad/ipad-mini",
+      "author": "etothet",
+      "points": 156,
+      "comments": 231,
+      "published_at": "2026-10-26T13:47:33+00:00"
+    },
+    {
+      "id": "555118",
+      "title": "The Exponential Time Hypothesis Is False [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "author": "vok",
+      "points": 147,
+      "comments": 62,
+      "published_at": "2026-10-26T21:59:15+00:00"
+    },
+    {
+      "id": "535820",
+      "title": "iPhone Duo Teardown",
+      "url": "https://www.ifixit.com/News/119895/iphone-duo-teardown",
+      "author": "kripy",
+      "points": 140,
+      "comments": 110,
+      "published_at": "2026-10-26T01:23:24+00:00"
+    },
+    {
+      "id": "546051",
+      "title": "Peter Thiel, the tech oligarch who believes in the Antichrist",
+      "url": "https://english.elpais.com/technology/2026-10-25/peter-thiel-the-tech-oligarch-who-believes-in-the-antichrist.html",
+      "author": "geox",
+      "points": 139,
+      "comments": 182,
+      "published_at": "2026-10-26T12:49:31+00:00"
+    },
+    {
+      "id": "536905",
+      "title": "US Wages Share of GDI at 75 Year Low",
+      "url": "https://fred.stlouisfed.org/series/W270RE1A156NBEA",
+      "author": "omgwtfbyobbq",
+      "points": 138,
+      "comments": 46,
+      "published_at": "2026-10-26T03:51:10+00:00"
+    },
+    {
+      "id": "546869",
+      "title": "Fixing Tool-Call Accuracy in vLLM",
+      "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+      "author": "coffeemug",
+      "points": 132,
+      "comments": 64,
+      "published_at": "2026-10-26T12:59:48+00:00"
+    },
+    {
+      "id": "547889",
+      "title": "The new iPad mini",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+      "author": "soheilpro",
+      "points": 121,
+      "comments": 134,
+      "published_at": "2026-10-26T13:13:36+00:00"
+    },
+    {
+      "id": "555038",
+      "title": "CorridorKey 2.0",
+      "url": "https://corridorkey.com/",
+      "author": "ravenical",
+      "points": 111,
+      "comments": 30,
+      "published_at": "2026-10-26T21:18:05+00:00"
+    },
+    {
+      "id": "549604",
+      "title": "'It's offensively cheap': Solar power is quietly becoming bigger than nuclear",
+      "url": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+      "author": "geox",
+      "points": 104,
+      "comments": 200,
+      "published_at": "2026-10-26T15:26:17+00:00"
+    },
+    {
+      "id": "553372",
+      "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
+      "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
+      "author": "cdrnsf",
+      "points": 101,
+      "comments": 23,
+      "published_at": "2026-10-26T17:32:16+00:00"
+    },
+    {
+      "id": "543860",
+      "title": "Tesla cancels Cybertruck in Australia and NZ after 7 years of deposits",
+      "url": "https://electrek.co/2026/10/23/tesla-cancels-cybertruck-australia-new-zealand/",
+      "author": "MilnerRoute",
+      "points": 91,
+      "comments": 72,
+      "published_at": "2026-10-26T05:13:15+00:00"
+    },
+    {
+      "id": "554434",
+      "title": "US designates helium as a critical material",
+      "url": "https://apnews.com/article/energy-critical-materials-minerals-helium-43da160adc1bad389fba0b9ffbd14c3c",
+      "author": "rbanffy",
+      "points": 83,
+      "comments": 29,
+      "published_at": "2026-10-26T18:31:39+00:00"
+    },
+    {
+      "id": "555000",
+      "title": "Microsoft offers voluntary buyouts to a quarter of its workforce",
+      "url": "https://www.kuow.org/technology/2026-10-26/microsoft-offers-voluntary-buyouts-to-a-quarter-of-its-workforce",
+      "author": "mooreds",
+      "points": 80,
+      "comments": 58,
+      "published_at": "2026-10-26T21:05:15+00:00"
+    },
+    {
+      "id": "538842",
+      "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+      "author": "ianand",
+      "points": 77,
+      "comments": 99,
+      "published_at": "2026-10-26T04:11:40+00:00"
+    },
+    {
+      "id": "536007",
+      "title": "Brazil elections: Lula secures fourth term after dramatic comeback",
+      "url": "https://www.bbc.com/news/articles/cmvg7p001qj9o",
+      "author": "gverrilla",
+      "points": 74,
+      "comments": 3,
+      "published_at": "2026-10-26T03:04:08+00:00"
+    },
+    {
+      "id": "554506",
+      "title": "The EPA Is Quietly Killing Its Web Archive",
+      "url": "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power/",
+      "author": "robtherobber",
+      "points": 74,
+      "comments": 5,
+      "published_at": "2026-10-26T19:05:41+00:00"
+    },
+    {
+      "id": "554919",
+      "title": "Somebody please stop the spam texts",
+      "url": "https://notes.npilk.com/stop-the-spam-texts",
+      "author": "npilk",
+      "points": 73,
+      "comments": 71,
+      "published_at": "2026-10-26T19:57:32+00:00"
+    },
+    {
+      "id": "535525",
+      "title": "Lula Wins Brazilian Election",
+      "url": "https://resultados.tse.jus.br/oficial/app/index.html#/eleicao/6258/uf/br/cargo/1/vis/nominal/resultados",
+      "author": "JumpCrisscross",
+      "points": 72,
+      "comments": 33,
+      "published_at": "2026-10-26T00:23:29+00:00"
+    },
+    {
+      "id": "537954",
+      "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
+      "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
+      "author": "gmays",
+      "points": 71,
+      "comments": 27,
+      "published_at": "2026-10-26T03:12:05+00:00"
+    },
+    {
+      "id": "546868",
+      "title": "Writing Is Closer to Thought Than Code",
+      "url": "https://danielmiessler.com/blog/writing-is-closer-to-thought-than-code",
+      "author": "eigenBasis",
+      "points": 68,
+      "comments": 36,
+      "published_at": "2026-10-26T12:32:15+00:00"
+    },
+    {
+      "id": "551046",
+      "title": "NBA announces partnership with prediction markets Kalshi, Polymarket",
+      "url": "https://www.nytimes.com/athletic/7723134/2026/10/26/nba-kalshi-polymarket-agreement-prediction-markets/",
+      "author": "cdrnsf",
+      "points": 66,
+      "comments": 68,
+      "published_at": "2026-10-26T15:22:59+00:00"
+    },
+    {
+      "id": "552233",
+      "title": "Concerning behavior from a popular open-weight AI model",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "author": "matthieu_bl",
+      "points": 62,
+      "comments": 17,
+      "published_at": "2026-10-26T16:35:44+00:00"
+    },
+    {
+      "id": "543649",
+      "title": "The result of the C++26 DIS ballot",
+      "url": "https://train-it.eu/blog/cpp26-contracts-the-ballot-result/",
+      "author": "uasi",
+      "points": 57,
+      "comments": 96,
+      "published_at": "2026-10-26T06:11:52+00:00"
+    },
+    {
+      "id": "550487",
+      "title": "Everything",
+      "url": "https://github.com/HeyPuter/everything",
+      "author": "ent101",
+      "points": 56,
+      "comments": 54,
+      "published_at": "2026-10-26T14:50:21+00:00"
+    },
+    {
+      "id": "554853",
+      "title": "Skydance offers buyouts, orders return to office",
+      "url": "https://variety.com/2026/film/news/skydance-voluntary-buyouts-layoffs-5-days-per-week-in-office-policy-1236931402/",
+      "author": "metabagel",
+      "points": 53,
+      "comments": 9,
+      "published_at": "2026-10-26T18:56:03+00:00"
+    },
+    {
+      "id": "555023",
+      "title": "Working with academic communities to build scientific understanding",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "author": "jonluca",
+      "points": 48,
+      "comments": 10,
+      "published_at": "2026-10-26T21:35:28+00:00"
+    },
+    {
+      "id": "546150",
+      "title": "Tasks as Code: Move Your Tickets into the Repository",
+      "url": "https://typemill.net/knowledge-hub/tasks-as-code",
+      "author": "trendschau",
+      "points": 44,
+      "comments": 46,
+      "published_at": "2026-10-26T11:15:43+00:00"
+    },
+    {
+      "id": "551045",
+      "title": "Partyline: A group voice application for Reticulum, built on LXST",
+      "url": "https://github.com/RFnexus/partyline",
+      "author": "iamnothere",
+      "points": 43,
+      "comments": 12,
+      "published_at": "2026-10-26T14:42:24+00:00"
+    },
+    {
+      "id": "555147",
+      "title": "Just Imagining a Workout Can Make You Stronger",
+      "url": "https://nautil.us/just-imagining-a-workout-can-make-you-stronger-236068",
+      "author": "prmph",
+      "points": 43,
+      "comments": 19,
+      "published_at": "2026-10-26T23:08:27+00:00"
+    },
+    {
+      "id": "554433",
+      "title": "A Man from the Future: Why Johnny Can't Stop Abstracting",
+      "url": "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
+      "author": "aray07",
+      "points": 42,
+      "comments": 16,
+      "published_at": "2026-10-26T17:49:55+00:00"
+    },
+    {
+      "id": "555119",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "author": "wondersky",
+      "points": 38,
+      "comments": 8,
+      "published_at": "2026-10-26T22:41:48+00:00"
+    },
+    {
+      "id": "536903",
+      "title": "If AI displaces human workers, they will lose more than just pay",
+      "url": "https://www.economist.com/business/2026/10/22/if-ai-displaces-human-workers-they-will-lose-more-than-just-pay",
+      "author": "andsoitis",
+      "points": 37,
+      "comments": 77,
+      "published_at": "2026-10-26T02:22:38+00:00"
+    },
+    {
+      "id": "553761",
+      "title": "Nietzschian Debugger",
+      "url": "https://github.com/DilawarShafiq/nietzschian-debugger",
+      "author": "dilawargopang",
+      "points": 37,
+      "comments": 18,
+      "published_at": "2026-10-26T17:25:30+00:00"
+    },
+    {
+      "id": "552776",
+      "title": "Stalwart v1.0: The Fastest Mail Server on the Planet",
+      "url": "https://stalw.art/blog/stalwart-1-0/",
+      "author": "StalwartLabs",
+      "points": 36,
+      "comments": 11,
+      "published_at": "2026-10-26T15:57:12+00:00"
+    },
+    {
+      "id": "554006",
+      "title": "Microsoft Announces Type Server Protocol, Extension of Language Server Protocol",
+      "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+      "author": "adamnemecek",
+      "points": 36,
+      "comments": 7,
+      "published_at": "2026-10-26T18:14:49+00:00"
+    },
+    {
+      "id": "554004",
+      "title": "In Leaked Audio, Flock CEO Tells Cops Backlash to the Company Isn't Real",
+      "url": "https://www.404media.co/in-leaked-audio-flock-ceo-tells-cops-backlash-to-the-company-isnt-real/",
+      "author": "Frieren",
+      "points": 35,
+      "comments": 7,
+      "published_at": "2026-10-26T17:54:00+00:00"
+    },
+    {
+      "id": "552777",
+      "title": "The Git Forge for Agent-Human Collaboration",
+      "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
+      "author": "lizziepika",
+      "points": 33,
+      "comments": 9,
+      "published_at": "2026-10-26T17:23:11+00:00"
+    },
+    {
+      "id": "541122",
+      "title": "Ask HN: Is it not possible to enroll for Apple Developer anymore?",
+      "url": "https://news.ycombinator.com/item?id=50237680",
+      "author": "olalonde",
+      "points": 31,
+      "comments": 15,
+      "published_at": "2026-10-26T01:00:52+00:00"
+    },
+    {
+      "id": "553762",
+      "title": "Retrieval's bottleneck is moving from finding to selecting",
+      "url": "https://www.kapa.ai/blog/retrieval-bottleneck",
+      "author": "emil_sorensen",
+      "points": 30,
+      "comments": 1,
+      "published_at": "2026-10-26T18:18:15+00:00"
+    },
+    {
+      "id": "549603",
+      "title": "Vegemite is not a human right",
+      "url": "https://www.cnn.com/2026/10/26/australia/prisoner-vegemite-rejected-judge-scli-intl",
+      "author": "sumnole",
+      "points": 28,
+      "comments": 43,
+      "published_at": "2026-10-26T14:17:51+00:00"
+    },
+    {
+      "id": "554505",
+      "title": "GPT 6.1 Terra",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+      "author": "pcwelder",
+      "points": 28,
+      "comments": 2,
+      "published_at": "2026-10-26T17:58:24+00:00"
+    },
+    {
+      "id": "545271",
+      "title": "Show HN: Freehire, open-source search 3M+ tech jobs from company career boards",
+      "url": "https://freehire.me/",
+      "author": "i_strelov",
+      "points": 27,
+      "comments": 5,
+      "published_at": "2026-10-26T01:13:43+00:00"
+    },
+    {
+      "id": "552232",
+      "title": "Wages Fall to 43% of U.S. Gross Domestic Income, Lowest Since 1929",
+      "url": "https://unusualwhales.com/news/wages-43-percent-gdi-lowest-since-great-depression",
+      "author": "robtherobber",
+      "points": 27,
+      "comments": 5,
+      "published_at": "2026-10-26T15:11:54+00:00"
+    },
+    {
+      "id": "554005",
+      "title": "Oldest GUI application that still runs on Windows 11",
+      "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
+      "author": "enlyth",
+      "points": 26,
+      "comments": 6,
+      "published_at": "2026-10-26T17:56:55+00:00"
+    },
+    {
+      "id": "554918",
+      "title": "Walter Koenig, Chekov from 'Star Trek,' Has Died",
+      "url": "https://www.nytimes.com/2026/10/26/arts/television/walter-koenig-chekov-star-trek-dead.html",
+      "author": "donohoe",
+      "points": 26,
+      "comments": 5,
+      "published_at": "2026-10-26T18:52:36+00:00"
+    },
+    {
+      "id": "553376",
+      "title": "After LiteLLM's backdoor, we open-sourced an OS-level package firewall",
+      "url": "https://github.com/usestrix/firewall",
+      "author": "iacgm",
+      "points": 25,
+      "comments": 1,
+      "published_at": "2026-10-26T18:06:05+00:00"
+    },
+    {
+      "id": "554009",
+      "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
+      "url": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
+      "author": "reaperducer",
+      "points": 25,
+      "comments": 0,
+      "published_at": "2026-10-26T18:40:53+00:00"
+    },
+    {
+      "id": "555037",
+      "title": "Proton to 'Re-Interview' Staff About AI to See Who Gets to Keep Their Job",
+      "url": "https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/",
+      "author": "cdrnsf",
+      "points": 25,
+      "comments": 9,
+      "published_at": "2026-10-26T21:13:59+00:00"
+    },
+    {
+      "id": "550471",
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "author": "meetpateltech",
+      "points": 24,
+      "comments": 1,
+      "published_at": "2026-10-26T13:06:35+00:00"
+    },
+    {
+      "id": "550472",
+      "title": "Peta releases video showing experiments on infant monkeys at Univ of Washington",
+      "url": "https://www.theguardian.com/us-news/2026/oct/26/peta-monkey-experiment-video",
+      "author": "mikhael",
+      "points": 24,
+      "comments": 31,
+      "published_at": "2026-10-26T14:50:50+00:00"
+    },
+    {
+      "id": "554435",
+      "title": "GPT-6.1 Terra (Max) Scores 48 on Artificial Analysis",
+      "url": "https://artificialanalysis.ai/models/gpt-6-1-terra",
+      "author": "theanonymousone",
+      "points": 24,
+      "comments": 1,
+      "published_at": "2026-10-26T18:54:00+00:00"
+    },
+    {
+      "id": "554973",
+      "title": "US fired over 600 missile interceptors defending Israel in three years",
+      "url": "https://www.stephensemler.com/p/us-fired-over-600-missile-interceptors",
+      "author": "0x54MUR41",
+      "points": 24,
+      "comments": 8,
+      "published_at": "2026-10-26T20:36:36+00:00"
+    },
+    {
+      "id": "553373",
+      "title": "So you say you hate 'surveillance pricing'",
+      "url": "https://www.cnn.com/2026/10/19/business/surveillance-prices-government-bans",
+      "author": "mooreds",
+      "points": 23,
+      "comments": 2,
+      "published_at": "2026-10-26T17:54:14+00:00"
+    },
+    {
+      "id": "554818",
+      "title": "Nvidia discusses $2k-per-GPU annual fee for software",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform",
+      "author": "gscott",
+      "points": 23,
+      "comments": 14,
+      "published_at": "2026-10-26T17:34:45+00:00"
+    },
+    {
+      "id": "554917",
+      "title": "Microsoft offers 60k employees a voluntary exit",
+      "url": "https://twitter.com/Amanda_Goodall/status/2114748370954985906",
+      "author": "m348e912",
+      "points": 23,
+      "comments": 1,
+      "published_at": "2026-10-26T18:43:47+00:00"
+    },
+    {
+      "id": "555014",
+      "title": "Intel to Acquire Classiq to Create a Full-Stack Quantum Computing Platform",
+      "url": "https://www.intc.com/news-events/press-releases/detail/1784/intel-to-acquire-classiq-to-create-a-full-stack-quantum",
+      "author": "myth_drannon",
+      "points": 23,
+      "comments": 0,
+      "published_at": "2026-10-26T21:26:09+00:00"
+    },
+    {
+      "id": "545950",
+      "title": "Everybody panic: A Valve developer said \"HLX\" in public",
+      "url": "https://arstechnica.com/gaming/2026/10/everybody-panic-a-valve-developer-said-hlx-in-public/",
+      "author": "chha",
+      "points": 22,
+      "comments": 4,
+      "published_at": "2026-10-26T06:31:35+00:00"
+    },
+    {
+      "id": "554468",
+      "title": "Show HN: Wraps – Resend-style email on your own AWS SES, open source",
+      "url": "https://wraps.dev",
+      "author": "stewartjarod",
+      "points": 22,
+      "comments": 0,
+      "published_at": "2026-10-26T19:06:33+00:00"
+    },
+    {
+      "id": "554854",
+      "title": "Why I'm growing my Vancouver AI company in Taiwan and Europe instead of the U.S.",
+      "url": "https://bcbusiness.ca/business/tech-science/opinion-vancouver-ai-company-taiwan-europe/",
+      "author": "ClearwayLaw",
+      "points": 22,
+      "comments": 1,
+      "published_at": "2026-10-26T19:52:44+00:00"
+    },
+    {
+      "id": "553773",
+      "title": "Dispatch 006: Cheers at Angola",
+      "url": "https://www.metanoia-research.com/dispatch-006-cheers-at-angola/",
+      "author": "metanoia_",
+      "points": 21,
+      "comments": 0,
+      "published_at": "2026-10-26T18:28:41+00:00"
+    },
+    {
+      "id": "554470",
+      "title": "Swarmatory: Shared chatroom/feed for your team's coding agents",
+      "url": "https://github.com/fixture-inc/swarmatory",
+      "author": "qhoxie",
+      "points": 21,
+      "comments": 0,
+      "published_at": "2026-10-26T19:17:15+00:00"
+    },
+    {
+      "id": "554507",
+      "title": "Why a patched PC still loaded the BlackX bootkit, and how to check yours",
+      "url": "https://theainewsreport.com/2026-10-26-blackx-uefi-bootkit-patched-pc-how-to-check.html",
+      "author": "titusblair",
+      "points": 21,
+      "comments": 0,
+      "published_at": "2026-10-26T19:29:47+00:00"
+    },
+    {
+      "id": "554922",
+      "title": "Grand theft AI: Highway thieves are stealing millions in data center gear",
+      "url": "https://www.nbcnews.com/tech/security/grand-theft-ai-highway-thieves-are-stealing-millions-data-center-gear-rcna603733",
+      "author": "supertrope",
+      "points": 21,
+      "comments": 0,
+      "published_at": "2026-10-26T20:28:32+00:00"
+    },
+    {
+      "id": "554975",
+      "title": "Image generation has come a long way since August 2022",
+      "url": "https://www.hbrooks.com/writing/image-generation-has-come-a-long-way",
+      "author": "hunterbrooks",
+      "points": 21,
+      "comments": 6,
+      "published_at": "2026-10-26T20:40:36+00:00"
+    },
+    {
+      "id": "554999",
+      "title": "AI models cost more when you don't use English",
+      "url": "https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/",
+      "author": "postalex",
+      "points": 21,
+      "comments": 0,
+      "published_at": "2026-10-26T21:03:22+00:00"
+    },
+    {
+      "id": "555001",
+      "title": "Why a program doesn't work when run from a batch file, but works when clicked",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20261026-00/?p=112797/",
+      "author": "ibobev",
+      "points": 21,
+      "comments": 0,
+      "published_at": "2026-10-26T21:14:43+00:00"
+    },
+    {
+      "id": "555117",
+      "title": "warp.dev Breached",
+      "url": "https://twitter.com/zachlloydtweets/status/2114800787716972873",
+      "author": "pranshuchittora",
+      "points": 21,
+      "comments": 1,
+      "published_at": "2026-10-26T20:09:12+00:00"
+    },
+    {
+      "id": "552778",
+      "title": "WarpSexy – Daily Idol and Model Reviews",
+      "url": "https://warpsexy.online/",
+      "author": "crossi",
+      "points": 20,
+      "comments": 1,
+      "published_at": "2026-10-26T17:30:35+00:00"
+    },
+    {
+      "id": "554819",
+      "title": "Scaling self-hosted Convex: compilation of TypeScript Convex functions into WASM",
+      "url": "https://convex-in-prod.github.io/posts/convex-wasm-compiler/",
+      "author": "leventov",
+      "points": 20,
+      "comments": 0,
+      "published_at": "2026-10-26T19:42:06+00:00"
+    },
+    {
+      "id": "554877",
+      "title": "Literallyeveryfont: Every font on the internet, free for personal use",
+      "url": "https://www.literallyeveryfont.com/",
+      "author": "apwcow",
+      "points": 20,
+      "comments": 0,
+      "published_at": "2026-10-26T20:03:05+00:00"
+    },
+    {
+      "id": "554879",
+      "title": "Neiman Marcus – The 2026 Fantasy Gifts Star Wars Legacy Experience",
+      "url": "https://www.neimanmarcus.com/p/prod293940005",
+      "author": "stasomatic",
+      "points": 20,
+      "comments": 0,
+      "published_at": "2026-10-26T20:16:23+00:00"
+    },
+    {
+      "id": "554977",
+      "title": "Learning to Ride Your Brain",
+      "url": "https://contraptions.venkateshrao.com/p/on-learning-to-ride-your-brain",
+      "author": "jger15",
+      "points": 20,
+      "comments": 1,
+      "published_at": "2026-10-26T20:52:16+00:00"
+    },
+    {
+      "id": "550469",
+      "title": "Intensifying AI Model Competition Turns into a Tailwind! Morgan Stanley Highlights Microsoft's Three Key Advantages, Maintains $600 Price Target",
+      "url": "https://longbridge.cn/news/303109756",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-26T23:57:03+00:00"
+    },
+    {
+      "id": "552185",
+      "title": "Viasat surges 8%",
+      "url": "https://longbridge.cn/news/303109873",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-26T23:59:07+00:00"
+    },
+    {
+      "id": "555170",
+      "title": "证券日报：积极因素持续累积 A 股基本面底盘愈发坚实",
+      "url": "https://t.me/Financial_Express/3568544",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-26T23:55:42+00:00"
+    },
+    {
+      "id": "555171",
+      "title": "经济日报金观平：政策接续发力激发经济动能",
+      "url": "https://t.me/Financial_Express/3568545",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-26T23:56:02+00:00"
+    },
+    {
+      "id": "555172",
+      "title": "华泰证券：基准情形下美联储年内 12 月再加息 1 次，明年加息 2 次",
+      "url": "https://t.me/Financial_Express/3568546",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-26T23:56:22+00:00"
+    },
+    {
+      "id": "555173",
+      "title": "华泰证券：基准情形下美联储年内 12 月再加息 1 次，明年加息 2 次",
+      "url": "https://t.me/Financial_Express/3568547",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-26T23:57:22+00:00"
+    },
+    {
+      "id": "555174",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3568548",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-26T23:57:22+00:00"
+    },
+    {
+      "id": "555179",
+      "title": "荷兰国际：ASML 在 2026 年荷兰经济占比可能高达 1.6%",
+      "url": "https://t.me/Financial_Express/3568549",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-26T23:58:22+00:00"
+    },
+    {
+      "id": "555180",
+      "title": "荷兰国际集团（ING）周一发布报告称，芯片设备制造商 ASML(阿斯麦) 今年对荷兰经济的直接贡献率可能高达 1.6%，高于 2025 年的 1.3%，凸显出荷兰对 ASML 的依赖程度日益加深。人工智能(AI)需求激增已使 ASML 市值",
+      "url": "https://t.me/Financial_Express/3568550",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-26T23:58:32+00:00"
+    },
+    {
+      "id": "555181",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3568551",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-26T23:59:22+00:00"
+    }
+  ]
+}

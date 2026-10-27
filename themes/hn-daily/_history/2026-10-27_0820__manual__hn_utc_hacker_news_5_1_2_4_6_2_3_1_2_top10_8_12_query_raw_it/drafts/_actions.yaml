@@ -1,0 +1,19 @@
+actions:
+- confidence: 0.75
+  priority: P2
+  summary: 跟踪 Anthropic S-1 后续披露的财务数据（营收/亏损/capex），验证前沿模型层公开市场定价是否承接前一日『刺穿万亿估值预期』叙事
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-11-15'
+- confidence: 0.6
+  priority: P2
+  recurrence: weekly
+  summary: 监控微软买断进展与其他 FAANG 是否跟进类似自愿离职计划（评论区预言『其他 FAANG 也会有自己的 bloodbath』）
+  target_flow_params: {}
+  type: monitoring
+- confidence: 0.55
+  priority: P3
+  summary: 深入研究 OpenAI ETH 论文证明的有效性——评论区指出运行时界过不了多项式归约，需等待同行审查结论再更新判断
+  target_flow: thesis_propose
+  target_flow_params: {}
+  type: research
