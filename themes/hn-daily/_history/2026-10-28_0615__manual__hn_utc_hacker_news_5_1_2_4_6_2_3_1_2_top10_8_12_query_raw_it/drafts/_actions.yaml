@@ -1,0 +1,11 @@
+actions:
+- priority: P3
+  recurrence: weekly
+  summary: 跟踪 Roblox 抓取事件后续：Roblox 官方回应、创作者法律行动及 3D 模型训练数据合规影响
+  target_flow_params: {}
+  type: monitoring
+- priority: P4
+  summary: 11 月 6 日节点验证：Wyden/Schiff 要求的 FISA 702 秘密裁决披露是否兑现，年底续期博弈走向
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-11-07'
