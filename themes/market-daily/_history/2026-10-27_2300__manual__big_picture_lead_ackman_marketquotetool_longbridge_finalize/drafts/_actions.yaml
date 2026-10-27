@@ -1,0 +1,17 @@
+actions:
+- priority: P1
+  recurrence: daily
+  summary: 监控10/28 18:00 UTC FOMC声明与沃什发布会：鹰派暂停（保留12月加息）则今日risk-on回吐，弱化加息指引则反弹延长
+  target_flow_params: {}
+  type: monitoring
+- priority: P1
+  recurrence: daily
+  summary: 监控10/28晚谷歌/微软capex指引与AI信用铁三角（CoreWeave CDS 1041.4bp、IG私募信贷通道、新云涨幅持续性）：CDS续降+capex上修=融资断裂证伪，反之下修则今日修复是FOMC前回补
+  target_flow_params: {}
+  type: monitoring
+- confidence: 0.6
+  priority: P2
+  summary: 验证'10/29 Q3 GDP与核心PCE组合指向10Y重测5.00-5.05%'的预测
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-10-29'

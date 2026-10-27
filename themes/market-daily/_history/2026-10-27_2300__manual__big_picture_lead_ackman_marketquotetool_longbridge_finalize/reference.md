@@ -1,0 +1,96 @@
+- 纳指100盘中+1%、Nebius+8.9%/西部数据+7.5%/希捷+5.6%/CoreWeave+5%、费半涨超2.3%、波音-10%: query_raw_items(10/27盘中科技股)[id:568768] = 纳斯达克100涨幅扩大至1%，成分股Nebius涨8.9%，西部数据涨7.5%，费半涨超2.3%
+- 费城半导体指数+2.01%至11305.92点、NVDA+0.95%/AVGO+4.02%/AMD+4.12%: query_raw_items(费半盘中)[id:566347] = 费城半导体指数涨2.01%至11305.92点
+- 周二板块：科技+1.29%领涨（七涨四跌）: query_raw_items(growth leads sectors)[id:568754] = Technology led gains (+1.29%)
+- QQQ实时 +1.03%至719.55: market_quote(symbols=['QQQ.US']) = 719.55 (+1.03%)
+- SPY实时 +0.54%至769.51: market_quote(symbols=['SPY.US']) = 769.51 (+0.54%)
+- SMH实时 +2.35%至554.33: market_quote(symbols=['SMH.US']) = 554.33 (+2.35%)
+- NVDA实时 +0.72%至217.56: market_quote(symbols=['NVDA.US']) = 217.56 (+0.72%)
+- AVGO实时 +3.41%至340.40: market_quote(symbols=['AVGO.US']) = 340.40 (+3.41%)
+- META实时 -0.93%至624.68: market_quote(symbols=['META.US']) = 624.68 (-0.93%)
+- TSLA实时 +2.98%至403.28: market_quote(symbols=['TSLA.US']) = 403.28 (+2.98%)
+- NFLX实时 -1.40%至63.01: market_quote(symbols=['NFLX.US']) = 63.01 (-1.40%)
+- AAPL实时 +1.01%至347.39: market_quote(symbols=['AAPL.US']) = 347.39 (+1.01%)
+- MSFT实时 532.87 (+0.05%): market_quote(symbols=['MSFT.US']) = 532.87
+- BTCUSDT 现价80379.9美元（FOMC前跌破8万美元后回稳）: binance_get_price(symbol='BTCUSDT') = 80379.9
+- CoreWeave 5年期CDS收窄至1041.4bp（一周多新低）: query_raw_items(Markit CDS)[id:566356] = CoreWeave五年期CDS利差收窄至1041.4个基点
+- 英伟达5年期CDS年内+226%至127bp、反超Meta: query_raw_items(Nvidia credit risk)[id:568746] = CDS rising 226% to 127 basis points, surpassing Meta
+- Meta AI股权融资增至975亿美元（250亿普通股）: query_raw_items(Meta financing upsized)[id:566349] = 计划融资规模从950亿增至975亿美元
+- Meta 250亿美元股票增发获约5倍超额认购: query_raw_items(Meta oversubscribed)[id:568341] = Meta's $25 Billion Stock Sale Ended Five Times Oversubscribed
+- Meta首期375亿美元股权融资完成、可转债收益率6.5%: query_raw_items(Meta first phase)[id:567307] = 首期37.5B股权融资完成，可转债收益率6.5%
+- NVIDIA投资Meta 30亿美元、AMD投资10亿美元: query_raw_items(Meta preview/AMD invest)[id:565275][id:565792] = NVIDIA commits USD 3B; AMD to invest $1 billion in Meta equity offering
+- AMD Helios机架方案已在Meta运行、双方深化合作: query_raw_items(AMD Meta partnership)[id:565795] = Helios rack-level solution is running on Meta
+- 博通因630亿美元Anthropic芯片融资涨4%（两周新高、D.A. Davidson上调买入）: query_raw_items(Broadcom Anthropic deal)[id:566764] = Broadcom climbs 4.56% on $63B AI chip financing pact
+- 博通630亿交易结构：SPV购设备租赁给Anthropic: query_raw_items(Battle of Tech Titans)[id:567780] = SPV will purchase Broadcom equipment and lease it to Anthropic
+- Anthropic递交IPO招股书：上半年营收163亿美元、同比+1300%: query_raw_items(Anthropic prospectus)[id:566771] = first-half revenue of $16.3 billion, up over 1,300% YoY
+- Anthropic计划11月上市纳斯达克: query_raw_items(Anthropic IPO filing)[id:565558] = Anthropic plans to go public in November
+- SpaceX完成400亿美元AI芯片债券融资、Musk警告neocloud洗牌: query_raw_items(SpaceX raises)[id:564044] = SpaceX closed a $40 billion debt financing deal; Musk warns of neocloud shakeout
+- 微软本周财报将首次披露Azure季度美元收入: query_raw_items(Microsoft earnings Azure)[id:568749] = Microsoft will begin reporting specific quarterly dollar revenue for Azure
+- 微软宣布约6万名员工自愿买断（AI基建成本下提升资本效率）: query_raw_items(Tech relief rally)[id:565389] = Microsoft announced voluntary buyouts for approximately 60,000 employees
+- 微软与Meta削减Claude用量预算、力推自研模型: query_raw_items(Claude's Bill)[id:566770] = Microsoft and Meta significantly reduced Claude usage budgets
+- 苹果发布M6 iMac（1499美元起）与M6 MacBook Pro（1999美元起、11/6上市）: query_raw_items(Apple M6)[id:566782][id:565707] = iMac M6 $1,499起; MacBook Pro M6 $1,999起 11月6日开售
+- iPhone Duo初期需求将超供给（Counterpoint）: query_raw_items(iPhone Duo shortage)[id:568745] = initial demand for iPhone Duo will exceed supply
+- 存储股上涨：WDC+6.08%、NAND Q4环比预计+15-20%: query_raw_items(Memory stocks)[id:567789] = Western Digital (+6.08%)，NAND价格预计Q4环比涨15-20%
+- 台积电拟对CoWoS涨价10-20%、压力传导英伟达与苹果: query_raw_items(TSMC price hike)[id:565712] = 台积电拟对CoWoS报价上调10-20%
+- 奈飞跌2%至52周低点（参与度疲弱、广告指引下修）: query_raw_items(Netflix 52-week low)[id:567785] = Netflix slips 2% to 52-week low
+- 特斯拉+2.98%、市值逼近1.6万亿美元: query_raw_items(Tesla rally)[id:567783] = 特斯拉涨超2.6%，市值接近1.6万亿美元
+- Musk称Robotaxi周里程43.8万英里胜Waymo（Waymo总量仍约7倍）: query_raw_items(Tesla Waymo)[id:567782] = 438,000 weekly miles versus Waymo's 406,000
+- FOMC两天会议10/27美东09:30开始: query_raw_items(Fed FOMC start)[id:567332] = 为期两天的FOMC会议已于美东时间09:30开始
+- 市场更关注FOMC"未来指引"而非决议本身: query_raw_items(FOMC forward guidance)[id:566371] = 相比决议本身，市场更关注未来指引
+- 高盛：本周不加息不释放重大新信号、12月加息: query_raw_items(Goldman FOMC)[id:558175] = 高盛预计本周维持利率不变、12月实施加息
+- 沃什欲收紧口风但静默期16名官员59次讲话: query_raw_items(Timiraos Warsh)[id:564548] = 静默期内至少16名官员发表不少于59次演讲
+- 传声筒：紧缩周期正是前瞻指引发挥作用之时（1999年先例）: query_raw_items(Timiraos guidance)[id:565718] = 1999年5月首次在暂停会议后发声明，六周后加息
+- AI债务困境或助沃什以更少加息达成目标: query_raw_items(AI debt Warsh)[id:565025] = AI debt trouble could help Fed's Warsh get his way with fewer rate hikes
+- 9月耐用品订单+1.8%、10Y盘中4.997%、2Y 4.731%: query_raw_items(durable goods yields)[id:565647] = 10年期国债收益率盘中升至4.997%，2年期4.731%
+- 穆迪维持法国Aa3、债市平静或为"风暴前宁静"、10Y仍近5%: query_raw_items(bond calm)[id:561757] = Moody's maintains France's Aa3; 10Y remains close to 5%
+- 加拿大央行10/28或加息（15位经济学家中11位预期）: query_raw_items(WSJ BOC survey)[id:564980] = 15位经济学家中11位预计周三加息
+- 油价10/7以来持续100美元上方、中东冲突8个月涨超60%、31/50经济体上调2027通胀: query_raw_items(Reuters inflation survey)[id:565866] = 自10月7日以来原油维持100美元上方，8个月涨超60%
+- 高盛TMT单周200亿美元流出、10/28-11/6为FOMC+科技财报紧缩窗口、选择性buy-the-dip: query_raw_items(Goldman TMT flows)[id:563060] = $20 Billion Exits TMT; blackout window Oct 28-Nov 6
+- 高盛维持股票超配、半导体反弹修复悲观定价、风险偏好跌破零: query_raw_items(Goldman overweight)[id:561753] = Risk Appetite Falls Below Zero; Goldman maintains overweight
+- 医疗保健6个月+23%领涨标普（AI信心减弱资金流入医疗）: query_raw_items(healthcare lead)[id:568328] = Healthcare stocks rise 23% in past six months, leading S&P 500
+- TS Lombard：AI或酝酿严重崩盘、当前可能是喘息反弹窗口: query_raw_items(TS Lombard)[id:568340] = current AI boom may be brewing a severe crash
+- Citadel：AI价格战可能利好hyperscalers: query_raw_items(Citadel price war)[id:568339] = AI's price war could be a win for hyperscalers
+- 本周36%的标普500公司财报: query_raw_items(Neoclouds guppy)[id:552760] = 36% Of S&P 500 Earnings This Week
+- 比特币10/27跌破8万美元、FOMC前承压: query_raw_items(Bitcoin below 80k)[id:565387] = Bitcoin Drops Below $80,000 Level
+- 日本9月核心CPI同比3.2%（三年新高）、BOJ周五议息: query_raw_items(BOJ core CPI)[id:558184] = 剔除生鲜食品和特殊因素CPI 9月同比上涨3.2%
+- 韩国Q3 GDP环比+1.0%超预期、11月加息预期强化: query_raw_items(Korea GDP)[id:555570] = GDP环比增长1%，预计韩国央行11月加息
+- 纳指100 ETF广发溢价停牌事件（前日稿背景）: query_raw_items(10/21稿引用)[id:500111] = 广发纳指ETF溢价约16%停牌
+- FOMC决议（10/28）与苹果第二场发布会（10/28 17:00）、腾讯数字生态大会（10/28 16:00）、美Q3 GDP初值（10/29 12:30，预期3.0/前值2.2）、ECB（10/29 13:15，2.5%）、SK海力士三季报（10/27 16:00）、OPEC+（10/31）、冬令时（11/1）: query_calendar_events(days=7,lookback_days=3,importance='high,medium') = 多事件日历
+- 中国9月规模以上工业企业利润同比+14.4%（前值4.2%）: query_calendar_events(days=7,lookback_days=3) = actual 14.4, previous 4.2
+
+
+- QQQ实时+1.12%至720.14、SMH实时+2.44%至554.84、NVDA实时+0.83%至217.80、META实时-0.76%至625.77、MSFT实时+0.08%至533.05: market_quote(symbols=['QQQ.US','SMH.US','NVDA.US','META.US','MSFT.US']) = 10/27盘中实时报价
+- BTCUSDT现价80536.7美元（10/27跌破8万美元后回补）: binance_get_price(symbol='BTCUSDT') = 80536.7
+- Anthropic招股书披露与SpaceXAI算力协议、至2029年支出上限1205亿美元: query_raw_items(Anthropic prospectus)[id:565211] = computing power agreement with SpaceXAI, expenditure cap of $120.5 billion through 2029
+- Anthropic拟11/16当周上市、估值最高2万亿美元: query_raw_items(Anthropic IPO week Nov 16)[id:565556] = IPO during the week of November 16, targeting valuation up to $2 trillion
+- Anthropic H1营收162.86亿美元、净亏损飙升、估值1.5-2万亿美元: query_raw_items(Anthropic losses)[id:565336] = revenue H1 $16.286B but Net Loss soared; valuation $1.5-2T
+- Meta 250亿美元普通股增发约5倍超额认购、目标总募资约980亿美元: query_raw_items(Meta 5x oversubscription)[id:569261] = approximately 5x oversubscribed, total ~$98B
+- Meta AI总监Rohit Patel离职、加入与微软Office/谷歌Workspace竞争的新公司: query_raw_items(Rohit Patel departure)[id:569253] = Meta AI Director Rohit Patel Leaves To Take On Microsoft Office And Google Workspace
+- Zuckerberg Meta股票交易在特拉华州遭诉讼挑战: query_raw_items(Delaware Meta litigation)[id:566788] = stock trading challenged in Delaware litigation
+- Truist：博通Anthropic交易或贡献最高300亿美元收入、风险有限: query_raw_items(Truist Broadcom Anthropic)[id:565109] = up to $30B revenue with limited risk
+- 高盛：半导体对金融市场影响已超石油、AI情绪尚未达历史极端: query_raw_items(Goldman semis vs oil)[id:564046] = semiconductor influence on financial markets far exceeds that of oil
+- 比特币短期持有者获利比例回落至70%、FOMC前分析师谨慎: query_raw_items(BTC profit cooling)[id:567310] = short-term holder profits cooled to 70%, analysts cautious ahead of FOMC
+- 加密资金因Anthropic IPO流向AI股、BTC承压: query_raw_items(Crypto weakens ahead of Fed)[id:566784] = capital shifting toward AI stocks following Anthropic's IPO filing
+- 小摩：未来12个月美债回报有望7-8%、12月释放鹰派信号: query_raw_items(JPM bond outlook)[id:563494] = bond returns 7-8% next 12 months; December hawkish signal
+- 华尔街看多存储股70%+上行空间、提示单季强劲不足: query_raw_items(Memory stocks upside)[id:567777] = over 70% upside potential; single quarter strong performance insufficient
+- 苹果承认iPhone Duo内屏问题: query_raw_items(Apple inner screen issue)[id:565558] = Apple admits inner screen issues with iPhone Duo
+
+
+## taleb 交叉审查独立核验来源（2026-10-27 15:45 UTC）
+- 广发纳指ETF因溢价10/28开市起停牌（收盘1.661 vs NAV 1.4647，溢价约13.4%）: query_raw_items(keyword='QDII OR 溢价 OR 停牌', published_after='2026-10-18')[id:563714] = 纳指ETF广发公告二级市场价格明显高于参考净值，10/28停牌、10:30复牌，溢价未回落可延长停牌
+- 景顺纳指科技ETF溢价约34.9%（3.012 vs 2.2335）10/28停牌: query_raw_items(keyword='QDII OR 溢价 OR 停牌', published_after='2026-10-18')[id:563713] = 纳指科技ETF景顺因溢价10/28停牌后复牌
+- 汇添富纳指ETF溢价约11.5%（2.379 vs 2.1400）10/28停牌: query_raw_items(keyword='QDII OR 溢价 OR 停牌', published_after='2026-10-18')[id:563712] = 临时停牌公告
+- 易方达纳指ETF溢价约14.1%（2.084 vs 1.8237）10/28停牌: query_raw_items(keyword='QDII OR 溢价 OR 停牌', published_after='2026-10-18')[id:563711] = 临时停牌公告
+- 国泰纳指ETF/全球芯片LOF 10/28开市起停牌至10:30: query_raw_items(keyword='QDII OR 溢价 OR 停牌', published_after='2026-10-18')[id:565045][id:565001] = 停牌公告
+- 伊朗称一艘油轮在霍尔木兹海峡东部禁航区触雷起火、海峡处于危险状态: query_raw_items(keyword='伊朗 OR Hormuz OR 霍尔木兹', published_after='2026-10-20')[id:565810][id:565816] = 伊朗海军10/27宣布油轮触雷起火，禁止未经协调船只通行
+- 美军否认撤离霍尔木兹、保持戒备: query_raw_items(keyword='伊朗 OR Hormuz OR 霍尔木兹', published_after='2026-10-20')[id:565831] = 美中央司令部回应伊朗革命卫队海军司令说法
+- 现货黄金突破4060美元/盎司、日内+1.08%: query_raw_items(source='telegram:Financial_Express', published_after='2026-10-26')[id:569677] = 10/27 15:41 UTC
+- 现货铜对LME三个月期铜升水飙至206美元/吨（两个月最高）: query_raw_items(source='telegram:Financial_Express', published_after='2026-10-26')[id:568386] = 10/27 14:57 UTC，供应紧张信号
+- Seawolf Capital（大空头原型交易员创办）公开做空CoreWeave: query_raw_items(keyword='CoreWeave OR CDS OR neocloud', published_after='2026-10-25')[id:569643] = 10/27 19:34 UTC
+- Bernstein下调CoreWeave资金缺口估算但提示1000亿美元'现金危机'仍悬顶: query_raw_items(keyword='CoreWeave OR CDS OR neocloud', published_after='2026-10-25')[id:569646] = 10/27 21:07 UTC
+- 美国公司债发行额1.76万亿美元创历史新高: query_raw_items(keyword='CoreWeave OR CDS OR neocloud', published_after='2026-10-25')[id:564509] = 10/27 17:58 UTC，AI基建融资为主驱动
+- neocloud Argentum AI洽谈50亿美元AI芯片融资: query_raw_items(keyword='CoreWeave OR CDS OR neocloud', published_after='2026-10-25')[id:569653] = 10/27 22:30 UTC
+- 俄罗斯黑海击中一艘干散货船、打击向敖德萨运补给的货船: query_raw_items(source='telegram:Financial_Express', published_after='2026-10-26')[id:569674][id:569678] = 10/27 15:40 UTC
+- 微软约6万名员工自愿买断（核验稿中[id:565389]引用正确）: query_raw_items(keyword='微软 OR Microsoft OR 买断', published_after='2026-10-24')[id:565389] = 10/27 20:09 UTC，为提升资本效率/背景AI基建成本
+- META/AAPL/NVDA/AVGO/CRWV 实时报价（10/27 ~15:45 UTC）: market_quote(symbols=['META.US','AAPL.US','NVDA.US','AVGO.US','CRWV.US']) = META 625.15(-0.86%)、AAPL 347.49(+1.04%)、NVDA 218.62(+1.21%)、AVGO 341.71(+3.81%)、CRWV 58.69(+6.34%)
+- 日历核验：苹果10月第二场发布会10/28 17:00 UTC、美Q3 GDP初值10/29 12:30（预期3.0/前值2.2）、初请前值19.4万: query_calendar_events(country='US', days=3, lookback_days=2, importance='high') = 3条
+- 工具缺口：query_fomc（lookback 120/lookahead 365）返回0场会议，query_calendar_events 无FOMC条目——稿中FOMC 10/28 18:00 UTC仅由新闻[id:565389][id:565553]支撑，需在reference标注核验路径
