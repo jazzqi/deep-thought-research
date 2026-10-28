@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-28T23:06:28.202375+00:00",
+  "window": {
+    "after": "2026-10-28T00:00:00+00:00",
+    "before": "2026-10-29T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "586315",
+      "title": "ICE Is Running One of the Largest Anti-Left Surveillance Ops in US History",
+      "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
+      "author": "zzzeek",
+      "points": 1040,
+      "comments": 832,
+      "published_at": "2026-10-28T12:49:45+00:00"
+    },
+    {
+      "id": "585761",
+      "title": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "author": "galadran",
+      "points": 872,
+      "comments": 338,
+      "published_at": "2026-10-28T11:03:40+00:00"
+    },
+    {
+      "id": "575901",
+      "title": "Git for US Legislation",
+      "url": "https://lexifina.com/blog/git-for-the-us-code",
+      "author": "alansaber",
+      "points": 378,
+      "comments": 199,
+      "published_at": "2026-10-28T01:47:50+00:00"
+    },
+    {
+      "id": "586836",
+      "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+      "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+      "author": "danso",
+      "points": 361,
+      "comments": 420,
+      "published_at": "2026-10-28T13:41:30+00:00"
+    },
+    {
+      "id": "586835",
+      "title": "Emacs Turns 50",
+      "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
+      "author": "internet_points",
+      "points": 351,
+      "comments": 143,
+      "published_at": "2026-10-28T13:25:11+00:00"
+    },
+    {
+      "id": "585277",
+      "title": "Wealth Inequality in America drawn to scale",
+      "url": "https://dreamagainusa.org/",
+      "author": "haraball",
+      "points": 305,
+      "comments": 365,
+      "published_at": "2026-10-28T08:48:21+00:00"
+    },
+    {
+      "id": "590359",
+      "title": "Gemini 4 Carbon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "author": "acossta",
+      "points": 297,
+      "comments": 235,
+      "published_at": "2026-10-28T17:01:23+00:00"
+    },
+    {
+      "id": "585870",
+      "title": "Amazon to buy satellite firm Globalstar in $11.57B deal",
+      "url": "https://www.reuters.com/business/media-telecom/amazon-signs-1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/",
+      "author": "noptd",
+      "points": 204,
+      "comments": 94,
+      "published_at": "2026-10-28T11:54:23+00:00"
+    },
+    {
+      "id": "590776",
+      "title": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
+      "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27/",
+      "author": "noptd",
+      "points": 187,
+      "comments": 91,
+      "published_at": "2026-10-28T11:54:23+00:00"
+    },
+    {
+      "id": "590360",
+      "title": "MacBook Pro with Touch Enabled Proled XDR Display",
+      "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
+      "author": "etothet",
+      "points": 177,
+      "comments": 262,
+      "published_at": "2026-10-28T17:10:37+00:00"
+    },
+    {
+      "id": "586283",
+      "title": "Two high-speed trains collide near Toledo, Spain",
+      "url": "https://www.euronews.com/video/2026/10/28/spain-first-footage-reveals-wreckage-of-deadly-high-speed-train-crash",
+      "author": "evilmonkey19",
+      "points": 164,
+      "comments": 184,
+      "published_at": "2026-10-28T12:35:41+00:00"
+    },
+    {
+      "id": "585917",
+      "title": "About the compromised eMudhra intermediate CAs",
+      "url": "https://support.apple.com/en-us/149555",
+      "author": "birdculture",
+      "points": 141,
+      "comments": 71,
+      "published_at": "2026-10-28T11:08:49+00:00"
+    },
+    {
+      "id": "595181",
+      "title": "Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents",
+      "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+      "author": "Aboutplants",
+      "points": 113,
+      "comments": 32,
+      "published_at": "2026-10-28T21:03:24+00:00"
+    },
+    {
+      "id": "588619",
+      "title": "CNC Stone Carving",
+      "url": "https://carmelitegothic.com/cnc-stone-carving/",
+      "author": "bschne",
+      "points": 108,
+      "comments": 22,
+      "published_at": "2026-10-28T14:38:22+00:00"
+    },
+    {
+      "id": "580893",
+      "title": "Artificial Analysis Intelligence Index v5",
+      "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+      "author": "hn-aarvin",
+      "points": 88,
+      "comments": 81,
+      "published_at": "2026-10-28T03:06:22+00:00"
+    },
+    {
+      "id": "585202",
+      "title": "Spain train crash: 'At least 10 dead' in high-speed collision",
+      "url": "https://www.thetimes.com/world/europe/article/spain-train-crash-madrid-latest-deaths-victims-807kwv23l",
+      "author": "ultral",
+      "points": 86,
+      "comments": 91,
+      "published_at": "2026-10-28T09:35:21+00:00"
+    },
+    {
+      "id": "592485",
+      "title": "Why Is This Fingerprinting Script Creating Bioweapons?",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "author": "hazebooth",
+      "points": 84,
+      "comments": 13,
+      "published_at": "2026-10-28T17:13:29+00:00"
+    },
+    {
+      "id": "585597",
+      "title": "Barcelona unrest: how to fabricate a protest in the age of TikTok",
+      "url": "https://theconversation.com/barcelona-unrest-how-to-fabricate-a-protest-in-the-age-of-tiktok-295263",
+      "author": "DeepLogin",
+      "points": 71,
+      "comments": 66,
+      "published_at": "2026-10-28T10:41:27+00:00"
+    },
+    {
+      "id": "595180",
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+      "author": "jacquesm",
+      "points": 70,
+      "comments": 39,
+      "published_at": "2026-10-28T20:10:16+00:00"
+    },
+    {
+      "id": "586868",
+      "title": "Harvey raised 500M for legal AI, I built the same and open sourced it",
+      "url": "https://github.com/thomasunise/casecite",
+      "author": "zztopisgreat",
+      "points": 68,
+      "comments": 37,
+      "published_at": "2026-10-28T13:56:21+00:00"
+    },
+    {
+      "id": "586105",
+      "title": "Microsoft and Epic Games Suddenly Agree That AI Is Theft",
+      "url": "https://kotaku.com/now-that-the-shoe-is-on-the-other-foot-microsoft-and-epic-games-suddenly-agree-that-ai-is-theft-2000749316",
+      "author": "tom2026hn",
+      "points": 66,
+      "comments": 26,
+      "published_at": "2026-10-28T10:10:58+00:00"
+    },
+    {
+      "id": "588037",
+      "title": "Valve Responds to Developers Fearing AI Slop and Clones",
+      "url": "https://www.invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones",
+      "author": "HelloUsername",
+      "points": 65,
+      "comments": 74,
+      "published_at": "2026-10-28T13:27:24+00:00"
+    },
+    {
+      "id": "590296",
+      "title": "r/Seattle mods discover malware injection by archive.today, ban site",
+      "url": "https://www.reddit.com/r/Seattle/comments/1xhf6qp/archivetoday_links_going_forward/",
+      "author": "consumer451",
+      "points": 59,
+      "comments": 20,
+      "published_at": "2026-10-28T15:31:58+00:00"
+    },
+    {
+      "id": "594968",
+      "title": "Alphabet Announces Third Quarter 2026 Results [pdf]",
+      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
+      "author": "mfiguiere",
+      "points": 57,
+      "comments": 35,
+      "published_at": "2026-10-28T20:11:55+00:00"
+    },
+    {
+      "id": "586363",
+      "title": "Tell HN: I'm going on strike this November",
+      "url": "https://news.ycombinator.com/item?id=50271808",
+      "author": "curiousaboutml",
+      "points": 52,
+      "comments": 66,
+      "published_at": "2026-10-28T11:21:28+00:00"
+    },
+    {
+      "id": "586104",
+      "title": "Suffering as a Feature",
+      "url": "https://blog.codinghorror.com/suffering-as-a-feature/",
+      "author": "yboulkaid",
+      "points": 51,
+      "comments": 11,
+      "published_at": "2026-10-28T09:22:49+00:00"
+    },
+    {
+      "id": "595233",
+      "title": "Formlabs Studio 1 $699 Resin Printer",
+      "url": "https://formlabs.com/products/form-studio-1-basic-founders-edition/",
+      "author": "mhb",
+      "points": 48,
+      "comments": 39,
+      "published_at": "2026-10-28T21:19:30+00:00"
+    },
+    {
+      "id": "589807",
+      "title": "Amazon rainforest cut down to build highway for COP climate summit (2025)",
+      "url": "https://www.bbc.com/news/articles/c9vy191rgn1o",
+      "author": "bilsbie",
+      "points": 45,
+      "comments": 14,
+      "published_at": "2026-10-28T15:24:11+00:00"
+    },
+    {
+      "id": "590297",
+      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "author": "landonxi",
+      "points": 43,
+      "comments": 29,
+      "published_at": "2026-10-28T15:46:30+00:00"
+    },
+    {
+      "id": "591930",
+      "title": "Mac Studio M5 Ultra 512GB Officially Released",
+      "url": "https://www.apple.com/shop/buy-mac/mac-studio",
+      "author": "nsagent",
+      "points": 43,
+      "comments": 66,
+      "published_at": "2026-10-28T17:21:02+00:00"
+    },
+    {
+      "id": "594966",
+      "title": "Big Tech's thirst for water is sparking a global resistance",
+      "url": "https://restofworld.org/2026/ai-datacenters-water-resistance-global/",
+      "author": "billybuckwheat",
+      "points": 40,
+      "comments": 21,
+      "published_at": "2026-10-28T18:34:51+00:00"
+    },
+    {
+      "id": "579144",
+      "title": "Artificial Analysis Intelligence Index v5.0",
+      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+      "author": "scooby7430",
+      "points": 39,
+      "comments": 5,
+      "published_at": "2026-10-28T05:29:11+00:00"
+    },
+    {
+      "id": "593632",
+      "title": "Rising rates of colorectal cancer found in nearly all age groups",
+      "url": "https://www.uchicagomedicine.org/forefront/cancer-articles/rising-rates-of-colorectal-cancer",
+      "author": "randycupertino",
+      "points": 39,
+      "comments": 58,
+      "published_at": "2026-10-28T19:15:07+00:00"
+    },
+    {
+      "id": "588038",
+      "title": "The Agent SDK",
+      "url": "https://cursor.com/blog/agent-sdk",
+      "author": "torutofu",
+      "points": 36,
+      "comments": 46,
+      "published_at": "2026-10-28T14:02:20+00:00"
+    },
+    {
+      "id": "590357",
+      "title": "Nvidia Nemotron 3.5 Transcribe: open ASR for 40 languages",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "author": "wondersky",
+      "points": 36,
+      "comments": 5,
+      "published_at": "2026-10-28T15:17:53+00:00"
+    },
+    {
+      "id": "589163",
+      "title": "AlpineBSD",
+      "url": "https://wiki.alpinebsd.org",
+      "author": "bradley_taunt",
+      "points": 34,
+      "comments": 30,
+      "published_at": "2026-10-28T14:30:26+00:00"
+    },
+    {
+      "id": "589188",
+      "title": "Tesla Semi catches fire on I-880",
+      "url": "https://electrek.co/2026/10/28/tesla-semi-fire-i-880-hayward-no-crash/",
+      "author": "metadat",
+      "points": 33,
+      "comments": 18,
+      "published_at": "2026-10-28T14:54:07+00:00"
+    },
+    {
+      "id": "585713",
+      "title": "Billion-query-per-second lookup tables in C++",
+      "url": "https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/",
+      "author": "signa11",
+      "points": 31,
+      "comments": 4,
+      "published_at": "2026-10-28T09:43:44+00:00"
+    },
+    {
+      "id": "593980",
+      "title": "Meta censored the No Kings Instagram account during a nationwide campaign",
+      "url": "https://paulfwalsh.substack.com/p/meta-censored-the-no-kings-instagram",
+      "author": "slowin",
+      "points": 31,
+      "comments": 4,
+      "published_at": "2026-10-28T16:01:53+00:00"
+    },
+    {
+      "id": "593981",
+      "title": "At least 68 killed in Spanish high-speed train crash",
+      "url": "https://www.bbc.com/news/live/cv1j309d4g98t",
+      "author": "saikatsg",
+      "points": 31,
+      "comments": 4,
+      "published_at": "2026-10-28T18:49:17+00:00"
+    },
+    {
+      "id": "595191",
+      "title": "Spiders Spin 'Silk Dope' into Nature's Toughest Material",
+      "url": "https://www.quantamagazine.org/how-spiders-spin-silk-dope-into-natures-toughest-material-20261028/",
+      "author": "ibobev",
+      "points": 27,
+      "comments": 0,
+      "published_at": "2026-10-28T17:45:24+00:00"
+    },
+    {
+      "id": "576921",
+      "title": "'Forced out': HOA fees to rise to $2,500 a month",
+      "url": "https://www.wsoctv.com/news/local/forced-out-hoa-fees-rise-7500-month/XCW2HIHUKNBMTNWVQSYXQZJCY4/",
+      "author": "hippich",
+      "points": 25,
+      "comments": 44,
+      "published_at": "2026-10-28T00:35:33+00:00"
+    },
+    {
+      "id": "592936",
+      "title": "It's now official, tech is the new tobacco",
+      "url": "https://cailinoconnor.substack.com/p/its-now-official-tech-is-the-new",
+      "author": "aanet",
+      "points": 25,
+      "comments": 9,
+      "published_at": "2026-10-28T17:08:45+00:00"
+    },
+    {
+      "id": "589162",
+      "title": "An architectural comparison of Obsidian Canvas and Heptabase",
+      "url": "https://www.fluxlinks.com/blog/obsidian-canvas-vs-heptabase",
+      "author": "ezrasu",
+      "points": 24,
+      "comments": 8,
+      "published_at": "2026-10-28T14:24:20+00:00"
+    },
+    {
+      "id": "592935",
+      "title": "Show HN: SlideBySide – Present slides without sharing your screen",
+      "url": "https://slidebyside.com/",
+      "author": "denismenace",
+      "points": 24,
+      "comments": 11,
+      "published_at": "2026-10-28T17:07:09+00:00"
+    },
+    {
+      "id": "595250",
+      "title": "The case of the 9 bit AES key",
+      "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+      "author": "ledoge",
+      "points": 24,
+      "comments": 6,
+      "published_at": "2026-10-28T20:51:44+00:00"
+    },
+    {
+      "id": "590324",
+      "title": "26,400 live credentials found scanning 7.25M repos on China's Gitee",
+      "url": "https://www.mongodb.com/company/blog/technical/scanning-7-point-25-million-public-repositories-chinas-largest-git-platform-for-secrets",
+      "author": "kernelrocks",
+      "points": 23,
+      "comments": 5,
+      "published_at": "2026-10-28T15:31:59+00:00"
+    },
+    {
+      "id": "595297",
+      "title": "Leak website releases data on DHS employees",
+      "url": "https://www.reuters.com/legal/government/leak-website-releases-data-tens-thousands-dhs-employees-2026-10-28/",
+      "author": "wondersky",
+      "points": 22,
+      "comments": 0,
+      "published_at": "2026-10-28T20:46:52+00:00"
+    },
+    {
+      "id": "588618",
+      "title": "Opus 5.5 causing an identity crisis is real",
+      "url": "https://www.kondz.io/blog/opus-5-5-causing-identity-crisis-is-real/",
+      "author": "stared",
+      "points": 20,
+      "comments": 35,
+      "published_at": "2026-10-28T10:35:31+00:00"
+    },
+    {
+      "id": "590295",
+      "title": "Show HN: Nasscad – local-first 3D CAD for browser and Windows",
+      "url": "https://www.nasscad.com/NASSCAD_V4_7_0.htm",
+      "author": "Nasser-13",
+      "points": 20,
+      "comments": 15,
+      "published_at": "2026-10-28T13:28:32+00:00"
+    },
+    {
+      "id": "595281",
+      "title": "Major Memory Vendor: We're Basically Sold Out Through 2029",
+      "url": "https://www.pcmag.com/news/sk-hynix-major-memory-vendor-basically-sold-out-through-2029",
+      "author": "Vaslo",
+      "points": 20,
+      "comments": 6,
+      "published_at": "2026-10-28T16:23:24+00:00"
+    },
+    {
+      "id": "589080",
+      "title": "Immuneering climbs 6%",
+      "url": "https://longbridge.cn/news/303419609",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:10:23+00:00"
+    },
+    {
+      "id": "589081",
+      "title": "",
+      "url": "https://longbridge.cn/news/303419643",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:10:52+00:00"
+    },
+    {
+      "id": "589082",
+      "title": "",
+      "url": "https://longbridge.cn/news/303419735",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:12:31+00:00"
+    },
+    {
+      "id": "589083",
+      "title": "NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "url": "https://longbridge.cn/news/303420637",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:18:42+00:00"
+    },
+    {
+      "id": "589130",
+      "title": "",
+      "url": "https://longbridge.cn/news/303419713",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:12:20+00:00"
+    },
+    {
+      "id": "589131",
+      "title": "CATL pushes ahead with 20 Ah solid-state EV batteries, with 500 Wh/kg in sight",
+      "url": "https://longbridge.cn/news/303420277",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:12:41+00:00"
+    },
+    {
+      "id": "589132",
+      "title": "",
+      "url": "https://longbridge.cn/news/303419894",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:13:24+00:00"
+    },
+    {
+      "id": "589133",
+      "title": "Is Coca-Cola a Buy After Its Latest Earnings Report?",
+      "url": "https://longbridge.cn/news/303420029",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:13:44+00:00"
+    },
+    {
+      "id": "589134",
+      "title": "AI Bubble Hedge? 5 ETFs That Could Protect Investors Without Shorting Nvidia",
+      "url": "https://longbridge.cn/news/303420998",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:14:59+00:00"
+    },
+    {
+      "id": "589135",
+      "title": "Tesla’s rocket-shaped Robotaxi map in Houston is partly ‘fake’",
+      "url": "https://longbridge.cn/news/303420621",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:18:25+00:00"
+    },
+    {
+      "id": "589136",
+      "title": "SpaceX’s Starlink Could Be a 'New Customer at Scale' for American Tower",
+      "url": "https://longbridge.cn/news/303421481",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:22:18+00:00"
+    },
+    {
+      "id": "589169",
+      "title": "Windfall from Surging Oil Prices Realized? PETROCHINA's Net Profit for the First Three Quarters Reaches RMB 155.8 Billion, Up 22% Year-on-Year",
+      "url": "https://longbridge.cn/news/303422683",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:13:11+00:00"
+    },
+    {
+      "id": "589170",
+      "title": "Microsoft And Google Face Monetization Test Amid Expected Fed Pause— Seagate And Oil Cloud AI Trade",
+      "url": "https://longbridge.cn/news/303422504",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:25:17+00:00"
+    },
+    {
+      "id": "589171",
+      "title": "Meta Stock Falls for Fifth Consecutive Day, Down Over 20% from All-Time High",
+      "url": "https://longbridge.cn/news/303422129",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:37:48+00:00"
+    },
+    {
+      "id": "589172",
+      "title": "NiSource climbs 2% as Q3 earnings top estimates",
+      "url": "https://longbridge.cn/news/303422397",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:40:25+00:00"
+    },
+    {
+      "id": "589173",
+      "title": "AI Financing Pioneer Pimco Takes Profits, Cuts Meta and Oracle Positions by About Half",
+      "url": "https://longbridge.cn/news/303423051",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:41:24+00:00"
+    },
+    {
+      "id": "589174",
+      "title": "Dynamic TV Creative de Amazon Ads llega a España: anuncios personalizados en Prime Video",
+      "url": "https://longbridge.cn/news/303423035",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:45:10+00:00"
+    },
+    {
+      "id": "589175",
+      "title": "SpaceX Pauses Florida Launches for Six Weeks Ahead of Starship’s Debut",
+      "url": "https://longbridge.cn/news/303423408",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:45:17+00:00"
+    },
+    {
+      "id": "589205",
+      "title": "Three \"Can-Do\" Questions Matter More Than Short-Term Trends for the AI Industry",
+      "url": "https://longbridge.cn/news/303422970",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:15:48+00:00"
+    },
+    {
+      "id": "589206",
+      "title": "Tesla Drops 25 Places as Brand Value Falls 38% in 2026",
+      "url": "https://longbridge.cn/news/303422770",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:34:27+00:00"
+    },
+    {
+      "id": "589207",
+      "title": "Alzheimer's Drug Discovery Foundation's Diagnostics Accelerator Licenses SpeechDx Dataset to Eli Lilly and Company, Advancing Speech-Based Markers as a Critical Alzheimer's Research Tool",
+      "url": "https://longbridge.cn/news/303423117",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:46:50+00:00"
+    },
+    {
+      "id": "589208",
+      "title": "Deutsche Bank, BNP Paribas: European Banks Can Outperform Wall Street Trading Desks",
+      "url": "https://longbridge.cn/news/303423671",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:57:02+00:00"
+    },
+    {
+      "id": "589718",
+      "title": "Barnes & Noble Education falls 4% during regular trading",
+      "url": "https://longbridge.cn/news/303419699",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:12:13+00:00"
+    },
+    {
+      "id": "589719",
+      "title": "Future FinTech Group surges 20% during regular trading",
+      "url": "https://longbridge.cn/news/303418576",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:14:09+00:00"
+    },
+    {
+      "id": "589720",
+      "title": "OceanFirst Financial climbs 6% as Q3 EPS tops estimates",
+      "url": "https://longbridge.cn/news/303404841",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:15:35+00:00"
+    },
+    {
+      "id": "589721",
+      "title": "Youlife Group falls nearly 12%",
+      "url": "https://longbridge.cn/news/303422108",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:36:59+00:00"
+    },
+    {
+      "id": "589722",
+      "title": "Otis Beats Q3 Estimates As Margin Pressure Weighs On Shares",
+      "url": "https://longbridge.cn/news/303424090",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:55:01+00:00"
+    },
+    {
+      "id": "589723",
+      "title": "Canada, European Union officials drop 'associate member' from summit declaration",
+      "url": "https://longbridge.cn/news/303423829",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:57:48+00:00"
+    },
+    {
+      "id": "591067",
+      "title": "Silvia tumbles 8% during regular trading",
+      "url": "https://longbridge.cn/news/303419541",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:09:42+00:00"
+    },
+    {
+      "id": "591068",
+      "title": "Laureate Education falls nearly 3% in regular trading",
+      "url": "https://longbridge.cn/news/303419689",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:11:48+00:00"
+    },
+    {
+      "id": "591069",
+      "title": "Banco Santander falls 5%",
+      "url": "https://longbridge.cn/news/303368822",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:18:06+00:00"
+    },
+    {
+      "id": "591070",
+      "title": "",
+      "url": "https://longbridge.cn/news/303421313",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:25:51+00:00"
+    },
+    {
+      "id": "591071",
+      "title": "Marex Group falls 5% during regular trading",
+      "url": "https://longbridge.cn/news/303423550",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:54:16+00:00"
+    },
+    {
+      "id": "591895",
+      "title": "Stocks in Play: Brookfield Renewable Partners L.P.",
+      "url": "https://longbridge.cn/news/303422002",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:35:14+00:00"
+    },
+    {
+      "id": "592463",
+      "title": "AXT surges 8% as unit plans 3.67 billion yuan private financing",
+      "url": "https://longbridge.cn/news/303420885",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:20:01+00:00"
+    },
+    {
+      "id": "593195",
+      "title": "ANALYSIS-Weak domestic returns fuel India's overseas retail investing boom",
+      "url": "https://longbridge.cn/news/303419534",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:09:36+00:00"
+    },
+    {
+      "id": "593196",
+      "title": "Precision Drilling climbs 4% on Q3 profit turnaround",
+      "url": "https://longbridge.cn/news/303419988",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:20:41+00:00"
+    },
+    {
+      "id": "593197",
+      "title": "ServiceNow Slips Ahead of AI-Heavy Earnings, What Is Going On?",
+      "url": "https://longbridge.cn/news/303422507",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:31:26+00:00"
+    },
+    {
+      "id": "593198",
+      "title": "Total Energy, ACT, Amgen at 52-Week Highs on News",
+      "url": "https://longbridge.cn/news/303421925",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:33:42+00:00"
+    },
+    {
+      "id": "593588",
+      "title": "National Vision Holdings falls 5% in regular trading",
+      "url": "https://longbridge.cn/news/303420458",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:17:31+00:00"
+    },
+    {
+      "id": "593589",
+      "title": "UK Reduces Long-Term Debt Issue Size, Boosting Performance",
+      "url": "https://longbridge.cn/news/303423245",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:48:51+00:00"
+    },
+    {
+      "id": "593590",
+      "title": "Stocks Sluggish Ahead of Interest Rate Rhetoric",
+      "url": "https://longbridge.cn/news/303423587",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:55:13+00:00"
+    },
+    {
+      "id": "593959",
+      "title": "CBL International surges 16% during regular trading",
+      "url": "https://longbridge.cn/news/303416224",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:35:08+00:00"
+    },
+    {
+      "id": "594340",
+      "title": "Corning Inc Stock (GLW) Moved Up by 3.42% on Oct 28: A Full Analysis",
+      "url": "https://longbridge.cn/news/303420429",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:17:09+00:00"
+    },
+    {
+      "id": "594827",
+      "title": "Waste Management Q3 2026 Earnings Call Transcript",
+      "url": "https://longbridge.cn/news/303422035",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:27:53+00:00"
+    },
+    {
+      "id": "594828",
+      "title": "",
+      "url": "https://longbridge.cn/news/303422039",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:36:20+00:00"
+    },
+    {
+      "id": "594829",
+      "title": "",
+      "url": "https://longbridge.cn/news/303422082",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:36:46+00:00"
+    },
+    {
+      "id": "594830",
+      "title": "",
+      "url": "https://longbridge.cn/news/303423563",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:54:47+00:00"
+    },
+    {
+      "id": "594831",
+      "title": "",
+      "url": "https://longbridge.cn/news/303423768",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:57:27+00:00"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+actions:
+- priority: P2
+  recurrence: daily
+  summary: 持续跟踪 eMudhra 受影响根证书在 macOS 开发者工具链（git/curl/python3）的修复落地情况及 CI 供应链影响
+  target_flow_params: {}
+  type: monitoring
+- priority: P3
+  recurrence: weekly
+  summary: 跟踪评测私有化趋势：Artificial Analysis 等指数转向私有测试集后开源权重差距（3→12 分）与复现性质疑的演变
+  target_flow_params: {}
+  type: monitoring
