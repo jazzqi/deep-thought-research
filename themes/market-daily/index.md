@@ -4,26 +4,26 @@ slug: market-daily
 status: active
 lead_agent: ackman
 created: 2026-08-01
-updated: 2026-10-27T23:53:08+08:00
-revision: 2026-10-27
+updated: 2026-10-29T00:01:48+08:00
+revision: 2026-10-29
 sources:
-  - path: 2026-10-27_2300__manual__big_picture_lead_ackman_marketquotetool_longbridge_finalize/reference.md
+  - path: 2026-10-28_2300__manual__big_picture_lead_ackman_marketquotetool_longbridge_finalize/reference.md
     agent: theme_update
     summarized: false
 actions:
   - type: monitoring
     priority: P1
-    summary: 监控10/28 18:00 UTC FOMC声明与沃什发布会：鹰派暂停（保留12月加息）则今日risk-on回吐，弱化加息指引则反弹延长
+    summary: 监控10/28 18:00 UTC FOMC声明与沃什发布会：鹰派暂停+2-3票异议为基准（CME定价暂停90.6%），若12月加息指引强化则10Y重测5.00-5.05%、今日股市零波动的平静被打破
     target_flow_params: {}
     recurrence: daily
   - type: monitoring
     priority: P1
-    summary: 监控10/28晚谷歌/微软capex指引与AI信用铁三角（CoreWeave CDS 1041.4bp、IG私募信贷通道、新云涨幅持续性）：CDS续降+capex上修=融资断裂证伪，反之下修则今日修复是FOMC前回补
+    summary: 监控10/28盘后MSFT/GOOG capex指引：上修=AI信用链修复延续（CoreWeave CDS 1041.4bp基准续降），下修=昨日修复被证伪、soros循环晚期判断占优
     target_flow_params: {}
     recurrence: daily
   - type: follow_up
     priority: P2
-    summary: 验证'10/29 Q3 GDP与核心PCE组合指向10Y重测5.00-5.05%'的预测
+    summary: 验证'10/29 Q3 GDP+9月PCE组合推动12月加息概率破80%、10Y重测5.00-5.05%'的预测
     target_flow_params: {}
     verification_date: 2026-10-29
     confidence: 0.6
@@ -33,35 +33,22 @@ actions:
 
 ## Big Picture
 
-美股科技在FOMC开幕日走出"芯片第二日连涨"的窄幅risk-on：三大指数10/27齐涨开盘、油价回落改善风险情绪 [id:566343]，纳指100盘中+1% [id:568768]，费城半导体指数+2.01%至11305.92点 [id:566347]，盘中SMH +2.44%、QQQ +1.12%至720.14美元（market_quote 10/27），科技板块+1.29%领涨美股 [id:568754]。核心驱动力是AI资本化24小时内连落三笔大单：Meta股权融资增至975亿美元、其中250亿美元普通股增发获约5倍超额认购 [id:566349][id:569261]，博通敲定为Anthropic安排的630亿美元芯片融资并股价创两周新高 [id:566764]，SpaceX完成400亿美元AI芯片债券融资 [id:564044]——外加Anthropic递交招股书，披露上半年营收163亿美元、同比+1300% [id:566771]。今日最重要的变化在信用端：CoreWeave 5年期CDS回落至1041.4bp的一周多新低 [id:566356]，上周的"融资断裂"定价出现修复窗口；但同日英伟达5年期CDS年内+226%至127bp、反超Meta [id:568746]——风险在重新排座而非消退。
-**ackman 视角：** 用闭眼测试给今天定性——假设股市关门十年，谁还在生成真实自由现金流？答案决定了资金流向：存储/代工/苹果这类有定价权、有真实FCF的生意被买入（WDC +6.08%、NAND Q4环比预计+15-20% [id:567789]、AAPL +1.01%至347.39美元），而"杠杆买算力再出租"的中介模式仍在被惩罚（CoreWeave CDS虽回落至1041.4bp但仍处高位 [id:566356]）。但我要指出市场尚未消化的细节：**三笔大单本质是融资证据而非需求证据**——Anthropic招股书披露至2029年向SpaceXAI承诺算力支出上限1205亿美元 [id:565211]，而SpaceX刚用400亿美元债券买芯片 [id:564044]，收入正在由融资承诺本身创造。这是会计学层面的循环自我指涉。激励结构的裁决同样清晰：SpaceX用业绩说话（Q3营收+161%、AI收入+830% [id:501010]），Nebius高管用言语自救（"我们没有CoreWeave那样的债务" [id:501068]），Meta增发5倍超额认购当日股价仍-0.76%至625.77美元（market_quote 10/27）——摊薄被即时计价。**业绩与喊话的信息含量差，就是我们区分"通过与通不过闭眼测试"的标尺。** 组合含义：指数新高+信用链改善+三笔大单落地的组合不具备加仓的非对称性——这是"融资新闻驱动的risk-on"，不是"增量资金驱动的risk-on"（TMT基金单周流出200亿美元 [id:563060]）。回补买盘在FOMC声明前不宜加杠杆追涨；现金与对冲是期权，我们只在通过闭眼测试的生意被恐慌错杀时进场。10月底capex指引裁决之前，不追指数层面的beta。
-**soros 视角：** 反身性定位：这轮循环已进入"资本结构工程化"的晚期强化段（confidence 70%）。今天的三笔大单本质是**融资证据而非需求证据**，市场把"能融到钱"当作"需求真实"来定价，这正是循环自我指涉的形态——Anthropic招股书披露至2029年向SpaceXAI承诺算力支出上限1205亿美元 [id:565211]，而SpaceX刚用400亿美元债券买芯片 [id:564044]，收入正在由融资承诺本身创造。极限信号三处同日出现：①FOMC暂停约80%、12月加息合计约90%定价 [id:566371][id:558175]，零缓冲；②TMT基金单周流出200亿美元 [id:563060] 与三笔大单并存，冷数据与热新闻背离；③Meta增发5倍超额认购当日股价仍-0.76%至625.77美元（market_quote 10/27），摊薄被即时计价。共识越一致、融资越被当作需求消费，10/28 18:00 UTC声明与本周巨头capex指引成为反向触发点的概率越高。
-
-## 共识
-
-1. **【共识·三方】AI融资三笔大单24小时内落地，但融资证据≠需求证据。** 股权增发（Meta 975亿 [id:566349]）、结构化租赁（博通630亿SPV [id:567780]）、巨型债券（SpaceX 400亿 [id:564044]）三轨并行，AI算力融资已脱离单一高收益债通道——但Anthropic向SpaceXAI承诺1205亿美元支出上限 [id:565211]、Siebert警告供应商融资遮蔽真实需求 [id:565560]，收入的融资含量正在上升（soros：会计学证据）。
-2. **【共识·三方】情绪修复由一级市场再融资新闻驱动、二级增量资金反而在流出，是结构极窄的risk-on。** TMT基金单周流出200亿美元 [id:563060]、医疗6个月+23%承接流出 [id:568328]、BTC跌破8万美元 [id:565387]——一级热、二级冷的组合说明承接新供给的是打新盘而非配置盘。
-3. **【共识·三方】信用链先行指标在改善，但风险在重新排座而非消退。** CoreWeave CDS 1041.4bp一周新低 [id:566356]、Nebius盘中+11% [id:565864]；但英伟达CDS年内+226%至127bp、反超Meta [id:568746]，Musk公开警告neocloud洗牌 [id:564044]。
-4. **【共识·三方】AI收入首次可审计，收入质量分层是核心矛盾。** Anthropic招股书H1营收163亿、+1300% [id:566771]；微软首次披露Azure美元收入 [id:568749]；capex指引一旦下修，被证伪的不是需求而是整个资本结构的闭环偿付逻辑。
-5. **【共识·三方】FOMC"暂停"已被高定价（约80%），真正的变量是12月指引；10/28 18:00 UTC声明是短期唯一regime切换触发器。** 高盛预计12月加息 [id:558175]；股债定价分歧——股市定价暂停后上涨、债市暗示另有路径 [id:563619]。
-6. **【共识·ackman主张三方认可】指数层面不具备加仓的非对称性，回补买盘在FOMC声明前不宜加杠杆追涨。** 现金与对冲是期权；10月底capex指引裁决之前，不追指数层面的beta。
-**少数派：**
-- **tech_generalist（对 soros/ackman）：** 需求真伪之争可以收尾了，重心应转向尾部承担——监管节点刚启动，Anthropic招股书披露即进入证券法约束，"AI收入"第一次要按会计口径接受公开审计。他更关注算力定价权从芯片向封装与存储扩散（CoWoS +10-20%、NAND Q4 +15-20%）将成为2027年前科技财报的共同分母。
-- **soros（对 ackman）：** soros判断循环晚期（confidence 70）、信用断裂外溢可能快于预期，任何一次再融资失败即可点燃全链；ackman持"出清前段、风险集中于高杠杆中介"立场，认为指数层面风险有限。根因在对外溢速度的估计。
+FOMC 决议（10/28 18:00 UTC）前最后两小时，美股维持"存储独涨、巨头回吐"的冻结行情，且能源尾巴在决议前仍在自我强化：SPY 771.33 美元（+0.22%）、QQQ 722.24 美元（+0.14%）近乎零振幅（market_quote 10/28 15:50 UTC）；美光 970.93 美元（+4.54%）带动存储链第三日连涨，而 MSFT 527.08 美元（-0.80%）在盘后首次 Azure 披露前承压、META -1.06%，唯有 GOOGL 323.75 美元（+0.99%）逆势走强。核心矛盾较昨日再添三处新裂缝：AI 债券融资先行者 PIMCO 减持 Meta 与 Oracle 仓位各约一半 [id:589075]；SpaceX 1000 亿美元路易斯安那项目遭当地法律挑战、SPCX 盘中 -3.6% [id:587471]；Anthropic 招股书罕见警告其 AI 安全倡导立场可能使其成为政府报复目标——政治风险首次进入 AI 一级融资龙头的证券法披露口径 [id:589168]。能源变量截至 15:45 UTC 已突破 103 美元/桶、日内 +3.13% [id:589167]，TTF 天然气触及 100 欧元/兆瓦时 [id:588575]、美债收益率升破 5% [id:585912]。今日最重要变化是加拿大央行 13:45 UTC 三年来首次加息 25bp 至 2.50%，行长麦克勒姆明言加息用于限制油价传导（[id:586873][id:587464]）——G7 第一个把能源通胀写进决议的央行，为今晚沃什提供了鹰派模板；同日 SK 海力士交出超预期三季报、产能售罄至 2029 年（[id:587402][id:586216]），为存储链补上最硬的实体证据。我们判断：今日是"定价日"而非"发现日"——指数方向由声明措辞（含 2-3 票异议的结构 [id:583143]）与盘后微软首次可审计的 Azure 披露裁决；结构上资金正从"AI 融资中介叙事"撤向"存储/封装定价权实体"；能源通胀是唯一能同时证伪多空双方的未定价变量，且它在决议前两小时仍在加速。
+**ackman 视角：** 用闭眼测试审视今日盘面，答案干净得反常：如果今晚美联储关门十年，SK 海力士"产能售罄至 2029"的合同、NAND 四季度环比 +15-20% 的 ASP（[id:586216][id:567789]）依然在——这些是可审计的现金流；而 Anthropic 那个半年净亏 807 亿美元、估值 1.5-2 万亿美元、拟用 20% 散户份额承接的资产（[id:586308][id:585910]），十年后大概率不在。市场今天给两者的定价差还不够大，这就是我们的不对称性来源。指数层面维持中性偏谨慎的"事件前观望"：三大二元事件（FOMC 声明、微软 Azure、谷歌 Cloud）同日叠加，期权价值最高的动作是持有现金与定价权实体、拒绝在裁决前为 beta 付钱。
 
 ## 各维度分析
 
 ### 叙事/情绪面
 
-美股科技在FOMC开幕日走出"芯片第二日连涨"的窄幅risk-on：三大指数10/27齐涨开盘、油价回落改善风险情绪 [id:566343]，纳指100盘中+1% [id:568768]，费城半导体指数+2.01%至11305.92点 [id:566347]，盘中SMH +2.44%、QQQ +1.12%至720.14美元（market_quote 10/27），科技板块+1.29%领涨美股 [id:568754]。核心驱动力是AI资本化24小时内连落三笔大单：Meta股权融资增至975亿美元、其中250亿美元普通股增发获约5倍超额认购 [id:566349][id:569261]，博通敲定为Anthropic安排的630亿美元芯片融资并股价创两周新高 [id:566764]，SpaceX完成400亿美元AI芯片债券融资 [id:564044]——外加Anthropic递交招股书，披露上半年营收163亿美元、同比+1300% [id:566771]。今日最重要的变化在信用端：CoreWeave 5年期CDS回落至1041.4bp的一周多新低 [id:566356]，上周的"融资断裂"定价出现修复窗口；但同日英伟达5年期CDS年内+226%至127bp、反超Meta [id:568746]——风险在重新排座而非消退。
+FOMC 决议（10/28 18:00 UTC）前最后两小时，美股维持"存储独涨、巨头回吐"的冻结行情，且能源尾巴在决议前仍在自我强化：SPY 771.33 美元（+0.22%）、QQQ 722.24 美元（+0.14%）近乎零振幅（market_quote 10/28 15:50 UTC）；美光 970.93 美元（+4.54%）带动存储链第三日连涨，而 MSFT 527.08 美元（-0.80%）在盘后首次 Azure 披露前承压、META -1.06%，唯有 GOOGL 323.75 美元（+0.99%）逆势走强。核心矛盾较昨日再添三处新裂缝：AI 债券融资先行者 PIMCO 减持 Meta 与 Oracle 仓位各约一半 [id:589075]；SpaceX 1000 亿美元路易斯安那项目遭当地法律挑战、SPCX 盘中 -3.6% [id:587471]；Anthropic 招股书罕见警告其 AI 安全倡导立场可能使其成为政府报复目标——政治风险首次进入 AI 一级融资龙头的证券法披露口径 [id:589168]。能源变量截至 15:45 UTC 已突破 103 美元/桶、日内 +3.13% [id:589167]，TTF 天然气触及 100 欧元/兆瓦时 [id:588575]、美债收益率升破 5% [id:585912]。今日最重要变化是加拿大央行 13:45 UTC 三年来首次加息 25bp 至 2.50%，行长麦克勒姆明言加息用于限制油价传导（[id:586873][id:587464]）——G7 第一个把能源通胀写进决议的央行，为今晚沃什提供了鹰派模板；同日 SK 海力士交出超预期三季报、产能售罄至 2029 年（[id:587402][id:586216]），为存储链补上最硬的实体证据。我们判断：今日是"定价日"而非"发现日"——指数方向由声明措辞（含 2-3 票异议的结构 [id:583143]）与盘后微软首次可审计的 Azure 披露裁决；结构上资金正从"AI 融资中介叙事"撤向"存储/封装定价权实体"；能源通胀是唯一能同时证伪多空双方的未定价变量，且它在决议前两小时仍在加速。
 
 ### 基本面
 
-**当前状态：基本面信号密集且偏多——AI资本化结构升级、存储与封装涨价、苹果产品周期三线并进；唯一显著恶化的是AI应用层成本战、Anthropic闭环的收入质量与消费端裂缝。**
+**ackman 视角：** 用闭眼测试审视今日盘面，答案干净得反常：如果今晚美联储关门十年，SK 海力士"产能售罄至 2029"的合同、NAND 四季度环比 +15-20% 的 ASP（[id:586216][id:567789]）依然在——这些是可审计的现金流；而 Anthropic 那个半年净亏 807 亿美元、估值 1.5-2 万亿美元、拟用 20% 散户份额承接的资产（[id:586308][id:585910]），十年后大概率不在。市场今天给两者的定价差还不够大，这就是我们的不对称性来源。指数层面维持中性偏谨慎的"事件前观望"：三大二元事件（FOMC 声明、微软 Azure、谷歌 Cloud）同日叠加，期权价值最高的动作是持有现金与定价权实体、拒绝在裁决前为 beta 付钱。
 
 ### 宏观背景
 
-**当前状态：超级央行周开启，FOMC"暂停"已被高定价，真正的变量是12月指引；长端利率与油价的通胀尾巴未剪。** FOMC两天会议10/27美东09:30开始 [id:567332]，10/28 18:00 UTC公布决议。高盛预计本周不加息、不释放重大新信号、12月实施加息 [id:558175]；市场关注点本就是"未来指引"而非决议本身 [id:566371]，且股债定价已现分歧——股市定价暂停后上涨、债市暗示另有路径 [id:563619]；沃什欲收紧口风，但静默期内至少16名官员发表59次演讲 [id:564548]，"美联储传声筒"以1999年先例提示紧缩周期中前瞻指引的用法——暂停会议发声明、六周后加息 [id:565718]，这个类比直指12月。
+- **FOMC 今日 18:00 UTC 决议 + 沃什记者会**：维持不变概率 90.6% [id:586021]，机构普遍预期 12 月加息 25bp [id:586828]，高盛预计本周不动、12 月加息 [id:558175]；市场已定价至少 3 次加息至 2027 年 9 月 [id:583512]。**异议结构是最被忽略的信号**：市场预期 2-3 票异议，哈马克、洛根若投反对票将以"抗通胀决心"重新定性这次暂停 [id:583143][id:586850]；BMO 同预期数名官员异议 [id:580816]；MUFG 提示若"鹰派暂停"落地，12 月加息概率或升破 80% [id:581305]——0 票异议=偏鸽暂停，2 票以上=12 月定价向 100% 收敛。 - **加拿大央行落地**：加息 25bp 至 2.50%，2023 年 7 月以来首次、结束 2024 年 6 月起的降息周期，麦克勒姆称"货币宽松空间已缩小"、加息用于限制油价外溢演变为全面通胀 [id:586873][id:587464][id:587511]；市场反读为偏鸽（政策利率仍低于 2.75% 中性）[id:589084]，凯投宏观估算本轮后续或仅再加息两次 [id:588025]。 - **融资市场先疼**：美债收益率升破 5% [id:585912]；SOFR 升至 3.95%、高于准备金利率 IORB 5bp，为 4 月 15 日以来最宽利差 [id:588628]。 - **能源尾巴决议前重翘**：WTI 突破 103 美元/桶、日内 +3.13%（15:45 UTC，[id:589167]；15:39 UTC 报 102.91 [id:589152]）；TTF 100 欧元/兆瓦时——胡塞袭击 + QatarEnergy 不可抗力 [id:588575]；布伦特 111.34 美元 [id:585845]；油价 10/7 以来持续 100 美元上方、8 个月涨超 60% [id:565866]，机构已把"油价涨破 110 美元"列为今日决策焦点 [id:586831]；22V 列出四大通胀担忧：伊朗油价、AI 抬升的技术成本、关税退税结束、1 月提价 [id:585194]。供给端唯一反向证据是埃尼重启委内瑞拉 Junin-5、2028 年目标 20 万桶/日 [id:589150]——远水不解近渴。 - **地缘反向证据**：美国警告中期选举后可能对伊朗动武、伊朗拒绝卡塔尔提案 [id:586224][id:586216]；以色列今日公布议会选举特殊选票 43–48 万张、计票复杂化或影响最终格局 [id:589155]——花旗所指"选举僵局提高军事冲突再升级风险"未解除 [id:587496]，此前锚定的"11/3 选前缓和激励"被削弱。 - **昨日数据组合偏 higher-for-longer**：谘商会 10 月消费者信心 91.7（预期 81.0、前值 81.9，query_calendar_events 10/27）；9 月耐用品订单 +1.8% 但核心资本品仅 +0.5%、低于预期 0.7%——AI capex 强、广谱资本开支弱的分化延续。 - **明日与亚洲**：美 Q3 GDP 初值 12:30 UTC（预期 3.0%、前值 2.2% 年化）+ 初请（前值 19.4 万）；ECB 议息 13:15 UTC（存款利率预期 2.5% 不变）；韩国 Q3 GDP 环比 +1.0% 超预期、11 月加息预期强化 [id:55557
 
 ## 预测时间线
 
@@ -172,18 +159,31 @@ actions:
 | 10/31 | OPEC+会议（query_calendar_events） | 油价100美元上方的供给端裁决：增产→通胀预期回落利好成长股；减产/搁置→12月加息定价再强化 | 55% |  |  |
 | 11/1 | 北美冬令时生效（美股交易延后一小时）；韩国10月出口（前值+83.5%） | 半导体出口若维持高位→存储/出口景气再确认；回落→韩国"AI出口+105%"叙事降温 | 70% |  |  |
 | 11/16当周（远期锚） | Anthropic IPO定价（估值最高2万亿美元 [id:565556]） | 定价饱满且首日站稳→AI一级定价天花板抬升、闭环续期；折价或缩水→整个"融资即需求"叙事的第一道裂缝 | 55% |  |  |
+| 时间窗（UTC） | 事件 | 市场可能反应 | 置信度 | 提出者 |  |
+| 10/28 17:00 | 苹果 10 月第二场发布会：首款触控 MacBook 与新 iPad mini（query_calendar_events）；Counterpoint 预计初期需求超供给 [id:568745]；Monness 上调苹果目标价 335→355 美元 [id:585668] | 产品超预期→AAPL 延续 345.24 美元上方攻势；平淡→"产品周"利好出尽回吐 | 60% | tech_generalist |  |
+| 10/28 18:00/18:30 | **FOMC 决议 + 沃什记者会**（暂停定价 90.6% [id:586021]、Kalshi 95% [id:585498]；预期 2-3 票异议 [id:583143]；BoC 已提供"因油加息"模板 [id:586873]；决议前 WTI 突破 103 美元、+3.13% [id:589167]） | 暂停+0 票异议→偏鸽、反弹延长；暂停+2 票以上异议或声明写入能源外溢→12 月定价向 100% 收敛、股市补跌大于债市补涨；意外加息→纳指 -2% 级 risk-off；弱化指引→反弹延长至财报周 | 90%（暂停），分歧全在指引与异议票 | ackman/soros 框架延续 + tech_generalist 异议票补充 |  |
+| 10/28 盘后 | **微软财报**（预期 EPS 4.72 美元/营收 907 亿美元 [id:587973]，首次 Azure 美元披露 [id:568749]，市场预期已高于指引 [id:587973]） | Azure 弱于隐含预期→云估值折价重定价、"需求证据"改写为顶部信号；capex 上修且 Azure 相称→存储/代工/算力卖方续涨 | 55% | tech_generalist |  |
+| 10/28 盘后 | **Alphabet 财报**（EPS 预期 3.02 美元/营收 1280 亿美元，Cloud 收入预期翻倍 vs 高 capex [id:586398]），随后亚马逊等（本周 36% 标普 500 [id:552760]） | capex 指引上修→AI 融资担忧证伪；下修→新云信用链首当其冲 | 60% | 框架延续 |  |
+| 10/29 12:30 | 美 Q3 GDP 初值（预期 3.0%、前值 2.2% 年化）+ 初请（前值 19.4 万）（query_calendar_events） | GDP 过热→12 月加息定价强化；增速放缓→risk-on 延长 | 55% | tech_generalist |  |
+| 10/29 13:15 | ECB 议息（存款利率预期 2.5% 不变）（query_calendar_events） | TTF 100 欧元背景下偏鸽→与能源数据背离、欧债波动加剧；偏鹰→法国 5% 叙事重燃 | 75%（维持） | tech_generalist |  |
+| 10/31 | OPEC+ 会议（query_calendar_events） | 增产→能源通胀预期回落利好成长股；减产/搁置→12 月加息定价再强化、TTF 联动 | 55% | 框架延续 |  |
+| 11/1 | 北美冬令时生效；韩国 10 月出口（前值 +83.5%）（query_calendar_events） | 半导体出口高位→存储/出口景气再确认；回落→韩国"AI 出口"叙事降温 | 70% | tech_generalist |  |
+| 11/16 当周 | Anthropic IPO 定价（估值 1.5–2 万亿美元 [id:565556][id:586308]，散户份额最高 20% [id:585910]，招股书自曝政府报复风险 [id:589168]） | 定价饱满→AI 一级定价天花板抬升；折价或推迟→"融资即需求"叙事第一道裂缝 | 55% | 框架延续 + ackman 补充政治风险折价变量 |  |
 
 ## 分歧地图
 
 | 维度 | 观点 A | 观点 B | 分歧根因 | 状态 |
 |------|--------|--------|---------|------|
+| AI 融资热潮性质 | 需求真实且可审计：Anthropic 招股书 H1 营收 163 亿美元、+1300% [id:566771]；SK 海力士产能售罄至 2029、美光 +4.54%、NAND Q4 环比 +15-20% [id:587402][id:586216][id:567789]；三笔大单 24 小时落地 [id:566349][id:566764][id:564044] | 供应商融资遮蔽有机需求：PIMCO 减持 Meta/Oracle 半仓 [id:589075]；Anthropic 向 SpaceXAI 承诺 1205 亿美元支出上限 [id:565211]；Siebert 警告供应商融资 [id:565560]；报道口径 H1 净亏 807 亿美元 [id:586308] | AI 收入的确认口径与杠杆参与度——收入是终端客户真实现金流还是"融资→采购→确认"的资金回流；今晚 Azure/capex 披露是裁决器（soros：收入的融资含量是循环晚期的会计学证据） | — |
+| FOMC 路径 | 暂停+12 月加息：BoC 实加息且理由直指油价（G7 鹰派模板 [id:586873][id:587464]）；暂停 90.6% 定价 + 至少 3 次加息至 2027/9 [id:586021][id:583512]；2-3 票异议预期 [id:583143][id:586850]；消费者信心 91.7 超预期（query_calendar_events 10/27）；WTI 决议前突破 103 美元 [id:589167] | AI 债务收紧金融条件、替沃什以更少加息达成目标 [id:565025]；大科技发债资金沉淀货基再回流美债、未挤占国债需求 [id:587411]；市场把 BoC 加息读鸽（利率仍低于中性 [id:589084]） | 能源通胀与 AI 信用收缩谁主导 12 月指引——tech_generalist 指出二者可同时成立，届时科技承受"信用收缩+能源通胀"最差组合；soros 补充：SOFR-IORB 利差为 4/15 以来最宽 [id:588628]，融资压力是系统性信号还是年末技术性因素，决定股市是否需要为"隐性紧缩"补跌 | — |
+| 存储超级周期 | 存储领涨有量价硬数据：SK 海力士产能售罄至 2029 [id:586216]、美光三日连涨 [id:587472]、CoWoS 拟涨价 10-20% [id:565712]、NAND Q4 +15-20% [id:567789]（tech_generalist 倾向此侧，周期至少到 2027；ackman 补充：通过闭眼测试，合同现金流可审计） | 消费端漏水：Robinhood 加密收入 -55% [id:587416]、可口可乐北美销量持平股价回落 [id:589133]、零售价升量缩；半导体内部普涨证伪（恩智浦 -6% [id:587472]）（soros 倾向此侧） | AI 服务器存储需求与手机/PC/加密需求的脱钩程度——结构性买方（hyperscaler）与周期性买方谁在边际定价 | — |
+| AI 基建监管风险 | 监管只是个案摩擦：SpaceX 路易斯安那项目属地方诉讼，不改变 AI 基建大方向（ackman 框架：出清前段、指数风险有限） | 监管节点刚开始咬合：Anthropic 招股书进入证券法口径并自曝政府报复风险 [id:566771][id:589168] + 项目许可阻力常态化 [id:587471]，AI capex 的"许可风险溢价"将被系统性计入（tech_generalist） | 对监管落地速度的估计——上一轮互联网泡沫的宽带建设同样经历地方阻力但未阻止交付；分歧在溢价是永久性折价还是过渡性摩擦 | — |
+| 长端利率方向 | 10Y 破 5% 已在盘中兑现（美债收益率升破 5% [id:585912]）、10 万张 TY 看跌期权 [id:500175]、巴克莱 12 月+1 月加息 [id:487944]、TTF 能源通胀二次驱动 [id:588575]、WTI 决议日 +3.13% 破 103 [id:589167] | 暂停 90.6% 定价缓冲 [id:586021]、AI 债务自动紧缩替代加息 [id:565025]、发债资金回流货基再买美债 [id:587411] | Q4 发债供给+能源通胀 vs FOMC 暂停定价与信用自动紧缩的赛跑；soros 观察：黄金多头已提前出清（国内黄金 ETF 自 9 月缩水超 180 亿元 [id:586421]），拥挤度下降意味着方向裁决权回到今晚声明本身，而非仓位挤压 | — |
 | AI融资热潮的性质 | 需求真实且已可审计：Anthropic招股书H1营收163亿美元、+1300% [id:566771]；NAND Q4环比+15-20% [id:567789]；630亿/975亿/400亿三单24小时内落地 [id:566764][id:566349][id:564044] | 关联与供应商融资遮蔽有机需求：Siebert警告supplier financing遮蔽真实需求 [id:565560]；Anthropic向SpaceXAI承诺1205亿美元支出上限 [id:565211]；微软/Meta削减Claude预算 [id:566770] | AI收入的确认口径与杠杆参与度——收入是终端客户真实现金流，还是"融资→采购→确认"的资金回流；招股书披露、微软Azure首次披露与后续季报是裁决器（soros：收入的融资含量是循环晚期的会计学证据） | — |
 | FOMC路径 | 暂停+12月加息：高盛本周不动、12月加 [id:558175]；小摩"12月释放鹰派信号"、债市年回报7-8% [id:563494]；9月耐用品+1.8%推10Y至4.997% [id:565647] | 加息次数将少于定价：AI债务收紧金融条件、替沃什完成紧缩 [id:565025]；杰富瑞12月为最后一次 [id:561826]；穆迪本周不应加 [id:555597]；股债定价分歧（股涨vs债另有路径 [id:563619]） | AI信用冲击是否被承认为"金融条件收紧"从而替代政策利率工具——若沃什在记者会承认，科技承受"信用收缩但利率少加"的组合；10万张TY看跌期权与当前4.997%的30bp缺口也押注措辞偏鹰 | — |
 | neocloud与信用链 | 修复开始：CoreWeave CDS 1041.4bp一周新低 [id:566356]、Nebius盘中+11% [id:565864]、高盛维持超配 [id:561753] | 洗牌未完：Musk公开警告neocloud shakeout [id:564044]、"guppy-level death"论 [id:552760]、英伟达CDS反超Meta说明链主已被回溯定价 [id:568746] | 融资窗口是否真正重开（IG发债+IPO窗口）——信用利差回落是情绪反弹还是结构性修复，10/28-11/6紧缩窗口内的发债试水是判据（ackman 10/21稿持"出清前段、风险集中于高杠杆中介"立场，soros持"循环晚期、外溢快于预期"立场） | — |
 | 资金轮动方向 | AI仍是最强主线：三笔大单+费半两日连涨 [id:566343]、高盛选择性buy-the-dip [id:563060]、高盛称AI情绪尚未达历史极端 [id:564046] | 轮动已启动：TMT单周流出200亿美元 [id:563060]、医疗6个月+23%领涨标普 [id:568328]、BTC跌破8万美元后仅回稳80536.7美元 [id:565387]、Meta增发日股价-0.76% [id:566334] | 增量资金在场外等回调还是离开AI——再融资抽血（单周千亿级供给）与配置盘承接力的赛跑；soros提示边际买家是同一笔风险预算在AI/加密/医疗间挪腾（[id:566784]），预算停止扩张时大单信心效应同步逆转，10月底capex指引与IG发债窗口是终极判据 | — |
 | AI算力需求真伪 | 需求真实且在加速：旧卡GPU租金高于上轮周期峰值（Crusoe [id:501071]）、韩国半导体出口+105.4%、谷歌96万Rubin采购与"全面算力短缺"证言 [id:500965] | 需求是融资幻觉：DayOne IPO缩半 [id:501247]、CoreWeave/Nebius盘中逆转 [id:501055]、IG发债窗口未开 | 算力租赁价格与AI基建融资可持续性是两个不同久期的问题；A看未来12个月现金流，B看2028年再融资墙 | — |
-| 存储超级周期 | 存储领涨+三星/SK升级中国NAND工厂+长川/江波龙订单爆满，周期至少延续到2027（tech_generalist 倾向此侧） | 消费端开始漏水：奈飞下调全年广告预期 [id:501274]、零售价升量缩——AI订单无法完全对冲消费电子需求波动（soros 倾向此侧） | AI服务器存储需求与手机/PC需求的脱钩程度：结构性买方（hyperscaler）与周期性买盘（消费者）谁在边际定价 | — |
-| 长端利率方向 | 10Y将破5.3%：10万张TY看跌期权、巴克莱12月+1月加息、法国5%外溢 [id:500175] | 5.3%是尾部彩票：FOMC暂停>80%定价、英债反而走强（10Y 5.36% [id:500996]）、波斯湾出口2460万桶/日未受阻 [id:501157] | 短端FOMC定价（下周暂停）与长端财政/供给定价（Q4发债+欧债危机2.0）的赛跑；期权买的是后者的时间窗 | — |
 | 散户/被动资金的位置 | 纳指新高由机构AI链驱动，散户FOMO尚未入场，行情还有增量弹药 | 广发纳指ETF溢价16%被迫停牌、国泰标普500ETF溢价7.7% [id:500111][id:500118]——跨境散户已在支付两位数溢价抢筹，增量买盘接近枯竭（ackman：溢价坍缩才是反转信号，10/22复牌是观察点） | 对"溢价是热度还是见顶信号"的判断差异：A视溢价为动能，B视溢价为循环末端的吸筹特征 | — |
 | AI链分化的性质 | 出清前段、系统性风险有限：欧洲同步risk-on、真实产品周期（苹果/特斯拉）、俄乌缓和信号封杀下行空间（ackman） | 正反馈循环晚期、外溢可能快于预期：广度极窄+散户FOMO+对冲缺位三信号同日（soros，confidence 65） | 对信用断裂外溢速度的估计：ackman看10月底capex裁决前风险集中在高杠杆中介，soros认为任何一次再融资失败即可点燃全链 | — |
 | 苹果的估值 | 产品周期+AI终端叙事创新高（盘中+1.5% [id:501329]），10/26发布会是又一催化 | CMA"轻触支付"裁决本周落地，平台监管成本将被重新定价 | 硬件成长溢价与平台垄断折价的赛跑；分歧在监管剪刀落下的时点而非方向 | — |
@@ -225,73 +225,74 @@ actions:
 | AI 估值 | 欧洲央行：科技股估值处"亢奋"水平、政策缓冲有限（index.md 8/17） | Evercore ISI：标普 12 个月看 9000 点（+16%）（index.md 8/17） | 分歧在于 AI 资本开支能否转化为 EPS——8/26 NVDA 财报是试金石；当前 30Y 5.248% 抬高贴现率分母 | — |
 | 中国市场 | 浦银国际：港股最差阶段或已过去，反弹仍未结束，AI主题对冲基金清仓后杠杆已部分出清（2026-08-17） | 固定资产投资恶化至-6.7%、零售增速降至1.2%、PMI双收缩，内需尚未触底 | 分歧在于"估值修复驱动"vs"盈利基本面驱动"——前者看风险偏好改善和回购，后者要求广告/消费/企业云实际改善 | — |
 
-> **审查意见**：9 条（详见 _history/review/）
+> **审查意见**：6 条（详见 _history/review/）
 
 ## 数据来源
 
-- 纳指100盘中+1%、Nebius+8.9%/西部数据+7.5%/希捷+5.6%/CoreWeave+5%、费半涨超2.3%、波音-10%: query_raw_items(10/27盘中科技股)[id:568768] = 纳斯达克100涨幅扩大至1%，成分股Nebius涨8.9%，西部数据涨7.5%，费半涨超2.3%
-- 费城半导体指数+2.01%至11305.92点、NVDA+0.95%/AVGO+4.02%/AMD+4.12%: query_raw_items(费半盘中)[id:566347] = 费城半导体指数涨2.01%至11305.92点
-- 周二板块：科技+1.29%领涨（七涨四跌）: query_raw_items(growth leads sectors)[id:568754] = Technology led gains (+1.29%)
-- QQQ实时 +1.03%至719.55: market_quote(symbols=['QQQ.US']) = 719.55 (+1.03%)
-- SPY实时 +0.54%至769.51: market_quote(symbols=['SPY.US']) = 769.51 (+0.54%)
-- SMH实时 +2.35%至554.33: market_quote(symbols=['SMH.US']) = 554.33 (+2.35%)
-- NVDA实时 +0.72%至217.56: market_quote(symbols=['NVDA.US']) = 217.56 (+0.72%)
-- AVGO实时 +3.41%至340.40: market_quote(symbols=['AVGO.US']) = 340.40 (+3.41%)
-- META实时 -0.93%至624.68: market_quote(symbols=['META.US']) = 624.68 (-0.93%)
-- TSLA实时 +2.98%至403.28: market_quote(symbols=['TSLA.US']) = 403.28 (+2.98%)
-- NFLX实时 -1.40%至63.01: market_quote(symbols=['NFLX.US']) = 63.01 (-1.40%)
-- AAPL实时 +1.01%至347.39: market_quote(symbols=['AAPL.US']) = 347.39 (+1.01%)
-- MSFT实时 532.87 (+0.05%): market_quote(symbols=['MSFT.US']) = 532.87
-- BTCUSDT 现价80379.9美元（FOMC前跌破8万美元后回稳）: binance_get_price(symbol='BTCUSDT') = 80379.9
-- CoreWeave 5年期CDS收窄至1041.4bp（一周多新低）: query_raw_items(Markit CDS)[id:566356] = CoreWeave五年期CDS利差收窄至1041.4个基点
-- 英伟达5年期CDS年内+226%至127bp、反超Meta: query_raw_items(Nvidia credit risk)[id:568746] = CDS rising 226% to 127 basis points, surpassing Meta
-- Meta AI股权融资增至975亿美元（250亿普通股）: query_raw_items(Meta financing upsized)[id:566349] = 计划融资规模从950亿增至975亿美元
-- Meta 250亿美元股票增发获约5倍超额认购: query_raw_items(Meta oversubscribed)[id:568341] = Meta's $25 Billion Stock Sale Ended Five Times Oversubscribed
-- Meta首期375亿美元股权融资完成、可转债收益率6.5%: query_raw_items(Meta first phase)[id:567307] = 首期37.5B股权融资完成，可转债收益率6.5%
-- NVIDIA投资Meta 30亿美元、AMD投资10亿美元: query_raw_items(Meta preview/AMD invest)[id:565275][id:565792] = NVIDIA commits USD 3B; AMD to invest $1 billion in Meta equity offering
-- AMD Helios机架方案已在Meta运行、双方深化合作: query_raw_items(AMD Meta partnership)[id:565795] = Helios rack-level solution is running on Meta
-- 博通因630亿美元Anthropic芯片融资涨4%（两周新高、D.A. Davidson上调买入）: query_raw_items(Broadcom Anthropic deal)[id:566764] = Broadcom climbs 4.56% on $63B AI chip financing pact
-- 博通630亿交易结构：SPV购设备租赁给Anthropic: query_raw_items(Battle of Tech Titans)[id:567780] = SPV will purchase Broadcom equipment and lease it to Anthropic
-- Anthropic递交IPO招股书：上半年营收163亿美元、同比+1300%: query_raw_items(Anthropic prospectus)[id:566771] = first-half revenue of $16.3 billion, up over 1,300% YoY
-- Anthropic计划11月上市纳斯达克: query_raw_items(Anthropic IPO filing)[id:565558] = Anthropic plans to go public in November
-- SpaceX完成400亿美元AI芯片债券融资、Musk警告neocloud洗牌: query_raw_items(SpaceX raises)[id:564044] = SpaceX closed a $40 billion debt financing deal; Musk warns of neocloud shakeout
-- 微软本周财报将首次披露Azure季度美元收入: query_raw_items(Microsoft earnings Azure)[id:568749] = Microsoft will begin reporting specific quarterly dollar revenue for Azure
-- 微软宣布约6万名员工自愿买断（AI基建成本下提升资本效率）: query_raw_items(Tech relief rally)[id:565389] = Microsoft announced voluntary buyouts for approximately 60,000 employees
-- 微软与Meta削减Claude用量预算、力推自研模型: query_raw_items(Claude's Bill)[id:566770] = Microsoft and Meta significantly reduced Claude usage budgets
-- 苹果发布M6 iMac（1499美元起）与M6 MacBook Pro（1999美元起、11/6上市）: query_raw_items(Apple M6)[id:566782][id:565707] = iMac M6 $1,499起; MacBook Pro M6 $1,999起 11月6日开售
-- iPhone Duo初期需求将超供给（Counterpoint）: query_raw_items(iPhone Duo shortage)[id:568745] = initial demand for iPhone Duo will exceed supply
-- 存储股上涨：WDC+6.08%、NAND Q4环比预计+15-20%: query_raw_items(Memory stocks)[id:567789] = Western Digital (+6.08%)，NAND价格预计Q4环比涨15-20%
-- 台积电拟对CoWoS涨价10-20%、压力传导英伟达与苹果: query_raw_items(TSMC price hike)[id:565712] = 台积电拟对CoWoS报价上调10-20%
-- 奈飞跌2%至52周低点（参与度疲弱、广告指引下修）: query_raw_items(Netflix 52-week low)[id:567785] = Netflix slips 2% to 52-week low
-- 特斯拉+2.98%、市值逼近1.6万亿美元: query_raw_items(Tesla rally)[id:567783] = 特斯拉涨超2.6%，市值接近1.6万亿美元
-- Musk称Robotaxi周里程43.8万英里胜Waymo（Waymo总量仍约7倍）: query_raw_items(Tesla Waymo)[id:567782] = 438,000 weekly miles versus Waymo's 406,000
-- FOMC两天会议10/27美东09:30开始: query_raw_items(Fed FOMC start)[id:567332] = 为期两天的FOMC会议已于美东时间09:30开始
-- 市场更关注FOMC"未来指引"而非决议本身: query_raw_items(FOMC forward guidance)[id:566371] = 相比决议本身，市场更关注未来指引
-- 高盛：本周不加息不释放重大新信号、12月加息: query_raw_items(Goldman FOMC)[id:558175] = 高盛预计本周维持利率不变、12月实施加息
-- 沃什欲收紧口风但静默期16名官员59次讲话: query_raw_items(Timiraos Warsh)[id:564548] = 静默期内至少16名官员发表不少于59次演讲
-- 传声筒：紧缩周期正是前瞻指引发挥作用之时（1999年先例）: query_raw_items(Timiraos guidance)[id:565718] = 1999年5月首次在暂停会议后发声明，六周后加息
-- AI债务困境或助沃什以更少加息达成目标: query_raw_items(AI debt Warsh)[id:565025] = AI debt trouble could help Fed's Warsh get his way with fewer rate hikes
-- 9月耐用品订单+1.8%、10Y盘中4.997%、2Y 4.731%: query_raw_items(durable goods yields)[id:565647] = 10年期国债收益率盘中升至4.997%，2年期4.731%
-- 穆迪维持法国Aa3、债市平静或为"风暴前宁静"、10Y仍近5%: query_raw_items(bond calm)[id:561757] = Moody's maintains France's Aa3; 10Y remains close to 5%
-- 加拿大央行10/28或加息（15位经济学家中11位预期）: query_raw_items(WSJ BOC survey)[id:564980] = 15位经济学家中11位预计周三加息
-- 油价10/7以来持续100美元上方、中东冲突8个月涨超60%、31/50经济体上调2027通胀: query_raw_items(Reuters inflation survey)[id:565866] = 自10月7日以来原油维持100美元上方，8个月涨超60%
-- 高盛TMT单周200亿美元流出、10/28-11/6为FOMC+科技财报紧缩窗口、选择性buy-the-dip: query_raw_items(Goldman TMT flows)[id:563060] = $20 Billion Exits TMT; blackout window Oct 28-Nov 6
-- 高盛维持股票超配、半导体反弹修复悲观定价、风险偏好跌破零: query_raw_items(Goldman overweight)[id:561753] = Risk Appetite Falls Below Zero; Goldman maintains overweight
-- 医疗保健6个月+23%领涨标普（AI信心减弱资金流入医疗）: query_raw_items(healthcare lead)[id:568328] = Healthcare stocks rise 23% in past six months, leading S&P 500
-- TS Lombard：AI或酝酿严重崩盘、当前可能是喘息反弹窗口: query_raw_items(TS Lombard)[id:568340] = current AI boom may be brewing a severe crash
-- Citadel：AI价格战可能利好hyperscalers: query_raw_items(Citadel price war)[id:568339] = AI's price war could be a win for hyperscalers
-- 本周36%的标普500公司财报: query_raw_items(Neoclouds guppy)[id:552760] = 36% Of S&P 500 Earnings This Week
-- 比特币10/27跌破8万美元、FOMC前承压: query_raw_items(Bitcoin below 80k)[id:565387] = Bitcoin Drops Below $80,000 Level
-- 日本9月核心CPI同比3.2%（三年新高）、BOJ周五议息: query_raw_items(BOJ core CPI)[id:558184] = 剔除生鲜食品和特殊因素CPI 9月同比上涨3.2%
-- 韩国Q3 GDP环比+1.0%超预期、11月加息预期强化: query_raw_items(Korea GDP)[id:555570] = GDP环比增长1%，预计韩国央行11月加息
-- 纳指100 ETF广发溢价停牌事件（前日稿背景）: query_raw_items(10/21稿引用)[id:500111] = 广发纳指ETF溢价约16%停牌
-- FOMC决议（10/28）与苹果第二场发布会（10/28 17:00）、腾讯数字生态大会（10/28 16:00）、美Q3 GDP初值（10/29 12:30，预期3.0/前值2.2）、ECB（10/29 13:15，2.5%）、SK海力士三季报（10/27 16:00）、OPEC+（10/31）、冬令时（11/1）: query_calendar_events(days=7,lookback_days=3,importance='high,medium') = 多事件日历
-- 中国9月规模以上工业企业利润同比+14.4%（前值4.2%）: query_calendar_events(days=7,lookback_days=3) = actual 14.4, previous 4.2
+**行情（US 开盘确认，~15:00 UTC 快照）**
+- SPY 实时报价: market_quote(symbols=['SPY.US']) = last 770.36 / prev 769.66 / +0.09%（量 556.04 万，额 42.85 亿美元）
+- QQQ 实时报价: market_quote(symbols=['QQQ.US']) = last 721.45 / prev 721.25 / +0.03%
+- NVDA 实时报价: market_quote(symbols=['NVDA.US']) = last 217.69 / prev 217.94 / -0.11%
+- BTC 现价: binance_get_ticker('BTCUSDT') = 80,642.3 美元，24h +0.23%，24h 高 81,800 / 低 80,206.7，24h 成交额约 90.06 亿美元
+
+**大宗与利率定价**
+- WTI/布伦特盘前报价: query_raw_items(keyword='美联储 OR FOMC OR 沃什')[id:585735] = 原油涨 2.01% 报 101.91 美元/桶；布伦特涨 1.81% 报 111.39 美元/桶
+- 10月 FOMC 维持利率不变概率: query_raw_items[ id:585735] = CME 美联储观察 90.6%
+- Kalshi 预测市场暂停概率: query_raw_items[ id:585498] = 95%
+- 周四加息概率: query_raw_items[ id:583143] = 仅 7%，市场预期"鹰派暂停"、2-3 票异议
+- 联邦基金目标区间: query_raw_items[ id:586850] = 3.75%-4.00%（9月 CPI/PPI 均超预期但官员不急于加息）
+- SOFR/EFFR: query_raw_items[ id:586869] = SOFR 3.95%（前 3.93%），有效联邦基金利率 3.88%（持平）
+- JPM 10Y 峰值预测: query_raw_items[ id:580851] = 预计 12 月+2027Q1 加息，10Y 从略高于 5% 升至 2027 年中 5.25%-5.5% 峰值，黄金承压
+
+**央行与地缘**
+- 加拿大央行加息 25bp 至 2.50%（"预防性"）: query_raw_items[ id:587993] = 汇丰前首席经济学家批评"缺乏魄力"；市场定价至 2027年9月累计加息 100bp [id:585043]
+- 加央行行长麦克勒姆: query_raw_items[ id:587983/587985] = "通胀看起来不太可能得到良好控制""通胀得到控制的可能性降低"
+- 美军海湾航行警告: query_raw_items[ id:585735] = 阿曼湾-霍尔木兹海峡港口间航行船只应避开相关海域
+- EIA 美国原油产量: query_raw_items[ id:587988] = 最近一周升至纪录高位
+- 新兴市场货币: query_raw_items[ id:587521] = 巴西雷亚尔、墨西哥比索刷新日低，油价与美债收益率走高，等待 FOMC
+- 以色列大选僵局: query_raw_items[ id:587982] = TA-35 盘中约 -3%，谢克尔兑美元 -2.3% 至 3.1230
+- 乌克兰三方会谈: query_raw_items[ id:587986] = 泽连斯基预计 11月10日前举行（阿布扎比等地点 [id:587999]）
+- 亚丁机场遭袭: query_raw_items[ id:587995] = 数日内累计 6 次遭胡塞武装袭击
+
+**财报/事件日历**
+- 周三关键事件: query_raw_items[ id:576632] = FOMC 决议+沃什发布会、盘后 MSFT/GOOG 等巨头财报、苹果新品发布会
+- 财政部短债依赖: query_raw_items[ id:586298] = JPM：私人持有短债 2026 年 +4010 亿美元、2027 年 +9910 亿美元，为 2023 年以来最密集
+- 礼来 retatrutide: query_raw_items[ id:588013] = 血糖控制优于 Ozempic、减重效果两倍多
+- 黄金 ETF: query_raw_items[ id:586421] = 9月以来国内黄金类 ETF 规模缩水超 180 亿元，10/29 凌晨 FOMC+GDP+PCE 共同决定金价方向
+
+- 美股实时报价（2026-10-28 ~15:36 UTC）: market_quote(symbols=SPY,QQQ,MSFT,META,MU,NVDA,AAPL,GOOGL.US) = SPY 771.18 (+0.20%)、QQQ 722.07 (+0.11%)、MSFT 528.32 (-0.57%)、META 612.66 (-1.21%)、MU 970.34 (+4.48%)、NVDA 217.44 (-0.23%)、AAPL 345.27 (-0.53%)、GOOGL 323.69 (+0.97%)
+- BTC 24h 行情: binance_get_ticker(BTCUSDT) = 80543.2 美元（24h +0.07%，最高 81800.0、最低 80387.9，2026-10-28）
+- 未来 7 日高/中重要性宏观日历: query_calendar_events(days=7, importance=high,medium, lookback_days=1) = 10/29 12:30 美 Q3 GDP 年化季环比初值（前值 2.2、预期 3.0）、10/29 12:30 初请（前值 19.4 万）、10/29 13:15 ECB 存款便利利率（前值 2.5、预期维持）、10/31 16:00 OPEC+ 会议、11/1 06:00 北美冬令时、11/1 00:00 韩国 10 月出口（前值 +83.5%）、11/2 15:00 美 ISM 制造业（前值 54.5）
+- 10/28 加拿大央行利率决议: query_calendar_events(days=7) = 10/28 13:45 UTC 隔夜贷款利率，前值 2.25（实际加息至 2.50 见 [id:586873]）
+- PIMCO 减持 AI 融资仓位: query_raw_items(published_after=2026-10-28T12:00:00Z)[id:589075] = PIMCO 在 AI 债券融资热潮中获利了结，显著减持 Meta 与 Oracle 仓位各约一半
+- TTF 天然气触及 100 欧元: query_raw_items(published_after=2026-10-28T12:00:00Z)[id:588575] = 荷兰天然气价格因胡塞袭击与 QatarEnergy 不可抗力触及 100 欧元/兆瓦时
+- 美国设备部门再裁员: query_raw_items(published_after=2026-10-28T12:00:00Z)[id:588577] = Amazon 在产品发布潮后削减设备部门更多岗位
+- A 股放量反弹: query_raw_items(published_after=2026-10-28T12:00:00Z)[id:589068] = 10/28 A 股放量反弹，成交 1.6423 万亿元
+- NVIDIA 边缘 AI 铺货: query_raw_items(published_after=2026-10-28T12:00:00Z)[id:589081][id:589082][id:589083] = DGX Spark 64GB 开售、RTX Spark 笔记本 2599 美元起、六大 OEM 铺货
+
+- 美股盘中最新报价: market_quote(MSFT.US,GOOGL.US,META.US,SMH.US,MU.US) = SMH 565.18(+1.29%)/MU 973.00(+4.76%)/MSFT 528.30(-0.57%)/GOOGL 323.81(+1.01%)/META 613.25(-1.12%)（10/28 盘中）
+- SK海力士Q3营收/营业利润超预期、美股存储股普涨: query_raw_items(keyword='Microsoft OR 微软 earnings OR Azure')[id:587402] = SK Hynix Q3 超预期，美股存储股普涨、SK海力士相关标的盘中涨近10%
+- SK海力士产能售罄至2029年: query_raw_items(keyword='Fed OR 美联储 OR 利率',published_after='2026-10-28T18:00:00Z')[id:586216] = SK Hynix 记录级季度业绩、产能售罄至 2029，NVDA 计划扩产
+- FOMC预期2-3票异议(Hammack/Logan可能反对): query_raw_items(keyword='FOMC OR Warsh OR 沃什 OR 美联储')[id:583143] = 10/29凌晨加息概率仅7%，鹰派暂停下预计2-3票异议
+- 官员异议渠道判断(哈马克/洛根或投反对票): query_raw_items(keyword='FOMC OR Warsh OR 沃什 OR 美联储')[id:586850] = 分析师称市场预计美联储维持利率不变，通胀压力仍存
+- Kalshi 维持利率概率95%: query_raw_items(keyword='FOMC OR Warsh OR 沃什 OR 美联储')[id:585498] = Kalshi 预测市场显示美联储维持当前利率概率 95%
+- MUFG：鹰派暂停则12月加息概率或>80%: query_raw_items(keyword='FOMC OR Warsh OR 沃什 OR 美联储')[id:581305] = 三菱日联称若10月FOMC鹰派暂停，12月加息概率有望升至80%以上
+- BMO：预期鹰派暂停+数名官员异议: query_raw_items(keyword='FOMC OR Warsh OR 沃什 OR 美联储')[id:580816] = BMO 预计信号鹰派暂停，发布会可能有数名官员异议
+- 盘前油价 WTI 101.91/布伦特 111.39 美元: query_raw_items(keyword='FOMC OR Warsh OR 沃什 OR 美联储')[id:585735] = 美股盘前要闻速递，原油涨2.01%至101.91、布伦特111.39
+- 油价涨破110美元成FOMC焦点: query_raw_items(keyword='FOMC OR Warsh OR 沃什 OR 美联储')[id:586831] = Fed决策前瞻，地缘紧张下油价升破110美元/桶
+- AI泡沫对冲ETF（不做空英伟达）: query_raw_items(limit=50)[id:589134] = Bloomberg Balchunas 提示5只可防AI估值回调的对冲ETF
+- 巨头发债资金沉淀货基回流美债: query_raw_items(keyword='Microsoft OR 微软 earnings OR Azure')[id:587411] = Federated Hermes Cunningham：大科技发债资金入货基再买美债、未挤占国债需求
+- 美Q3 GDP初值+初请: query_calendar_events(days=7,lookback_days=1) = 10/29 12:30 UTC GDP 预期3.0/前值2.2年化；初请前值19.4万
+- ECB议息: query_calendar_events(days=7,lookback_days=1) = 10/29 13:15 UTC 存款利率前值2.5%（预期不变）
+- OPEC+会议: query_calendar_events(days=7,lookback_days=1) = 10/31 16:00 UTC
+- 苹果10月第二场发布会: query_calendar_events(days=7,lookback_days=1) = 10/28 17:00 UTC 首款触控MacBook与新iPad mini
+- SK海力士三季报电话会: query_calendar_events(days=7,lookback_days=1) = 10/28 00:00 UTC
 
 ## 更新日志
 
 | 日期 | 操作者 | 变更摘要 |
 |------|--------|---------|
+| 2026-10-29 00:01 | theme_publish | 更新（big_picture_lead_ackman_marketquotetool_longbridge_finalize） |
 | 2026-10-27 23:53 | theme_publish | 更新（big_picture_lead_ackman_marketquotetool_longbridge_finalize） |
 | 2026-10-21 23:47 | theme_publish | 更新（big_picture_lead_ackman_marketquotetool_longbridge_finalize） |
 | 2026-10-17 00:20 | theme_publish | 更新（big_picture_lead_ackman_marketquotetool_longbridge_finalize） |
@@ -309,10 +310,10 @@ actions:
 
 ## 签发
 
-- **Lead 签字**：`ackman (Bill Ackman)` — 确认审阅并放行 `2026-10-27 23:53 CST`
+- **Lead 签字**：`ackman (Bill Ackman)` — 确认审阅并放行 `2026-10-29 00:01 CST`
 - **参与者**：`ackman, tech_generalist, soros`
 - **Lead_override**：`无`
-- **Publish_gate**：`blocker=5`
-- **额度**：`超建议额度（Lead迭代921/建议10）`
+- **Publish_gate**：`blocker=2`
+- **额度**：`正常（未超建议）`
 
-> 评审：5 项 blocker 未修复
+> 评审：2 项 blocker 未修复
