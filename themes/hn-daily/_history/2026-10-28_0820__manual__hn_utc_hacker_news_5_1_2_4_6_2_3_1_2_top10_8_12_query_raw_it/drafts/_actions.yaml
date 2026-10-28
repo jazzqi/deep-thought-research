@@ -1,0 +1,13 @@
+actions:
+- confidence: 0.75
+  priority: P2
+  recurrence: weekly
+  summary: 跟踪 FISA 702 裁决公开进展：Wyden/Schiff 限期 DNI Clayton 于 2026-11-06 前答复，到期核查是否公开/续期与否
+  target_flow_params: {}
+  type: monitoring
+- confidence: 0.7
+  priority: P3
+  summary: 下期复核 hn-daily 策展口径：治理类高分帖（如当日 ▲674 WIRED）是否被技术类编辑选择系统性低估
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-10-29'

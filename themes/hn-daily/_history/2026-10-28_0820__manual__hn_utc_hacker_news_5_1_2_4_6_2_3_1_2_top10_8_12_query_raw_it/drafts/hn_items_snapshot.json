@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-28T01:07:55.604491+00:00",
+  "window": {
+    "after": "2026-10-27T00:00:00+00:00",
+    "before": "2026-10-28T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "572035",
+      "title": "Ghostty 1.4.0",
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "author": "deaux",
+      "points": 737,
+      "comments": 224,
+      "published_at": "2026-10-27T16:51:22+00:00"
+    },
+    {
+      "id": "570730",
+      "title": "Genie 4",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "author": "acossta",
+      "points": 717,
+      "comments": 427,
+      "published_at": "2026-10-27T16:06:01+00:00"
+    },
+    {
+      "id": "567818",
+      "title": "The US Government Is Hiding Secret Court Ruling About How It Spies on Americans",
+      "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+      "author": "helterskelter2",
+      "points": 674,
+      "comments": 238,
+      "published_at": "2026-10-27T14:06:42+00:00"
+    },
+    {
+      "id": "565523",
+      "title": "AI promised less work. I've never worked more",
+      "url": "https://oioannou.com/blog/ai-promised-less-work/",
+      "author": "oorestisime",
+      "points": 600,
+      "comments": 570,
+      "published_at": "2026-10-27T11:08:14+00:00"
+    },
+    {
+      "id": "564951",
+      "title": "Roblox downloaded 145GB models from us (including adult content) without asking",
+      "url": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/",
+      "author": "choult",
+      "points": 456,
+      "comments": 267,
+      "published_at": "2026-10-27T10:27:50+00:00"
+    },
+    {
+      "id": "570274",
+      "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+      "author": "car",
+      "points": 452,
+      "comments": 262,
+      "published_at": "2026-10-27T15:28:26+00:00"
+    },
+    {
+      "id": "561816",
+      "title": "The Mythical Man-Month in the Age of AI",
+      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "author": "ilreb",
+      "points": 418,
+      "comments": 296,
+      "published_at": "2026-10-27T06:25:37+00:00"
+    },
+    {
+      "id": "565365",
+      "title": "Python's experimental JIT to be removed",
+      "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+      "author": "f311a",
+      "points": 369,
+      "comments": 194,
+      "published_at": "2026-10-27T11:17:57+00:00"
+    },
+    {
+      "id": "565303",
+      "title": "Wikipedia's Cleanup of AI-Generated Content",
+      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "author": "rbanffy",
+      "points": 348,
+      "comments": 160,
+      "published_at": "2026-10-27T11:08:15+00:00"
+    },
+    {
+      "id": "571657",
+      "title": "Police Are Using AI to Pull over Drivers for 'Suspicious' Behavior",
+      "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+      "author": "gumby",
+      "points": 338,
+      "comments": 271,
+      "published_at": "2026-10-27T16:40:15+00:00"
+    },
+    {
+      "id": "570731",
+      "title": "Apple introduces the new 14‑inch MacBook Pro with M6",
+      "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+      "author": "beex",
+      "points": 278,
+      "comments": 336,
+      "published_at": "2026-10-27T16:08:32+00:00"
+    },
+    {
+      "id": "566811",
+      "title": "New iMac with M6",
+      "url": "https://www.apple.com/imac/",
+      "author": "notfried",
+      "points": 275,
+      "comments": 326,
+      "published_at": "2026-10-27T13:02:02+00:00"
+    },
+    {
+      "id": "565305",
+      "title": "Software may be getting worse, but it used to be horrible",
+      "url": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
+      "author": "jakevoytko",
+      "points": 255,
+      "comments": 233,
+      "published_at": "2026-10-27T11:30:35+00:00"
+    },
+    {
+      "id": "564826",
+      "title": "I will no longer upload to NEW",
+      "url": "https://lists.debian.org/debian-devel/2026/10/msg00263.html",
+      "author": "edward",
+      "points": 231,
+      "comments": 139,
+      "published_at": "2026-10-27T09:59:05+00:00"
+    },
+    {
+      "id": "571656",
+      "title": "A 28-Year-Old DOGE Operative Gutted USAID. HR Had No Record of Him Working There",
+      "url": "https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/",
+      "author": "ck2",
+      "points": 212,
+      "comments": 126,
+      "published_at": "2026-10-27T16:38:08+00:00"
+    },
+    {
+      "id": "567817",
+      "title": "Giving chat feedback gives Anthropic your data",
+      "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+      "author": "jonpizza",
+      "points": 207,
+      "comments": 91,
+      "published_at": "2026-10-27T13:56:15+00:00"
+    },
+    {
+      "id": "566813",
+      "title": "Wiz: No successful PHP2Shell exploits seen so far; exposure down 67%",
+      "url": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
+      "author": "acossta",
+      "points": 176,
+      "comments": 57,
+      "published_at": "2026-10-27T13:52:12+00:00"
+    },
+    {
+      "id": "571655",
+      "title": "Classification of Finite Simple Groups Formalized in Lean",
+      "url": "https://cfsg.axiommath.ai/",
+      "author": "pfdietz",
+      "points": 166,
+      "comments": 42,
+      "published_at": "2026-10-27T16:29:02+00:00"
+    },
+    {
+      "id": "565753",
+      "title": "Apple introduces the new 14-inch MacBook Pro with M6",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+      "author": "meetpateltech",
+      "points": 155,
+      "comments": 181,
+      "published_at": "2026-10-27T13:01:07+00:00"
+    },
+    {
+      "id": "570728",
+      "title": "A $300B 'Debt Wall' Is Looming over Private-Equity Backed Companies",
+      "url": "https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497",
+      "author": "JumpCrisscross",
+      "points": 152,
+      "comments": 56,
+      "published_at": "2026-10-27T15:09:27+00:00"
+    },
+    {
+      "id": "565302",
+      "title": "Gforth 1.0",
+      "url": "https://gforth.org/manual/1.0/NEWS.html",
+      "author": "joshcsimmons",
+      "points": 138,
+      "comments": 12,
+      "published_at": "2026-10-27T10:23:21+00:00"
+    },
+    {
+      "id": "555516",
+      "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
+      "url": "https://github.com/otya128/winevdm",
+      "author": "doener",
+      "points": 134,
+      "comments": 33,
+      "published_at": "2026-10-27T01:15:04+00:00"
+    },
+    {
+      "id": "567341",
+      "title": "Here Be Monsters: What Do You Still Need to Know When Agents Do the Work?",
+      "url": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
+      "author": "adrq",
+      "points": 131,
+      "comments": 69,
+      "published_at": "2026-10-27T13:23:22+00:00"
+    },
+    {
+      "id": "557361",
+      "title": "I still teach OpenGL ES 3.0",
+      "url": "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html",
+      "author": "majorchord",
+      "points": 127,
+      "comments": 82,
+      "published_at": "2026-10-27T02:15:10+00:00"
+    },
+    {
+      "id": "567816",
+      "title": "Alleged Israeli spy company targeted Starlink users",
+      "url": "https://www.reuters.com/business/media-telecom/alleged-israeli-spy-company-heavily-targeted-starlink-users-sources-say-2026-10-27/",
+      "author": "mmaia",
+      "points": 120,
+      "comments": 29,
+      "published_at": "2026-10-27T13:33:30+00:00"
+    },
+    {
+      "id": "557372",
+      "title": "There are now 5 inference providers for abliterated DeepSeek",
+      "url": "https://allmodels.io/llm/abliterated",
+      "author": "moeadham",
+      "points": 90,
+      "comments": 117,
+      "published_at": "2026-10-27T04:53:52+00:00"
+    },
+    {
+      "id": "563330",
+      "title": "Writing about pratt parsing so I remember it",
+      "url": "https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html",
+      "author": "dverlaeckt80",
+      "points": 81,
+      "comments": 7,
+      "published_at": "2026-10-27T06:02:23+00:00"
+    },
+    {
+      "id": "574969",
+      "title": "Tailscale SSH: Investigation and remediation update",
+      "url": "https://tailscale.com/ssh-investigation-update",
+      "author": "figmert",
+      "points": 72,
+      "comments": 24,
+      "published_at": "2026-10-27T19:55:21+00:00"
+    },
+    {
+      "id": "574002",
+      "title": "Discord will soon let anyone find public server messages through Google",
+      "url": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
+      "author": "DeepLogin",
+      "points": 67,
+      "comments": 32,
+      "published_at": "2026-10-27T18:44:17+00:00"
+    },
+    {
+      "id": "555605",
+      "title": "The 'Buy, Borrow and Die' Wealth Strategy Has Become a $5T Market",
+      "url": "https://www.wsj.com/finance/the-buy-borrow-and-die-wealth-strategy-has-become-a-5-trillion-market-d9149a9d",
+      "author": "tysone",
+      "points": 61,
+      "comments": 19,
+      "published_at": "2026-10-27T01:30:08+00:00"
+    },
+    {
+      "id": "571283",
+      "title": "JetBrains IDEs are now powered by libghostty",
+      "url": "https://blog.jetbrains.com/platform/2026/10/jetbrains-terminal-now-uses-ghostty/",
+      "author": "paaloeye",
+      "points": 61,
+      "comments": 10,
+      "published_at": "2026-10-27T15:22:13+00:00"
+    },
+    {
+      "id": "572051",
+      "title": "Mossad Has Devices Like the Exploding Pagers in \"Every Country You Can Imagine\"",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2462875/former-mossad-chief-yossi-cohen-planted-devices-like-the-exploding-hezbollah-pagers-are-in-every-country-you-can-imagine.html",
+      "author": "newspaper1",
+      "points": 55,
+      "comments": 46,
+      "published_at": "2026-10-27T17:31:20+00:00"
+    },
+    {
+      "id": "574340",
+      "title": "US President says he will ban the term 'artificial intelligence'",
+      "url": "https://thehill.com/homenews/administration/6175633-trump-bans-artificial-intelligence-term/",
+      "author": "anigbrowl",
+      "points": 55,
+      "comments": 55,
+      "published_at": "2026-10-27T19:11:31+00:00"
+    },
+    {
+      "id": "559494",
+      "title": "UK to charge universities $1,200 per international student",
+      "url": "https://africa.businessinsider.com/local/markets/uk-to-charge-universities-dollar1200-per-international-student-including-those-from/qe5rqbe",
+      "author": "teleforce",
+      "points": 54,
+      "comments": 70,
+      "published_at": "2026-10-27T05:13:08+00:00"
+    },
+    {
+      "id": "570729",
+      "title": "Data Recovery CEO Indicted for Allegedly Scamming Ransomware Victims",
+      "url": "https://www.propublica.org/article/zohar-pinhasi-monstercloud-ransomware-indictment",
+      "author": "hn_acker",
+      "points": 53,
+      "comments": 9,
+      "published_at": "2026-10-27T15:39:29+00:00"
+    },
+    {
+      "id": "574968",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "url": "https://www.brangus.io/survival-llm",
+      "author": "Luc",
+      "points": 50,
+      "comments": 29,
+      "published_at": "2026-10-27T19:55:06+00:00"
+    },
+    {
+      "id": "564053",
+      "title": "“AI Skills” are worthless in 2026",
+      "url": "https://fishbowl.pastiche.org/2026/10/26/ai-skills",
+      "author": "saikatsg",
+      "points": 49,
+      "comments": 25,
+      "published_at": "2026-10-27T06:33:34+00:00"
+    },
+    {
+      "id": "555607",
+      "title": "ICE wants robot dogs. Boston Dynamics' workers urge company to 'cancel the sale'",
+      "url": "https://www.wbur.org/news/2026/10/23/boston-dynamics-employees-petition-dhs",
+      "author": "greyface-",
+      "points": 46,
+      "comments": 16,
+      "published_at": "2026-10-27T01:49:35+00:00"
+    },
+    {
+      "id": "572319",
+      "title": "Brazil's Flavio Bolsonaro headed to US, sources say",
+      "url": "https://www.reuters.com/world/americas/brazil-wonders-where-earth-is-flavio-bolsonaro-2026-10-27/",
+      "author": "jumpocelot",
+      "points": 46,
+      "comments": 38,
+      "published_at": "2026-10-27T17:46:17+00:00"
+    },
+    {
+      "id": "575226",
+      "title": "Hex Raises $100M",
+      "url": "https://hex.tech/blog/hex-new-era/",
+      "author": "tomwphillips",
+      "points": 46,
+      "comments": 24,
+      "published_at": "2026-10-27T20:36:38+00:00"
+    },
+    {
+      "id": "564825",
+      "title": "AI is ruining haunted houses",
+      "url": "https://www.plagiarismtoday.com/2026/10/26/ai-is-ruining-haunted-attractions/",
+      "author": "mikelgan",
+      "points": 45,
+      "comments": 107,
+      "published_at": "2026-10-27T08:50:33+00:00"
+    },
+    {
+      "id": "575106",
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "author": "dataking",
+      "points": 45,
+      "comments": 26,
+      "published_at": "2026-10-27T20:50:42+00:00"
+    },
+    {
+      "id": "575372",
+      "title": "Reviewers rarely talk about reliability. Owners bring it up twice as often",
+      "url": "https://www.bettascore.ai/research/reliability-reviewers-vs-owners",
+      "author": "tsxng",
+      "points": 44,
+      "comments": 48,
+      "published_at": "2026-10-27T22:31:15+00:00"
+    },
+    {
+      "id": "566812",
+      "title": "Greg Abbott Took $9M from Data-Center Donors. Now He Regulates Them",
+      "url": "https://www.gadgetreview.com/greg-abbott-took-9m-from-data-center-donors-now-he-regulates-them",
+      "author": "robtherobber",
+      "points": 40,
+      "comments": 3,
+      "published_at": "2026-10-27T13:04:27+00:00"
+    },
+    {
+      "id": "572318",
+      "title": "Introducing LFM3: Every Modality for Specialized Intelligence",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "author": "Philpax",
+      "points": 40,
+      "comments": 12,
+      "published_at": "2026-10-27T17:04:50+00:00"
+    },
+    {
+      "id": "570273",
+      "title": "Viral Polls Are Not Representative Polls",
+      "url": "https://kevinreuning.com/blog/polling_virality.html",
+      "author": "m-hodges",
+      "points": 37,
+      "comments": 60,
+      "published_at": "2026-10-27T14:49:30+00:00"
+    },
+    {
+      "id": "572514",
+      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+      "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+      "author": "dpflan",
+      "points": 35,
+      "comments": 13,
+      "published_at": "2026-10-27T16:25:30+00:00"
+    },
+    {
+      "id": "575146",
+      "title": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
+      "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
+      "author": "sthlmb",
+      "points": 30,
+      "comments": 5,
+      "published_at": "2026-10-27T20:48:49+00:00"
+    },
+    {
+      "id": "555701",
+      "title": "Incremental rust builds up to 92x faster than cargo/rustc",
+      "url": "https://github.com/indexable-inc/blaze",
+      "author": "0x1997",
+      "points": 29,
+      "comments": 6,
+      "published_at": "2026-10-27T03:09:07+00:00"
+    },
+    {
+      "id": "562405",
+      "title": "A simplified proof of ETH is False [pdf]",
+      "url": "https://shivakintali.github.io/papers/ETH.pdf",
+      "author": "porridgeraisin",
+      "points": 28,
+      "comments": 9,
+      "published_at": "2026-10-27T06:45:30+00:00"
+    },
+    {
+      "id": "569679",
+      "title": "Cancer vaccines are finally here. How do we get them to patients?",
+      "url": "https://www.statnews.com/2026/10/27/cancer-vaccines-intismeran-autogene-esmo-results-delivery-access/",
+      "author": "elo2000",
+      "points": 28,
+      "comments": 1,
+      "published_at": "2026-10-27T13:47:49+00:00"
+    },
+    {
+      "id": "562404",
+      "title": "Micron Taiwan increasing salaries for factory workers by 2.7X",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/5619258",
+      "author": "osnium123",
+      "points": 26,
+      "comments": 12,
+      "published_at": "2026-10-27T03:23:48+00:00"
+    },
+    {
+      "id": "572513",
+      "title": "PHP2Shell, LiteLLM, GitLab: Find What You Need to Patch",
+      "url": "https://cloudsleuth.io/blog/php2shell-litellm-gitlab-find-what-you-run/",
+      "author": "bigfish2026",
+      "points": 26,
+      "comments": 0,
+      "published_at": "2026-10-27T16:25:12+00:00"
+    },
+    {
+      "id": "573490",
+      "title": "Trump says he will ban everyone from using the phrase 'artificial intelligence'",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-ban-artificial-intelligence-phrase-b3074397.html",
+      "author": "TrackerFF",
+      "points": 26,
+      "comments": 3,
+      "published_at": "2026-10-27T18:33:47+00:00"
+    },
+    {
+      "id": "575145",
+      "title": "Four Months of Zig",
+      "url": "https://gracefulliberty.com/articles/four-months-of-zig/",
+      "author": "ibobev",
+      "points": 26,
+      "comments": 11,
+      "published_at": "2026-10-27T20:13:27+00:00"
+    },
+    {
+      "id": "571282",
+      "title": "My video has unit tests",
+      "url": "https://pertiller.tech/blog/my-video-written-in-code/",
+      "author": "Vieltrinker",
+      "points": 25,
+      "comments": 11,
+      "published_at": "2026-10-27T15:15:32+00:00"
+    },
+    {
+      "id": "575104",
+      "title": "Police Are Pulling People over Because AI Deems Their Driving \"Suspicious\"",
+      "url": "https://www.aclu.org/news/privacy-technology/ai-driven-police-stops",
+      "author": "JumpCrisscross",
+      "points": 25,
+      "comments": 4,
+      "published_at": "2026-10-27T18:08:20+00:00"
+    },
+    {
+      "id": "575371",
+      "title": "Radio-tagged Monarch butterflies",
+      "url": "https://news.vt.edu/articles/2026/10/cmi-monarchs.html",
+      "author": "rdmuser",
+      "points": 25,
+      "comments": 8,
+      "published_at": "2026-10-27T17:48:15+00:00"
+    },
+    {
+      "id": "574853",
+      "title": "Three TLS Bugs in GoAhead",
+      "url": "https://foxio.io/blog/choose-your-backend-three-tls-bugs-in-goahead",
+      "author": "owenshen24",
+      "points": 24,
+      "comments": 2,
+      "published_at": "2026-10-27T18:33:48+00:00"
+    },
+    {
+      "id": "575056",
+      "title": "Maine banned phones in schools to help teens focus and connect. It's working",
+      "url": "https://apnews.com/article/maine-cellphone-ban-positive-changes-83bb538cf45879ce6ab4639c6cc73b7b",
+      "author": "jethronethro",
+      "points": 23,
+      "comments": 3,
+      "published_at": "2026-10-27T17:46:48+00:00"
+    },
+    {
+      "id": "565679",
+      "title": "Initial Support for the Apple M4 and Apple A18 Pro Make It into Linux 7.4",
+      "url": "https://www.phoronix.com/news/Linux-7.4-SoCs",
+      "author": "doener",
+      "points": 21,
+      "comments": 1,
+      "published_at": "2026-10-27T01:13:03+00:00"
+    },
+    {
+      "id": "571281",
+      "title": "Just put some HTML on the web",
+      "url": "https://anderegg.ca/2026/10/26/just-put-some-html-on-the-web",
+      "author": "Brajeshwar",
+      "points": 21,
+      "comments": 4,
+      "published_at": "2026-10-27T14:06:22+00:00"
+    },
+    {
+      "id": "574851",
+      "title": "'I Felt Blind Panic.' They Opened Their New $2k iPhone Duo–and It Broke",
+      "url": "https://www.wsj.com/tech/personal-tech/iphone-duo-broken-hinge-screen-31b2b28a",
+      "author": "fortran77",
+      "points": 21,
+      "comments": 17,
+      "published_at": "2026-10-27T16:21:09+00:00"
+    },
+    {
+      "id": "575484",
+      "title": "Code-execution flaw in UEFI firmware threatens most servers on planet Earth",
+      "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+      "author": "DamnInteresting",
+      "points": 21,
+      "comments": 3,
+      "published_at": "2026-10-27T20:35:09+00:00"
+    },
+    {
+      "id": "575055",
+      "title": "Vicious Cycles: Theses on a philosophy of news",
+      "url": "https://harpers.org/archive/2020/01/vicious-cycles-theses-on-a-philosophy-of-news/",
+      "author": "eustoria",
+      "points": 20,
+      "comments": 6,
+      "published_at": "2026-10-27T16:27:29+00:00"
+    },
+    {
+      "id": "570124",
+      "title": "BUZZ-AI and semiconductor stocks rise on AI spending optimism",
+      "url": "https://longbridge.cn/news/303259695",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:49:36+00:00"
+    },
+    {
+      "id": "570251",
+      "title": "Robinhood Stock Trends Higher: What's Happening?",
+      "url": "https://longbridge.cn/news/303260825",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:53:19+00:00"
+    },
+    {
+      "id": "570252",
+      "title": "Boeing Plunges 10% as Tech Stocks Rise Ahead of Federal Reserve Meeting",
+      "url": "https://longbridge.cn/news/303259999",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:53:44+00:00"
+    },
+    {
+      "id": "570253",
+      "title": "Gilat Satellite Networks climbs 6%",
+      "url": "https://longbridge.cn/news/303260308",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:55:38+00:00"
+    },
+    {
+      "id": "570289",
+      "title": "Are People Still Queuing Late at Night to Buy Labubu? POP MART's Third Quarter Revenue Drops Nearly 50% Year-on-Year",
+      "url": "https://longbridge.cn/news/303261948",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:58:09+00:00"
+    },
+    {
+      "id": "570290",
+      "title": "Bank Stocks Rally Against the Trend as Market Awaits Q3 Earnings Reports",
+      "url": "https://longbridge.cn/news/303261974",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:59:24+00:00"
+    },
+    {
+      "id": "570699",
+      "title": "AbbVie submits etentamig BLA for multiple myeloma",
+      "url": "https://longbridge.cn/news/303259769",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:46:05+00:00"
+    },
+    {
+      "id": "571640",
+      "title": "",
+      "url": "https://longbridge.cn/news/303259925",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:51:58+00:00"
+    },
+    {
+      "id": "572202",
+      "title": "BUZZ-Constellation rises on report of up to $5 billion US loan offer",
+      "url": "https://longbridge.cn/news/303260636",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:59:50+00:00"
+    },
+    {
+      "id": "572489",
+      "title": "Republic Services falls 2%",
+      "url": "https://longbridge.cn/news/303259842",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:50:51+00:00"
+    },
+    {
+      "id": "574302",
+      "title": "FranklinWH Joins Entergy Louisiana's Home Energy Storage Program",
+      "url": "https://longbridge.cn/news/303259902",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:51:49+00:00"
+    },
+    {
+      "id": "574817",
+      "title": "The Mosaic climbs 4%",
+      "url": "https://longbridge.cn/news/303259870",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:51:06+00:00"
+    },
+    {
+      "id": "575323",
+      "title": "日经 225 指数期货早盘上涨 1.7%。",
+      "url": "https://t.me/Financial_Express/3573013",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:46:22+00:00"
+    },
+    {
+      "id": "575324",
+      "title": "基准 10 年期日本国债期货早盘下跌 0.23 点。",
+      "url": "https://t.me/Financial_Express/3573014",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:46:23+00:00"
+    },
+    {
+      "id": "575325",
+      "title": "媒体看到的五角大楼估计显示，美国对伊朗战争行动的成本已升至超过 470 亿美元。",
+      "url": "https://t.me/Financial_Express/3573015",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:46:42+00:00"
+    },
+    {
+      "id": "575326",
+      "title": "据美国多家媒体 27 日援引美国国务院高级官员的话报道，美国将向在巴西总统选举中落败的自由党候选人弗拉维奥·博索纳罗及其家人发放签证，允许他们入境美国。",
+      "url": "https://t.me/Financial_Express/3573016",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:46:53+00:00"
+    },
+    {
+      "id": "575327",
+      "title": "SK 海力士韩股盘前股价上涨约 3%，三星电子股价也上涨 3%。",
+      "url": "https://t.me/Financial_Express/3573017",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:47:02+00:00"
+    },
+    {
+      "id": "575328",
+      "title": "据路透社看到的一份五角大楼估算，美国对伊朗战争行动的成本已升至超过 470 亿美元。",
+      "url": "https://t.me/Financial_Express/3573018",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:47:22+00:00"
+    },
+    {
+      "id": "575329",
+      "title": "滑雪场迎来开板季 冰雪旅游需求提前升温",
+      "url": "https://t.me/Financial_Express/3573019",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:48:02+00:00"
+    },
+    {
+      "id": "575330",
+      "title": "SK 海力士第三季度利润激增逾 7 倍，超出预期",
+      "url": "https://t.me/Financial_Express/3573020",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:48:22+00:00"
+    },
+    {
+      "id": "575331",
+      "title": "SK 海力士",
+      "url": "https://t.me/Financial_Express/3573021",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:48:22+00:00"
+    },
+    {
+      "id": "575332",
+      "title": "SK 海力士在韩国 Nextrade 平台的盘前交易中上涨约 3%，此前发布财报。",
+      "url": "https://t.me/Financial_Express/3573022",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:48:28+00:00"
+    },
+    {
+      "id": "575333",
+      "title": "SK 海力士",
+      "url": "https://t.me/Financial_Express/3573023",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:49:00+00:00"
+    },
+    {
+      "id": "575334",
+      "title": "SK 海力士(SKHY.O)",
+      "url": "https://t.me/Financial_Express/3573024",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:49:02+00:00"
+    },
+    {
+      "id": "575335",
+      "title": "SK 海力士(SKHY.O)美股盘后涨幅扩大至 2.6%。",
+      "url": "https://t.me/Financial_Express/3573025",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:49:22+00:00"
+    },
+    {
+      "id": "575336",
+      "title": "日本 30 年期国债收益率上升 5 个基点至 3.87%。",
+      "url": "https://t.me/Financial_Express/3573026",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:51:42+00:00"
+    },
+    {
+      "id": "575337",
+      "title": "SK 海力士韩股盘前股价小幅走高",
+      "url": "https://t.me/Financial_Express/3573027",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:52:02+00:00"
+    },
+    {
+      "id": "575338",
+      "title": "基金三季度继续重仓科技板块 对红利等传统资产配置意愿提升",
+      "url": "https://t.me/Financial_Express/3573028",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:52:22+00:00"
+    },
+    {
+      "id": "575339",
+      "title": "港股上市公司年内回购逾 1200 亿港元 红利、创新药等板块配置机遇获看好",
+      "url": "https://t.me/Financial_Express/3573029",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:52:42+00:00"
+    },
+    {
+      "id": "575340",
+      "title": "东山精密周三将登陆港交所",
+      "url": "https://t.me/Financial_Express/3573030",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:55:22+00:00"
+    },
+    {
+      "id": "575341",
+      "title": "大风蓝色预警！甘肃宁夏等 8 省区部分地区将有 5 至 7 级风",
+      "url": "https://t.me/Financial_Express/3573031",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:56:22+00:00"
+    },
+    {
+      "id": "575342",
+      "title": "中国创新药闪耀 ESMO 研究成果入选量创新高",
+      "url": "https://t.me/Financial_Express/3573032",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:57:02+00:00"
+    },
+    {
+      "id": "575343",
+      "title": "金沙中国有限公司：拟发行优先票据",
+      "url": "https://t.me/Financial_Express/3573033",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:57:42+00:00"
+    },
+    {
+      "id": "575344",
+      "title": "Arab Parties’ Strong Showing May Bring Role in Formation of Israel’s Next Government",
+      "url": "https://www.nytimes.com/2026/10/27/world/middleeast/israel-election-arab-parties.html",
+      "author": "Liam Stack",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:50:51+00:00"
+    },
+    {
+      "id": "575345",
+      "title": "特朗普论伊朗",
+      "url": "https://t.me/Financial_Express/3573034",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-27T23:58:42+00:00"
+    }
+  ]
+}
