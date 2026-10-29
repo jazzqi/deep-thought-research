@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-29T00:50:32.562807+00:00",
+  "window": {
+    "after": "2026-10-28T00:00:00+00:00",
+    "before": "2026-10-29T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "586315",
+      "title": "ICE Is Running One of the Largest Anti-Left Surveillance Ops in US History",
+      "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
+      "author": "zzzeek",
+      "points": 1040,
+      "comments": 832,
+      "published_at": "2026-10-28T12:49:45+00:00"
+    },
+    {
+      "id": "585761",
+      "title": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "author": "galadran",
+      "points": 872,
+      "comments": 338,
+      "published_at": "2026-10-28T11:03:40+00:00"
+    },
+    {
+      "id": "575901",
+      "title": "Git for US Legislation",
+      "url": "https://lexifina.com/blog/git-for-the-us-code",
+      "author": "alansaber",
+      "points": 425,
+      "comments": 252,
+      "published_at": "2026-10-28T01:47:50+00:00"
+    },
+    {
+      "id": "588619",
+      "title": "CNC Stone Carving",
+      "url": "https://carmelitegothic.com/cnc-stone-carving/",
+      "author": "bschne",
+      "points": 366,
+      "comments": 110,
+      "published_at": "2026-10-28T14:38:22+00:00"
+    },
+    {
+      "id": "586836",
+      "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+      "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+      "author": "danso",
+      "points": 361,
+      "comments": 420,
+      "published_at": "2026-10-28T13:41:30+00:00"
+    },
+    {
+      "id": "586835",
+      "title": "Emacs Turns 50",
+      "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
+      "author": "internet_points",
+      "points": 351,
+      "comments": 143,
+      "published_at": "2026-10-28T13:25:11+00:00"
+    },
+    {
+      "id": "585277",
+      "title": "Wealth Inequality in America drawn to scale",
+      "url": "https://dreamagainusa.org/",
+      "author": "haraball",
+      "points": 305,
+      "comments": 365,
+      "published_at": "2026-10-28T08:48:21+00:00"
+    },
+    {
+      "id": "590359",
+      "title": "Gemini 4 Carbon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "author": "acossta",
+      "points": 297,
+      "comments": 235,
+      "published_at": "2026-10-28T17:01:23+00:00"
+    },
+    {
+      "id": "585870",
+      "title": "Amazon to buy satellite firm Globalstar in $11.57B deal",
+      "url": "https://www.reuters.com/business/media-telecom/amazon-signs-1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/",
+      "author": "noptd",
+      "points": 204,
+      "comments": 94,
+      "published_at": "2026-10-28T11:54:23+00:00"
+    },
+    {
+      "id": "590297",
+      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "author": "landonxi",
+      "points": 191,
+      "comments": 115,
+      "published_at": "2026-10-28T15:46:30+00:00"
+    },
+    {
+      "id": "590776",
+      "title": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
+      "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27/",
+      "author": "noptd",
+      "points": 187,
+      "comments": 91,
+      "published_at": "2026-10-28T11:54:23+00:00"
+    },
+    {
+      "id": "590296",
+      "title": "r/Seattle mods discover malware injection by archive.today, ban site",
+      "url": "https://www.reddit.com/r/Seattle/comments/1xhf6qp/archivetoday_links_going_forward/",
+      "author": "consumer451",
+      "points": 184,
+      "comments": 117,
+      "published_at": "2026-10-28T15:31:58+00:00"
+    },
+    {
+      "id": "590360",
+      "title": "MacBook Pro with Touch Enabled Proled XDR Display",
+      "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
+      "author": "etothet",
+      "points": 177,
+      "comments": 262,
+      "published_at": "2026-10-28T17:10:37+00:00"
+    },
+    {
+      "id": "586283",
+      "title": "Two high-speed trains collide near Toledo, Spain",
+      "url": "https://www.euronews.com/video/2026/10/28/spain-first-footage-reveals-wreckage-of-deadly-high-speed-train-crash",
+      "author": "evilmonkey19",
+      "points": 164,
+      "comments": 184,
+      "published_at": "2026-10-28T12:35:41+00:00"
+    },
+    {
+      "id": "589163",
+      "title": "AlpineBSD",
+      "url": "https://wiki.alpinebsd.org",
+      "author": "bradley_taunt",
+      "points": 159,
+      "comments": 142,
+      "published_at": "2026-10-28T14:30:26+00:00"
+    },
+    {
+      "id": "585917",
+      "title": "About the compromised eMudhra intermediate CAs",
+      "url": "https://support.apple.com/en-us/149555",
+      "author": "birdculture",
+      "points": 141,
+      "comments": 71,
+      "published_at": "2026-10-28T11:08:49+00:00"
+    },
+    {
+      "id": "595181",
+      "title": "Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents",
+      "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+      "author": "Aboutplants",
+      "points": 113,
+      "comments": 32,
+      "published_at": "2026-10-28T21:03:24+00:00"
+    },
+    {
+      "id": "580893",
+      "title": "Artificial Analysis Intelligence Index v5",
+      "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+      "author": "hn-aarvin",
+      "points": 88,
+      "comments": 81,
+      "published_at": "2026-10-28T03:06:22+00:00"
+    },
+    {
+      "id": "589188",
+      "title": "Tesla Semi catches fire on I-880",
+      "url": "https://electrek.co/2026/10/28/tesla-semi-fire-i-880-hayward-no-crash/",
+      "author": "metadat",
+      "points": 87,
+      "comments": 101,
+      "published_at": "2026-10-28T14:54:07+00:00"
+    },
+    {
+      "id": "585202",
+      "title": "Spain train crash: 'At least 10 dead' in high-speed collision",
+      "url": "https://www.thetimes.com/world/europe/article/spain-train-crash-madrid-latest-deaths-victims-807kwv23l",
+      "author": "ultral",
+      "points": 86,
+      "comments": 91,
+      "published_at": "2026-10-28T09:35:21+00:00"
+    },
+    {
+      "id": "588038",
+      "title": "The Agent SDK",
+      "url": "https://cursor.com/blog/agent-sdk",
+      "author": "torutofu",
+      "points": 85,
+      "comments": 105,
+      "published_at": "2026-10-28T14:02:20+00:00"
+    },
+    {
+      "id": "592485",
+      "title": "Why Is This Fingerprinting Script Creating Bioweapons?",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "author": "hazebooth",
+      "points": 84,
+      "comments": 13,
+      "published_at": "2026-10-28T17:13:29+00:00"
+    },
+    {
+      "id": "585597",
+      "title": "Barcelona unrest: how to fabricate a protest in the age of TikTok",
+      "url": "https://theconversation.com/barcelona-unrest-how-to-fabricate-a-protest-in-the-age-of-tiktok-295263",
+      "author": "DeepLogin",
+      "points": 71,
+      "comments": 66,
+      "published_at": "2026-10-28T10:41:27+00:00"
+    },
+    {
+      "id": "595180",
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+      "author": "jacquesm",
+      "points": 70,
+      "comments": 39,
+      "published_at": "2026-10-28T20:10:16+00:00"
+    },
+    {
+      "id": "586868",
+      "title": "Harvey raised 500M for legal AI, I built the same and open sourced it",
+      "url": "https://github.com/thomasunise/casecite",
+      "author": "zztopisgreat",
+      "points": 68,
+      "comments": 37,
+      "published_at": "2026-10-28T13:56:21+00:00"
+    },
+    {
+      "id": "586105",
+      "title": "Microsoft and Epic Games Suddenly Agree That AI Is Theft",
+      "url": "https://kotaku.com/now-that-the-shoe-is-on-the-other-foot-microsoft-and-epic-games-suddenly-agree-that-ai-is-theft-2000749316",
+      "author": "tom2026hn",
+      "points": 66,
+      "comments": 26,
+      "published_at": "2026-10-28T10:10:58+00:00"
+    },
+    {
+      "id": "588037",
+      "title": "Valve Responds to Developers Fearing AI Slop and Clones",
+      "url": "https://www.invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones",
+      "author": "HelloUsername",
+      "points": 65,
+      "comments": 74,
+      "published_at": "2026-10-28T13:27:24+00:00"
+    },
+    {
+      "id": "594968",
+      "title": "Alphabet Announces Third Quarter 2026 Results [pdf]",
+      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
+      "author": "mfiguiere",
+      "points": 57,
+      "comments": 35,
+      "published_at": "2026-10-28T20:11:55+00:00"
+    },
+    {
+      "id": "586363",
+      "title": "Tell HN: I'm going on strike this November",
+      "url": "https://news.ycombinator.com/item?id=50271808",
+      "author": "curiousaboutml",
+      "points": 52,
+      "comments": 66,
+      "published_at": "2026-10-28T11:21:28+00:00"
+    },
+    {
+      "id": "586104",
+      "title": "Suffering as a Feature",
+      "url": "https://blog.codinghorror.com/suffering-as-a-feature/",
+      "author": "yboulkaid",
+      "points": 51,
+      "comments": 11,
+      "published_at": "2026-10-28T09:22:49+00:00"
+    },
+    {
+      "id": "595233",
+      "title": "Formlabs Studio 1 $699 Resin Printer",
+      "url": "https://formlabs.com/products/form-studio-1-basic-founders-edition/",
+      "author": "mhb",
+      "points": 48,
+      "comments": 39,
+      "published_at": "2026-10-28T21:19:30+00:00"
+    },
+    {
+      "id": "595250",
+      "title": "The case of the 9 bit AES key",
+      "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+      "author": "ledoge",
+      "points": 48,
+      "comments": 16,
+      "published_at": "2026-10-28T20:51:44+00:00"
+    },
+    {
+      "id": "589807",
+      "title": "Amazon rainforest cut down to build highway for COP climate summit (2025)",
+      "url": "https://www.bbc.com/news/articles/c9vy191rgn1o",
+      "author": "bilsbie",
+      "points": 47,
+      "comments": 16,
+      "published_at": "2026-10-28T15:24:11+00:00"
+    },
+    {
+      "id": "595363",
+      "title": "A Health Update",
+      "url": "https://furbo.org/2026/10/28/a-health-update/",
+      "author": "frizlab",
+      "points": 47,
+      "comments": 3,
+      "published_at": "2026-10-28T21:13:21+00:00"
+    },
+    {
+      "id": "591930",
+      "title": "Mac Studio M5 Ultra 512GB Officially Released",
+      "url": "https://www.apple.com/shop/buy-mac/mac-studio",
+      "author": "nsagent",
+      "points": 43,
+      "comments": 66,
+      "published_at": "2026-10-28T17:21:02+00:00"
+    },
+    {
+      "id": "595500",
+      "title": "StackOverflow now gets fewer than 1000 questions a month",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
+      "author": "babelfish",
+      "points": 43,
+      "comments": 33,
+      "published_at": "2026-10-28T23:35:02+00:00"
+    },
+    {
+      "id": "594966",
+      "title": "Big Tech's thirst for water is sparking a global resistance",
+      "url": "https://restofworld.org/2026/ai-datacenters-water-resistance-global/",
+      "author": "billybuckwheat",
+      "points": 40,
+      "comments": 21,
+      "published_at": "2026-10-28T18:34:51+00:00"
+    },
+    {
+      "id": "579144",
+      "title": "Artificial Analysis Intelligence Index v5.0",
+      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+      "author": "scooby7430",
+      "points": 39,
+      "comments": 5,
+      "published_at": "2026-10-28T05:29:11+00:00"
+    },
+    {
+      "id": "593632",
+      "title": "Rising rates of colorectal cancer found in nearly all age groups",
+      "url": "https://www.uchicagomedicine.org/forefront/cancer-articles/rising-rates-of-colorectal-cancer",
+      "author": "randycupertino",
+      "points": 39,
+      "comments": 58,
+      "published_at": "2026-10-28T19:15:07+00:00"
+    },
+    {
+      "id": "595462",
+      "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
+      "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+      "author": "sashk",
+      "points": 37,
+      "comments": 2,
+      "published_at": "2026-10-28T23:45:46+00:00"
+    },
+    {
+      "id": "590357",
+      "title": "Nvidia Nemotron 3.5 Transcribe: open ASR for 40 languages",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "author": "wondersky",
+      "points": 36,
+      "comments": 5,
+      "published_at": "2026-10-28T15:17:53+00:00"
+    },
+    {
+      "id": "589162",
+      "title": "An architectural comparison of Obsidian Canvas and Heptabase",
+      "url": "https://www.fluxlinks.com/blog/obsidian-canvas-vs-heptabase",
+      "author": "ezrasu",
+      "points": 34,
+      "comments": 14,
+      "published_at": "2026-10-28T14:24:20+00:00"
+    },
+    {
+      "id": "585713",
+      "title": "Billion-query-per-second lookup tables in C++",
+      "url": "https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/",
+      "author": "signa11",
+      "points": 31,
+      "comments": 4,
+      "published_at": "2026-10-28T09:43:44+00:00"
+    },
+    {
+      "id": "593980",
+      "title": "Meta censored the No Kings Instagram account during a nationwide campaign",
+      "url": "https://paulfwalsh.substack.com/p/meta-censored-the-no-kings-instagram",
+      "author": "slowin",
+      "points": 31,
+      "comments": 4,
+      "published_at": "2026-10-28T16:01:53+00:00"
+    },
+    {
+      "id": "593981",
+      "title": "At least 68 killed in Spanish high-speed train crash",
+      "url": "https://www.bbc.com/news/live/cv1j309d4g98t",
+      "author": "saikatsg",
+      "points": 31,
+      "comments": 4,
+      "published_at": "2026-10-28T18:49:17+00:00"
+    },
+    {
+      "id": "595191",
+      "title": "Spiders Spin 'Silk Dope' into Nature's Toughest Material",
+      "url": "https://www.quantamagazine.org/how-spiders-spin-silk-dope-into-natures-toughest-material-20261028/",
+      "author": "ibobev",
+      "points": 27,
+      "comments": 0,
+      "published_at": "2026-10-28T17:45:24+00:00"
+    },
+    {
+      "id": "595297",
+      "title": "Leak website releases data on DHS employees",
+      "url": "https://www.reuters.com/legal/government/leak-website-releases-data-tens-thousands-dhs-employees-2026-10-28/",
+      "author": "wondersky",
+      "points": 27,
+      "comments": 1,
+      "published_at": "2026-10-28T20:46:52+00:00"
+    },
+    {
+      "id": "576921",
+      "title": "'Forced out': HOA fees to rise to $2,500 a month",
+      "url": "https://www.wsoctv.com/news/local/forced-out-hoa-fees-rise-7500-month/XCW2HIHUKNBMTNWVQSYXQZJCY4/",
+      "author": "hippich",
+      "points": 25,
+      "comments": 50,
+      "published_at": "2026-10-28T00:35:33+00:00"
+    },
+    {
+      "id": "592936",
+      "title": "It's now official, tech is the new tobacco",
+      "url": "https://cailinoconnor.substack.com/p/its-now-official-tech-is-the-new",
+      "author": "aanet",
+      "points": 25,
+      "comments": 9,
+      "published_at": "2026-10-28T17:08:45+00:00"
+    },
+    {
+      "id": "590295",
+      "title": "Show HN: Nasscad – local-first 3D CAD for browser and Windows",
+      "url": "https://www.nasscad.com/NASSCAD_V4_7_0.htm",
+      "author": "Nasser-13",
+      "points": 24,
+      "comments": 19,
+      "published_at": "2026-10-28T13:28:32+00:00"
+    },
+    {
+      "id": "592935",
+      "title": "Show HN: SlideBySide – Present slides without sharing your screen",
+      "url": "https://slidebyside.com/",
+      "author": "denismenace",
+      "points": 24,
+      "comments": 11,
+      "published_at": "2026-10-28T17:07:09+00:00"
+    },
+    {
+      "id": "590324",
+      "title": "26,400 live credentials found scanning 7.25M repos on China's Gitee",
+      "url": "https://www.mongodb.com/company/blog/technical/scanning-7-point-25-million-public-repositories-chinas-largest-git-platform-for-secrets",
+      "author": "kernelrocks",
+      "points": 23,
+      "comments": 5,
+      "published_at": "2026-10-28T15:31:59+00:00"
+    },
+    {
+      "id": "595428",
+      "title": "Scaling Hierarchical Networks",
+      "url": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1",
+      "author": "guybedo",
+      "points": 21,
+      "comments": 0,
+      "published_at": "2026-10-28T18:07:41+00:00"
+    },
+    {
+      "id": "588618",
+      "title": "Opus 5.5 causing an identity crisis is real",
+      "url": "https://www.kondz.io/blog/opus-5-5-causing-identity-crisis-is-real/",
+      "author": "stared",
+      "points": 20,
+      "comments": 38,
+      "published_at": "2026-10-28T10:35:31+00:00"
+    },
+    {
+      "id": "595281",
+      "title": "Major Memory Vendor: We're Basically Sold Out Through 2029",
+      "url": "https://www.pcmag.com/news/sk-hynix-major-memory-vendor-basically-sold-out-through-2029",
+      "author": "Vaslo",
+      "points": 20,
+      "comments": 7,
+      "published_at": "2026-10-28T16:23:24+00:00"
+    },
+    {
+      "id": "595404",
+      "title": "Mecca Defence Alliance",
+      "url": "https://en.wikipedia.org/wiki/Mecca_Defence_Alliance",
+      "author": "handfuloflight",
+      "points": 20,
+      "comments": 0,
+      "published_at": "2026-10-28T19:20:36+00:00"
+    },
+    {
+      "id": "595429",
+      "title": "GitHub saw 7.4B commits in Sep., adding 4M CPU cores+160 PB storage to keep up",
+      "url": "https://thenewstack.io/github-7-4b-commits-september/",
+      "author": "theanonymousone",
+      "points": 20,
+      "comments": 6,
+      "published_at": "2026-10-28T19:41:13+00:00"
+    },
+    {
+      "id": "589174",
+      "title": "Dynamic TV Creative de Amazon Ads llega a España: anuncios personalizados en Prime Video",
+      "url": "https://longbridge.cn/news/303423035",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:45:10+00:00"
+    },
+    {
+      "id": "589175",
+      "title": "SpaceX Pauses Florida Launches for Six Weeks Ahead of Starship’s Debut",
+      "url": "https://longbridge.cn/news/303423408",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:45:17+00:00"
+    },
+    {
+      "id": "589207",
+      "title": "Alzheimer's Drug Discovery Foundation's Diagnostics Accelerator Licenses SpeechDx Dataset to Eli Lilly and Company, Advancing Speech-Based Markers as a Critical Alzheimer's Research Tool",
+      "url": "https://longbridge.cn/news/303423117",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:46:50+00:00"
+    },
+    {
+      "id": "589208",
+      "title": "Deutsche Bank, BNP Paribas: European Banks Can Outperform Wall Street Trading Desks",
+      "url": "https://longbridge.cn/news/303423671",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:57:02+00:00"
+    },
+    {
+      "id": "589722",
+      "title": "Otis Beats Q3 Estimates As Margin Pressure Weighs On Shares",
+      "url": "https://longbridge.cn/news/303424090",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:55:01+00:00"
+    },
+    {
+      "id": "589723",
+      "title": "Canada, European Union officials drop 'associate member' from summit declaration",
+      "url": "https://longbridge.cn/news/303423829",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:57:48+00:00"
+    },
+    {
+      "id": "591071",
+      "title": "Marex Group falls 5% during regular trading",
+      "url": "https://longbridge.cn/news/303423550",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:54:16+00:00"
+    },
+    {
+      "id": "593589",
+      "title": "UK Reduces Long-Term Debt Issue Size, Boosting Performance",
+      "url": "https://longbridge.cn/news/303423245",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:48:51+00:00"
+    },
+    {
+      "id": "593590",
+      "title": "Stocks Sluggish Ahead of Interest Rate Rhetoric",
+      "url": "https://longbridge.cn/news/303423587",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:55:13+00:00"
+    },
+    {
+      "id": "594830",
+      "title": "",
+      "url": "https://longbridge.cn/news/303423563",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:54:47+00:00"
+    },
+    {
+      "id": "594831",
+      "title": "",
+      "url": "https://longbridge.cn/news/303423768",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:57:27+00:00"
+    },
+    {
+      "id": "595365",
+      "title": "荷兰首相耶滕 28 日在海牙宣布，荷兰将向乌克兰提供 5 亿欧元的军事援助，包括防空系统、无人机等。耶滕在与到访的乌克兰总统泽连斯基会晤后的联合新闻发布会上宣布这一消息。此外，荷兰政府当天宣布，将在未来三年向乌克兰提供 12 亿欧元的非军事",
+      "url": "https://t.me/Financial_Express/3578309",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:44:55+00:00"
+    },
+    {
+      "id": "595366",
+      "title": "中金：美联储在未来 6 个月大概率维持偏紧的货币立场，转向宽松的可能性较低",
+      "url": "https://t.me/Financial_Express/3578310",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:45:02+00:00"
+    },
+    {
+      "id": "595367",
+      "title": "中金：美国能承受多高的利率？6%可能是分水岭",
+      "url": "https://t.me/Financial_Express/3578311",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:46:02+00:00"
+    },
+    {
+      "id": "595368",
+      "title": "日经 225 指数期货早盘下跌 0.4%。",
+      "url": "https://t.me/Financial_Express/3578312",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:46:22+00:00"
+    },
+    {
+      "id": "595369",
+      "title": "基准 10 年期日本国债期货早盘上涨 0.11 点。",
+      "url": "https://t.me/Financial_Express/3578313",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:46:22+00:00"
+    },
+    {
+      "id": "595370",
+      "title": "糖果价格居高不下，过节方式被迫改变，账单暴涨让美国万圣节“更惊悚”",
+      "url": "https://t.me/Financial_Express/3578314",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:47:02+00:00"
+    },
+    {
+      "id": "595371",
+      "title": "美告知中东盟友为美再袭伊朗做好准备",
+      "url": "https://t.me/Financial_Express/3578315",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:47:22+00:00"
+    },
+    {
+      "id": "595372",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3578316",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:48:22+00:00"
+    },
+    {
+      "id": "595373",
+      "title": "玩具安全新国标 11 月 1 日起正式实施",
+      "url": "https://t.me/Financial_Express/3578317",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:48:22+00:00"
+    },
+    {
+      "id": "595374",
+      "title": "特朗普暂缓对机器人和工业机械加征关税 指示官员与贸易伙伴展开谈判",
+      "url": "https://t.me/Financial_Express/3578318",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:49:22+00:00"
+    },
+    {
+      "id": "595375",
+      "title": "外资公募三季度调仓路径出炉 均衡布局 坚守 AI 中长期机会",
+      "url": "https://t.me/Financial_Express/3578319",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:50:02+00:00"
+    },
+    {
+      "id": "595376",
+      "title": "日本至 10 月 23 日当周买进外国债券 -926 亿日元，前值由-1616 亿日元修正为-1605 亿日元。",
+      "url": "https://t.me/Financial_Express/3578320",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:50:22+00:00"
+    },
+    {
+      "id": "595377",
+      "title": "日本至 10 月 23 日当周外资买进日股 11809 亿日元，前值由-665 亿日元修正为-675 亿日元。",
+      "url": "https://t.me/Financial_Express/3578321",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:50:22+00:00"
+    },
+    {
+      "id": "595378",
+      "title": "三季度公募基金新进重仓股曝光 主要集中在科技与医疗领域",
+      "url": "https://t.me/Financial_Express/3578322",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:50:23+00:00"
+    },
+    {
+      "id": "595379",
+      "title": "另一美媒披露致信伊朗细节：强调谈判须涉及核问题 特朗普持积极态度",
+      "url": "https://t.me/Financial_Express/3578323",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:50:42+00:00"
+    },
+    {
+      "id": "595380",
+      "title": "日本至 10 月 23 日当周买进外国股票 2881 亿日元，前值 1283 亿日元。",
+      "url": "https://t.me/Financial_Express/3578324",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:50:42+00:00"
+    },
+    {
+      "id": "595381",
+      "title": "日本 10 月 23 日当周净买进国外股票 1283 亿日元，前值 1283 亿日元。",
+      "url": "https://t.me/Financial_Express/3578325",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:50:43+00:00"
+    },
+    {
+      "id": "595382",
+      "title": "日本至 10 月 23 日当周外资买进日债 433 亿日元，前值由 14542 亿日元修正为 14543 亿日元。",
+      "url": "https://t.me/Financial_Express/3578326",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:50:43+00:00"
+    },
+    {
+      "id": "595383",
+      "title": "日本 10 月 23 日当周外资净买进日本债券 14543 亿日元，前值 14542 亿日元。",
+      "url": "https://t.me/Financial_Express/3578327",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:50:43+00:00"
+    },
+    {
+      "id": "595384",
+      "title": "日本 10 月 23 日当周净买进国外债券 -1605 亿日元，前值 -1616 亿日元。",
+      "url": "https://t.me/Financial_Express/3578328",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:50:48+00:00"
+    },
+    {
+      "id": "595385",
+      "title": "日本 10 月 23 日当周外资净买进日本股票 -675 亿日元，前值 -665 亿日元。",
+      "url": "https://t.me/Financial_Express/3578329",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:50:49+00:00"
+    },
+    {
+      "id": "595386",
+      "title": "日本至 10 月 23 日当周买进外国债券 -926 亿日元，前值由-1616 亿日元修正为-1605 亿日元。日本至 10 月 23 日当周外资买进日股 11809 亿日元，前值由-665 亿日元修正为-675 亿日元。日本至 10 月 ",
+      "url": "https://t.me/Financial_Express/3578330",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:51:02+00:00"
+    },
+    {
+      "id": "595387",
+      "title": "前三季度我国海洋生产总值 8.5 万亿元 同比增 4.9%",
+      "url": "https://t.me/Financial_Express/3578331",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:51:02+00:00"
+    },
+    {
+      "id": "595388",
+      "title": "联合国呼吁通过外交途径解决美伊冲突",
+      "url": "https://t.me/Financial_Express/3578332",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:51:22+00:00"
+    },
+    {
+      "id": "595389",
+      "title": "Equinix 称数据中心项目壁垒或将提升其定价权",
+      "url": "https://t.me/Financial_Express/3578333",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:53:08+00:00"
+    },
+    {
+      "id": "595390",
+      "title": "据知情人士透露，伦敦金属交易所（LME）正瞄准将其香港仓库中储存的金属转化为可用于融资的数字资产，此举与香港特区建设大宗商品枢纽的五年规划密切相关。",
+      "url": "https://t.me/Financial_Express/3578334",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:56:17+00:00"
+    },
+    {
+      "id": "595391",
+      "title": "中金：美联储加息未结束，但不必急于行动",
+      "url": "https://t.me/Financial_Express/3578335",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:56:22+00:00"
+    },
+    {
+      "id": "595392",
+      "title": "报道：LME 计划结合香港五年规划推进金属代币化",
+      "url": "https://t.me/Financial_Express/3578336",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:56:42+00:00"
+    },
+    {
+      "id": "595393",
+      "title": "韩国央行",
+      "url": "https://t.me/Financial_Express/3578337",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:57:02+00:00"
+    },
+    {
+      "id": "595394",
+      "title": "三星 SDI 第三季度营业利润为 4078 亿韩元，预期 1868.2 亿韩元。",
+      "url": "https://t.me/Financial_Express/3578338",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:57:42+00:00"
+    },
+    {
+      "id": "595395",
+      "title": "三星 SDI 第三季度销售额为 4.69 万亿韩元，此前预期为 4.09 万亿韩元。",
+      "url": "https://t.me/Financial_Express/3578339",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:58:35+00:00"
+    },
+    {
+      "id": "595396",
+      "title": "农村地区部分老人孩子今年可免费接种流感疫苗",
+      "url": "https://t.me/Financial_Express/3578340",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-10-28T23:58:42+00:00"
+    }
+  ]
+}
