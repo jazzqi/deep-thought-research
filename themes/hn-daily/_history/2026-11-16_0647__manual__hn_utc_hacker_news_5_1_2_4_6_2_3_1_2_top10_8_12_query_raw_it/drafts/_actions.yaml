@@ -1,0 +1,7 @@
+actions:
+- confidence: 0.75
+  priority: P2
+  summary: 跟踪 DRAM 合谋案 2026-12-07 答状提交与 2027-01-12 首次案件管理会议，评估对存储供给纪律叙事与 HBM 扩产节奏的影响
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-12-08'
