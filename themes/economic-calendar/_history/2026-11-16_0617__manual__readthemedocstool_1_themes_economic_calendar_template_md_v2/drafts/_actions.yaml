@@ -1,0 +1,12 @@
+actions:
+- priority: P1
+  recurrence: weekly
+  summary: 跟踪11-25美国10月核心PCE环比与Q3 GDP修正值对12月加息定价的冲击（基准0.3%/3.3-3.5%，触发线0.4%/3.6%）
+  target_flow_params: {}
+  type: monitoring
+- confidence: 0.6
+  priority: P2
+  summary: 验证11-23欧英美日PMI初值与'美强欧中'美元倾斜基准的一致性（美欧综合差4-5点为维持阈值）
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-11-24'

@@ -1,0 +1,63 @@
+- 美国10月PPI同比: query_calendar_events(country=US,days=14,lookback_days=0) = 6.5%（前值6.3%、共识6.6%）
+- 美国10月CPI环比: query_calendar_events(country=US,days=14,lookback_days=0) = 0.4%（前值0.6%、共识0.3%）
+- 美国10月核心CPI环比: query_calendar_events(country=US,days=14,lookback_days=0) = 0.3%（前值0.3%、共识0.2%）
+- 美国9月CPI同比: query_calendar_events(country=US,lookback_days=7) = 3.7%（前值）
+- 美国10月能源CPI同比: query_calendar_events(country=US,lookback_days=7) = 20.4%（前值）
+- 美国三季度GDP年化季环比初值（修正值事件前值字段）: query_calendar_events(country=US,days=14,lookback_days=0) = 3.4%
+- 美国三季度核心PCE修正前值: query_calendar_events(country=US,days=14,lookback_days=0) = 2.5%
+- 美国三季度GDP平减指数修正前值: query_calendar_events(country=US,days=14,lookback_days=0) = 2.3%
+- 美国10月核心PCE同比前值: query_calendar_events(country=US,days=14,lookback_days=0) = 3.1%
+- 美国10月核心PCE环比前值: query_calendar_events(country=US,days=14,lookback_days=0) = 0.3%
+- 美国10月PCE同比前值: query_calendar_events(country=US,days=14,lookback_days=0) = 3.6%
+- 美国10月实际PCE环比前值: query_calendar_events(country=US,days=14,lookback_days=0) = 0.0%
+- 美国10月耐用品订单环比前值: query_calendar_events(country=US,days=14,lookback_days=0) = 1.9%
+- 美国11月21日当周初请失业救济人数前值字段: query_calendar_events(country=US,days=14,lookback_days=0) = 空（⚠️缺前值）
+- 美国11-14当周初请失业救济人数: query_calendar_events(country=US,days=14,lookback_days=0) = 20.0万人（共识19.7万人，11-19发布）
+- 美国11月谘商会消费者信心前值: query_calendar_events(country=US,days=14,lookback_days=0) = 91.7（预期分项前值72.6）
+- 美国11月里士满联储制造业指数前值: query_calendar_events(country=US,days=14,lookback_days=0) = -2.0
+- 美国9月S&P/CS20大城市房价同比前值: query_calendar_events(country=US,days=14,lookback_days=0) = 2.65%
+- 美国10月商品贸易帐前值: query_calendar_events(country=US,days=14,lookback_days=0) = -1349亿美元
+- 美股感恩节休市条目（源标注11-24与11-25）: query_calendar_events(country=US,days=14,lookback_days=0) = 休市条目，与2026-11-26（周四）感恩节存在日期偏差
+- 2026-11-10美国10年期国债拍卖高收益率: query_calendar_events(country=US,lookback_days=7) = 5.02%（同源Official字段显示2.46%，矛盾，仅标注不用于定价）
+- 美联储官员11月16日当周聚焦12月加息路径: query_calendar_events(country=US,lookback_days=7) = 日历条目（密集发声）
+- 美国纽约联储1年通胀预期前值: query_calendar_events(country=US,lookback_days=7) = 3.9%
+- 欧元区11月制造业PMI初值前值: query_calendar_events(country=EU,days=14,lookback_days=0) = 52.7
+- 欧元区11月综合/服务业PMI初值前值: query_calendar_events(country=EU,days=14,lookback_days=0) = 51.7 / 51.4
+- 欧元区10月调和CPI同比终值: query_calendar_events(country=EU,lookback_days=7) = 4.0%（前值4.0%、共识4.0%）
+- 欧元区10月核心调和CPI同比终值前值/共识: query_calendar_events(country=EU,lookback_days=7) = 2.5%
+- 欧元区11月经济景气指数前值: query_calendar_events(country=EU,days=14,lookback_days=0) = 96.9
+- 美国11月标普全球制造业/服务业/综合PMI初值前值: query_calendar_events(country=US,days=14,lookback_days=0) = 54.9 / 56.1 / 55.9
+- 英国11月制造业/服务业/综合PMI初值前值: query_calendar_events(country=GB,days=14,lookback_days=0) = 52.8 / 52.8 / 52.9
+- 英国10月CPI同比: query_calendar_events(country=GB,lookback_days=7) = 3.5%（前值3.5%、共识3.5%）
+- 英国10月核心CPI同比: query_calendar_events(country=GB,lookback_days=7) = 2.8%（共识2.7%）
+- 日本11月制造业/服务业/综合PMI初值前值: query_calendar_events(country=JP,days=14,lookback_days=0) = 53.3 / 51.7 / 52.1
+- 日本11月东京CPI同比前值: query_calendar_events(country=JP,days=14,lookback_days=0) = 2.8%（除生鲜食品及能源前值2.6%，源时间戳11-26 23:30 UTC=东京11-27 08:30）
+- 中国10月规模以上工业企业利润同比前值: query_calendar_events(country=CN,days=14,lookback_days=0) = 14.4%
+- 中国1-10月规模以上工业企业利润同比前值: query_calendar_events(country=CN,days=14,lookback_days=0) = 15.5%
+- 中国10月CPI同比: query_calendar_events(country=CN,lookback_days=7) = 0.7%（前值0.9%、共识0.8%）
+- 中国10月PPI同比: query_calendar_events(country=CN,lookback_days=7) = 5.7%（前值5.0%、共识5.3%）
+- 中国10月出口同比（美元计价）: query_calendar_events(country=CN,lookback_days=7) = 35.2%（前值36.3%、共识33.5%）
+- 中国10月进口同比（美元计价）: query_calendar_events(country=CN,lookback_days=7) = 41.6%（前值31.0%、共识32.0%）
+- 中国10月贸易顺差（美元计价）: query_calendar_events(country=CN,lookback_days=7) = 1052.8亿美元（前值1335.3亿美元）
+- 中国1-10月房地产开发投资同比前值: query_calendar_events(country=CN,days=14,lookback_days=0) = -20.6%
+- 中国1-10月城镇固定资产投资同比前值: query_calendar_events(country=CN,days=14,lookback_days=0) = -7.2%
+- 中国10月M2同比: query_calendar_events(country=CN,lookback_days=7) = 7.1%（前值7.2%）
+- 中国1-10月社融增量: query_calendar_events(country=CN,lookback_days=7) = 286100亿元（前值274600亿元）
+- 中国1-10月新增人民币贷款: query_calendar_events(country=CN,lookback_days=7) = 114200亿元（前值115200亿元）
+- 中国11月1年期/5年期LPR: query_calendar_events(country=CN,days=14,lookback_days=0) = 3.0% / 3.5%（共识3.0% / 3.5%）
+- 商务部：中美约定11月底前举行下一次人工智能对话: query_calendar_events(country=CN,days=14,lookback_days=0) = 日历条目（11-26）
+- APEC领导人非正式会议11月18-19日深圳举行: query_calendar_events(country=CN,days=14,lookback_days=0) = 日历条目
+- 美国10年期UST收益率: query_indicators(time_range=7d) = 5.09%（openbb，2026-10-16，⚠️30天前）
+- 美国2年期UST收益率: query_indicators(time_range=7d) = 4.74%（openbb，2026-10-16）
+- 美元指数DXY: query_indicators(time_range=7d) = 121.40（openbb，2026-10-16）
+- 原油价格（crude_oil口径）: query_indicators(time_range=7d) = 101.91美元/桶（openbb，2026-10-14）
+- VIX: query_indicators(time_range=7d) = 18.44（openbb，2026-10-19）
+- 2s10s利差: query_indicators(time_range=7d) = 0.38个百分点（openbb，2026-10-19）
+- 高收益债利差: query_indicators(time_range=7d) = 3.29个百分点（openbb，2026-10-19）
+- 投资级企业债利差: query_indicators(time_range=7d) = 0.87个百分点（openbb，2026-10-19）
+- 美联储联邦基金利率: query_indicators(time_range=7d) = 3.75%（openbb，2026-09-01，⚠️75天前）
+- 美国失业率: query_indicators(time_range=7d) = 4.2%（openbb，2026-09-01）
+- 中国10年期/2年期国债收益率: query_indicators(category=bond,time_range=7d) = 1.6123% / 1.2319%（akshare，2026-11-13，判定为中国国债口径）
+- S&P 500 / 黄金 / USDCNH: query_indicators(time_range=7d) = 返回None（⚠️缺，不臆造）
+
+truethemes/economic-calendar/reference.md经济日历周报数据溯源appendoverwrite_if_same_path
