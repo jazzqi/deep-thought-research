@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-11-15T23:47:22.490868+00:00",
+  "window": {
+    "after": "2026-11-15T00:00:00+00:00",
+    "before": "2026-11-16T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "781011",
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "author": "jcubic",
+      "points": 1022,
+      "comments": 567,
+      "published_at": "2026-11-15T14:46:58+00:00"
+    },
+    {
+      "id": "780575",
+      "title": "Court denies motion to dismiss DRAM price fixing case",
+      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "author": "ybathaee",
+      "points": 458,
+      "comments": 207,
+      "published_at": "2026-11-15T01:18:36+00:00"
+    },
+    {
+      "id": "780882",
+      "title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+      "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
+      "author": "JumpCrisscross",
+      "points": 389,
+      "comments": 177,
+      "published_at": "2026-11-15T11:40:51+00:00"
+    },
+    {
+      "id": "780918",
+      "title": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use",
+      "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+      "author": "MacAnorak",
+      "points": 363,
+      "comments": 191,
+      "published_at": "2026-11-15T13:15:22+00:00"
+    },
+    {
+      "id": "780496",
+      "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
+      "url": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
+      "author": "nobody9999",
+      "points": 306,
+      "comments": 97,
+      "published_at": "2026-11-15T02:00:54+00:00"
+    },
+    {
+      "id": "780611",
+      "title": "My favourite modern NES games",
+      "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
+      "author": "jordigh",
+      "points": 192,
+      "comments": 37,
+      "published_at": "2026-11-15T02:41:25+00:00"
+    },
+    {
+      "id": "780917",
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "author": "vismit2000",
+      "points": 179,
+      "comments": 20,
+      "published_at": "2026-11-15T12:14:06+00:00"
+    },
+    {
+      "id": "780932",
+      "title": "Things That Turbo Pascal Is Smaller Than (2011)",
+      "url": "https://prog21.dadgum.com/116.html",
+      "author": "ksec",
+      "points": 170,
+      "comments": 83,
+      "published_at": "2026-11-15T13:44:16+00:00"
+    },
+    {
+      "id": "781046",
+      "title": "Emacs Is My Browser",
+      "url": "https://joshblais.com/blog/emacs-as-my-browser/",
+      "author": "nyc111",
+      "points": 163,
+      "comments": 83,
+      "published_at": "2026-11-15T15:21:21+00:00"
+    },
+    {
+      "id": "780784",
+      "title": "Why did some Apollo missions carry a grenade launcher?",
+      "url": "https://space.stackexchange.com/questions/37775",
+      "author": "Skyfall106",
+      "points": 158,
+      "comments": 117,
+      "published_at": "2026-11-15T09:06:43+00:00"
+    },
+    {
+      "id": "780826",
+      "title": "Book list for streetfighting computer scientists",
+      "url": "https://nick-black.com/dankwiki/index.php?title=Book_list_for_streetfighting_computer_scientists",
+      "author": "num42",
+      "points": 109,
+      "comments": 40,
+      "published_at": "2026-11-15T07:08:50+00:00"
+    },
+    {
+      "id": "780947",
+      "title": "A NES emulator written in Odin",
+      "url": "https://lucypero.com/lucynes.html",
+      "author": "frostbyte7",
+      "points": 98,
+      "comments": 35,
+      "published_at": "2026-11-15T12:51:47+00:00"
+    },
+    {
+      "id": "780723",
+      "title": "Disk encryption on NetBSD – achieving secrecy",
+      "url": "https://netbsd.org/~nia/disk-encrypt/",
+      "author": "jaypatelani",
+      "points": 91,
+      "comments": 18,
+      "published_at": "2026-11-15T05:29:54+00:00"
+    },
+    {
+      "id": "780653",
+      "title": "Kiri – The Modern Container Runtime",
+      "url": "https://runkiri.com/",
+      "author": "nikolay",
+      "points": 89,
+      "comments": 34,
+      "published_at": "2026-11-15T04:40:41+00:00"
+    },
+    {
+      "id": "781172",
+      "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+      "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+      "author": "DeepLogin",
+      "points": 83,
+      "comments": 34,
+      "published_at": "2026-11-15T18:36:10+00:00"
+    },
+    {
+      "id": "781062",
+      "title": "'Duffy Lied': Controllers Refute Transportation Secretary's Ground Stop Story",
+      "url": "https://www.commondreams.org/news/duffy-ground-stop-explanation",
+      "author": "mikestew",
+      "points": 80,
+      "comments": 24,
+      "published_at": "2026-11-15T15:45:42+00:00"
+    },
+    {
+      "id": "780537",
+      "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
+      "url": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+      "author": "lxm",
+      "points": 79,
+      "comments": 47,
+      "published_at": "2026-11-15T03:05:54+00:00"
+    },
+    {
+      "id": "781009",
+      "title": "The Hypertext Transfer Protocol Status Code 483 (I'm Not a Freezer)",
+      "url": "https://datatracker.ietf.org/doc/draft-banffy-httpbis-not-a-freezer/",
+      "author": "rbanffy",
+      "points": 73,
+      "comments": 46,
+      "published_at": "2026-11-15T14:31:52+00:00"
+    },
+    {
+      "id": "780582",
+      "title": "Show HN: Gawain – Require type hints on all Python variables",
+      "url": "https://github.com/matheuzgomes/gawain",
+      "author": "MarinhoD",
+      "points": 67,
+      "comments": 51,
+      "published_at": "2026-11-15T04:39:25+00:00"
+    },
+    {
+      "id": "781225",
+      "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+      "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+      "author": "eyalitki",
+      "points": 63,
+      "comments": 39,
+      "published_at": "2026-11-15T19:31:11+00:00"
+    },
+    {
+      "id": "780536",
+      "title": "US loses measles-free status: Pan American Health Organization (2025)",
+      "url": "https://www.paho.org/en/news/10-11-2025-paho-calls-regional-action-americas-lose-measles-elimination-status",
+      "author": "TeaVMFan",
+      "points": 62,
+      "comments": 1,
+      "published_at": "2026-11-15T00:48:11+00:00"
+    },
+    {
+      "id": "780916",
+      "title": "Jensen Huang allegedly manufactured the GPU shortage",
+      "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
+      "author": "bobsoap",
+      "points": 56,
+      "comments": 58,
+      "published_at": "2026-11-15T10:53:50+00:00"
+    },
+    {
+      "id": "780574",
+      "title": "Show HN: A custom font based on the Jamaican flag alphabet",
+      "url": "https://bobbiec.github.io/jamaican-font.html",
+      "author": "bobbiechen",
+      "points": 52,
+      "comments": 7,
+      "published_at": "2026-11-15T00:56:45+00:00"
+    },
+    {
+      "id": "781304",
+      "title": "Ask HN: Stripe closed us after one $1,500 invoice and never asked for evidence",
+      "url": "https://news.ycombinator.com/item?id=50510042",
+      "author": "snirgbs",
+      "points": 51,
+      "comments": 11,
+      "published_at": "2026-11-15T19:49:28+00:00"
+    },
+    {
+      "id": "780612",
+      "title": "Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP",
+      "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+      "author": "tthanh2k6",
+      "points": 46,
+      "comments": 9,
+      "published_at": "2026-11-15T04:09:11+00:00"
+    },
+    {
+      "id": "781239",
+      "title": "Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
+      "author": "jonbaer",
+      "points": 45,
+      "comments": 12,
+      "published_at": "2026-11-15T20:37:28+00:00"
+    },
+    {
+      "id": "781306",
+      "title": "Old Bitly Links Are Being Hijacked",
+      "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+      "author": "hspeiser",
+      "points": 45,
+      "comments": 22,
+      "published_at": "2026-11-15T22:11:43+00:00"
+    },
+    {
+      "id": "781208",
+      "title": "Parents pay $75k for Alpha's AI school. Half of its students missed math target",
+      "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
+      "author": "vrganj",
+      "points": 43,
+      "comments": 35,
+      "published_at": "2026-11-15T19:39:46+00:00"
+    },
+    {
+      "id": "781226",
+      "title": "Do House members' stock trades beat the market? A test of 8,900 trades",
+      "url": "https://arkanumdata.com/research/house-trades",
+      "author": "Bluestein",
+      "points": 40,
+      "comments": 16,
+      "published_at": "2026-11-15T19:46:02+00:00"
+    },
+    {
+      "id": "781193",
+      "title": "Clice v1.0 Released: Welcome to Modern C++",
+      "url": "https://ykiko.me/en/articles/2105384023094834022/",
+      "author": "molenzwiebel",
+      "points": 39,
+      "comments": 19,
+      "published_at": "2026-11-15T17:22:32+00:00"
+    },
+    {
+      "id": "781250",
+      "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+      "url": "https://bruceroettgers.eu/blog/protomaps/",
+      "author": "bcye",
+      "points": 37,
+      "comments": 11,
+      "published_at": "2026-11-15T19:26:22+00:00"
+    },
+    {
+      "id": "780706",
+      "title": "B.C. arbitrator imposes first union contract for Amazon workers in North America",
+      "url": "https://www.cbc.ca/news/canada/british-columbia/amazon-union-contract-b-c-first-north-america-9.7421834",
+      "author": "Teever",
+      "points": 36,
+      "comments": 4,
+      "published_at": "2026-11-15T05:23:07+00:00"
+    },
+    {
+      "id": "781274",
+      "title": "WebGL Flight Simulator with seed generated terrain",
+      "url": "https://baron.by.dai.studio/",
+      "author": "ranger_danger",
+      "points": 36,
+      "comments": 8,
+      "published_at": "2026-11-15T20:20:05+00:00"
+    },
+    {
+      "id": "781207",
+      "title": "Eclipse Mosquitto – An open source MQTT broker",
+      "url": "https://github.com/eclipse-mosquitto/mosquitto",
+      "author": "gregsadetsky",
+      "points": 31,
+      "comments": 10,
+      "published_at": "2026-11-15T18:36:40+00:00"
+    },
+    {
+      "id": "781258",
+      "title": "Your Agent Will Pick the Hackable One",
+      "url": "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/",
+      "author": "tensafefrogs",
+      "points": 28,
+      "comments": 5,
+      "published_at": "2026-11-15T21:10:39+00:00"
+    },
+    {
+      "id": "781151",
+      "title": "A short explainer on how El Niño works [video]",
+      "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
+      "author": "nharada",
+      "points": 27,
+      "comments": 1,
+      "published_at": "2026-11-15T18:23:21+00:00"
+    },
+    {
+      "id": "781305",
+      "title": "Boeing-Lockheed rocket fails mid-flight, destroys payload of Amazon satellites",
+      "url": "https://www.reuters.com/business/aerospace-defense/us-rocket-fails-after-launch-payload-amazon-internet-satellites-destroyed-2026-11-15/",
+      "author": "rexbee",
+      "points": 27,
+      "comments": 14,
+      "published_at": "2026-11-15T21:38:11+00:00"
+    },
+    {
+      "id": "780915",
+      "title": "Show HN: Umbrella – macOS app to capture audio from any app",
+      "url": "https://umbrella.pixelegg.me/",
+      "author": "threcius",
+      "points": 26,
+      "comments": 9,
+      "published_at": "2026-11-15T01:35:20+00:00"
+    },
+    {
+      "id": "780610",
+      "title": "US aviation shutdown blamed on L3 Harris installed router",
+      "url": "https://www.reuters.com/business/aerospace-defense/us-aviation-shutdown-blamed-l3-harris-installed-router-2026-11-14/",
+      "author": "christhecaribou",
+      "points": 24,
+      "comments": 1,
+      "published_at": "2026-11-15T01:18:45+00:00"
+    },
+    {
+      "id": "781170",
+      "title": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
+      "url": "https://github.com/db-branch/db-branch",
+      "author": "nu_nu11",
+      "points": 24,
+      "comments": 6,
+      "published_at": "2026-11-15T13:50:51+00:00"
+    },
+    {
+      "id": "781171",
+      "title": "Uber confirms hackers stole drivers' license information in breach",
+      "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+      "author": "gnabgib",
+      "points": 24,
+      "comments": 2,
+      "published_at": "2026-11-15T15:37:19+00:00"
+    },
+    {
+      "id": "781206",
+      "title": "Abyssal Garden: A dreamy underwater world you can swim through (96 KB HTML)",
+      "url": "https://github.com/Noniv/abyssal-garden",
+      "author": "soheilpro",
+      "points": 23,
+      "comments": 1,
+      "published_at": "2026-11-15T13:24:33+00:00"
+    },
+    {
+      "id": "781104",
+      "title": "The Atheist Bible",
+      "url": "https://suchanek.name/texts/atheism/",
+      "author": "axiologist",
+      "points": 22,
+      "comments": 34,
+      "published_at": "2026-11-15T16:05:53+00:00"
+    },
+    {
+      "id": "781257",
+      "title": "Handwriting, as a Font",
+      "url": "https://ductus.sorenblank.com",
+      "author": "coinfused",
+      "points": 22,
+      "comments": 1,
+      "published_at": "2026-11-15T19:42:13+00:00"
+    },
+    {
+      "id": "781150",
+      "title": "'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can",
+      "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
+      "author": "gumby",
+      "points": 21,
+      "comments": 12,
+      "published_at": "2026-11-15T17:53:31+00:00"
+    },
+    {
+      "id": "780997",
+      "title": "Weekly Tracking Report on the Non-Bank Financial Industry: Trading Volume Increases Month-on-Month; Detailed Rules for P&C Insurance Expense Allocation",
+      "url": "https://longbridge.cn/news/305575580",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:02:57+00:00"
+    },
+    {
+      "id": "781080",
+      "title": "US Treasury Secretary Pressures NVIDIA: Demands External Leadership Change and 10-Day Response on Compliance Issues",
+      "url": "https://longbridge.cn/news/305576331",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:29:22+00:00"
+    },
+    {
+      "id": "781081",
+      "title": "Bessent: Expects Significant Decline in Inflation Next Month, Urges Fed to Focus on the Future",
+      "url": "https://longbridge.cn/news/305576430",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:34:47+00:00"
+    },
+    {
+      "id": "781082",
+      "title": "How Investors May Respond To Micron (MU) AI Memory Supply Commitments",
+      "url": "https://longbridge.cn/news/305576527",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:36:26+00:00"
+    },
+    {
+      "id": "781083",
+      "title": "Bessent says Nvidia must 'go outside the company' to find new CEO",
+      "url": "https://longbridge.cn/news/305576677",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:47:12+00:00"
+    },
+    {
+      "id": "781111",
+      "title": "Bessent Calls for Major Overhaul of NVIDIA's Upper Management, Suggests Seeking New CEO from Outside",
+      "url": "https://longbridge.cn/news/305576426",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:34:36+00:00"
+    },
+    {
+      "id": "781298",
+      "title": "近期，国际金价出现较为明显的回调，黄金珠宝零售市场迎来促销窗口，多家主流黄金品牌加大优惠力度，推出克减、满减、折扣等多种活动，优惠力度较平日明显放大。记者调研发现，随着金价回落，钻石饰品折扣力度较大，一些品牌钻石类产品 5 折起步，其中既包",
+      "url": "https://t.me/Financial_Express/3627896",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:00:45+00:00"
+    },
+    {
+      "id": "781299",
+      "title": "现货黄金突破 3880 美元/盎司，日内跌 0.01%。",
+      "url": "https://t.me/Financial_Express/3627897",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:01:02+00:00"
+    },
+    {
+      "id": "781300",
+      "title": "伊朗外交部：伊拥有和平利用核能的权利",
+      "url": "https://t.me/Financial_Express/3627898",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:02:22+00:00"
+    },
+    {
+      "id": "781301",
+      "title": "股价回落，产业预期却仍在上修，科技股一度走出了两条方向不同的曲线。如何理解这道“剪刀差”，也成为观察本轮行情变化的一个切口。日前，中信建投证券科技研究组负责人于海宁表示，资本市场会提前交易未来增长的担忧，产业发展则有自身的节奏。外部不确定性",
+      "url": "https://t.me/Financial_Express/3627899",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:02:23+00:00"
+    },
+    {
+      "id": "781307",
+      "title": "纽约期银日内跌 2%，现报 48.62 美元/盎司。",
+      "url": "https://t.me/Financial_Express/3627900",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:03:42+00:00"
+    },
+    {
+      "id": "781308",
+      "title": "纽约期银突破 49 美元/盎司，日内跌 2.81%。",
+      "url": "https://t.me/Financial_Express/3627901",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:03:43+00:00"
+    },
+    {
+      "id": "781309",
+      "title": "纽约期金突破 3890 美元/盎司，日内涨 0.09%。",
+      "url": "https://t.me/Financial_Express/3627902",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:05:42+00:00"
+    },
+    {
+      "id": "781310",
+      "title": "英特尔遭到股东起诉，这些股东指控这家美国芯片制造商通过隐瞒个人电脑销售长期放缓的影响来欺诈他们，导致其股价单日暴跌近 29%。在周五提交至加利福尼亚州圣何塞联邦法院的一份拟议集体诉讼中，由密歇根州一家养老基金领衔的股东们称，英特尔在披露个人",
+      "url": "https://t.me/Financial_Express/3627903",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:06:06+00:00"
+    },
+    {
+      "id": "781311",
+      "title": "澳大利亚 S&P/ASX 200 指数早盘下跌 0.2%，报 9066.3 点。",
+      "url": "https://t.me/Financial_Express/3627904",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:07:22+00:00"
+    },
+    {
+      "id": "781312",
+      "title": "据福布斯估算，在黄仁勋辞职引发英伟达股价下跌后，包括临时首席执行官科莱特·克雷斯在内的三名英伟达高管，身家已不再达到十亿美元级别。",
+      "url": "https://t.me/Financial_Express/3627905",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:09:42+00:00"
+    },
+    {
+      "id": "781313",
+      "title": "三星 SDI 获 Jupiter Power 16 吉瓦时磷酸铁锂电池订单。",
+      "url": "https://t.me/Financial_Express/3627906",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:10:22+00:00"
+    },
+    {
+      "id": "781314",
+      "title": "伊朗外交部发言人巴加埃 15 日在例行记者会上表示，伊朗打击在巴林的美军基地是“回应美国侵略”。他同时表示，伊朗不会放弃和平利用核能的权利，伊美之间目前没有就核问题细节进行任何讨论。（央视新闻）",
+      "url": "https://t.me/Financial_Express/3627907",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:11:43+00:00"
+    },
+    {
+      "id": "781315",
+      "title": "英伟达在 Hyperliquid 上因黄仁勋回归传闻上涨 4.5%",
+      "url": "https://t.me/Financial_Express/3627908",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:15:02+00:00"
+    },
+    {
+      "id": "781316",
+      "title": "IRNA：伊朗已为美国进行外交、经济封锁或侵略三种情景做好准备",
+      "url": "https://t.me/Financial_Express/3627909",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:16:02+00:00"
+    },
+    {
+      "id": "781317",
+      "title": "辽宁海警侦破海上黑恶势力系列犯罪案件，23 人被抓获",
+      "url": "https://t.me/Financial_Express/3627910",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:16:42+00:00"
+    },
+    {
+      "id": "781318",
+      "title": "特朗普料将乘坐卡塔尔赠送的空军一号前往亚洲。",
+      "url": "https://t.me/Financial_Express/3627911",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:17:02+00:00"
+    },
+    {
+      "id": "781319",
+      "title": "华东最长工业供热干线主体管道建设完成，全长 42.35 公里",
+      "url": "https://t.me/Financial_Express/3627912",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:17:42+00:00"
+    },
+    {
+      "id": "781328",
+      "title": "特朗普料将乘坐卡塔尔赠送的空军一号前往亚洲。（NBC）",
+      "url": "https://t.me/Financial_Express/3627913",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:18:10+00:00"
+    },
+    {
+      "id": "781329",
+      "title": "乌克兰总统泽连斯基：美方提出乌克兰撤出顿巴斯换取加入北约",
+      "url": "https://t.me/Financial_Express/3627914",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:18:22+00:00"
+    },
+    {
+      "id": "781330",
+      "title": "三星 SDI",
+      "url": "https://t.me/Financial_Express/3627915",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:19:22+00:00"
+    },
+    {
+      "id": "781331",
+      "title": "三星 SDI",
+      "url": "https://t.me/Financial_Express/3627916",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:19:22+00:00"
+    },
+    {
+      "id": "781332",
+      "title": "除了头版内容，今天《人民日报》涉及财经的主要内容还包括：",
+      "url": "https://t.me/Financial_Express/3627917",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:22:22+00:00"
+    },
+    {
+      "id": "781333",
+      "title": "全长 277.6 公里 我国输送距离最长二氧化碳长输管道投运",
+      "url": "https://t.me/Financial_Express/3627918",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:22:22+00:00"
+    },
+    {
+      "id": "781334",
+      "title": "全长 277.6 公里 我国输送距离最长二氧化碳长输管道投运",
+      "url": "https://t.me/Financial_Express/3627919",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:22:42+00:00"
+    },
+    {
+      "id": "781335",
+      "title": "韩国总统李在明将于 11 月 17 日与日本首相举行会谈。",
+      "url": "https://t.me/Financial_Express/3627920",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:23:42+00:00"
+    },
+    {
+      "id": "781336",
+      "title": "印尼总统普拉博沃就烟霾问题向新加坡和马来西亚道歉",
+      "url": "https://t.me/Financial_Express/3627921",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:24:22+00:00"
+    },
+    {
+      "id": "781337",
+      "title": "伊朗副外长 Kazem Gharibabadi 称，伊朗已为美伊之间的三种可能情景做好应对准备，这三种情景分别是外交封锁、经济封锁和军事侵略。他说：“过去一年半里，美国至少三次表现出不诚信。这表明，美国在外交谈判桌上不可信赖。”（伊斯兰共和",
+      "url": "https://t.me/Financial_Express/3627922",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:24:55+00:00"
+    },
+    {
+      "id": "781338",
+      "title": "韩国总统府",
+      "url": "https://t.me/Financial_Express/3627923",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:25:02+00:00"
+    },
+    {
+      "id": "781339",
+      "title": "堪萨斯城联储行长：美联储在降低通胀方面还有更多工作要做",
+      "url": "https://t.me/Financial_Express/3627924",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:26:22+00:00"
+    },
+    {
+      "id": "781340",
+      "title": "掘金中国资产 海外资金看多信号密集显现",
+      "url": "https://t.me/Financial_Express/3627925",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:27:02+00:00"
+    },
+    {
+      "id": "781342",
+      "title": "Hyperliquid 区块链上一份与英伟达股价挂钩的永续期货合约一度上涨 4.5%，此前有报道称，黄仁勋正讨论可能重返英伟达。",
+      "url": "https://t.me/Financial_Express/3627926",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:28:21+00:00"
+    },
+    {
+      "id": "781343",
+      "title": "闲鱼通报“钓鱼竿涉色情交易”等四起谣言：已报警，将起诉",
+      "url": "https://t.me/Financial_Express/3627927",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:28:22+00:00"
+    },
+    {
+      "id": "781344",
+      "title": "澳大利亚 IDP 教育集团拒绝了黑石集团以 5.645 亿美元估值提出的第三次收购要约",
+      "url": "https://t.me/Financial_Express/3627928",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:29:42+00:00"
+    },
+    {
+      "id": "781345",
+      "title": "澳大利亚再次任命布鲁斯·米勒为外国投资审查委员会主席，任命卡罗琳·凯为外国投资审查委员会兼职副主席。",
+      "url": "https://t.me/Financial_Express/3627929",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:30:22+00:00"
+    },
+    {
+      "id": "781346",
+      "title": "亚盛医药：亚盛医药利生妥成功纳入 2026 年国家医保药品目录 耐立克续约",
+      "url": "https://t.me/Financial_Express/3627930",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:31:22+00:00"
+    },
+    {
+      "id": "781347",
+      "title": "日经期货在新加坡交易所开盘上涨 105 点，报 61355 点。",
+      "url": "https://t.me/Financial_Express/3627931",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:32:02+00:00"
+    },
+    {
+      "id": "781348",
+      "title": "先声药业：先必新舌下片纳入新版国家医保药品目录",
+      "url": "https://t.me/Financial_Express/3627932",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:33:02+00:00"
+    },
+    {
+      "id": "781355",
+      "title": "佛得角现任总统若泽·马里亚·内韦斯宣布赢得大选",
+      "url": "https://t.me/Financial_Express/3627933",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:33:42+00:00"
+    },
+    {
+      "id": "781356",
+      "title": "三星 SDI 获 Jupiter Power 16GWh 磷酸铁锂电池订单",
+      "url": "https://t.me/Financial_Express/3627934",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:34:42+00:00"
+    },
+    {
+      "id": "781357",
+      "title": "AI 硬件板块震荡加剧 基金调仓迹象显现",
+      "url": "https://t.me/Financial_Express/3627935",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:36:02+00:00"
+    },
+    {
+      "id": "781358",
+      "title": "上周五纳指收跌 0.9%，英伟达跌 2%，苹果盘中刷新历史高位；比特币跌破 7 万美元。",
+      "url": "https://t.me/Financial_Express/3627936",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:36:10+00:00"
+    },
+    {
+      "id": "781359",
+      "title": "礼来肥胖症药物 Zepbound 帮助青少年减重",
+      "url": "https://t.me/Financial_Express/3627937",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:37:02+00:00"
+    },
+    {
+      "id": "781360",
+      "title": "油气相关 ETF 领涨 机构研判后续投资机会",
+      "url": "https://t.me/Financial_Express/3627938",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:37:22+00:00"
+    },
+    {
+      "id": "781361",
+      "title": "当周投资者向美国股票基金净投入 66 亿美元，尽管这一数字较前一周的 149.7 亿美元下降了约 56%。",
+      "url": "https://t.me/Financial_Express/3627939",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:38:07+00:00"
+    },
+    {
+      "id": "781362",
+      "title": "美国股票基金连续第二周吸引资金净流入",
+      "url": "https://t.me/Financial_Express/3627940",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:38:23+00:00"
+    },
+    {
+      "id": "781363",
+      "title": "摩根士丹利预测韩国央行将在 11 月和明年 2 月分别加息 25 个基点。",
+      "url": "https://t.me/Financial_Express/3627941",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:39:42+00:00"
+    },
+    {
+      "id": "781364",
+      "title": "韩国券商：韩国 KOSPI 指数明年有望升至 8300 点",
+      "url": "https://t.me/Financial_Express/3627942",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:40:42+00:00"
+    },
+    {
+      "id": "781365",
+      "title": "中信建投：注意估值风格切换的年末行情特征",
+      "url": "https://t.me/Financial_Express/3627943",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:41:42+00:00"
+    },
+    {
+      "id": "781366",
+      "title": "摩根士丹利预测韩国央行将在 11 月和 2 月加息",
+      "url": "https://t.me/Financial_Express/3627944",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-15T23:42:02+00:00"
+    }
+  ]
+}
