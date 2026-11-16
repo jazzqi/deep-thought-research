@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-16 14:10 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。
+> 生成时间：2026-11-16 16:38 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
@@ -62,6 +62,10 @@
   来源: telegram:Financial_Express | 正文长度: 409 字
   片段: …美联储理事巴尔：AI 智能体可能加剧未来的银行挤兑 金十数据 11 月 16 日讯，美联储理事巴尔警告称，自主性 AI 智能体可能通过根据市场信号或利率变化自动转移客户存款，加速引发破坏性的银行挤兑。巴尔指出，大型银行已经检测到 AI 智能体试图在个人账户中采取未经授权的操作。巴尔表示：“过去客户需要亲自执行转账，而 
 
+- **Some Potential Financial Stability Implications of Artificial Intelligence**（2026-11-16 05:00）
+  来源: federalreserve.gov | 正文长度: 30116 字
+  片段: …Thank you for the opportunity to speak to you today. 1 This is the fourth speech I have given in the past year devoted exclusively to artificial intelligence (A
+
 - **Fed's Barr: US should prepare for "serious" AI job disruption, widening inequality**（2026-11-12 23:00）
   来源: longbridge | 正文长度: 82 字
   片段: …Fed's Barr: US should prepare for "serious" AI job disruption, widening inequality
@@ -73,10 +77,6 @@
 - **美联储理事巴尔：AI 快速普及恐加剧收入不平等**（2026-11-12 15:37）
   来源: telegram:Financial_Express | 正文长度: 329 字
   片段: …美联储理事巴尔：AI 快速普及恐加剧收入不平等 金十数据 11 月 12 日讯，美联储理事巴尔警告称，人工智能的迅速普及可能在短期内加剧不平等，政策制定者需要为劳动力市场可能出现的严重短期冲击做好准备。巴尔在耶鲁大学发表演讲时表示，人工智能影响的程度和持续时间将取决于目前建立的监管保障措施。巴尔警告称，如果少数人工智能
-
-- **美联储理事巴尔表示，美联储关注人工智能相关负债及潜在冲击。**（2026-11-12 15:37）
-  来源: telegram:Financial_Express | 正文长度: 29 字
-  片段: …美联储理事巴尔表示，美联储关注人工智能相关负债及潜在冲击。
 
 ## 米歇尔·鲍曼（Michelle W. Bowman）
 
