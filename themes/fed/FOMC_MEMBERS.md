@@ -2,8 +2,8 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读数据：`GET /api/fomc/members`、`GET /api/fomc/meetings`、Agent 工具 `query_fomc_members`。
-> 生成时间：2026-11-16 14:01 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
-> 「最新言论/立场」来自 `fomc_member_statements`（每条可追溯 raw_items）；「鹰/鸽」不自动推断。
+> 生成时间：2026-11-16 14:04 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
+> 「最新言论/立场」来自 `fomc_member_statements`（每条可追溯 raw_items）；「鹰/鸽」来自 D137 stance 快照（LLM 分类，带分数/置信度）。
 
 ---
 
@@ -13,6 +13,7 @@
 |------|------|------|-----|------|------|
 | 2026-11-16 | 米歇尔·鲍曼 | neutral→hawkish | +0.45 | medium | [冷启动基线] neutral→hawkish，分数 0.05→0.50（Δ+0.45）；近 30 天高置信支持言论 2 条 |
 | 2026-11-16 | 菲利普·杰斐逊 | neutral→hawkish | +0.28 | medium | [冷启动基线] neutral→hawkish，分数 0.25→0.53（Δ+0.28）；近 30 天高置信支持言论 3 条 |
+| 2026-11-16 | 克里斯托弗·沃勒 | dovish→hawkish | +1.36 | high | dovish→hawkish，分数 -0.60→0.76（Δ+1.36）；近 30 天高置信支持言论 10 条 |
 
 ## 当前委员会成员
 
@@ -23,7 +24,7 @@
 | 凯文·沃什 | Kevin Warsh | 主席 / Board of Governors（常任票委） | 2026-11-06 longbridge：Warsh Pushes for Reform of Federal Reserve Meeting Mechanism: Fewer Rate Decisions, More S… | 鹰（+0.42/0.54） |
 | 菲利普·杰斐逊 | Philip N. Jefferson | 副主席 / Board of Governors（常任票委） | 2026-11-14 longbridge：Fed Vice Chair Jefferson: Inflation Will Determine Interest Rate Decisions | 鹰（+0.53/0.67） ⚠️shift_to_hawk |
 | 米歇尔·鲍曼 | Michelle W. Bowman | 负责监管事务的副主席 / Board of Governors（常任票委） | 2026-11-11 longbridge：Fed's Bowman Assessment: Inflation is Widening, Another Rate Hike Possible This Year; US S… | 鹰（+0.50/0.83） ⚠️shift_to_hawk |
-| 克里斯托弗·沃勒 | Christopher J. Waller | 理事 / Board of Governors（常任票委） | 2026-11-11 longbridge：Fed Governor Waller: Supports a One-Time 50-Basis-Point Rate Hike if Inflation Accelerates… | 鹰（+0.76/1.00） |
+| 克里斯托弗·沃勒 | Christopher J. Waller | 理事 / Board of Governors（常任票委） | 2026-11-11 longbridge：Fed Governor Waller: Supports a One-Time 50-Basis-Point Rate Hike if Inflation Accelerates… | 鹰（+0.76/1.00） ⚠️flip_dove_to_hawk |
 | 杰罗姆·鲍威尔 | Jerome H. Powell | 理事 / Board of Governors（常任票委） | 数据缺失 | — |
 | 莉萨·库克 | Lisa D. Cook | 理事 / Board of Governors（常任票委） | 数据缺失 | —（低置信 +0.36） |
 | 迈克尔·巴尔 | Michael S. Barr | 理事 / Board of Governors（常任票委） | 2026-11-16 telegram:Financial_Express：美联储理事巴尔：AI 智能体可能加剧未来的银行挤兑 | — |
