@@ -1,0 +1,11 @@
+actions:
+- priority: P2
+  summary: 跟踪 hntrends 招聘数据与 AI 就业叙事：11 月 244 帖/-37% YoY 是否在 12 月延续，校验'AI 挤压初级岗位'假设
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-12-15'
+- priority: P3
+  recurrence: weekly
+  summary: 持续监控 agent 工具网关/权限层赛道（Coral 等）与 MCP 权限粒度议题的后续高分帖
+  target_flow_params: {}
+  type: monitoring

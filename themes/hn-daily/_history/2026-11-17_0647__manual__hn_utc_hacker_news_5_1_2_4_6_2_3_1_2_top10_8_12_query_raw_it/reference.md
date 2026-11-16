@@ -1,0 +1,34 @@
+- HN 招聘帖 11 月同期 244 条（-37% YoY，2026 月均 287 为 2013 来最低）: fetch_url(https://www.hntrends.com/2026/november.html) = November Highlights 数据正文
+- AI 覆盖 51.6% 招聘帖 / AI Agents 14.8% / MCP 4.5%: fetch_url(https://www.hntrends.com/2026/november.html) = 2026-11-16 抓取
+- Who is Hiring 12 年低位帖: query_raw_items(source=hackernews, published 2026-11-16)[id:781937] = ▲93/💬83（HN 页 93 points/83 comments）
+- Tell HN HN 邮箱抓取诈骗: query_raw_items(source=hackernews, published 2026-11-16)[id:782359] = ▲120/💬41（HN 页 120 points/41 comments）
+- Ask HN AI bug backlog: query_raw_items(source=hackernews, published 2026-11-16)[id:785651] = HN 页 38 points/65 comments，frostiness/davnicwil 评论已抓
+- Coral agent 网关: query_raw_items(source=hackernews, published 2026-11-16)[id:784898] = ▲50/💬24；fetch_url(github.com/withcoral/coral) = README 正文（450+ 公司、策略 Allow/Ask/Block）
+- Comcast 光纤虚假广告: query_raw_items(source=hackernews, published 2026-11-16)[id:786122] = HN 页 55 points/46 comments（Ars 正文 405 未抓到）
+- Show HN 17 封自动推销邮件: query_raw_items(source=hackernews, published 2026-11-16)[id:784295] = ▲56/💬51；fetch_url(petervandijck.com/post/pbrgs-ev0bc) = 正文（17 封、7 目录+10 服务）
+- Fakemetrics: query_raw_items(source=hackernews, published 2026-11-16)[id:785882] = ▲28/💬10；fetch_url(fakemetrics.com) = 页面模板正文
+- Axonnic EMG 套筒: query_raw_items(source=hackernews, published 2026-11-16)[id:786120] = HN 页 21 points/7 comments（64 通道、6.9° 误差、215 秒免重标定）
+- OpenTodo: query_raw_items(source=hackernews, published 2026-11-16)[id:785631] = ▲20/💬19；fetch_url(github.com/OpenTodoApp/OpenTodo) = README 正文
+- 麻疹死亡 10 例帖（Top10 #6，未深读）: query_raw_items(source=hackernews, published 2026-11-16)[id:785575] = ▲41/💬28
+
+- 美五大银行+Zelle 同日宕机（Chase 称本地硬件软件缺陷、非网络攻击）: query_raw_items(source=hackernews, published_after=2026-11-16T00:00:00Z)[id:785829] = Outages reported at Bank of America, Chase, U.S. Bank, Wells Fargo and Zelle
+- HN 实时热度 670 分/531 评论及评论区转述的 Chase 声明: fetch_url(https://news.ycombinator.com/item?id=50521045) = Technical issue at JPMorgan Chase triggers online banking delays for US banks
+- Qwen4-Max 发布及 none/low/high/xhigh 四档推理与 simonwillison 评论: fetch_url(https://qwen.ai/blog?id=qwen4-max) = 官方博客动态渲染正文未能抓取，据 HN 评论区（396 条讨论）[id:782050]
+- 亚马逊黑五/网一 350+ 商品促销价抽查（1/3 无优惠、1/10 更贵）: fetch_url(http://groundworkcollaborative.org/news/amazons-decoy-deals-...) = Groundwork Collaborative 报告 [id:784896]
+- 2026 软件系统性故障梳理（微软 2 天宕机、FAA 停飞、PHP2Shell、eMudhra、Shai Hulud）: fetch_url(https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/) = 博文正文 [id:785698]
+- HN 评论区归因对抗（doug_durham 反驳时间线、swatcoder 四点结构解释）: fetch_url(https://news.ycombinator.com/item?id=50520866) = HN 评论页
+- uBlock Origin 通用 XSS 完整利用链（lootdest fetch 钩子泄露 UUID、隐形 iframe 驱动 Create 按钮）: fetch_url(https://iter.ca/post/ubo-uxss/) = 博文正文 [id:782049]
+- HN 招聘帖 11/14 为 244 条（同比 -37%）、2026 月均 287 条（2013 以来最低）、AI 提及 51.6%、AI agents 14.8%、MCP 4.5%、Rust 8.2%、前端 6.6%、Staff 约 12%: fetch_url(https://www.hntrends.com/2026/november.html) = hntrends 2026-11 统计（中断两年半后恢复更新）[id:781937]
+- MIT MAS.863 2026 完整课表（周三 13:00-16:00 E14-633，recitation 10/01 AI agents、10/29 Edge AI，12/15 结课）: fetch_url(https://pub.cba.mit.edu/863.26/site/) = 课程站正文 [id:782738]
+- OpenAI 定理汇编 722 篇、约 45% 附 Lean 代码、3 篇因符号错误撤稿、FLT 平凡假命题编译例与四问清单: fetch_url(https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/) = Xena 博文正文 [id:784168]
+- TRMNL Frame 31.5 英寸全彩 ePaper、首批约 470 台、Clock Sync/离线模式、创始人 ArtSpot 经历: fetch_url(https://trmnl.com/blog/introducing-frame) = 产品公告正文 [id:785694]
+- Coral README（Execution rails for agents、Rust 1547 commits、Allow/Ask/Block 策略、450+ 公司自报采用）: fetch_url(https://github.com/withcoral/coral) = GitHub README [id:784898]
+- Ask HN bug backlog 讨论（评审瓶颈、症状式修复）: fetch_url(https://news.ycombinator.com/item?id=50520076) = HN 评论页 [id:785651]
+- Tell HN 邮箱爬取诈骗讨论: fetch_url(https://news.ycombinator.com/item?id=50513451) = HN 评论页 [id:782359]
+- 今日 Top10 快照（796/780/749/542/305/301/259/240/221/207 分）: query_raw_items(source=hackernews, published_after=2026-11-16T00:00:00Z, published_before=2026-11-17T00:00:00Z) = 73 条 ≥20 分条目
+- Ask HN bug backlog 评论页高赞要点（td521534f12 评审瓶颈"不评审几周烧完但会造出一堆故障"、sockaddr 检测瓶颈、klik99 "数十万用户无持续宕机才信，微软也没做到"、beebmam "瓶颈应是验证系统而非人类"、frostiness 症状式修复、davnicwil 自然语言委托信息损耗）: fetch_url(https://news.ycombinator.com/item?id=50520076) = HN 评论页正文 [id:785651]
+- Tell HN 邮箱爬取评论页要点（btrettel 图片一次性邮箱后 2 封垃圾 vs 1 封真实、david_allison 后悔留主邮箱、dang 帖子可删、tasuki "已经泄露的收不回来"、walrus01 提议用 LLM 回复诱捕）: fetch_url(https://news.ycombinator.com/item?id=50513451) = HN 评论页正文 [id:782359]
+- 同日佐证：Who wants to be hired 求职者收到 RAT 与窃密程序: query_raw_items(source=hackernews, published_after=2026-11-16T00:00:00Z, published_before=2026-11-17T00:00:00Z)[id:784235] = I posted in "Who wants to be hired?" and a recruiter sent me a RAT and a stealer（▲38 分）
+- 同日佐证：发 Show HN 后收到大量自动化推销邮件: query_raw_items(source=hackernews, published_after=2026-11-16T00:00:00Z, published_before=2026-11-17T00:00:00Z)[id:784295] = Doing Show HN generates a ton of automated email pitches（▲56 分）
+- 微软邮件大规模宕机归因于 7 月修复引入的软件缺陷: query_raw_items(source=hackernews, published_after=2026-11-16T00:00:00Z, published_before=2026-11-17T00:00:00Z)[id:785027] = Microsoft blames monster email outage on software defect introduced in July fix（▲139 分）
+- Top10 分数逐条校验（796/780/749/542/305/301/259/240/221/207 与冻结快照一致）: query_raw_items(source=hackernews, published_after=2026-11-16T00:00:00Z, published_before=2026-11-17T00:00:00Z) = 73 条 ≥20 分条目按 hn_points 排序核对
