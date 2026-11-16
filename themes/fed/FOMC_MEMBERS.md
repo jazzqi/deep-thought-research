@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读数据：`GET /api/fomc/brief`（聚合，推荐）、`GET /api/fomc/statements`（批量言论）、`GET /api/fomc/members`；Agent 工具 `query_fomc_members`（支持逗号分隔多人）。
-> 生成时间：2026-11-16 20:11 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
+> 生成时间：2026-11-16 20:40 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
 > 「最新言论/立场」来自 `fomc_member_statements`（每条可追溯 raw_items）；「鹰/鸽」来自 D137 stance 快照（LLM 分类）；「综合」来自 D138 记分卡（0.6×投票 + 0.4×言论，附样本量与状态）。
 
 ---
@@ -39,7 +39,7 @@
 
 | 中文名 | 姓名 | 职位/机构 | 最新言论/立场（日期+来源） | 鹰/鸽 | 综合（投票/言论/样本） |
 |--------|------|----------|--------------------------|--------|------------------------|
-| 凯文·沃什 | Kevin Warsh | 主席 / Board of Governors（常任票委） | 2026-11-06 longbridge：Warsh Pushes for Reform of Federal Reserve Meeting Mechanism: Fewer Rate Decisions, More S… | 鹰（+0.41/0.23） | （+0.06，投 +0.04，言 +0.10，n=8/样本薄） |
+| 凯文·沃什 | Kevin Warsh | 主席 / Board of Governors（常任票委） | 2026-11-16 federalreserve.gov：Opening Remarks | 鹰（+0.41/0.23） | （+0.06，投 +0.04，言 +0.10，n=8/样本薄） |
 | 菲利普·杰斐逊 | Philip N. Jefferson | 副主席 / Board of Governors（常任票委） | 2026-11-14 longbridge：Fed Vice Chair Jefferson: Inflation Will Determine Interest Rate Decisions | 鹰（+0.62/0.22） ⚠️shift_to_hawk | （+0.05，投 -0.05，言 +0.20，n=20/样本薄） |
 | 米歇尔·鲍曼 | Michelle W. Bowman | 负责监管事务的副主席 / Board of Governors（常任票委） | 2026-11-11 longbridge：Fed's Bowman Assessment: Inflation is Widening, Another Rate Hike Possible This Year; US S… | 鹰（+0.62/0.62） ⚠️shift_to_hawk | （+0.07，投 -0.05，言 +0.25，n=20） |
 | 克里斯托弗·沃勒 | Christopher J. Waller | 理事 / Board of Governors（常任票委） | 2026-11-11 longbridge：Fed Governor Waller: Supports a One-Time 50-Basis-Point Rate Hike if Inflation Accelerates… | 鹰（+0.63/0.98） ⚠️flip_dove_to_hawk | （+0.11，投 -0.09，言 +0.40，n=20） ⚠️言行不一 |
