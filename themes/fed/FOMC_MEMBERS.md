@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读数据：`GET /api/fomc/members`、`GET /api/fomc/meetings`、Agent 工具 `query_fomc_members`。
-> 生成时间：2026-11-16 10:38 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
+> 生成时间：2026-11-16 10:40 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
 > 「最新言论/立场」来自 `fomc_member_statements`（每条可追溯 raw_items）；「鹰/鸽」不自动推断。
 
 ---
@@ -19,7 +19,7 @@
 | 克里斯托弗·沃勒 | Christopher J. Waller | 理事 / Board of Governors（常任票委） | 2026-11-11 longbridge：Fed Governor Waller: Supports a One-Time 50-Basis-Point Rate Hike if Inflation Accelerates… | — |
 | 杰罗姆·鲍威尔 | Jerome H. Powell | 理事 / Board of Governors（常任票委） | 数据缺失 | — |
 | 莉萨·库克 | Lisa D. Cook | 理事 / Board of Governors（常任票委） | 数据缺失 | — |
-| 迈克尔·巴尔 | Michael S. Barr | 理事 / Board of Governors（常任票委） | 2026-11-12 longbridge：Fed's Barr: US should prepare for "serious" AI job disruption, widening inequality | — |
+| 迈克尔·巴尔 | Michael S. Barr | 理事 / Board of Governors（常任票委） | 2026-11-16 telegram:Financial_Express：美联储理事巴尔：AI 智能体可能加剧未来的银行挤兑 | — |
 | 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-13 longbridge：Fed's Williams says central bank has 'work to do' to get inflation back on target | — |
 | 安娜·保尔森 | Anna Paulson | 费城联储主席（2026 票委；下次 2029） | 2026-11-11 longbridge：Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target | — |
 | 贝丝·哈马克 | Beth M. Hammack | 克利夫兰联储主席（2026 票委；下次 2028） | 2026-11-12 longbridge：Fed's Hammack: Further Rate Hikes Needed to Curb Inflation | — |
