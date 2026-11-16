@@ -1,8 +1,8 @@
 # FOMC 成员图谱（FOMC MEMBERS）
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
-> 机器可读数据：`GET /api/fomc/members`、`GET /api/fomc/meetings`、Agent 工具 `query_fomc_members`。
-> 生成时间：2026-11-16 20:04 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
+> 机器可读数据：`GET /api/fomc/brief`（聚合，推荐）、`GET /api/fomc/statements`（批量言论）、`GET /api/fomc/members`；Agent 工具 `query_fomc_members`（支持逗号分隔多人）。
+> 生成时间：2026-11-16 20:11 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
 > 「最新言论/立场」来自 `fomc_member_statements`（每条可追溯 raw_items）；「鹰/鸽」来自 D137 stance 快照（LLM 分类）；「综合」来自 D138 记分卡（0.6×投票 + 0.4×言论，附样本量与状态）。
 
 ---
@@ -17,7 +17,7 @@
 
 ## 委员会综合立场（D138 记分卡）
 
-> 口径：`综合 = 0.6×投票 + 0.4×言论`；`近期 = 365 天内最近 12 点 EMA`；`长期 = 730 天 / τ365`。仅统计当前票委。
+> 口径：`综合 = 0.6×投票 + 0.4×言论`；`近期 = 365 天内最近 12 点 EMA`；`长期 = 730 天 / τ365`；样本 n 为按「成员+日期」去重后的事件数。仅统计当前票委。
 
 | 口径 | 综合 | 投票轴 | 言论轴 | 票委数 |
 |------|------|--------|--------|--------|

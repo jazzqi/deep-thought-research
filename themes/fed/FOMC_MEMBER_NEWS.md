@@ -2,29 +2,29 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-16 20:04 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。
+> 生成时间：2026-11-16 20:11 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
-- **Fed Governor Waller: Supports a One-Time 50-Basis-Point Rate Hike if Inflation Accelerates to Safeguard Credibility**（2026-11-11 07:53）
-  来源: longbridge | 正文长度: 611 字 | 立场: 鹰 +0.90
-  片段: …Fed Governor Waller: Supports a One-Time 50-Basis-Point Rate Hike if Inflation Accelerates to Safeguard Credibility Federal Reserve Governor Waller stated his s
-
-- **November 11 Close: U.S. Stocks Fall; NVIDIA Drops Over 5%; Fed Governor Waller Says 50 Basis Point Hike May Be Needed in December**（2026-11-11 05:33）
-  来源: longbridge | 正文长度: 653 字 | 立场: 鹰 +0.90
-  片段: …November 11 Close: U.S. Stocks Fall; NVIDIA Drops Over 5%; Fed Governor Waller Says 50 Basis Point Hike May Be Needed in December On November 11, the three majo
-
 - **Fed Governor Waller Supports Tightening Policy to Curb Inflation**（2026-11-11 00:39）
-  来源: longbridge | 正文长度: 438 字 | 立场: 鹰 +0.90
+  来源: longbridge（同日 3 条已合并） | 正文长度: 438 字 | 立场: 鹰 +0.90
   片段: …Fed Governor Waller Supports Tightening Policy to Curb Inflation Fed Governor Waller supports further policy tightening to curb inflation. Although the October 
 
-- **Fed Governor Waller Says 50-Basis-Point Hike Should Be Discussed at December FOMC Meeting**（2026-11-10 19:28）
-  来源: longbridge | 正文长度: 473 字 | 立场: 鹰 +0.85
-  片段: …Fed Governor Waller Says 50-Basis-Point Hike Should Be Discussed at December FOMC Meeting Fed Governor Waller stated that a rate hike could be discussed as earl
+- **The Economic Outlook and Some Thoughts on Labor Market Dynamism**（2026-11-10 04:00）
+  来源: federalreserve.gov / longbridge / telegram:Financial_Express（同日 9 条已合并） | 正文长度: 20378 字 | 立场: 鹰 +0.90
+  片段: …Thank you, Paul, and welcome to Bank of England watchers, who I suspect are watching the Federal Reserve as well. 1 My subject today is the outlook for the U.S.
 
-- **[US Interest Rate Decision] Fed Governor Waller: Supports Another Rate Hike in December**（2026-11-10 17:14）
-  来源: longbridge | 正文长度: 422 字 | 立场: 鹰 +0.95
-  片段: …[US Interest Rate Decision] Fed Governor Waller: Supports Another Rate Hike in December (ETNet News, Special Report on the 10th) Federal Reserve Governor Christ
+- **Waller: Strong Economy, Excellent Job Market, Fed’s Focus Remains on Controlling Inflation**（2026-10-29 03:11）
+  来源: longbridge | 正文长度: 870 字 | 立场: 鹰 +0.45
+  片段: …Waller: Strong Economy, Excellent Job Market, Fed’s Focus Remains on Controlling Inflation Federal Reserve Governor Waller stated that the Fed’s discussions in 
+
+- **"Fed Whisperer": Waller Seeks to Tighten Fed Communication, Yet Officials' Voices Remain Abundant**（2026-10-27 18:19）
+  来源: longbridge | 正文长度: 1470 字
+  片段: …"Fed Whisperer": Waller Seeks to Tighten Fed Communication, Yet Officials' Voices Remain Abundant Nick Timiraos, the "Fed Whisperer," stated in an article that 
+
+- **Super Central Bank Week: Market Focuses on Fed Governor Waller's Post-Meeting Remarks and US PCE Data**（2026-10-26 05:43）
+  来源: longbridge | 正文长度: 610 字
+  片段: …The Fed, Bank of Japan, and ECB all kept interest rates unchanged this week, with markets focused on Fed Governor Waller’s post-meeting remarks. Investors await
 
 ## 杰罗姆·鲍威尔（Jerome H. Powell）
 
@@ -37,20 +37,12 @@
   片段: …Warsh Pushes for Reform of Federal Reserve Meeting Mechanism: Fewer Rate Decisions, More Strategic Discussions Federal Reserve Chair Kevin Warsh is pushing for 
 
 - **US Interest Rate Decision | Fed Holds Rates Steady; Warsh: US Economy Not Overheating**（2026-10-29 09:13）
-  来源: longbridge | 正文长度: 644 字 | 立场: 鹰 +0.60
+  来源: longbridge（同日 5 条已合并） | 正文长度: 644 字 | 立场: 鹰 +0.30
   片段: …US Interest Rate Decision | Fed Holds Rates Steady; Warsh: US Economy Not Overheating The Federal Reserve kept interest rates unchanged, with Warsh stating that
 
-- **Warsh Is Reshaping the Fed, but Inflation Concerns Persist**（2026-10-29 09:04）
-  来源: longbridge | 正文长度: 118 字
-  片段: …Warsh Is Reshaping the Fed, but Inflation Concerns Persist Warsh is reshaping the Fed, but inflation concerns persist
-
-- **Fed's Warsh says US economy not running too hot**（2026-10-29 03:26）
-  来源: longbridge | 正文长度: 47 字 | 立场: 鸽 -0.35
-  片段: …Fed's Warsh says US economy not running too hot
-
-- **Warsh: Expects Two FOMC Meetings in 2028 Without Policy Rate Votes**（2026-10-29 02:40）
-  来源: longbridge | 正文长度: 338 字
-  片段: …Warsh: Expects Two FOMC Meetings in 2028 Without Policy Rate Votes Federal Reserve Chair Warsh: The FOMC schedule will change next autumn. Six policy-making mee
+- **美联储主席沃什**（2026-10-28 19:07）
+  来源: telegram:Financial_Express（同日 5 条已合并） | 正文长度: 43 字 | 立场: 鹰 +0.55
+  片段: …美联储主席沃什：我们正在收紧金融条件。这表明我们的政策正在发挥作用，对此并不感到不安。
 
 ## 莉萨·库克（Lisa D. Cook）
 
@@ -59,24 +51,12 @@
 ## 迈克尔·巴尔（Michael S. Barr）
 
 - **美联储理事巴尔：AI 智能体可能加剧未来的银行挤兑**（2026-11-16 10:31）
-  来源: telegram:Financial_Express | 正文长度: 409 字
+  来源: federalreserve.gov / telegram:Financial_Express（同日 2 条已合并） | 正文长度: 409 字
   片段: …美联储理事巴尔：AI 智能体可能加剧未来的银行挤兑 金十数据 11 月 16 日讯，美联储理事巴尔警告称，自主性 AI 智能体可能通过根据市场信号或利率变化自动转移客户存款，加速引发破坏性的银行挤兑。巴尔指出，大型银行已经检测到 AI 智能体试图在个人账户中采取未经授权的操作。巴尔表示：“过去客户需要亲自执行转账，而 
 
-- **Some Potential Financial Stability Implications of Artificial Intelligence**（2026-11-16 05:00）
-  来源: federalreserve.gov | 正文长度: 30116 字
-  片段: …Thank you for the opportunity to speak to you today. 1 This is the fourth speech I have given in the past year devoted exclusively to artificial intelligence (A
-
 - **Fed's Barr: US should prepare for "serious" AI job disruption, widening inequality**（2026-11-12 23:00）
-  来源: longbridge | 正文长度: 82 字
+  来源: federalreserve.gov / longbridge / telegram:Financial_Express（同日 6 条已合并） | 正文长度: 82 字
   片段: …Fed's Barr: US should prepare for "serious" AI job disruption, widening inequality
-
-- **美联储理事巴尔**（2026-11-12 15:57）
-  来源: telegram:Financial_Express | 正文长度: 30 字
-  片段: …美联储理事巴尔：我担心我们正在风险偏好升温的环境下放松监管。
-
-- **美联储理事巴尔：AI 快速普及恐加剧收入不平等**（2026-11-12 15:37）
-  来源: telegram:Financial_Express | 正文长度: 329 字
-  片段: …美联储理事巴尔：AI 快速普及恐加剧收入不平等 金十数据 11 月 12 日讯，美联储理事巴尔警告称，人工智能的迅速普及可能在短期内加剧不平等，政策制定者需要为劳动力市场可能出现的严重短期冲击做好准备。巴尔在耶鲁大学发表演讲时表示，人工智能影响的程度和持续时间将取决于目前建立的监管保障措施。巴尔警告称，如果少数人工智能
 
 ## 米歇尔·鲍曼（Michelle W. Bowman）
 
@@ -84,65 +64,45 @@
   来源: longbridge | 正文长度: 598 字 | 立场: 鹰 +0.85
   片段: …Fed's Bowman Assessment: Inflation is Widening, Another Rate Hike Possible This Year; US Stocks May See Sharp Correction Due to AI! Federal Reserve Vice Chair B
 
-- **美联储理事鲍曼警告 AI 投资回报不及预期或导致股市估值大幅回调**（2026-11-10 21:35）
-  来源: telegram:Financial_Express | 正文长度: 221 字
-  片段: …美联储理事鲍曼警告 AI 投资回报不及预期或导致股市估值大幅回调 美联储理事米歇尔·鲍曼表示，她认为金融市场给经济活动带来诸多风险，其中包括一旦人工智能领域的投资回报不及预期，股价可能大幅下跌。鲍曼周二在华盛顿发表讲话时警告，AI 投资回报问题可能引发“股票估值大幅回调”的风险，同时还提及“私营部门长期利率急剧上升”的
+- **The U.S. Economy and Considerations for Monetary Policy**（2026-11-10 15:30）
+  来源: federalreserve.gov / telegram:Financial_Express（同日 6 条已合并） | 正文长度: 21387 字 | 立场: 鹰 +0.60
+  片段: …Vice Chair for Supervision Bowman presented identical remarks at a subsequent event held by Unleash Prosperity Now on the same day. Good afternoon. It is a plea
 
-- **美联储鲍曼**（2026-11-10 21:31）
-  来源: telegram:Financial_Express | 正文长度: 22 字 | 立场: 鹰 +0.45
-  片段: …美联储鲍曼：解决通胀问题是美联储的正确举措。
+- **美联储负责监管的副主席米歇尔·鲍曼**（2026-10-15 02:56）
+  来源: telegram:Financial_Express（同日 2 条已合并） | 正文长度: 71 字
+  片段: …美联储负责监管的副主席米歇尔·鲍曼：将继续敦促将重点放在对金融体系构成威胁的风险上，而不是与流程相关的事项上，并敦促全球监管机构采取类似行动。
 
-- **美联储理事鲍曼**（2026-11-10 21:29）
-  来源: telegram:Financial_Express | 正文长度: 31 字
-  片段: …美联储理事鲍曼：需要考虑以何种节奏和何种时间表来解决这一问题。
+- **鲍曼：目前不认为美联储需急于调整利率**（2026-10-14 09:55）
+  来源: federalreserve.gov / telegram:Financial_Express（同日 2 条已合并） | 正文长度: 115 字 | 立场: 鹰 +0.35
+  片段: …鲍曼：目前不认为美联储需急于调整利率 金十数据 10 月 14 日讯，美联储理事鲍曼：通胀仍高于我们的目标，（但）目前并不认为美联储有必要急于进一步调整利率。在上次加息后，我们需要一些时间观察金融状况的发展，然后再采取进一步行动。
 
-- **美联储理事鲍曼：通胀仍有待控制 但需权衡进一步收紧政策的成本**（2026-11-10 21:06）
-  来源: telegram:Financial_Express | 正文长度: 404 字 | 立场: 中性 +0.00
-  片段: …美联储理事鲍曼：通胀仍有待控制 但需权衡进一步收紧政策的成本 金十数据 11 月 11 日讯，美联储负责监管事务的副主席米歇尔·鲍曼表示，目前通胀压力仍在持续，而就业市场正在趋于稳固，通胀仍有进一步回落的空间。她预计 10 月核心 PCE 同比升至 3.3%，能源价格上涨和 AI 相关需求是主要推动因素，但通胀缺乏进展
+- **美联储理事鲍曼：美联储拟重塑银行监管体系 并重新评估更严格监管的资产门槛**（2026-10-06 14:58）
+  来源: federalreserve.gov / telegram:Financial_Express（同日 5 条已合并） | 正文长度: 400 字
+  片段: …美联储理事鲍曼（Michelle Bowman）于10月6日宣布，美联储将重塑美国银行监管体系，把目前分散在各地区联储行长手中的监督权收归华盛顿总部，新设五个地理监管区域，每个区域由一名"区域负责人"领导，旨在增强问责机制和决策透明度。 此外，鲍曼透露美联储计划在今年晚些时候重新评估触发更严格监管规定的银行资产规模门槛
 
 ## 菲利普·杰斐逊（Philip N. Jefferson）
 
-- **Fed Vice Chair Jefferson: Inflation Will Determine Interest Rate Decisions**（2026-11-14 08:05）
-  来源: longbridge | 正文长度: 637 字 | 立场: 鹰 +0.65
-  片段: …Fed Vice Chair Jefferson: Inflation Will Determine Interest Rate Decisions Federal Reserve Vice Chair Philip Jefferson stated that inflation has become the most
-
-- **美联储副主席杰斐逊**（2026-11-14 00:58）
-  来源: telegram:Financial_Express | 正文长度: 39 字 | 立场: 中性 +0.00
-  片段: …美联储副主席杰斐逊：人工智能建设迫使我关注总需求，而总需求正是通胀压力的来源。
-
-- **美联储理事杰斐逊**（2026-11-14 00:46）
-  来源: telegram:Financial_Express | 正文长度: 47 字
-  片段: …美联储理事杰斐逊：联邦公开市场委员会（FOMC）将在数月内（甚至更早）听取美联储工作组的汇报。
-
 - **美联储杰斐逊强调通胀信号将决定利率走势**（2026-11-14 00:13）
-  来源: telegram:Financial_Express | 正文长度: 423 字 | 立场: 鹰 +0.65
+  来源: longbridge / telegram:Financial_Express（同日 5 条已合并） | 正文长度: 423 字 | 立场: 鹰 +0.67
   片段: …美联储杰斐逊强调通胀信号将决定利率走势 金十数据 11 月 14 日讯，美联储副主席菲利普·杰斐逊表示，在政策制定者考虑是否进一步加息之际，通胀已成为最重要的衡量指标。杰斐逊指出，近期经济活动和劳动力市场状况表现稳健，但物价压力依然持续存在。他表示，10 月份的物价数据反映出通胀水平仍远高于美联储的目标。杰斐逊在为圣迭
 
-- **美联储副主席杰斐逊表态：通胀已成利率最重要的参考指标**（2026-11-14 00:02）
-  来源: telegram:Financial_Express | 正文长度: 265 字 | 立场: 鹰 +0.70
-  片段: …美联储副主席杰斐逊表态：通胀已成利率最重要的参考指标 美联储副主席菲利普·杰斐逊表示，在政策制定者考虑是否进一步加息时，通胀已成为最重要的参考指标。 杰斐逊称，近期经济活动和劳动力市场状况稳健，物价压力持续，10 月的物价数据表明通胀远高于目标。 “因此，我认为通胀走势是判断货币政策合适立场的核心信号，”杰斐逊在圣迭戈
+- **New Technology, Old Questions: Productivity Puzzles  and the Macroeconomy**（2026-11-13 19:00）
+  来源: federalreserve.gov | 正文长度: 23636 字
+  片段: …Thank you, Jim, for that kind introduction, and thank you to UC San Diego for hosting me. 1 It is a pleasure to be speaking to this group that includes students
 
 ## 苏珊·柯林斯（Susan M. Collins）
 
-- **Fed's Collins: Steady, Gradual Interest Rate Hikes Are Appropriate**（2026-11-14 23:33）
-  来源: longbridge | 正文长度: 620 字 | 立场: 鹰 +0.85
-  片段: …Fed's Collins: Steady, Gradual Interest Rate Hikes Are Appropriate Susan Collins, President of the Federal Reserve Bank of Boston, stated that a steady and grad
-
-- **波士顿联储行长柯林斯称稳步、渐进加息是适宜之举**（2026-11-14 15:31）
-  来源: telegram:Financial_Express | 正文长度: 149 字 | 立场: 鹰 +0.80
-  片段: …波士顿联储行长柯林斯称稳步、渐进加息是适宜之举 波士顿联储行长苏珊·柯林斯表示，随着劳动力市场站稳脚跟而没有加剧价格压力，循序渐进的加息路径对于降低通胀来说将是适宜的。“我看到价格压力正在扩大，而且已经处于高位很长时间，”柯林斯周六表示，“目前在我看来，稳步、渐进的路径是适宜的，但我持开放态度。”
-
-- **美联储柯林斯**（2026-11-14 14:35）
-  来源: telegram:Financial_Express | 正文长度: 32 字
-  片段: …美联储柯林斯：通胀预期仍保持稳定。长期通胀预期可能继续保持稳定。
-
 - **Fed's Collins: Rate Hikes Needed Soon**（2026-11-14 00:15）
-  来源: longbridge | 正文长度: 438 字 | 立场: 鹰 +0.90
+  来源: longbridge / telegram:Financial_Express（同日 4 条已合并） | 正文长度: 438 字 | 立场: 鹰 +0.85
   片段: …Fed's Collins: Rate Hikes Needed Soon Boston Fed President Collins: Further rate hikes will be needed soon as price pressures spread. It will be appropriate to 
 
-- **Fed's Collins says work to lower inflation can create housing sector challenges**（2026-11-13 22:10）
-  来源: longbridge | 正文长度: 79 字
-  片段: …Fed's Collins says work to lower inflation can create housing sector challenges
+- **美联储柯林斯暗示需继续收紧政策，称抗击通胀优先于住房困境**（2026-11-13 14:47）
+  来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 245 字 | 立场: 鹰 +0.58
+  片段: …美联储柯林斯暗示需继续收紧政策，称抗击通胀优先于住房困境 金十数据 11 月 13 日讯，波士顿联储主席柯林斯周五暗示，可能需要收紧货币政策来给物价降温。在一场以住房市场为中心的演讲中，柯林斯表示，更高的利率可能会限制住房的可负担性。但她同时补充说，从长远来看，确保物价稳定将对住房市场和整体经济都有利。“短期内，为了给
+
+- **美联储柯林斯：年内或需再加息 关注通胀是否扩散**（2026-10-13 20:30）
+  来源: telegram:Financial_Express | 正文长度: 401 字 | 立场: 鹰 +0.72
+  片段: …美联储柯林斯：年内或需再加息 关注通胀是否扩散 金十数据 10 月 14 日讯，波士顿联储主席柯林斯表示，今年年底前利率可能需要进一步上调，以抑制通胀。对于是否需要进一步加息以及加息时机的判断，她表示将取决于未来公布的经济数据。柯林斯预计美国经济将继续增长，劳动力市场将维持接近充分就业的状态。她表示：“在这一情景下，随
 
 ## 苏什米塔·舒克拉（Sushmita Shukla）
 
@@ -151,68 +111,44 @@
 ## 约翰·威廉姆斯（John C. Williams）
 
 - **Fed's Williams says central bank has 'work to do' to get inflation back on target**（2026-11-13 08:05）
-  来源: longbridge | 正文长度: 81 字 | 立场: 鹰 +0.55
+  来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 81 字 | 立场: 鹰 +0.55
   片段: …Fed's Williams says central bank has 'work to do' to get inflation back on target
 
-- **美国纽约联储主席威廉姆斯**（2026-11-13 00:47）
-  来源: telegram:Financial_Express | 正文长度: 31 字
-  片段: …美国纽约联储主席威廉姆斯：美国经济易受人工智能热情转变的影响。
-
-- **美联储威廉姆斯**（2026-11-13 00:43）
-  来源: telegram:Financial_Express | 正文长度: 24 字
-  片段: …美联储威廉姆斯：证据显示经济呈现“K 型”走势。
-
-- **纽约联储威廉姆斯：美联储应积累更多信息判断通胀风险**（2026-11-06 11:47）
-  来源: telegram:Financial_Express | 正文长度: 407 字 | 立场: 中性 +0.00
-  片段: …纽约联储威廉姆斯：美联储应积累更多信息判断通胀风险 纽约联储行长约翰·威廉姆斯认同美联储近期声明中的立场，即当前应积累更多信息，以评估物价面临的风险。威廉姆斯周五在法兰克福举行的欧洲央行活动上表示，通胀“绝对过高”，不过其他指标迄今并未发出令人担忧的信号。货币政策“确实发挥着关键作用，以确保这些相对价格冲击不会演变成更
-
-- **纽约联储主席威廉姆斯**（2026-11-06 09:40）
-  来源: telegram:Financial_Express | 正文长度: 25 字
-  片段: …纽约联储主席威廉姆斯：能源价格正按预期向通胀传导。
+- **美联储威廉姆斯：通胀水平过高 持续时间过长**（2026-11-06 09:38）
+  来源: telegram:Financial_Express（同日 3 条已合并） | 正文长度: 193 字 | 立场: 鹰 +0.70
+  片段: …美联储威廉姆斯：通胀水平过高 持续时间过长 金十数据 11 月 6 日讯，美联储威廉姆斯最新发表讲话：“目前美国劳动力市场异常稳定且稳健。美国经济韧性惊人，增长有所增强。当下美国的通胀水平过高，且持续时间过长，必须及时将通胀率降至 2%。能源价格正以预期的方式体现在机票价格中，我们还已看到人工智能对芯片等价格的有限影响
 
 ## 安娜·保尔森（Anna Paulson）
 
 - **Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target**（2026-11-11 14:28）
-  来源: longbridge | 正文长度: 585 字 | 立场: 鹰 +0.80
+  来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 585 字 | 立场: 鹰 +0.70
   片段: …Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target On November 10, Philadelphia Fed President Paulson stated that the Federal R
 
-- **Fed's Paulson calls for gradual rate hikes amid ongoing high inflation**（2026-11-11 07:30）
-  来源: longbridge | 正文长度: 70 字 | 立场: 鹰 +0.70
-  片段: …Fed's Paulson calls for gradual rate hikes amid ongoing high inflation
-
-- **美联储保尔森：目前采取渐进式紧缩政策较为适宜**（2026-11-11 00:33）
-  来源: telegram:Financial_Express | 正文长度: 195 字 | 立场: 鹰 +0.60
-  片段: …美联储保尔森：目前采取渐进式紧缩政策较为适宜 金十数据 11 月 11 日讯，美联储官员保尔森表示，她倾向于支持以渐进的步伐加息。她指出，目前的工资压力有限，通胀预期也与美联储 2%的目标保持一致。保尔森表示：“就目前而言，进一步采取渐进式紧缩政策似乎是适宜的。”她补充道：“如果通胀预期上升、工资压力加大，或者潜在通胀
-
-- **美联储保尔森**（2026-11-10 23:48）
-  来源: telegram:Financial_Express | 正文长度: 17 字 | 立场: 中性 +0.00
-  片段: …美联储保尔森：未见加快紧缩的压力。
-
 - **美联储官员保尔森：鉴于高通胀，进一步“逐步”加息是合适的**（2026-11-10 23:36）
-  来源: telegram:Financial_Express | 正文长度: 162 字 | 立场: 鹰 +0.90
+  来源: telegram:Financial_Express（同日 3 条已合并） | 正文长度: 162 字 | 立场: 鹰 +0.90
   片段: …美联储官员保尔森：鉴于高通胀，进一步“逐步”加息是合适的 美联储的保尔森称，货币政策需要“具有一定限制性”。利率政策的确切路径取决于经济的演变情况。鉴于高通胀，进一步“逐步”加息是合适的。渐进加息也为美联储官员评估影响提供了空间。通胀前景面临的风险很高。经济强于预期，就业市场稳健。美联储在降低通胀方面还有“更多工作要做
 
 ## 贝丝·哈马克（Beth M. Hammack）
 
 - **Fed's Hammack: Further Rate Hikes Needed to Curb Inflation**（2026-11-12 23:44）
-  来源: longbridge | 正文长度: 511 字 | 立场: 鹰 +0.95
+  来源: longbridge / telegram:Financial_Express（同日 8 条已合并） | 正文长度: 511 字 | 立场: 鹰 +0.69
   片段: …Fed's Hammack: Further Rate Hikes Needed to Curb Inflation Beth Hammack, President of the Federal Reserve Bank of Cleveland, stated that the progress in reducin
 
-- **Fed's Hammack Calls for Continued Rate Hikes, Citing Stalled Progress in Taming Inflation**（2026-11-12 23:00）
-  来源: longbridge | 正文长度: 634 字 | 立场: 鹰 +0.90
-  片段: …Fed's Hammack Calls for Continued Rate Hikes, Citing Stalled Progress in Taming Inflation Cleveland Fed President Hammack called for continued interest rate hik
+- **Fed Hawkish Voices Rise Again! Hammack Says Rates Need to Reach Restrictive Levels, Favors More Frequent, Smaller Hikes**（2026-11-06 05:30）
+  来源: longbridge（同日 2 条已合并） | 正文长度: 703 字 | 立场: 鹰 +0.90
+  片段: …Fed Hawkish Voices Rise Again! Hammack Says Rates Need to Reach Restrictive Levels, Favors More Frequent, Smaller Hikes Federal Reserve Officials' hawkish membe
 
-- **Fed's Hammack: Need to Shift to Restrictive Monetary Policy to Lower Inflation**（2026-11-12 21:46）
-  来源: longbridge | 正文长度: 506 字 | 立场: 鹰 +0.90
-  片段: …Fed's Hammack: Need to Shift to Restrictive Monetary Policy to Lower Inflation In her latest remarks, the Fed's Hammack stated, "The Federal Reserve has perform
+- **Fed's Hammack Reiterates Case for Gradual Rate Hikes: Is December Federal Funds Futures Pricing Overly Optimistic?**（2026-11-05 22:11）
+  来源: longbridge / telegram:Financial_Express（同日 2 条已合并） | 正文长度: 668 字 | 立场: 鹰 +0.93
+  片段: …Fed's Hammack Reiterates Case for Gradual Rate Hikes: Is December Federal Funds Futures Pricing Overly Optimistic? Cleveland Fed President Beth Hammack advocate
 
-- **克利夫兰联储主席哈马克**（2026-11-12 14:17）
-  来源: telegram:Financial_Express | 正文长度: 24 字
-  片段: …克利夫兰联储主席哈马克：金融环境对增长构成支撑。
+- **Fed's Hammack: Deteriorating Inflation Expectations May Force the Fed to Take More Aggressive Action**（2026-10-16 05:38）
+  来源: longbridge（同日 2 条已合并） | 正文长度: 603 字 | 立场: 鹰 +0.63
+  片段: …Cleveland Fed President Hammack warned Thursday that deteriorating public inflation expectations could force the Federal Reserve to act more aggressively. She s
 
-- **美联储官员哈马克**（2026-11-12 14:05）
-  来源: telegram:Financial_Express | 正文长度: 34 字 | 立场: 鸽 -0.40
-  片段: …美联储官员哈马克：就业市场停滞不前，由于缺乏活力，不能说它是健康的。
+- **美联储哈马克：接二连三的供应冲击可能引发通胀思维**（2026-10-15 22:01）
+  来源: telegram:Financial_Express | 正文长度: 318 字 | 立场: 鹰 +0.70
+  片段: …美联储哈马克：接二连三的供应冲击可能引发通胀思维 克利夫兰联邦储备银行行长贝丝·哈马克表示，她担心接二连三的供应冲击可能会导致企业形成通胀思维，从而加大政策制定者遏制价格压力的难度。“企业正感受到很大的投入成本压力。他们看到价格继续以比过去习惯的速度更快地上涨，”哈马克在纽约由高盛主办的一场活动上表示。“我担心的一件事
 
 ## 托马斯·巴尔金（Thomas I. Barkin）
 
@@ -220,21 +156,17 @@
   来源: longbridge | 正文长度: 716 字 | 立场: 鹰 +0.70
   片段: …Two Federal Reserve Officials Strike Hawkish Tone: Barkin Says Direction of Rate Hikes Is Clear but Pace Must Be Prudent; Goolsbee Warns of Need to Confront "Ru
 
-- **美联储巴尔金**（2026-11-09 18:00）
-  来源: telegram:Financial_Express | 正文长度: 28 字
-  片段: …美联储巴尔金：处于历史水平的是政府债务，而非消费者债务。
-
-- **美联储巴尔金认为，企业存在将更高能源成本转嫁出去的风险。**（2026-11-09 17:26）
-  来源: telegram:Financial_Express | 正文长度: 28 字 | 立场: 鹰 +0.35
-  片段: …美联储巴尔金认为，企业存在将更高能源成本转嫁出去的风险。
-
 - **美联储巴尔金：通胀风险仍占主导，政策调整应谨慎**（2026-11-09 17:17）
-  来源: telegram:Financial_Express | 正文长度: 249 字 | 立场: 鹰 +0.60
+  来源: telegram:Financial_Express（同日 5 条已合并） | 正文长度: 249 字 | 立场: 鹰 +0.57
   片段: …美联储巴尔金：通胀风险仍占主导，政策调整应谨慎 金十数据 11 月 10 日讯，里士满联储主席巴尔金表示，通胀已连续近六年高于美联储 2%的目标，当前双重使命面临的风险主要集中在通胀方面。企业仍面临广泛成本上涨，并计划将部分成本转嫁给消费者。巴尔金认为，在需求保持强劲、通胀持续高企的情况下，货币政策收紧方向明确，但仍需
 
-- **美联储巴尔金：政策方向明确，但调整节奏需要审慎**（2026-11-09 17:07）
-  来源: telegram:Financial_Express | 正文长度: 203 字 | 立场: 鹰 +0.65
-  片段: …美联储巴尔金：政策方向明确，但调整节奏需要审慎 美联储理事巴尔金释放信号：需求强劲、通胀居高难下，意味着利率仍有上行必要；但他同时提醒，加息步伐必须谨慎。巴尔金在演讲中阐述对经济的看法，称企业盈利表现亮眼。当前失业率持续维持在 4.5%及以下区间、时长创纪录，居民消费支出依旧旺盛。不过他对消费韧性的可持续性提出警示，并
+- **Fed's Barkin: I Believe Gradual Rate Hikes Are Reasonable**（2026-11-05 22:17）
+  来源: longbridge（同日 2 条已合并） | 正文长度: 424 字 | 立场: 鹰 +0.85
+  片段: …Fed's Barkin: I Believe Gradual Rate Hikes Are Reasonable In his latest remarks, the Federal Reserve's Barkin stated, "Demand in the economy is robust, although
+
+- **Fed's Barkin: Direction of travel is straightforward for the Fed**（2026-10-30 21:41）
+  来源: longbridge / telegram:Financial_Express（同日 5 条已合并） | 正文长度: 411 字 | 立场: 鹰 +0.09
+  片段: …Fed's Barkin: Direction of travel is straightforward for the Fed Fed's Barkin stated the direction of travel is straightforward, with the key question being the
 
 ## 谢丽尔·维纳布尔（Cheryl Venable）
 
@@ -243,46 +175,42 @@
 ## 奥斯坦·古尔斯比（Austan D. Goolsbee）
 
 - **Fed's Goolsbee: US Inflation Issues Increasingly Severe, Further Action Still Needed**（2026-11-13 23:43）
-  来源: longbridge | 正文长度: 625 字 | 立场: 鹰 +0.85
+  来源: longbridge / telegram:Financial_Express（同日 10 条已合并） | 正文长度: 625 字 | 立场: 鹰 +0.60
   片段: …Fed's Goolsbee: US Inflation Issues Increasingly Severe, Further Action Still Needed Chicago Fed President Goolsbee stated that the latest inflation data is con
 
-- **Chicago Fed President Goolsbee Says Central Bank Still Has 'Much Work to Do' on Inflation**（2026-11-13 23:26）
-  来源: longbridge | 正文长度: 536 字 | 立场: 鹰 +0.65
-  片段: …Chicago Fed President Goolsbee Says Central Bank Still Has 'Much Work to Do' on Inflation Chicago Fed President Goolsbee stated that the Federal Reserve is movi
+- **芝加哥联储主席古尔斯比**（2026-11-12 16:43）
+  来源: telegram:Financial_Express（同日 2 条已合并） | 正文长度: 28 字 | 立场: 鹰 +0.40
+  片段: …芝加哥联储主席古尔斯比：美联储在通胀方面的职责未能达标。
 
-- **Chicago Fed President Goolsbee Says the Fed Must Rebuild Its Credibility on Inflation**（2026-11-13 23:07）
-  来源: longbridge | 正文长度: 422 字 | 立场: 鹰 +0.75
-  片段: …Chicago Fed President Goolsbee Says the Fed Must Rebuild Its Credibility on Inflation Chicago Fed President Goolsbee stated that the Federal Reserve must take f
+- **Fed's Goolsbee Calls Inflation Report 'Almost Alarming' as Central Bank Weighs Further Rate Hikes**（2026-11-11 22:27）
+  来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 424 字 | 立场: 鹰 +0.69
+  片段: …Fed's Goolsbee Calls Inflation Report 'Almost Alarming' as Central Bank Weighs Further Rate Hikes Chicago Fed President Goolsbee described the latest inflation 
 
-- **Fed's Goolsbee: Inflation Not Yet on Track to Return to 2%, AI Data Center Construction Driving Up Prices**（2026-11-13 23:03）
-  来源: longbridge | 正文长度: 578 字 | 立场: 鹰 +0.40
-  片段: …Fed's Goolsbee: Inflation Not Yet on Track to Return to 2%, AI Data Center Construction Driving Up Prices Chicago Fed President Goolsbee stated that U.S. inflat
+- **Fed’s Goolsbee Warns AI Data Center Boom Is Starting to Look Like ‘Demand Overheating,’ Says Central Bankers Must Be ‘Aggressive Up Front’**（2026-11-10 20:50）
+  来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 528 字 | 立场: 鹰 +0.61
+  片段: …Fed’s Goolsbee Warns AI Data Center Boom Is Starting to Look Like ‘Demand Overheating,’ Says Central Bankers Must Be ‘Aggressive Up Front’ Chicago Fed President
 
-- **Fed's Goolsbee: We're not on the way to 2% inflation and we have to deal with that**（2026-11-13 21:53）
-  来源: longbridge | 正文长度: 511 字 | 立场: 鹰 +0.40
-  片段: …Fed's Goolsbee: We're not on the way to 2% inflation and we have to deal with that Chicago Fed President Goolsbee stated that inflation is proving more persiste
+- **美联储古尔斯比：AI 数据中心建设加剧需求过热 通胀仍是首要问题**（2026-11-09 16:53）
+  来源: telegram:Financial_Express | 正文长度: 198 字 | 立场: 鹰 +0.70
+  片段: …美联储古尔斯比：AI 数据中心建设加剧需求过热 通胀仍是首要问题 金十数据 11 月 10 日讯，芝加哥联储主席古尔斯比表示，AI 数据中心建设正显现出传统需求过热的特征，同时能源价格上涨正向服务业等更广泛领域传导，通胀压力有所扩散。他指出，央行通常需要积极应对经济过热。古尔斯比称，美国就业市场和经济增长总体稳定，目前
 
 ## 阿尔贝托·穆萨莱姆（Alberto G. Musalem）
 
-- **Fed's Musalem: Businesses say inflation remains top concern**（2026-11-06 23:07）
-  来源: longbridge | 正文长度: 59 字
-  片段: …Fed's Musalem: Businesses say inflation remains top concern
-
 - **美联储穆萨莱姆**（2026-11-06 14:51）
-  来源: telegram:Financial_Express | 正文长度: 28 字
+  来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 28 字
   片段: …美联储穆萨莱姆：美联储良好的沟通有助于政策传导更加顺畅。
-
-- **美联储穆萨莱姆在向团体发表的预先准备好的讲话中，未就经济前景或货币政策置评。**（2026-11-06 14:11）
-  来源: telegram:Financial_Express | 正文长度: 38 字
-  片段: …美联储穆萨莱姆在向团体发表的预先准备好的讲话中，未就经济前景或货币政策置评。
 
 - **Fed's Musalem: Further Interest Rate Hikes Needed Soon to Curb Inflation**（2026-10-31 00:38）
   来源: longbridge | 正文长度: 466 字 | 立场: 鹰 +0.95
   片段: …Fed's Musalem: Further Interest Rate Hikes Needed Soon to Curb Inflation Alberto Musalem, President of the Federal Reserve Bank of St. Louis, stated that moneta
 
-- **美联储官员穆萨莱姆**（2026-10-30 16:59）
-  来源: telegram:Financial_Express | 正文长度: 37 字 | 立场: 鹰 +0.45
-  片段: …美联储官员穆萨莱姆：正专注于防止出现第二轮通胀影响，比如服务业的通胀影响。
+- **美联储穆萨莱姆：很快有必要再次加息**（2026-10-30 16:57）
+  来源: telegram:Financial_Express（同日 3 条已合并） | 正文长度: 186 字 | 立场: 鹰 +0.78
+  片段: …美联储穆萨莱姆：很快有必要再次加息 金十数据 10 月 31 日讯，圣路易斯联储主席穆萨莱姆在影子公开市场委员会会议前发表有关美国经济和货币政策的讲话，他表示：“我认为有必要进一步收紧货币政策，而且很快就需要采取行动。”穆萨莱姆认为，美国通胀水平仍然过高，如果美联储不进一步加息，通胀风险仍偏向上行。与此同时，美国整体经
+
+- **美联储穆萨莱姆：未来 6 至 9 个月内可能需要进一步加息**（2026-10-08 20:25）
+  来源: telegram:Financial_Express | 正文长度: 410 字 | 立场: 鹰 +0.90
+  片段: …St. Louis Fed President Musalem stated that the Fed likely needs additional rate hikes within the next 6 to 9 months to bring inflation back to the 2% target wi
 
 ## 尼尔·卡什卡利（Neel Kashkari）
 
@@ -291,65 +219,61 @@
 ## 杰弗里·施密德（Jeffrey R. Schmid）
 
 - **International | Kansas City Fed President Schmid: Inflation Remains Overheated, Fed Needs to Do More**（2026-11-16 08:04）
-  来源: longbridge | 正文长度: 633 字 | 立场: 鹰 +0.90
+  来源: longbridge（同日 3 条已合并） | 正文长度: 633 字 | 立场: 鹰 +0.81
   片段: …Kansas City Fed President Schmid said U.S. inflation remains overheated, citing September PCE inflation at 3.6% year-on-year and core at 3.1%, well above the Fe
 
-- **Fed’s Schmid warns inflation fight has grown harder**（2026-11-16 05:25）
-  来源: longbridge | 正文长度: 466 字 | 立场: 鹰 +0.80
-  片段: …Kansas City Fed President Jeff Schmid warned the inflation fight has become harder, citing energy costs, tariffs, AI investment, and healthcare as drivers. Core
+- **施密德：美联储在压低通胀方面仍有工作要做**（2026-11-15 18:42）
+  来源: telegram:Financial_Express（同日 3 条已合并） | 正文长度: 135 字 | 立场: 鹰 +0.73
+  片段: …Fed Governor Schmid said inflation is running too hot and policymakers still have more work to do. The Fed’s preferred inflation gauge rose 3.6% year-over-year 
 
-- **Fed's Schmid: The Federal Reserve Still Has Work to Do in Bringing Down Inflation**（2026-11-16 02:44）
-  来源: longbridge | 正文长度: 638 字 | 立场: 鹰 +0.72
-  片段: …Kansas City Fed President Jeffrey Schmid said inflation remains too hot and the Fed still has work to do, noting September core inflation was above the 2% targe
+- **堪萨斯城联储主席施密德表示，美联储仍未战胜通胀这一敌人。**（2026-11-12 18:46）
+  来源: telegram:Financial_Express（同日 2 条已合并） | 正文长度: 28 字 | 立场: 鹰 +0.50
+  片段: …堪萨斯城联储主席施密德表示，美联储仍未战胜通胀这一敌人。
 
-- **美联储施密德**（2026-11-15 22:36）
-  来源: telegram:Financial_Express | 正文长度: 30 字
-  片段: …美联储官员施密德表示，美联储的职责不是影响任何单一商品或服务的价格。该表态意味着美联储不会以个别商品或服务价格为目标，政策关注点仍在整体通胀与货币政策职责。
-
-- **美联储施密德：通胀仍过高 美联储还有工作要做**（2026-11-15 18:46）
-  来源: telegram:Financial_Express | 正文长度: 371 字 | 立场: 鹰 +0.70
-  片段: …堪萨斯城联储主席施密德11月16日表示，美国通胀仍“令人不安地”高于2%目标且正朝错误方向发展，美联储在控制通胀方面仍有工作要做，并拥有通过影响需求来应对的政策工具和责任。他反驳将通胀归因于供给冲击、或认为AI基础设施建设等需求对货币政策不敏感的观点，强调需求始终是通胀因素。其表态偏鹰，强化市场对美联储维持紧缩或谨慎降
+- **美联储施密德：当前利率水平相当宽松 通胀仍是首要关注问题**（2026-11-10 19:09）
+  来源: telegram:Financial_Express | 正文长度: 160 字 | 立场: 鹰 +0.82
+  片段: …美联储施密德：当前利率水平相当宽松 通胀仍是首要关注问题 金十数据 11 月 11 日讯，堪萨斯城联储主席杰夫·施密德周二表示，通胀是美联储当前最关注的问题，并暗示支持收紧货币政策以控制通胀。他表示，自己去年就不认为当时的利率具有足够限制性，如今的利率水平也“相当宽松”，目前重点是评估货币政策如何更有效地影响通胀走势。
 
 ## 洛里·洛根（Lorie K. Logan）
 
 - **Fed's Logan: U.S. Treasury Market Functioning Well, Fed Needs to Strengthen Support Tools**（2026-11-13 22:49）
-  来源: longbridge | 正文长度: 725 字 | 立场: 鹰 +0.40
+  来源: longbridge / telegram:Financial_Express（同日 6 条已合并） | 正文长度: 725 字 | 立场: 鹰 +0.38
   片段: …Fed's Logan: U.S. Treasury Market Functioning Well, Fed Needs to Strengthen Support Tools Dallas Fed President Logan stated at the Dallas Fed Bank Funding Confe
 
-- **Logan says Treasury market functioning 'very well,' Fed needs to strengthen support tools**（2026-11-13 22:40）
-  来源: longbridge | 正文长度: 89 字
-  片段: …Logan says Treasury market functioning 'very well,' Fed needs to strengthen support tools
+- **Fed's Logan Calls for Two More Rate Hikes to Curb Inflation**（2026-11-11 00:10）
+  来源: longbridge | 正文长度: 560 字 | 立场: 鹰 +0.90
+  片段: …Fed's Logan Calls for Two More Rate Hikes to Curb Inflation Dallas Fed President Lorie Logan called for the Federal Reserve to raise interest rates two more tim
 
-- **美国达拉斯联储主席洛丽·洛根表示，美联储应将为维持市场正常运作而购买的资产，与为货币政策操作而持有的资产区分开来，以便在金融市场承压时期更清楚地传达其意图。**（2026-11-13 15:23）
-  来源: telegram:Financial_Express | 正文长度: 241 字
-  片段: …美国达拉斯联储主席洛丽·洛根表示，美联储应将为维持市场正常运作而购买的资产，与为货币政策操作而持有的资产区分开来，以便在金融市场承压时期更清楚地传达其意图。 “防止维持市场运作的购债行动带来不必要刺激的方式之一，是让联邦公开市场委员会(FOMC)将所购证券存放在单独账户中，并承诺尽快将其出售，”洛根在为达拉斯联储联合主
+- **美联储洛根：美联储至少还需加息两次 每次 25 个基点**（2026-11-10 15:53）
+  来源: longbridge / telegram:Financial_Express（同日 6 条已合并） | 正文长度: 257 字 | 立场: 鹰 +0.86
+  片段: …美联储洛根：美联储至少还需加息两次 每次 25 个基点 金十数据 11 月 10 日讯，美联储洛根最新发表讲话：“过度通胀是不可接受的。今年冬季美联储可能以比迄今为止更快的速度加息。明显美联储至少还需加息两次，每次 25 个基点。再加息两次后，暂停并评估可能需要采取的进一步行动是合理的。目前美联储政策利率至少比适度限制
 
-- **美联储洛根：美债市场运行良好，美联储需加强支持工具**（2026-11-13 14:49）
-  来源: telegram:Financial_Express | 正文长度: 227 字 | 立场: 鹰 +0.35
-  片段: …美联储洛根：美债市场运行良好，美联储需加强支持工具 金十数据 11 月 13 日讯，达拉斯联储主席洛根周五在达拉斯联储银行融资会议上发表讲话时表示，尽管经历了几轮利率波动，但美国国债市场运行“非常好”，且银行在过去三年中改善了获取应急资金的能力。尽管如此，美联储仍应采取步骤，加强其在这两个领域的支持工具。“尤其是在看起
+- **Federal Reserve Officials Turn Hawkish in Succession: Logan Forecasts at Least Two More Rate Hikes, Musalem Urges Swift Action**（2026-10-31 08:06）
+  来源: longbridge（同日 2 条已合并） | 正文长度: 666 字 | 立场: 鹰 +0.88
+  片段: …Federal Reserve Officials Turn Hawkish in Succession: Logan Forecasts at Least Two More Rate Hikes, Musalem Urges Swift Action Following the Federal Reserve's d
 
-- **美联储洛根**（2026-11-13 14:43）
-  来源: telegram:Financial_Express | 正文长度: 47 字
-  片段: …美联储洛根：目前美国国债市场运行状况非常良好，即使在利率大幅波动的情况下，交易活动仍保持平稳。
+- **美联储洛根：美联储至少还需加息两次、累计 50 个基点**（2026-10-30 17:42）
+  来源: telegram:Financial_Express | 正文长度: 493 字 | 立场: 鹰 +0.95
+  片段: …美联储洛根：美联储至少还需加息两次、累计 50 个基点 金十数据 10 月 31 日讯，达拉斯联储主席洛根周五表示，当前经济前景下，美联储至少还需要两次各 25 个基点的加息，使政策利率累计提高 50 个基点，随后暂停加息并评估经济及金融形势，以决定下一步行动。洛根本周参与美联储 10 比 2 的投票，支持维持联邦基金
 
 ## 玛丽·戴利（Mary C. Daly）
 
-- **Fed's Daly: Inflation Continues to Worsen, Further Rate Hikes Likely Necessary**（2026-11-14 02:50）
-  来源: longbridge | 正文长度: 1461 字 | 立场: 鹰 +0.85
-  片段: …Fed's Daly: Inflation Continues to Worsen, Further Rate Hikes Likely Necessary Mary Daly, President of the Federal Reserve Bank of San Francisco, stated on Frid
-
 - **Fed's Daly: In all likelihood, we need to raise rates**（2026-11-14 01:23）
-  来源: longbridge | 正文长度: 398 字 | 立场: 鹰 +0.95
+  来源: longbridge（同日 2 条已合并） | 正文长度: 398 字 | 立场: 鹰 +0.90
   片段: …Fed's Daly: In all likelihood, we need to raise rates Hard to say policy is restrictive enoughIn all likelihood, we will need to raise ratesA myriad of things a
 
 - **美联储戴利：通胀持续恶化 进一步加息很可能有必要**（2026-11-13 18:50）
-  来源: telegram:Financial_Express | 正文长度: 427 字 | 立场: 鹰 +0.90
+  来源: longbridge / telegram:Financial_Express（同日 4 条已合并） | 正文长度: 427 字 | 立场: 鹰 +0.69
   片段: …美联储戴利：通胀持续恶化 进一步加息很可能有必要 金十数据 11 月 14 日讯，美联储旧金山联储主席戴利周五表示，鉴于通胀形势恶化，美联储很可能需要进一步加息。她指出，核心 CPI 连续三个月环比上涨约 0.3%，高于与美联储 2%通胀目标相符的 0.2%或以下水平。她尤其担忧剔除住房后的服务业通胀走势不佳，因为这类
 
-- **美联储戴利**（2026-11-13 17:49）
-  来源: telegram:Financial_Express | 正文长度: 32 字 | 立场: 鸽 -0.40
-  片段: …美联储戴利：刚刚开始收到信号，美国消费者的消费动力可能已经不足。
+- **美联储戴利：进一步加息可能是抑制通胀所必需的**（2026-11-12 20:51）
+  来源: telegram:Financial_Express（同日 5 条已合并） | 正文长度: 339 字 | 立场: 鹰 +0.80
+  片段: …美联储戴利：进一步加息可能是抑制通胀所必需的 金十数据 11 月 13 日讯，美联储旧金山联储主席戴利周四表示，进一步收紧货币政策可能是降低通胀所必需的，因为通胀压力持续存在，且并非仅集中在受关税或油价直接影响的行业。她表示，越来越多企业告知她，计划将更高的投入成本转嫁给消费者，企业上调价格的意愿正在增强。戴利表示，她
 
-- **美国旧金山联储主席戴利**（2026-11-13 17:23）
-  来源: telegram:Financial_Express | 正文长度: 46 字 | 立场: 鹰 +0.90
-  片段: …美国旧金山联储主席戴利：（重申）我们很可能不得不加息。 现在很难说利率是否具有足够的限制性。
+- **Fed's Daly: Ready to Raise Rates Further if Necessary, Emphasizes Prudent Policy Decisions**（2026-11-07 02:10）
+  来源: longbridge | 正文长度: 412 字 | 立场: 鹰 +0.72
+  片段: …Fed's Daly: Ready to Raise Rates Further if Necessary, Emphasizes Prudent Policy Decisions San Francisco Fed President Mary Daly stated that the Federal Reserve
+
+- **美联储戴利：如有需要准备进一步加息 强调政策决策需审慎**（2026-11-06 18:10）
+  来源: telegram:Financial_Express | 正文长度: 134 字 | 立场: 鹰 +0.60
+  片段: …美联储戴利：如有需要准备进一步加息 强调政策决策需审慎 金十数据 11 月 7 日讯，旧金山联储主席戴利（Mary Daly）表示，如有需要，美联储准备进一步加息，当前仍需收紧货币政策，但具体还需收紧多少、何时采取行动，仍需更多信息判断。戴利强调，美联储必须审慎行事。
