@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读数据：`GET /api/fomc/members`、`GET /api/fomc/meetings`、Agent 工具 `query_fomc_members`。
-> 生成时间：2026-11-16 20:03 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
+> 生成时间：2026-11-16 20:04 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
 > 「最新言论/立场」来自 `fomc_member_statements`（每条可追溯 raw_items）；「鹰/鸽」来自 D137 stance 快照（LLM 分类）；「综合」来自 D138 记分卡（0.6×投票 + 0.4×言论，附样本量与状态）。
 
 ---
@@ -29,10 +29,8 @@
 | 成员 | 投票轴 | 言论轴 | 差值 | 判定 |
 |------|--------|--------|------|------|
 | 贝丝·哈马克 | +0.15 | +0.78 | -0.63 | 言论比投票更鹰（表态强于行动） |
-| 安娜·保尔森 | +0.04 | +0.87 | -0.83 | 言论比投票更鹰（表态强于行动） |
 | 洛里·洛根 | +0.06 | +0.84 | -0.78 | 言论比投票更鹰（表态强于行动） |
 | 尼尔·卡什卡利 | +0.06 | +0.76 | -0.70 | 言论比投票更鹰（表态强于行动） |
-| 约翰·威廉姆斯 | -0.05 | +0.68 | -0.73 | 言论比投票更鹰（表态强于行动） |
 | 克里斯托弗·沃勒 | -0.09 | +0.40 | -0.48 | 言论比投票更鹰（表态强于行动） |
 
 ## 当前委员会成员
@@ -48,8 +46,8 @@
 | 杰罗姆·鲍威尔 | Jerome H. Powell | 理事 / Board of Governors（常任票委） | 数据缺失 | — | （-0.03，投 -0.05，言 +0.00，n=14/样本薄） |
 | 莉萨·库克 | Lisa D. Cook | 理事 / Board of Governors（常任票委） | 数据缺失 | —（低置信 +0.13） ⚠️shift_to_neutral | （+0.07，投 +0.04，言 +0.12，n=20/样本薄） |
 | 迈克尔·巴尔 | Michael S. Barr | 理事 / Board of Governors（常任票委） | 2026-11-16 telegram:Financial_Express：美联储理事巴尔：AI 智能体可能加剧未来的银行挤兑 | 鹰（+0.71/0.25） | （+0.04，投 -0.05，言 +0.19，n=20） |
-| 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-13 longbridge：Fed's Williams says central bank has 'work to do' to get inflation back on target | 鹰（+0.62/0.28） | （+0.24，投 -0.05，言 +0.68，n=10/样本薄） ⚠️言行不一 |
-| 安娜·保尔森 | Anna Paulson | 费城联储主席（2026 票委；下次 2029） | 2026-11-11 longbridge：Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target | 鹰（+0.79/0.63） | （+0.37，投 +0.04，言 +0.87，n=9/样本薄） ⚠️言行不一 |
+| 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-13 longbridge：Fed's Williams says central bank has 'work to do' to get inflation back on target | 鹰（+0.62/0.28） | （+0.24，投 -0.05，言 +0.68，n=10/样本薄） |
+| 安娜·保尔森 | Anna Paulson | 费城联储主席（2026 票委；下次 2029） | 2026-11-11 longbridge：Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target | 鹰（+0.79/0.63） | （+0.37，投 +0.04，言 +0.87，n=9/样本薄） |
 | 贝丝·哈马克 | Beth M. Hammack | 克利夫兰联储主席（2026 票委；下次 2028） | 2026-11-12 longbridge：Fed's Hammack: Further Rate Hikes Needed to Curb Inflation | 鹰（+0.77/1.00） | （+0.40，投 +0.15，言 +0.78，n=16） ⚠️言行不一 |
 | 尼尔·卡什卡利 | Neel Kashkari | 明尼阿波利斯联储主席（2026 票委；下次 2029） | 数据缺失 | 鹰（+0.88/0.21） | （+0.34，投 +0.06，言 +0.76，n=10/样本薄） ⚠️言行不一 |
 | 洛里·洛根 | Lorie K. Logan | 达拉斯联储主席（2026 票委；下次 2029） | 2026-11-13 longbridge：Fed's Logan: U.S. Treasury Market Functioning Well, Fed Needs to Strengthen Support Tools | 鹰（+0.84/1.00） | （+0.37，投 +0.06，言 +0.84，n=13） ⚠️言行不一 |
@@ -62,8 +60,8 @@
 | 中文名 | 姓名 | 职位/机构 | 最新言论/立场（日期+来源） | 鹰/鸽 | 综合（投票/言论/样本） |
 |--------|------|----------|--------------------------|--------|------------------------|
 | 苏珊·柯林斯 | Susan M. Collins | 波士顿联储主席（非 2026 票委；2028 轮值票委） | 2026-11-14 longbridge：Fed's Collins: Steady, Gradual Interest Rate Hikes Are Appropriate | 鹰（+0.74/0.63） | （+0.11，投 -0.30，言 +0.72，n=4/样本薄） |
-| 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-13 longbridge：Fed's Williams says central bank has 'work to do' to get inflation back on target | 鹰（+0.62/0.28） | （+0.24，投 -0.05，言 +0.68，n=10/样本薄） ⚠️言行不一 |
-| 安娜·保尔森 | Anna Paulson | 费城联储主席（2026 票委；下次 2029） | 2026-11-11 longbridge：Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target | 鹰（+0.79/0.63） | （+0.37，投 +0.04，言 +0.87，n=9/样本薄） ⚠️言行不一 |
+| 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-13 longbridge：Fed's Williams says central bank has 'work to do' to get inflation back on target | 鹰（+0.62/0.28） | （+0.24，投 -0.05，言 +0.68，n=10/样本薄） |
+| 安娜·保尔森 | Anna Paulson | 费城联储主席（2026 票委；下次 2029） | 2026-11-11 longbridge：Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target | 鹰（+0.79/0.63） | （+0.37，投 +0.04，言 +0.87，n=9/样本薄） |
 | 贝丝·哈马克 | Beth M. Hammack | 克利夫兰联储主席（2026 票委；下次 2028） | 2026-11-12 longbridge：Fed's Hammack: Further Rate Hikes Needed to Curb Inflation | 鹰（+0.77/1.00） | （+0.40，投 +0.15，言 +0.78，n=16） ⚠️言行不一 |
 | 托马斯·巴尔金 | Thomas I. Barkin | 里士满联储主席（非 2026 票委；2027 轮值票委） | 2026-11-10 longbridge：Two Federal Reserve Officials Strike Hawkish Tone: Barkin Says Direction of Rate Hikes Is … | 鹰（+0.61/0.83） | （+0.28，投 —，言 +0.28，n=5/样本薄） |
 | 谢丽尔·维纳布尔 | Cheryl Venable | 亚特兰大联储主席（非 2026 票委；2027 轮值票委） | 数据缺失 | — | （+0.00，投 —，言 +0.00，n=1/样本薄） |
