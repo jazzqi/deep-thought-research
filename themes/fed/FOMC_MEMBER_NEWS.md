@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-16 20:45 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
+> 生成时间：2026-11-16 21:01 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
@@ -139,7 +139,7 @@
 ## 贝丝·哈马克（Beth M. Hammack）
 
 - **Federal Reserve's Hammack Reiterates Support for Small, Gradual Interest Rate Hikes**（2026-11-17 03:43）
-  来源: longbridge | 正文长度: 1011 字
+  来源: longbridge | 正文长度: 1011 字 | 立场: 鹰 +0.90
   片段: …Federal Reserve's Hammack Reiterates Support for Small, Gradual Interest Rate Hikes Beth Hammack, President of the Federal Reserve Bank of Cleveland, reiterated
 
 - **美联储哈马克**（2026-11-16 19:51）
