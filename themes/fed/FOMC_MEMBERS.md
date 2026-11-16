@@ -19,16 +19,16 @@
 
 | 中文名 | 姓名 | 职位/机构 | 最新言论/立场（日期+来源） | 鹰/鸽 |
 |--------|------|----------|--------------------------|--------|
-| 凯文·沃什 | Kevin Warsh | Chairman / Board of Governors（常任票委） | 2026-11-06 longbridge：Warsh Pushes for Reform of Federal Reserve Meeting Mechanism: Fewer Rate Decisions, More S… | — |
-| 约翰·威廉姆斯 | John C. Williams | Vice Chair / New York（常任票委） | 2026-11-13 longbridge：Fed's Williams says central bank has 'work to do' to get inflation back on target | — |
+| 凯文·沃什 | Kevin Warsh | 主席 / Board of Governors（常任票委） | 2026-11-06 longbridge：Warsh Pushes for Reform of Federal Reserve Meeting Mechanism: Fewer Rate Decisions, More S… | — |
+| 约翰·威廉姆斯 | John C. Williams | 副主席 / 纽约（常任票委） | 2026-11-13 longbridge：Fed's Williams says central bank has 'work to do' to get inflation back on target | — |
 | 迈克尔·巴尔 | Michael S. Barr | 理事 / Board of Governors（常任票委） | 2026-11-12 longbridge：Fed's Barr: US should prepare for "serious" AI job disruption, widening inequality | — |
 | 米歇尔·鲍曼 | Michelle W. Bowman | 理事 / Board of Governors（常任票委） | 2026-11-11 longbridge：Fed's Bowman Assessment: Inflation is Widening, Another Rate Hike Possible This Year; US S… | — |
 | 莉萨·库克 | Lisa D. Cook | 理事 / Board of Governors（常任票委） | 数据缺失 | — |
-| 贝丝·哈马克 | Beth M. Hammack | Cleveland联储主席 / Cleveland（2026 轮值票委） | 2026-11-12 longbridge：Fed's Hammack: Further Rate Hikes Needed to Curb Inflation | — |
+| 贝丝·哈马克 | Beth M. Hammack | 克利夫兰联储主席（2026 轮值票委） | 2026-11-12 longbridge：Fed's Hammack: Further Rate Hikes Needed to Curb Inflation | — |
 | 菲利普·杰斐逊 | Philip N. Jefferson | 理事 / Board of Governors（常任票委） | 2026-11-14 longbridge：Fed Vice Chair Jefferson: Inflation Will Determine Interest Rate Decisions | — |
-| 尼尔·卡什卡利 | Neel Kashkari | Minneapolis联储主席 / Minneapolis（2026 轮值票委） | 2026-10-02 telegram:Financial_Express：美联储官员卡什卡利：人工智能并非推动美国经济增长的唯一动力 | — |
-| 洛里·洛根 | Lorie K. Logan | Dallas联储主席 / Dallas（2026 轮值票委） | 2026-11-13 longbridge：Fed's Logan: U.S. Treasury Market Functioning Well, Fed Needs to Strengthen Support Tools | — |
-| 安娜·保尔森 | Anna Paulson | Philadelphia联储主席 / Philadelphia（2026 轮值票委） | 2026-11-11 longbridge：Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target | — |
+| 尼尔·卡什卡利 | Neel Kashkari | 明尼阿波利斯联储主席（2026 轮值票委） | 2026-10-02 telegram:Financial_Express：美联储官员卡什卡利：人工智能并非推动美国经济增长的唯一动力 | — |
+| 洛里·洛根 | Lorie K. Logan | 达拉斯联储主席（2026 轮值票委） | 2026-11-13 longbridge：Fed's Logan: U.S. Treasury Market Functioning Well, Fed Needs to Strengthen Support Tools | — |
+| 安娜·保尔森 | Anna Paulson | 费城联储主席（2026 轮值票委） | 2026-11-11 longbridge：Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target | — |
 | 杰罗姆·鲍威尔 | Jerome H. Powell | 理事 / Board of Governors（常任票委） | 数据缺失 | — |
 | 克里斯托弗·沃勒 | Christopher J. Waller | 理事 / Board of Governors（常任票委） | 2026-11-11 longbridge：Fed Governor Waller: Supports a One-Time 50-Basis-Point Rate Hike if Inflation Accelerates… | — |
 
