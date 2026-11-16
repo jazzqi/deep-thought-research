@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读数据：`GET /api/fomc/members`、`GET /api/fomc/meetings`、Agent 工具 `query_fomc_members`。
-> 生成时间：2026-11-16 14:04 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
+> 生成时间：2026-11-16 14:10 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
 > 「最新言论/立场」来自 `fomc_member_statements`（每条可追溯 raw_items）；「鹰/鸽」来自 D137 stance 快照（LLM 分类，带分数/置信度）。
 
 ---
@@ -11,9 +11,9 @@
 
 | 日期 | 成员 | 变化 | Δ分 | 级别 | 依据 |
 |------|------|------|-----|------|------|
-| 2026-11-16 | 米歇尔·鲍曼 | neutral→hawkish | +0.45 | medium | [冷启动基线] neutral→hawkish，分数 0.05→0.50（Δ+0.45）；近 30 天高置信支持言论 2 条 |
-| 2026-11-16 | 菲利普·杰斐逊 | neutral→hawkish | +0.28 | medium | [冷启动基线] neutral→hawkish，分数 0.25→0.53（Δ+0.28）；近 30 天高置信支持言论 3 条 |
-| 2026-11-16 | 克里斯托弗·沃勒 | dovish→hawkish | +1.36 | high | dovish→hawkish，分数 -0.60→0.76（Δ+1.36）；近 30 天高置信支持言论 10 条 |
+| 2026-11-16 | 米歇尔·鲍曼 | 中性→鹰 | +0.45 | medium | [冷启动基线] neutral→hawkish，分数 0.05→0.50（Δ+0.45）；近 30 天高置信支持言论 2 条 |
+| 2026-11-16 | 菲利普·杰斐逊 | 中性→鹰 | +0.28 | medium | [冷启动基线] neutral→hawkish，分数 0.25→0.53（Δ+0.28）；近 30 天高置信支持言论 3 条 |
+| 2026-11-16 | 克里斯托弗·沃勒 | 鸽→鹰 | +1.36 | high | dovish→hawkish，分数 -0.60→0.76（Δ+1.36）；近 30 天高置信支持言论 10 条 |
 
 ## 当前委员会成员
 
