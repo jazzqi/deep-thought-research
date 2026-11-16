@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-16 17:09 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。
+> 生成时间：2026-11-16 20:03 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
@@ -286,9 +286,7 @@
 
 ## 尼尔·卡什卡利（Neel Kashkari）
 
-- **美联储官员卡什卡利：人工智能并非推动美国经济增长的唯一动力**（2026-10-02 18:41）
-  来源: telegram:Financial_Express | 正文长度: 261 字
-  片段: …Minneapolis Fed President Neel Kashkari expressed skepticism toward the view that the U.S. economy is shrinking outside of the AI-related construction boom. Spe
+数据缺失（近 45 天无可靠归属的讲话/表态）
 
 ## 杰弗里·施密德（Jeffrey R. Schmid）
 
