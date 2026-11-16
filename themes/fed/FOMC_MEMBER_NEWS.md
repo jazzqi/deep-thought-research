@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-16 20:11 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
+> 生成时间：2026-11-16 20:45 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
@@ -31,6 +31,14 @@
 数据缺失（近 45 天无可靠归属的讲话/表态）
 
 ## 凯文·沃什（Kevin Warsh）
+
+- **Fed Chair Kevin Warsh: Three Scenarios Show How Superintelligence Impacts US Economy and Employment**（2026-11-17 03:22）
+  来源: longbridge（同日 2 条已合并） | 正文长度: 575 字
+  片段: …Fed Chair Kevin Warsh: Three Scenarios Show How Superintelligence Impacts US Economy and Employment Fed Chair Kevin Warsh outlined three scenarios on how superi
+
+- **美联储推演 AI 对经济潜在影响 主席沃什称涵盖多重情景**（2026-11-16 17:35）
+  来源: federalreserve.gov / telegram:Financial_Express（同日 4 条已合并） | 正文长度: 274 字
+  片段: …美联储推演 AI 对经济潜在影响 主席沃什称涵盖多重情景 美联储主席凯文·沃什表示，美联储工作人员已开始推演 AI 加速普及可能对美国经济产生影响的不同情景。沃什周一在为旧金山联储一场活动准备的讲话中表示，其中一种情景是 AI 推动经济增长和生产率提升，带来雇主和劳动者共享收益的繁荣。他描述的第二种情景是经济活动增加带
 
 - **Warsh Pushes for Reform of Federal Reserve Meeting Mechanism: Fewer Rate Decisions, More Strategic Discussions**（2026-11-06 20:01）
   来源: longbridge | 正文长度: 617 字
@@ -130,6 +138,14 @@
 
 ## 贝丝·哈马克（Beth M. Hammack）
 
+- **Federal Reserve's Hammack Reiterates Support for Small, Gradual Interest Rate Hikes**（2026-11-17 03:43）
+  来源: longbridge | 正文长度: 1011 字
+  片段: …Federal Reserve's Hammack Reiterates Support for Small, Gradual Interest Rate Hikes Beth Hammack, President of the Federal Reserve Bank of Cleveland, reiterated
+
+- **美联储哈马克**（2026-11-16 19:51）
+  来源: telegram:Financial_Express（同日 2 条已合并） | 正文长度: 21 字
+  片段: …美联储哈马克：沟通是美联储工作的关键部分。
+
 - **Fed's Hammack: Further Rate Hikes Needed to Curb Inflation**（2026-11-12 23:44）
   来源: longbridge / telegram:Financial_Express（同日 8 条已合并） | 正文长度: 511 字 | 立场: 鹰 +0.69
   片段: …Fed's Hammack: Further Rate Hikes Needed to Curb Inflation Beth Hammack, President of the Federal Reserve Bank of Cleveland, stated that the progress in reducin
@@ -141,14 +157,6 @@
 - **Fed's Hammack Reiterates Case for Gradual Rate Hikes: Is December Federal Funds Futures Pricing Overly Optimistic?**（2026-11-05 22:11）
   来源: longbridge / telegram:Financial_Express（同日 2 条已合并） | 正文长度: 668 字 | 立场: 鹰 +0.93
   片段: …Fed's Hammack Reiterates Case for Gradual Rate Hikes: Is December Federal Funds Futures Pricing Overly Optimistic? Cleveland Fed President Beth Hammack advocate
-
-- **Fed's Hammack: Deteriorating Inflation Expectations May Force the Fed to Take More Aggressive Action**（2026-10-16 05:38）
-  来源: longbridge（同日 2 条已合并） | 正文长度: 603 字 | 立场: 鹰 +0.63
-  片段: …Cleveland Fed President Hammack warned Thursday that deteriorating public inflation expectations could force the Federal Reserve to act more aggressively. She s
-
-- **美联储哈马克：接二连三的供应冲击可能引发通胀思维**（2026-10-15 22:01）
-  来源: telegram:Financial_Express | 正文长度: 318 字 | 立场: 鹰 +0.70
-  片段: …美联储哈马克：接二连三的供应冲击可能引发通胀思维 克利夫兰联邦储备银行行长贝丝·哈马克表示，她担心接二连三的供应冲击可能会导致企业形成通胀思维，从而加大政策制定者遏制价格压力的难度。“企业正感受到很大的投入成本压力。他们看到价格继续以比过去习惯的速度更快地上涨，”哈马克在纽约由高盛主办的一场活动上表示。“我担心的一件事
 
 ## 托马斯·巴尔金（Thomas I. Barkin）
 
