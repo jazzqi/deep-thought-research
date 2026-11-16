@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读数据：`GET /api/fomc/members`、`GET /api/fomc/meetings`、Agent 工具 `query_fomc_members`。
-> 生成时间：2026-11-16 16:59 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
+> 生成时间：2026-11-16 17:09 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
 > 「最新言论/立场」来自 `fomc_member_statements`（每条可追溯 raw_items）；「鹰/鸽」来自 D137 stance 快照（LLM 分类）；「综合」来自 D138 记分卡（0.6×投票 + 0.4×言论，附样本量与状态）。
 
 ---
@@ -17,11 +17,11 @@
 
 ## 委员会综合立场（D138 记分卡）
 
-> 口径：`综合 = 0.6×投票 + 0.4×言论`；`近期 = 最近 12 个点`；`长期 = 730 天 / τ365`。仅统计当前票委。
+> 口径：`综合 = 0.6×投票 + 0.4×言论`；`近期 = 365 天内最近 12 点 EMA`；`长期 = 730 天 / τ365`。仅统计当前票委。
 
 | 口径 | 综合 | 投票轴 | 言论轴 | 票委数 |
 |------|------|--------|--------|--------|
-| 近期（12 点） | 0.137 | 0.002 | 0.341 | 12 |
+| 近期（365d EMA） | 0.137 | 0.002 | 0.341 | 12 |
 | 长期（730d） | 0.111 | 0.017 | 0.252 | 12 |
 
 ### 言行不一（投票 vs 言论）
