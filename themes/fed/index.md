@@ -129,6 +129,26 @@ sources:
 | 2026 年末利率 | 4.125%（4.00–4.25%） | 4.00–4.25%（FedWatch 25bp 概率 95%，[id:781351]） | 中枢一致；我们 12% 的 50bp 尾部意味着点阵**鹰尾风险**高于市场想象 |
 | 2027-01 累计 | +50bp 概率约 60% | +50bp 概率 71.1%（[id:781254]） | 市场把连加惯性定价得比推算更满 |
 
+### 3c. 地区联储主席监测（全部 12 位，含非票委）
+
+> 所有地区联储主席都参加 FOMC 讨论并提交 SEP 预测；非票委无投票权，但其言论是**未来轮值投票/政策转向的先行信号**。
+> 倾向仅据近期言论标题关键词（未经逐条人工核验），原文见 `FOMC_MEMBER_NEWS.md`；名单/票委状态来自 `/api/fomc/members`（DB）。
+
+| 成员 | 联储 | 2026 票委/下次轮值 | 近期言论（日期+来源） | 倾向（据标题） | 对转向的信号含义 |
+|------|------|--------------------|----------------------|----------------|------------------|
+| 苏珊·柯林斯 | 波士顿 | 非 2026 票委；2028 轮值票委 | 2026-11-14 longbridge：Fed's Collins: Steady, Gradual Interest Rate Hikes Are Appropriate | 偏鹰（标题明示） | 非 2026 票委（2028 轮值）；言论是未来投票倾向的先行信号 |
+| 约翰·威廉姆斯 | 纽约 | 常任票委 | 2026-11-13 longbridge：Fed's Williams says central bank has 'work to do' to get inflation bac… | — | 2026 有投票权，直接影响 12 月决议 |
+| 安娜·保尔森 | 费城 | 2026 票委；下次 2029 | 2026-11-11 longbridge：Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back… | 偏鹰（标题明示） | 2026 有投票权，直接影响 12 月决议 |
+| 贝丝·哈马克 | 克利夫兰 | 2026 票委；下次 2028 | 2026-11-12 longbridge：Fed's Hammack: Further Rate Hikes Needed to Curb Inflation | 偏鹰（标题明示） | 2026 有投票权，直接影响 12 月决议 |
+| 托马斯·巴尔金 | 里士满 | 非 2026 票委；2027 轮值票委 | 2026-11-10 longbridge：Two Federal Reserve Officials Strike Hawkish Tone: Barkin Says Directi… | 偏鹰（标题明示） | 非 2026 票委（2027 轮值）；言论是未来投票倾向的先行信号 |
+| 谢丽尔·维纳布尔 | 亚特兰大 | 非 2026 票委；2027 轮值票委 | 数据缺失 | — | 非 2026 票委（2027 轮值）；言论是未来投票倾向的先行信号 |
+| 奥斯坦·古尔斯比 | 芝加哥 | 非 2026 票委；2027 轮值票委 | 2026-11-13 longbridge：Fed's Goolsbee: US Inflation Issues Increasingly Severe, Further Actio… | — | 非 2026 票委（2027 轮值）；言论是未来投票倾向的先行信号 |
+| 阿尔贝托·穆萨莱姆 | 圣路易斯 | 非 2026 票委；2028 轮值票委 | 2026-11-06 longbridge：Fed's Musalem: Businesses say inflation remains top concern | — | 非 2026 票委（2028 轮值）；言论是未来投票倾向的先行信号 |
+| 尼尔·卡什卡利 | 明尼阿波利斯 | 2026 票委；下次 2029 | 2026-10-02 telegram:Financial_Express：美联储官员卡什卡利：人工智能并非推动美国经济增长的唯一动力 | — | 2026 有投票权，直接影响 12 月决议 |
+| 杰弗里·施密德 | 堪萨斯城 | 非 2026 票委；2028 轮值票委 | 2026-11-16 longbridge：International ／ Kansas City Fed President Schmid: Inflation Remains Ov… | 偏鹰（标题明示） | 非 2026 票委（2028 轮值）；言论是未来投票倾向的先行信号 |
+| 洛里·洛根 | 达拉斯 | 2026 票委；下次 2029 | 2026-11-13 longbridge：Fed's Logan: U.S. Treasury Market Functioning Well, Fed Needs to Stren… | — | 2026 有投票权，直接影响 12 月决议 |
+| 玛丽·戴利 | 旧金山 | 非 2026 票委；2027 轮值票委 | 2026-11-14 longbridge：Fed's Daly: Inflation Continues to Worsen, Further Rate Hikes Likely N… | 偏鹰（标题明示） | 非 2026 票委（2027 轮值）；言论是未来投票倾向的先行信号 |
+
 ### 4. 市场定价与业界看法
 
 **结论：** 市场已把 12 月 25bp 定价为既成事实（95%），并开始定价 1 月连加（71.1%），卖方一周内集体转鹰——我们与共识的偏差集中在「确定性」而非「方向」。
@@ -280,6 +300,7 @@ sources:
 
 ## 数据来源
 
+- 成员/票委/轮换/言论（§3 与 §3c）：`GET /api/fomc/members` / `GET /api/fomc/meetings`（DB 结构化，fomc_members / fomc_rotation / fomc_member_statements，D136）
 - 政策利率决议历史（7月9-3维持3.50-3.75%反对者Hammack/Kashkari/Logan要求加息；9月16日12-0加息至3.75-4.00%含SEP中值4.1%；10月28日10-2维持反对者Cook/Hammack要求加息）: query_fomc(lookback_days=120, lookahead_days=365, limit=20) = target_range 3.75–4.00% (as of 2026-10-28)
 - 未来FOMC会议（12/8-9 SEP会议、2027/1/26、3/16、4/27、6/8、7/27、9/14、10/26、11/16）: query_fomc(lookahead_days=365) = next_meeting 2026-12-08
 - 10月CPI环比0.4%（前值0.6%、预测0.3%）/核心CPI环比0.3%（前值0.3%、预测0.2%）/9月CPI同比3.7%: query_calendar_events(country=US, days=180, lookback_days=14, limit=200) = 2026-11-10发布；同比actual工具未返回⚠️（另一行返回0.17与叙事冲突，已标⚠️双口径）
@@ -343,6 +364,7 @@ sources:
 
 | 日期 | 操作者 | 变更摘要 |
 |------|--------|---------|
+| 2026-11-16 18:16 | 人工（D136） | 新增 §3c 地区联储主席监测（12 位，含非票委；来源 /api/fomc/members） |
 | 2026-11-16 16:02 | 人工（D135） | 数据校正：成员职衔（Hammack/Kashkari/Logan/Paulson/Jefferson/Bowman）、PPI 前值 1.3%、资产负债表 6.81 万亿（11-11）；清理过期分歧行与过期预测时间线 |
 | 2026-11-16 15:43 | theme_publish | 更新（12_fomc_fomc_readthemedocstool_themes_fed_template_md_v2_9_q） |
 | 2026-08-30 10:17 | theme_publish | 更新（theme_update） |

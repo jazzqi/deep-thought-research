@@ -1,46 +1,60 @@
 # FOMC 成员图谱（FOMC MEMBERS）
 
-> **本文件是美联储 FOMC 成员的官方追踪底稿**（来源：federalreserve.gov/monetarypolicy/fomc.htm）。
-> 数据抓取时间：2026-11-16（官网 Last Update：October 28, 2026）。
-> 「最新言论/立场」列由系统预采集或 agent 更新（带日期+来源，无可靠数据写「数据缺失」），
-> 后续分析（index.md 成员立场矩阵 / 点阵图推算 / 投票预测）以本图谱为锚点。
->
-> **使用规则**：
-> - **成员名单为官方权威**——委员会成员变动以 fomc.htm 为准，禁止凭空增删
-> - **票委/非票委**：Board of Governors（含主席）为常任票委；各联储主席按轮换表轮值票委（见文末）
-> - **「鹰/鸽」不由新闻标题自动推断**——无官方/人工依据时保持「—」
-> - 本图谱与 `template.md`（报告结构）配合：图谱回答「谁在委员会」，模板回答「怎么分析」
+> **本文件由数据库生成（D136），请勿手工编辑。**
+> 机器可读数据：`GET /api/fomc/members`、`GET /api/fomc/meetings`、Agent 工具 `query_fomc_members`。
+> 生成时间：2026-11-16 10:14 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
+> 「最新言论/立场」来自 `fomc_member_statements`（每条可追溯 raw_items）；「鹰/鸽」不自动推断。
 
 ---
 
 ## 当前委员会成员
 
-> 官方 `Committee Members` 即**当年 12 位 FOMC 票委**（7 理事 + 纽约联储主席 + 4 位轮值地区联储主席）；候补成员为非票委。
+> 当年 12 位 FOMC 票委（7 理事 + 纽约联储主席 + 4 位轮值地区联储主席）。
 
 | 中文名 | 姓名 | 职位/机构 | 最新言论/立场（日期+来源） | 鹰/鸽 |
 |--------|------|----------|--------------------------|--------|
 | 凯文·沃什 | Kevin Warsh | 主席 / Board of Governors（常任票委） | 2026-11-06 longbridge：Warsh Pushes for Reform of Federal Reserve Meeting Mechanism: Fewer Rate Decisions, More S… | — |
-| 约翰·威廉姆斯 | John C. Williams | 副主席 / 纽约（常任票委） | 2026-11-13 longbridge：Fed's Williams says central bank has 'work to do' to get inflation back on target | — |
-| 迈克尔·巴尔 | Michael S. Barr | 理事 / Board of Governors（常任票委） | 2026-11-12 longbridge：Fed's Barr: US should prepare for "serious" AI job disruption, widening inequality | — |
-| 米歇尔·鲍曼 | Michelle W. Bowman | 理事 / Board of Governors（常任票委） | 2026-11-11 longbridge：Fed's Bowman Assessment: Inflation is Widening, Another Rate Hike Possible This Year; US S… | — |
-| 莉萨·库克 | Lisa D. Cook | 理事 / Board of Governors（常任票委） | 数据缺失 | — |
-| 贝丝·哈马克 | Beth M. Hammack | 克利夫兰联储主席（2026 轮值票委） | 2026-11-12 longbridge：Fed's Hammack: Further Rate Hikes Needed to Curb Inflation | — |
-| 菲利普·杰斐逊 | Philip N. Jefferson | 理事 / Board of Governors（常任票委） | 2026-11-14 longbridge：Fed Vice Chair Jefferson: Inflation Will Determine Interest Rate Decisions | — |
-| 尼尔·卡什卡利 | Neel Kashkari | 明尼阿波利斯联储主席（2026 轮值票委） | 2026-10-02 telegram:Financial_Express：美联储官员卡什卡利：人工智能并非推动美国经济增长的唯一动力 | — |
-| 洛里·洛根 | Lorie K. Logan | 达拉斯联储主席（2026 轮值票委） | 2026-11-13 longbridge：Fed's Logan: U.S. Treasury Market Functioning Well, Fed Needs to Strengthen Support Tools | — |
-| 安娜·保尔森 | Anna Paulson | 费城联储主席（2026 轮值票委） | 2026-11-11 longbridge：Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target | — |
-| 杰罗姆·鲍威尔 | Jerome H. Powell | 理事 / Board of Governors（常任票委） | 数据缺失 | — |
+| 菲利普·杰斐逊 | Philip N. Jefferson | 副主席 / Board of Governors（常任票委） | 2026-11-14 longbridge：Fed Vice Chair Jefferson: Inflation Will Determine Interest Rate Decisions | — |
+| 米歇尔·鲍曼 | Michelle W. Bowman | 负责监管事务的副主席 / Board of Governors（常任票委） | 2026-11-11 longbridge：Fed's Bowman Assessment: Inflation is Widening, Another Rate Hike Possible This Year; US S… | — |
 | 克里斯托弗·沃勒 | Christopher J. Waller | 理事 / Board of Governors（常任票委） | 2026-11-11 longbridge：Fed Governor Waller: Supports a One-Time 50-Basis-Point Rate Hike if Inflation Accelerates… | — |
+| 杰罗姆·鲍威尔 | Jerome H. Powell | 理事 / Board of Governors（常任票委） | 数据缺失 | — |
+| 莉萨·库克 | Lisa D. Cook | 理事 / Board of Governors（常任票委） | 数据缺失 | — |
+| 迈克尔·巴尔 | Michael S. Barr | 理事 / Board of Governors（常任票委） | 2026-11-12 longbridge：Fed's Barr: US should prepare for "serious" AI job disruption, widening inequality | — |
+| 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-13 longbridge：Fed's Williams says central bank has 'work to do' to get inflation back on target | — |
+| 安娜·保尔森 | Anna Paulson | 费城联储主席（2026 票委；下次 2029） | 2026-11-11 longbridge：Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target | — |
+| 贝丝·哈马克 | Beth M. Hammack | 克利夫兰联储主席（2026 票委；下次 2028） | 2026-11-12 longbridge：Fed's Hammack: Further Rate Hikes Needed to Curb Inflation | — |
+| 尼尔·卡什卡利 | Neel Kashkari | 明尼阿波利斯联储主席（2026 票委；下次 2029） | 2026-10-02 telegram:Financial_Express：美联储官员卡什卡利：人工智能并非推动美国经济增长的唯一动力 | — |
+| 洛里·洛根 | Lorie K. Logan | 达拉斯联储主席（2026 票委；下次 2029） | 2026-11-13 longbridge：Fed's Logan: U.S. Treasury Market Functioning Well, Fed Needs to Strengthen Support Tools | — |
+
+## 地区联储主席（全部 12 位，含非 2026 票委）
+
+> 所有地区联储主席都参加 FOMC 讨论并提交 SEP 预测；**非票委的言论是
+> 判断未来投票倾向 / 政策转向的先行信号**，需持续跟踪。
+
+| 中文名 | 姓名 | 职位/机构 | 最新言论/立场（日期+来源） | 鹰/鸽 |
+|--------|------|----------|--------------------------|--------|
+| 苏珊·柯林斯 | Susan M. Collins | 波士顿联储主席（非 2026 票委；2028 轮值票委） | 2026-11-14 longbridge：Fed's Collins: Steady, Gradual Interest Rate Hikes Are Appropriate | — |
+| 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-13 longbridge：Fed's Williams says central bank has 'work to do' to get inflation back on target | — |
+| 安娜·保尔森 | Anna Paulson | 费城联储主席（2026 票委；下次 2029） | 2026-11-11 longbridge：Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target | — |
+| 贝丝·哈马克 | Beth M. Hammack | 克利夫兰联储主席（2026 票委；下次 2028） | 2026-11-12 longbridge：Fed's Hammack: Further Rate Hikes Needed to Curb Inflation | — |
+| 托马斯·巴尔金 | Thomas I. Barkin | 里士满联储主席（非 2026 票委；2027 轮值票委） | 2026-11-10 longbridge：Two Federal Reserve Officials Strike Hawkish Tone: Barkin Says Direction of Rate Hikes Is … | — |
+| 谢丽尔·维纳布尔 | Cheryl Venable | 亚特兰大联储主席（非 2026 票委；2027 轮值票委） | 数据缺失 | — |
+| 奥斯坦·古尔斯比 | Austan D. Goolsbee | 芝加哥联储主席（非 2026 票委；2027 轮值票委） | 2026-11-13 longbridge：Fed's Goolsbee: US Inflation Issues Increasingly Severe, Further Action Still Needed | — |
+| 阿尔贝托·穆萨莱姆 | Alberto G. Musalem | 圣路易斯联储主席（非 2026 票委；2028 轮值票委） | 2026-11-06 longbridge：Fed's Musalem: Businesses say inflation remains top concern | — |
+| 尼尔·卡什卡利 | Neel Kashkari | 明尼阿波利斯联储主席（2026 票委；下次 2029） | 2026-10-02 telegram:Financial_Express：美联储官员卡什卡利：人工智能并非推动美国经济增长的唯一动力 | — |
+| 杰弗里·施密德 | Jeffrey R. Schmid | 堪萨斯城联储主席（非 2026 票委；2028 轮值票委） | 2026-11-16 longbridge：International ／ Kansas City Fed President Schmid: Inflation Remains Overheated, Fed Needs … | — |
+| 洛里·洛根 | Lorie K. Logan | 达拉斯联储主席（2026 票委；下次 2029） | 2026-11-13 longbridge：Fed's Logan: U.S. Treasury Market Functioning Well, Fed Needs to Strengthen Support Tools | — |
+| 玛丽·戴利 | Mary C. Daly | 旧金山联储主席（非 2026 票委；2027 轮值票委） | 2026-11-14 longbridge：Fed's Daly: Inflation Continues to Worsen, Further Rate Hikes Likely Necessary | — |
 
 ## 候补成员（Alternates）
 
 | 中文名 | 姓名 | 职位/机构 |
 |--------|------|----------|
-| 托马斯·巴尔金 | Thomas I. Barkin | Richmond |
-| 玛丽·戴利 | Mary C. Daly | San Francisco |
-| 奥斯坦·古尔斯比 | Austan D. Goolsbee | Chicago |
-| 苏什米塔·舒克拉 | Sushmita Shukla | New York / First Vice President |
-| 谢丽尔·维纳布尔 | Cheryl Venable | Atlanta / Interim President |
+| 谢丽尔·维纳布尔 | Cheryl Venable | Interim President / Atlanta |
+| 奥斯坦·古尔斯比 | Austan D. Goolsbee | President / Chicago |
+| 苏什米塔·舒克拉 | Sushmita Shukla | First Vice President / New York |
+| 托马斯·巴尔金 | Thomas I. Barkin | President / Richmond |
+| 玛丽·戴利 | Mary C. Daly | President / San Francisco |
 
 ---
 
@@ -48,15 +62,15 @@
 
 | 年份 | 票委联储 | 候补 |
 |------|---------|------|
-| 2027 | New York, Chicago, Richmond, Atlanta, San Francisco | New York, Cleveland, Boston, St. Louis, Kansas City |
-| 2028 | New York, Cleveland, Boston, St. Louis, Kansas City | New York, Chicago, Philadelphia, Dallas, Minneapolis |
-| 2029 | New York, Chicago, Philadelphia, Dallas, Minneapolis | New York, Cleveland, Richmond, Atlanta, San Francisco |
+| 2027 | Atlanta, Chicago, New York, Richmond, San Francisco | Boston, Cleveland, Kansas City, New York, St. Louis |
+| 2028 | Boston, Cleveland, Kansas City, New York, St. Louis | Chicago, Dallas, Minneapolis, New York, Philadelphia |
+| 2029 | Chicago, Dallas, Minneapolis, New York, Philadelphia | Atlanta, Cleveland, New York, Richmond, San Francisco |
 
-> † 纽约联储以第一副主席作为主席的候补。
-> 注：Board of Governors（7 位）为常任票委；各联储主席按上表轮换。
+> 纽约联储以第一副主席作为主席的候补；理事为常任票委。
 
 ## 数据源
 
-- 成员名单 / 轮换表：federalreserve.gov/monetarypolicy/fomc.htm（官方）
+- 成员/投票权/轮换：federalreserve.gov/monetarypolicy/fomc.htm
+- 完整领导名单/Board 职衔：federalreservehistory.org/people/current-fed-leaders
+- 会议决议/票数：FOMC 声明原文 + FRED DFEDTARU/DFEDTARL
 - 成员言论：raw_items 预采集（`scripts/extract_fomc_member_news.py`）
-- 言论明细（日期+来源+片段）：`FOMC_MEMBER_NEWS.md`（每日 04:45 刷新）
