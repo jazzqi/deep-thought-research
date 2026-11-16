@@ -59,3 +59,4 @@
 
 - 成员名单 / 轮换表：federalreserve.gov/monetarypolicy/fomc.htm（官方）
 - 成员言论：raw_items 预采集（`scripts/extract_fomc_member_news.py`）
+- 言论明细（日期+来源+片段）：`FOMC_MEMBER_NEWS.md`（每日 04:45 刷新）

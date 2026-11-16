@@ -301,7 +301,7 @@ sources:
 - 机构：CPI与PPI定调PCE、整体物价高企强化加息预期: query_raw_items[ id:775518 ] = 2026-11-13
 - 策略师：鹰派加息利好美元但易受预期重置冲击: query_raw_items[ id:775065 ] = 2026-11-13
 - FOMC成员名单/票委轮换/主席Warsh（官网Last Update 2026-10-28）: themes/fed/FOMC_MEMBERS.md (federalreserve.gov/monetarypolicy/fomc.htm)
-- 成员近期言论（Warsh会议机制改革11-06、Williams 11-13、Barr 11-12、Bowman 11-10/11、Hammack 11-12、Jefferson 11-14、Kashkari 10-01/02、Logan 11-13、Paulson 11-10/11、Waller 11-10/11、Barkin 11-09、Daly 11-13、Goolsbee 11-13）: themes/fed/roundtable/fomc_member_news.md (longbridge/telegram:Financial_Express 预采集)
+- 成员近期言论（Warsh会议机制改革11-06、Williams 11-13、Barr 11-12、Bowman 11-10/11、Hammack 11-12、Jefferson 11-14、Kashkari 10-01/02、Logan 11-13、Paulson 11-10/11、Waller 11-10/11、Barkin 11-09、Daly 11-13、Goolsbee 11-13）: themes/fed/FOMC_MEMBER_NEWS.md（每日刷新的预采集明细，longbridge/telegram:Financial_Express）
 - 美联储资产负债表6.8万亿美元（2026-11-04）: query_calendar_events = "美国截至11月4日美联储资产负债表"
 - 30年期房贷利率7.30%（前值7.37）: query_calendar_events(2026-11-04 MBA)
 - 10年期国债拍卖中标收益率5.02%（前次5.30%）: query_calendar_events(2026-11-10 auction) ⚠️与另一行2.46口径冲突待核

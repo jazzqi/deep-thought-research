@@ -1,346 +1,331 @@
 # FOMC 成员近期言论（预采集，D85）
 
-> **生成物**：由 `scripts/extract_fomc_member_news.py`（或 flow 预采集）自动生成，
-> 按成员别名集（英文姓氏 + 中文名）协同检索 raw_items（成员名 OR + 美联储上下文 AND）。
-> 更新时间：2026-08-13 22:08。重新生成：`python scripts/extract_fomc_member_news.py --write-doc ...`
->
-> 使用：agents 直接读取本文件（含日期+来源+正文长度+片段），勿重复查询；
-> 仅当需最新信息时用 `query_raw_items(keyword='{成员名}')` 定向补充。
-> 「正文长度」= 信息密度代理指标（长文=深度分析，短文=快讯），多新闻时可据此取舍。
-> 无新闻成员标「数据缺失（工具未返回相关新闻）」。
+> 系统预采集：按成员别名集（英文姓氏 + 中文名）协同检索 raw_items，
+> agents 直接读取本文件，勿重复查询。仅当需最新信息时定向补充。
+> 本文件由 `scripts/extract_fomc_member_news.py --update-statements`
+> 每日 04:45 刷新（与 FOMC_MEMBERS.md 的言论列同源）。
+> 本次刷新：2026-11-16 09:07 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。
 
 ## 凯文·沃什（Kevin Warsh）
 
-- **美国 7 月预算赤字激增，创 2021 年 3 月以来新高**（2026-08-12 18:23）
-  来源: telegram:Financial_Express | 正文长度: 462 字
-  片段: …美国 7 月预算赤字激增，创 2021 年 3 月以来新高
-金十数据 8 月 13 日讯，美国财政部周三报告称，由于医疗保险费用激增以及联邦债务利息持续拖累国家财政状况，美国预算赤字已飙升至五年多来的最高月度水平。除单月大幅增长外，美国政府 2026 财年前 10 个月的累计赤字已接近 1.8 万亿美元，超过了 2025 财年同期的数额。7 月份的赤字总额达 4323 亿美元，较去年同期增长约 48%，为自 2021 年 3 月以来的最…
+- **Warsh Pushes for Reform of Federal Reserve Meeting Mechanism: Fewer Rate Decisions, More Strategic Discussions**（2026-11-06 12:22）
+  来源: longbridge | 正文长度: 617 字
+  片段: …Warsh Pushes for Reform of Federal Reserve Meeting Mechanism: Fewer Rate Decisions, More Strategic Discussions
 
-- **分析师：7 月通胀数据可以让沃什松一口气**（2026-08-12 12:43）
-  来源: telegram:Financial_Express | 正文长度: 164 字
-  片段: …分析师：7 月通胀数据可以让沃什松一口气
-金十数据 8 月 12 日讯，市场分析师克里斯·安斯蒂表示，这次美国 CPI 整体数据和核心数据都完全符合预期。说白了，这些月度数据本身并不会拉响通胀警报，而且大体上与美联储的目标一致。沃什眼下可以松一口气了。但他真正需要的，是 8 月的通胀报告也能交出同样的数字，但现在“还早着呢”。…
-
-- **CPI数据前，交易员押注9月加息概率50%，国债市场定价偏向数据温和**（2026-08-12 11:17）
-  来源: blockbeats | 正文长度: 336 字
-  片段: …BlockBeats 消息，8 月 12 日，根据掉期市场交易情况，交易员目前计入的加息 25 个基点概率约为 50%。在 7 月非农就业意外转弱以后，华尔街对 9 月美联储是否加息 25bp 几乎形成 50∶50 的极端分裂定价，而沃什领导下的美联储又明显减少前瞻指引，使市场不得不重新依赖硬数据决定政策路径。7 月 CPI 的影响具有明显的非对称性——即温和通胀数据可以进一步削弱加息理由，但超预期偏热的数据更容易迅速把 9 月加息重新…
-
-- **分析师：白银反弹今日面临关键考验**（2026-08-12 10:13）
-  来源: telegram:Financial_Express | 正文长度: 301 字
-  片段: …分析师：白银反弹今日面临关键考验
-金十数据 8 月 12 日讯，分析师 GiuseppeDellamotta 表示，自上周二以来，受美伊达成协议的希望提振，白银持续稳步上涨，同时弱于预期的非农就业报告也为其提供了进一步支撑。不过，上涨势头似乎正在减弱，可能需要今日美国 CPI 数据的支撑才能延续涨势。CPI 数据对 9 月 FOMC 决策以及美联储主席沃什在杰克逊霍尔研讨会上的演讲至关重要。市场焦点将集中在核心 CPI 环比数据上，预期…
-
-- **预告：今晚7月CPI数据公布在即，或直接决定美联储9月是否扣动加息扳机**（2026-08-12 02:47）
-  来源: blockbeats | 正文长度: 602 字
-  片段: …BlockBeats 消息，8 月 12 日，美国劳工统计局将于北京时间今晚 8 点 30 分公布 7 月 CPI 数据。道琼斯综合预测显示，整体 CPI 预计环比上涨 0.1%，核心 CPI 环比上涨 0.2%，同比分别上涨 3.4% 和 2.5%，均较 6 月回落 0.1 个百分点，但仍明显高于美联储 2% 的目标。当前交易员对 9 月加息概率的定价恰好为 50% 附近，这意味着今晚数据将直接左右天平倾斜方向。RSM 首席经济学家…
+Federal Reserve Chair Kevin Warsh is pushing for reforms to the meeting mechanism, planning to reduce the nu…
 
 ## 约翰·威廉姆斯（John C. Williams）
 
-- **美联储鹰派阵营扩大：5位地方联储主席在7月会议后公开支持加息**（2026-08-05 02:06）
-  来源: blockbeats | 正文长度: 507 字
-  片段: …BlockBeats 消息，8 月 5 日，美联储内部鹰派声音持续升温，12 位地方联储主席中已有 5 人在 7 月议息会议后公开表示倾向加息，认为当前货币政策限制力度不足，通胀风险仍未完全消退。其中，克利夫兰联储主席哈玛克表示，她在最近一次会议上倾向于加息，原因是当前政策立场「不够限制性」；达拉斯联储主席洛根指出，即便剔除近期冲击，核心通胀仍接近 2.5%，支持采取更紧缩政策。明尼阿波利斯联储主席卡什卡利表示，为防止高通胀进一步固化，…
+- **Fed's Williams says central bank has 'work to do' to get inflation back on target**（2026-11-13 04:29）
+  来源: longbridge | 正文长度: 81 字
+  片段: …Fed's Williams says central bank has 'work to do' to get inflation back on target…
 
-- **美股盘前要闻一览：伊朗外交部否认与美国对话；SpaceX股价盘前创历史新低；iPhone折叠屏起售价至少达2000美元**（2026-08-03 13:08）
-  来源: blockbeats | 正文长度: 675 字
-  片段: …BlockBeats 消息，8 月 3 日，美股盘前市场重要新闻一览如下：1. 伊朗外交部发言人巴加埃称目前没有在与美国进行对话，正在与阿曼就霍尔木兹海峡问题进行对话。2. 美联储威廉姆斯表示，他仍对通胀压力将逐步缓解持乐观态度，但如果情况没有如此，美联储将毫不犹豫地通过加息来确保物价压力回归目标水平。3. SpaceX 盘前一度跌破 106 美元，创历史新低。4. 三星电子旗下晶圆代工业务部门预计将在今年下半年内实现 100% 的产能…
+- **美国纽约联储主席威廉姆斯**（2026-11-13 00:52）
+  来源: telegram:Financial_Express | 正文长度: 31 字
+  片段: …美国纽约联储主席威廉姆斯：美国经济易受人工智能热情转变的影响。…
 
-- **美联储威廉姆斯：当前利率水平恰当**（2026-08-03 12:08）
-  来源: 36kr | 正文长度: 155 字
-  片段: …8月3日，纽约联邦储备银行行长约翰·威廉姆斯表示，鉴于预计通胀将在今年下半年放缓，当前利率水平仍处于良好位置。威廉姆斯指出，若通胀走势未能如预期般降回2%的目标轨道，美联储采取行动将是恰当的。随着中东冲突对物价影响减弱，剔除能源和食品的价格指标有望缓解，美联储有望在2028年前持续实现2%的通胀目标。（界面）…
-
-- **美联储「三把手」：关税通胀影响已见顶，AI投资尚未形成泡沫**（2026-08-03 11:08）
-  来源: blockbeats | 正文长度: 514 字
-  片段: …BlockBeats 消息，8 月 3 日，纽约联储主席约翰·威廉姆斯表示，美联储 7 月维持利率不变符合当前经济状况，劳动力市场保持稳定，经济增长稳健但未出现过热迹象，因此无需立即加息。威廉姆斯称，关税对美国通胀的影响大部分已经完成传导，未来几个月不太可能继续显著推高通胀。在基本情景下，能源价格和关税带来的通胀压力已接近峰值，预计此前推动通胀上升的因素将逐步减弱。他表示，中东冲突导致油价上涨，但市场普遍预期局势最终会缓和，能源贸易恢复…
-
-- **美联储威廉姆斯：若通胀不能按预期回归2%，美联储将采取行动**（2026-08-03 10:08）
-  来源: blockbeats | 正文长度: 223 字
-  片段: …BlockBeats 消息，8 月 3 日，美联储威廉姆斯表示，强烈支持 FOMC 最新利率决定，并重申致力于将通胀恢复至 2% 目标水平。若通胀未按预期路径回落至 2%，美联储将采取行动以实现价格稳定。此外威廉姆斯还表示，预计中东冲突对通胀的影响将逐步减弱，但承认局势仍存在不确定性。他同时指出，市场定价为美联储提供了宝贵信息，但美联储并不需要认同市场定价水平。此外，他认为人工智能投资不会带来金融稳定风险，对 AI 行业出现波动并不感到…
+- **美联储威廉姆斯**（2026-11-13 00:52）
+  来源: telegram:Financial_Express | 正文长度: 24 字
+  片段: …美联储威廉姆斯：证据显示经济呈现“K 型”走势。…
 
 ## 迈克尔·巴尔（Michael S. Barr）
 
-- **美联储巴尔金**（2026-08-13 13:04）
-  来源: telegram:Financial_Express | 正文长度: 33 字
-  片段: …美联储巴尔金：消费者似乎“决心已定”要消费，并且正在寻找融资方式。…
+- **美联储理事巴尔**（2026-11-12 16:07）
+  来源: telegram:Financial_Express | 正文长度: 30 字
+  片段: …美联储理事巴尔：我担心我们正在风险偏好升温的环境下放松监管。…
 
-- **美联储巴尔金**（2026-08-13 12:58）
-  来源: telegram:Financial_Express | 正文长度: 26 字
-  片段: …美联储巴尔金：低收入家庭面临“挑战”，但仍继续消费。…
+- **美联储理事巴尔：AI 快速普及恐加剧收入不平等**（2026-11-12 15:38）
+  来源: telegram:Financial_Express | 正文长度: 329 字
+  片段: …美联储理事巴尔：AI 快速普及恐加剧收入不平等
+金十数据 11 月 12 日讯，美联储理事巴尔警告称，人工智能的迅速普及可能在短期内加剧不平等，政策制定者需要为劳动力市场可能出现的严重短期冲击做好准备。巴尔在耶鲁大学发表演讲时表示，人工智能影响的程度和持续时间将取决于目前建立的监管保障措施。巴尔警告称，如果少数人工智能企业占据主导地位，市场力量过度集中可能扩大不平等。这些企业的高管和股东财富将增加，而规模较小的企业则可能失去市场份额。巴…
 
-- **美联储巴尔金**（2026-08-13 12:58）
-  来源: telegram:Financial_Express | 正文长度: 33 字
-  片段: …美联储巴尔金：目前的联邦债务水平是一股通胀“风”，美联储必须应对。…
+- **美联储理事巴尔表示，美联储关注人工智能相关负债及潜在冲击。**（2026-11-12 15:38）
+  来源: telegram:Financial_Express | 正文长度: 29 字
+  片段: …美联储理事巴尔表示，美联储关注人工智能相关负债及潜在冲击。…
 
-- **美联储巴尔金**（2026-08-13 12:58）
-  来源: telegram:Financial_Express | 正文长度: 36 字
-  片段: …美联储巴尔金：当前联邦债务水平是一股通胀性“逆风”，美联储必须加以应对。…
+- **Fed's Barr: US should prepare for "serious" AI job disruption, widening inequality**（2026-11-12 15:23）
+  来源: longbridge | 正文长度: 82 字
+  片段: …Fed's Barr: US should prepare for "serious" AI job disruption, widening inequality…
 
-- **美联储巴尔金：可能需要加息来实现美联储的目标**（2026-08-13 12:53）
-  来源: telegram:Financial_Express | 正文长度: 253 字
-  片段: …美联储巴尔金：可能需要加息来实现美联储的目标
-金十数据 8 月 13 日讯，美联储官员巴尔金最新表示：“美联储是否需要加息以恢复 2%的通胀目标，或者通胀是否已经走上下行之路，仍然是个悬而未决的问题。因为美国经济的某些方面仍然是个谜，因为消费者和整体经济活动并未受到冲击的影响。目前美联储‘许多人’认为目前的利率水平已经足够紧缩，足以抑制通胀。鉴于补偿压力适中，且关税、石油和其他冲击可能消退，有充分理由认为通胀将会缓解。但也有理由认为价格…
+- **美联储理事巴尔：美国应为 AI 可能造成的“严重短期就业市场动荡”风险做好准备**（2026-11-12 15:13）
+  来源: telegram:Financial_Express | 正文长度: 282 字
+  片段: …美联储理事巴尔：美国应为 AI 可能造成的“严重短期就业市场动荡”风险做好准备
+美联储理事巴尔表示，人工智能对就业的影响，部分取决于它究竟会加剧市场集中、成为扩大不平等的力量，还是会带来更多竞争与更广泛分布的收益。他指出，目前尚未出现大规模的劳动者替代，AI 企业之间的竞争使该技术得以被广泛获取；但已有迹象显示，在部分行业 AI 正在替代劳动力，若变化发生过快，“带来的冲击可能很大”。因此，美国应为 AI 可能造成的“严重短期就业市场动…
 
 ## 米歇尔·鲍曼（Michelle W. Bowman）
 
-- **Fed Governor Bowman Spoke at Private Dinner After Policy Meeting**（2026-06-20 15:47）
-  来源: bloomberg_economics | 正文长度: 343 字
-  片段: …Michelle Bowman, vice chair for supervision at the US Federal Reserve, speaks during the Federal Reserve Board open meeting in Washington, DC, US, on Thursday, March 19, 2026. In fresh projections released Wednesday, off…
+- **Fed's Bowman Assessment: Inflation is Widening, Another Rate Hike Possible This Year; US Stocks May See Sharp Correction Due to AI!**（2026-11-11 04:26）
+  来源: longbridge | 正文长度: 598 字
+  片段: …Fed's Bowman Assessment: Inflation is Widening, Another Rate Hike Possible This Year; US Stocks May See Sharp Correction Due to AI!
 
-- **Bitunix分析师：债券定价「没有加息的加息」，能源风险、债券重估与制度不确定性同步推高全球资金成本**（2026-06-01 07:44）
-  来源: blockbeats | 正文长度: 879 字
-  片段: …BlockBeats 消息，6 月 1 日，随着美国 4 月 PCE 升至 3.8%、核心 PCE 维持 3.3% 高位，以及多位美联储官员持续强调通胀风险，即使美联储尚未行动，债券市场已经提前完成了部分紧缩工作。市场开始接受一个新的现实——高利率可能比原先预期维持更久，而金融环境已经提前收紧。推动这轮重新定价的核心仍来自中东局势。尽管特朗普宣称美伊已就部分议题达成共识，但实际上双方对核计划、浓缩铀处置以及霍尔木兹海峡管辖权等核心问题仍…
+Federal Reserve Vice Chair Bowman hinted that there is still room for rate hikes this y…
 
-- **Fed’s Bowman Says Too Soon to Judge Inflation Impact of Iran War**（2026-05-29 13:21）
-  来源: bloomberg_economics | 正文长度: 107 字
-  片段: …Michelle Bowman at the Reykjavik Economic Conference, on May 29. Photographer: Betty Laura Zapata/Bloomberg…
+- **美联储理事鲍曼警告 AI 投资回报不及预期或导致股市估值大幅回调**（2026-11-10 21:38）
+  来源: telegram:Financial_Express | 正文长度: 221 字
+  片段: …美联储理事鲍曼警告 AI 投资回报不及预期或导致股市估值大幅回调
+美联储理事米歇尔·鲍曼表示，她认为金融市场给经济活动带来诸多风险，其中包括一旦人工智能领域的投资回报不及预期，股价可能大幅下跌。鲍曼周二在华盛顿发表讲话时警告，AI 投资回报问题可能引发“股票估值大幅回调”的风险，同时还提及“私营部门长期利率急剧上升”的隐患。“股价下跌可能削弱消费者支出的韧性，”她说。“而利率上升可能进一步给住房和小企业投资等利率敏感的经济领域带来压力。…
+
+- **美联储鲍曼**（2026-11-10 21:34）
+  来源: telegram:Financial_Express | 正文长度: 22 字
+  片段: …美联储鲍曼：解决通胀问题是美联储的正确举措。…
+
+- **美联储理事鲍曼**（2026-11-10 21:34）
+  来源: telegram:Financial_Express | 正文长度: 31 字
+  片段: …美联储理事鲍曼：需要考虑以何种节奏和何种时间表来解决这一问题。…
+
+- **美联储理事鲍曼：通胀仍有待控制 但需权衡进一步收紧政策的成本**（2026-11-10 21:08）
+  来源: telegram:Financial_Express | 正文长度: 404 字
+  片段: …美联储理事鲍曼：通胀仍有待控制 但需权衡进一步收紧政策的成本
+金十数据 11 月 11 日讯，美联储负责监管事务的副主席米歇尔·鲍曼表示，目前通胀压力仍在持续，而就业市场正在趋于稳固，通胀仍有进一步回落的空间。她预计 10 月核心 PCE 同比升至 3.3%，能源价格上涨和 AI 相关需求是主要推动因素，但通胀缺乏进展并非由劳动力市场过热造成。鲍曼预计，随着 AI 建设热潮和中东冲突带来的压力逐步消退，核心 PCE 明年有望向 2%靠拢…
 
 ## 莉萨·库克（Lisa D. Cook）
 
-- **预告：今晚7月CPI数据公布在即，或直接决定美联储9月是否扣动加息扳机**（2026-08-12 02:47）
-  来源: blockbeats | 正文长度: 602 字
-  片段: …BlockBeats 消息，8 月 12 日，美国劳工统计局将于北京时间今晚 8 点 30 分公布 7 月 CPI 数据。道琼斯综合预测显示，整体 CPI 预计环比上涨 0.1%，核心 CPI 环比上涨 0.2%，同比分别上涨 3.4% 和 2.5%，均较 6 月回落 0.1 个百分点，但仍明显高于美联储 2% 的目标。当前交易员对 9 月加息概率的定价恰好为 50% 附近，这意味着今晚数据将直接左右天平倾斜方向。RSM 首席经济学家…
-
-- **特朗普再施压美联储，哈塞特否认接任库克并称9月或按兵不动或降息**（2026-08-10 14:06）
-  来源: blockbeats | 正文长度: 427 字
-  片段: …BlockBeats 消息，8 月 10 日，美国国家经济委员会主任凯文·哈塞特周一回应美联储理事丽莎·库克罢免风波，称相关事件属于「执法问题」，并拒绝对指控细节发表评论。针对外界猜测其可能接替库克出任美联储理事，哈塞特明确否认：「不，我向你保证，那是不可能发生的。」哈塞特同时就货币政策发表看法称，如果自己目前担任美联储官员，考虑到供应端动力仍强劲、近期通胀数据有所回落，他将在 9 月议息会议上选择维持利率不变或降息。此前，特朗普政府启…
-
-- **白宫顾问：不会接替美联储理事库克，支持降息立场**（2026-08-10 13:02）
-  来源: blockbeats | 正文长度: 231 字
-  片段: …BlockBeats 消息，8 月 10 日，白宫经济顾问凯文·哈塞特表示，如果美联储理事丽莎·库克（Lisa Cook）因相关指控被解除职务，他不会接替其职位。哈塞特称，针对库克的指控属于执法部门调查事项，并表示「希望库克是清白的」。此前，库克正对特朗普政府试图解除其美联储理事职务的行动提出挑战。在货币政策方面，哈塞特表示，如果由其参与决策，倾向于维持当前利率水平或实施降息。他认为，美国通胀正在缓解，同时供应端增长动能仍然强劲，为更宽…
-
-- **哈塞特：希望库克无罪 我不会接任美联储理事席位**（2026-08-10 12:48）
-  来源: telegram:Financial_Express | 正文长度: 264 字
-  片段: …哈塞特：希望库克无罪 我不会接任美联储理事席位
-金十数据 8 月 10 日讯，美国白宫国家经济委员会主任哈塞特周一表示，他希望美联储理事库克在声称自己无罪一事上是正确的。哈塞特在接受采访时表示：“此问题是执法部门的事务，拒绝就针对库克的指控细节发表评论。”当被问及如果库克最终被免职他是否可能接任时，哈塞特表示：“不会，我向你保证，那不会发生。”哈塞特还表示，如果他身处美联储，会选择维持利率不变或降息，因为有太多的供给侧动力。他指出，近期…
-
-- **美国白宫国家经济委员会主任哈塞特**（2026-08-10 11:48）
-  来源: telegram:Financial_Express | 正文长度: 33 字
-  片段: …美国白宫国家经济委员会主任哈塞特：希望美联储理事库克确实是清白的。…
+数据缺失（工具未返回相关新闻）
 
 ## 贝丝·哈马克（Beth M. Hammack）
 
-- **美联储哈马克**（2026-08-13 12:53）
-  来源: telegram:Financial_Express | 正文长度: 63 字
-  片段: …美联储哈马克：加息可能会带来痛苦，但绝不能任由增长和投资增速过快导致经济过热。企业已适应关税与石油冲击，展现出韧性与投资活力。…
+- **Fed's Hammack: Further Rate Hikes Needed to Curb Inflation**（2026-11-12 18:21）
+  来源: longbridge | 正文长度: 511 字
+  片段: …Fed's Hammack: Further Rate Hikes Needed to Curb Inflation
 
-- **美联储哈马克：美联储现在必须加息**（2026-08-13 12:48）
-  来源: telegram:Financial_Express | 正文长度: 177 字
-  片段: …美联储哈马克：美联储现在必须加息
-金十数据 8 月 13 日讯，美联储官员哈玛克最新表示：“美联储现在必须加息，因为现在的政策并具不限制性，近期冲击下通胀上升。过快的增长可能会对价格施加额外压力。加息可能会带来痛苦，但不能让经济增长和投资过快，以至于经济过热。当下的通货膨胀是广泛存在的，不仅仅局限于某些行业。美联储必须对通胀数据负责，这一点非常重要。”…
+Beth Hammack, President of the Federal Reserve Bank of Cleveland, stated that the progress in reducing inflation has substantially stalled and is "moving in the…
 
-- **美联储哈马克：重申现在必须加息**（2026-08-13 12:47）
-  来源: blockbeats | 正文长度: 139 字
-  片段: …BlockBeats 消息，8 月 13 日，美联储哈马克：重申现在必须加息。近期冲击下通胀上升，过快的增长可能会对价格施加额外压力。美联储必须对一个通胀数据负责，这一点非常重要。美联储是否需要加息以恢复 2% 的通胀目标，或者通胀是否已经走上下行之路，仍然是个悬而未决的问题。…
+- **Fed's Hammack Calls for Continued Rate Hikes, Citing Stalled Progress in Taming Inflation**（2026-11-12 15:23）
+  来源: longbridge | 正文长度: 634 字
+  片段: …Fed's Hammack Calls for Continued Rate Hikes, Citing Stalled Progress in Taming Inflation
 
-- **美联储哈马克**（2026-08-13 12:44）
-  来源: telegram:Financial_Express | 正文长度: 28 字
-  片段: …美联储哈马克：要完成抗通胀这项工作，必须考察一系列数据。…
+Cleveland Fed President Hammack called for continued interest rate hikes, pointing out that the process of disinflation in the US…
 
-- **哈马克**（2026-08-13 12:44）
-  来源: telegram:Financial_Express | 正文长度: 28 字
-  片段: …哈马克：美联储必须就单一通胀指标接受问责，这点至关重要。…
+- **克利夫兰联储主席哈马克**（2026-11-12 14:22）
+  来源: telegram:Financial_Express | 正文长度: 24 字
+  片段: …克利夫兰联储主席哈马克：金融环境对增长构成支撑。…
+
+- **美联储官员哈马克**（2026-11-12 14:06）
+  来源: telegram:Financial_Express | 正文长度: 34 字
+  片段: …美联储官员哈马克：就业市场停滞不前，由于缺乏活力，不能说它是健康的。…
+
+- **Fed's Hammack: Need to Shift to Restrictive Monetary Policy to Lower Inflation**（2026-11-12 14:06）
+  来源: longbridge | 正文长度: 506 字
+  片段: …Fed's Hammack: Need to Shift to Restrictive Monetary Policy to Lower Inflation
+
+In her latest remarks, the Fed's Hammack stated, "The Federal Reserve has performed its duty regarding employment very well, but it has been…
 
 ## 菲利普·杰斐逊（Philip N. Jefferson）
 
-- **Bitunix分析师：美联储鹰派信号与中东能源风险共振，全球资本成本仍面临上行压力**（2026-07-17 04:06）
-  来源: blockbeats | 正文长度: 711 字
-  片段: …BlockBeats 消息，7 月 17 日，美伊冲突持续升级，美军进一步打击伊朗交通及军事补给设施，伊朗则扬言霍尔木兹海峡不会恢复正常通航，并要求胡塞武装准备封锁曼德海峡，形成全球两大能源航运咽喉同时承压的局面。尽管白宫表示伊朗仍希望与美国达成协议，但战场升级与外交谈判同步存在，意味着双方正通过军事施压争取谈判筹码，而非真正降低冲突风险。真正值得市场关注的已不只是油价的短期波动，而是全球能源供应链正加速进入重组阶段。雪佛龙投资伊拉克油…
+- **美联储副主席杰斐逊**（2026-11-14 01:02）
+  来源: telegram:Financial_Express | 正文长度: 39 字
+  片段: …美联储副主席杰斐逊：人工智能建设迫使我关注总需求，而总需求正是通胀压力的来源。…
 
-- **美联储副主席杰斐逊称目前货币政策状态良好，如有必要将会重新考虑**（2026-07-17 00:36）
-  来源: 36kr | 正文长度: 200 字
-  片段: …美联储副主席杰斐逊表示，如果通胀不能很快降温，就应该考虑加息，但同时表示，目前的货币政策状态良好。杰斐逊周四在为加州斯坦福一场活动准备的讲话稿中表示，美联储目前的利率设定可能会支持劳动力市场，同时使得通胀下降。但他随即补充了一句附加条件。“如果实际通胀短期内没有开始降温，我认为或许应该重新考虑我们目前的政策立场，”他说道。“幸运的是，我们目前的政策立场使我们能够很好地应对经济发展态势。”（财联社）…
+- **美联储理事杰斐逊**（2026-11-14 00:47）
+  来源: telegram:Financial_Express | 正文长度: 47 字
+  片段: …美联储理事杰斐逊：联邦公开市场委员会（FOMC）将在数月内（甚至更早）听取美联储工作组的汇报。…
 
-- **下周宏观展望：沃什国会听证会叠加CPI，市场期待更多利率前景线索**（2026-07-11 11:36）
-  来源: blockbeats | 正文长度: 635 字
-  片段: …BlockBeats 消息，7 月 11 日，本周美伊紧张局势急剧升级，双方互袭导致此前维持约三周的脆弱停火协议破裂，油价上涨驱动的通胀压力让美联储收紧政策的预期再度升温。同期美股几乎无视地缘政治不确定性，「AI 交易」热潮重整旗鼓，标普 500 指数逼近历史新高，与纳指双双录得周线二连阳。SK 海力士 ADR 首日大涨 13%，265 亿美元的募资金额使其成为美股史上募资最高的外国企业 IPO。未来一周，美伊局势、美国 CPI 等经济…
+- **Fed Vice Chair Jefferson: Inflation Will Determine Interest Rate Decisions**（2026-11-14 00:27）
+  来源: longbridge | 正文长度: 637 字
+  片段: …Fed Vice Chair Jefferson: Inflation Will Determine Interest Rate Decisions
 
-- **下周美联储官员密集讲话，需关注官员对CPI数据的解读与潜在加息倾向**（2026-07-11 07:02）
-  来源: blockbeats | 正文长度: 384 字
-  片段: …BlockBeats 消息，7 月 11 日，德意志银行表示，在经历了数周较为清淡的美联储官员发言后，下周将迎来静默期前的密集讲话潮。最受关注的是：沃勒周一在纽约商业经济协会的演讲打头阵，沃什主席周二和周三作证，多位官员将在 6 月 CPI 数据公布后发表展望讲话（库克周三，杰斐逊副主席、达拉斯联储的洛根和堪萨斯城联储的施密德周五）。预计沃什将重申他近期的表态，对未来的政策行动保持缄默。而沃勒通常更愿意详细阐述他的政策反应机制和预期，因…
+Federal Reserve Vice Chair Philip Jefferson stated that inflation has become the most critical metric for policymakers when considering further…
 
-- **U.S. Stock Movement | Large U.S. Bank Stocks Rise, Morgan Stanley Up Over 2.6%**（2026-06-21 06:31）
-  来源: longbridge | 正文长度: 669 字
-  片段: …U.S. Stock Movement | Large U.S. Bank Stocks Rise, Morgan Stanley Up Over 2.6%
+- **美联储杰斐逊强调通胀信号将决定利率走势**（2026-11-14 00:14）
+  来源: telegram:Financial_Express | 正文长度: 423 字
+  片段: …美联储杰斐逊强调通胀信号将决定利率走势
+金十数据 11 月 14 日讯，美联储副主席菲利普·杰斐逊表示，在政策制定者考虑是否进一步加息之际，通胀已成为最重要的衡量指标。杰斐逊指出，近期经济活动和劳动力市场状况表现稳健，但物价压力依然持续存在。他表示，10 月份的物价数据反映出通胀水平仍远高于美联储的目标。杰斐逊在为圣迭戈一场演讲准备的讲稿中表示：“因此，我认为，通胀走势将为判断货币政策应采取何种适当立场提供更为重要的信号。”他还补充说，…
 
-On Wednesday, shares of major American banks rose, with Morgan Stanley, Goldman Sachs, and Citigroup increasing by more than 2.6%, 2.4%, and…
+- **美联储副主席杰斐逊表态：通胀已成利率最重要的参考指标**（2026-11-14 00:08）
+  来源: telegram:Financial_Express | 正文长度: 265 字
+  片段: …美联储副主席杰斐逊表态：通胀已成利率最重要的参考指标
+美联储副主席菲利普·杰斐逊表示，在政策制定者考虑是否进一步加息时，通胀已成为最重要的参考指标。 杰斐逊称，近期经济活动和劳动力市场状况稳健，物价压力持续，10 月的物价数据表明通胀远高于目标。 “因此，我认为通胀走势是判断货币政策合适立场的核心信号，”杰斐逊在圣迭戈的演讲稿中表示。他补充，政策制定者应当持续跟踪最新数据，评估是否需要“进一步调整政策”。 本周多位美联储官员相继发声，对…
 
 ## 尼尔·卡什卡利（Neel Kashkari）
 
-- **Fed's Kashkari says 'now is the time to start slowly moving' rates up**（2026-08-05 15:36）
-  来源: hackernews | 正文长度: 200 字
-  片段: …Article URL: https://www.cnbc.com/2026/08/05/feds-kashkari-says-now-is-the-time-to-start-slowly-moving-rates-up.html Comments URL: https://news.ycombinator.com/item?id=49184251 Points: 4 # Comments: 0…
+- **美联储官员卡什卡利：人工智能并非推动美国经济增长的唯一动力**（2026-10-02 18:43）
+  来源: telegram:Financial_Express | 正文长度: 261 字
+  片段: …美联储官员卡什卡利：人工智能并非推动美国经济增长的唯一动力
+明尼阿波利斯联邦储备银行行长尼尔·卡什卡利表示，对于“除人工智能相关建设热潮外，美国经济正在萎缩”这一观点，他持怀疑态度。卡什卡利周三在纽约出席美国外交关系委员会举办的活动时表示：“我怀疑经济的其他部分正在收缩。如果观察企业利润，你会发现，不仅是与人工智能基础设施建设直接相关的行业，经济中许多行业的利润表现都非常强劲。”这位明尼阿波利斯联储主席指出，当前失业率为 4.1%，且“…
 
-- **美联储鹰派阵营扩大：5位地方联储主席在7月会议后公开支持加息**（2026-08-05 02:06）
-  来源: blockbeats | 正文长度: 507 字
-  片段: …BlockBeats 消息，8 月 5 日，美联储内部鹰派声音持续升温，12 位地方联储主席中已有 5 人在 7 月议息会议后公开表示倾向加息，认为当前货币政策限制力度不足，通胀风险仍未完全消退。其中，克利夫兰联储主席哈玛克表示，她在最近一次会议上倾向于加息，原因是当前政策立场「不够限制性」；达拉斯联储主席洛根指出，即便剔除近期冲击，核心通胀仍接近 2.5%，支持采取更紧缩政策。明尼阿波利斯联储主席卡什卡利表示，为防止高通胀进一步固化，…
+- **卡什卡利：预计美联储还需加息 但不确定 10 月是否行动**（2026-10-01 18:28）
+  来源: telegram:Financial_Express | 正文长度: 289 字
+  片段: …卡什卡利：预计美联储还需加息 但不确定 10 月是否行动
+金十数据 10 月 2 日讯，明尼阿波利斯联储主席卡什卡利表示，预计为抑制经济和通胀，美联储仍需进一步加息，但对是否应在 10 月会议行动没有强烈看法。他此前的预测是今年再加息 25 个基点、2027 年再加息一次，但 9 月会议以来美国经济表现强于其预期，而通胀仍然过高；如果经济持续异常强劲、通胀比预想更顽固，利率可能需要升至比目前预期更高的水平。卡什卡利认为，目前劳动力市场健…
 
-- **三名美联储官员支持加息，内部鹰派压力升温**（2026-07-31 14:36）
-  来源: blockbeats | 正文长度: 432 字
-  片段: …BlockBeats 消息，7 月 31 日，三名美联储政策制定者表示，本周支持加息的反对票源于顽固的通胀压力，这显示出美联储主席沃什面临的内部行动压力正在上升。在周五上午公布的声明中，哈玛克和卡什卡利表示，他们担心，尽管当前一轮物价上涨可能源于总统特朗普关税政策和伊朗战争等短期因素，但通胀形势目前已经值得美联储采取行动。洛根也加入其中，她表示，即使通胀有所降温，如果美联储不提高利率，通胀也不太可能完全回落至美联储 2% 的目标水平；在…
-
-- **美联储卡什卡利：为应对通胀风险的固化，倾向于逐步收紧政策**（2026-07-31 12:10）
-  来源: blockbeats | 正文长度: 101 字
-  片段: …BlockBeats 消息，7 月 31 日，美联储卡什卡利表示，为了应对通胀风险的固化，倾向于逐步收紧政策。如果通胀持续高企，一系列小幅政策调整将比维持观望但仍然得出需要采取更大胆行动的结论更为有效。…
-
-- **美联储按兵不动但内部分裂加剧，声明与6月一致**（2026-07-29 18:36）
-  来源: blockbeats | 正文长度: 280 字
-  片段: …BlockBeats 消息，7 月 30 日，美联储官员维持利率不变，但投票结果出现分裂，显示部分政策制定者愈发坚信需要加息以遏制通胀抬头。洛根、哈马克和卡什卡利均投下反对票，主张加息 25 个基点。这是官员们连续第五次选择维持利率不变。委员会会后声明其余内容与 6 月会议后发布的声明完全一致。官员们重申了「实现物价稳定」的承诺。但反对票的出现表明，对于 5 月刚刚就任的美联储主席沃什而言，若通胀担忧加剧，继续按兵不动将面临更大挑战。特…
+- **美联储卡什卡利**（2026-10-01 17:49）
+  来源: telegram:Financial_Express | 正文长度: 28 字
+  片段: …美联储卡什卡利：对于 10 月是否加息，我没有明确倾向。…
 
 ## 洛里·洛根（Lorie K. Logan）
 
-- **美联储鹰派阵营扩大：5位地方联储主席在7月会议后公开支持加息**（2026-08-05 02:06）
-  来源: blockbeats | 正文长度: 507 字
-  片段: …BlockBeats 消息，8 月 5 日，美联储内部鹰派声音持续升温，12 位地方联储主席中已有 5 人在 7 月议息会议后公开表示倾向加息，认为当前货币政策限制力度不足，通胀风险仍未完全消退。其中，克利夫兰联储主席哈玛克表示，她在最近一次会议上倾向于加息，原因是当前政策立场「不够限制性」；达拉斯联储主席洛根指出，即便剔除近期冲击，核心通胀仍接近 2.5%，支持采取更紧缩政策。明尼阿波利斯联储主席卡什卡利表示，为防止高通胀进一步固化，…
+- **美国达拉斯联储主席洛丽·洛根表示，美联储应将为维持市场正常运作而购买的资产，与为货币政策操作而持有的资产区分开来，以便在金融市场承压时期更清楚地传达其意图。**（2026-11-13 15:32）
+  来源: telegram:Financial_Express | 正文长度: 241 字
+  片段: …美国达拉斯联储主席洛丽·洛根表示，美联储应将为维持市场正常运作而购买的资产，与为货币政策操作而持有的资产区分开来，以便在金融市场承压时期更清楚地传达其意图。
+“防止维持市场运作的购债行动带来不必要刺激的方式之一，是让联邦公开市场委员会(FOMC)将所购证券存放在单独账户中，并承诺尽快将其出售，”洛根在为达拉斯联储联合主办的一场银行融资会议准备的讲稿中表示。
+谈及 FOMC，洛根列举了美联储可以采取的几种方法，把旨在应对市场功能失调的操作…
 
-- **三名美联储官员支持加息，内部鹰派压力升温**（2026-07-31 14:36）
-  来源: blockbeats | 正文长度: 432 字
-  片段: …BlockBeats 消息，7 月 31 日，三名美联储政策制定者表示，本周支持加息的反对票源于顽固的通胀压力，这显示出美联储主席沃什面临的内部行动压力正在上升。在周五上午公布的声明中，哈玛克和卡什卡利表示，他们担心，尽管当前一轮物价上涨可能源于总统特朗普关税政策和伊朗战争等短期因素，但通胀形势目前已经值得美联储采取行动。洛根也加入其中，她表示，即使通胀有所降温，如果美联储不提高利率，通胀也不太可能完全回落至美联储 2% 的目标水平；在…
+- **Fed's Logan: U.S. Treasury Market Functioning Well, Fed Needs to Strengthen Support Tools**（2026-11-13 15:08）
+  来源: longbridge | 正文长度: 725 字
+  片段: …Fed's Logan: U.S. Treasury Market Functioning Well, Fed Needs to Strengthen Support Tools
 
-- **美联储官员坚持加息立场，美债抛售加剧，10年期美债收益率升至4.737%**（2026-07-31 14:36）
-  来源: blockbeats | 正文长度: 175 字
-  片段: …BlockBeats 消息，7 月 31 日，美联储官员洛根和哈马克均为此前支持加息 25 个基点的立场辩护，推动市场提高对近期货币政策进一步收紧的预期，美国国债收益率全线走高，抛售势头加剧。其中，10 年期美国国债收益率升至 4.737%，创 2025 年 1 月以来盘中最高水平。随着投资者加大对利率维持高位或进一步上升的押注，美债价格继续承压。…
+Dallas Fed President Logan stated at the Dallas Fed Bank Funding Conference on Friday that despite several rounds of interest rat…
 
-- **美联储洛根：倾向于加息25个基点**（2026-07-31 14:06）
-  来源: blockbeats | 正文长度: 125 字
-  片段: …BlockBeats 消息，7 月 31 日，美联储理事洛根表示，倾向于加息 25 个基点，认为通胀尚未步入可持续回归美联储 2% 目标的轨道。洛根表示，现在采取适度行动将降低未来需要更激进紧缩的风险，同时强调美联储不能指望意外冲击来实现其通胀目标。…
+- **美联储洛根：美债市场运行良好，美联储需加强支持工具**（2026-11-13 14:51）
+  来源: telegram:Financial_Express | 正文长度: 227 字
+  片段: …美联储洛根：美债市场运行良好，美联储需加强支持工具
+金十数据 11 月 13 日讯，达拉斯联储主席洛根周五在达拉斯联储银行融资会议上发表讲话时表示，尽管经历了几轮利率波动，但美国国债市场运行“非常好”，且银行在过去三年中改善了获取应急资金的能力。尽管如此，美联储仍应采取步骤，加强其在这两个领域的支持工具。“尤其是在看起来有必要收紧政策的经济环境中，我认为 FOMC 谨慎的做法是，在不提供不必要的经济刺激的情况下，加强其支持市场运作的工具…
 
-- **美联储按兵不动但内部分裂加剧，声明与6月一致**（2026-07-29 18:36）
-  来源: blockbeats | 正文长度: 280 字
-  片段: …BlockBeats 消息，7 月 30 日，美联储官员维持利率不变，但投票结果出现分裂，显示部分政策制定者愈发坚信需要加息以遏制通胀抬头。洛根、哈马克和卡什卡利均投下反对票，主张加息 25 个基点。这是官员们连续第五次选择维持利率不变。委员会会后声明其余内容与 6 月会议后发布的声明完全一致。官员们重申了「实现物价稳定」的承诺。但反对票的出现表明，对于 5 月刚刚就任的美联储主席沃什而言，若通胀担忧加剧，继续按兵不动将面临更大挑战。特…
+- **Logan says Treasury market functioning 'very well,' Fed needs to strengthen support tools**（2026-11-13 14:51）
+  来源: longbridge | 正文长度: 89 字
+  片段: …Logan says Treasury market functioning 'very well,' Fed needs to strengthen support tools…
+
+- **美联储洛根**（2026-11-13 14:44）
+  来源: telegram:Financial_Express | 正文长度: 47 字
+  片段: …美联储洛根：目前美国国债市场运行状况非常良好，即使在利率大幅波动的情况下，交易活动仍保持平稳。…
 
 ## 安娜·保尔森（Anna Paulson）
 
-- **Trump sued over service selling faster access to Truth Social posts**（2026-08-12 20:36）
-  来源: npr_world | 正文长度: 219 字
-  片段: …The federal lawsuit alleges that the service from the president's media company violates the Constitution. Meanwhile, Trump Media executives say they have signed up more than 10 customers.(Image credit: Anna Moneymaker)…
+- **Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target**（2026-11-11 06:37）
+  来源: longbridge | 正文长度: 585 字
+  片段: …Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target
 
-- **市场分析：CPI 报告不足以促使美联储改变政策方向**（2026-08-12 13:43）
-  来源: telegram:Financial_Express | 正文长度: 203 字
-  片段: …市场分析：CPI 报告不足以促使美联储改变政策方向
-金十数据 8 月 12 日讯，Federated Hermes 固定收益投资主管 Karen Manna 表示：“这份符合预期的 CPI 报告并没有提供足够的新信息，也没有给美联储一个令人信服的理由改变政策方向。与此同时，这份报告也意味着美联储在第四季度加息的可能性仍然存在。不过，在采取这一行动之前，美联储可能需要看到更多证据，证明通胀正在重新加速。”…
+On November 10, Philadelphia Fed President Paulson stated that the Federal Reserve still needs to raise interest rates further to addre…
 
-- **美联储鹰派阵营扩大：5位地方联储主席在7月会议后公开支持加息**（2026-08-05 02:06）
-  来源: blockbeats | 正文长度: 507 字
-  片段: …BlockBeats 消息，8 月 5 日，美联储内部鹰派声音持续升温，12 位地方联储主席中已有 5 人在 7 月议息会议后公开表示倾向加息，认为当前货币政策限制力度不足，通胀风险仍未完全消退。其中，克利夫兰联储主席哈玛克表示，她在最近一次会议上倾向于加息，原因是当前政策立场「不够限制性」；达拉斯联储主席洛根指出，即便剔除近期冲击，核心通胀仍接近 2.5%，支持采取更紧缩政策。明尼阿波利斯联储主席卡什卡利表示，为防止高通胀进一步固化，…
+- **Fed's Paulson calls for gradual rate hikes amid ongoing high inflation**（2026-11-11 04:26）
+  来源: longbridge | 正文长度: 70 字
+  片段: …Fed's Paulson calls for gradual rate hikes amid ongoing high inflation…
 
-- **美联储鹰派官员接连放鹰：施密德称利率仍不足够高，保尔森警告通胀风险未消**（2026-08-05 02:06）
-  来源: blockbeats | 正文长度: 661 字
-  片段: …BlockBeats 消息，8 月 5 日，美联储内部对通胀风险的担忧升温，堪萨斯城联储主席杰弗里·施密德和费城联储主席安娜·保尔森相继释放鹰派信号，暗示若通胀持续高企，未来可能需要进一步收紧货币政策。施密德表示，当前货币政策立场「并不具有限制性」，在需求保持强劲、企业投资规模扩大的背景下，美联储可能需要采取更紧缩的政策，才能推动通胀回落至 2% 的目标。施密德警告，市场不应简单认为供应冲击带来的价格压力会快速消退。他表示，对「通胀飙升…
+- **美联储保尔森：目前采取渐进式紧缩政策较为适宜**（2026-11-11 00:37）
+  来源: telegram:Financial_Express | 正文长度: 195 字
+  片段: …美联储保尔森：目前采取渐进式紧缩政策较为适宜
+金十数据 11 月 11 日讯，美联储官员保尔森表示，她倾向于支持以渐进的步伐加息。她指出，目前的工资压力有限，通胀预期也与美联储 2%的目标保持一致。保尔森表示：“就目前而言，进一步采取渐进式紧缩政策似乎是适宜的。”她补充道：“如果通胀预期上升、工资压力加大，或者潜在通胀水平走高，我就会倾向于加快行动步伐。但就目前来看，这些情况并未出现。”…
 
-- **美联储保尔森：如果通胀方面没有取得进展，可能需要重新调整政策**（2026-08-04 13:06）
-  来源: blockbeats | 正文长度: 85 字
-  片段: …BlockBeats 消息，8 月 4 日，美联储保尔森表示，目前无法提供利率指引，仍保持开放态度。如果通胀方面没有取得进展，可能需要重新调整政策。货币政策面临复杂时刻。…
+- **美联储保尔森**（2026-11-10 23:54）
+  来源: telegram:Financial_Express | 正文长度: 17 字
+  片段: …美联储保尔森：未见加快紧缩的压力。…
+
+- **美联储官员保尔森：鉴于高通胀，进一步“逐步”加息是合适的**（2026-11-10 23:39）
+  来源: telegram:Financial_Express | 正文长度: 162 字
+  片段: …美联储官员保尔森：鉴于高通胀，进一步“逐步”加息是合适的
+美联储的保尔森称，货币政策需要“具有一定限制性”。利率政策的确切路径取决于经济的演变情况。鉴于高通胀，进一步“逐步”加息是合适的。渐进加息也为美联储官员评估影响提供了空间。通胀前景面临的风险很高。经济强于预期，就业市场稳健。美联储在降低通胀方面还有“更多工作要做”。…
 
 ## 杰罗姆·鲍威尔（Jerome H. Powell）
 
-- **本周市场大事件：美股财报季进入尾声，美日央行接连公布利率决议**（2026-07-27 08:12）
-  来源: blockbeats | 正文长度: 664 字
-  片段: …BlockBeats 消息，7 月 27 日，本周全球市场将迎来宏观与财报双重考验。根据 BlockBeats 本周市场大事件日历，7 月 27 日至 8 月 2 日期间，美联储与日本央行将先后公布利率决议，Meta、微软、苹果、亚马逊、高通、ARM 等科技巨头也将密集发布财报，市场波动或进一步放大。宏观层面，北京时间周四凌晨 2 点，美国 FOMC 将公布最新利率决议，随后美联储主席鲍威尔将在 2 点 30 分召开货币政策新闻发布会。…
-
-- **高盛警告美国通胀压力正在扩散，美联储主席沃什面临加息压力**（2026-07-20 11:36）
-  来源: blockbeats | 正文长度: 604 字
-  片段: …BlockBeats 消息，7 月 20 日，高盛最新研究报告显示，美国通胀压力正从少数行业向更广泛领域扩散，尽管当前通胀水平尚未达到 2022 年峰值，但物价上涨的覆盖范围正在扩大，令美联储政策面临更大挑战。高盛经济学家 Jessica Rindels 以美联储重点关注的个人消费支出（PCE）物价指数为基础，通过六个月年化变化率分析通胀扩散程度。数据显示，相较于 1990 年至 2019 年的平均通胀水平，目前超过 3% 的通胀类别压…
-
-- **美联储主席鲍威尔暗示12月降息，市场反应积极**（2026-07-16 18:17）
-  来源: e2e_test | 正文长度: 103 字
-  片段: …美联储主席鲍威尔在杰克逊霍尔会议上表示，通胀已取得实质性进展，如果数据继续向好，可能在12月会议上讨论降息。市场对此反应积极，道指涨超300点，美元指数短线下跌0.5%。分析师认为美联储正在为降息周期铺路。…
-
-- **美联储意外加息50个基点，美元走强**（2026-07-16 18:04）
-  来源: test | 正文长度: 80 字
-  片段: …美联储在最新FOMC会议上宣布加息50个基点，超出市场预期的25个基点。鲍威尔表示通胀压力持续，需要更激进的紧缩政策。美元指数短线拉升1.5%，美债收益率飙升。…
-
-- **8点1氪丨LV起诉国家知识产权局；DeepSeek梁文锋成全球AI公司领域新首富；戴比尔斯将暂停南非最大钻石矿生产**（2026-07-15 00:02）
-  来源: 36kr | 正文长度: 9094 字
-  片段: …今日热点导览 小米机器人首次实现汽车工厂柔性工件的长时作业 SK海力士加速Y1工厂建设，现已开始订购DRAM制造设备 国际金价持续回调，后市关注美联储政策路径 海关总署：中国出口连续11季度保持增长，贸易增量集中于AI领域 韩国政府四部门将于周四召开会议，就单股杠杆ETF对股市冲击研究应对方案 TOP 3大新闻 LV起诉国家知识产权局，案件定于16日开庭审理 人民法院公告网显示，北京知识产权法院将于2026年7月16日公开审理一起涉及路…
+数据缺失（工具未返回相关新闻）
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
-- **通胀加剧，美国经济增速放缓**（2026-07-31 05:06）
-  来源: nytimes_chinese | 正文长度: 2486 字
-  片段: …TALMON JOSEPH SMITH2026年7月31日 The New York Times美国经济在今年第二季度放缓，按年率计算仅增长1.5%，这主要是由于伊朗战争扰乱了价格、供应链和能源市场。油价已经从春季的高点回落，但汽油及其他石油制品价格上涨所造成的损害仍在冲击家庭和企业。持续通胀以及围绕美联储遏制通胀计划的不确定性本周推高了债券收益率。对美国经济而言，这无疑是一个充满不确定性的时刻。尽管经济持续表现出韧性，但它同时受到持续…
+- **Fed Governor Waller: Supports a One-Time 50-Basis-Point Rate Hike if Inflation Accelerates to Safeguard Credibility**（2026-11-11 04:36）
+  来源: longbridge | 正文长度: 611 字
+  片段: …Fed Governor Waller: Supports a One-Time 50-Basis-Point Rate Hike if Inflation Accelerates to Safeguard Credibility
 
-- **美联储官员暗示9月降息概率上升**（2026-07-16 19:08）
-  来源: e2e_quality | 正文长度: 96 字
-  片段: …美联储理事沃勒在接受采访时表示，如果通胀继续回落，9月降息的可能性正在上升。市场对此反应积极，美股期货小幅走高，美元指数下跌0.3%。CME FedWatch工具显示9月降息概率已升至68%。…
+Federal Reserve Governor Waller stated his support for a rate hike in December, indicating a preference…
 
-- **分析师：CPI数据偏向鸽派，美联储7月加息预期落空**（2026-07-14 13:36）
-  来源: blockbeats | 正文长度: 394 字
-  片段: …BlockBeats 消息，7 月 14 日，分析师 Justin McQueen 表示，在美联储理事沃勒周一发表偏鹰派讲话、暗示若核心 CPI 表现强劲则可能支持近期加息后，周二公布的美国 6 月通胀数据却释放出明显的鸽派信号。数据显示，6 月核心 CPI 环比持平，低于市场预期的上涨 0.2%；同比涨幅为 2.6%，同样低于预期。这一结果显著削弱了美联储短期内进一步加息的紧迫性。从市场定价来看，7 月加息预期已明显降温。利率市场隐含…
+- **November 11 Close: U.S. Stocks Fall; NVIDIA Drops Over 5%; Fed Governor Waller Says 50 Basis Point Hike May Be Needed in December**（2026-11-11 04:26）
+  来源: longbridge | 正文长度: 653 字
+  片段: …November 11 Close: U.S. Stocks Fall; NVIDIA Drops Over 5%; Fed Governor Waller Says 50 Basis Point Hike May Be Needed in December
 
-- **下周宏观展望：沃什国会听证会叠加CPI，市场期待更多利率前景线索**（2026-07-11 11:36）
-  来源: blockbeats | 正文长度: 635 字
-  片段: …BlockBeats 消息，7 月 11 日，本周美伊紧张局势急剧升级，双方互袭导致此前维持约三周的脆弱停火协议破裂，油价上涨驱动的通胀压力让美联储收紧政策的预期再度升温。同期美股几乎无视地缘政治不确定性，「AI 交易」热潮重整旗鼓，标普 500 指数逼近历史新高，与纳指双双录得周线二连阳。SK 海力士 ADR 首日大涨 13%，265 亿美元的募资金额使其成为美股史上募资最高的外国企业 IPO。未来一周，美伊局势、美国 CPI 等经济…
+On November 11, the three major U.S. stock indices closed slightly lower, influenced by O…
 
-- **下周美联储官员密集讲话，需关注官员对CPI数据的解读与潜在加息倾向**（2026-07-11 07:02）
-  来源: blockbeats | 正文长度: 384 字
-  片段: …BlockBeats 消息，7 月 11 日，德意志银行表示，在经历了数周较为清淡的美联储官员发言后，下周将迎来静默期前的密集讲话潮。最受关注的是：沃勒周一在纽约商业经济协会的演讲打头阵，沃什主席周二和周三作证，多位官员将在 6 月 CPI 数据公布后发表展望讲话（库克周三，杰斐逊副主席、达拉斯联储的洛根和堪萨斯城联储的施密德周五）。预计沃什将重申他近期的表态，对未来的政策行动保持缄默。而沃勒通常更愿意详细阐述他的政策反应机制和预期，因…
+- **Fed Governor Waller Supports Tightening Policy to Curb Inflation**（2026-11-10 19:21）
+  来源: longbridge | 正文长度: 438 字
+  片段: …Fed Governor Waller Supports Tightening Policy to Curb Inflation
+
+Fed Governor Waller supports further policy tightening to curb inflation. Although the October CPI increase slowed, he favors a 25 basis point rate hike b…
+
+- **Fed Governor Waller Says 50-Basis-Point Hike Should Be Discussed at December FOMC Meeting**（2026-11-10 11:51）
+  来源: longbridge | 正文长度: 473 字
+  片段: …Fed Governor Waller Says 50-Basis-Point Hike Should Be Discussed at December FOMC Meeting
+
+Fed Governor Waller stated that a rate hike could be discussed as early as the December FOMC meeting. He leans toward supporting…
+
+- **[US Interest Rate Decision] Fed Governor Waller: Supports Another Rate Hike in December**（2026-11-10 09:51）
+  来源: longbridge | 正文长度: 422 字
+  片段: …[US Interest Rate Decision] Fed Governor Waller: Supports Another Rate Hike in December
+
+(ETNet News, Special Report on the 10th) Federal Reserve Governor Christopher Waller stated that he supports another rate hike in D…
 
 ## 托马斯·巴尔金（Thomas I. Barkin）（候补票委）
 
-- **美联储巴尔金**（2026-08-13 13:04）
-  来源: telegram:Financial_Express | 正文长度: 33 字
-  片段: …美联储巴尔金：消费者似乎“决心已定”要消费，并且正在寻找融资方式。…
+- **Two Federal Reserve Officials Strike Hawkish Tone: Barkin Says Direction of Rate Hikes Is Clear but Pace Must Be Prudent; Goolsbee Warns of Need to Confront "Runaway Inflation"**（2026-11-10 04:36）
+  来源: longbridge | 正文长度: 716 字
+  片段: …Two Federal Reserve Officials Strike Hawkish Tone: Barkin Says Direction of Rate Hikes Is Clear but Pace Must Be Prudent; Goolsbee Warns of Need to Confront "Runaway Inflation"
 
-- **美联储巴尔金**（2026-08-13 12:58）
-  来源: telegram:Financial_Express | 正文长度: 26 字
-  片段: …美联储巴尔金：低收入家庭面临“挑战”，但仍继续消费。…
+Federal Reserve Officials Barkin and Gools…
 
-- **美联储巴尔金**（2026-08-13 12:58）
-  来源: telegram:Financial_Express | 正文长度: 33 字
-  片段: …美联储巴尔金：目前的联邦债务水平是一股通胀“风”，美联储必须应对。…
+- **美联储巴尔金**（2026-11-09 18:06）
+  来源: telegram:Financial_Express | 正文长度: 28 字
+  片段: …美联储巴尔金：处于历史水平的是政府债务，而非消费者债务。…
 
-- **美联储巴尔金**（2026-08-13 12:58）
-  来源: telegram:Financial_Express | 正文长度: 36 字
-  片段: …美联储巴尔金：当前联邦债务水平是一股通胀性“逆风”，美联储必须加以应对。…
+- **美联储巴尔金认为，企业存在将更高能源成本转嫁出去的风险。**（2026-11-09 17:28）
+  来源: telegram:Financial_Express | 正文长度: 28 字
+  片段: …美联储巴尔金认为，企业存在将更高能源成本转嫁出去的风险。…
 
-- **美联储巴尔金：可能需要加息来实现美联储的目标**（2026-08-13 12:53）
-  来源: telegram:Financial_Express | 正文长度: 253 字
-  片段: …美联储巴尔金：可能需要加息来实现美联储的目标
-金十数据 8 月 13 日讯，美联储官员巴尔金最新表示：“美联储是否需要加息以恢复 2%的通胀目标，或者通胀是否已经走上下行之路，仍然是个悬而未决的问题。因为美国经济的某些方面仍然是个谜，因为消费者和整体经济活动并未受到冲击的影响。目前美联储‘许多人’认为目前的利率水平已经足够紧缩，足以抑制通胀。鉴于补偿压力适中，且关税、石油和其他冲击可能消退，有充分理由认为通胀将会缓解。但也有理由认为价格…
+- **美联储巴尔金：通胀风险仍占主导，政策调整应谨慎**（2026-11-09 17:23）
+  来源: telegram:Financial_Express | 正文长度: 249 字
+  片段: …美联储巴尔金：通胀风险仍占主导，政策调整应谨慎
+金十数据 11 月 10 日讯，里士满联储主席巴尔金表示，通胀已连续近六年高于美联储 2%的目标，当前双重使命面临的风险主要集中在通胀方面。企业仍面临广泛成本上涨，并计划将部分成本转嫁给消费者。巴尔金认为，在需求保持强劲、通胀持续高企的情况下，货币政策收紧方向明确，但仍需谨慎推进。他同时警告，若 AI 技术发展不及预期，可能拖累企业投资、股价和消费；若 AI 发展超预期，也可能导致更多就业…
+
+- **美联储巴尔金：政策方向明确，但调整节奏需要审慎**（2026-11-09 17:08）
+  来源: telegram:Financial_Express | 正文长度: 203 字
+  片段: …美联储巴尔金：政策方向明确，但调整节奏需要审慎
+美联储理事巴尔金释放信号：需求强劲、通胀居高难下，意味着利率仍有上行必要；但他同时提醒，加息步伐必须谨慎。巴尔金在演讲中阐述对经济的看法，称企业盈利表现亮眼。当前失业率持续维持在 4.5%及以下区间、时长创纪录，居民消费支出依旧旺盛。不过他对消费韧性的可持续性提出警示，并指出企业与家庭仍普遍抱怨成本上涨。对政策制定者而言，政策走向清晰，但调整节奏尚无定论。…
 
 ## 玛丽·戴利（Mary C. Daly）（候补票委）
 
-- **美联储戴利：若通胀压力再度加剧，将需要采取激进的利率应对措施**（2026-08-06 01:36）
-  来源: blockbeats | 正文长度: 59 字
-  片段: …BlockBeats 消息，8 月 6 日，美联储戴利表示，若通胀压力再度加剧，将需要采取激进的利率应对措施。(金十)…
+- **Fed's Daly: Inflation Continues to Worsen, Further Rate Hikes Likely Necessary**（2026-11-13 19:21）
+  来源: longbridge | 正文长度: 1461 字
+  片段: …Fed's Daly: Inflation Continues to Worsen, Further Rate Hikes Likely Necessary
 
-- **Bitunix分析师：市场开始重新定价就业，但真正需要观察的是全球流动性**（2026-07-03 07:47）
-  来源: blockbeats | 正文长度: 516 字
-  片段: …BlockBeats 消息，7 月 3 日，美国 6 月新增非农就业人数为 5.7 万人，明显低于市场预期，前两个月的数据也同步下修，但失业率意外降至 4.2%。表面上看，就业市场出现降温迹象，但劳动参与率下降也意味着失业率的改善并非完全来自就业增加，使本次非农数据呈现出相对矛盾的信号。市场因此下调了对美联储进一步加息的预期，但在通胀仍高于政策目标的背景下，货币政策方向仍高度依赖后续经济数据及官员讲话。美联储方面，旧金山联储主席戴利重申…
+Mary Daly, President of the Federal Reserve Bank of San Francisco, stated on Friday that the Federal Reserve may need to raise interest rate…
 
-- **美联储戴利强调不改变双重使命目标，但愿以新方法评估经济**（2026-07-02 13:47）
-  来源: blockbeats | 正文长度: 308 字
-  片段: …BlockBeats 消息，7 月 2 日，美联储戴利表示，通胀应会开始放缓，但经济前景存在很大的不确定性。戴利周四在西班牙桑坦德举行的西班牙央行活动上说：我们继续将政策维持在略微限制性的水平，因此通胀应该会下降。在美国对伊朗开战后，今年春季关税和油价上涨推高了通胀。戴利对美伊达成停火协议后油价飙升势头回落表示赞赏，称这带来了「缓解的希望」，但警告称目前尚不清楚经济将如何演变。戴利概述了可能需要美联储做出不同回应的多种情景，并表示美联储…
+- **美联储戴利：通胀持续恶化 进一步加息很可能有必要**（2026-11-13 18:53）
+  来源: telegram:Financial_Express | 正文长度: 427 字
+  片段: …美联储戴利：通胀持续恶化 进一步加息很可能有必要
+金十数据 11 月 14 日讯，美联储旧金山联储主席戴利周五表示，鉴于通胀形势恶化，美联储很可能需要进一步加息。她指出，核心 CPI 连续三个月环比上涨约 0.3%，高于与美联储 2%通胀目标相符的 0.2%或以下水平。她尤其担忧剔除住房后的服务业通胀走势不佳，因为这类价格通常具有较强粘性。企业投入成本不断上升，越来越多生产商表示利润空间已难以消化成本压力，正考虑将成本转嫁给消费者。戴利…
 
-- **Fed’s Daly Says Inflation Should Cool But Warns of Uncertainty**（2026-07-02 13:32）
-  来源: bloomberg_economics | 正文长度: 294 字
-  片段: …Mary Daly, president of the Federal Reserve Bank of San Francisco, during the Bloomberg Tech conference in San Francisco, California, US, on Thursday, June 4, 2026. The event brings together the leading CEOs, investors a…
+- **Fed's Daly: In all likelihood, we need to raise rates**（2026-11-13 17:51）
+  来源: longbridge | 正文长度: 398 字
+  片段: …Fed's Daly: In all likelihood, we need to raise rates
 
-- **美联储戴利：尽管通胀高于目标，但未看到经济韧性不足迹象**（2026-07-02 12:32）
-  来源: 36kr | 正文长度: 65 字
-  片段: …据报道，美联储戴利表示，尽管通胀高于目标，但没有看到经济韧性不足的迹象，劳动力市场已趋于稳定。美联储政策仍略具限制性。（第一财经）…
+Hard to say policy is restrictive enoughIn all likelihood, we will need to raise ratesA myriad of things are pushing up inflation, which makes it concerningBias is t…
+
+- **美联储戴利**（2026-11-13 17:50）
+  来源: telegram:Financial_Express | 正文长度: 32 字
+  片段: …美联储戴利：刚刚开始收到信号，美国消费者的消费动力可能已经不足。…
+
+- **美国旧金山联储主席戴利**（2026-11-13 17:28）
+  来源: telegram:Financial_Express | 正文长度: 46 字
+  片段: …美国旧金山联储主席戴利：（重申）我们很可能不得不加息。
+现在很难说利率是否具有足够的限制性。…
 
 ## 奥斯坦·古尔斯比（Austan D. Goolsbee）（候补票委）
 
-- **美联储古尔斯比：经济面临的最大问题是通货膨胀**（2026-08-11 16:32）
-  来源: blockbeats | 正文长度: 70 字
-  片段: …BlockBeats 消息，8 月 12 日，美联储古尔斯比表示，只要消费保持稳健，经济就会保持健康。经济面临的最大问题是通货膨胀。（金十）…
+- **Fed's Goolsbee: US Inflation Issues Increasingly Severe, Further Action Still Needed**（2026-11-13 16:26）
+  来源: longbridge | 正文长度: 625 字
+  片段: …Fed's Goolsbee: US Inflation Issues Increasingly Severe, Further Action Still Needed
 
-- **美联储古尔斯比**（2026-08-11 16:29）
-  来源: telegram:Financial_Express | 正文长度: 23 字
-  片段: …美联储古尔斯比：经济面临的最大问题是通货膨胀。…
+Chicago Fed President Goolsbee stated that the latest inflation data is concerning, and the Federal Reserve may still need to take fur…
 
-- **美联储古尔斯比**（2026-08-11 16:29）
-  来源: telegram:Financial_Express | 正文长度: 26 字
-  片段: …美联储古尔斯比：只要消费保持稳健，经济就会保持健康。…
+- **Chicago Fed President Goolsbee Says Central Bank Still Has 'Much Work to Do' on Inflation**（2026-11-13 15:36）
+  来源: longbridge | 正文长度: 536 字
+  片段: …Chicago Fed President Goolsbee Says Central Bank Still Has 'Much Work to Do' on Inflation
 
-- **美联储古尔斯比**（2026-08-11 16:29）
-  来源: telegram:Financial_Express | 正文长度: 30 字
-  片段: …美联储古尔斯比：物价与可负担性，这是我们当前面临的最大问题。…
+Chicago Fed President Goolsbee stated that the Federal Reserve is moving further away from its 2% inflation target, with signs of…
 
-- **美联储古尔斯比称通胀是经济面临的最大难题**（2026-08-11 16:23）
-  来源: telegram:Financial_Express | 正文长度: 129 字
-  片段: …美联储古尔斯比称通胀是经济面临的最大难题
-芝加哥联邦储备银行行长奥斯坦·古尔斯比表示，“当前我国经济面临的最大问题”是通胀。古尔斯比周二称，各项指标表明“劳动力市场趋于稳定，但状态并不理想”。古尔斯比表示：“只要消费者保持稳健，我认为经济就会维持良好态势。”…
+- **Chicago Fed President Goolsbee Says the Fed Must Rebuild Its Credibility on Inflation**（2026-11-13 15:21）
+  来源: longbridge | 正文长度: 422 字
+  片段: …Chicago Fed President Goolsbee Says the Fed Must Rebuild Its Credibility on Inflation
+
+Chicago Fed President Goolsbee stated that the Federal Reserve must take further measures to reduce inflation in order to rebuild its…
+
+- **Fed's Goolsbee: Inflation Not Yet on Track to Return to 2%, AI Data Center Construction Driving Up Prices**（2026-11-13 15:21）
+  来源: longbridge | 正文长度: 578 字
+  片段: …Fed's Goolsbee: Inflation Not Yet on Track to Return to 2%, AI Data Center Construction Driving Up Prices
+
+Chicago Fed President Goolsbee stated that U.S. inflationary pressures have spread to broader economic sectors, w…
+
+- **Fed's Goolsbee: We're not on the way to 2% inflation and we have to deal with that**（2026-11-13 14:21）
+  来源: longbridge | 正文长度: 511 字
+  片段: …Fed's Goolsbee: We're not on the way to 2% inflation and we have to deal with that
+
+Chicago Fed President Goolsbee stated that inflation is proving more persistent than expected, spreading beyond energy into services and…
 
 ## 苏什米塔·舒克拉（Sushmita Shukla）（候补票委）
 
@@ -352,18 +337,6 @@ On Wednesday, shares of major American banks rose, with Morgan Stanley, Goldman 
   来源: telegram:Financial_Express | 正文长度: 35 字
   片段: …亚特兰大联储第一副总裁维纳布尔：美联储的通胀与就业使命存在“细微风险。…
 
-- **亚特兰大联储第一副总裁维纳布尔**（2026-08-11 14:43）
-  来源: telegram:Financial_Express | 正文长度: 37 字
-  片段: …亚特兰大联储第一副总裁维纳布尔：美联储的通胀和就业任务存在“微妙的风险”。…
-
-- **亚特兰大联储第一副总裁维纳布尔**（2026-08-11 14:43）
-  来源: telegram:Financial_Express | 正文长度: 53 字
-  片段: …亚特兰大联储第一副总裁维纳布尔：最大化就业的理解受到劳动力供应停滞的影响，这对美国而言是一种“异常情况”。…
-
-- **亚特兰大联储第一副总裁维纳布尔**（2026-08-11 14:43）
-  来源: telegram:Financial_Express | 正文长度: 59 字
-  片段: …亚特兰大联储第一副总裁维纳布尔：对最大就业的理解受到劳动力供给停滞这一事实的影响，这对美国来说是一种“不寻常的情况”。…
-
-- **亚特兰大联储第一副总裁维纳布尔**（2026-08-11 14:43）
-  来源: telegram:Financial_Express | 正文长度: 56 字
-  片段: …亚特兰大联储第一副总裁维纳布尔：核心问题在于未来几个月价格压力是否会减轻，而这在很大程度上取决于中东冲突的结果。…
+- **亚特兰大联储银行维纳布尔**（2026-08-11 14:38）
+  来源: telegram:Financial_Express | 正文长度: 54 字
+  片段: …亚特兰大联储银行维纳布尔：核心问题在于未来数月价格压力是否会缓解，而局势走向很大程度上取决于中东冲突的结局。…
