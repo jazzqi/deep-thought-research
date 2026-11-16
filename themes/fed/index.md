@@ -17,8 +17,8 @@ sources:
 
 > ⚠️ **立场变化（近 30 天；D137 自动识别）**
 > 🚨 **克里斯托弗·沃勒**：鸽→鹰（Δ+1.36，high；基线：2026-01-27 FOMC 反对票主张降息（prefer to lower）；证据：2026-11-11 longbridge「Fed Governor Waller: Supports a One-Time 50-Basis-Point …」）
-> ⚠️ **米歇尔·鲍曼**：中性→鹰（Δ+0.45，medium；证据：2026-11-11 longbridge「Fed's Bowman Assessment: Inflation is Widening, Another …」）
-> ⚠️ **菲利普·杰斐逊**：中性→鹰（Δ+0.28，medium；证据：2026-11-14 longbridge「Fed Vice Chair Jefferson: Inflation Will Determine Inter…」）
+> ⚠️ **米歇尔·鲍曼**：中性→鹰（Δ+0.45，medium；**冷启动基线，置信度有限**；证据：2026-11-11 longbridge「Fed's Bowman Assessment: Inflation is Widening, Another …」）
+> ⚠️ **菲利普·杰斐逊**：中性→鹰（Δ+0.28，medium；**冷启动基线，置信度有限**；证据：2026-11-14 longbridge「Fed Vice Chair Jefferson: Inflation Will Determine Inter…」）
 >
 > 判定：言论级 LLM 分类 → 90 天/30 天半衰期聚合 → 跨阈值（|Δ|≥0.2）且被近期高置信言论确认；同方向 14 天内不重复播报。分数/证据：`/api/fomc/stance-changes`。
 
