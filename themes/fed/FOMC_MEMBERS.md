@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读数据：`GET /api/fomc/members`、`GET /api/fomc/meetings`、Agent 工具 `query_fomc_members`。
-> 生成时间：2026-11-16 17:09 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
+> 生成时间：2026-11-16 20:03 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
 > 「最新言论/立场」来自 `fomc_member_statements`（每条可追溯 raw_items）；「鹰/鸽」来自 D137 stance 快照（LLM 分类）；「综合」来自 D138 记分卡（0.6×投票 + 0.4×言论，附样本量与状态）。
 
 ---
@@ -48,7 +48,7 @@
 | 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-13 longbridge：Fed's Williams says central bank has 'work to do' to get inflation back on target | 鹰（+0.45/0.38） | （+0.12，投 -0.05，言 +0.39，n=14） |
 | 安娜·保尔森 | Anna Paulson | 费城联储主席（2026 票委；下次 2029） | 2026-11-11 longbridge：Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target | 鹰（+0.67/1.00） | （+0.16，投 +0.04，言 +0.35，n=13） |
 | 贝丝·哈马克 | Beth M. Hammack | 克利夫兰联储主席（2026 票委；下次 2028） | 2026-11-12 longbridge：Fed's Hammack: Further Rate Hikes Needed to Curb Inflation | 鹰（+0.76/1.00） | （+0.36，投 +0.15，言 +0.67，n=19） ⚠️言行不一 |
-| 尼尔·卡什卡利 | Neel Kashkari | 明尼阿波利斯联储主席（2026 票委；下次 2029） | 2026-10-02 telegram:Financial_Express：美联储官员卡什卡利：人工智能并非推动美国经济增长的唯一动力 | 鹰（+0.70/0.36） | （+0.26，投 +0.06，言 +0.57，n=13/样本薄） ⚠️言行不一 |
+| 尼尔·卡什卡利 | Neel Kashkari | 明尼阿波利斯联储主席（2026 票委；下次 2029） | 数据缺失 | 鹰（+0.70/0.36） | （+0.26，投 +0.06，言 +0.57，n=13/样本薄） ⚠️言行不一 |
 | 洛里·洛根 | Lorie K. Logan | 达拉斯联储主席（2026 票委；下次 2029） | 2026-11-13 longbridge：Fed's Logan: U.S. Treasury Market Functioning Well, Fed Needs to Strengthen Support Tools | 鹰（+0.79/1.00） | （+0.19，投 +0.06，言 +0.39，n=19） |
 
 ## 地区联储主席（全部 12 位，含非 2026 票委）
@@ -66,7 +66,7 @@
 | 谢丽尔·维纳布尔 | Cheryl Venable | 亚特兰大联储主席（非 2026 票委；2027 轮值票委） | 数据缺失 | — | （+0.00，投 —，言 +0.00，n=2/样本薄） |
 | 奥斯坦·古尔斯比 | Austan D. Goolsbee | 芝加哥联储主席（非 2026 票委；2027 轮值票委） | 2026-11-13 longbridge：Fed's Goolsbee: US Inflation Issues Increasingly Severe, Further Action Still Needed | 鹰（+0.62/1.00） | （+0.20，投 +0.00，言 +0.51，n=13） |
 | 阿尔贝托·穆萨莱姆 | Alberto G. Musalem | 圣路易斯联储主席（非 2026 票委；2028 轮值票委） | 2026-11-06 longbridge：Fed's Musalem: Businesses say inflation remains top concern | 鹰（+0.84/0.85） | （+0.51，投 —，言 +0.51，n=8） |
-| 尼尔·卡什卡利 | Neel Kashkari | 明尼阿波利斯联储主席（2026 票委；下次 2029） | 2026-10-02 telegram:Financial_Express：美联储官员卡什卡利：人工智能并非推动美国经济增长的唯一动力 | 鹰（+0.70/0.36） | （+0.26，投 +0.06，言 +0.57，n=13/样本薄） ⚠️言行不一 |
+| 尼尔·卡什卡利 | Neel Kashkari | 明尼阿波利斯联储主席（2026 票委；下次 2029） | 数据缺失 | 鹰（+0.70/0.36） | （+0.26，投 +0.06，言 +0.57，n=13/样本薄） ⚠️言行不一 |
 | 杰弗里·施密德 | Jeffrey R. Schmid | 堪萨斯城联储主席（非 2026 票委；2028 轮值票委） | 2026-11-16 longbridge：International ／ Kansas City Fed President Schmid: Inflation Remains Overheated, Fed Needs … | 鹰（+0.77/1.00） | （+0.66，投 —，言 +0.66，n=12） |
 | 洛里·洛根 | Lorie K. Logan | 达拉斯联储主席（2026 票委；下次 2029） | 2026-11-13 longbridge：Fed's Logan: U.S. Treasury Market Functioning Well, Fed Needs to Strengthen Support Tools | 鹰（+0.79/1.00） | （+0.19，投 +0.06，言 +0.39，n=19） |
 | 玛丽·戴利 | Mary C. Daly | 旧金山联储主席（非 2026 票委；2027 轮值票委） | 2026-11-14 longbridge：Fed's Daly: Inflation Continues to Worsen, Further Rate Hikes Likely Necessary | 鹰（+0.70/1.00） | （+0.60，投 —，言 +0.60，n=12） |
