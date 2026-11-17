@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-17 17:31 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
+> 生成时间：2026-11-17 20:45 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
@@ -53,6 +53,10 @@
 数据缺失（近 45 天无可靠归属的讲话/表态）
 
 ## 迈克尔·巴尔（Michael S. Barr）
+
+- **Fed Governor Michael Barr warns AI agents could trigger bank runs in minutes**（2026-11-17 10:48）
+  来源: longbridge | 正文长度: 511 字
+  片段: …Fed Governor Michael Barr warns AI agents could trigger bank runs in minutes Federal Reserve Governor Michael Barr warned that autonomous AI agents could trigge
 
 - **美联储理事巴尔：AI 智能体可能加剧未来的银行挤兑**（2026-11-16 10:31）
   来源: federalreserve.gov / telegram:Financial_Express（同日 2 条已合并） | 正文长度: 409 字
@@ -113,6 +117,10 @@
 数据缺失（近 45 天无可靠归属的讲话/表态）
 
 ## 约翰·威廉姆斯（John C. Williams）
+
+- **Fed's Williams still favors tighter monetary policy, but says now is not the time for 'dramatic action'**（2026-11-17 20:06）
+  来源: longbridge / telegram:Financial_Express（同日 4 条已合并） | 正文长度: 103 字 | 立场: 鹰 +0.41
+  片段: …Fed's Williams still favors tighter monetary policy, but says now is not the time for 'dramatic action'
 
 - **Fed's Williams says central bank has 'work to do' to get inflation back on target**（2026-11-13 00:05）
   来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 81 字 | 立场: 鹰 +0.55

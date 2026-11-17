@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读数据：`GET /api/fomc/committee-brief`（聚合，推荐）、`GET /api/fomc/statements`（批量言论）、`GET /api/fomc/members`；Agent 工具 `query_fomc_members`（支持逗号分隔多人）。
-> 生成时间：2026-11-17 20:40 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
+> 生成时间：2026-11-17 20:45 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
 > 「最新言论/立场」来自 `fomc_member_statements`（每条可追溯 raw_items）；「鹰/鸽」来自 D137 stance 快照（LLM 分类）；「综合」来自 D138 记分卡（0.6×投票 + 0.4×言论，附样本量与状态）。
 
 ---
@@ -45,7 +45,7 @@
 | 克里斯托弗·沃勒 | Christopher J. Waller | 理事 / Board of Governors（常任票委） | 2026-11-17 telegram:Financial_Express：美联储理事沃勒 | 鹰（+0.53/0.67） ⚠️flip_dove_to_hawk | （+0.04，投 -0.03，言 +0.15，n=19） |
 | 杰罗姆·鲍威尔 | Jerome H. Powell | 理事 / Board of Governors（常任票委） | 数据缺失 | — | （+0.00，投 +0.00，言 —，n=8/样本少） |
 | 莉萨·库克 | Lisa D. Cook | 理事 / Board of Governors（常任票委） | 2026-11-17 telegram:Financial_Express：美联储理事库克的律师表示，没有法律义务出席不公正的听证会。 | —（低置信 +0.13） ⚠️shift_to_neutral | （+0.13，投 +0.13，言 +0.13，n=13/样本少） |
-| 迈克尔·巴尔 | Michael S. Barr | 理事 / Board of Governors（常任票委） | 2026-11-16 telegram:Financial_Express：美联储理事巴尔：AI 智能体可能加剧未来的银行挤兑 | 鹰（+0.71/0.24） | （+0.23，投 +0.00，言 +0.56，n=14/样本少） ⚠️言行不一 |
+| 迈克尔·巴尔 | Michael S. Barr | 理事 / Board of Governors（常任票委） | 2026-11-17 longbridge：Fed Governor Michael Barr warns AI agents could trigger bank runs in minutes | 鹰（+0.71/0.24） | （+0.23，投 +0.00，言 +0.56，n=14/样本少） ⚠️言行不一 |
 | 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-17 telegram:Financial_Express：美联储威廉姆斯 | 鹰（+0.52/0.60） | （+0.21，投 +0.00，言 +0.52，n=11/样本少） ⚠️言行不一 |
 | 安娜·保尔森 | Anna Paulson | 费城联储主席（2026 票委；下次 2029） | 2026-11-11 longbridge：Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target | 鹰（+0.75/0.61） | （+0.33，投 +0.06，言 +0.74，n=9/样本少） |
 | 贝丝·哈马克 | Beth M. Hammack | 克利夫兰联储主席（2026 票委；下次 2028） | 2026-11-17 telegram:Financial_Express：美联储哈玛克 | 鹰（+0.76/1.00） | （+0.44，投 +0.24，言 +0.75，n=16） ⚠️言行不一 |
