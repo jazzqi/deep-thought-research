@@ -2,9 +2,13 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-17 02:58 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
+> 生成时间：2026-11-17 16:32 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
+
+- **美联储理事沃勒**（2026-11-17 14:10）
+  来源: telegram:Financial_Express | 正文长度: 26 字
+  片段: …美联储理事沃勒：市场仍处于创建新支付系统的早期阶段。
 
 - **Fed Governor Waller Supports Tightening Policy to Curb Inflation**（2026-11-11 00:39）
   来源: longbridge（同日 3 条已合并） | 正文长度: 438 字 | 立场: 鹰 +0.90
@@ -22,23 +26,19 @@
   来源: longbridge | 正文长度: 1470 字
   片段: …"Fed Whisperer": Waller Seeks to Tighten Fed Communication, Yet Officials' Voices Remain Abundant Nick Timiraos, the "Fed Whisperer," stated in an article that 
 
-- **Super Central Bank Week: Market Focuses on Fed Governor Waller's Post-Meeting Remarks and US PCE Data**（2026-10-26 05:43）
-  来源: longbridge | 正文长度: 610 字
-  片段: …The Fed, Bank of Japan, and ECB all kept interest rates unchanged this week, with markets focused on Fed Governor Waller’s post-meeting remarks. Investors await
-
 ## 杰罗姆·鲍威尔（Jerome H. Powell）
 
 数据缺失（近 45 天无可靠归属的讲话/表态）
 
 ## 凯文·沃什（Kevin Warsh）
 
-- **Fed Chair Kevin Warsh: Three Scenarios Show How Superintelligence Impacts US Economy and Employment**（2026-11-17 03:22）
-  来源: longbridge（同日 2 条已合并） | 正文长度: 575 字
-  片段: …Fed Chair Kevin Warsh outlined three scenarios for how superintelligence could affect the US economy: broadly shared productivity gains, accelerated growth with
+- **Is the AI Boom an Engine or a Bubble? Fed Chair Warsh Outlines Three Scenarios: Productivity Surge, Mass Unemployment, or Stock Market Plunge**（2026-11-17 06:27）
+  来源: longbridge（同日 3 条已合并） | 正文长度: 558 字
+  片段: …Fed Chair Warsh outlined three AI-related scenarios: a productivity surge, mass unemployment, or a stock market plunge, stressing significant uncertainty and th
 
 - **美联储推演 AI 对经济潜在影响 主席沃什称涵盖多重情景**（2026-11-16 17:35）
   来源: federalreserve.gov / telegram:Financial_Express（同日 4 条已合并） | 正文长度: 274 字
-  片段: …美联储推演 AI 对经济潜在影响 主席沃什称涵盖多重情景 美联储主席凯文·沃什表示，美联储工作人员已开始推演 AI 加速普及可能对美国经济产生影响的不同情景。沃什周一在为旧金山联储一场活动准备的讲话中表示，其中一种情景是 AI 推动经济增长和生产率提升，带来雇主和劳动者共享收益的繁荣。他描述的第二种情景是经济活动增加带
+  片段: …美联储主席凯文·沃什表示，美联储工作人员已启动对AI加速普及影响美国经济的多情景推演。三种情景包括：AI提振增长与生产率并带来共享繁荣；经济活动增加但被大规模失业抵消；技术未达预期导致股市下跌和经济放缓。沃什强调这些并非预测，美联储的角色是中性评估这一最大未知因素。
 
 - **Warsh Pushes for Reform of Federal Reserve Meeting Mechanism: Fewer Rate Decisions, More Strategic Discussions**（2026-11-06 20:01）
   来源: longbridge | 正文长度: 617 字
@@ -74,7 +74,7 @@
 
 - **The U.S. Economy and Considerations for Monetary Policy**（2026-11-10 15:30）
   来源: federalreserve.gov / telegram:Financial_Express（同日 6 条已合并） | 正文长度: 21387 字 | 立场: 鹰 +0.60
-  片段: …Vice Chair for Supervision Bowman presented identical remarks at a subsequent event held by Unleash Prosperity Now on the same day. Good afternoon. It is a plea
+  片段: …Fed’s Bowman supported holding the federal funds target range at 3.75%–4% at the recent FOMC meeting, citing persistent and broadening inflation and the need to
 
 - **美联储负责监管的副主席米歇尔·鲍曼**（2026-10-15 02:56）
   来源: telegram:Financial_Express（同日 2 条已合并） | 正文长度: 71 字
@@ -96,7 +96,7 @@
 
 - **New Technology, Old Questions: Productivity Puzzles  and the Macroeconomy**（2026-11-13 19:00）
   来源: federalreserve.gov | 正文长度: 23636 字
-  片段: …Thank you, Jim, for that kind introduction, and thank you to UC San Diego for hosting me. 1 It is a pleasure to be speaking to this group that includes students
+  片段: …At UC San Diego, a policymaker examined how rapid technological change—especially AI adoption and productivity effects—could affect inflation, labor markets, ag
 
 ## 苏珊·柯林斯（Susan M. Collins）
 
@@ -139,7 +139,7 @@
 ## 贝丝·哈马克（Beth M. Hammack）
 
 - **Federal Reserve's Hammack Reiterates Support for Small, Gradual Interest Rate Hikes**（2026-11-17 03:43）
-  来源: longbridge | 正文长度: 1011 字 | 立场: 鹰 +0.90
+  来源: longbridge / telegram:Financial_Express（同日 4 条已合并） | 正文长度: 1011 字 | 立场: 鹰 +0.78
   片段: …Cleveland Fed President Beth Hammack reiterated support for small, gradual rate hikes across consecutive meetings to fully transmit restrictive policy and bring
 
 - **美联储哈马克**（2026-11-16 19:51）
@@ -203,6 +203,10 @@
   片段: …美联储古尔斯比：AI 数据中心建设加剧需求过热 通胀仍是首要问题 金十数据 11 月 10 日讯，芝加哥联储主席古尔斯比表示，AI 数据中心建设正显现出传统需求过热的特征，同时能源价格上涨正向服务业等更广泛领域传导，通胀压力有所扩散。他指出，央行通常需要积极应对经济过热。古尔斯比称，美国就业市场和经济增长总体稳定，目前
 
 ## 阿尔贝托·穆萨莱姆（Alberto G. Musalem）
+
+- **Fed's Musalem: May Need "Several" Rate Hikes Before Spring**（2026-11-17 20:35）
+  来源: longbridge / telegram:Financial_Express（同日 5 条已合并） | 正文长度: 447 字 | 立场: 鹰 +0.94
+  片段: …Fed's Musalem: May Need "Several" Rate Hikes Before Spring Fed's Musalem: May need "several" rate hikes before spring. The labor market is stable and balanced, 
 
 - **美联储穆萨莱姆**（2026-11-06 14:51）
   来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 28 字
