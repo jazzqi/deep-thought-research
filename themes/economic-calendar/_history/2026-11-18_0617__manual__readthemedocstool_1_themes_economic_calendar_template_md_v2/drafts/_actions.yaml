@@ -1,0 +1,17 @@
+actions:
+- priority: P1
+  recurrence: daily
+  summary: 每日跟踪12月FOMC加息定价（25bp vs 50bp 概率）与 Polymarket 期望 bp 变化
+  target_flow_params: {}
+  type: monitoring
+- confidence: 0.65
+  priority: P1
+  summary: 11-18 FOMC纪要验证50bp讨论是否获多名官员支持，核对滞胀基准判断
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-11-18'
+- priority: P2
+  recurrence: daily
+  summary: Anthropic周四IPO定价与英伟达财报后AI交易波动，监控组合AI敞口与拥挤度
+  target_flow_params: {}
+  type: monitoring
