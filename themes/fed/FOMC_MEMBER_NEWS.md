@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-16 21:01 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
+> 生成时间：2026-11-17 02:58 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
@@ -34,7 +34,7 @@
 
 - **Fed Chair Kevin Warsh: Three Scenarios Show How Superintelligence Impacts US Economy and Employment**（2026-11-17 03:22）
   来源: longbridge（同日 2 条已合并） | 正文长度: 575 字
-  片段: …Fed Chair Kevin Warsh: Three Scenarios Show How Superintelligence Impacts US Economy and Employment Fed Chair Kevin Warsh outlined three scenarios on how superi
+  片段: …Fed Chair Kevin Warsh outlined three scenarios for how superintelligence could affect the US economy: broadly shared productivity gains, accelerated growth with
 
 - **美联储推演 AI 对经济潜在影响 主席沃什称涵盖多重情景**（2026-11-16 17:35）
   来源: federalreserve.gov / telegram:Financial_Express（同日 4 条已合并） | 正文长度: 274 字
@@ -140,11 +140,11 @@
 
 - **Federal Reserve's Hammack Reiterates Support for Small, Gradual Interest Rate Hikes**（2026-11-17 03:43）
   来源: longbridge | 正文长度: 1011 字 | 立场: 鹰 +0.90
-  片段: …Federal Reserve's Hammack Reiterates Support for Small, Gradual Interest Rate Hikes Beth Hammack, President of the Federal Reserve Bank of Cleveland, reiterated
+  片段: …Cleveland Fed President Beth Hammack reiterated support for small, gradual rate hikes across consecutive meetings to fully transmit restrictive policy and bring
 
 - **美联储哈马克**（2026-11-16 19:51）
   来源: telegram:Financial_Express（同日 2 条已合并） | 正文长度: 21 字
-  片段: …美联储哈马克：沟通是美联储工作的关键部分。
+  片段: …美联储官员哈马克表示，沟通是美联储工作的关键组成部分。该表态未涉及具体政策决定、经济数据或市场事件，暂无直接的投资操作信息。
 
 - **Fed's Hammack: Further Rate Hikes Needed to Curb Inflation**（2026-11-12 23:44）
   来源: longbridge / telegram:Financial_Express（同日 8 条已合并） | 正文长度: 511 字 | 立场: 鹰 +0.69
