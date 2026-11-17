@@ -74,7 +74,7 @@
 > - 无转边：写「近 30 天无跨阈值转边」。
 > 这一行**不得省略**；转边是比单次讲话更高优先级的信号。
 >
-> **D138/D139 记分卡**：优先一次读 `GET /api/fomc/brief`（委员会 + 全部成员 +
+> **D138/D139 记分卡**：优先一次读 `GET /api/fomc/committee-brief`（委员会 + 全部成员 +
 > 转边 + 言行不一 + 可选言论事件），或 `query_fomc_members(member="A,B,C")` 批量；
 > **不要逐人调用** `/members/{id}/statements`。Big Picture 必须写「委员会综合 +X.XX（投票 ±X / 言论 ±X，
 > n 位票委）」；§3 矩阵每人给出「综合（投票/言论/样本）」；`lean_status=thin`
@@ -162,7 +162,7 @@
 > **票委口径（易错）**：主席与全体理事（Board of Governors）都是**常任票委**，
 > 不存在「主席非票委」；地区联储主席按 `FOMC_MEMBERS.md` 的轮换表判断当年是否票委。
 
-> **鹰/鸽列来源（D137/D138）**：`/api/fomc/brief` 或 `query_fomc_members` 返回的
+> **鹰/鸽列来源（D137/D138）**：`/api/fomc/committee-brief` 或 `query_fomc_members` 返回的
 > `stance`（90d 快照，用于转边）与 `scorecard`（0.6 投票 + 0.4 言论，用于人物画像）；
 > 言论样本已按「成员+日期」去重（D139）；无数据写「数据缺失」，
 > 禁止只凭标题臆断。两者口径不同，不得混用。
