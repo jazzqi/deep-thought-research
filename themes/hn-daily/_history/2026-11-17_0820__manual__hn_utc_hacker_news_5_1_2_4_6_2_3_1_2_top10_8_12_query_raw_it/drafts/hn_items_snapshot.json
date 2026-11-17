@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-11-17T01:13:35.153471+00:00",
+  "window": {
+    "after": "2026-11-16T00:00:00+00:00",
+    "before": "2026-11-17T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "782050",
+      "title": "Qwen4-Max",
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "author": "ilreb",
+      "points": 849,
+      "comments": 470,
+      "published_at": "2026-11-16T02:14:44+00:00"
+    },
+    {
+      "id": "782738",
+      "title": "How to Make Almost Anything",
+      "url": "https://pub.cba.mit.edu/863.26/site/",
+      "author": "o4c",
+      "points": 796,
+      "comments": 133,
+      "published_at": "2026-11-16T05:50:37+00:00"
+    },
+    {
+      "id": "784896",
+      "title": "Amazon's Discount Illusion: 1 in 3 \"Deals\" Offered No Savings– 1 in 10 Cost More",
+      "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+      "author": "DeepLogin",
+      "points": 749,
+      "comments": 463,
+      "published_at": "2026-11-16T13:39:07+00:00"
+    },
+    {
+      "id": "782049",
+      "title": "Universal XSS in uBlock Origin from website-driven element picker",
+      "url": "https://iter.ca/post/ubo-uxss/",
+      "author": "zaik",
+      "points": 595,
+      "comments": 173,
+      "published_at": "2026-11-16T02:04:48+00:00"
+    },
+    {
+      "id": "784897",
+      "title": "What the fuck is w2rt6byl5nf1opmc-a.com?",
+      "url": "https://jack.cab/blog/siterate",
+      "author": "dverlaeckt80",
+      "points": 305,
+      "comments": 139,
+      "published_at": "2026-11-16T13:51:38+00:00"
+    },
+    {
+      "id": "785615",
+      "title": "Jiff 1.0: A datetime library for Rust",
+      "url": "https://burntsushi.net/jiff/",
+      "author": "burntsushi",
+      "points": 301,
+      "comments": 73,
+      "published_at": "2026-11-16T16:53:39+00:00"
+    },
+    {
+      "id": "785778",
+      "title": "Chase Bank is now also having a meltdown",
+      "url": "https://twitter.com/downdetector/status/2122345174290374924",
+      "author": "samk3nny",
+      "points": 301,
+      "comments": 196,
+      "published_at": "2026-11-16T18:31:30+00:00"
+    },
+    {
+      "id": "785829",
+      "title": "Outages reported at Bank of America, Chase, U.S. Bank, Wells Fargo and Zelle",
+      "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+      "author": "samk3nny",
+      "points": 301,
+      "comments": 196,
+      "published_at": "2026-11-16T18:31:30+00:00"
+    },
+    {
+      "id": "784496",
+      "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+      "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+      "author": "sammatilda",
+      "points": 259,
+      "comments": 103,
+      "published_at": "2026-11-16T11:39:31+00:00"
+    },
+    {
+      "id": "785407",
+      "title": "Nvidia Was in Trouble Before the Jensen Huang Mess",
+      "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+      "author": "Brajeshwar",
+      "points": 247,
+      "comments": 225,
+      "published_at": "2026-11-16T15:24:09+00:00"
+    },
+    {
+      "id": "784168",
+      "title": "“…and the proof is checked in Lean”",
+      "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
+      "author": "matt_d",
+      "points": 240,
+      "comments": 106,
+      "published_at": "2026-11-16T07:38:19+00:00"
+    },
+    {
+      "id": "781935",
+      "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+      "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+      "author": "aillia",
+      "points": 239,
+      "comments": 66,
+      "published_at": "2026-11-16T00:21:54+00:00"
+    },
+    {
+      "id": "784984",
+      "title": "Soldier files whistleblower complaint over Iran strike that killed 6 U.S. troops",
+      "url": "https://www.cnn.com/2026/11/15/politics/army-soldier-whistleblower-complaint",
+      "author": "firefax",
+      "points": 207,
+      "comments": 69,
+      "published_at": "2026-11-16T14:17:53+00:00"
+    },
+    {
+      "id": "785616",
+      "title": "Grazing sheep in fields with solar arrays",
+      "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+      "author": "PaulHoule",
+      "points": 207,
+      "comments": 215,
+      "published_at": "2026-11-16T17:27:46+00:00"
+    },
+    {
+      "id": "782679",
+      "title": "Debian Becomes Unresponsive after 6.1.0-55 Kernel Update",
+      "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1154101",
+      "author": "artooro",
+      "points": 165,
+      "comments": 79,
+      "published_at": "2026-11-16T04:53:06+00:00"
+    },
+    {
+      "id": "784234",
+      "title": "Coffeehouses and the Rise of Science [pdf]",
+      "url": "https://www.monirbounadi.com/Bounadi_JMP.pdf",
+      "author": "Michelangelo11",
+      "points": 156,
+      "comments": 95,
+      "published_at": "2026-11-16T11:03:16+00:00"
+    },
+    {
+      "id": "785027",
+      "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+      "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+      "author": "Bender",
+      "points": 139,
+      "comments": 94,
+      "published_at": "2026-11-16T13:18:22+00:00"
+    },
+    {
+      "id": "782359",
+      "title": "Tell HN: HN is being scraped for emails to scam",
+      "url": "https://news.ycombinator.com/item?id=50513451",
+      "author": "eks391",
+      "points": 118,
+      "comments": 41,
+      "published_at": "2026-11-16T02:53:30+00:00"
+    },
+    {
+      "id": "781936",
+      "title": "Coles hit by a cybersecurity incident",
+      "url": "https://www.colesgroup.com.au/updates/",
+      "author": "sagunsh",
+      "points": 117,
+      "comments": 88,
+      "published_at": "2026-11-16T01:14:35+00:00"
+    },
+    {
+      "id": "785458",
+      "title": "The Active Directory Era Is Finally Over",
+      "url": "https://infisical.com/blog/active-directory-machine-identity",
+      "author": "FinnLobsien",
+      "points": 112,
+      "comments": 75,
+      "published_at": "2026-11-16T14:15:31+00:00"
+    },
+    {
+      "id": "786391",
+      "title": "World's Largest Brands Infected With Malware Via Optimizely",
+      "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "author": "martinald",
+      "points": 106,
+      "comments": 18,
+      "published_at": "2026-11-16T21:08:38+00:00"
+    },
+    {
+      "id": "781937",
+      "title": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
+      "url": "https://www.hntrends.com/2026/november.html",
+      "author": "myth_drannon",
+      "points": 94,
+      "comments": 83,
+      "published_at": "2026-11-16T01:31:30+00:00"
+    },
+    {
+      "id": "786252",
+      "title": "United Airlines Widespread System Outage",
+      "url": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
+      "author": "bearsyankees",
+      "points": 92,
+      "comments": 23,
+      "published_at": "2026-11-16T22:14:38+00:00"
+    },
+    {
+      "id": "784563",
+      "title": "Winudf – DVD / BluRay driver for DOS, Windows 1.x – 3x / 95 / 98 / ME",
+      "url": "https://github.com/ages2001/WINUDF",
+      "author": "Oxodao",
+      "points": 84,
+      "comments": 13,
+      "published_at": "2026-11-16T08:00:13+00:00"
+    },
+    {
+      "id": "785698",
+      "title": "Software is breaking down at a systemic level",
+      "url": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
+      "author": "zero_shift",
+      "points": 82,
+      "comments": 64,
+      "published_at": "2026-11-16T18:17:17+00:00"
+    },
+    {
+      "id": "786162",
+      "title": "BugMeNot Has Closed",
+      "url": "https://www.bugmenot.com/",
+      "author": "lode",
+      "points": 77,
+      "comments": 38,
+      "published_at": "2026-11-16T21:32:17+00:00"
+    },
+    {
+      "id": "786119",
+      "title": "Rust changed me as a developer",
+      "url": "https://blog.startifact.com/posts/how-rust-changed-me/",
+      "author": "speckx",
+      "points": 69,
+      "comments": 26,
+      "published_at": "2026-11-16T20:16:50+00:00"
+    },
+    {
+      "id": "785575",
+      "title": "US now \"comfortable\" with children dying of measles as death toll hits 10",
+      "url": "https://arstechnica.com/health/2026/11/us-now-comfortable-with-children-dying-of-measles-as-death-toll-hits-10/",
+      "author": "lakis",
+      "points": 67,
+      "comments": 53,
+      "published_at": "2026-11-16T17:08:20+00:00"
+    },
+    {
+      "id": "782514",
+      "title": "Skydio's asymmetrical F10 Lightrunner solves a problem with fixed-wing drones",
+      "url": "https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone",
+      "author": "Gaishan",
+      "points": 65,
+      "comments": 12,
+      "published_at": "2026-11-16T00:03:12+00:00"
+    },
+    {
+      "id": "784494",
+      "title": "It's always DNS, so why are we running our own?",
+      "url": "https://s2.dev/blog/dns-server",
+      "author": "misker1",
+      "points": 62,
+      "comments": 47,
+      "published_at": "2026-11-16T09:19:38+00:00"
+    },
+    {
+      "id": "782737",
+      "title": "Stop Filming in Log",
+      "url": "https://digitalfilms.wordpress.com/2026/11/15/stop-filming-in-log/",
+      "author": "dabinat",
+      "points": 59,
+      "comments": 65,
+      "published_at": "2026-11-16T04:37:03+00:00"
+    },
+    {
+      "id": "784295",
+      "title": "Doing Show HN generates a ton of automated email pitches",
+      "url": "https://petervandijck.com/post/pbrgs-ev0bc",
+      "author": "petervandijck",
+      "points": 56,
+      "comments": 51,
+      "published_at": "2026-11-16T11:00:02+00:00"
+    },
+    {
+      "id": "786406",
+      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "author": "cwaffles",
+      "points": 56,
+      "comments": 18,
+      "published_at": "2026-11-16T22:58:20+00:00"
+    },
+    {
+      "id": "785777",
+      "title": "Just 400 US Data Centers Use More Electricity Than Michigan",
+      "url": "https://www.wired.com/story/data-centers-use-more-electricity-than-michigan/",
+      "author": "Betelbuddy",
+      "points": 54,
+      "comments": 45,
+      "published_at": "2026-11-16T18:04:55+00:00"
+    },
+    {
+      "id": "784898",
+      "title": "Show HN: Coral – Open-source gateway where agents write their own tools",
+      "url": "https://github.com/withcoral/coral",
+      "author": "jcs",
+      "points": 50,
+      "comments": 24,
+      "published_at": "2026-11-16T14:14:51+00:00"
+    },
+    {
+      "id": "785694",
+      "title": "Frame – 31.5\" color ePaper display",
+      "url": "https://trmnl.com/blog/introducing-frame",
+      "author": "geerlingguy",
+      "points": 50,
+      "comments": 18,
+      "published_at": "2026-11-16T16:23:22+00:00"
+    },
+    {
+      "id": "782515",
+      "title": "Linux was created as a rejection of robust software architecture and tools",
+      "url": "https://twitter.com/GrapheneOS/status/2122079826257588569",
+      "author": "privacyishuman",
+      "points": 49,
+      "comments": 82,
+      "published_at": "2026-11-16T03:58:04+00:00"
+    },
+    {
+      "id": "785406",
+      "title": "ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "author": "drodio",
+      "points": 45,
+      "comments": 79,
+      "published_at": "2026-11-16T15:17:56+00:00"
+    },
+    {
+      "id": "786298",
+      "title": "United Airlines has a widespread system outage",
+      "url": "https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff",
+      "author": "tedd4u",
+      "points": 45,
+      "comments": 9,
+      "published_at": "2026-11-16T22:22:18+00:00"
+    },
+    {
+      "id": "786247",
+      "title": "OpenCode Browse",
+      "url": "https://opencode.ai/product/browse",
+      "author": "mfiguiere",
+      "points": 43,
+      "comments": 23,
+      "published_at": "2026-11-16T21:20:37+00:00"
+    },
+    {
+      "id": "786297",
+      "title": "How to Break into Security, Ptacek Edition (2012)",
+      "url": "https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/",
+      "author": "ronfriedhaber",
+      "points": 43,
+      "comments": 8,
+      "published_at": "2026-11-16T22:19:23+00:00"
+    },
+    {
+      "id": "785574",
+      "title": "Generative AI Usage in the Games Industry",
+      "url": "https://www.gameworkers.co.uk/ai-manifesto/",
+      "author": "kingbob000",
+      "points": 42,
+      "comments": 92,
+      "published_at": "2026-11-16T15:59:48+00:00"
+    },
+    {
+      "id": "786392",
+      "title": "US will say \"no\" to global ban on killer robots",
+      "url": "https://www.newsweek.com/us-expected-to-block-killer-robot-treaty-talks-12722369",
+      "author": "madihaa",
+      "points": 41,
+      "comments": 34,
+      "published_at": "2026-11-16T22:57:49+00:00"
+    },
+    {
+      "id": "786248",
+      "title": "Spamhaus new email sender requirements in November",
+      "url": "https://www.spamhaus.org/sender-guidelines/",
+      "author": "computer23",
+      "points": 40,
+      "comments": 30,
+      "published_at": "2026-11-16T21:47:19+00:00"
+    },
+    {
+      "id": "785065",
+      "title": "Robert Pattinson Is Officially James Bond",
+      "url": "https://variety.com/2026/film/global/robert-pattinson-new-james-bond-007-1236946655/",
+      "author": "Ralfp",
+      "points": 39,
+      "comments": 40,
+      "published_at": "2026-11-16T15:27:19+00:00"
+    },
+    {
+      "id": "786203",
+      "title": "Chemistry Is Geometry",
+      "url": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
+      "author": "sebg",
+      "points": 39,
+      "comments": 8,
+      "published_at": "2026-11-16T20:22:18+00:00"
+    },
+    {
+      "id": "784235",
+      "title": "I posted in \"Who wants to be hired?\" and a recruiter sent me a RAT and a stealer",
+      "url": "https://getjump.me/posts/03-huntrole-fake-take-home/",
+      "author": "GetJump",
+      "points": 38,
+      "comments": 25,
+      "published_at": "2026-11-16T11:14:27+00:00"
+    },
+    {
+      "id": "785081",
+      "title": "New James Bond Announced and the Name's Pattinson, Robert Pattinson",
+      "url": "https://www.theguardian.com/film/2026/nov/16/new-james-bond-announced-and-the-names-pattinson-robert-pattinson",
+      "author": "Tomte",
+      "points": 38,
+      "comments": 39,
+      "published_at": "2026-11-16T15:13:47+00:00"
+    },
+    {
+      "id": "785697",
+      "title": "Duolingo uses screen time permission to block uninstall",
+      "url": "https://blog.rhett.info/duolingo-screen-time-uninstall/",
+      "author": "basketbla",
+      "points": 38,
+      "comments": 27,
+      "published_at": "2026-11-16T18:14:13+00:00"
+    },
+    {
+      "id": "786122",
+      "title": "Comcast's \"fiber-powered Wi-Fi\" is cable, AT&T says in false advertising case",
+      "url": "https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/",
+      "author": "jaredwiener",
+      "points": 37,
+      "comments": 26,
+      "published_at": "2026-11-16T20:48:08+00:00"
+    },
+    {
+      "id": "786159",
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "author": "pcompeau",
+      "points": 37,
+      "comments": 7,
+      "published_at": "2026-11-16T20:43:36+00:00"
+    },
+    {
+      "id": "784615",
+      "title": "How Should Armies Fight?",
+      "url": "https://worksinprogress.co/issue/the-future-of-war/",
+      "author": "ersinesen",
+      "points": 36,
+      "comments": 78,
+      "published_at": "2026-11-16T07:57:40+00:00"
+    },
+    {
+      "id": "786160",
+      "title": "My Quest to push native Three.js quality match AAA Game Engines",
+      "url": "https://ben3d.ca/blog/building-the-aaa-lighting-pipeline-in-threejs",
+      "author": "bhouston",
+      "points": 36,
+      "comments": 7,
+      "published_at": "2026-11-16T21:07:43+00:00"
+    },
+    {
+      "id": "786062",
+      "title": "How to Intercept HTTP/3 Traffic: QUIC and Qpack",
+      "url": "https://interceptsuite.com/blog/intercept-http3-traffic-quic-qpack-explained/",
+      "author": "anof-cyber",
+      "points": 35,
+      "comments": 3,
+      "published_at": "2026-11-16T19:29:17+00:00"
+    },
+    {
+      "id": "786121",
+      "title": "Caltech professor no longer grades homework's because everyone uses AI",
+      "url": "https://www.businessinsider.com/ai-math-class-university-homework-caltech-careers-2026-11",
+      "author": "ishanz",
+      "points": 35,
+      "comments": 31,
+      "published_at": "2026-11-16T20:47:53+00:00"
+    },
+    {
+      "id": "784167",
+      "title": "Nvidia's Days as an Open Checkbook for the AI Economy Are Numbered",
+      "url": "https://www.wsj.com/tech/ai/nvidias-days-as-an-open-checkbook-for-the-ai-economy-are-numbered-90c7b388",
+      "author": "mfiguiere",
+      "points": 34,
+      "comments": 9,
+      "published_at": "2026-11-16T04:03:51+00:00"
+    },
+    {
+      "id": "785651",
+      "title": "Ask HN: If AI tools are so good, why isn't your bug backlog empty?",
+      "url": "https://news.ycombinator.com/item?id=50520076",
+      "author": "ex-aws-dude",
+      "points": 32,
+      "comments": 54,
+      "published_at": "2026-11-16T17:20:28+00:00"
+    },
+    {
+      "id": "785695",
+      "title": "Aristotle Expands into Rust",
+      "url": "https://www.harmonic.fun/news/aristotle-rust-verification/",
+      "author": "maufl",
+      "points": 32,
+      "comments": 10,
+      "published_at": "2026-11-16T17:34:41+00:00"
+    },
+    {
+      "id": "785722",
+      "title": "OpenAI: Strengthening the fight against online child sexual abuse",
+      "url": "https://openai.com/index/strengthening-online-child-safety/",
+      "author": "rossant",
+      "points": 28,
+      "comments": 32,
+      "published_at": "2026-11-16T18:12:48+00:00"
+    },
+    {
+      "id": "785882",
+      "title": "Show HN: Fakemetrics.com – \"build in public\" like a superstar",
+      "url": "https://fakemetrics.com/",
+      "author": "tigranbs",
+      "points": 28,
+      "comments": 10,
+      "published_at": "2026-11-16T18:08:04+00:00"
+    },
+    {
+      "id": "785937",
+      "title": "FBI says Artex AI open-source hacking tool used to breach networks",
+      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+      "author": "novateg",
+      "points": 28,
+      "comments": 2,
+      "published_at": "2026-11-16T18:12:21+00:00"
+    },
+    {
+      "id": "785900",
+      "title": "How Billions in Safe Insurance Money Is Being Bet on A.I. Debt",
+      "url": "https://www.nytimes.com/2026/11/16/business/insurance-ai-debt.html",
+      "author": "syllablehq",
+      "points": 27,
+      "comments": 2,
+      "published_at": "2026-11-16T17:25:35+00:00"
+    },
+    {
+      "id": "785916",
+      "title": "Some OLED MacBook Pro Owners Report Eye Strain and Dizziness",
+      "url": "https://www.macrumors.com/2026/11/16/oled-macbook-pro-owners-report-eye-strain/",
+      "author": "tosh",
+      "points": 24,
+      "comments": 3,
+      "published_at": "2026-11-16T18:16:18+00:00"
+    },
+    {
+      "id": "786010",
+      "title": "First phase of embedded assessments at OpenAI",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+      "author": "dvaplima",
+      "points": 24,
+      "comments": 8,
+      "published_at": "2026-11-16T16:07:20+00:00"
+    },
+    {
+      "id": "784166",
+      "title": "New Mexico wanted free childcare for all; what's worked – and what hasn't",
+      "url": "https://text.npr.org/nx-s1-6040194",
+      "author": "1659447091",
+      "points": 23,
+      "comments": 20,
+      "published_at": "2026-11-16T03:12:04+00:00"
+    },
+    {
+      "id": "785719",
+      "title": "A 512 KiB binary message teaching chess without a shared language",
+      "url": "https://artemlegotin.com/golden-board/",
+      "author": "legotin",
+      "points": 23,
+      "comments": 4,
+      "published_at": "2026-11-16T14:38:54+00:00"
+    },
+    {
+      "id": "785720",
+      "title": "Jolt – Clojure that speaks C",
+      "url": "https://jolt-lang.net/",
+      "author": "michaelsbradley",
+      "points": 23,
+      "comments": 1,
+      "published_at": "2026-11-16T16:23:01+00:00"
+    },
+    {
+      "id": "785721",
+      "title": "Michael Mann's 'Heat' Copyright Fight Turns on a Deal with Himself",
+      "url": "https://copyrightlately.com/michael-mann-heat-copyright-termination/",
+      "author": "speckx",
+      "points": 23,
+      "comments": 1,
+      "published_at": "2026-11-16T17:52:23+00:00"
+    },
+    {
+      "id": "786161",
+      "title": "Optimizely Compromised",
+      "url": "https://amirulcyber.com/2026/11/16/optimjack-optimizely-skimmer/",
+      "author": "martinald",
+      "points": 23,
+      "comments": 3,
+      "published_at": "2026-11-16T21:08:38+00:00"
+    },
+    {
+      "id": "785899",
+      "title": "Psychic: Like fzf but learns from your actions",
+      "url": "https://klauria.tech/psychic/",
+      "author": "articulatepang",
+      "points": 22,
+      "comments": 6,
+      "published_at": "2026-11-16T15:33:34+00:00"
+    },
+    {
+      "id": "785080",
+      "title": "David Sacks Is Fucked Too",
+      "url": "https://daringfireball.net/linked/2026/11/13/sacks",
+      "author": "JumpCrisscross",
+      "points": 21,
+      "comments": 5,
+      "published_at": "2026-11-16T09:19:53+00:00"
+    },
+    {
+      "id": "785901",
+      "title": "Nvidia board not considering reinstating Jensen Huang as chief executive",
+      "url": "https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a",
+      "author": "doener",
+      "points": 21,
+      "comments": 7,
+      "published_at": "2026-11-16T18:17:18+00:00"
+    },
+    {
+      "id": "786120",
+      "title": "Launch HN: Axonnic (YC F26) – Sleeves that track fingers and estimate force",
+      "url": "https://news.ycombinator.com/item?id=50522776",
+      "author": "arshpatankar",
+      "points": 21,
+      "comments": 5,
+      "published_at": "2026-11-16T20:29:48+00:00"
+    },
+    {
+      "id": "786405",
+      "title": "FBI has possession of router that the FAA says is behind Friday's ATC meltdown",
+      "url": "https://www.cnn.com/2026/11/16/politics/video/the-arena-fbi-possesion-router-faa-atc-meltdown",
+      "author": "zzzeek",
+      "points": 21,
+      "comments": 9,
+      "published_at": "2026-11-16T22:04:50+00:00"
+    },
+    {
+      "id": "786615",
+      "title": "Show HN: Sutra-OS – A self-hosted ontology platform",
+      "url": "https://github.com/0nelight/sutra-os",
+      "author": "0nelight",
+      "points": 21,
+      "comments": 3,
+      "published_at": "2026-11-16T23:25:41+00:00"
+    },
+    {
+      "id": "784939",
+      "title": "Did the Apollo Guidance Computer use 60% of the ICs in 1963?",
+      "url": "https://retrocomputing.stackexchange.com/questions/12158/did-the-apollo-guidance-computer-really-use-60-of-the-worlds-ics-in-1963",
+      "author": "Skyfall106",
+      "points": 20,
+      "comments": 9,
+      "published_at": "2026-11-16T05:05:54+00:00"
+    },
+    {
+      "id": "785631",
+      "title": "Show HN: OpenTodo – a self-hosted, local-first task manager in one Go binary",
+      "url": "https://github.com/OpenTodoApp/OpenTodo",
+      "author": "pixari8383",
+      "points": 20,
+      "comments": 20,
+      "published_at": "2026-11-16T13:21:53+00:00"
+    },
+    {
+      "id": "785830",
+      "title": "US Banks report outages in latest tech hiccup",
+      "url": "https://nypost.com/2026/11/16/business/outages-hit-chase-bank-of-america-and-wells-fargo-customers/",
+      "author": "ericzawo",
+      "points": 20,
+      "comments": 3,
+      "published_at": "2026-11-16T18:53:00+00:00"
+    },
+    {
+      "id": "785440",
+      "title": "Eli Lilly Agrees to Buy Calytrix Bio for Up to $1.5 Billion As ObesityWeek Data Roll In",
+      "url": "https://longbridge.cn/news/305698709",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:48:52+00:00"
+    },
+    {
+      "id": "785441",
+      "title": "Memory Price Hikes Impact PC Market! Bernstein: Intel Faces Greater Challenges; AMD Server Revenue Expected to Double by 2027",
+      "url": "https://longbridge.cn/news/305698025",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:54:02+00:00"
+    },
+    {
+      "id": "785442",
+      "title": "Nvidia Reports Q3 Earnings Tomorrow – Options Traders Brace for an 8.83% Move in NVDA Stock",
+      "url": "https://longbridge.cn/news/305701015",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:59:14+00:00"
+    },
+    {
+      "id": "785504",
+      "title": "These 13 S&P 500 stocks can rise up to 70% over the next year, according to analysts",
+      "url": "https://longbridge.cn/news/305697735",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:47:14+00:00"
+    },
+    {
+      "id": "785505",
+      "title": "Bill Ackman Is Betting on This Battered FAANG Giant Again After a Famous $400 Million Loss",
+      "url": "https://longbridge.cn/news/305698944",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:52:25+00:00"
+    },
+    {
+      "id": "785506",
+      "title": "Weekly Environmental Industry Update: MEE Seeks Public Comments on Strengthening Supervision of General Industrial Solid Waste Pollution Prevention; Continued Recommendation for the Waste-to-Energy Sector",
+      "url": "https://longbridge.cn/news/305698616",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:57:09+00:00"
+    },
+    {
+      "id": "785562",
+      "title": "SpaceX widens its lead in the space race, even as a tech selloff weighs on its stock",
+      "url": "https://longbridge.cn/news/305698501",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:59:29+00:00"
+    },
+    {
+      "id": "786425",
+      "title": "Uber 高级副总裁、首席法务官兼公司秘书 Tony West 减持价值 248 万美元的公司股票。",
+      "url": "https://t.me/Financial_Express/3631434",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:48:42+00:00"
+    },
+    {
+      "id": "786426",
+      "title": "现货黄金突破 3860 美元/盎司，日内涨 0.10%。",
+      "url": "https://t.me/Financial_Express/3631435",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:50:02+00:00"
+    },
+    {
+      "id": "786427",
+      "title": "知名投资者德鲁肯米勒清仓一些芯片股 买入 SpaceX 和 Palantir Technologies",
+      "url": "https://t.me/Financial_Express/3631436",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:51:02+00:00"
+    },
+    {
+      "id": "786428",
+      "title": "10 年期日本国债收益率下跌 2.5 个基点至 2.860%。",
+      "url": "https://t.me/Financial_Express/3631437",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:51:02+00:00"
+    },
+    {
+      "id": "786429",
+      "title": "天风证券：市场已接近相对底部区域 积极关注非银板块",
+      "url": "https://t.me/Financial_Express/3631438",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:52:42+00:00"
+    },
+    {
+      "id": "786430",
+      "title": "日本 10 年期国债收益率下跌 2.5 个基点，至 2.860%。",
+      "url": "https://t.me/Financial_Express/3631439",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:53:42+00:00"
+    },
+    {
+      "id": "786431",
+      "title": "前白宫经济顾问警告：若 AI 泡沫破裂，基准情形标普 500 或下跌 25%",
+      "url": "https://t.me/Financial_Express/3631440",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:55:22+00:00"
+    },
+    {
+      "id": "786432",
+      "title": "美商务部推进 SI 出口计划：首批指定 33 个联盟，11 月底开放按需申请",
+      "url": "https://t.me/Financial_Express/3631441",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:56:22+00:00"
+    },
+    {
+      "id": "786433",
+      "title": "克里米亚大桥连续第二天遭袭 交通已暂停",
+      "url": "https://t.me/Financial_Express/3631442",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:56:42+00:00"
+    },
+    {
+      "id": "786434",
+      "title": "克里米亚大桥连续第二天遭袭 交通已暂停",
+      "url": "https://t.me/Financial_Express/3631443",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:56:42+00:00"
+    },
+    {
+      "id": "786435",
+      "title": "开源欧拉拥抱智能基础设施新赛道",
+      "url": "https://t.me/Financial_Express/3631444",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:57:22+00:00"
+    },
+    {
+      "id": "786436",
+      "title": "中信建投：物理 AI 是人工智能下一波浪潮 建议聚焦优质环节",
+      "url": "https://t.me/Financial_Express/3631445",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:57:42+00:00"
+    },
+    {
+      "id": "786437",
+      "title": "中信建投：物理 AI 是人工智能下一波浪潮 建议聚焦优质环节",
+      "url": "https://t.me/Financial_Express/3631446",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:58:02+00:00"
+    },
+    {
+      "id": "786438",
+      "title": "伯克希尔第三季减持美国银行和 Capital One 股份 增持达美航空",
+      "url": "https://t.me/Financial_Express/3631447",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:59:22+00:00"
+    },
+    {
+      "id": "786486",
+      "title": "Live: Houthis advance in Yemen as tankers hit sea mines in Strait of Hormuz",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-16T23:57:49+00:00"
+    }
+  ]
+}

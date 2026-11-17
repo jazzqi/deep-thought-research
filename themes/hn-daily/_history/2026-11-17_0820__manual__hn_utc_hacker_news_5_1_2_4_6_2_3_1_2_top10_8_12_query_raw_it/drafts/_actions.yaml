@@ -1,0 +1,6 @@
+actions:
+- confidence: 0.85
+  priority: P2
+  summary: 2026-11-17 基线定版文末仍标注「评审：2 项 blocker 未修复」，需定位该两项评审 blocker 内容并修复，确认是否触发补丁定版
+  target_flow_params: {}
+  type: follow_up

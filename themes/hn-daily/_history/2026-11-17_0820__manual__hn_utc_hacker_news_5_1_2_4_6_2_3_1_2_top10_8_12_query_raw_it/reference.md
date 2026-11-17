@@ -1,0 +1,46 @@
+- Qwen4-Max 发布（2.4万亿参数、单任务成本降58%）: query_raw_items(keyword='Qwen4-Max')[id:782932] = 阿里 Qwen4-Max 新架构 2.4 万亿参数，平均单任务成本降 58%；腾讯 Hy4 flash 降至竞品 1/8
+- 腾讯/阿里同日发模型与芯片股大跌背景: query_raw_items(keyword='Qwen4-Max')[id:786365] = 芯片股拖累标普/纳指三连跌，英伟达跌4%，美元创18个月新高；Qwen4-Max 单任务成本降58%
+- Qwen Office 上线10模型: query_raw_items(keyword='Qwen4-Max')[id:782452] = Qwen Office 上线含 Qwen4、Kimi-K3.1、GLM-5.3 在内10个模型可自由选择
+- Qwen4-Max HN 热度与评论（852分/470评论，四档推理档位讨论）: fetch_url(https://news.ycombinator.com/item?id=50513215) = HN 讨论页，作者 simonw 实测 pelican 对比，评论质疑基准已入训练集
+- 银行宕机（美国银行/Chase/U.S. Bank/Wells Fargo/Zelle）: query_raw_items(min_points=20, published_after=2026-11-16)[id:785829] = AP 报道多家银行与 Zelle 故障，HN 88分（后升至701分/579评论）
+- 摩根大通声明"本地硬件系统软件缺陷、非网络攻击"与HN评论: fetch_url(https://news.ycombinator.com/item?id=50521045) = HN 讨论页 701分/579评论，作者 zenexer 引述 JPM 声明
+- uBlock Origin 通用 XSS 细节: fetch_url(https://iter.ca/post/ubo-uxss/) = 泄露扩展UUID→iframe驱动元素选择器→注入受信任过滤器；GPT-5.6 Sol 发现，已修复
+- uBlock UXSS HN 评论（扩展 overlay API 缺位）: fetch_url(https://news.ycombinator.com/item?id=50513160) = 596分/173评论，作者 esprehn 悔未推 extension overlay API
+- 英伟达竞争格局（80%份额、AMD 7-10%、营收269.1亿→2159.4亿美元）: fetch_url(https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/) = Wired 全文
+- HN 招聘趋势（244条/同比-37%、AI提及51.6%、MCP 4.5%、Rust 8.2%、前端6.6%）: fetch_url(https://www.hntrends.com/2026/november.html) = hntrends 2026年11月全文
+- Lean 核验四问（OpenAI 722篇论文、45%附Lean、3篇撤稿）: fetch_url(https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/) = Xena 博客全文
+- 403座超大规模数据中心用电超密歇根州、排放3倍: fetch_url(https://www.wired.com/story/data-centers-use-more-electricity-than-michigan/) = Wired 报道 Nature Sustainability 研究
+- Coral agent 网关（策略检查+自定义工具）: fetch_url(https://github.com/withcoral/coral) = GitHub README
+- Windows 11 coding agent 遥测（CLICodingAgentUsage, feature ID 62580080）: fetch_url(https://xusheng.dev/posts/windows-coding-agent-telemetry/) = 作者 xusheng 全文
+- Jiff 1.0（生产采用清单、API 长期稳定承诺）: fetch_url(https://burntsushi.net/jiff/) = 作者博客全文
+- ChatGPT Wallet HN 讨论（45分/80评论、抽佣路径类比）: fetch_url(https://news.ycombinator.com/item?id=50518501) = HN 讨论页，作者 freakynit 评论
+- ChatGPT Wallet 发布: query_raw_items(min_points=20, published_after=2026-11-16)[id:785406] = openai.com 发布 ChatGPT Wallet，HN 35分/69评论（后45分/80评论）
+
+- NVDA 11-16 收盘: market_quote(NVDA.US) = 156.14 美元（-4.12%，前收 162.85，量 3.34 亿股）
+- NVDA 财报一致预期/评级/期权波动: query_longbridge_by_route(news/company, symbol=NVDA.US) = 11-17 财报，预期营收 1087 亿美元、EPS 2.47 美元、隐含单日波动 ±8.6%、Moderate Buy/目标价 246.58 美元、ARK Q3 加仓 85%
+- 微软市值反超英伟达: query_raw_items(keyword='Jensen OR Nvidia')[id:785521] = BUZZ 通稿：NVDA 股价续跌，微软市值反超英伟达登顶
+- 董事会不考虑黄仁勋复职（HN 讨论 29 分/16 评论）: query_raw_items(keyword='Jensen OR Nvidia', source=hackernews)[id:785901] = FT 报道英伟达董事会不考虑恢复黄仁勋 CEO，HN 50520867
+- Trump 支持黄仁勋回归: query_raw_items(keyword='Jensen OR Nvidia')[id:785456] = Trump 称不反对黄回归，表态期间 NVDA 短暂转涨
+- 美国新增 AI 芯片出口限制: query_raw_items(keyword='Jensen OR Nvidia')[id:785707] = 纳指因 NVDA 危机与对多国新出口限制下跌
+- Cembalest 对 NVDA 估值: query_raw_items(keyword='Jensen OR Nvidia')[id:784138] = JPMorgan 策略师称 P/E-to-EG 0.2x、可免于 Icarus 命运
+- 机构下调 AI 算力预测: query_raw_items(keyword='Qwen')[id:784661] = FE 摘录：2028 年资本开支预测下调近三成、五年硅片出货面积下调 17%、英伟达受冲击最重
+- Sanders 警告 AI 债务: query_raw_items(keyword='Jensen OR Nvidia')[id:785566] = 3 万亿美元 AI 债务为"高风险赌局"，失败不救
+- Fed AI 三情景预案: query_raw_items(keyword='AI computing power forecast OR capex OR 资本开支')[id:785795] = 美联储为生产率繁荣/大规模失业/泡沫破裂三情景制定应急预案
+- Chase 二次声明非网络攻击: query_raw_items(keyword='JPMorgan')[id:786098] = Chase 称无证据表明问题与网络攻击有关（11-16 21:30 UTC）
+- 五大行+Zelle 宕机 HN 帖: query_raw_items(source=hackernews, min_points=20, published_after=2026-11-16)[id:785829] = AP 报道 BofA/Chase/U.S. Bank/Wells Fargo/Zelle 宕机，HN 50521045 讨论 704 分/580 评论（00:53 UTC 抓取）
+- JPM 声明与 HN 评论: fetch_url(https://news.ycombinator.com/item?id=50521045) = 701 分/579 评论快照，作者 zenexer 引述 JPM"本地硬件与系统软件缺陷、非攻击"声明
+- 微软邮件故障归因: query_raw_items(source=hackernews, min_points=20, published_after=2026-11-16)[id:785027] = The Register：微软将大规模邮件宕机归因 7 月修复引入的软件缺陷，▲139/💬94
+- 软件系统性退化长文正文: fetch_url(https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/) = 串联微软两日全球宕机、FAA 全美停飞、PHP2Shell（约 70% 网站依赖）、eMudhra 弱私钥 CA；AI 既是成因也是症状
+- 系统性退化 HN 帖: query_raw_items(source=hackernews, min_points=20, published_after=2026-11-16)[id:785698] = ▲82/💬64，HN 50520866
+- 美联航故障解决: query_raw_items(keyword='banking delays OR Zelle OR outage')[id:786306] = 美联航 11-16 22:59 UTC 宣布已解决技术问题
+- 美国空运恢复: query_raw_items(keyword='banking delays OR Zelle OR outage')[id:786402] = 11-16 晚美国航空运输恢复正常，结束三天乱局
+- Qwen4-Max 规格: query_raw_items(keyword='Qwen')[id:782010] = 2.4 万亿参数、原生视觉、百万上下文、CodeArena 前端盲测第六、单任务费用降约 6 成
+- Qwen4-Max 成本口径: query_raw_items(keyword='Qwen')[id:782932] = 长桥：新架构 2.4T 参数，平均单任务成本降 58%；腾讯 Hy4 flash 降至竞品 1/8
+- Qwen Office 上线 10 模型: query_raw_items(keyword='Qwen')[id:782452] = 千问办公上线 Qwen4-Max、Kimi-K3.1、GLM-5.3 等 10 款可自由选择
+- Qwen4-Max HN 讨论与评论: fetch_url(https://news.ycombinator.com/item?id=50513215) = 852 分/470 评论；作者 simonw 四档推理 pelican 实测，作者 dtech 质疑基准已入训练数据
+- Amazon 折扣调查正文: fetch_url(http://groundworkcollaborative.org/news/amazons-decoy-deals-...) = 350+ 商品样本，近 1/3 无真实折扣、近 1/10 更贵；Hunter 靴贵 59%、UGG 靴贵 83% 案例
+- Amazon 折扣帖 HN 热度: query_raw_items(source=hackernews, min_points=20, published_after=2026-11-16)[id:784896] = ▲749/💬463
+- MIT 课程帖: query_raw_items(source=hackernews, min_points=20, published_after=2026-11-16)[id:782738] = How to Make Almost Anything ▲796/💬133
+- FT 董事会帖评论: fetch_url(https://news.ycombinator.com/item?id=50520867) = 29 分/16 评论；作者 KerrAvon 指董事会法律责任、作者 Goodliff 分析复职博弈
+- Windows 11 coding agent 遥测: query_raw_items(source=hackernews, min_points=20, published_after=2026-11-16)[id:786406] = ▲56/💬18；fetch_url(https://xusheng.dev/posts/windows-coding-agent-telemetry/) = 字段 CLICodingAgentUsage、feature ID 62580080
+- HN 招聘帖量与 AI 占比: query_raw_items(source=hackernews, min_points=20, published_after=2026-11-16)[id:781937] = hntrends：Who is Hiring 贴近 12 年低位、AI 职位占比过半，▲94/💬83
