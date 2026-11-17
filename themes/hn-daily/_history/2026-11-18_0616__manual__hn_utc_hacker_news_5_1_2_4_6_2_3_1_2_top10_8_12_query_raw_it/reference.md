@@ -1,0 +1,47 @@
+# 参考来源（tech_scout 第1棒，2026-11-18 06:16 UTC session）
+
+- GPT-6.2 发布与定价（多步骤任务+5.2分、执行成本<1/3、API输入输出降20%、缓存输入降60%）: query_raw_items(keyword='GPT-6.2 Astra')[id:790723] = 金十数据快讯
+- GPT-6.2 开放范围（ChatGPT Work/Codex、Plus/Pro/Enterprise/Edu、Sol极速版）: query_raw_items(keyword='GPT-6.2 Astra')[id:790710] = 金十数据快讯
+- GPT-6.2 Astra 在 ARC-AGI-3 得分100%: query_raw_items(keyword='GPT-6.2 Astra')[id:791096] = HN条目 ARC Prize 推文
+- GPT-6.2 HN 热度 937分/585评论: fetch_url(news.ycombinator.com/item?id=50535230) = 937 points, 585 comments（11-18 06时抓取）
+- GPT-6.2 高质量评论（作者 azuanrb 跨厂商互踩观察）: fetch_url(news.ycombinator.com/item?id=50535230)
+- 微软六款 MAI 模型（性能96%/成本5%、MAI Cyber 2 Flash 超 GPT-6 Astra、计划开放权重）: query_raw_items(keyword='GPT-6.2 Astra')[id:790779] = longbridge
+- Qwen4-Max 2.4万亿参数、单任务成本降58%: query_raw_items(keyword='Qwen4-Max')[id:782932] = longbridge
+- 阿里AI投入超3800亿元、扩建香港数据中心、T-Head芯片多区域部署: query_raw_items(keyword='Qwen4-Max')[id:788308] = longbridge
+- 花旗：Qwen4-Max 标志阿里从堆参数转向企业效率与agentic workflow: query_raw_items(keyword='Qwen4-Max')[id:788303] = longbridge
+- 千问办公上线含Qwen4-Max/Kimi/GLM/DeepSeek等10款模型: query_raw_items(keyword='Qwen4-Max')[id:782646] = telegram:Financial_Express
+- Qwen4-Max HN 热度 872分/483评论 + 四档推理档位(none/low/high/xhigh): fetch_url(news.ycombinator.com/item?id=50513215) = 872 points, 483 comments
+- Qwen4-Max 评论区基准污染争论（作者 dtech）: fetch_url(news.ycombinator.com/item?id=50513215)
+- 五大行故障 HN 热度 820分/701评论 + 摩根大通发言人声明（本地硬件软件缺陷、非网络攻击）: fetch_url(news.ycombinator.com/item?id=50521045) = 820 points, 701 comments（AP正文 fetch_url 403）
+- CMU CS Learn 热度 2179分/292评论: query_raw_items(published_after='2026-11-16T00:00:00Z',min_points=60)[id:786159] = HN条目
+- CMU 课程清单（10-605/11-768/15-442、2027-01新增、AI tutoring路线图）: fetch_url(https://www.cs.cmu.edu/learn/)
+- uBlock Origin UXSS 正文（no-fetch-if泄漏UUID、透明iframe、已修复、GPT-5.6 Sol发现/Claude写PoC）: fetch_url(https://iter.ca/post/ubo-uxss/)
+- uBlock UXSS HN 热度 610分/177评论 + extension overlay API 根因讨论（作者 esprehn）: fetch_url(news.ycombinator.com/item?id=50513160)
+- BugMeNot 关站热度 699分/318评论: query_raw_items(published_after='2026-11-16T00:00:00Z',min_points=60)[id:786162] = HN条目
+- BugMeNot 关站正文: fetch_url(https://www.bugmenot.com/)
+- TRMNL Frame 31.5吋彩色电子纸（首批约470台、按时刻刷新、离线模式）热度 521分/396评论: query_raw_items(published_after='2026-11-16T00:00:00Z',min_points=60)[id:785694] + fetch_url(https://trmnl.com/blog/introducing-frame)
+- Windows 11 coding agent 遥测正文（MissionControlAggregator.dll、CLICodingAgentUsage feature 62580080、CLI/桌面agent槽位）: fetch_url(https://xusheng.dev/posts/windows-coding-agent-telemetry/)
+- Windows 遥测 HN 热度 703分/582评论: fetch_url(news.ycombinator.com/item?id=50524736) = 703 points, 582 comments
+- Claude Code 验证方法论正文（90%代码由Claude写、grader评审+10pp）: fetch_url(https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)
+- Claude Code 验证 HN 热度 238分/186评论: fetch_url(news.ycombinator.com/item?id=50529612) = 238 points, 186 comments
+- OpenCode Browse 正文（MCP+Chromium扩展、真浏览器接管、2FA/支付交接）热度 318分/204评论: query_raw_items(published_after='2026-11-16T00:00:00Z',min_points=60)[id:786247] + fetch_url(https://opencode.ai/product/browse)
+- 「软件系统性失效」正文（微软故障/FAA停飞/PHP2Shell/eMudra串线）: fetch_url(https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/)
+- 「软件系统性失效」HN 热度 386分/251评论 + 高赞争论（作者 swatcoder/doug_durham）: fetch_url(news.ycombinator.com/item?id=50520866)
+- 百度/小米CEO警告AI炒作与回报缺口 热度 182分/238评论 + 高赞要点（作者 jnwatson/ralph84）: fetch_url(news.ycombinator.com/item?id=50531751)（SCMP正文 fetch_url 403）
+
+- GPT-6.2 Astra/Sol 发布（11-17 窗口热度）: query_raw_items(source=hackernews, published_after=2026-11-17T00:00Z, published_before=2026-11-18T00:00Z, min_points=20)[id:790709] = ▲199/💬58，openai.com 双模型发布帖（稿内 ▲937/💬585 为发布流程冻结快照口径）
+- Qwen4-Max 发布（11-16 窗口热度）: query_raw_items(source=hackernews, published_after=2026-11-15T00:00Z, min_points=20, keyword=Qwen4-Max)[id:782050] = ▲871/💬482，qwen.ai/blog?id=qwen4-max
+- Runta：27,280 次 coding agent 运行中 64% 推理支出用于失败 run: query_raw_items(published_after=2026-11-17T00:00Z, min_points=20)[id:790449] = ▲112/💬50，runta.com FrontierHarness eval
+- Claude Code 团队 verification 方法论（90% 代码由 Claude 编写、grader 评审 +10pp）: query_raw_items(published_after=2026-11-17T00:00Z, min_points=20)[id:789163] = ▲190/💬156，claude.dev/blog
+- 百度、小米 CEO 警告 AI 炒作与回报缺口: query_raw_items(published_after=2026-11-17T00:00Z, min_points=20)[id:790216] = ▲181/💬232，SCMP 报道
+- 美国五大行同日网银/刷卡故障: query_raw_items(published_after=2026-11-15T00:00Z, min_points=20, keyword=bank outage)[id:785829] = ▲812/💬684，AP 报道 Chase/BofA/U.S. Bank/Wells Fargo/Zelle 故障
+- Microsoft 巨型邮件故障复盘（7 月修复引入缺陷）: query_raw_items(published_after=2026-11-15T00:00Z, min_points=20, keyword=bank outage)[id:785027] = ▲435/💬325，theregister.com
+- Apple 服务全球宕机（11-17）: query_raw_items(published_after=2026-11-17T00:00Z, min_points=20)[id:790882] = ▲377/💬207，developer.apple.com/system-status
+- Charles Schwab 网站宕机（11-17）: query_raw_items(published_after=2026-11-17T00:00Z, min_points=20)[id:790598] = ▲39/💬20，businessinsider.com
+- NSA 内网/高密级国安通信网中断（11-17）: query_raw_items(published_after=2026-11-17T00:00Z, min_points=20)[id:790451] = ▲157/💬132，CNN 报道
+- Optimizely 供应链投毒（CNN/Fox/BBC/Salesforce 页面植入恶意代码）: query_raw_items(published_after=2026-11-17T00:00Z, min_points=20)[id:790622] = ▲36/⭐5，bleepingcomputer.com
+- Claude Mythos 称 AMD GPU 适配从最长 12 个月压缩到约 3 天: query_raw_items(published_after=2026-11-17T00:00Z, min_points=20)[id:787143] = ▲50/💬20，tomshardware.com
+- 开源 Trainium 推理引擎 TrnRT: query_raw_items(published_after=2026-11-17T00:00Z, min_points=20)[id:790879] = ▲27/💬5，github.com/RunanywhereAI/trnrt
+- 《The Nvidia Bubble》: query_raw_items(published_after=2026-11-17T00:00Z, min_points=20)[id:790878] = ▲25/💬10，wheresyoured.at
+- 微软 MAI Code 2 / Code 2 Flash 发布: query_raw_items(published_after=2026-11-17T00:00Z, min_points=20)[id:790884] = ▲120/💬48，microsoft.ai
+- 校准经验（tech_breakthrough high 证实率 25%/20 样本、EWMA 0.12 等）: 主题注入 calibration 文档（生成于 2026-11-16 06:00 UTC）= 见任务上下文「校准经验」节

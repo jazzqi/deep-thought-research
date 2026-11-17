@@ -1,0 +1,16 @@
+actions:
+- priority: P1
+  recurrence: daily
+  summary: 跟踪 Anthropic IPO 定价（11-18）与黄仁勋董事会复职决定对 AI 叙事的影响
+  target_flow_params: {}
+  type: monitoring
+- priority: P2
+  summary: 验证 Java4Shell（CVE-2026-114938）补丁扩散与 Jira/Confluence/Jenkins 等默认配置受影响情况
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-11-24'
+- priority: P2
+  recurrence: daily
+  summary: 跟踪 Apple/NSA 等关键系统故障归因，验证“软件系统性退化”连续性假设
+  target_flow_params: {}
+  type: monitoring
