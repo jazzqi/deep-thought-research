@@ -76,7 +76,11 @@
 >
 > **D138/D139 记分卡**：优先一次读 `GET /api/fomc/committee-brief`（委员会 + 全部成员 +
 > 转边 + 言行不一 + 可选言论事件），或 `query_fomc_members(member="A,B,C")` 批量；
-> **不要逐人调用** `/members/{id}/statements`。Big Picture 必须写「委员会综合 +X.XX（投票 ±X / 言论 ±X，
+> **不要逐人调用** `/members/{id}/statements`。
+>
+> **D140 市场预期**：`GET /api/fomc/market-expectations` 或 `query_fomc_market`
+> 返回 Polymarket 决策/异议概率与 1d/7d 变化。必须标注「事件合约/零售定价，
+> 非 CME FedWatch/OIS」；同时给 volume/liquidity，低流动性（thin）只展示不结论。Big Picture 必须写「委员会综合 +X.XX（投票 ±X / 言论 ±X，
 > n 位票委）」；§3 矩阵每人给出「综合（投票/言论/样本）」；`lean_status=thin`
 > 必须标注「样本薄」，不得当成确定结论。
 
