@@ -1,0 +1,13 @@
+actions:
+- confidence: 0.7
+  priority: P2
+  summary: 跟踪 microsoft/onnxruntime 仓库下架原因（供应链攻击/与 MAI 发布的内部重组/误删）及是否出现官方恢复或镜像
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-11-19'
+- confidence: 0.75
+  priority: P3
+  summary: hn-daily 上次定版漏收当日最高分帖（1140 分手机禁令、440 分 NSA 内网），建议核查基线查询窗口与收录/去重逻辑
+  target_flow: theme_update
+  target_flow_params: {}
+  type: proposal

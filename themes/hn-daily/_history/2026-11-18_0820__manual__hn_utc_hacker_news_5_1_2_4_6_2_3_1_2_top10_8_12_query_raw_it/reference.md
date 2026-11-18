@@ -1,0 +1,43 @@
+- 美国大行同时宕机（JPMorgan Chase 软件缺陷）: query_raw_items(source=hackernews, min_points=20, published_after=2026-11-16)[id:785829] = AP报道JPMorgan Chase触发Chase/Wells Fargo/U.S. Bank/BofA/Zelle服务异常，HN讨论页821 points/702 comments
+- GPT-6.2 Astra/Sol 发布与成本数据: query_raw_items(source=hackernews, min_points=20)[id:790709] = OpenAI发布GPT-6.2双模型；HN页面1053 points/664 comments
+- GPT-6.2 成本（Astra ~$20→~$4, Sol $2.6→$1.2, token-20%）: fetch_url(https://news.ycombinator.com/item?id=50535230) = 作者chriddyp(Plotly)评论，含准确率100%→93%质疑与PacBench对比
+- JPMorgan Chase 官方声明（本地硬件软件缺陷、非网络攻击）: fetch_url(https://news.ycombinator.com/item?id=50521045) = 作者zenexer引用Joe Evangelisti声明
+- FrontierHarness Eval v1.1（27,280次运行/83B token/64%失败支出/排名漂移11位）: query_raw_items(source=hackernews, min_points=20)[id:790449] = RUNTA+Baseten harness排行榜v1.1
+- Windows 11 编码agent遥测（CLICodingAgentUsage feature ID 62580080）: query_raw_items(source=hackernews, min_points=20)[id:786406] = 逆向MissionControlAggregator.dll发现9个agent槽位+开发工具清单默认上报
+- Qwen4-Max 发布与四档推理: query_raw_items(source=hackernews, min_points=20)[id:782050] = 阿里Qwen4-Max，HN页面874 points/483 comments
+- Qwen4-Max 实测（none档位/pelicans对比）: fetch_url(https://news.ycombinator.com/item?id=50513215) = 作者simonw评论，含"测试已进训练集"质疑
+- uBlock Origin 通用XSS（元素选择器/UUID提取/受信任过滤器）: query_raw_items(source=hackernews, min_points=20)[id:782049] = iter.ca，已修复，GPT-5.6 Sol参与挖掘
+- MAI Code 2 定价（GPT-6.1 Sol 98%性能/40%成本，Opus 5.5 96%性能/5%成本）: query_raw_items(source=hackernews, min_points=20)[id:790884] = microsoft.ai发布页正文
+- Jiff 1.0（uv/Cargo/AWS LLRT采用）: query_raw_items(source=hackernews, min_points=20)[id:785615] = burntsushi.net发布公告
+- Xena四问检验框架（OpenAI 722篇/45%附Lean/3篇撤稿）: query_raw_items(source=hackernews, min_points=20)[id:784168] = xenaproject.wordpress.com
+- TRMNL Frame 31.5英寸全彩ePaper（首批约470台）: query_raw_items(source=hackernews, min_points=20)[id:785694] = trmnl.com发布博客
+- 软件系统性失效长文（Azure批评/四条机制高赞回复）: query_raw_items(source=hackernews, min_points=20)[id:785698] = breck-mckye.com；评论fetch_url(https://news.ycombinator.com/item?id=50520866) 作者swatcoder四机制归纳
+- FOSS可运维性四任务（uv快8-10倍）: query_raw_items(source=hackernews, min_points=20)[id:790244] = jordankrueger.com
+- 同窗故障簇：Apple服务中断: query_raw_items(source=hackernews, min_points=20)[id:790882] = developer.apple.com/system-status
+- 同窗故障簇：微软邮件故障归因7月修复缺陷: query_raw_items(source=hackernews, min_points=20)[id:785027] = theregister.com
+- 同窗故障簇：美联航系统大范围宕机: query_raw_items(source=hackernews, min_points=20)[id:786252] = cnn.com
+- 同窗故障簇：NSA高度机密通信网络故障: query_raw_items(source=hackernews, min_points=20)[id:790451] = cnn.com；[id:790488] = reuters.com
+
+
+## tech_scout 交叉审查独立核验（2026-11-18，全稿 19237 字符已读完）
+- 窗口内 HN 高分全景（11-16~11-18，≥100分共60条）: query_raw_items(source=hackernews, min_points=100, published_after=2026-11-16T00:00:00Z, published_before=2026-11-18T12:00:00Z) = CMU课表▲2179/学校手机禁令▲1005/Amazon折扣幻觉▲941/MIT课▲905/Qwen▲871/Chase▲821/BugMeNot▲699/Windows遥测▲696/uBO XSS▲610/TRMNL▲521/Jiff▲436/OpenCode Browse▲318/Claude Code验证▲190/百度小米▲181
+- Claude Code 验证方法论（▲190/💬156）: query_raw_items(keyword='Claude Code verification OR OpenCode Browse', published_after=2026-11-14T00:00:00Z)[id:789163] = claude.dev 工程博客，验证回路与独立 grader +10pp，本稿未收录
+- OpenCode Browse（▲318/💬204）: query_raw_items(keyword='Claude Code verification OR OpenCode Browse', published_after=2026-11-14T00:00:00Z)[id:786247] = agent 接管真实浏览器的 MCP+Chromium 扩展组合，本稿未收录
+- NVIDIA/Jensen 事件簇: query_raw_items(keyword='Nvidia OR Jensen OR 财报', min_points=50, published_after=2026-11-15T00:00:00Z)[id:785407] = Wired《Nvidia Was in Trouble Before the Jensen Huang Mess》▲287/💬261（11-16），本稿完全未提及 NVIDIA
+- NVIDIA/Jensen 事件簇: query_raw_items(keyword='Nvidia OR Jensen OR 财报', min_points=50, published_after=2026-11-15T00:00:00Z)[id:790530] = CNBC《Jensen Huang 称愿回归》▲98/💬171（11-17）
+- NVIDIA/Jensen 事件簇: query_raw_items(keyword='Nvidia OR Jensen OR 财报', min_points=50, published_after=2026-11-15T00:00:00Z)[id:791535] = CNBC《董事会不拟恢复黄仁勋 CEO 职务》▲29（11-17，财报同日）
+- NVIDIA/Jensen 事件簇: query_raw_items(keyword='Nvidia OR Jensen OR 财报', min_points=50, published_after=2026-11-15T00:00:00Z)[id:787143] = Tom's Hardware《Claude Mythos 将 AMD GPU 软件适配从12个月压缩到3天、近乎100%内核自主编写》▲50（CUDA 壁垒信号）
+- NVIDIA/Jensen 事件簇: query_raw_items(keyword='Nvidia OR Jensen OR 财报', min_points=50, published_after=2026-11-15T00:00:00Z)[id:790878] = 《The Nvidia Bubble》▲25（11-17）
+- 百度/小米 CEO 回报警告（▲181/💬232）: query_raw_items(min_points=100, published_after=2026-11-16T00:00:00Z, published_before=2026-11-18T12:00:00Z)[id:790216] = SCMP 报道 AI 炒作与回报缺口扩大，本稿 12 条未收录
+- Java4Shell OpenJDK RCE（▲111/💬15）: query_raw_items(min_points=100, published_after=2026-11-16T00:00:00Z, published_before=2026-11-18T12:00:00Z)[id:791212] = calif.io，CVE-2026-114938 Base64 解码器堆越界写 RCE（腾讯云快讯 [id:791510] 同事件），本稿未收录
+- Show HN: Alloy CSS（▲170/💬30）: query_raw_items(keyword='Show HN OR Launch HN', published_after=2026-11-16T00:00:00Z, published_before=2026-11-18T12:00:00Z)[id:790403] = 无 JS 可用的 dialogs/menus/tabs 组件库
+- Show HN: TrnRT Trainium 推理引擎（▲27）: query_raw_items(keyword='Show HN OR Launch HN', published_after=2026-11-16T00:00:00Z, published_before=2026-11-18T12:00:00Z)[id:790879] = RunAnywhere(YC W26) 开源 AWS Trainium LLM 推理引擎
+- Launch HN: StarSling YC P25（▲21）: query_raw_items(keyword='Show HN OR Launch HN', published_after=2026-11-16T00:00:00Z, published_before=2026-11-18T12:00:00Z)[id:791014] = 面向 agent 海量 PR 仓库的自改进 CI
+- Show HN: Coral agent 工具网关（▲52）: query_raw_items(keyword='Show HN OR Launch HN', published_after=2026-11-16T00:00:00Z, published_before=2026-11-18T12:00:00Z)[id:784898] = agent 自写 TypeScript 工具的自托管网关
+- jQuery 4.1.0 发布（▲108/💬45）: query_raw_items(min_points=100, published_after=2026-11-16T00:00:00Z, published_before=2026-11-18T12:00:00Z)[id:791024] = github.com/jquery/jquery releases，本稿未收录
+- Ask HN: AI 工具与 bug 积压（▲85/💬103）: query_raw_items(keyword='Show HN OR Launch HN', published_after=2026-11-16T00:00:00Z, published_before=2026-11-18T12:00:00Z)[id:785651] = "If AI tools are so good, why isn't your bug backlog empty?"，可互证共识5
+- agent 凭证隔离 lend（▲128/💬112）: query_raw_items(min_points=100, published_after=2026-11-16T00:00:00Z, published_before=2026-11-18T12:00:00Z)[id:786945] = blog.antonio.cx，本稿未收录
+- CMU 免费课表（▲2179/💬292，窗口最高分）: query_raw_items(min_points=100, published_after=2026-11-16T00:00:00Z, published_before=2026-11-18T12:00:00Z)[id:786159] = cs.cmu.edu/learn，本稿未收录
+- BugMeNot 关站（▲699/💬318）: query_raw_items(min_points=100, published_after=2026-11-16T00:00:00Z, published_before=2026-11-18T12:00:00Z)[id:786162] = bugmenot.com，本稿未收录
+- Jolt：说 C 的 Clojure（▲118）: query_raw_items(min_points=100, published_after=2026-11-16T00:00:00Z, published_before=2026-11-18T12:00:00Z)[id:785720] = jolt-lang.net 新语言发布
+- Aristotle 扩展到 Rust 验证（▲120）: query_raw_items(min_points=100, published_after=2026-11-16T00:00:00Z, published_before=2026-11-18T12:00:00Z)[id:785695] = harmonic.fun，形式化验证工具链
