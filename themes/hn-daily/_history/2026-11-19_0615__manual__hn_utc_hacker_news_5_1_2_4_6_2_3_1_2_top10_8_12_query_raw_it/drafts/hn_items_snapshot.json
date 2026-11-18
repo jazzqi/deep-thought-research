@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-11-18T23:43:28.625018+00:00",
+  "window": {
+    "after": "2026-11-18T00:00:00+00:00",
+    "before": "2026-11-19T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "795404",
+      "title": "Pre-auth RCE in Nginx HTTP/2 handling",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "author": "speedping",
+      "points": 988,
+      "comments": 458,
+      "published_at": "2026-11-18T15:19:55+00:00"
+    },
+    {
+      "id": "793225",
+      "title": "AI is killing All About Berlin",
+      "url": "https://nicolasbouliane.com/blog/death-by-ai",
+      "author": "grey-area",
+      "points": 741,
+      "comments": 671,
+      "published_at": "2026-11-18T06:47:26+00:00"
+    },
+    {
+      "id": "791889",
+      "title": "Google's AI answers reducing search traffic by 40%",
+      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "author": "slashdev",
+      "points": 682,
+      "comments": 529,
+      "published_at": "2026-11-18T00:17:58+00:00"
+    },
+    {
+      "id": "795473",
+      "title": "Deutsche Bank",
+      "url": "https://www.inside-db.com/",
+      "author": "gyre007",
+      "points": 491,
+      "comments": 179,
+      "published_at": "2026-11-18T15:38:33+00:00"
+    },
+    {
+      "id": "794961",
+      "title": "Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy",
+      "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+      "author": "ritzaco",
+      "points": 490,
+      "comments": 168,
+      "published_at": "2026-11-18T13:18:02+00:00"
+    },
+    {
+      "id": "791890",
+      "title": "ID.me terms required for IRS sign-in",
+      "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+      "author": "DeepLogin",
+      "points": 488,
+      "comments": 254,
+      "published_at": "2026-11-18T00:51:45+00:00"
+    },
+    {
+      "id": "792686",
+      "title": "Interviewed at a YC startup, found out they used my LinkedIn without permission",
+      "url": "https://reddit.com/r/recruitinghell/comments/1xyr6ml/interviewed_at_a_yc_startup_spent_30_hours/",
+      "author": "throwawaysleep",
+      "points": 477,
+      "comments": 124,
+      "published_at": "2026-11-18T05:11:30+00:00"
+    },
+    {
+      "id": "795579",
+      "title": "Microsoft AI: Seven new world-class models at scalable price-performance",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "author": "gmays",
+      "points": 387,
+      "comments": 268,
+      "published_at": "2026-11-18T16:08:24+00:00"
+    },
+    {
+      "id": "795450",
+      "title": "Poland says it thwarted false flag operation near border with Kaliningrad",
+      "url": "https://www.yahoo.com/news/world/articles/russia-reportedly-planned-mass-casualty-090500574.html",
+      "author": "ilamont",
+      "points": 334,
+      "comments": 148,
+      "published_at": "2026-11-18T15:18:30+00:00"
+    },
+    {
+      "id": "794264",
+      "title": "Codeberg.org Not Reachable",
+      "url": "https://social.anoxinon.de/@codebergstatus/117636437840688845",
+      "author": "hans_castorp",
+      "points": 288,
+      "comments": 291,
+      "published_at": "2026-11-18T10:02:17+00:00"
+    },
+    {
+      "id": "794578",
+      "title": "Energy-Based Reasoners: 385x more efficient inference",
+      "url": "https://energy-based-reasoners.github.io/",
+      "author": "frenchmajesty",
+      "points": 273,
+      "comments": 43,
+      "published_at": "2026-11-18T09:29:32+00:00"
+    },
+    {
+      "id": "792685",
+      "title": "Why is Gemini 4 Carbon taking so long?",
+      "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+      "author": "deenadz",
+      "points": 256,
+      "comments": 134,
+      "published_at": "2026-11-18T04:14:04+00:00"
+    },
+    {
+      "id": "795293",
+      "title": "'Human' Is Cambridge Dictionary's Word of the Year 2026",
+      "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
+      "author": "DeepLogin",
+      "points": 218,
+      "comments": 164,
+      "published_at": "2026-11-18T14:43:52+00:00"
+    },
+    {
+      "id": "795403",
+      "title": "Energy drinks linked to 11 times more reports of cardiac arrest",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261110042543.htm",
+      "author": "wjSgoWPm5bWAhXB",
+      "points": 196,
+      "comments": 195,
+      "published_at": "2026-11-18T14:03:37+00:00"
+    },
+    {
+      "id": "795578",
+      "title": "CVE-2026-99312: KVM Guest-to-Host Escape",
+      "url": "https://www.terra.security/blog/kvm-guest-to-host-escape",
+      "author": "Kozmik1",
+      "points": 164,
+      "comments": 113,
+      "published_at": "2026-11-18T16:06:21+00:00"
+    },
+    {
+      "id": "792999",
+      "title": "Claude was trained on protein sequences at scale",
+      "url": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
+      "author": "gmays",
+      "points": 156,
+      "comments": 67,
+      "published_at": "2026-11-18T03:47:43+00:00"
+    },
+    {
+      "id": "796210",
+      "title": "Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "author": "yigitdemirag",
+      "points": 151,
+      "comments": 118,
+      "published_at": "2026-11-18T21:34:07+00:00"
+    },
+    {
+      "id": "795911",
+      "title": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99312",
+      "author": "Kozmik1",
+      "points": 142,
+      "comments": 84,
+      "published_at": "2026-11-18T16:06:21+00:00"
+    },
+    {
+      "id": "795472",
+      "title": "U.S. AirForce is looking for old storage Media (CF or PC cards)",
+      "url": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view",
+      "author": "birdboat00",
+      "points": 136,
+      "comments": 99,
+      "published_at": "2026-11-18T15:35:44+00:00"
+    },
+    {
+      "id": "795938",
+      "title": "Scottish HTTP Codes",
+      "url": "https://underwood.network/http/scots.html",
+      "author": "mooreds",
+      "points": 135,
+      "comments": 23,
+      "published_at": "2026-11-18T18:26:19+00:00"
+    },
+    {
+      "id": "795506",
+      "title": "The x86 CPU: From 4004 to 486",
+      "url": "https://pikuma.com/blog/history-of-x86-4004-to-486",
+      "author": "ibobev",
+      "points": 125,
+      "comments": 39,
+      "published_at": "2026-11-18T14:47:53+00:00"
+    },
+    {
+      "id": "795030",
+      "title": "Show HN: Type Fighter 2",
+      "url": "https://typefighter2.com/",
+      "author": "torumitch",
+      "points": 121,
+      "comments": 53,
+      "published_at": "2026-11-18T11:11:53+00:00"
+    },
+    {
+      "id": "792116",
+      "title": "Cerebras Disaggregated Inference",
+      "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+      "author": "emschwartz",
+      "points": 105,
+      "comments": 24,
+      "published_at": "2026-11-18T00:56:23+00:00"
+    },
+    {
+      "id": "795505",
+      "title": "A Primer on Fourier Series",
+      "url": "https://arxiv.org/abs/2510.18203",
+      "author": "teleforce",
+      "points": 102,
+      "comments": 27,
+      "published_at": "2026-11-18T14:44:33+00:00"
+    },
+    {
+      "id": "794000",
+      "title": "Talos Linux",
+      "url": "https://www.siderolabs.com/talos-linux",
+      "author": "SweetSoftPillow",
+      "points": 101,
+      "comments": 57,
+      "published_at": "2026-11-18T08:17:44+00:00"
+    },
+    {
+      "id": "795577",
+      "title": "NGINX2Root by Xint – From Nginx visitor to root of the server host",
+      "url": "https://nginx2root.com/",
+      "author": "purkka",
+      "points": 93,
+      "comments": 13,
+      "published_at": "2026-11-18T15:24:17+00:00"
+    },
+    {
+      "id": "792338",
+      "title": "Bank CEOs, NSA Tell Congress That AI-Driven Patches Are Behind Outages",
+      "url": "https://www.washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages",
+      "author": "ryeights",
+      "points": 92,
+      "comments": 48,
+      "published_at": "2026-11-18T01:45:11+00:00"
+    },
+    {
+      "id": "793224",
+      "title": "Why Fibonacci?",
+      "url": "https://www.evilgeniuslabs.org/why-fibonacci",
+      "author": "_Microft",
+      "points": 76,
+      "comments": 16,
+      "published_at": "2026-11-18T05:35:02+00:00"
+    },
+    {
+      "id": "795648",
+      "title": "AI Agents Ask Better Questions Than KPMG Accountants in Landmark Audit Trial",
+      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "author": "Betelbuddy",
+      "points": 73,
+      "comments": 26,
+      "published_at": "2026-11-18T15:49:34+00:00"
+    },
+    {
+      "id": "795650",
+      "title": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
+      "url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+      "author": "sshah03",
+      "points": 73,
+      "comments": 35,
+      "published_at": "2026-11-18T16:41:22+00:00"
+    },
+    {
+      "id": "795918",
+      "title": "Genie 4 is now available",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "author": "leumon",
+      "points": 73,
+      "comments": 52,
+      "published_at": "2026-11-18T18:49:51+00:00"
+    },
+    {
+      "id": "795078",
+      "title": "Can Peer Review Survive AI-Generated Text? [pdf]",
+      "url": "https://www.sas.upenn.edu/~jesusfv/Peer_Review.pdf",
+      "author": "torutofu",
+      "points": 63,
+      "comments": 77,
+      "published_at": "2026-11-18T13:51:03+00:00"
+    },
+    {
+      "id": "795915",
+      "title": "Advancing chip design with OpenAI models",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+      "author": "vighneshiyer",
+      "points": 63,
+      "comments": 18,
+      "published_at": "2026-11-18T17:45:47+00:00"
+    },
+    {
+      "id": "794818",
+      "title": "GTA 6 Review: It Is a Masterpiece",
+      "url": "https://www.bloomberg.com/news/features/2026-11-18/gta-6-review-rockstar-games-latest-is-a-masterpiece",
+      "author": "bundie",
+      "points": 59,
+      "comments": 103,
+      "published_at": "2026-11-18T11:59:57+00:00"
+    },
+    {
+      "id": "793794",
+      "title": "Codeberg seems to have vanished from DNS",
+      "url": "https://news.ycombinator.com/item?id=50542948",
+      "author": "samip537",
+      "points": 53,
+      "comments": 20,
+      "published_at": "2026-11-18T07:28:57+00:00"
+    },
+    {
+      "id": "794817",
+      "title": "Voyager 1 hits one light day from Earth",
+      "url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/",
+      "author": "robin_reala",
+      "points": 51,
+      "comments": 24,
+      "published_at": "2026-11-18T10:38:30+00:00"
+    },
+    {
+      "id": "794262",
+      "title": "Australia's full national topographic library at your fingertips",
+      "url": "https://www.ga.gov.au/news/australias-full-national-topographic-library-at-your-fingertips",
+      "author": "bryanrasmussen",
+      "points": 44,
+      "comments": 15,
+      "published_at": "2026-11-18T07:10:46+00:00"
+    },
+    {
+      "id": "792713",
+      "title": "H-1B Executive Actions in 2026 [pdf]",
+      "url": "https://www.everycrsreport.com/files/2026-10-14_IN12747_fcb1389788aa7b9102b795882af042e85d20532c.pdf",
+      "author": "rawgabbit",
+      "points": 41,
+      "comments": 63,
+      "published_at": "2026-11-18T03:37:35+00:00"
+    },
+    {
+      "id": "795607",
+      "title": "Show HN: Take Voyager 1 apart, down to a single memory chip",
+      "url": "https://rshekhar.com/voyager/",
+      "author": "raj-shekhar",
+      "points": 41,
+      "comments": 7,
+      "published_at": "2026-11-18T16:18:51+00:00"
+    },
+    {
+      "id": "795649",
+      "title": "Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
+      "url": "https://exitpath-ruddy.vercel.app/",
+      "author": "zerocool0101",
+      "points": 41,
+      "comments": 4,
+      "published_at": "2026-11-18T16:04:43+00:00"
+    },
+    {
+      "id": "795912",
+      "title": "CrossPoint Reader",
+      "url": "https://crosspointreader.com",
+      "author": "kristianpaul",
+      "points": 41,
+      "comments": 16,
+      "published_at": "2026-11-18T17:14:31+00:00"
+    },
+    {
+      "id": "795507",
+      "title": "A 4.5M-parameter TTS model runs 70x real-time on CPU and cost just $10 to train",
+      "url": "https://huggingface.co/n4ze3m/tiny-voca",
+      "author": "mrkn1",
+      "points": 40,
+      "comments": 2,
+      "published_at": "2026-11-18T15:01:14+00:00"
+    },
+    {
+      "id": "795784",
+      "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+      "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+      "author": "Bender",
+      "points": 36,
+      "comments": 5,
+      "published_at": "2026-11-18T15:09:16+00:00"
+    },
+    {
+      "id": "796209",
+      "title": "Google Gemini's \"Tasks\" Personal Assistant Is Now Free",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "author": "hackeratrandom",
+      "points": 35,
+      "comments": 24,
+      "published_at": "2026-11-18T20:20:17+00:00"
+    },
+    {
+      "id": "793222",
+      "title": "Hex: Voice Dictation",
+      "url": "https://anoma.ly/hex/",
+      "author": "handfuloflight",
+      "points": 34,
+      "comments": 10,
+      "published_at": "2026-11-18T04:30:22+00:00"
+    },
+    {
+      "id": "795939",
+      "title": "The Magic of Partial Evaluation",
+      "url": "https://jimmyhmiller.com/magic-of-partial-evaluation",
+      "author": "aray07",
+      "points": 34,
+      "comments": 2,
+      "published_at": "2026-11-18T18:29:03+00:00"
+    },
+    {
+      "id": "796106",
+      "title": "DaisyRose-27B: 1,200-task RL took Qwen3.8 from 5.6% to 12% on Terminal-Bench 4.1",
+      "url": "https://www.radixark.com/blog/daisyrose-27b",
+      "author": "de_sty",
+      "points": 34,
+      "comments": 4,
+      "published_at": "2026-11-18T19:39:16+00:00"
+    },
+    {
+      "id": "795937",
+      "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+      "url": "https://news.ycombinator.com/item?id=50548660",
+      "author": "codekarate",
+      "points": 33,
+      "comments": 12,
+      "published_at": "2026-11-18T16:53:42+00:00"
+    },
+    {
+      "id": "796187",
+      "title": "Search Browser – Minimalist WebKit browser with Chrome extension support",
+      "url": "https://searchbrowser.app/",
+      "author": "rsaz",
+      "points": 32,
+      "comments": 21,
+      "published_at": "2026-11-18T20:04:31+00:00"
+    },
+    {
+      "id": "794814",
+      "title": "Firefox opens hotline for users sick of Microsoft shoving Edge down their throat",
+      "url": "https://www.neowin.net/news/firefox-opens-hotline-for-windows-users-fed-up-with-microsoft-shoving-edge-down-their-throat/",
+      "author": "bundie",
+      "points": 31,
+      "comments": 33,
+      "published_at": "2026-11-18T07:51:58+00:00"
+    },
+    {
+      "id": "794189",
+      "title": "Codeberg is down due to a domain issue",
+      "url": "https://social.anoxinon.de/@Codeberg/117636454915265360",
+      "author": "latexr",
+      "points": 30,
+      "comments": 3,
+      "published_at": "2026-11-18T08:28:46+00:00"
+    },
+    {
+      "id": "795914",
+      "title": "Lakegres: Vector search on existing Open/Hudi/Iceberg tables",
+      "url": "https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats",
+      "author": "cloud8bits",
+      "points": 29,
+      "comments": 6,
+      "published_at": "2026-11-18T17:41:48+00:00"
+    },
+    {
+      "id": "795606",
+      "title": "Jensen Huang's fall hits 'open' models in boost to Anthropic and OpenAI",
+      "url": "https://www.ft.com/content/418ca885-fbcf-4b9f-a8b9-2bd60b543fc5",
+      "author": "teleforce",
+      "points": 28,
+      "comments": 11,
+      "published_at": "2026-11-18T15:08:21+00:00"
+    },
+    {
+      "id": "795714",
+      "title": "Stop Deploying to ECS Just to See If Your Code Works",
+      "url": "https://metalbear.com/blog/stop-deploying-to-ecs/",
+      "author": "Liriel",
+      "points": 28,
+      "comments": 4,
+      "published_at": "2026-11-18T17:05:13+00:00"
+    },
+    {
+      "id": "795910",
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "author": "sshah03",
+      "points": 28,
+      "comments": 0,
+      "published_at": "2026-11-18T15:59:04+00:00"
+    },
+    {
+      "id": "796107",
+      "title": "SRE-1: 27B model for Production Investigations",
+      "url": "https://resolve.ai/labs/sre-1/paper",
+      "author": "iceman84",
+      "points": 27,
+      "comments": 1,
+      "published_at": "2026-11-18T20:10:26+00:00"
+    },
+    {
+      "id": "795913",
+      "title": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
+      "url": "https://news.ycombinator.com/item?id=50549188",
+      "author": "ashriv",
+      "points": 26,
+      "comments": 21,
+      "published_at": "2026-11-18T17:26:28+00:00"
+    },
+    {
+      "id": "794577",
+      "title": "Torrent Infra Needs to Modernize Immediately for Open Models to Survive",
+      "url": "https://pirateface.co/articles/pirate-face-cli",
+      "author": "alohahaho",
+      "points": 25,
+      "comments": 2,
+      "published_at": "2026-11-18T07:53:22+00:00"
+    },
+    {
+      "id": "795605",
+      "title": "Dutch resist 'unacceptable' US bid to tighten semiconductor export controls",
+      "url": "https://www.politico.eu/article/dutch-resist-unacceptable-us-bid-to-tighten-semiconductor-export-controls-asml/",
+      "author": "sergdigon",
+      "points": 25,
+      "comments": 28,
+      "published_at": "2026-11-18T13:46:35+00:00"
+    },
+    {
+      "id": "795936",
+      "title": "RFC 2675: IPv6 Jumbograms",
+      "url": "https://www.rfc-editor.org/info/rfc2675/",
+      "author": "caminanteblanco",
+      "points": 25,
+      "comments": 24,
+      "published_at": "2026-11-18T16:22:23+00:00"
+    },
+    {
+      "id": "796345",
+      "title": "Sexp Matrix",
+      "url": "https://lisper.cc/ideas/entangle.html",
+      "author": "todsacerdoti",
+      "points": 25,
+      "comments": 7,
+      "published_at": "2026-11-18T20:01:50+00:00"
+    },
+    {
+      "id": "794261",
+      "title": "Microsoft's agent-framework PyPI package Compromised with Credential Stealer",
+      "url": "https://socket.dev/blog/agent-framework-pypi-package-compromised-with-credential-stealer",
+      "author": "roseway4",
+      "points": 24,
+      "comments": 3,
+      "published_at": "2026-11-18T05:02:34+00:00"
+    },
+    {
+      "id": "795713",
+      "title": "Satellites now outnumber the visible stars above most towns",
+      "url": "https://www.space.com/space-exploration/satellites/satellites-now-outnumber-the-visible-stars-above-most-towns",
+      "author": "marvinborner",
+      "points": 24,
+      "comments": 1,
+      "published_at": "2026-11-18T15:21:01+00:00"
+    },
+    {
+      "id": "795751",
+      "title": "Xfce 4.22 Working Toward Early 2027 Release",
+      "url": "https://www.phoronix.com/news/Xfce-4.22-Roadmap",
+      "author": "Bender",
+      "points": 24,
+      "comments": 1,
+      "published_at": "2026-11-18T15:08:35+00:00"
+    },
+    {
+      "id": "795828",
+      "title": "SuperEMeans: Making e-means 3× faster",
+      "url": "https://www.lkuffo.com/superemeans/",
+      "author": "lkuffo2",
+      "points": 24,
+      "comments": 0,
+      "published_at": "2026-11-18T16:09:50+00:00"
+    },
+    {
+      "id": "795916",
+      "title": "Just say no to Anthropic's IPO",
+      "url": "https://garymarcus.substack.com/p/just-say-no-to-anthropics-ipo",
+      "author": "Betelbuddy",
+      "points": 22,
+      "comments": 9,
+      "published_at": "2026-11-18T17:54:16+00:00"
+    },
+    {
+      "id": "796027",
+      "title": "Is AI a bicycle for the mind, or a car?",
+      "url": "https://twitter.com/kouhxp/status/2123096768996892959",
+      "author": "mrkn1",
+      "points": 22,
+      "comments": 16,
+      "published_at": "2026-11-18T16:54:02+00:00"
+    },
+    {
+      "id": "796105",
+      "title": "When Free Software Isn't Free Enough",
+      "url": "https://foss.life/notes/2026/free-software-isnt-free-enough/",
+      "author": "hn_acker",
+      "points": 22,
+      "comments": 4,
+      "published_at": "2026-11-18T18:39:28+00:00"
+    },
+    {
+      "id": "796344",
+      "title": "Octopus, Gecko and Tortoise: the 3 scanners hunting your AI keys",
+      "url": "https://tin.computer/blog/fake-ai-crawler-secrets-scanners",
+      "author": "demegire",
+      "points": 22,
+      "comments": 4,
+      "published_at": "2026-11-18T18:53:17+00:00"
+    },
+    {
+      "id": "795576",
+      "title": "Younger adults more likely to say acceptable to wear T-shirts&sweatpants to work",
+      "url": "https://yougov.com/en-us/articles/55583-younger-adults-are-more-likely-than-older-ones-to-say-its-acceptable-to-wear-t-shirts-and-sweatpants-to-work",
+      "author": "bookofjoe",
+      "points": 21,
+      "comments": 51,
+      "published_at": "2026-11-18T15:09:52+00:00"
+    },
+    {
+      "id": "795917",
+      "title": "We asked AI the same 210 buying questions 2 days in a row,84% of answers changed",
+      "url": "https://supercite.ai/blog/ai-answers-change-every-day",
+      "author": "avatar99",
+      "points": 21,
+      "comments": 28,
+      "published_at": "2026-11-18T17:58:00+00:00"
+    },
+    {
+      "id": "796052",
+      "title": "Pikuma: Fundamentals of Computer Science and Mathematics",
+      "url": "https://pikuma.com/",
+      "author": "gurjeet",
+      "points": 20,
+      "comments": 2,
+      "published_at": "2026-11-18T16:52:08+00:00"
+    },
+    {
+      "id": "796449",
+      "title": "US charges Irishman with destroying a $60M Air Force C-130",
+      "url": "https://taskandpurpose.com/news/c-130-damage-ireland-daithi-ocorrain/",
+      "author": "ilamont",
+      "points": 20,
+      "comments": 15,
+      "published_at": "2026-11-18T22:30:26+00:00"
+    },
+    {
+      "id": "796437",
+      "title": "马斯克：解雇黄仁勋好比让乔丹坐冷板凳",
+      "url": "https://t.me/Financial_Express/3638742",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:23:42+00:00"
+    },
+    {
+      "id": "796438",
+      "title": "埃隆·马斯克谈特斯拉与 SpaceX 合并",
+      "url": "https://t.me/Financial_Express/3638743",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:24:02+00:00"
+    },
+    {
+      "id": "796439",
+      "title": "特斯拉 CEO 埃隆·马斯克",
+      "url": "https://t.me/Financial_Express/3638744",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:24:22+00:00"
+    },
+    {
+      "id": "796440",
+      "title": "马斯克表示，特斯拉将推出 MODEL Y 的自动驾驶版本。",
+      "url": "https://t.me/Financial_Express/3638745",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:24:42+00:00"
+    },
+    {
+      "id": "796441",
+      "title": "现货黄金突破 3740 美元/盎司，日内涨 0.42%。",
+      "url": "https://t.me/Financial_Express/3638746",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:24:43+00:00"
+    },
+    {
+      "id": "796442",
+      "title": "Skydance 放弃竞标昂贵的 FIFA 世界杯转播权。",
+      "url": "https://t.me/Financial_Express/3638747",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:24:43+00:00"
+    },
+    {
+      "id": "796443",
+      "title": "澳洲矿业股普跌，追随隔夜黄金、铜价格下跌的表现。",
+      "url": "https://t.me/Financial_Express/3638748",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:25:05+00:00"
+    },
+    {
+      "id": "796444",
+      "title": "马斯克",
+      "url": "https://t.me/Financial_Express/3638749",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:25:42+00:00"
+    },
+    {
+      "id": "796445",
+      "title": "SpaceX 首席执行官马斯克",
+      "url": "https://t.me/Financial_Express/3638750",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:26:02+00:00"
+    },
+    {
+      "id": "796446",
+      "title": "SpaceX 首席执行官马斯克",
+      "url": "https://t.me/Financial_Express/3638751",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:26:22+00:00"
+    },
+    {
+      "id": "796447",
+      "title": "以色列推波助澜 特朗普正权衡对伊朗发动新一轮大规模打击",
+      "url": "https://t.me/Financial_Express/3638752",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:26:42+00:00"
+    },
+    {
+      "id": "796448",
+      "title": "特斯拉 CEO 埃隆·马斯克",
+      "url": "https://t.me/Financial_Express/3638753",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:27:02+00:00"
+    },
+    {
+      "id": "796453",
+      "title": "特斯拉 CEO 埃隆·马斯克",
+      "url": "https://t.me/Financial_Express/3638754",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:29:02+00:00"
+    },
+    {
+      "id": "796454",
+      "title": "ANTHROPIC PBC",
+      "url": "https://t.me/Financial_Express/3638755",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:29:02+00:00"
+    },
+    {
+      "id": "796455",
+      "title": "Anthropic",
+      "url": "https://t.me/Financial_Express/3638756",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:30:02+00:00"
+    },
+    {
+      "id": "796456",
+      "title": "铜铝价格回落 家电业盈利修复添动能",
+      "url": "https://t.me/Financial_Express/3638758",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:31:02+00:00"
+    },
+    {
+      "id": "796457",
+      "title": "Anthropic",
+      "url": "https://t.me/Financial_Express/3638759",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:31:22+00:00"
+    },
+    {
+      "id": "796458",
+      "title": "R 星游戏《GTA6》正式发售",
+      "url": "https://t.me/Financial_Express/3638760",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:31:22+00:00"
+    },
+    {
+      "id": "796459",
+      "title": "科罗拉多州公共卫生与环境部",
+      "url": "https://t.me/Financial_Express/3638761",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:31:23+00:00"
+    },
+    {
+      "id": "796460",
+      "title": "Anthropic",
+      "url": "https://t.me/Financial_Express/3638762",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:32:22+00:00"
+    },
+    {
+      "id": "796461",
+      "title": "Anthropic",
+      "url": "https://t.me/Financial_Express/3638763",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:32:23+00:00"
+    },
+    {
+      "id": "796462",
+      "title": "微软 CEO 警告网络故障或成新常态",
+      "url": "https://t.me/Financial_Express/3638764",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:33:02+00:00"
+    },
+    {
+      "id": "796463",
+      "title": "Anthropic 股票将于 11 月 19 日在纳斯达克开始交易。（彭博）",
+      "url": "https://t.me/Financial_Express/3638765",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:33:28+00:00"
+    },
+    {
+      "id": "796469",
+      "title": "Daily Tech News Briefing (November 19)",
+      "url": "https://longbridge.cn/news/306030296",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:29:07+00:00"
+    },
+    {
+      "id": "796471",
+      "title": "英伟达拖累美股，标普五连跌，纳指逆势微涨，网络安全股大涨，金银铜油重挫。",
+      "url": "https://t.me/Financial_Express/3638766",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:35:32+00:00"
+    },
+    {
+      "id": "796472",
+      "title": "美国股指期货上涨 Anthropic 已将 IPO 价格定在推介区间之上",
+      "url": "https://t.me/Financial_Express/3638767",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:37:42+00:00"
+    },
+    {
+      "id": "796473",
+      "title": "Anthropic IPO 定价出炉：每股 83 美元，发行 9.8 亿股",
+      "url": "https://t.me/Financial_Express/3638768",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-18T23:38:02+00:00"
+    }
+  ]
+}
