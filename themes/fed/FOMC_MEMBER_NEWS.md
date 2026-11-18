@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-18 20:45 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
+> 生成时间：2026-11-18 21:01 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
@@ -187,7 +187,7 @@
 ## 奥斯坦·古尔斯比（Austan D. Goolsbee）
 
 - **Fed's Goolsbee: US Inflation Issues Increasingly Severe, Further Action Still Needed**（2026-11-13 15:43）
-  来源: longbridge / telegram:Financial_Express（同日 9 条已合并） | 正文长度: 625 字 | 立场: 鹰 +0.61
+  来源: longbridge / telegram:Financial_Express（同日 9 条已合并） | 正文长度: 625 字 | 立场: 鹰 +0.53
   片段: …Fed's Goolsbee: US Inflation Issues Increasingly Severe, Further Action Still Needed Chicago Fed President Goolsbee stated that the latest inflation data is con
 
 - **Fed's Goolsbee: Inflation has been well-above target**（2026-11-12 16:21）
@@ -248,9 +248,9 @@
 
 ## 洛里·洛根（Lorie K. Logan）
 
-- **美联储洛根：美债市场运行良好，美联储需加强支持工具**（2026-11-13 14:49）
-  来源: longbridge / telegram:Financial_Express（同日 6 条已合并） | 正文长度: 227 字 | 立场: 鹰 +0.38
-  片段: …美联储洛根：美债市场运行良好，美联储需加强支持工具 金十数据 11 月 13 日讯，达拉斯联储主席洛根周五在达拉斯联储银行融资会议上发表讲话时表示，尽管经历了几轮利率波动，但美国国债市场运行“非常好”，且银行在过去三年中改善了获取应急资金的能力。尽管如此，美联储仍应采取步骤，加强其在这两个领域的支持工具。“尤其是在看起
+- **美国达拉斯联储主席洛丽·洛根表示，美联储应将为维持市场正常运作而购买的资产，与为货币政策操作而持有的资产区分开来，以便在金融市场承压时期更清楚地传达其意图。**（2026-11-13 15:23）
+  来源: longbridge / telegram:Financial_Express（同日 6 条已合并） | 正文长度: 241 字 | 立场: 鹰 +0.58
+  片段: …美国达拉斯联储主席洛丽·洛根表示，美联储应将为维持市场正常运作而购买的资产，与为货币政策操作而持有的资产区分开来，以便在金融市场承压时期更清楚地传达其意图。 “防止维持市场运作的购债行动带来不必要刺激的方式之一，是让联邦公开市场委员会(FOMC)将所购证券存放在单独账户中，并承诺尽快将其出售，”洛根在为达拉斯联储联合主
 
 - **美联储洛根：美联储至少还需加息两次 每次 25 个基点**（2026-11-10 15:53）
   来源: longbridge / telegram:Financial_Express（同日 7 条已合并） | 正文长度: 257 字 | 立场: 鹰 +0.87
