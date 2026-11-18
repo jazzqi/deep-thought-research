@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-10-27T00:40:24+08:00
-revision: 2026-10-27T00:40:24+08:00
+updated: 2026-11-18T16:27:02+08:00
+revision: 2026-11-18T16:27:02+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Dylan Field: AI 时代设计成为新的稀缺品 —— "设计是新的代码" —— Figma CEO · 2026-10-19](./all-in/dylan-field-is-ai-replacing-designers-design-is-the-new-code.md)
+- [AGI 已经到来，企业却卡在四道闸门 —— Ali Ghodsi（Databricks CEO）· All-In 播客 · 2026-11-17](./all-in/databricks-ceo-agi-is-already-here-why-companies-are-behind.md)
 
 ## 往期
 
+- [AGI 已经到来，企业却卡在四道闸门 —— Ali Ghodsi（Databricks CEO）· All-In 播客 · 2026-11-17](./all-in/databricks-ceo-agi-is-already-here-why-companies-are-behind.md)
 - [Dylan Field: AI 时代设计成为新的稀缺品 —— "设计是新的代码" —— Figma CEO · 2026-10-19](./all-in/dylan-field-is-ai-replacing-designers-design-is-the-new-code.md)
 - [量子破密倒计时 2030、开源权重将吃下 75-90% 的 token、SaaS 走向大整合 —— Arvind Krishna & Nikesh Arora · All-In Podcast · 2026-10-21](./all-in/arvind-krishna-nikesh-arora-quantum-threat-open-vs-frontier.md)
 - [AI Cyber Panic, Ken Griffin's Bubble Warning, The Fall of France? —— All-In Podcast（Chamath / Jason / Friedberg，Sacks 缺席，嘉宾 Nikesh Arora）· 2026-10-23](./all-in/ai-cyber-panic-ken-griffins-bubble-warning-the-fall-of-franc.md)
