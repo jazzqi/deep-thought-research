@@ -2,9 +2,13 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-17 21:00 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
+> 生成时间：2026-11-18 20:45 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
+
+- **美联储沃勒：若不释放 1 月加息信号，则 12 月应加息 50 个基点**（2026-11-18 12:46）
+  来源: longbridge / telegram:Financial_Express（同日 7 条已合并） | 正文长度: 334 字 | 立场: 鹰 +0.83
+  片段: …美联储沃勒：若不释放 1 月加息信号，则 12 月应加息 50 个基点 金十数据 11 月 18 日讯，美联储理事沃勒表示，非常担心通胀正朝着错误方向发展并不断扩大，如果美联储想要降低通胀，就需要采取更强有力的措施。核心服务篮子中约 70%的项目涨幅超过 3%，这与石油无关。担心企业认为消费者具有韧性，从而转嫁 3%或
 
 - **美联储理事沃勒**（2026-11-17 14:10）
   来源: telegram:Financial_Express | 正文长度: 26 字
@@ -21,10 +25,6 @@
 - **"Fed Whisperer": Waller Seeks to Tighten Fed Communication, Yet Officials' Voices Remain Abundant**（2026-10-27 10:19）
   来源: longbridge | 正文长度: 1470 字
   片段: …"Fed Whisperer": Waller Seeks to Tighten Fed Communication, Yet Officials' Voices Remain Abundant Nick Timiraos, the "Fed Whisperer," stated in an article that 
-
-- **Super Central Bank Week: Market Focuses on Fed Governor Waller's Post-Meeting Remarks and US PCE Data**（2026-10-25 21:43）
-  来源: longbridge | 正文长度: 610 字
-  片段: …The Fed, Bank of Japan, and ECB all kept interest rates unchanged this week, with markets focused on Fed Governor Waller’s post-meeting remarks. Investors await
 
 ## 杰罗姆·鲍威尔（Jerome H. Powell）
 
@@ -53,6 +53,10 @@
 数据缺失（近 45 天无可靠归属的讲话/表态）
 
 ## 迈克尔·巴尔（Michael S. Barr）
+
+- **Fed Governor Barr Supports Further Rate Hikes, Citing Persistently High Inflation**（2026-11-18 18:39）
+  来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 923 字 | 立场: 鹰 +0.69
+  片段: …Fed Governor Barr Supports Further Rate Hikes, Citing Persistently High Inflation Federal Reserve Governor Michael Barr stated on Wednesday that he would likely
 
 - **美联储理事巴尔：AI 智能体可能加剧未来的银行挤兑**（2026-11-16 10:31）
   来源: federalreserve.gov / telegram:Financial_Express（同日 2 条已合并） | 正文长度: 409 字
@@ -114,9 +118,13 @@
 
 ## 约翰·威廉姆斯（John C. Williams）
 
-- **Fed's Williams still favors tighter monetary policy, but says now is not the time for 'dramatic action'**（2026-11-17 20:06）
-  来源: longbridge / telegram:Financial_Express（同日 4 条已合并） | 正文长度: 103 字 | 立场: 鹰 +0.41
-  片段: …Fed's Williams still favors tighter monetary policy, but says now is not the time for 'dramatic action'
+- **美联储威廉姆斯在纽约联储活动上讲话。**（2026-11-18 19:37）
+  来源: telegram:Financial_Express（同日 2 条已合并） | 正文长度: 18 字
+  片段: …美联储威廉姆斯在纽约联储活动上讲话。
+
+- **New York Fed President Williams Opposes Aggressive Interest Rate Hikes but Emphasizes Need for Further Monetary Tightening**（2026-11-17 22:22）
+  来源: longbridge / telegram:Financial_Express（同日 6 条已合并） | 正文长度: 563 字 | 立场: 鹰 +0.42
+  片段: …New York Fed President Williams opposes aggressive interest rate hikes but says further monetary tightening is needed because the U.S. economy remains strong an
 
 - **Fed's Williams says central bank has 'work to do' to get inflation back on target**（2026-11-13 00:05）
   来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 81 字 | 立场: 鹰 +0.55
@@ -257,6 +265,10 @@
   片段: …美联储洛根：美联储至少还需加息两次、累计 50 个基点 金十数据 10 月 31 日讯，达拉斯联储主席洛根周五表示，当前经济前景下，美联储至少还需要两次各 25 个基点的加息，使政策利率累计提高 50 个基点，随后暂停加息并评估经济及金融形势，以决定下一步行动。洛根本周参与美联储 10 比 2 的投票，支持维持联邦基金
 
 ## 玛丽·戴利（Mary C. Daly）
+
+- **Daly: Fed Still Needs to Raise Rates, but Should Adopt a Prudent, Gradual Strategy**（2026-11-18 18:36）
+  来源: longbridge / telegram:Financial_Express（同日 4 条已合并） | 正文长度: 907 字 | 立场: 鹰 +0.48
+  片段: …Daly: Fed Still Needs to Raise Rates, but Should Adopt a Prudent, Gradual Strategy Mary Daly, President of the Federal Reserve Bank of San Francisco, stated tha
 
 - **Fed's Daly: In all likelihood, we need to raise rates**（2026-11-13 17:23）
   来源: longbridge / telegram:Financial_Express（同日 5 条已合并） | 正文长度: 398 字 | 立场: 鹰 +0.76
