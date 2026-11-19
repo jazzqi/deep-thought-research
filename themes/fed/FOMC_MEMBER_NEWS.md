@@ -2,13 +2,17 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-18 21:01 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
+> 生成时间：2026-11-19 20:45 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
-- **美联储沃勒：若不释放 1 月加息信号，则 12 月应加息 50 个基点**（2026-11-18 12:46）
-  来源: longbridge / telegram:Financial_Express（同日 7 条已合并） | 正文长度: 334 字 | 立场: 鹰 +0.83
-  片段: …美联储沃勒：若不释放 1 月加息信号，则 12 月应加息 50 个基点 金十数据 11 月 18 日讯，美联储理事沃勒表示，非常担心通胀正朝着错误方向发展并不断扩大，如果美联储想要降低通胀，就需要采取更强有力的措施。核心服务篮子中约 70%的项目涨幅超过 3%，这与石油无关。担心企业认为消费者具有韧性，从而转嫁 3%或
+- **[External Economy] Fed Governor Waller Suggests a 50-Basis-Point Rate Hike in December; San Francisco Fed President Daly Calls for Cautious and Gradual Increases**（2026-11-19 00:47）
+  来源: longbridge（同日 3 条已合并） | 正文长度: 557 字 | 立场: 鹰 +0.87
+  片段: …Fed Governor Waller suggested a 50-basis-point rate hike in December if the signal for a January increase remains unclear, citing the need to curb inflation. Sa
+
+- **investingLive Americas FX news wrap 18 Nov: Waller/Fed minutes put a bigger December hike in play**（2026-11-18 21:33）
+  来源: longbridge / telegram:Financial_Express（同日 8 条已合并） | 正文长度: 592 字 | 立场: 鹰 +0.83
+  片段: …Fed minutes showed FOMC participants favor further hikes and a December increase of more than 25 basis points is possible if inflation disappoints; Fed’s Waller
 
 - **美联储理事沃勒**（2026-11-17 14:10）
   来源: telegram:Financial_Express | 正文长度: 26 字
@@ -21,10 +25,6 @@
 - **Waller: Strong Economy, Excellent Job Market, Fed’s Focus Remains on Controlling Inflation**（2026-10-28 19:11）
   来源: longbridge | 正文长度: 870 字 | 立场: 鹰 +0.45
   片段: …Waller: Strong Economy, Excellent Job Market, Fed’s Focus Remains on Controlling Inflation Federal Reserve Governor Waller stated that the Fed’s discussions in 
-
-- **"Fed Whisperer": Waller Seeks to Tighten Fed Communication, Yet Officials' Voices Remain Abundant**（2026-10-27 10:19）
-  来源: longbridge | 正文长度: 1470 字
-  片段: …"Fed Whisperer": Waller Seeks to Tighten Fed Communication, Yet Officials' Voices Remain Abundant Nick Timiraos, the "Fed Whisperer," stated in an article that 
 
 ## 杰罗姆·鲍威尔（Jerome H. Powell）
 
@@ -54,9 +54,13 @@
 
 ## 迈克尔·巴尔（Michael S. Barr）
 
+- **Fed's Barr worried regulation changes may increase financial sector risks**（2026-11-19 19:49）
+  来源: longbridge / telegram:Financial_Express（同日 2 条已合并） | 正文长度: 73 字
+  片段: …Fed's Barr worried regulation changes may increase financial sector risks
+
 - **Fed Governor Barr Supports Further Rate Hikes, Citing Persistently High Inflation**（2026-11-18 18:39）
   来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 923 字 | 立场: 鹰 +0.69
-  片段: …Fed Governor Barr Supports Further Rate Hikes, Citing Persistently High Inflation Federal Reserve Governor Michael Barr stated on Wednesday that he would likely
+  片段: …Fed Governor Michael Barr said he would likely support further monetary tightening, including interest rate hikes, if the U.S. economy evolves in line with his 
 
 - **美联储理事巴尔：AI 智能体可能加剧未来的银行挤兑**（2026-11-16 10:31）
   来源: federalreserve.gov / telegram:Financial_Express（同日 2 条已合并） | 正文长度: 409 字
@@ -90,6 +94,10 @@
 
 ## 菲利普·杰斐逊（Philip N. Jefferson）
 
+- **Fed Vice Chair Jefferson: AI Exacerbates Short-Term Inflation**（2026-11-19 14:58）
+  来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 511 字 | 立场: 鹰 +0.34
+  片段: …Fed Vice Chair Jefferson: AI Exacerbates Short-Term Inflation Federal Reserve Vice Chair Jefferson stated that the AI boom is driving economic demand, thereby e
+
 - **美联储杰斐逊强调通胀信号将决定利率走势**（2026-11-14 00:13）
   来源: longbridge / telegram:Financial_Express（同日 5 条已合并） | 正文长度: 423 字 | 立场: 鹰 +0.67
   片段: …美联储杰斐逊强调通胀信号将决定利率走势 金十数据 11 月 14 日讯，美联储副主席菲利普·杰斐逊表示，在政策制定者考虑是否进一步加息之际，通胀已成为最重要的衡量指标。杰斐逊指出，近期经济活动和劳动力市场状况表现稳健，但物价压力依然持续存在。他表示，10 月份的物价数据反映出通胀水平仍远高于美联储的目标。杰斐逊在为圣迭
@@ -120,7 +128,7 @@
 
 - **美联储威廉姆斯在纽约联储活动上讲话。**（2026-11-18 19:37）
   来源: telegram:Financial_Express（同日 2 条已合并） | 正文长度: 18 字
-  片段: …美联储威廉姆斯在纽约联储活动上讲话。
+  片段: …美联储威廉姆斯在纽约联储活动上发表讲话。现有内容未披露其具体政策立场、经济数据或市场相关表态，因此暂无可用于投资判断的实质性事实。
 
 - **New York Fed President Williams Opposes Aggressive Interest Rate Hikes but Emphasizes Need for Further Monetary Tightening**（2026-11-17 22:22）
   来源: longbridge / telegram:Financial_Express（同日 6 条已合并） | 正文长度: 563 字 | 立场: 鹰 +0.42
@@ -186,6 +194,10 @@
 
 ## 奥斯坦·古尔斯比（Austan D. Goolsbee）
 
+- **美联储古尔斯比表示，目前他并不认为通胀正走在回归 2%目标的道路上；他指出，通胀压力不仅来自石油和关税冲击，还包含相当大的一部分需求因素。**（2026-11-19 20:32）
+  来源: longbridge / telegram:Financial_Express（同日 10 条已合并） | 正文长度: 69 字 | 立场: 鹰 +0.47
+  片段: …美联储古尔斯比表示，目前他并不认为通胀正走在回归 2%目标的道路上；他指出，通胀压力不仅来自石油和关税冲击，还包含相当大的一部分需求因素。
+
 - **Fed's Goolsbee: US Inflation Issues Increasingly Severe, Further Action Still Needed**（2026-11-13 15:43）
   来源: longbridge / telegram:Financial_Express（同日 9 条已合并） | 正文长度: 625 字 | 立场: 鹰 +0.53
   片段: …Fed's Goolsbee: US Inflation Issues Increasingly Severe, Further Action Still Needed Chicago Fed President Goolsbee stated that the latest inflation data is con
@@ -201,10 +213,6 @@
 - **Fed’s Goolsbee Warns AI Data Center Boom Is Starting to Look Like ‘Demand Overheating,’ Says Central Bankers Must Be ‘Aggressive Up Front’**（2026-11-10 12:50）
   来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 528 字 | 立场: 鹰 +0.61
   片段: …Fed’s Goolsbee Warns AI Data Center Boom Is Starting to Look Like ‘Demand Overheating,’ Says Central Bankers Must Be ‘Aggressive Up Front’ Chicago Fed President
-
-- **美联储古尔斯比：AI 数据中心建设加剧需求过热 通胀仍是首要问题**（2026-11-09 16:53）
-  来源: telegram:Financial_Express | 正文长度: 198 字 | 立场: 鹰 +0.70
-  片段: …美联储古尔斯比：AI 数据中心建设加剧需求过热 通胀仍是首要问题 金十数据 11 月 10 日讯，芝加哥联储主席古尔斯比表示，AI 数据中心建设正显现出传统需求过热的特征，同时能源价格上涨正向服务业等更广泛领域传导，通胀压力有所扩散。他指出，央行通常需要积极应对经济过热。古尔斯比称，美国就业市场和经济增长总体稳定，目前
 
 ## 阿尔贝托·穆萨莱姆（Alberto G. Musalem）
 
@@ -226,7 +234,9 @@
 
 ## 尼尔·卡什卡利（Neel Kashkari）
 
-数据缺失（近 45 天无可靠归属的讲话/表态）
+- **美联储卡什卡利**（2026-11-18 21:18）
+  来源: telegram:Financial_Express | 正文长度: 21 字 | 立场: 鹰 +0.50
+  片段: …美联储官员卡什卡利表示，利率绝对能够影响投资水平。该表态强调货币政策利率对投资决策具有传导作用，但未提供具体利率水平、时间或投资数据。
 
 ## 杰弗里·施密德（Jeffrey R. Schmid）
 
@@ -266,9 +276,13 @@
 
 ## 玛丽·戴利（Mary C. Daly）
 
+- **[External Economy] Fed Governor Waller Suggests a 50-Basis-Point Rate Hike in December; San Francisco Fed President Daly Calls for Cautious and Gradual Increases**（2026-11-19 00:47）
+  来源: longbridge | 正文长度: 557 字 | 立场: 鹰 +0.40
+  片段: …Fed Governor Waller suggested a 50-basis-point rate hike in December if the signal for a January increase remains unclear, citing the need to curb inflation. Sa
+
 - **Daly: Fed Still Needs to Raise Rates, but Should Adopt a Prudent, Gradual Strategy**（2026-11-18 18:36）
   来源: longbridge / telegram:Financial_Express（同日 4 条已合并） | 正文长度: 907 字 | 立场: 鹰 +0.48
-  片段: …Daly: Fed Still Needs to Raise Rates, but Should Adopt a Prudent, Gradual Strategy Mary Daly, President of the Federal Reserve Bank of San Francisco, stated tha
+  片段: …San Francisco Fed President Mary Daly said the Fed still needs to raise interest rates further to bring inflation back to its 2% target, but favors a prudent, g
 
 - **Fed's Daly: In all likelihood, we need to raise rates**（2026-11-13 17:23）
   来源: longbridge / telegram:Financial_Express（同日 5 条已合并） | 正文长度: 398 字 | 立场: 鹰 +0.76
