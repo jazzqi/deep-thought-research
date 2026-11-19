@@ -1,0 +1,19 @@
+- 11-18 UTC 窗口 HN ≥20 分条目: query_raw_items(source=hackernews, published_after=2026-11-18T00:00:00Z, published_before=2026-11-19T00:00:00Z, min_points=20, limit=100) = 76 条（上期定版时 70 条）
+- 11-19 UTC 窗口新条目: query_raw_items(published_after=2026-11-19T00:00:00Z, published_before=2026-11-20T00:00:00Z, min_points=1) = NO_DATA（截至 00:20 UTC 无新条目）
+- Anthropic 持股结构: fetch_url(https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/) = Amazon 14.7%（全部可转债转股可达 23.8%）、Google 13.7%、七家科技公司合计认购 260 亿美元无投票权股票、Amazon 未来十年 AWS 支出超 1000 亿美元；HN 转发条目 query_raw_items(...)[id:795910] = 28▲/0💬
+- Anthropic IPO 定价 83 美元: query_raw_items(keyword='Jensen Huang OR Nvidia OR 黄仁勋', 2026-11-15→2026-11-20)[id:796432] = 隔夜要闻：发行价 83 美元高于推介区间；[id:796562] = 周四 IPO 将成史上最大
+- Gary Marcus IPO 质疑: query_raw_items(...)[id:795916] + fetch_url(https://garymarcus.substack.com/p/just-say-no-to-anthropics-ipo) = 估值上限 1.4 万亿美元、未来负债约 8950 亿美元、Q3 增速 47% vs Q2 147%
+- Anthropic 安全联盟帖: query_raw_items(...)[id:795650]（DB 73▲/35💬）+ fetch_url(https://hn.algolia.com/api/v1/search?query=%22Anthropic%20Is%20Not%20a%20Safe%20AI%20Company%22) = HN 实抓 124▲/76💬（item 50548485）+ fetch_url(https://news.ycombinator.com/item?id=50548485) = 评论 platinumrad 转引联盟金句、jaredklewis 驳回黄仁勋时间耦合阴谋论（businesswire 正文 403、web.archive 403 均未能抓取）
+- 微软 Ignite 七模型: query_raw_items(...)[id:795579]（DB 387▲/268💬）+ fetch_url(https://microsoft.ai/news/microsoft-ignite-2026/) = MAI Cyber 2 Flash/Code 2/Code 2 Flash/Image 2.7/Realtime 1/Dragon Copilot/Decision 1.1/Maia 200 细节；fetch_url(https://news.ycombinator.com/item?id=50548021) = 427▲/296💬、作者 rayiner 电动机护城河评论
+- Cambridge 年度词: query_raw_items(...)[id:795293]（218▲/164💬）+ fetch_url(https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026) = 盖茨/Hinton/教皇/作者公会等年度事件
+- KVM 逃逸: query_raw_items(...)[id:795578]（164▲）与 [id:795911]（142▲，同一讨论串 50548004）+ fetch_url(https://news.ycombinator.com/item?id=50548004) = 实抓 172▲/113💬、INIT 未重置 MMU 上下文、作者 fwsgonzo 指分析文 AI 写作、tptacek/JoshTriplett 嵌套虚拟化威胁模型之争（terra.security 404、cve.org JS 渲染均未能抓取正文）
+- 黄仁勋辞任后续: query_raw_items(keyword='Jensen Huang OR Nvidia OR 黄仁勋', 11-15→11-20)[id:796530] = NYT 调查其向公司承认婚外不忠；[id:796503] = Arm CEO Rene Haas 进入继任候选；[id:796326]/[id:796297] = 穆迪展望由正面调至稳定、确认 Aa1；[id:796563] = NVIDIA 收跌近 3%、道指跌超 500 点、S&P 五连跌；[id:796495] = 马斯克称解雇黄仁勋好比让乔丹坐冷板凳
+- FT 黄仁勋与开放权重: query_raw_items(...)[id:795606]（28▲/11💬，FT 付费墙正文未能抓取）= 标题判断其离场打击开放权重阵营、利好 Anthropic/OpenAI
+- MATCH 法案与 ASML: query_raw_items(...)[id:795605]（25▲/28💬）+ fetch_url(https://www.politico.eu/article/dutch-resist-unacceptable-us-bid-to-tighten-semiconductor-export-controls-asml/) = 150 天对齐期、域外单边延伸、荷兰外交部「不可接受」、ASML 对华营收近 1/3、法案借黄仁勋事件提速
+- AI 答案隔夜不稳定性: query_raw_items(...)[id:795917]（21▲/28💬）+ fetch_url(https://supercite.ai/blog/ai-answers-change-every-day) = 84%（701/839）变化、Gemini 95%、引用页隔天仅 42% 相同、#1 保住率 63%
+- Scottish HTTP Codes: query_raw_items(...)[id:795938]（135▲/23💬）+ fetch_url(https://underwood.network/http/scots.html) = 200/404/409/429/503/504 等状态码方言对照表
+- Genie 4: query_raw_items(...)[id:795918]（73▲/52💬）+ fetch_url(https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/) = AI Ultra 开放、实时文本改环境、原生音频、社区画廊
+- OpenAI 芯片设计: query_raw_items(...)[id:795915]（DB 63▲/18💬）+ fetch_url(https://news.ycombinator.com/item?id=50549493) = 实抓 153▲/94💬、作者 jacquesm「与客户竞争」评论（openai.com 正文 403 未能抓取）
+- tiny-voca TTS: query_raw_items(...)[id:795507]（40▲/2💬，huggingface 连接失败）= 据 HN 转发页正文：4.5M 参数、CPU 70 倍实时、训练成本 10 美元
+- VioletPixel 社区帖: query_raw_items(...)[id:796557]（53▲/16💬，23:53 UTC 定版后发布）+ fetch_url(https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/) = ACH 兜底论、近一周连环故障清单；+ fetch_url(https://hn.algolia.com/api/v1/items/50554045) = 评论 noisy_boy/nchmy/R1D3R 实抓
+- GTA6 UEFI 帖（未入选）: query_raw_items(...)[id:796556]（21▲/20💬）+ fetch_url(https://news.ycombinator.com/item?id=50553192) = 讨论偏移至 GTA6 主机 30fps/PC 版争议，未达入选线
