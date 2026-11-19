@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读数据：`GET /api/fomc/committee-brief`（聚合，推荐）、`GET /api/fomc/statements`（批量言论）、`GET /api/fomc/members`；Agent 工具 `query_fomc_members`（支持逗号分隔多人）。
-> 生成时间：2026-11-18 21:01 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
+> 生成时间：2026-11-19 20:40 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
 > 「最新言论/立场」来自 `fomc_member_statements`（每条可追溯 raw_items）；「鹰/鸽」来自 D137 stance 快照（LLM 分类）；「综合」来自 D138 记分卡（0.6×投票 + 0.4×言论，附样本量与状态）。
 
 ---
@@ -21,17 +21,14 @@
 
 | 口径 | 综合 | 投票轴 | 言论轴 | 票委数 |
 |------|------|--------|--------|--------|
-| 近期（365d EMA） | 0.227 | 0.055 | 0.529 | 12 |
-| 长期（730d） | 0.177 | 0.016 | 0.419 | 12 |
+| 近期（365d EMA） | 0.161 | -0.01 | 0.416 | 3 |
+| 长期（730d） | 0.069 | -0.052 | 0.251 | 3 |
 
 ### 言行不一（投票 vs 言论）
 
 | 成员 | 投票轴 | 言论轴 | 差值 | 判定 |
 |------|--------|--------|------|------|
-| 贝丝·哈马克 | +0.24 | +0.75 | -0.50 | 言论比投票更鹰（表态强于行动） |
-| 洛里·洛根 | +0.09 | +0.80 | -0.70 | 言论比投票更鹰（表态强于行动） |
 | 迈克尔·巴尔 | +0.00 | +0.63 | -0.63 | 言论比投票更鹰（表态强于行动） |
-| 约翰·威廉姆斯 | +0.00 | +0.52 | -0.52 | 言论比投票更鹰（表态强于行动） |
 
 ## 当前委员会成员
 
@@ -39,17 +36,17 @@
 
 | 中文名 | 姓名 | 职位/机构 | 最新言论/立场（日期+来源） | 鹰/鸽 | 综合（投票/言论/样本） |
 |--------|------|----------|--------------------------|--------|------------------------|
-| 凯文·沃什 | Kevin Warsh | 主席 / Board of Governors（常任票委） | 2026-11-18 telegram:Financial_Express：几乎所有美联储官员在 10 月均表示，为及时将通胀恢复至 2%的目标，他们可能需要在”未来几个月”进一步提高利率。 | 鹰（+0.51/0.22） | （+0.26，投 +0.07，言 +0.53，n=6/样本少） |
-| 菲利普·杰斐逊 | Philip N. Jefferson | 副主席 / Board of Governors（常任票委） | 2026-11-14 telegram:Financial_Express：美联储副主席杰斐逊 | 鹰（+0.66/0.30） ⚠️shift_to_hawk | （+0.13，投 +0.00，言 +0.33，n=16/样本少） |
+| 凯文·沃什 | Kevin Warsh | 主席 / Board of Governors（常任票委） | 2026-11-19 telegram:Financial_Express：几乎所有美联储官员在 10 月均表示，为及时将通胀恢复至 2%的目标，他们可能需要在“未来几个月”进一步提高利率。 | 鹰（+0.51/0.22） | （+0.26，投 +0.07，言 +0.53，n=6/样本少） |
+| 菲利普·杰斐逊 | Philip N. Jefferson | 副主席 / Board of Governors（常任票委） | 2026-11-19 telegram:Financial_Express：美联储副主席 Jefferson | 鹰（+0.50/0.60） ⚠️shift_to_hawk | （+0.12，投 +0.00，言 +0.31，n=17/样本少） |
 | 米歇尔·鲍曼 | Michelle W. Bowman | 负责监管事务的副主席 / Board of Governors（常任票委） | 2026-11-11 longbridge：Fed's Bowman Assessment: Inflation is Widening, Another Rate Hike Possible This Year; US S… | 鹰（+0.62/0.59） ⚠️shift_to_hawk | （+0.09，投 +0.00，言 +0.22，n=15/样本少） |
-| 克里斯托弗·沃勒 | Christopher J. Waller | 理事 / Board of Governors（常任票委） | 2026-11-18 telegram:Financial_Express：几乎所有美联储官员在 10 月均表示，为及时将通胀恢复至 2%的目标，他们可能需要在”未来几个月”进一步提高利率。 | 鹰（+0.61/0.94） ⚠️flip_dove_to_hawk | （+0.07，投 -0.03，言 +0.22，n=20） |
+| 克里斯托弗·沃勒 | Christopher J. Waller | 理事 / Board of Governors（常任票委） | 2026-11-19 longbridge：Can Anthropic's IPO do for the stock market what Nvidia's earnings couldn't? | 鹰（+0.68/1.00） ⚠️flip_dove_to_hawk | （+0.11，投 -0.03，言 +0.31，n=20） |
 | 杰罗姆·鲍威尔 | Jerome H. Powell | 理事 / Board of Governors（常任票委） | 2026-11-18 telegram:Financial_Express：英国通胀攀升至一年来最高水平 | — | （+0.00，投 +0.00，言 —，n=8/样本少） |
-| 莉萨·库克 | Lisa D. Cook | 理事 / Board of Governors（常任票委） | 2026-11-18 telegram:Financial_Express：几乎所有美联储官员在 10 月均表示，为及时将通胀恢复至 2%的目标，他们可能需要在”未来几个月”进一步提高利率。 | —（低置信 +0.13） ⚠️shift_to_neutral | （+0.17，投 +0.13，言 +0.23，n=13/样本少） |
-| 迈克尔·巴尔 | Michael S. Barr | 理事 / Board of Governors（常任票委） | 2026-11-18 longbridge：Fed Governor Barr Says Further Rate Hikes May Be Appropriate | 鹰（+0.79/0.64） | （+0.25，投 +0.00，言 +0.63，n=15/样本少） ⚠️言行不一 |
-| 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-18 telegram:Financial_Express：美联储威廉姆斯 | 鹰（+0.52/0.60） | （+0.21，投 +0.00，言 +0.52，n=11/样本少） ⚠️言行不一 |
+| 莉萨·库克 | Lisa D. Cook | 理事 / Board of Governors（常任票委） | 2026-11-19 telegram:Financial_Express：三菱日联：数据未显示能源价格扩散为广泛通胀，英央行 12 月或按兵不动 | —（低置信 +0.13） ⚠️shift_to_neutral | （+0.17，投 +0.13，言 +0.23，n=13/样本少） |
+| 迈克尔·巴尔 | Michael S. Barr | 理事 / Board of Governors（常任票委） | 2026-11-19 longbridge：Fed's Barr worried regulation changes may increase financial sector risks | 鹰（+0.80/0.63） | （+0.25，投 +0.00，言 +0.63，n=15/样本少） ⚠️言行不一 |
+| 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-19 telegram:Financial_Express：几乎所有美联储官员在 10 月均表示，为及时将通胀恢复至 2%的目标，他们可能需要在“未来几个月”进一步提高利率。 | 鹰（+0.52/0.60） | （+0.21，投 +0.00，言 +0.52，n=11/样本少） ⚠️言行不一 |
 | 安娜·保尔森 | Anna Paulson | 费城联储主席（2026 票委；下次 2029） | 2026-11-11 longbridge：Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target | 鹰（+0.75/0.60） | （+0.33，投 +0.06，言 +0.74，n=9/样本少） |
-| 贝丝·哈马克 | Beth M. Hammack | 克利夫兰联储主席（2026 票委；下次 2028） | 2026-11-18 telegram:Financial_Express：几乎所有美联储官员在 10 月均表示，为及时将通胀恢复至 2%的目标，他们可能需要在”未来几个月”进一步提高利率。 | 鹰（+0.76/1.00） | （+0.44，投 +0.24，言 +0.75，n=16） ⚠️言行不一 |
-| 尼尔·卡什卡利 | Neel Kashkari | 明尼阿波利斯联储主席（2026 票委；下次 2029） | 2026-11-18 telegram:Financial_Express：① 15:00 英国 10 月 CPI； | —（低置信 +0.88） | （+0.40，投 +0.09，言 +0.87，n=9/样本少） |
+| 贝丝·哈马克 | Beth M. Hammack | 克利夫兰联储主席（2026 票委；下次 2028） | 2026-11-19 telegram:Financial_Express：① 港股盘后 阿里巴巴、拼多多、网易发布业绩报告； | 鹰（+0.76/1.00） | （+0.44，投 +0.24，言 +0.75，n=16） ⚠️言行不一 |
+| 尼尔·卡什卡利 | Neel Kashkari | 明尼阿波利斯联储主席（2026 票委；下次 2029） | 2026-11-18 telegram:Financial_Express：美联储卡什卡利 | 鹰（+0.71/0.31） | （+0.33，投 +0.09，言 +0.69，n=10/样本少） ⚠️言行不一 |
 | 洛里·洛根 | Lorie K. Logan | 达拉斯联储主席（2026 票委；下次 2029） | 2026-11-13 telegram:Financial_Express：美国达拉斯联储主席洛丽·洛根表示，美联储应将为维持市场正常运作而购买的资产，与为货币政策操作而持有的资产区分开来，以便在金融市场承压时期更清楚地传达其意图。 | 鹰（+0.82/1.00） | （+0.37，投 +0.09，言 +0.80，n=12） ⚠️言行不一 |
 
 ## 地区联储主席（全部 12 位，含非 2026 票委）
@@ -60,17 +57,17 @@
 | 中文名 | 姓名 | 职位/机构 | 最新言论/立场（日期+来源） | 鹰/鸽 | 综合（投票/言论/样本） |
 |--------|------|----------|--------------------------|--------|------------------------|
 | 苏珊·柯林斯 | Susan M. Collins | 波士顿联储主席（非 2026 票委；2028 轮值票委） | 2026-11-14 longbridge：Fed's Collins: Steady, Gradual Interest Rate Hikes Are Appropriate | 鹰（+0.76/0.75） | （+0.13，投 -0.30，言 +0.77，n=4/样本少） |
-| 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-18 telegram:Financial_Express：美联储威廉姆斯 | 鹰（+0.52/0.60） | （+0.21，投 +0.00，言 +0.52，n=11/样本少） ⚠️言行不一 |
+| 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-19 telegram:Financial_Express：几乎所有美联储官员在 10 月均表示，为及时将通胀恢复至 2%的目标，他们可能需要在“未来几个月”进一步提高利率。 | 鹰（+0.52/0.60） | （+0.21，投 +0.00，言 +0.52，n=11/样本少） ⚠️言行不一 |
 | 安娜·保尔森 | Anna Paulson | 费城联储主席（2026 票委；下次 2029） | 2026-11-11 longbridge：Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target | 鹰（+0.75/0.60） | （+0.33，投 +0.06，言 +0.74，n=9/样本少） |
-| 贝丝·哈马克 | Beth M. Hammack | 克利夫兰联储主席（2026 票委；下次 2028） | 2026-11-18 telegram:Financial_Express：几乎所有美联储官员在 10 月均表示，为及时将通胀恢复至 2%的目标，他们可能需要在”未来几个月”进一步提高利率。 | 鹰（+0.76/1.00） | （+0.44，投 +0.24，言 +0.75，n=16） ⚠️言行不一 |
-| 托马斯·巴尔金 | Thomas I. Barkin | 里士满联储主席（非 2026 票委；2027 轮值票委） | 2026-11-09 longbridge：Two Federal Reserve Officials Strike Hawkish Tone: Barkin Says Direction of Rate Hikes Is … | 鹰（+0.61/0.58） | （+0.54，投 —，言 +0.54，n=3/样本少） |
+| 贝丝·哈马克 | Beth M. Hammack | 克利夫兰联储主席（2026 票委；下次 2028） | 2026-11-19 telegram:Financial_Express：① 港股盘后 阿里巴巴、拼多多、网易发布业绩报告； | 鹰（+0.76/1.00） | （+0.44，投 +0.24，言 +0.75，n=16） ⚠️言行不一 |
+| 托马斯·巴尔金 | Thomas I. Barkin | 里士满联储主席（非 2026 票委；2027 轮值票委） | 2026-11-19 telegram:Financial_Express：① 港股盘后 阿里巴巴、拼多多、网易发布业绩报告； | 鹰（+0.61/0.58） | （+0.54，投 —，言 +0.54，n=3/样本少） |
 | 谢丽尔·维纳布尔 | Cheryl Venable | 亚特兰大联储主席（非 2026 票委；2027 轮值票委） | 数据缺失 | — | （+0.00，投 —，言 +0.00，n=1/样本少） |
-| 奥斯坦·古尔斯比 | Austan D. Goolsbee | 芝加哥联储主席（非 2026 票委；2027 轮值票委） | 2026-11-13 longbridge：Fed's Goolsbee: US Inflation Issues Increasingly Severe, Further Action Still Needed | 鹰（+0.58/1.00） | （+0.22，投 +0.00，言 +0.54，n=7） |
+| 奥斯坦·古尔斯比 | Austan D. Goolsbee | 芝加哥联储主席（非 2026 票委；2027 轮值票委） | 2026-11-19 telegram:Financial_Express：美国芝加哥联储主席古尔斯比（Austan Goolsbee） | 鹰（+0.56/1.00） | （+0.21，投 +0.00，言 +0.52，n=8） |
 | 阿尔贝托·穆萨莱姆 | Alberto G. Musalem | 圣路易斯联储主席（非 2026 票委；2028 轮值票委） | 2026-11-18 longbridge：Four consecutive rate hikes? This Federal Reserve official signals the most hawkish stance… | 鹰（+0.90/0.73） | （+0.18，投 -0.30，言 +0.90，n=4/样本少） |
-| 尼尔·卡什卡利 | Neel Kashkari | 明尼阿波利斯联储主席（2026 票委；下次 2029） | 2026-11-18 telegram:Financial_Express：① 15:00 英国 10 月 CPI； | —（低置信 +0.88） | （+0.40，投 +0.09，言 +0.87，n=9/样本少） |
+| 尼尔·卡什卡利 | Neel Kashkari | 明尼阿波利斯联储主席（2026 票委；下次 2029） | 2026-11-18 telegram:Financial_Express：美联储卡什卡利 | 鹰（+0.71/0.31） | （+0.33，投 +0.09，言 +0.69，n=10/样本少） ⚠️言行不一 |
 | 杰弗里·施密德 | Jeffrey R. Schmid | 堪萨斯城联储主席（非 2026 票委；2028 轮值票委） | 2026-11-16 longbridge：International ／ Kansas City Fed President Schmid: Inflation Remains Overheated, Fed Needs … | 鹰（+0.78/0.93） | （+0.32，投 +0.00，言 +0.80，n=7/样本少） |
 | 洛里·洛根 | Lorie K. Logan | 达拉斯联储主席（2026 票委；下次 2029） | 2026-11-13 telegram:Financial_Express：美国达拉斯联储主席洛丽·洛根表示，美联储应将为维持市场正常运作而购买的资产，与为货币政策操作而持有的资产区分开来，以便在金融市场承压时期更清楚地传达其意图。 | 鹰（+0.82/1.00） | （+0.37，投 +0.09，言 +0.80，n=12） ⚠️言行不一 |
-| 玛丽·戴利 | Mary C. Daly | 旧金山联储主席（非 2026 票委；2027 轮值票委） | 2026-11-18 telegram:Financial_Express：戴利：美联储仍需加息，但应采取审慎、渐进策略 | 鹰（+0.66/1.00） | （+0.63，投 —，言 +0.63，n=4） |
+| 玛丽·戴利 | Mary C. Daly | 旧金山联储主席（非 2026 票委；2027 轮值票委） | 2026-11-19 longbridge：[External Economy] Fed Governor Waller Suggests a 50-Basis-Point Rate Hike in December; Sa… | 鹰（+0.61/1.00） | （+0.56，投 —，言 +0.56，n=5） |
 
 ## 候补成员（Alternates）
 
