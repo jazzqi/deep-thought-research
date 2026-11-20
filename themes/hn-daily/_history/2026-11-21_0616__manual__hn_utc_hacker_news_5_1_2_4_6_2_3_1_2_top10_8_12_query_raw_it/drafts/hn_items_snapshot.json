@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-11-20T22:46:12.974526+00:00",
+  "window": {
+    "after": "2026-11-20T00:00:00+00:00",
+    "before": "2026-11-21T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "805305",
+      "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
+      "url": "https://alpo.ge/remark.pdf",
+      "author": "iamronaldo",
+      "points": 2145,
+      "comments": 1464,
+      "published_at": "2026-11-20T14:16:21+00:00"
+    },
+    {
+      "id": "804437",
+      "title": "If you can't explain something in simple terms, you don't understand it (2017)",
+      "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
+      "author": "sammatilda",
+      "points": 500,
+      "comments": 257,
+      "published_at": "2026-11-20T09:43:19+00:00"
+    },
+    {
+      "id": "804274",
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "url": "https://architectlabs.com/blog/frostbite",
+      "author": "shioyama",
+      "points": 485,
+      "comments": 271,
+      "published_at": "2026-11-20T10:01:41+00:00"
+    },
+    {
+      "id": "802733",
+      "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
+      "url": "https://grapheneos.social/@GrapheneOS/117645038299496084",
+      "author": "mraniki",
+      "points": 450,
+      "comments": 177,
+      "published_at": "2026-11-20T05:21:02+00:00"
+    },
+    {
+      "id": "804436",
+      "title": "Carnival Cruises emits ten times more sulphur oxide than all of Europe's cars",
+      "url": "https://ecohustler.com/article/one-corporation-to-pollute-them-all/",
+      "author": "sammatilda",
+      "points": 448,
+      "comments": 281,
+      "published_at": "2026-11-20T09:13:09+00:00"
+    },
+    {
+      "id": "805172",
+      "title": "Signal Is Serious About Protecting Your Privacy",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "author": "dotcoma",
+      "points": 406,
+      "comments": 256,
+      "published_at": "2026-11-20T09:42:16+00:00"
+    },
+    {
+      "id": "803440",
+      "title": "\"I can tell you wrote this yourself\"",
+      "url": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
+      "author": "BrunoBernardino",
+      "points": 401,
+      "comments": 392,
+      "published_at": "2026-11-20T07:13:21+00:00"
+    },
+    {
+      "id": "802571",
+      "title": "PostgreSQL 19",
+      "url": "https://www.postgresql.org/docs/release/19.0/",
+      "author": "linzhangrun",
+      "points": 358,
+      "comments": 22,
+      "published_at": "2026-11-20T03:45:45+00:00"
+    },
+    {
+      "id": "802253",
+      "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+      "url": "https://github.com/openssl/openssl/pull/33652",
+      "author": "JacobHenner",
+      "points": 331,
+      "comments": 282,
+      "published_at": "2026-11-20T02:01:09+00:00"
+    },
+    {
+      "id": "805190",
+      "title": "If you stop writing code, you also get worse at reviewing it",
+      "url": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
+      "author": "theanonymousone",
+      "points": 308,
+      "comments": 151,
+      "published_at": "2026-11-20T12:41:38+00:00"
+    },
+    {
+      "id": "802771",
+      "title": "FFmpeg 9.1 'Gauss'",
+      "url": "https://ffmpeg.org/download.html#release_9.1",
+      "author": "gyan",
+      "points": 281,
+      "comments": 35,
+      "published_at": "2026-11-20T04:02:39+00:00"
+    },
+    {
+      "id": "805602",
+      "title": "I'll never buy Framework hardware again",
+      "url": "https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/",
+      "author": "unchar1",
+      "points": 263,
+      "comments": 157,
+      "published_at": "2026-11-20T16:06:30+00:00"
+    },
+    {
+      "id": "802969",
+      "title": "Jujutsu Primer",
+      "url": "https://ethanlowman.com/posts/jj-primer/",
+      "author": "renehsz",
+      "points": 197,
+      "comments": 161,
+      "published_at": "2026-11-20T05:46:01+00:00"
+    },
+    {
+      "id": "805262",
+      "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "author": "cdrnsf",
+      "points": 187,
+      "comments": 221,
+      "published_at": "2026-11-20T13:29:59+00:00"
+    },
+    {
+      "id": "806272",
+      "title": "Inkling 2 Mini",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "author": "jasondavies",
+      "points": 186,
+      "comments": 19,
+      "published_at": "2026-11-20T20:12:19+00:00"
+    },
+    {
+      "id": "804708",
+      "title": "The Making of Oxygene",
+      "url": "https://jeanmicheljarre.com/aaa/the-making-of-oxygene",
+      "author": "hggh",
+      "points": 176,
+      "comments": 63,
+      "published_at": "2026-11-20T10:41:10+00:00"
+    },
+    {
+      "id": "802570",
+      "title": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
+      "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
+      "author": "craigkerstiens",
+      "points": 172,
+      "comments": 29,
+      "published_at": "2026-11-20T02:43:49+00:00"
+    },
+    {
+      "id": "802605",
+      "title": "GIMP now has UI tests",
+      "url": "https://www.gimp.org/news/2026/11/16/gimp-ui-tests/",
+      "author": "qtqtqt",
+      "points": 148,
+      "comments": 133,
+      "published_at": "2026-11-20T04:00:24+00:00"
+    },
+    {
+      "id": "802440",
+      "title": "What Comes After AGI?",
+      "url": "https://institute.deepmind.com/essays/what-comes-after-agi/",
+      "author": "jdkee",
+      "points": 147,
+      "comments": 293,
+      "published_at": "2026-11-20T02:44:13+00:00"
+    },
+    {
+      "id": "802270",
+      "title": "Vint Cerf on why TCP/IP was never patented",
+      "url": "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never",
+      "author": "emot",
+      "points": 145,
+      "comments": 75,
+      "published_at": "2026-11-20T01:06:12+00:00"
+    },
+    {
+      "id": "804827",
+      "title": "What people are building, discovered through new domains",
+      "url": "https://startups.novumsignals.com/",
+      "author": "walterschnitzel",
+      "points": 141,
+      "comments": 69,
+      "published_at": "2026-11-20T09:54:33+00:00"
+    },
+    {
+      "id": "805660",
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "author": "lwhsiao",
+      "points": 140,
+      "comments": 52,
+      "published_at": "2026-11-20T16:29:06+00:00"
+    },
+    {
+      "id": "804273",
+      "title": "UK fridges secured from hackers in secret nationwide operation",
+      "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o",
+      "author": "tomnext",
+      "points": 133,
+      "comments": 127,
+      "published_at": "2026-11-20T09:52:20+00:00"
+    },
+    {
+      "id": "806015",
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "author": "jasondavies",
+      "points": 128,
+      "comments": 17,
+      "published_at": "2026-11-20T18:33:14+00:00"
+    },
+    {
+      "id": "802669",
+      "title": "ChatGPT for SNES",
+      "url": "https://www.bxfoundry.com/chatgpt_snes/",
+      "author": "evan_",
+      "points": 117,
+      "comments": 36,
+      "published_at": "2026-11-20T00:25:59+00:00"
+    },
+    {
+      "id": "805889",
+      "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
+      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+      "author": "cdrnsf",
+      "points": 86,
+      "comments": 29,
+      "published_at": "2026-11-20T16:59:27+00:00"
+    },
+    {
+      "id": "804646",
+      "title": "Why do tech leaders sound so illogical and off-putting?",
+      "url": "https://www.theatlantic.com/technology/2026/11/silicon-valley-model-collapse/689505/",
+      "author": "pseudolus",
+      "points": 85,
+      "comments": 110,
+      "published_at": "2026-11-20T11:13:05+00:00"
+    },
+    {
+      "id": "806014",
+      "title": "We promoted developers into architects without informing them",
+      "url": "https://manidoraisamy.com/developer-to-architect.html",
+      "author": "QueensGambit",
+      "points": 82,
+      "comments": 45,
+      "published_at": "2026-11-20T18:17:51+00:00"
+    },
+    {
+      "id": "805985",
+      "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+      "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+      "author": "archon1410",
+      "points": 76,
+      "comments": 9,
+      "published_at": "2026-11-20T17:21:36+00:00"
+    },
+    {
+      "id": "805986",
+      "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
+      "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+      "author": "lelanthran",
+      "points": 74,
+      "comments": 53,
+      "published_at": "2026-11-20T17:44:01+00:00"
+    },
+    {
+      "id": "804953",
+      "title": "The Market Is Down",
+      "url": "https://anihil.com/the-market-is-down",
+      "author": "anihil",
+      "points": 72,
+      "comments": 58,
+      "published_at": "2026-11-20T11:37:00+00:00"
+    },
+    {
+      "id": "802384",
+      "title": "Postgres 19 is out, and it's available on Neon and Databricks Lakebase",
+      "url": "https://www.databricks.com/blog/postgresql-19-available-lakebase",
+      "author": "sp_from_db",
+      "points": 63,
+      "comments": 21,
+      "published_at": "2026-11-20T00:37:31+00:00"
+    },
+    {
+      "id": "806274",
+      "title": "Nvidia accounting under SEC investigation, sources say",
+      "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html",
+      "author": "ftchd",
+      "points": 57,
+      "comments": 14,
+      "published_at": "2026-11-20T20:22:41+00:00"
+    },
+    {
+      "id": "805304",
+      "title": "Epic Games Turns to AI Coding for the Unreal Engine",
+      "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+      "author": "rbanffy",
+      "points": 55,
+      "comments": 58,
+      "published_at": "2026-11-20T12:16:36+00:00"
+    },
+    {
+      "id": "803253",
+      "title": "Former YC President: \"Stop!”",
+      "url": "https://geoffralston.substack.com/p/stop",
+      "author": "reducesuffering",
+      "points": 53,
+      "comments": 71,
+      "published_at": "2026-11-20T06:43:08+00:00"
+    },
+    {
+      "id": "805471",
+      "title": "Why there are still no non-WebKit browsers on iOS",
+      "url": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
+      "author": "lapcat",
+      "points": 53,
+      "comments": 13,
+      "published_at": "2026-11-20T15:03:31+00:00"
+    },
+    {
+      "id": "806174",
+      "title": "GrapheneOS claims Google is now waging war against it, could lock Pixel bootload",
+      "url": "https://www.androidauthority.com/grapheneos-team-google-pressure-3737525/",
+      "author": "jeena",
+      "points": 52,
+      "comments": 21,
+      "published_at": "2026-11-20T19:21:49+00:00"
+    },
+    {
+      "id": "806071",
+      "title": "Vibecoding an Inference Chip",
+      "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+      "author": "ankitvgupta",
+      "points": 40,
+      "comments": 11,
+      "published_at": "2026-11-20T18:15:16+00:00"
+    },
+    {
+      "id": "805791",
+      "title": "I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA",
+      "url": "https://news.ycombinator.com/item?id=50577613",
+      "author": "proberts",
+      "points": 39,
+      "comments": 45,
+      "published_at": "2026-11-20T16:45:25+00:00"
+    },
+    {
+      "id": "806307",
+      "title": "The stochastic parrots have apparently proved the Riemann Hypothesis",
+      "url": "https://scottaaronson.blog/?p=10344",
+      "author": "stratos123",
+      "points": 39,
+      "comments": 11,
+      "published_at": "2026-11-20T20:03:07+00:00"
+    },
+    {
+      "id": "806200",
+      "title": "Winedroid – run Android apps without Android (WASM demo)",
+      "url": "https://winedroid.soham.sh/demo/",
+      "author": "sohzm",
+      "points": 37,
+      "comments": 17,
+      "published_at": "2026-11-20T19:30:16+00:00"
+    },
+    {
+      "id": "805636",
+      "title": "Finite-time blow-up for the Navier–Stokes equations",
+      "url": "https://github.com/tristanbuckmaster/navier-stokes/",
+      "author": "trotro",
+      "points": 33,
+      "comments": 9,
+      "published_at": "2026-11-20T15:34:31+00:00"
+    },
+    {
+      "id": "806199",
+      "title": "Slopstrap – Make your site look hastily vibecoded",
+      "url": "https://slopstrap.mikelacher.com/",
+      "author": "mlacher",
+      "points": 33,
+      "comments": 6,
+      "published_at": "2026-11-20T15:24:11+00:00"
+    },
+    {
+      "id": "806457",
+      "title": "And Yet, It Moves",
+      "url": "https://signoregalilei.com/2026/11/20/and-yet-it-moves/",
+      "author": "notfried",
+      "points": 32,
+      "comments": 16,
+      "published_at": "2026-11-20T20:07:55+00:00"
+    },
+    {
+      "id": "802870",
+      "title": "The Army Is Detonating a Toxic \"Lead Bomb\" in Iowa. It Forgot to Warn People",
+      "url": "https://www.motherjones.com/politics/2026/11/army-military-iowa-lead-azide-toxic-detonation-dust-health/",
+      "author": "petethomas",
+      "points": 31,
+      "comments": 11,
+      "published_at": "2026-11-20T02:35:52+00:00"
+    },
+    {
+      "id": "806494",
+      "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
+      "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
+      "author": "facundo_olano",
+      "points": 31,
+      "comments": 3,
+      "published_at": "2026-11-20T20:03:59+00:00"
+    },
+    {
+      "id": "806417",
+      "title": "AI is giving everyone the same advice",
+      "url": "https://a90.com/experiments/same-advice/",
+      "author": "amin",
+      "points": 30,
+      "comments": 10,
+      "published_at": "2026-11-20T16:58:05+00:00"
+    },
+    {
+      "id": "804028",
+      "title": "Mapping every neuron in Qwen3-8B",
+      "url": "https://www.fermionresearch.com/research/mapping-every-neuron-in-qwen3-8b/",
+      "author": "sheepscreek",
+      "points": 29,
+      "comments": 2,
+      "published_at": "2026-11-20T03:26:51+00:00"
+    },
+    {
+      "id": "805345",
+      "title": "Llms.txt and MCP didn't move the needle",
+      "url": "https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did",
+      "author": "moebrowne",
+      "points": 28,
+      "comments": 19,
+      "published_at": "2026-11-20T14:00:23+00:00"
+    },
+    {
+      "id": "806458",
+      "title": "Show HN: OpenComputer – an open source alternative to Devin",
+      "url": "https://github.com/diggerhq/opencomputer",
+      "author": "iacguy",
+      "points": 28,
+      "comments": 11,
+      "published_at": "2026-11-20T20:19:56+00:00"
+    },
+    {
+      "id": "802569",
+      "title": "White House national cyber director leaving his post",
+      "url": "https://www.cbsnews.com/news/white-house-national-cyber-director-sean-cairncross-leaving/",
+      "author": "dlx",
+      "points": 26,
+      "comments": 4,
+      "published_at": "2026-11-20T01:54:08+00:00"
+    },
+    {
+      "id": "805984",
+      "title": "Running two PSP emulators on one Switch 2 and sharing one via GameShare",
+      "url": "https://github.com/XITRIX/ppsspp-nx2/blob/master/SWITCH2-GAMESHARE.md",
+      "author": "khalidkhair",
+      "points": 26,
+      "comments": 0,
+      "published_at": "2026-11-20T17:14:03+00:00"
+    },
+    {
+      "id": "802568",
+      "title": "US National Cyber Director to step down",
+      "url": "https://www.axios.com/2026/11/19/trump-national-cyber-director-sean-cairncross-leaving",
+      "author": "qphe95",
+      "points": 25,
+      "comments": 5,
+      "published_at": "2026-11-20T00:21:52+00:00"
+    },
+    {
+      "id": "804952",
+      "title": "No spy. No temptress. The Nvidia love affair is called RICO",
+      "url": "https://www.gregpalast.com/the-so-called-affair-between-the-nvidia-chief-and-the-chinese-spy/",
+      "author": "MilnerRoute",
+      "points": 25,
+      "comments": 2,
+      "published_at": "2026-11-20T06:33:34+00:00"
+    },
+    {
+      "id": "806495",
+      "title": "Combatting Adversarial Distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation/",
+      "author": "pretext",
+      "points": 25,
+      "comments": 26,
+      "published_at": "2026-11-20T20:11:14+00:00"
+    },
+    {
+      "id": "806070",
+      "title": "PostgreSQL 19: A hands-on tour with runnable browser examples",
+      "url": "https://certuvia.com/blog/postgres-19",
+      "author": "petrpravda",
+      "points": 24,
+      "comments": 1,
+      "published_at": "2026-11-20T17:08:56+00:00"
+    },
+    {
+      "id": "806456",
+      "title": "Judge: DHS's Seizure Of Immigration Lawyer's Phone Likely Violated 1st Amendment",
+      "url": "https://www.techdirt.com/2026/11/20/judge-says-dhss-seizure-of-an-immigration-lawyers-phone-likely-violated-the-first-amendment/",
+      "author": "hn_acker",
+      "points": 24,
+      "comments": 1,
+      "published_at": "2026-11-20T19:21:24+00:00"
+    },
+    {
+      "id": "804272",
+      "title": "Google threatens OEMs to not work with GrapheneOS",
+      "url": "https://grapheneos.social/@GrapheneOS/117645917131936200",
+      "author": "drewfax",
+      "points": 22,
+      "comments": 1,
+      "published_at": "2026-11-20T05:44:43+00:00"
+    },
+    {
+      "id": "805790",
+      "title": "Threats, Insults, Settlements: How Jensen Huang Made Humiliation Routine",
+      "url": "https://www.nytimes.com/2026/11/20/technology/jensen-huang-nvidia-culture.html",
+      "author": "cainxinth",
+      "points": 22,
+      "comments": 8,
+      "published_at": "2026-11-20T12:49:23+00:00"
+    },
+    {
+      "id": "805344",
+      "title": "Infinite scroll and autoplay are fuelling a global problem",
+      "url": "https://www.scimex.org/newsfeed/internet-related-addictions-are-a-global-health-threat-experts-argue",
+      "author": "DeepLogin",
+      "points": 21,
+      "comments": 6,
+      "published_at": "2026-11-20T09:24:53+00:00"
+    },
+    {
+      "id": "805635",
+      "title": "Intuit to sell Mailchimp to Bending Spoons for $3.68B",
+      "url": "https://www.cnbc.com/2026/11/19/intuit-mailchimp-sale-bending-spoons.html",
+      "author": "pseudolus",
+      "points": 21,
+      "comments": 11,
+      "published_at": "2026-11-20T11:08:01+00:00"
+    },
+    {
+      "id": "805983",
+      "title": "Tristan Buckmaster Claims Proof of Unforced Navier Stokes and Unforced Euler",
+      "url": "https://mastodon.social/@tristanbuckmaster/117649035783718539",
+      "author": "iamronaldo",
+      "points": 21,
+      "comments": 1,
+      "published_at": "2026-11-20T15:13:35+00:00"
+    },
+    {
+      "id": "806306",
+      "title": "European rights court bars Romanian lawyer for 2 years over AI citations",
+      "url": "https://www.echr.coe.int/w/romanian-lawyer-barred-for-two-years-from-representing-applicants-before-the-court-over-unverified-ai-generated-citations",
+      "author": "giuliomagnifico",
+      "points": 21,
+      "comments": 3,
+      "published_at": "2026-11-20T18:11:11+00:00"
+    },
+    {
+      "id": "806560",
+      "title": "Army delays detonating \"catastrophically hazardous\" lead azide amid fear, anger",
+      "url": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
+      "author": "Bender",
+      "points": 20,
+      "comments": 7,
+      "published_at": "2026-11-20T20:01:48+00:00"
+    },
+    {
+      "id": "806526",
+      "title": "福特、本田、斯泰兰蒂斯旗下的 FCA 部门以及大众于周五起诉美国新泽西州，试图阻止当地一项新法律的实施。他们称该法律增加了汽车制造商必须向特许经销商支付的保修和召回维修费用。",
+      "url": "https://t.me/Financial_Express/3646235",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:08:21+00:00"
+    },
+    {
+      "id": "806527",
+      "title": "据文件披露，GTCR 考虑对 Global Payments 发起潜在收购。",
+      "url": "https://t.me/Financial_Express/3646236",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:10:22+00:00"
+    },
+    {
+      "id": "806528",
+      "title": "最新监管文件显示",
+      "url": "https://t.me/Financial_Express/3646237",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:11:29+00:00"
+    },
+    {
+      "id": "806529",
+      "title": "阿拉格齐：美方兑现承诺后伊朗将开放霍尔木兹海峡",
+      "url": "https://t.me/Financial_Express/3646238",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:12:42+00:00"
+    },
+    {
+      "id": "806530",
+      "title": "暗盘白银日内跌超 1%，现报 37.1975 美元/盎司。",
+      "url": "https://t.me/Financial_Express/3646239",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:14:02+00:00"
+    },
+    {
+      "id": "806531",
+      "title": "周五（11 月 20 日）纽约尾盘（周六北京时间 05:59），离岸人民币（CNH）兑美元报 6.6745 元，较周四纽约尾盘涨 189 点，日内整体交投于 6.6953-6.6693 元区间，几乎完全收复 11 月 19 日失地。",
+      "url": "https://t.me/Financial_Express/3646240",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:15:44+00:00"
+    },
+    {
+      "id": "806532",
+      "title": "互袭持续 胡塞武装称重创沙特发电站和港口 沙特剑指胡塞弹道导弹能力",
+      "url": "https://t.me/Financial_Express/3646241",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:16:42+00:00"
+    },
+    {
+      "id": "806533",
+      "title": "伊朗外长：伊朗仍希望通过外交结束对美战争",
+      "url": "https://t.me/Financial_Express/3646242",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:17:42+00:00"
+    },
+    {
+      "id": "806534",
+      "title": "当地时间 20 日，也门胡塞武装称打击沙特吉赞省发电站和港口设施，沙特联军称袭击胡塞武装多个军事目标。胡塞武装与沙特联军持续互袭。根据胡塞武装方面发布的消息，自新一轮军事升级以来，沙特联军发动的袭击总数已达 5429 次，总死亡人数已达到 ",
+      "url": "https://t.me/Financial_Express/3646243",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:18:18+00:00"
+    },
+    {
+      "id": "806535",
+      "title": "周五（11 月 20 日）纽约尾盘，标普 500 股指期货最终跌 3.14%，道指期货跌 1.57%，纳斯达克 100 股指期货跌 4.88%。",
+      "url": "https://t.me/Financial_Express/3646244",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:19:04+00:00"
+    },
+    {
+      "id": "806536",
+      "title": "美国医疗保险和医疗补助服务中心提议改革，以加强竞争、提升护理质量，并扩大联邦医疗保险优势计划受益人的选择。",
+      "url": "https://t.me/Financial_Express/3646245",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:20:22+00:00"
+    },
+    {
+      "id": "806539",
+      "title": "Dow Jones Closes 949 Points Lower, Nasdaq Plunges Over 5%, NVIDIA Drops 14%",
+      "url": "https://longbridge.cn/news/306333414",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:17:33+00:00"
+    },
+    {
+      "id": "806540",
+      "title": "AMD Investors Have Opportunity to Join Advanced Micro Devices, Inc. Fraud Investigation with SBS Law",
+      "url": "https://longbridge.cn/news/306333413",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:17:34+00:00"
+    },
+    {
+      "id": "806541",
+      "title": "美国交通部 监察长办公室周五表示，将对联邦航空管理局（FAA）对波音及其他飞机制造商和航空航天供应商的监管工作进行审计 。",
+      "url": "https://t.me/Financial_Express/3646246",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:23:31+00:00"
+    },
+    {
+      "id": "806542",
+      "title": "惠誉预测，到 2029 年底，比利时的债务将升至 GDP 的 115%以上。",
+      "url": "https://t.me/Financial_Express/3646247",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:24:02+00:00"
+    },
+    {
+      "id": "806543",
+      "title": "美国医疗保险和医疗补助服务中心发布拟议规则，修订 2028 合同年度的联邦医疗保险优势计划、D 部分及 PACE 项目。",
+      "url": "https://t.me/Financial_Express/3646248",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:25:42+00:00"
+    },
+    {
+      "id": "806544",
+      "title": "惠誉指出比利时的改革进展，例如将此前无期限的失业救济金期限限制为两年，以及针对“长期病假人数异常多”的“重返工作岗位”法律。",
+      "url": "https://t.me/Financial_Express/3646249",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:26:02+00:00"
+    },
+    {
+      "id": "806545",
+      "title": "乌克兰总统泽连斯基表示",
+      "url": "https://t.me/Financial_Express/3646250",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:26:02+00:00"
+    },
+    {
+      "id": "806546",
+      "title": "惠誉",
+      "url": "https://t.me/Financial_Express/3646251",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:26:42+00:00"
+    },
+    {
+      "id": "806547",
+      "title": "MSCI 新兴市场股票指数跌入熊市 AI 引发全球抛售",
+      "url": "https://t.me/Financial_Express/3646252",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:27:02+00:00"
+    },
+    {
+      "id": "806548",
+      "title": "美国农业部遭黑客入侵。",
+      "url": "https://t.me/Financial_Express/3646253",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:27:02+00:00"
+    },
+    {
+      "id": "806549",
+      "title": "S&P 500 sinks 3.7% and the Nasdaq composite goes negative for the year",
+      "url": "https://www.npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative",
+      "author": "The Associated Press",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:11:29+00:00"
+    },
+    {
+      "id": "806550",
+      "title": "US lawmakers push for tougher AI chip rules amid China export crackdown",
+      "url": "https://www.aljazeera.com/economy/2026/11/20/us-lawmakers-push-for-tougher-ai-chip-rules-amid-china-export-crackdown?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:15:07+00:00"
+    },
+    {
+      "id": "806551",
+      "title": "11 月 20 日，MSCI 新兴市场股票指数跌入熊市，七连跌创 2024 年以来最长连跌纪录，全球科技股遭遇抛售。明晟公司 MSCI 新兴市场股票指数跌 3.1%，较 6 月峰值累计回撤 21%；单周跌幅创 2020 年 3 月以来最大，",
+      "url": "https://t.me/Financial_Express/3646254",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:28:47+00:00"
+    },
+    {
+      "id": "806552",
+      "title": "美国证券交易委员会文件显示，摩根士丹利董事长兼首席执行官爱德华·皮克于 11 月 18 日从授予人保留年金信托转让 31,500 股股票。",
+      "url": "https://t.me/Financial_Express/3646255",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:32:42+00:00"
+    },
+    {
+      "id": "806553",
+      "title": "周五（11 月 20 日）纽约尾盘，美国 10 年期基准国债收益率下跌 10.24 个基点，报 4.9438%，连续五个交易日回撤，本周累计下跌 19.14 个基点，交投于 5.1494%-4.9039%区间，11 月 16-19 日平缓地",
+      "url": "https://t.me/Financial_Express/3646256",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:33:09+00:00"
+    },
+    {
+      "id": "806554",
+      "title": "两年期美债收益率周五跌超 10 个基点，本周累跌超 19 个基点",
+      "url": "https://t.me/Financial_Express/3646257",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:33:42+00:00"
+    },
+    {
+      "id": "806556",
+      "title": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
+      "url": "https://longbridge.cn/news/306333183",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:12:18+00:00"
+    },
+    {
+      "id": "806557",
+      "title": "Update: AI Concerns Drag S&P 500 into Correction Territory; Nasdaq Turns Negative for the Year",
+      "url": "https://longbridge.cn/news/306333739",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:15:54+00:00"
+    },
+    {
+      "id": "806558",
+      "title": "Iranian Foreign Minister: Iran Still Hopes to End War with the U.S. Through Diplomacy",
+      "url": "https://longbridge.cn/news/306333409",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:17:29+00:00"
+    },
+    {
+      "id": "806559",
+      "title": "Alibaba Group Holding Ltd. ADR Falls Friday, Still Outperforms Market",
+      "url": "https://longbridge.cn/news/306333696",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:18:48+00:00"
+    },
+    {
+      "id": "806561",
+      "title": "穆迪将匈牙利评级展望上调至稳定 财政整顿和欧元计划获认可",
+      "url": "https://t.me/Financial_Express/3646258",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:36:22+00:00"
+    },
+    {
+      "id": "806562",
+      "title": "欧盟正在敲定一项计划，拟创设一项新权限。据知情人士透露，这项工具暂定名为“ReadyEU”，将允许欧盟阻止部分商品和服务进入其拥有 4.5 亿消费者的市场，并将针对三种主要情形。",
+      "url": "https://t.me/Financial_Express/3646259",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:36:52+00:00"
+    },
+    {
+      "id": "806563",
+      "title": "第二次英欧峰会召开 双方达成 72 项共识",
+      "url": "https://t.me/Financial_Express/3646260",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:38:02+00:00"
+    },
+    {
+      "id": "806564",
+      "title": "伊朗外长：“两日计划”依然摆在桌面上 愿与美进行讨论",
+      "url": "https://t.me/Financial_Express/3646261",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:40:22+00:00"
+    },
+    {
+      "id": "806565",
+      "title": "泽连斯基",
+      "url": "https://t.me/Financial_Express/3646262",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-20T22:40:23+00:00"
+    }
+  ]
+}

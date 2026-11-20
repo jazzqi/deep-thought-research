@@ -1,0 +1,55 @@
+- Anthropic 上市第二日跌 9% 至 $88.30、Nasdaq 抹去 2026 全年涨幅、本周蒸发约 $4 万亿、Nvidia -14%（会计调查）、SanDisk -14%、Micron -12%、S&P 七连跌、台湾 -6.7%/TSMC -6%: fetch_url(https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off) = 2026-11-20 报道
+- Nasdaq -5.3%、S&P -3.7%、Dow -1.9%、Anthropic -9%、Nvidia 约 -14%（Reuters 会计调查）: fetch_url(https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394) = 2026-11-20 报道
+- Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:805262] = ▲187/💬221
+- Anthropic shares tank after IPO as the Nasdaq erases 2026 gains: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:805986] = ▲74/💬53
+- Nvidia accounting under SEC investigation: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:806274] = ▲57/💬14
+- Anthropic employee claims general proof of the Riemann Hypothesis [pdf]: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:805305] = ▲2145/💬1464（全日最高）
+- Levent Alpöge 用 Anthropic 模型证明广义黎曼猜想、1740 万行 Lean、Aaronson 赌成立但提醒 Lean 内核 bug、需数年消化: fetch_url(https://scottaaronson.blog/?p=10344) = 2026-11-20
+- The stochastic parrots have apparently proved the Riemann Hypothesis: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:806307] = ▲39/💬11
+- Frostbite AI 端到端设计 CPU、interaction nets、25 工作负载 4.59x perf/W、AI 迭代编译器/ISA/RTL/GDS: fetch_url(https://architectlabs.com/blog/frostbite) = 2026-11-20
+- Frostbite: A new CPU architecture discovered, designed and verified by AI: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:804274] = ▲485/💬271
+- Inkling 2 Mini：26.4B/3.4B looped transformer、DeepSWE 48.2%、Vals 46.5%、笔记本可跑、CoT 更短可读: fetch_url(https://thinkingmachines.ai/news/inkling-2-mini/) = 2026-11-20
+- Inkling 2 Mini: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:806272] = ▲186/💬19
+- 27B 模型自重写权重、无梯度、+6.6 点、8 session 持续提升、修复损坏副本至 80%+、能力随规模涌现: fetch_url(https://arxiv.org/abs/2611.21885) = arXiv:2611.21885
+- Language Models Can Rewrite Their Own Weights: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:805660] = ▲140/💬52
+- Signal 限制 iOS 27/Android OS 级 AI agent 捕获数据、延续阻止 Windows Recall、称生存威胁: fetch_url(https://signal.org/blog/protecting-your-privacy/) = 2026-11-20
+- Signal Is Serious About Protecting Your Privacy: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:805172] = ▲406/💬256
+- PostgreSQL 19 于 2026-11-19 发布、REPACK/逻辑复制无需重启/WAIT 一致性/并行 autovacuum: fetch_url(https://www.postgresql.org/docs/release/19.0/) = 2026-11-20
+- PostgreSQL 19: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:802571] = ▲358/💬22
+- OpenAI 对抗性蒸馏防护、GPT-6.2 Astra/Sol 攻击成功率 54.0%→0.2%: fetch_url(https://openai.com/index/combatting-adversarial-distillation/) = 2026-11-20
+- Combatting Adversarial Distillation: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:806495] = ▲25/💬26
+- DeepMind AGI→ASI 四路径（scaling/范式转变/agent 协调/RSI）: fetch_url(https://institute.deepmind.com/essays/what-comes-after-agi/) = 2026-11-20
+- What Comes After AGI?: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:802440] = ▲147/💬293
+- Google 向 OEM 施压抵制 GrapheneOS/bootloader 解锁: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:802733] = ▲450/💬177
+- Google threatens OEMs to not work with GrapheneOS: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:804272] = ▲22/💬1
+- 工程学生反思 AI 主导教育、「成为 AI 的保姆」令人窒息: fetch_url(https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/) = 2026-11-20
+- "I can tell you wrote this yourself": query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:803440] = ▲401/💬392
+- Vint Cerf：TCP/IP 不专利为确保盟友可用、83 岁离开 Google 创办 Tolero 星际互联网: fetch_url(https://seremot.com/p/vint-cerf-on-why-tcpip-was-never) = 2026-11-20
+- Vint Cerf on why TCP/IP was never patented: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:802270] = ▲145/💬75
+
+
+- Vibecoding an Inference Chip：作者用 Codex/Astra/Opus 在 AWS F2 FPGA 上跑通 ternary 模型，6.43→213 tok/s（33×）、约 300 万行代码/3000 万行输出、$10,000 token（YC 额度）、作者自称不懂 Verilog: fetch_url(https://ankitg.me/blog/vibecoding-inference-chip/) = 2026-11-20
+- Vibecoding an Inference Chip: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:806071] = ▲40/💬11
+- GRH 主帖 HN 评论：存在独立人类证明（Masullo）、AI 在人类证明中发现错误、形式化验证社区就 Lean 内核 bug 能否被多内核独立检查消解展开争论: fetch_url(https://news.ycombinator.com/item?id=50574968) = 2026-11-20
+- Hurried Announcement: Alessandro Masullo GRH（独立人类证明）: query_raw_items(source=hackernews, min_points=20, 2026-11-20)[id:806015] = ▲128/💬17
+- Vibecoding HN 评论：作者 lxe 质疑「repetitive make it faster prompting 就是所谓 RSI」、作者 spwa4 指 5W FPGA 虽快但价格与 Nvidia 卡相当: fetch_url(https://news.ycombinator.com/item?id=50579297) = 2026-11-20
+
+- OpenAI《Combatting Adversarial Distillation》(2026-11-20)：防护重点为「受保护推理链（protected CoT）」提取；GPT-6.2 Astra 内部自适应评测攻击成功率 54.0%→0.2%；组合对抗测试/模型训练/分类器/API 级防护: fetch_url(https://openai.com/index/combatting-adversarial-distillation/) = 2026-11-20
+- Combatting Adversarial Distillation: query_raw_items(source=hackernews, keyword='adversarial distillation')[id:806495] = ▲25/💬26
+- Anthropic《Strengthening our defenses against distillation attacks》(2026-10-13): query_raw_items(source=hackernews, keyword='adversarial distillation')[id:473869] = ▲48/💬95
+- Fermion Research《Mapping every neuron in Qwen3-8B》(2026-11-20)：Qwen3-8B 共 442,368 个神经元、36 层每层 12,288；单神经元扰动可稳定触发德/英/儿童/海盗等可复现行为（30 问命中 83%–100%），由更大模型做语义有效性判定: fetch_url(https://www.fermionresearch.com/research/mapping-every-neuron-in-qwen3-8b/) = 2026-11-20
+- Mapping every neuron in Qwen3-8B: query_raw_items(source=hackernews, keyword='Mapping every neuron')[id:804028] = ▲29/💬2
+- NVDA 实时报价（2026-11-20 收盘）: market_quote(["NVDA.US"]) = last 125.53 / prev 145.98 / -20.45 (-14.01%) / 成交额 831.82 亿
+- AMD 实时报价: market_quote(["AMD.US"]) = 424.39 (-13.25%)；MSFT 484.52 (-2.77%)；GOOGL 265.29 (-2.70%)；AMZN 246.82 (-4.10%)
+- BTC 24h: binance_get_ticker("BTCUSDT") = 59104.9 (-5.013%)，24h 高 62615.4 / 低 57700.1
+- NVIDIA 单周 -23%、市值回落至 $3T、较 10 月高点近腰斩、SEC 会计调查: query_raw_items(source=longbridge)[id:806518]、[id:806400]
+- 纳指单日 -5.28% 抹去年内涨幅、七连跌；道指 -949.73 点（-1.93%）；费城半导体 -10.73%: query_raw_items(id:806523)、[id:806367]、[id:806539]
+- AI 硬件板块单周 -19.5%（2025-03 以来最大）: query_raw_items(source=longbridge)[id:806433]
+- MSCI 新兴市场指数跌入熊市（-3.1%、较 6 月峰值 -21%）；台股加权单周 -18%（1991 年以来最差）；Kospi -5%: query_raw_items(source=telegram:Financial_Express)[id:806551]、[id:806547]
+- 10Y 美债 -10.24bp 至 4.9438%（连续 5 日回落、本周 -19.14bp）；2Y -11.49bp 至 4.6469%（本周 -19.50bp）: query_raw_items(id:806553)、[id:806554]
+- 七巨头指数 -5.01%、单周 -10.28%；英伟达创 2025-01 以来最大单日跌幅、2008-10 以来最大单周跌幅: query_raw_items(id:806455)、[id:806358]
+- Nasdaq 100 较历史高点回撤近 20%；VIX 一度触及 40（2025-04 关税动荡以来最高）: query_raw_items(id:806515)、[id:80637]
+- AMD 遭证券欺诈调查（Schall, Brown & Schwartz LLP）: query_raw_items(source=longbridge)[id:806540]
+- 甲骨文称未来几周将按计划交付英伟达 Vera Rubin 机架: query_raw_items(source=telegram:Financial_Express)[id:806359]
+- Anthropic IPO 次日下跌、纳指抹去 2026 年涨幅: query_raw_items(source=hackernews)[id:805986]
+- 英伟达盘后 +1.8%、纳指 100 盘后 +0.3%: query_raw_items(id:806390)
