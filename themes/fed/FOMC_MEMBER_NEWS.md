@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-19 21:01 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
+> 生成时间：2026-11-20 20:45 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
@@ -50,13 +50,19 @@
 
 ## 莉萨·库克（Lisa D. Cook）
 
-数据缺失（近 45 天无可靠归属的讲话/表态）
+- **美联储理事丽莎·库克表示，美联储迫切需要加息以降低通胀，并警告称，行动迟缓将导致未来不得不以更高、更快的幅度加息。**（2026-11-20 17:21）
+  来源: longbridge / telegram:Financial_Express（同日 7 条已合并） | 正文长度: 375 字 | 立场: 鹰 +0.82
+  片段: …美联储理事丽莎·库克表示，美联储迫切需要加息以降低通胀，并警告称，行动迟缓将导致未来不得不以更高、更快的幅度加息。 库克在智利央行举办的一场会议的 prepared remarks（事先准备好的讲稿）中表示：“通胀已高于目标水平长达五年半之久，每多过一天，物价和工资制定者上调通胀预期的风险就越大。” 非常广泛类别的商品
+
+- **美联储理事库克的律师表示，库克没有法律义务出席不公正的听证会。**（2026-11-17 13:32）
+  来源: telegram:Financial_Express | 正文长度: 31 字
+  片段: …美联储理事库克的律师表示，库克没有法律义务出席不公正的听证会。
 
 ## 迈克尔·巴尔（Michael S. Barr）
 
 - **Fed's Barr worried regulation changes may increase financial sector risks**（2026-11-19 19:49）
   来源: longbridge / telegram:Financial_Express（同日 2 条已合并） | 正文长度: 73 字
-  片段: …Fed's Barr worried regulation changes may increase financial sector risks
+  片段: …Federal Reserve's Barr has warned that regulation changes may increase risks within the financial sector. His concerns highlight potential vulnerabilities that 
 
 - **Fed Governor Barr Supports Further Rate Hikes, Citing Persistently High Inflation**（2026-11-18 18:39）
   来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 923 字 | 立场: 鹰 +0.69
@@ -87,10 +93,6 @@
 - **鲍曼：目前不认为美联储需急于调整利率**（2026-10-14 09:55）
   来源: federalreserve.gov / telegram:Financial_Express（同日 2 条已合并） | 正文长度: 115 字 | 立场: 鹰 +0.35
   片段: …鲍曼：目前不认为美联储需急于调整利率 金十数据 10 月 14 日讯，美联储理事鲍曼：通胀仍高于我们的目标，（但）目前并不认为美联储有必要急于进一步调整利率。在上次加息后，我们需要一些时间观察金融状况的发展，然后再采取进一步行动。
-
-- **美联储理事鲍曼：美联储拟重塑银行监管体系 并重新评估更严格监管的资产门槛**（2026-10-06 14:58）
-  来源: federalreserve.gov / telegram:Financial_Express（同日 5 条已合并） | 正文长度: 400 字
-  片段: …美联储理事鲍曼（Michelle Bowman）于10月6日宣布，美联储将重塑美国银行监管体系，把目前分散在各地区联储行长手中的监督权收归华盛顿总部，新设五个地理监管区域，每个区域由一名"区域负责人"领导，旨在增强问责机制和决策透明度。 此外，鲍曼透露美联储计划在今年晚些时候重新评估触发更严格监管规定的银行资产规模门槛
 
 ## 菲利普·杰斐逊（Philip N. Jefferson）
 
@@ -144,6 +146,14 @@
 
 ## 安娜·保尔森（Anna Paulson）
 
+- **Philadelphia Fed President Paulson Advocates for "Prudent" Pace of Rate Hikes, Open to Consecutive Actions**（2026-11-20 20:13）
+  来源: longbridge / telegram:Financial_Express（同日 5 条已合并） | 正文长度: 645 字 | 立场: 鹰 +0.65
+  片段: …Philadelphia Fed President Paulson Advocates for "Prudent" Pace of Rate Hikes, Open to Consecutive Actions Philadelphia Fed President Anna Paulson advocates for
+
+- **美联储保尔森：10 月加息暂停只是调整节奏**（2026-11-19 23:55）
+  来源: telegram:Financial_Express（同日 6 条已合并） | 正文长度: 198 字 | 立场: 鹰 +0.61
+  片段: …Philadelphia Fed President Anna Paulson said she supported the Fed’s October decision to hold rates steady, describing it as a pace adjustment rather than a cha
+
 - **Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target**（2026-11-11 06:28）
   来源: longbridge / telegram:Financial_Express（同日 2 条已合并） | 正文长度: 585 字 | 立场: 鹰 +0.71
   片段: …Fed's Paulson: Gradual Rate Hikes Still Needed to Bring Inflation Back to 2% Target On November 10, Philadelphia Fed President Paulson stated that the Federal R
@@ -194,9 +204,13 @@
 
 ## 奥斯坦·古尔斯比（Austan D. Goolsbee）
 
-- **美联储古尔斯比：高通胀下所有选项均在考虑范围内 不排除大幅加息**（2026-11-19 20:55）
-  来源: longbridge / telegram:Financial_Express（同日 13 条已合并） | 正文长度: 244 字 | 立场: 鹰 +0.50
-  片段: …美联储古尔斯比：高通胀下所有选项均在考虑范围内 不排除大幅加息 金十数据 11 月 20 日讯，芝加哥联储主席古尔斯比当地时间周四表示，面对连续数月高于预期的通胀数据，美联储下月议息会议将保留所有政策选项，不排除大幅加息，具体幅度取决于通胀走势。古尔斯比说：“连续数月以来，美国通胀率一直处于令人相当担忧的高位，而在我们
+- **[External Economy] Fed's Goolsbee: Inflation has been worryingly high for several consecutive months; does not rule out larger interest rate hikes**（2026-11-20 06:37）
+  来源: longbridge | 正文长度: 615 字 | 立场: 鹰 +0.74
+  片段: …[External Economy] Fed's Goolsbee: Inflation has been worryingly high for several consecutive months; does not rule out larger interest rate hikes Chicago Fed P
+
+- **Fed's Goolsbee: All Options on the Table Amid High Inflation, Significant Rate Hikes Not Ruled Out**（2026-11-19 20:55）
+  来源: longbridge / telegram:Financial_Express（同日 16 条已合并） | 正文长度: 824 字 | 立场: 鹰 +0.53
+  片段: …Chicago Fed President Goolsbee said on Thursday that all policy options remain on the table for next month’s Federal Reserve meeting, with significant rate hike
 
 - **Fed's Goolsbee: US Inflation Issues Increasingly Severe, Further Action Still Needed**（2026-11-13 15:43）
   来源: longbridge / telegram:Financial_Express（同日 9 条已合并） | 正文长度: 625 字 | 立场: 鹰 +0.53
@@ -209,10 +223,6 @@
 - **Fed's Goolsbee Calls Inflation Report 'Almost Alarming' as Central Bank Weighs Further Rate Hikes**（2026-11-11 14:27）
   来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 424 字 | 立场: 鹰 +0.69
   片段: …Fed's Goolsbee Calls Inflation Report 'Almost Alarming' as Central Bank Weighs Further Rate Hikes Chicago Fed President Goolsbee described the latest inflation 
-
-- **Fed’s Goolsbee Warns AI Data Center Boom Is Starting to Look Like ‘Demand Overheating,’ Says Central Bankers Must Be ‘Aggressive Up Front’**（2026-11-10 12:50）
-  来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 528 字 | 立场: 鹰 +0.61
-  片段: …Fed’s Goolsbee Warns AI Data Center Boom Is Starting to Look Like ‘Demand Overheating,’ Says Central Bankers Must Be ‘Aggressive Up Front’ Chicago Fed President
 
 ## 阿尔贝托·穆萨莱姆（Alberto G. Musalem）
 
