@@ -1,0 +1,5 @@
+actions:
+- priority: P2
+  summary: 本期定版评审遗留 3 项 blocker 未修复，需后续处理
+  target_flow_params: {}
+  type: follow_up
