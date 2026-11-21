@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-20 21:00 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
+> 生成时间：2026-11-21 20:45 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
@@ -50,9 +50,13 @@
 
 ## 莉萨·库克（Lisa D. Cook）
 
-- **美联储理事丽莎·库克表示，美联储迫切需要加息以降低通胀，并警告称，行动迟缓将导致未来不得不以更高、更快的幅度加息。**（2026-11-20 17:21）
-  来源: longbridge / telegram:Financial_Express（同日 7 条已合并） | 正文长度: 375 字 | 立场: 鹰 +0.82
-  片段: …美联储理事丽莎·库克表示，美联储迫切需要加息以降低通胀，并警告称，行动迟缓将导致未来不得不以更高、更快的幅度加息。 库克在智利央行举办的一场会议的 prepared remarks（事先准备好的讲稿）中表示：“通胀已高于目标水平长达五年半之久，每多过一天，物价和工资制定者上调通胀预期的风险就越大。” 非常广泛类别的商品
+- **Hawkish Winds Blow at the Fed! Governor Cook: Further Interest Rate Hikes Needed Immediately; Cost of Lagging Action Is Greater**（2026-11-21 00:08）
+  来源: longbridge | 正文长度: 620 字 | 立场: 鹰 +0.90
+  片段: …Federal Reserve Governor Lisa Cook is urging immediate, further interest rate hikes, stating that current policy rates are insufficient to combat high inflation
+
+- **Fed Governor Cook Defends October Dissent: Urgent Inflation Pressures Require Faster Rate Hikes**（2026-11-20 22:56）
+  来源: longbridge / telegram:Financial_Express（同日 8 条已合并） | 正文长度: 502 字 | 立场: 鹰 +0.82
+  片段: …Federal Reserve Governor Lisa Cook defended her October dissent against pausing rate hikes, asserting that the current 3.75% to 4% interest rate range is insuff
 
 - **美联储理事库克的律师表示，库克没有法律义务出席不公正的听证会。**（2026-11-17 13:32）
   来源: telegram:Financial_Express | 正文长度: 31 字
@@ -146,9 +150,13 @@
 
 ## 安娜·保尔森（Anna Paulson）
 
+- **Philadelphia Fed President Paulson: Does Not Rule Out Consecutive Rate Hikes, Emphasizes "Measured" Pace**（2026-11-21 01:03）
+  来源: longbridge | 正文长度: 590 字 | 立场: 鹰 +0.67
+  片段: …Philadelphia Fed President Paulson is open to consecutive interest rate hikes to curb inflation, but emphasized a "measured" and prudent pace without committing
+
 - **Philadelphia Fed President Paulson Advocates for "Prudent" Pace of Rate Hikes, Open to Consecutive Actions**（2026-11-20 20:13）
   来源: longbridge / telegram:Financial_Express（同日 5 条已合并） | 正文长度: 645 字 | 立场: 鹰 +0.65
-  片段: …Philadelphia Fed President Paulson Advocates for "Prudent" Pace of Rate Hikes, Open to Consecutive Actions Philadelphia Fed President Anna Paulson advocates for
+  片段: …Philadelphia Fed President Anna Paulson said rates likely need to rise further to return inflation to the 2% target, advocating a “prudent” pace while remaining
 
 - **美联储保尔森：10 月加息暂停只是调整节奏**（2026-11-19 23:55）
   来源: telegram:Financial_Express（同日 6 条已合并） | 正文长度: 198 字 | 立场: 鹰 +0.61
