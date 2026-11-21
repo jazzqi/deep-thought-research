@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-11-20T22:20:30+08:00
-revision: 2026-11-20T22:20:30+08:00
+updated: 2026-11-22T02:19:44+08:00
+revision: 2026-11-22T02:19:44+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [Freedom vs. Safety: Axon CEO Rick Smith on the Future of Policing —— Rick Smith（Axon CEO）· All-In · 2026-11-10](./all-in/freedom-vs-safety-axon-ceo-rick-smith-on-the-future-of-polic.md)
+- [Anthropic 上市、Nvidia 危机、市场暴跌与开源围剿 —— All-In（Chamath / Jason / Friedberg）· 2026-11-20](./all-in/anthropic-goes-public-nvidia-in-crisis-markets-tank-open-sou.md)
 
 ## 往期
 
+- [Anthropic 上市、Nvidia 危机、市场暴跌与开源围剿 —— All-In（Chamath / Jason / Friedberg）· 2026-11-20](./all-in/anthropic-goes-public-nvidia-in-crisis-markets-tank-open-sou.md)
 - [Freedom vs. Safety: Axon CEO Rick Smith on the Future of Policing —— Rick Smith（Axon CEO）· All-In · 2026-11-10](./all-in/freedom-vs-safety-axon-ceo-rick-smith-on-the-future-of-polic.md)
 - [The Turnaround That Grew Ro 10x With Fewer People —— Invest Like the Best · 2026-11-11](./iltb/the-turnaround-that-grew-ro-10x-with-fewer-people.md)
 - [黄仁勋六天下台：一场以“间谍”为名的泄密行动，正在重塑 AI 算力的控制权 —— All-In Podcast · 2026-11-14](./all-in/jensen-ousted-as-nvidia-ceo-spy-scandal-export-restrictions.md)
