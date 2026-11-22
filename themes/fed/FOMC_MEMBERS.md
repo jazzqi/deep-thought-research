@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读数据：`GET /api/fomc/committee-brief`（聚合，推荐）、`GET /api/fomc/statements`（批量言论）、`GET /api/fomc/members`；Agent 工具 `query_fomc_members`（支持逗号分隔多人）。
-> 生成时间：2026-11-21 21:00 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
+> 生成时间：2026-11-22 20:40 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
 > 「最新言论/立场」来自 `fomc_member_statements`（每条可追溯 raw_items）；「鹰/鸽」来自 D137 stance 快照（LLM 分类）；「综合」来自 D138 记分卡（0.6×投票 + 0.4×言论，附样本量与状态）。
 
 ---
@@ -47,7 +47,7 @@
 | 米歇尔·鲍曼 | Michelle W. Bowman | 负责监管事务的副主席 / Board of Governors（常任票委） | 2026-11-11 longbridge：Fed's Bowman Assessment: Inflation is Widening, Another Rate Hike Possible This Year; US S… | 鹰（+0.62/0.55） ⚠️shift_to_hawk | （+0.09，投 +0.00，言 +0.22，n=15/样本少） |
 | 克里斯托弗·沃勒 | Christopher J. Waller | 理事 / Board of Governors（常任票委） | 2026-11-20 longbridge：Will the Fed Implement an Aggressive 50 Basis Point Rate Hike in December? The U.S. Econom… | 鹰（+0.68/1.00） ⚠️flip_dove_to_hawk | （+0.11，投 -0.03，言 +0.31，n=20） |
 | 杰罗姆·鲍威尔 | Jerome H. Powell | 理事 / Board of Governors（常任票委） | 2026-11-18 telegram:Financial_Express：英国通胀攀升至一年来最高水平 | — | （+0.00，投 +0.00，言 —，n=8/样本少） |
-| 莉萨·库克 | Lisa D. Cook | 理事 / Board of Governors（常任票委） | 2026-11-21 longbridge：Hawkish Winds Blow at the Fed! Governor Cook: Further Interest Rate Hikes Needed Immediate… | 鹰（+0.75/0.77） ⚠️shift_to_hawk | （+0.28，投 +0.13，言 +0.49，n=15） |
+| 莉萨·库克 | Lisa D. Cook | 理事 / Board of Governors（常任票委） | 2026-11-22 telegram:Financial_Express：美国股市或成美联储加息变数 | 鹰（+0.75/0.77） ⚠️shift_to_hawk | （+0.28，投 +0.13，言 +0.49，n=15） |
 | 迈克尔·巴尔 | Michael S. Barr | 理事 / Board of Governors（常任票委） | 2026-11-19 longbridge：Fed's Barr worried regulatory changes may increase financial sector risks | 鹰（+0.80/0.60） | （+0.25，投 +0.00，言 +0.63，n=15/样本少） ⚠️言行不一 |
 | 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-19 telegram:Financial_Express：几乎所有美联储官员在 10 月均表示，为及时将通胀恢复至 2%的目标，他们可能需要在“未来几个月”进一步提高利率。 | 鹰（+0.52/0.56） | （+0.21，投 +0.00，言 +0.52，n=11/样本少） ⚠️言行不一 |
 | 安娜·保尔森 | Anna Paulson | 费城联储主席（2026 票委；下次 2029） | 2026-11-21 longbridge：Philadelphia Fed President Paulson: Does Not Rule Out Consecutive Rate Hikes, Emphasizes "… | 鹰（+0.68/1.00） | （+0.31，投 +0.06，言 +0.69，n=12） ⚠️言行不一 |
