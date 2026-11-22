@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-11-22T00:40:44.652936+00:00",
+  "window": {
+    "after": "2026-11-21T00:00:00+00:00",
+    "before": "2026-11-22T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "807529",
+      "title": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "author": "g-b-r",
+      "points": 734,
+      "comments": 581,
+      "published_at": "2026-11-21T14:36:45+00:00"
+    },
+    {
+      "id": "807459",
+      "title": "Derek Lowe: Detonating a Pile of Lead Azide",
+      "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+      "author": "beginning_end",
+      "points": 454,
+      "comments": 300,
+      "published_at": "2026-11-21T13:23:14+00:00"
+    },
+    {
+      "id": "807410",
+      "title": "My Monitor Was Cutting My Download Speed by 75%",
+      "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+      "author": "soheilpro",
+      "points": 359,
+      "comments": 187,
+      "published_at": "2026-11-21T10:36:32+00:00"
+    },
+    {
+      "id": "806914",
+      "title": "BlackBlaze now explicitly states selling your data for advertisement",
+      "url": "https://www.backblaze.com/company/policy/privacy",
+      "author": "meysamazad",
+      "points": 221,
+      "comments": 78,
+      "published_at": "2026-11-21T03:23:16+00:00"
+    },
+    {
+      "id": "807342",
+      "title": "RCE in Gnupg",
+      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+      "author": "gdgghhhhh",
+      "points": 173,
+      "comments": 53,
+      "published_at": "2026-11-21T08:32:58+00:00"
+    },
+    {
+      "id": "806951",
+      "title": "Clojure will affect the way you think about programming (2017)",
+      "url": "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain/",
+      "author": "sammatilda",
+      "points": 171,
+      "comments": 78,
+      "published_at": "2026-11-21T02:40:39+00:00"
+    },
+    {
+      "id": "807493",
+      "title": "Astra 6.2 and Sol 6.2 flop at Simple Bench",
+      "url": "https://simple-bench.com/",
+      "author": "algoth1",
+      "points": 155,
+      "comments": 151,
+      "published_at": "2026-11-21T13:16:12+00:00"
+    },
+    {
+      "id": "807169",
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "url": "http://ricapar.net/ClawDOS/",
+      "author": "Ricapar",
+      "points": 152,
+      "comments": 47,
+      "published_at": "2026-11-21T05:38:01+00:00"
+    },
+    {
+      "id": "807265",
+      "title": "Surprisingly Adorable Insect Portraits",
+      "url": "https://amateurphotographer.com/latest/these-astonishing-insect-portraits-reveal-a-hidden-world-you-never-knew-existed/",
+      "author": "NordStreamYacht",
+      "points": 141,
+      "comments": 30,
+      "published_at": "2026-11-21T06:44:14+00:00"
+    },
+    {
+      "id": "807343",
+      "title": "FBI reportedly investigating apparent hack of its criminal database",
+      "url": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+      "author": "theanonymousone",
+      "points": 137,
+      "comments": 70,
+      "published_at": "2026-11-21T10:33:57+00:00"
+    },
+    {
+      "id": "807592",
+      "title": "Show HN: Zero C#, Power of C# without any GC",
+      "url": "https://onurgumus.github.io/zero-csharp/index.html",
+      "author": "reverseblade2",
+      "points": 120,
+      "comments": 93,
+      "published_at": "2026-11-21T15:39:09+00:00"
+    },
+    {
+      "id": "807432",
+      "title": "Adult-only households accounted for 55% of toy sales in the first half of 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-18/jellycats-squishmallows-and-lego-sets-for-adults-drive-holiday-traffic",
+      "author": "helsinkiandrew",
+      "points": 89,
+      "comments": 134,
+      "published_at": "2026-11-21T12:15:41+00:00"
+    },
+    {
+      "id": "807660",
+      "title": "Jensen Huang's fall is bad news for Silicon Valley's accelerationists",
+      "url": "https://www.economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists",
+      "author": "andsoitis",
+      "points": 87,
+      "comments": 118,
+      "published_at": "2026-11-21T17:59:59+00:00"
+    },
+    {
+      "id": "807682",
+      "title": "Inkling-2-Mini in 5.4 GB Memory",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "author": "k__",
+      "points": 65,
+      "comments": 4,
+      "published_at": "2026-11-21T18:02:19+00:00"
+    },
+    {
+      "id": "807795",
+      "title": "Advice for the next 100 Rust GUIs",
+      "url": "https://linebender.org/blog/next-100-guis/",
+      "author": "raphlinus",
+      "points": 46,
+      "comments": 4,
+      "published_at": "2026-11-21T21:17:53+00:00"
+    },
+    {
+      "id": "807275",
+      "title": "Tell HN: OpenRouter prompts to Minimax may have been read",
+      "url": "https://news.ycombinator.com/item?id=50585962",
+      "author": "dannyw",
+      "points": 41,
+      "comments": 5,
+      "published_at": "2026-11-21T04:31:38+00:00"
+    },
+    {
+      "id": "807729",
+      "title": "Upload2Shell · CVE-2026-125396",
+      "url": "https://pwn.ai/upload2shell",
+      "author": "f311a",
+      "points": 36,
+      "comments": 9,
+      "published_at": "2026-11-21T18:29:29+00:00"
+    },
+    {
+      "id": "806943",
+      "title": "I Don't Trust Visual Recordings Anymore. But One Day I Will Again",
+      "url": "https://spectrum.ieee.org/fighting-back-against-deep-fakes",
+      "author": "jnord",
+      "points": 35,
+      "comments": 12,
+      "published_at": "2026-11-21T00:33:40+00:00"
+    },
+    {
+      "id": "807681",
+      "title": "Verification files for the Lean proof of the Riemann Hypothesis",
+      "url": "https://math.mit.edu/~drew/grh/",
+      "author": "Bluestein",
+      "points": 33,
+      "comments": 2,
+      "published_at": "2026-11-21T15:54:34+00:00"
+    },
+    {
+      "id": "807591",
+      "title": "Anthropic's IPO bank closed position meant to stabilize stock",
+      "url": "https://www.reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20",
+      "author": "anon373839",
+      "points": 31,
+      "comments": 1,
+      "published_at": "2026-11-21T12:43:24+00:00"
+    },
+    {
+      "id": "807796",
+      "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+      "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+      "author": "sebaandrada",
+      "points": 31,
+      "comments": 3,
+      "published_at": "2026-11-21T22:09:58+00:00"
+    },
+    {
+      "id": "807570",
+      "title": "Anyone can easily use private, open weight models",
+      "url": "https://micahflee.com/heres-how-anyone-can-easily-use-private-open-weight-models/",
+      "author": "DeepLogin",
+      "points": 27,
+      "comments": 8,
+      "published_at": "2026-11-21T12:11:54+00:00"
+    },
+    {
+      "id": "807633",
+      "title": "PostgreSQL Extensions in Go",
+      "url": "https://jespino.github.io/gopgext/",
+      "author": "valyala",
+      "points": 27,
+      "comments": 0,
+      "published_at": "2026-11-21T17:08:04+00:00"
+    },
+    {
+      "id": "807174",
+      "title": "The FBI was hacked again",
+      "url": "https://www.cnn.com/2026/11/20/politics/fbi-hacked-again-target-crime-database",
+      "author": "negura",
+      "points": 26,
+      "comments": 4,
+      "published_at": "2026-11-21T02:39:13+00:00"
+    },
+    {
+      "id": "807760",
+      "title": "GrapheneOS made a proof of concept RCS messaging app without Google Messages",
+      "url": "https://twitter.com/GrapheneOS/status/2124158267123233056",
+      "author": "iloveyoutwo",
+      "points": 26,
+      "comments": 3,
+      "published_at": "2026-11-21T17:54:38+00:00"
+    },
+    {
+      "id": "807730",
+      "title": "GTA VI is building behavioral profiles of those who play",
+      "url": "https://twitter.com/make_claude/status/2123908856145232060",
+      "author": "tabith",
+      "points": 22,
+      "comments": 8,
+      "published_at": "2026-11-21T18:59:13+00:00"
+    },
+    {
+      "id": "807777",
+      "title": "K-I-L-L-M-E-N-O-W",
+      "url": "https://twitter.com/GrapheneOS/status/2124155903729639818",
+      "author": "miohtama",
+      "points": 22,
+      "comments": 15,
+      "published_at": "2026-11-21T17:00:05+00:00"
+    },
+    {
+      "id": "807794",
+      "title": "Show HN: I made a PS1 style racing game",
+      "url": "https://outpostracer.com",
+      "author": "shash7",
+      "points": 22,
+      "comments": 13,
+      "published_at": "2026-11-21T13:47:45+00:00"
+    },
+    {
+      "id": "807812",
+      "title": "International UN talks on controlling use of autonomous weapons collapse",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+      "author": "nephihaha",
+      "points": 22,
+      "comments": 0,
+      "published_at": "2026-11-21T23:10:21+00:00"
+    },
+    {
+      "id": "807733",
+      "title": "巴林国防军",
+      "url": "https://t.me/Financial_Express/3646918",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T20:41:42+00:00"
+    },
+    {
+      "id": "807734",
+      "title": "马斯克",
+      "url": "https://t.me/Financial_Express/3646919",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T20:42:42+00:00"
+    },
+    {
+      "id": "807735",
+      "title": "美国官员",
+      "url": "https://t.me/Financial_Express/3646920",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T20:43:02+00:00"
+    },
+    {
+      "id": "807736",
+      "title": "沙特民防部门就麦加地区潜在威胁发布警告。",
+      "url": "https://t.me/Financial_Express/3646921",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T20:43:42+00:00"
+    },
+    {
+      "id": "807737",
+      "title": "Bayer reaches Roundup settlement that could cost the company billions",
+      "url": "https://www.npr.org/2026/11/21/nx-s1-6049684/roundup-bayer-hodgkins-settlement",
+      "author": "Will Stone",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T20:37:35+00:00"
+    },
+    {
+      "id": "807738",
+      "title": "沙特阿拉伯吉达市响起警报。",
+      "url": "https://t.me/Financial_Express/3646922",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T20:44:02+00:00"
+    },
+    {
+      "id": "807739",
+      "title": "巴林国防军",
+      "url": "https://t.me/Financial_Express/3646923",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T20:45:22+00:00"
+    },
+    {
+      "id": "807740",
+      "title": "沙特民防局",
+      "url": "https://t.me/Financial_Express/3646924",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T20:45:42+00:00"
+    },
+    {
+      "id": "807741",
+      "title": "据 CBS",
+      "url": "https://t.me/Financial_Express/3646925",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T20:46:42+00:00"
+    },
+    {
+      "id": "807742",
+      "title": "巴林国防军",
+      "url": "https://t.me/Financial_Express/3646926",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T20:47:22+00:00"
+    },
+    {
+      "id": "807743",
+      "title": "巴林国防军",
+      "url": "https://t.me/Financial_Express/3646927",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T20:48:02+00:00"
+    },
+    {
+      "id": "807745",
+      "title": "沙特民防部门",
+      "url": "https://t.me/Financial_Express/3646928",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T20:51:42+00:00"
+    },
+    {
+      "id": "807746",
+      "title": "美国中央司令部",
+      "url": "https://t.me/Financial_Express/3646929",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T20:58:42+00:00"
+    },
+    {
+      "id": "807747",
+      "title": "泽连斯基暗示新一轮和谈可能在 G20 峰会期间举行",
+      "url": "https://t.me/Financial_Express/3646930",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T21:00:02+00:00"
+    },
+    {
+      "id": "807748",
+      "title": "美国中央司令部",
+      "url": "https://t.me/Financial_Express/3646931",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T21:02:02+00:00"
+    },
+    {
+      "id": "807749",
+      "title": "AOC challenged over AIPAC’s influence on Democratic leadership",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_aoc-challenged-over-aipacs-influence-on-democrats-211126?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T20:38:20+00:00"
+    },
+    {
+      "id": "807750",
+      "title": "Thousands protest across Europe over living costs and housing",
+      "url": "https://www.aljazeera.com/news/2026/11/21/thousands-protest-across-europe-over-living-costs-and-housing?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T20:47:50+00:00"
+    },
+    {
+      "id": "807751",
+      "title": "Iran says held talks with Qatari mediators, urges US to accept conditions",
+      "url": "https://www.aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T20:56:35+00:00"
+    },
+    {
+      "id": "807752",
+      "title": "Brazil’s Jair Bolsonaro in intensive care with bowel obstruction",
+      "url": "https://www.aljazeera.com/news/2026/11/21/brazils-jair-bolsonaro-in-intensive-care-with-bowel-obstruction?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T21:02:18+00:00"
+    },
+    {
+      "id": "807753",
+      "title": "俄罗斯正式允许交易所在获得央行批准后开展加密货币交易。",
+      "url": "https://t.me/Financial_Express/3646932",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T21:11:02+00:00"
+    },
+    {
+      "id": "807754",
+      "title": "特朗普下令：联邦承包商若收到国会问询，须先获白宫批准",
+      "url": "https://t.me/Financial_Express/3646933",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T21:14:22+00:00"
+    },
+    {
+      "id": "807755",
+      "title": "巴林内政部",
+      "url": "https://t.me/Financial_Express/3646934",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T21:24:02+00:00"
+    },
+    {
+      "id": "807756",
+      "title": "沙特领导的联军",
+      "url": "https://t.me/Financial_Express/3646935",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T21:30:02+00:00"
+    },
+    {
+      "id": "807757",
+      "title": "Indian man jailed over plot to kill Sikh separatist in US",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-us-sikh-separatist-pannun-assassination-plot?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T21:09:18+00:00"
+    },
+    {
+      "id": "807758",
+      "title": "Impunity fuels surge in settler violence across occupied West Bank",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/impunity-fuels-surge-in-settler-violence-across-occupied-west-bank?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T21:11:54+00:00"
+    },
+    {
+      "id": "807759",
+      "title": "SpaceX",
+      "url": "https://t.me/Financial_Express/3646936",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T21:34:02+00:00"
+    },
+    {
+      "id": "807761",
+      "title": "Bahrain says Iranian attack causes fire at industrial facility",
+      "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T21:31:03+00:00"
+    },
+    {
+      "id": "807762",
+      "title": "胡塞武装",
+      "url": "https://t.me/Financial_Express/3646937",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T21:43:22+00:00"
+    },
+    {
+      "id": "807763",
+      "title": "胡塞武装",
+      "url": "https://t.me/Financial_Express/3646938",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T21:43:42+00:00"
+    },
+    {
+      "id": "807764",
+      "title": "据伊朗塔斯尼姆通讯社",
+      "url": "https://t.me/Financial_Express/3646939",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T21:51:02+00:00"
+    },
+    {
+      "id": "807765",
+      "title": "伊朗总统佩泽希齐扬承认该国形势艰难，称“说实话，情况没那么好”，并敦促官员正视问题，而不是假装一切正常。",
+      "url": "https://t.me/Financial_Express/3646940",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:02:02+00:00"
+    },
+    {
+      "id": "807766",
+      "title": "SpaceX",
+      "url": "https://t.me/Financial_Express/3646941",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:02:22+00:00"
+    },
+    {
+      "id": "807767",
+      "title": "SpaceX",
+      "url": "https://t.me/Financial_Express/3646942",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:03:02+00:00"
+    },
+    {
+      "id": "807768",
+      "title": "Amazon Stock (AMZN) Forecast – Oppenheimer Lifts Price Target to $310 After Anthropic IPO",
+      "url": "https://longbridge.cn/news/306376689",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T21:35:34+00:00"
+    },
+    {
+      "id": "807769",
+      "title": "SpaceX",
+      "url": "https://t.me/Financial_Express/3646943",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:05:22+00:00"
+    },
+    {
+      "id": "807770",
+      "title": "墨西哥逮捕贩毒集团头目后，美国大使馆发布警报，敦促在墨西哥锡那罗亚州的美国公民保持警惕。",
+      "url": "https://t.me/Financial_Express/3646944",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:08:42+00:00"
+    },
+    {
+      "id": "807771",
+      "title": "SpaceX",
+      "url": "https://t.me/Financial_Express/3646945",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:10:42+00:00"
+    },
+    {
+      "id": "807772",
+      "title": "Lock of former US President George Washington's hair sells for $4,000",
+      "url": "https://www.bbc.co.uk/news/articles/cwe9k23dpz0do?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:01:19+00:00"
+    },
+    {
+      "id": "807773",
+      "title": "唐宁街发言人",
+      "url": "https://t.me/Financial_Express/3646946",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:18:02+00:00"
+    },
+    {
+      "id": "807774",
+      "title": "也门政府军称继续打击胡塞武装目标",
+      "url": "https://t.me/Financial_Express/3646947",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:18:22+00:00"
+    },
+    {
+      "id": "807775",
+      "title": "英国首相伯纳姆与荷兰首相耶滕承诺继续密切合作，为乌克兰提供其所需的支持。",
+      "url": "https://t.me/Financial_Express/3646948",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:20:22+00:00"
+    },
+    {
+      "id": "807776",
+      "title": "斡旋之际互袭未停 美伊仍陷“不战不和”僵局",
+      "url": "https://t.me/Financial_Express/3646949",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:25:22+00:00"
+    },
+    {
+      "id": "807778",
+      "title": "Bahrain says Iranian attack hits industrial facility",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:02:03+00:00"
+    },
+    {
+      "id": "807779",
+      "title": "美国国家航空航天局",
+      "url": "https://t.me/Financial_Express/3646950",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:28:22+00:00"
+    },
+    {
+      "id": "807780",
+      "title": "3 Stocks to Watch If Higher Rates Keep Cash in Money Market Funds",
+      "url": "https://longbridge.cn/news/306376928",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:17:46+00:00"
+    },
+    {
+      "id": "807781",
+      "title": "Danaher (DHR) Stock Looks Fairly Valued Following Single Use Bioreactor Growth News",
+      "url": "https://longbridge.cn/news/306376917",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:17:46+00:00"
+    },
+    {
+      "id": "807782",
+      "title": "Berkshire-owned utility lauds Oregon Supreme Court's expanded review of wildfire lawsuit",
+      "url": "https://longbridge.cn/news/306377027",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:26:25+00:00"
+    },
+    {
+      "id": "807783",
+      "title": "Ulta Beauty CEO says customers as young as 8 are shopping for skincare #Ulta #skincare",
+      "url": "https://www.youtube.com/watch?v=e2czlotAyrk",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:00:09+00:00"
+    },
+    {
+      "id": "807784",
+      "title": "以色列未来党表示，以色列反对派领导人艾森科特已下令明天开始与利库德集团进行马拉松式谈判，以期在组建政府问题上取得突破。",
+      "url": "https://t.me/Financial_Express/3646951",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:37:02+00:00"
+    },
+    {
+      "id": "807785",
+      "title": "巴林外交部",
+      "url": "https://t.me/Financial_Express/3646952",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:50:42+00:00"
+    },
+    {
+      "id": "807786",
+      "title": "巴林外交部",
+      "url": "https://t.me/Financial_Express/3646953",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:51:02+00:00"
+    },
+    {
+      "id": "807787",
+      "title": "阿尔及利亚国防部称击毙两名涉嫌贩毒的摩洛哥公民",
+      "url": "https://t.me/Financial_Express/3646954",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:52:02+00:00"
+    },
+    {
+      "id": "807788",
+      "title": "Trump orders federal contractors to check with White House before responding to Congress",
+      "url": "https://www.npr.org/2026/11/21/g-s1-154966/trump-contractors-congress",
+      "author": "The Associated Press",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:40:36+00:00"
+    },
+    {
+      "id": "807789",
+      "title": "除了头版内容，今天《人民日报》涉及财经的主要内容还包括：",
+      "url": "https://t.me/Financial_Express/3646955",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T23:02:42+00:00"
+    },
+    {
+      "id": "807790",
+      "title": "加拿大正式加入北约创新基金",
+      "url": "https://t.me/Financial_Express/3646956",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T23:07:22+00:00"
+    },
+    {
+      "id": "807791",
+      "title": "30K Bitcoin and A LOT of noise — It’s what a Tesla-SpaceX merger really means for crypto",
+      "url": "https://longbridge.cn/news/306377234",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T23:05:53+00:00"
+    },
+    {
+      "id": "807792",
+      "title": "伊朗总统：正进行的经济战远比军事冲突“更为艰难”",
+      "url": "https://t.me/Financial_Express/3646957",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T23:18:42+00:00"
+    },
+    {
+      "id": "807793",
+      "title": "多家华尔街机构认为市场或处于牛市回调阶段",
+      "url": "https://t.me/Financial_Express/3646958",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T23:26:42+00:00"
+    },
+    {
+      "id": "807797",
+      "title": "What Cloudflare Holders Saw Early",
+      "url": "https://longbridge.cn/news/306377388",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T23:14:47+00:00"
+    },
+    {
+      "id": "807798",
+      "title": "Iran faces a ‘silent economic war’, says Iranian president",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/iran-faces-a-silent-economic-war-says-iranian-president?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T23:18:14+00:00"
+    },
+    {
+      "id": "807799",
+      "title": "阿联酋在霍尔木兹海峡开展高风险石油转运业务",
+      "url": "https://t.me/Financial_Express/3646959",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T23:39:42+00:00"
+    },
+    {
+      "id": "807800",
+      "title": "加拿大正式加入北约创新基金",
+      "url": "https://t.me/Financial_Express/3646960",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T23:46:22+00:00"
+    },
+    {
+      "id": "807801",
+      "title": "伊朗总统：正进行的经济战远比军事冲突“更为艰难”",
+      "url": "https://t.me/Financial_Express/3646961",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T23:47:22+00:00"
+    },
+    {
+      "id": "807802",
+      "title": "伊朗副外长证实调解方卡塔尔代表团访问德黑兰",
+      "url": "https://t.me/Financial_Express/3646962",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T23:50:02+00:00"
+    },
+    {
+      "id": "807803",
+      "title": "全国秋冬种进入尾声 主产区积极应对超强厄尔尼诺影响",
+      "url": "https://t.me/Financial_Express/3646963",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T23:54:42+00:00"
+    },
+    {
+      "id": "807804",
+      "title": "Lebanese president demands Israel withdrawal, decries Iran’s interference",
+      "url": "https://www.aljazeera.com/news/2026/11/21/lebanese-president-demands-israel-withdrawal-decries-irans-interference?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T23:44:00+00:00"
+    },
+    {
+      "id": "807805",
+      "title": "Iran war live: Iran targets US military in Bahrain; Houthi strikes continue",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-iran-targets-us-military-in-bahrain-houthi-strikes-continue?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T23:59:03+00:00"
+    },
+    {
+      "id": "807806",
+      "title": "澳大利亚房屋拍卖数量减少，清盘率小幅上升",
+      "url": "https://t.me/Financial_Express/3646964",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T23:59:42+00:00"
+    },
+    {
+      "id": "807808",
+      "title": "GTHT: Household Risk Preference Continues to Diverge; Leading Brokerages Expected to Maintain Dominance",
+      "url": "https://longbridge.cn/news/306377744",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T23:50:03+00:00"
+    },
+    {
+      "id": "807819",
+      "title": "Highlights and challenges from covering an historic month in South America",
+      "url": "https://www.npr.org/2026/11/21/nx-s1-6044647/highlights-and-challenges-from-covering-an-historic-month-in-south-america",
+      "author": "Rob Schmitz",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:01:35+00:00"
+    },
+    {
+      "id": "807820",
+      "title": "Google employees protest AI in schools policy",
+      "url": "https://www.npr.org/2026/11/21/nx-s1-6048599/google-employees-protest-ai-in-schools-policy",
+      "author": "Sequoia Carrillo",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-21T22:01:40+00:00"
+    }
+  ]
+}
