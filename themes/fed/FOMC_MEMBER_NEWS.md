@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-21 21:00 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
+> 生成时间：2026-11-22 20:45 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
@@ -245,10 +245,6 @@
 - **美联储穆萨莱姆：很快有必要再次加息**（2026-10-30 16:57）
   来源: longbridge / telegram:Financial_Express（同日 4 条已合并） | 正文长度: 186 字 | 立场: 鹰 +0.83
   片段: …美联储穆萨莱姆：很快有必要再次加息 金十数据 10 月 31 日讯，圣路易斯联储主席穆萨莱姆在影子公开市场委员会会议前发表有关美国经济和货币政策的讲话，他表示：“我认为有必要进一步收紧货币政策，而且很快就需要采取行动。”穆萨莱姆认为，美国通胀水平仍然过高，如果美联储不进一步加息，通胀风险仍偏向上行。与此同时，美国整体经
-
-- **美联储穆萨莱姆：未来 6 至 9 个月内可能需要进一步加息**（2026-10-08 20:25）
-  来源: telegram:Financial_Express | 正文长度: 410 字 | 立场: 鹰 +0.90
-  片段: …St. Louis Fed President Musalem stated that the Fed likely needs additional rate hikes within the next 6 to 9 months to bring inflation back to the 2% target wi
 
 ## 尼尔·卡什卡利（Neel Kashkari）
 
