@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-11-22T23:20:12+08:00
-revision: 2026-11-22T23:20:12+08:00
+updated: 2026-11-24T00:20:25+08:00
+revision: 2026-11-24T00:20:25+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [中期选举血洗、4 万亿美元 AI 抛售、数据中心冻结与特朗普的下一步 —— All-In Podcast · 2026-11-07](./all-in/midterm-blood-bath-4t-ai-sell-off-data-center-freeze-whats-n.md)
+- [The Hidden Capital Crunch Behind Silicon Valley's AI Boom —— Ram（Abstract 创始人）· ILTB Podcast · 2026-11-06](./iltb/the-hidden-capital-crunch-behind-silicon-valleys-ai-boom.md)
 
 ## 往期
 
+- [The Hidden Capital Crunch Behind Silicon Valley's AI Boom —— Ram（Abstract 创始人）· ILTB Podcast · 2026-11-06](./iltb/the-hidden-capital-crunch-behind-silicon-valleys-ai-boom.md)
 - [中期选举血洗、4 万亿美元 AI 抛售、数据中心冻结与特朗普的下一步 —— All-In Podcast · 2026-11-07](./all-in/midterm-blood-bath-4t-ai-sell-off-data-center-freeze-whats-n.md)
 - [Anthropic 上市、Nvidia 危机、市场暴跌与开源围剿 —— All-In（Chamath / Jason / Friedberg）· 2026-11-20](./all-in/anthropic-goes-public-nvidia-in-crisis-markets-tank-open-sou.md)
 - [Freedom vs. Safety: Axon CEO Rick Smith on the Future of Policing —— Rick Smith（Axon CEO）· All-In · 2026-11-10](./all-in/freedom-vs-safety-axon-ceo-rick-smith-on-the-future-of-polic.md)
