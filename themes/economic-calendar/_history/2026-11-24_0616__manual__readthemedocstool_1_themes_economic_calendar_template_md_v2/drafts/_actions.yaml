@@ -1,0 +1,11 @@
+actions:
+- priority: P1
+  summary: 补建 W46（2026-11-09~15）recap，恢复跨周观察清单承接与预测成绩单闭环（该文件确认缺失，index.md 标注待补）
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-11-30'
+- priority: P1
+  recurrence: weekly
+  summary: 监控12月FOMC加息定价：CME加息25bp概率已达95.9%（2026-11-23），威廉姆斯等官员鹰派表态密集，较8月锚点（9月加息40.1%）已发生regime级演进
+  target_flow_params: {}
+  type: monitoring
