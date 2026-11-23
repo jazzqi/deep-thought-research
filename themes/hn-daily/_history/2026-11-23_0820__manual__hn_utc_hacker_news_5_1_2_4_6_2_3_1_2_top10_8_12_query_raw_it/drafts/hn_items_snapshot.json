@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-11-23T00:37:07.546063+00:00",
+  "window": {
+    "after": "2026-11-22T00:00:00+00:00",
+    "before": "2026-11-23T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "807954",
+      "title": "Toyota, Nissan, and Honda to Standardize Parts to Lower Costs",
+      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "author": "zdw",
+      "points": 1019,
+      "comments": 610,
+      "published_at": "2026-11-22T04:04:56+00:00"
+    },
+    {
+      "id": "808214",
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "author": "happosai",
+      "points": 856,
+      "comments": 867,
+      "published_at": "2026-11-22T08:57:34+00:00"
+    },
+    {
+      "id": "807871",
+      "title": "Sandwich Simulator",
+      "url": "https://stulle.app/",
+      "author": "subdomain",
+      "points": 565,
+      "comments": 198,
+      "published_at": "2026-11-22T00:07:59+00:00"
+    },
+    {
+      "id": "808612",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "author": "acossta",
+      "points": 452,
+      "comments": 305,
+      "published_at": "2026-11-22T17:06:27+00:00"
+    },
+    {
+      "id": "807906",
+      "title": "Data Processing Incidents on Inference Providers",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "author": "sdko",
+      "points": 279,
+      "comments": 95,
+      "published_at": "2026-11-22T02:14:14+00:00"
+    },
+    {
+      "id": "808453",
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "url": "https://github.com/gulivan/worker755",
+      "author": "ivantgam",
+      "points": 253,
+      "comments": 59,
+      "published_at": "2026-11-22T13:56:58+00:00"
+    },
+    {
+      "id": "807905",
+      "title": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
+      "url": "https://github.com/ItsNotRexed/Leonida",
+      "author": "ebrahimh",
+      "points": 212,
+      "comments": 167,
+      "published_at": "2026-11-22T00:57:26+00:00"
+    },
+    {
+      "id": "808541",
+      "title": "Open Social Web Alliance",
+      "url": "https://osw-alliance.net/en/",
+      "author": "doener",
+      "points": 210,
+      "comments": 207,
+      "published_at": "2026-11-22T15:24:32+00:00"
+    },
+    {
+      "id": "808199",
+      "title": "Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "author": "BaselAshraf81",
+      "points": 176,
+      "comments": 148,
+      "published_at": "2026-11-22T04:10:09+00:00"
+    },
+    {
+      "id": "808013",
+      "title": "The Mythology of Conscious AI",
+      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+      "author": "Anon84",
+      "points": 151,
+      "comments": 432,
+      "published_at": "2026-11-22T02:10:02+00:00"
+    },
+    {
+      "id": "808535",
+      "title": "Europe weakens chemical rules as science links them to 'lifestyle diseases'",
+      "url": "https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html",
+      "author": "atmosx",
+      "points": 148,
+      "comments": 128,
+      "published_at": "2026-11-22T15:42:40+00:00"
+    },
+    {
+      "id": "808563",
+      "title": "Backblaze customers worried of personal data sale/sharing after policy update",
+      "url": "https://www.neowin.net/news/backblaze-customers-worried-of-personal-data-salesharing-after-policy-update/",
+      "author": "cube00",
+      "points": 141,
+      "comments": 58,
+      "published_at": "2026-11-22T15:16:02+00:00"
+    },
+    {
+      "id": "808666",
+      "title": "What Happened to Silicon Valley?",
+      "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+      "author": "greenyouse",
+      "points": 136,
+      "comments": 41,
+      "published_at": "2026-11-22T19:20:15+00:00"
+    },
+    {
+      "id": "808610",
+      "title": "I joined the NTP Pool, but not with my Stratum 1 Pi",
+      "url": "https://www.jeffgeerling.com/blog/2026/i-joined-the-ntp-pool/",
+      "author": "fortran77",
+      "points": 122,
+      "comments": 31,
+      "published_at": "2026-11-22T15:35:24+00:00"
+    },
+    {
+      "id": "808665",
+      "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+      "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+      "author": "gaws",
+      "points": 114,
+      "comments": 25,
+      "published_at": "2026-11-22T19:10:34+00:00"
+    },
+    {
+      "id": "808066",
+      "title": "AI Supply Chain Security: What Canary Tokens Found",
+      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "author": "kristianp",
+      "points": 95,
+      "comments": 21,
+      "published_at": "2026-11-22T05:11:43+00:00"
+    },
+    {
+      "id": "808200",
+      "title": "Notes on the discrete Fourier transform (DFT)",
+      "url": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/",
+      "author": "kouosi",
+      "points": 93,
+      "comments": 13,
+      "published_at": "2026-11-22T06:52:25+00:00"
+    },
+    {
+      "id": "808745",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "author": "Retell15",
+      "points": 90,
+      "comments": 24,
+      "published_at": "2026-11-22T21:01:16+00:00"
+    },
+    {
+      "id": "808317",
+      "title": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
+      "url": "https://arxiv.org/abs/2606.14068",
+      "author": "rzk",
+      "points": 86,
+      "comments": 76,
+      "published_at": "2026-11-22T09:18:36+00:00"
+    },
+    {
+      "id": "808383",
+      "title": "AI is becoming a disaster for the climate",
+      "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+      "author": "Brajeshwar",
+      "points": 84,
+      "comments": 30,
+      "published_at": "2026-11-22T12:19:46+00:00"
+    },
+    {
+      "id": "808655",
+      "title": "\"A government that 'gets it'\": Canada recommits to federal funding for news",
+      "url": "https://www.niemanlab.org/2026/11/a-government-that-gets-it-canada-recommits-to-federal-funding-for-news/",
+      "author": "DeepLogin",
+      "points": 84,
+      "comments": 70,
+      "published_at": "2026-11-22T19:10:38+00:00"
+    },
+    {
+      "id": "808112",
+      "title": "Show HN: The Riemann Proof Handbook",
+      "url": "https://github.com/tamnd/riemann-handbook",
+      "author": "tamnd",
+      "points": 82,
+      "comments": 58,
+      "published_at": "2026-11-22T05:46:30+00:00"
+    },
+    {
+      "id": "808859",
+      "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+      "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+      "author": "Qision",
+      "points": 81,
+      "comments": 33,
+      "published_at": "2026-11-22T23:12:10+00:00"
+    },
+    {
+      "id": "808441",
+      "title": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "author": "joshcsimmons",
+      "points": 67,
+      "comments": 11,
+      "published_at": "2026-11-22T09:57:01+00:00"
+    },
+    {
+      "id": "808542",
+      "title": "Norway to extend proposed under-16 social media ban to games and messaging apps",
+      "url": "https://www.euronews.com/2026/10/19/norway-to-extend-proposed-under-16-social-media-ban-to-online-games-and-messaging-apps",
+      "author": "geox",
+      "points": 54,
+      "comments": 92,
+      "published_at": "2026-11-22T15:54:24+00:00"
+    },
+    {
+      "id": "808102",
+      "title": "Together.ai: Prompt Leakage for Requests",
+      "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+      "author": "Fe2O3",
+      "points": 46,
+      "comments": 10,
+      "published_at": "2026-11-22T03:07:27+00:00"
+    },
+    {
+      "id": "808654",
+      "title": "Fascism and Monopoly",
+      "url": "https://repository.law.umich.edu/mlr/vol118/iss7/2/",
+      "author": "doener",
+      "points": 46,
+      "comments": 25,
+      "published_at": "2026-11-22T15:25:29+00:00"
+    },
+    {
+      "id": "807968",
+      "title": "Since last year, we asked: \"What if AI solved the Riemann Hypothesis?\"",
+      "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+      "author": "droidjj",
+      "points": 45,
+      "comments": 16,
+      "published_at": "2026-11-22T03:06:35+00:00"
+    },
+    {
+      "id": "808120",
+      "title": "The Engineering Manager's role is under attack (again)",
+      "url": "https://www.manager.dev/newsletter/the-engineering-manager-s-role-is-under-attack-again",
+      "author": "fagnerbrack",
+      "points": 45,
+      "comments": 89,
+      "published_at": "2026-11-22T07:01:00+00:00"
+    },
+    {
+      "id": "808709",
+      "title": "Nyx, the Oldest Internet Service Provider",
+      "url": "https://nyx.net/",
+      "author": "o_-_o",
+      "points": 41,
+      "comments": 4,
+      "published_at": "2026-11-22T20:15:59+00:00"
+    },
+    {
+      "id": "808710",
+      "title": "A miniature San Francisco with live buses, planes and boats",
+      "url": "https://smallsf.com/",
+      "author": "dutilh",
+      "points": 40,
+      "comments": 12,
+      "published_at": "2026-11-22T20:33:23+00:00"
+    },
+    {
+      "id": "808794",
+      "title": "AWS got hit by an outage too. You didn't hear about it",
+      "url": "https://www.theregister.com/columnists/2026/11/21/aws-got-hit-by-an-outage-too-heres-why-you-didnt-hear-about-it/5311511",
+      "author": "nephihaha",
+      "points": 40,
+      "comments": 3,
+      "published_at": "2026-11-22T20:50:18+00:00"
+    },
+    {
+      "id": "808858",
+      "title": "Do Not Accept",
+      "url": "https://donotaccept.ai/",
+      "author": "ivanmaeder",
+      "points": 40,
+      "comments": 44,
+      "published_at": "2026-11-22T23:02:20+00:00"
+    },
+    {
+      "id": "808442",
+      "title": "Prisons get OK to jam contraband phones",
+      "url": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
+      "author": "turbocon",
+      "points": 39,
+      "comments": 82,
+      "published_at": "2026-11-22T13:00:52+00:00"
+    },
+    {
+      "id": "808647",
+      "title": "Testing Terraform with AWS Emulator",
+      "url": "https://notes.hatedabamboo.me/terraform-tests-with-aws-emulator/",
+      "author": "meysamazad",
+      "points": 39,
+      "comments": 4,
+      "published_at": "2026-11-22T13:00:36+00:00"
+    },
+    {
+      "id": "808706",
+      "title": "Was software just always too complex for humans?",
+      "url": "https://anil.recoil.org/notes/software-too-complex-for-humans",
+      "author": "nathcd",
+      "points": 39,
+      "comments": 39,
+      "published_at": "2026-11-22T17:32:41+00:00"
+    },
+    {
+      "id": "808856",
+      "title": "The Usefulness of Useless Knowledge [pdf]",
+      "url": "https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf",
+      "author": "hectormauer",
+      "points": 38,
+      "comments": 6,
+      "published_at": "2026-11-22T22:10:58+00:00"
+    },
+    {
+      "id": "808611",
+      "title": "Ask HN: Are the trades a safe career transition?",
+      "url": "https://news.ycombinator.com/item?id=50600771",
+      "author": "Rd6n6",
+      "points": 37,
+      "comments": 68,
+      "published_at": "2026-11-22T15:52:33+00:00"
+    },
+    {
+      "id": "808688",
+      "title": "All Delta Flights Through Atlanta Delayed as Automated System Falters",
+      "url": "https://www.nytimes.com/2026/11/22/us/delta-flight-delays-system-outage.html",
+      "author": "1659447091",
+      "points": 34,
+      "comments": 13,
+      "published_at": "2026-11-22T19:51:46+00:00"
+    },
+    {
+      "id": "808877",
+      "title": "Assume People Are Not Interested in Your Blog Post",
+      "url": "https://danielsada.tech/blog/assume-people-are-not-interested-in-your-blog-post/",
+      "author": "dshacker",
+      "points": 33,
+      "comments": 13,
+      "published_at": "2026-11-22T19:41:30+00:00"
+    },
+    {
+      "id": "808932",
+      "title": "GL.iNet Security Notice 2026-11-20",
+      "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
+      "author": "gregsadetsky",
+      "points": 31,
+      "comments": 11,
+      "published_at": "2026-11-22T23:06:37+00:00"
+    },
+    {
+      "id": "808014",
+      "title": "The Most Popular Car Colors in America",
+      "url": "https://www.iseecars.com/most-popular-car-colors-study",
+      "author": "cisc",
+      "points": 30,
+      "comments": 59,
+      "published_at": "2026-11-22T02:47:18+00:00"
+    },
+    {
+      "id": "807942",
+      "title": "Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes",
+      "url": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
+      "author": "m348e912",
+      "points": 29,
+      "comments": 8,
+      "published_at": "2026-11-22T00:14:05+00:00"
+    },
+    {
+      "id": "808795",
+      "title": "Agent swarm trying to solve P vs. NP",
+      "url": "https://pequalnp.com/",
+      "author": "bananaflag",
+      "points": 29,
+      "comments": 17,
+      "published_at": "2026-11-22T21:53:45+00:00"
+    },
+    {
+      "id": "808699",
+      "title": "Why Are We at the Mercy of the World's Weirdest Men?",
+      "url": "https://www.nytimes.com/2026/11/22/opinion/jensen-huang-ai-ethics-cold-war.html",
+      "author": "bookofjoe",
+      "points": 27,
+      "comments": 5,
+      "published_at": "2026-11-22T20:04:56+00:00"
+    },
+    {
+      "id": "808714",
+      "title": "GLP-1 drugs could have a surprisingly large environmental payoff",
+      "url": "https://theconversation.com/weight-loss-drugs-could-free-up-an-area-of-farmland-larger-than-italy-new-study-291114",
+      "author": "rbanffy",
+      "points": 26,
+      "comments": 17,
+      "published_at": "2026-11-22T21:07:11+00:00"
+    },
+    {
+      "id": "808857",
+      "title": "Invalidity of the Alpoge Proposed Proof of the Riemann Hypothesis",
+      "url": "https://philpapers.org/rec/NIEIOT-2",
+      "author": "chaosprint",
+      "points": 26,
+      "comments": 4,
+      "published_at": "2026-11-22T22:41:33+00:00"
+    },
+    {
+      "id": "808963",
+      "title": "Nespresso's project to reduce grams of coffee per capsule",
+      "url": "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/",
+      "author": "bobbiechen",
+      "points": 25,
+      "comments": 20,
+      "published_at": "2026-11-22T23:57:45+00:00"
+    },
+    {
+      "id": "808696",
+      "title": "C++26 is done (again): November 2026 ISO C++ meeting trip report",
+      "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
+      "author": "dverlaeckt80",
+      "points": 24,
+      "comments": 0,
+      "published_at": "2026-11-22T15:59:59+00:00"
+    },
+    {
+      "id": "808878",
+      "title": "The struggle for freedom: How BSD escaped AT&T licensing",
+      "url": "https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom/",
+      "author": "joonehur",
+      "points": 24,
+      "comments": 7,
+      "published_at": "2026-11-22T21:33:12+00:00"
+    },
+    {
+      "id": "808593",
+      "title": "AI People Are Extremely Rich",
+      "url": "https://www.noahpinion.blog/p/ai-people-are-very-very-very-very",
+      "author": "A_D_E_P_T",
+      "points": 22,
+      "comments": 3,
+      "published_at": "2026-11-22T10:35:49+00:00"
+    },
+    {
+      "id": "808793",
+      "title": "Harvard CS 2881R AI Safety",
+      "url": "https://boazbk.github.io/mltheoryseminar/",
+      "author": "enjoyyourlife",
+      "points": 22,
+      "comments": 1,
+      "published_at": "2026-11-22T18:01:54+00:00"
+    },
+    {
+      "id": "808594",
+      "title": "South Korea education minister resigns over exam cheating scandal",
+      "url": "https://www.bbc.com/news/articles/cw3dgk29d37no",
+      "author": "Betelbuddy",
+      "points": 21,
+      "comments": 5,
+      "published_at": "2026-11-22T13:19:47+00:00"
+    },
+    {
+      "id": "808864",
+      "title": "道琼斯指数期货涨 1.00%，现报 48699.000 点；标普 500 指数期货涨 1.54%，现报 7042.075 点；纳斯达克指数期货涨 2.53%，现报 25762.550 点。",
+      "url": "https://t.me/Financial_Express/3647656",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:32:22+00:00"
+    },
+    {
+      "id": "808866",
+      "title": "权益类产品担当主力，年内新发基金规模突破万亿元大关",
+      "url": "https://t.me/Financial_Express/3647657",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:33:42+00:00"
+    },
+    {
+      "id": "808867",
+      "title": "首批 18 只主动 ETF 今日上市 主动投资迈入“明牌”时代",
+      "url": "https://t.me/Financial_Express/3647658",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:33:42+00:00"
+    },
+    {
+      "id": "808868",
+      "title": "今天，国家数据局、教育部宣布成立全国数据职业教育教学指导委员会，实施数据领域高技能人才集群培养计划等系列行动计划。",
+      "url": "https://t.me/Financial_Express/3647659",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:35:55+00:00"
+    },
+    {
+      "id": "808869",
+      "title": "联合国气候变化安塔利亚大会未就政治决定达成一致",
+      "url": "https://t.me/Financial_Express/3647660",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:37:02+00:00"
+    },
+    {
+      "id": "808870",
+      "title": "超 30 只半导体主题基金月内净值增长逾 10%",
+      "url": "https://t.me/Financial_Express/3647661",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:37:42+00:00"
+    },
+    {
+      "id": "808871",
+      "title": "代币价格下跌之际 特朗普设专属晚宴回馈持币大户",
+      "url": "https://t.me/Financial_Express/3647662",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:38:42+00:00"
+    },
+    {
+      "id": "808872",
+      "title": "美股期货涨幅扩大，纳斯达克 100 指数期货涨超 2.5%，标普 500 指数期货涨 1.6%，道指期货涨 1%。",
+      "url": "https://t.me/Financial_Express/3647663",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:38:44+00:00"
+    },
+    {
+      "id": "808873",
+      "title": "韩国芯片股在盘前交易中下跌，追随上周五美股跌势，三星股票在 Nextrade 盘前交易中下跌 5.6%，SK 海力士下跌 6%。",
+      "url": "https://t.me/Financial_Express/3647664",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:39:40+00:00"
+    },
+    {
+      "id": "808874",
+      "title": "新股提示：傲拓科技今日申购",
+      "url": "https://t.me/Financial_Express/3647665",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:40:22+00:00"
+    },
+    {
+      "id": "808875",
+      "title": "数十国拒绝涉嫌偏袒化石燃料行业的协议 联合国气候谈判破裂",
+      "url": "https://t.me/Financial_Express/3647666",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:41:22+00:00"
+    },
+    {
+      "id": "808876",
+      "title": "近两个月超 7500 亿元借道 ETF 入市 资金流入呈现两大特征",
+      "url": "https://t.me/Financial_Express/3647667",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:42:22+00:00"
+    },
+    {
+      "id": "808879",
+      "title": "从中国电力科学研究院获悉，该院输电研究所牵头研制的架空输电线路零值绝缘子智能化高效诊断机器人近日研制成功。该机器人可在输电线路不停电、运维人员免登塔的工况下，精准定位低阻值零值绝缘子，为超、特高压输电线路安全稳定运行，提供自主可控的新型智能",
+      "url": "https://t.me/Financial_Express/3647668",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:46:22+00:00"
+    },
+    {
+      "id": "808880",
+      "title": "华泰证券港股策略：短期密集压力或已接近峰值",
+      "url": "https://t.me/Financial_Express/3647669",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:46:42+00:00"
+    },
+    {
+      "id": "808881",
+      "title": "巴基斯坦总理谢里夫预计将于 12 月 3 日访问德黑兰",
+      "url": "https://t.me/Financial_Express/3647670",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:46:43+00:00"
+    },
+    {
+      "id": "808882",
+      "title": "本周隔夜逆回购到期 3795 亿元，周三将有 10000 亿元 1 年期 MLF 到期，周三并有 800 亿元期国库现金定存到期。",
+      "url": "https://t.me/Financial_Express/3647671",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:47:42+00:00"
+    },
+    {
+      "id": "808883",
+      "title": "路劲",
+      "url": "https://t.me/Financial_Express/3647672",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:48:02+00:00"
+    },
+    {
+      "id": "808885",
+      "title": "Global ETF Flows — Broad Index Longs Take $1.18B, TQQQ Volume 2.8x",
+      "url": "https://longbridge.cn/news/306405695",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:35:56+00:00"
+    },
+    {
+      "id": "808886",
+      "title": "Zhitong HK Stock Morning Brief | Hang Seng TECH Index Constituents Increase to 50; Shanghai, Shenzhen, and Beijing Exchanges Lower Minimum Margin Ratio for Financing to 80%",
+      "url": "https://longbridge.cn/news/306405879",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:38:02+00:00"
+    },
+    {
+      "id": "808887",
+      "title": "Ford Finally Produces Batteries in the US, While CATL Adopts a New Revenue Model",
+      "url": "https://longbridge.cn/news/306406107",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:38:16+00:00"
+    },
+    {
+      "id": "808888",
+      "title": "Daily Tech News Briefing (November 23)",
+      "url": "https://longbridge.cn/news/306405956",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:39:50+00:00"
+    },
+    {
+      "id": "808889",
+      "title": "GLOBAL MARKETS-US futures bounce while Asia markets brace for AI wipeout",
+      "url": "https://longbridge.cn/news/306406021",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:41:14+00:00"
+    },
+    {
+      "id": "808890",
+      "title": "荷兰近月天然气合约上涨 7.12%，至每兆瓦时 94.76 欧元。",
+      "url": "https://t.me/Financial_Express/3647673",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:50:22+00:00"
+    },
+    {
+      "id": "808891",
+      "title": "荷兰近月天然气期货合约上涨 7.12%，报 94.76 欧元/兆瓦时。",
+      "url": "https://t.me/Financial_Express/3647674",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:50:42+00:00"
+    },
+    {
+      "id": "808892",
+      "title": "苹果一大波低价新品即将来袭 就在明年 2、3 月",
+      "url": "https://t.me/Financial_Express/3647675",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:53:02+00:00"
+    },
+    {
+      "id": "808893",
+      "title": "中信建投：全球封测产业景气上行 BIS 新规下国产先进封装扩产有望加速",
+      "url": "https://t.me/Financial_Express/3647676",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:54:42+00:00"
+    },
+    {
+      "id": "808894",
+      "title": "中信建投制药 2027 年投资策略：出海兑现，结构掘金",
+      "url": "https://t.me/Financial_Express/3647677",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:55:42+00:00"
+    },
+    {
+      "id": "808895",
+      "title": "人民日报：和解和平，中国中东外交政策的基石",
+      "url": "https://t.me/Financial_Express/3647678",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:56:22+00:00"
+    },
+    {
+      "id": "808897",
+      "title": "Lion on the loose in Turkiye sparks fear among residents",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/lion-on-the-loose-in-turkiye-sparks-fear-among-residents?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:40:48+00:00"
+    },
+    {
+      "id": "808898",
+      "title": "中信建投：防御品种当前仍具有较高配置价值",
+      "url": "https://t.me/Financial_Express/3647679",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:58:02+00:00"
+    },
+    {
+      "id": "808899",
+      "title": "巴媒：巴基斯坦总理将于 12 月 3 日赴伊朗出席地区峰会",
+      "url": "https://t.me/Financial_Express/3647680",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:58:22+00:00"
+    },
+    {
+      "id": "808900",
+      "title": "标普 500 指数期货涨 2.00%，现报 7073.750 点；道琼斯指数期货涨 1.29%，现报 48838.000 点；纳斯达克指数期货涨 2.93%，现报 25862.720 点。",
+      "url": "https://t.me/Financial_Express/3647681",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:59:02+00:00"
+    },
+    {
+      "id": "808901",
+      "title": "中信建投：全球模型密集迭代 关注海外算力融资情况",
+      "url": "https://t.me/Financial_Express/3647682",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:59:02+00:00"
+    },
+    {
+      "id": "808902",
+      "title": "纳斯达克指数期货涨 3.00%，现报 25880.820 点；道琼斯指数期货涨 1.32%，现报 48853.000 点；标普 500 指数期货涨 2.04%，现报 7076.773 点。",
+      "url": "https://t.me/Financial_Express/3647683",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:59:22+00:00"
+    },
+    {
+      "id": "808903",
+      "title": "纳指期货涨幅扩大至 3%，标普 500 指数期货涨 2%。",
+      "url": "https://t.me/Financial_Express/3647684",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:59:42+00:00"
+    },
+    {
+      "id": "808920",
+      "title": "Why Apple Is Caught Up in the Slowdown of Google's Search Ad Growth",
+      "url": "https://longbridge.cn/news/306406359",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:43:51+00:00"
+    },
+    {
+      "id": "808921",
+      "title": "CSC: Industry Prosperity on the Rise; Domestic Advanced Packaging Capacity Expansion Expected to Accelerate Under New BIS Regulations",
+      "url": "https://longbridge.cn/news/306406253",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:45:03+00:00"
+    },
+    {
+      "id": "808922",
+      "title": "MiniMax Discloses Cryptanalysis Results from Internal Model, Breaking Records in International Open Challenges",
+      "url": "https://longbridge.cn/news/306406364",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:46:03+00:00"
+    },
+    {
+      "id": "808923",
+      "title": "HTSC HK Stock Strategy: Short-Term Intensive Pressure May Be Near Peak",
+      "url": "https://longbridge.cn/news/306406382",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:47:51+00:00"
+    },
+    {
+      "id": "808924",
+      "title": "Following Successful Starship Recovery, Citi Raises SpaceX Price Target: Launch Lead \"Widening into a 20-Year Gap,\" Starlink to Become Core Value Driver",
+      "url": "https://longbridge.cn/news/306406438",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:51:03+00:00"
+    },
+    {
+      "id": "808925",
+      "title": "\"Stock Connect\": Tracker Fund (02800) Tops the List of Most Actively Traded Stocks in Shenzhen-Hong Kong Stock Connect",
+      "url": "https://longbridge.cn/news/306406787",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:52:00+00:00"
+    },
+    {
+      "id": "808926",
+      "title": "[Shanghai/Shenzhen Stock Connect] CATL Tops List of Most Actively Traded Stocks via Shenzhen Stock Connect",
+      "url": "https://longbridge.cn/news/306406779",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:52:00+00:00"
+    },
+    {
+      "id": "808927",
+      "title": "[What Southbound Funds Are Trading] Net Inflow Exceeds HK$11.8 Billion; Buying Tracker Fund, Selling CNOOC",
+      "url": "https://longbridge.cn/news/306406780",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:52:00+00:00"
+    },
+    {
+      "id": "808928",
+      "title": "Apple to Launch a Wave of New Low-Cost Products Next February and March",
+      "url": "https://longbridge.cn/news/306406583",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:53:57+00:00"
+    },
+    {
+      "id": "808929",
+      "title": "CSC: Defensive Stocks Still Offer High Allocation Value",
+      "url": "https://longbridge.cn/news/306406802",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:59:34+00:00"
+    },
+    {
+      "id": "808964",
+      "title": "Mystery of the red stream in Turkiye",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/mystery-of-the-red-stream-in-turkiye?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:57:58+00:00"
+    },
+    {
+      "id": "808965",
+      "title": "Iran war live: Tankers set ablaze in Hormuz as IRGC warns of unrest threat",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-22T23:59:22+00:00"
+    }
+  ]
+}
