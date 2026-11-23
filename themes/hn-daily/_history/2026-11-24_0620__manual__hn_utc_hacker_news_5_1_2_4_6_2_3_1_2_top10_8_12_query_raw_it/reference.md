@@ -1,0 +1,66 @@
+- 候选池: query_raw_items(source=hackernews, min_points=20, published_after=2026-11-23T00:00:00Z, published_before=2026-11-24T00:00:00Z) = 40 条，全部 hn_points≥20
+- Jensen Huang 回归官方稿: query_raw_items(source=hackernews)[id:812194] = ▲1697，董事会一致投票恢复 Huang 为 CEO，称已获美国政府高层输入、认定无国家安全风险，Colette Kress 任临时 CEO 后回任 CFO
+- Jensen Huang 回归 CNBC: query_raw_items(source=hackernews)[id:812720] = ▲501 💬1715，讨论最充分
+- 国会质疑: query_raw_items(source=hackernews)[id:813178] = ▲47，Congress 称回归"outrageous""Failure of character"
+- 特朗普介入: query_raw_items(source=hackernews)[id:813296] = ▲21，NYT 称特朗普指示推动恢复 Huang
+- Polymarket 内幕: query_raw_items(source=hackernews)[id:813358] = ▲22，两个账户群在 Huang 回归上获利超 $340k
+- GLM-5.4: query_raw_items(source=hackernews)[id:811437] = ▲864 💬307，智谱首个 Loop Transformer 通用编码模型
+- GLM-5.4 评论: fetch_url(Algolia HN item 50609685) = 社区质疑基准测试缺失、推理成本上升、网安能力将被削弱
+- Ladybird alpha: query_raw_items(source=hackernews)[id:812723] = ▲290 💬67；fetch_url(ladybird.org/posts/alpha/) = 自研引擎非 fork，macOS/Linux 可下载，rolling channel，支持 WebDriver/Firefox DevTools 协议
+- 17M Lean: query_raw_items(source=hackernews)[id:810388] = ▲248 💬317；fetch_url(micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/) = 对比 Mathlib 259 个著名定理，Anthropic FLT 证明约 450 倍于人类 60k 行，另有 88m/36m 行 AI 证明
+- XNU Linux: query_raw_items(source=hackernews)[id:809799] = ▲553 💬229；fetch_url(github.com/AFK-surf/xnulinux) = XNU 作为可加载内核模块在 arm64 Linux 运行完整 macOS GUI，无 hypervisor
+- Arm 下架文档: query_raw_items(source=hackernews)[id:813084] = ▲244 💬36；fetch_url(arm.jonpalmisc.com) = Arm 律师要求 12月4日前下架 AArch64 指令集参考站，否则法律行动
+- Apple 下架 FSNotes: query_raw_items(source=hackernews)[id:813072] = ▲190 💬33；fetch_url(github.com/glushchenko/fsnotes/discussions/2056) = 欧盟 DSA 合规下 9 年老应用被下架、支持请求无回应
+- GTA6 行为画像: query_raw_items(source=hackernews)[id:810979] = ▲105 💬76；fetch_url(huijzer.xyz/posts/174/) = 匿名前员工爆料 Take-Two "Lens" 系统构建玩家行为画像，客户含信贷/招聘/广告数据商（可信度存疑）
+- LLM 看电脑: query_raw_items(source=hackernews)[id:813144] = ▲27 💬18；fetch_url(greptile.com/blog/trex-computer-use) = OSWorld 172 任务，GPT-5.5 67.7%、GPT-6.1 Sol 83.8%，截图 vs 无障碍树对比
+- NariQ 量化: query_raw_items(source=hackernews)[id:813071] = ▲50 💬9，Qwen3.8-27B 3-bit 以下量化近 BF16 质量、10GB 文件
+- Gentoo 安全: query_raw_items(source=hackernews)[id:811833] = ▲201 💬106；fetch_url(blogs.gentoo.org/.../the-next-circle-of-security-hell/) = AI 时代漏洞报告泛滥，维护者不堪重负
+- Amodei 游戏论: query_raw_items(source=hackernews)[id:811897] = ▲69 💬79；fetch_url(The Verge) = WSJ 档案称 Amodei 建议用沉浸游戏缓解 AI 失业引发的政治动荡
+- spelunkr.tv: query_raw_items(source=hackernews)[id:809320] = ▲898 💬156；fetch_url(spelunkr.tv) = 用 Internet Archive 遗忘视频搭建的免费电视网
+- nospeaker: query_raw_items(source=hackernews)[id:811957] = ▲222 💬126；fetch_url(github.com/os6/nospeaker) = 用 MacBook 触控板触觉马达 4000 次/秒发声
+
+- 候选池: query_raw_items(source=hackernews, min_points=20, published_after=2026-11-23T00:00:00Z, published_before=2026-11-24T00:00:00Z) = 40 条，全部 hn_points≥20
+- Jensen 回归官方稿: query_raw_items(source=hackernews)[id:812194] = ▲1697，董事会一致投票恢复 Huang 为 CEO，称已获美国政府高层输入、认定无国家安全风险，Colette Kress 任临时 CEO 后回任 CFO
+- Jensen 回归官方稿正文: fetch_url(nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang...) = 成立全独立董事的国家安全与出口管制委员会、新设首席合规官 CCO、独立调查"继续进行到底"、Huang 称为"新工业革命开端"领导公司
+- Jensen 回归 CNBC 讨论: query_raw_items(source=hackernews)[id:812720] = ▲501 💬1715，讨论最充分；fetch_url(Algolia 50611576) = 高赞评论"if there is enough money being made or lost, there are no consequences to your actions"、盘前 +26%
+- 国会质疑: query_raw_items(source=hackernews)[id:813178] = ▲47，Congress 称回归"outrageous""Failure of character"
+- 特朗普介入: query_raw_items(source=hackernews)[id:813296] = ▲21，NYT 称特朗普指示推动恢复 Huang
+- Polymarket 内幕: query_raw_items(source=hackernews)[id:813358] = ▲22，两个账户群在 Huang 回归上获利超 $340k
+- GLM-5.4: query_raw_items(source=hackernews)[id:811437] = ▲864 💬307，智谱首个 Loop Transformer 通用编码模型
+- GLM-5.4 评论: fetch_url(Algolia HN item 50609685) = 高赞评论"没有基准很难说多好，猜测不亮眼否则会公布"、评论指可能因网安能力强化后降基准而回避量化、多条称 GLM-5.3 编码已与 Opus 5.5 几乎无差别
+- 17M Lean: query_raw_items(source=hackernews)[id:810388] = ▲248 💬317；fetch_url(micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/) = Mathlib 259 个著名定理均远小于 17m；Anthropic FLT 证明约 450 倍于人类 60k 行；另有 88m(Qiuzhen-CFSG)/36m(LeanBridge)/27m(anthropics/fermats-last-theorem) 行 AI 证明
+- Ladybird alpha: query_raw_items(source=hackernews)[id:812723] = ▲290 💬67；fetch_url(ladybird.org/posts/alpha/) = 自研引擎非 fork，macOS/Linux 可下载，rolling channel，支持 WebDriver/Firefox DevTools 协议，明确"不承诺安全"
+- XNU Linux: query_raw_items(source=hackernews)[id:809799] = ▲553 💬229；fetch_url(github.com/AFK-surf/xnulinux) = XNU 作为可加载内核模块在 arm64 Linux 运行完整 macOS GUI，无 hypervisor，直接在 DGX Spark 上跑 macOS 27
+- Arm 下架文档: query_raw_items(source=hackernews)[id:813084] = ▲244 💬36；fetch_url(arm.jonpalmisc.com) = Arm 律师要求 12月4日前下架 AArch64 指令集参考站，否则法律行动
+- Gentoo 安全: query_raw_items(source=hackernews)[id:811833] = ▲201 💬106；fetch_url(blogs.gentoo.org/.../the-next-circle-of-security-hell/) = AI 时代漏洞报告泛滥、bug bounty 因 slop 大量停办、维护者不堪重负
+- GTA6 行为画像: query_raw_items(source=hackernews)[id:810979] = ▲105 💬76；fetch_url(huijzer.xyz/posts/174/) = 匿名前员工爆料 Take-Two "Lens" 系统构建玩家心理行为画像，客户含信贷/招聘/广告数据商（可信度存疑，源自 X 匿名帖）
+- LLM 看电脑: query_raw_items(source=hackernews)[id:813144] = ▲27 💬18；fetch_url(greptile.com/blog/trex-computer-use) = OSWorld 172 任务，GPT-5.5 67.7%、GPT-6.1 Sol 83.8%、GPT-4o 10.5%，截图 vs 无障碍树 vs ID 点击三种设置对比
+- NariQ 量化: query_raw_items(source=hackernews)[id:813071] = ▲50 💬9，Qwen3.8-27B 3-bit 以下量化近 BF16 质量、10GB 文件
+- spelunkr.tv: query_raw_items(source=hackernews)[id:809320] = ▲898 💬156；fetch_url(spelunkr.tv) = 用 Internet Archive 遗忘视频搭建的免费电视网
+- Amodei 游戏论: query_raw_items(source=hackernews)[id:811897] = ▲69 💬79；fetch_url(The Verge) = WSJ 档案称 Amodei 建议用沉浸游戏缓解 AI 失业引发的政治动荡；fetch_url(Algolia 50610830) = 高赞评论"games are the Soma (Brave new World)"
+- LeCun 批 Dario: query_raw_items(source=hackernews)[id:813004] = ▲68 💬20，Yann LeCun 转推称 Dario 炒作危险以让 OSS 模型非法、自己维持控制
+
+
+- kevin_kelly 视角引用（战略远见 12 筛子框架，2026-11-23 窗口）：
+- Nvidia 复职=事件非趋势: query_raw_items(source=hackernews)[id:812194] = ▲1697/正文569分，治理复职，12筛子几乎全不匹配
+- GLM-5.4=知化变异: query_raw_items(source=hackernews)[id:811437] = ▲864/正文41分，Loop Transformer，营销热度背离
+- NariQ=知化遗传: query_raw_items(source=hackernews)[id:813071] = ▲50，3-bit量化27B进10GB，使用+共享方向
+- 17M Lean=形成结构层: query_raw_items(source=hackernews)[id:810388] = ▲248/正文22分，验证层成新瓶颈
+- Gentoo 安全=过滤层: query_raw_items(source=hackernews)[id:811833] = ▲201，生成成本降/验证成本未降
+- Amodei 游戏论=旧范式焦虑: query_raw_items(source=hackernews)[id:811897] = ▲69，事件非趋势
+- Greptile OSWorld=知化+互动: query_raw_items(source=hackernews)[id:813144] = ▲27，界面表征决定Agent上限
+- XNU Linux=重混: query_raw_items(source=hackernews)[id:809799] = ▲553，XNU+Linux重新组合
+- LeCun 批 Dario=过滤权争夺: query_raw_items(source=hackernews)[id:813004] = ▲68，谁定义安全谁定义门槛
+- Spelunkr.tv=重混+共享: query_raw_items(source=hackernews)[id:809320] = ▲898，被动策展反算法过滤
+
+
+- tech_generalist 收口引用（市场定价/财务/估值/一致预期维度，2026-11-23）：
+- NVDA 单日涨幅与成交额: query_longbridge_by_route(news/company, symbol=NVDA.US) = 11-23 涨 31.48%，成交额 1278 亿美元，年初至今 -11.3%
+- 美股大盘与资金流反应: query_longbridge_by_route(news/company, symbol=NVDA.US) = 纳指 +7%、标普 +4.7%（一年多来最佳单日），美元走强，资金从消费防御股（Tyson/Kroger/General Mills）流向 AI
+- Lutnick 未参与决策: query_longbridge_by_route(news/company, symbol=NVDA.US) = 11-23 16:55 UTC 报道商务部长 Lutnick 未参与复职决定（与 NYT 称特朗普推动形成张力）
+- NVDA FY2027Q3 营收: query_longbridge_by_route(fundamental/consensus, symbol=NVDA.US) = 实际 1158.44 亿 vs 预期 1087.11 亿（Beat 6.6%）
+- NVDA FY2027Q3 EPS: query_longbridge_by_route(fundamental/consensus, symbol=NVDA.US) = 实际 2.70 vs 预期 2.46（Beat 9.8%），GAAP 净利润 652.87 亿
+- NVDA FY2027Q4 一致预期: query_longbridge_by_route(fundamental/consensus, symbol=NVDA.US) = 营收 1308.14 亿、EPS 2.8628（未发布）
+- NVDA 估值 PE: query_longbridge_by_route(fundamental/valuation/pe, symbol=NVDA.US) = 当前 28.65，历史 low 28.65 / median 34.12 / high 44.68
+- Arm 下架 AArch64 参考站: query_raw_items(source=hackernews)[id:813084] = ▲244 💬36，Arm 律师要求 12-04 前下架，否则法律行动
+- Apple 借 DSA 下架 FSNotes: query_raw_items(source=hackernews)[id:813072] = ▲190 💬33，欧盟 DSA 合规下 9 年老应用被下架、支持请求无回应
