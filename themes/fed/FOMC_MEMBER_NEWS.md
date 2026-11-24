@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-23 21:00 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
+> 生成时间：2026-11-24 20:45 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
@@ -31,6 +31,10 @@
 数据缺失（近 45 天无可靠归属的讲话/表态）
 
 ## 凯文·沃什（Kevin Warsh）
+
+- **The More AI Booms, the Harder It Is for the Federal Reserve: Warsh Faces Dual Test of Fighting Inflation and Preserving Growth**（2026-11-24 13:04）
+  来源: longbridge | 正文长度: 641 字 | 立场: 鹰 +0.57
+  片段: …The More AI Booms, the Harder It Is for the Federal Reserve: Warsh Faces Dual Test of Fighting Inflation and Preserving Growth AI investment is driving US econo
 
 - **美联储推演 AI 对经济潜在影响 主席沃什称涵盖多重情景**（2026-11-16 17:35）
   来源: federalreserve.gov / longbridge / telegram:Financial_Express（同日 7 条已合并） | 正文长度: 274 字
@@ -132,21 +136,25 @@
 
 ## 约翰·威廉姆斯（John C. Williams）
 
+- **Williams Signals Inflation Fight Continues; Market Has Fully Priced in December 25bp Rate Hike**（2026-11-24 13:25）
+  来源: longbridge | 正文长度: 549 字 | 立场: 鹰 +0.69
+  片段: …Williams Signals Inflation Fight Continues; Market Has Fully Priced in December 25bp Rate Hike New York Fed President Williams stated that the battle against in
+
+- **美联储威廉姆斯表示，高通胀正被证明具有持续性。**（2026-11-23 21:01）
+  来源: longbridge / telegram:Financial_Express（同日 8 条已合并） | 正文长度: 23 字 | 立场: 鹰 +0.47
+  片段: …美联储官员威廉姆斯表示，高通胀正被证明具有持续性。这一表态凸显了物价压力的顽固性，可能加剧市场对美联储维持紧缩货币政策及利率路径的预期。
+
 - **美联储威廉姆斯在纽约联储活动上讲话。**（2026-11-18 19:37）
   来源: telegram:Financial_Express（同日 2 条已合并） | 正文长度: 18 字
   片段: …美联储威廉姆斯在纽约联储活动上发表讲话。现有内容未披露其具体政策立场、经济数据或市场相关表态，因此暂无可用于投资判断的实质性事实。
 
 - **New York Fed President Williams Opposes Aggressive Interest Rate Hikes but Emphasizes Need for Further Monetary Tightening**（2026-11-17 22:22）
-  来源: longbridge / telegram:Financial_Express（同日 6 条已合并） | 正文长度: 563 字 | 立场: 鹰 +0.42
+  来源: longbridge / telegram:Financial_Express（同日 7 条已合并） | 正文长度: 563 字 | 立场: 鹰 +0.46
   片段: …New York Fed President Williams opposes aggressive interest rate hikes but says further monetary tightening is needed because the U.S. economy remains strong an
 
 - **Fed's Williams says central bank has 'work to do' to get inflation back on target**（2026-11-13 00:05）
   来源: longbridge / telegram:Financial_Express（同日 3 条已合并） | 正文长度: 81 字 | 立场: 鹰 +0.55
   片段: …Fed's Williams says central bank has 'work to do' to get inflation back on target
-
-- **美联储威廉姆斯：通胀水平过高 持续时间过长**（2026-11-06 09:38）
-  来源: telegram:Financial_Express（同日 3 条已合并） | 正文长度: 193 字 | 立场: 鹰 +0.70
-  片段: …美联储威廉姆斯：通胀水平过高 持续时间过长 金十数据 11 月 6 日讯，美联储威廉姆斯最新发表讲话：“目前美国劳动力市场异常稳定且稳健。美国经济韧性惊人，增长有所增强。当下美国的通胀水平过高，且持续时间过长，必须及时将通胀率降至 2%。能源价格正以预期的方式体现在机票价格中，我们还已看到人工智能对芯片等价格的有限影响
 
 ## 安娜·保尔森（Anna Paulson）
 
