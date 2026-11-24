@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-11-24T22:42:54.673792+00:00",
+  "window": {
+    "after": "2026-11-24T00:00:00+00:00",
+    "before": "2026-11-25T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "815421",
+      "title": "2035 Came Early",
+      "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+      "author": "setheron",
+      "points": 915,
+      "comments": 347,
+      "published_at": "2026-11-24T06:30:33+00:00"
+    },
+    {
+      "id": "816708",
+      "title": "LLM agents work for their parent companies, not for you",
+      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+      "author": "surprisetalk",
+      "points": 797,
+      "comments": 337,
+      "published_at": "2026-11-24T12:40:15+00:00"
+    },
+    {
+      "id": "814354",
+      "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
+      "url": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
+      "author": "DeepLogin",
+      "points": 678,
+      "comments": 314,
+      "published_at": "2026-11-24T02:27:02+00:00"
+    },
+    {
+      "id": "816461",
+      "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
+      "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/",
+      "author": "oska",
+      "points": 456,
+      "comments": 263,
+      "published_at": "2026-11-24T11:13:55+00:00"
+    },
+    {
+      "id": "814860",
+      "title": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
+      "url": "https://github.com/ItsNotRexed/Leonida/issues",
+      "author": "smuhakg",
+      "points": 311,
+      "comments": 558,
+      "published_at": "2026-11-24T02:08:09+00:00"
+    },
+    {
+      "id": "816784",
+      "title": "Quad9 pulled their DNS service from France",
+      "url": "https://quad9.net/news/blog/quad9-service-deactivation-in-france/",
+      "author": "farrokhi",
+      "points": 280,
+      "comments": 150,
+      "published_at": "2026-11-24T08:33:14+00:00"
+    },
+    {
+      "id": "816674",
+      "title": "Who in Washington owns and trades Nvidia stock",
+      "url": "https://www.kadoa.com/congress/insights/trump-nvidia",
+      "author": "hubraumhugo",
+      "points": 275,
+      "comments": 158,
+      "published_at": "2026-11-24T11:51:05+00:00"
+    },
+    {
+      "id": "816836",
+      "title": "Anthropic Breaks Below $83 IPO Price in Premarket Trading",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+      "author": "Betelbuddy",
+      "points": 235,
+      "comments": 495,
+      "published_at": "2026-11-24T13:23:47+00:00"
+    },
+    {
+      "id": "814948",
+      "title": "India's opposition storms Meta's offices to get its Instagram accounts back",
+      "url": "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html",
+      "author": "thisislife2",
+      "points": 227,
+      "comments": 106,
+      "published_at": "2026-11-24T06:28:04+00:00"
+    },
+    {
+      "id": "815126",
+      "title": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean in Less Than 10 Years",
+      "url": "https://www.phoronix.com/review/amd-epyc-9006-7601",
+      "author": "zdw",
+      "points": 214,
+      "comments": 117,
+      "published_at": "2026-11-24T05:15:22+00:00"
+    },
+    {
+      "id": "817085",
+      "title": "GTA 6 Running on Windows",
+      "url": "https://twitter.com/raul_bs3/status/2125213756238291075",
+      "author": "andrem",
+      "points": 206,
+      "comments": 224,
+      "published_at": "2026-11-24T13:19:31+00:00"
+    },
+    {
+      "id": "816516",
+      "title": "Worshipping at the Altar of Brendan Gregg",
+      "url": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
+      "author": "kqr",
+      "points": 198,
+      "comments": 32,
+      "published_at": "2026-11-24T10:50:14+00:00"
+    },
+    {
+      "id": "814635",
+      "title": "Drone Maps of Salvage Yards",
+      "url": "https://salvageyarddrone.wordpress.com/",
+      "author": "uptrails",
+      "points": 162,
+      "comments": 63,
+      "published_at": "2026-11-24T04:00:28+00:00"
+    },
+    {
+      "id": "814525",
+      "title": "Making a dumb TV just smart enough",
+      "url": "https://qsantos.fr/2026/11/19/making-a-dumb-tv-just-smart-enough/",
+      "author": "andai",
+      "points": 160,
+      "comments": 47,
+      "published_at": "2026-11-24T02:46:54+00:00"
+    },
+    {
+      "id": "817527",
+      "title": "Top MIT Physicist: Anthropic Staff Openly Talk About 'Taking over the World'",
+      "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
+      "author": "mikhael",
+      "points": 152,
+      "comments": 79,
+      "published_at": "2026-11-24T17:10:45+00:00"
+    },
+    {
+      "id": "817318",
+      "title": "Tidal Bans AI-Generated Music",
+      "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+      "author": "theanonymousone",
+      "points": 148,
+      "comments": 105,
+      "published_at": "2026-11-24T16:12:38+00:00"
+    },
+    {
+      "id": "814478",
+      "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
+      "url": "https://wgna.com/car-bill-extra-fees/",
+      "author": "binarymax",
+      "points": 145,
+      "comments": 57,
+      "published_at": "2026-11-24T02:26:23+00:00"
+    },
+    {
+      "id": "816587",
+      "title": "Just a Few Bugs",
+      "url": "https://www.justafewbugs.xyz/",
+      "author": "jjjegly",
+      "points": 131,
+      "comments": 43,
+      "published_at": "2026-11-24T09:47:59+00:00"
+    },
+    {
+      "id": "817387",
+      "title": "Cyberattack campaign compromising Check Point servers across 22 organizations",
+      "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+      "author": "louiereederson",
+      "points": 131,
+      "comments": 44,
+      "published_at": "2026-11-24T16:32:17+00:00"
+    },
+    {
+      "id": "817654",
+      "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+      "url": "https://news.ycombinator.com/item?id=50630809",
+      "author": "weli",
+      "points": 116,
+      "comments": 61,
+      "published_at": "2026-11-24T16:45:44+00:00"
+    },
+    {
+      "id": "814165",
+      "title": "Alcohol use reduces efficacy of immunotherapy by disrupting antitumor immunity",
+      "url": "https://www.science.org/doi/10.1126/scisignal.aef1375",
+      "author": "gumby",
+      "points": 97,
+      "comments": 73,
+      "published_at": "2026-11-24T00:53:46+00:00"
+    },
+    {
+      "id": "814574",
+      "title": "Declare is a UI language for you and your AI",
+      "url": "https://davidtemkin.github.io/declarelang/",
+      "author": "ilamont",
+      "points": 97,
+      "comments": 83,
+      "published_at": "2026-11-24T02:36:56+00:00"
+    },
+    {
+      "id": "817386",
+      "title": "Jetty Pro",
+      "url": "http://hypercritical.co/2026/11/23/jetty-pro",
+      "author": "zdw",
+      "points": 93,
+      "comments": 37,
+      "published_at": "2026-11-24T16:23:02+00:00"
+    },
+    {
+      "id": "817214",
+      "title": "Anthropic is below its IPO price",
+      "url": "https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa",
+      "author": "novaRom",
+      "points": 90,
+      "comments": 85,
+      "published_at": "2026-11-24T14:41:15+00:00"
+    },
+    {
+      "id": "815735",
+      "title": "I'm not excited about tech anymore",
+      "url": "https://www.coryd.dev/posts/2026/im-not-excited-about-tech-anymore",
+      "author": "mikez302",
+      "points": 82,
+      "comments": 94,
+      "published_at": "2026-11-24T07:46:12+00:00"
+    },
+    {
+      "id": "816379",
+      "title": "Jevons Paradox in AI: Cheaper Tokens Won't Pay for Capex",
+      "url": "https://philippdubach.com/posts/cheaper-ai-tokens-wont-pay-for-capex/",
+      "author": "DonAtimator",
+      "points": 77,
+      "comments": 37,
+      "published_at": "2026-11-24T09:39:50+00:00"
+    },
+    {
+      "id": "817611",
+      "title": "OpenAI reveals they solved VP ≠ VNP before Anthropic",
+      "url": "https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026",
+      "author": "iamronaldo",
+      "points": 74,
+      "comments": 72,
+      "published_at": "2026-11-24T18:55:12+00:00"
+    },
+    {
+      "id": "817655",
+      "title": "What Cloudflare Doesn't Tell You",
+      "url": "https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you/",
+      "author": "fishcharlie",
+      "points": 71,
+      "comments": 40,
+      "published_at": "2026-11-24T19:03:55+00:00"
+    },
+    {
+      "id": "817761",
+      "title": "Ternary Bonsai 2.5 27B",
+      "url": "https://prismml.com/news/bonsai-2-5-27b",
+      "author": "b0m",
+      "points": 65,
+      "comments": 12,
+      "published_at": "2026-11-24T20:08:03+00:00"
+    },
+    {
+      "id": "814411",
+      "title": "The Power of GraphQL, Without GraphQL",
+      "url": "https://cobalt27.dev/",
+      "author": "Shoetp",
+      "points": 61,
+      "comments": 46,
+      "published_at": "2026-11-24T00:03:59+00:00"
+    },
+    {
+      "id": "817526",
+      "title": "Microsoft declares 'Code Red' after historic outage, internal memos show",
+      "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
+      "author": "thm",
+      "points": 60,
+      "comments": 46,
+      "published_at": "2026-11-24T17:07:41+00:00"
+    },
+    {
+      "id": "817691",
+      "title": "Canada's median health-care wait time hits 30.7 weeks–longest ever recorded",
+      "url": "https://www.fraserinstitute.org/studies/waiting-your-turn-wait-times-for-health-care-in-canada-2026",
+      "author": "nradov",
+      "points": 60,
+      "comments": 73,
+      "published_at": "2026-11-24T19:00:26+00:00"
+    },
+    {
+      "id": "817385",
+      "title": "Ex-Nvidia partner Megaspeed hit with U.S. Commerce Department export ban",
+      "url": "https://www.upi.com/Top_News/US/2026/11/24/NVIDIA-partner-Megaspeed/1701795520063/",
+      "author": "nephihaha",
+      "points": 59,
+      "comments": 32,
+      "published_at": "2026-11-24T16:08:29+00:00"
+    },
+    {
+      "id": "814412",
+      "title": "WSJ Editorial: Restoring Huang as CEO will have major NatSec and political costs",
+      "url": "https://www.wsj.com/opinion/nvidia-jensen-huang-donald-trump-130e644c",
+      "author": "tedd4u",
+      "points": 57,
+      "comments": 27,
+      "published_at": "2026-11-24T02:11:52+00:00"
+    },
+    {
+      "id": "817591",
+      "title": "“Pervert glasses\" named word of the year by Macquarie Dictionary",
+      "url": "https://www.macquariedictionary.com.au/macquarie-dictionary-word-of-the-year-for-2026/",
+      "author": "dvh",
+      "points": 57,
+      "comments": 38,
+      "published_at": "2026-11-24T18:21:01+00:00"
+    },
+    {
+      "id": "814861",
+      "title": "Rune: Rust VM for Emacs",
+      "url": "https://github.com/CeleritasCelery/rune",
+      "author": "whacked_new",
+      "points": 56,
+      "comments": 18,
+      "published_at": "2026-11-24T02:30:47+00:00"
+    },
+    {
+      "id": "817384",
+      "title": "Splitting USB-C: USB 3 and USB 2 on One Port",
+      "url": "https://www.frankchiarulli.com/blog/splitting-usb-c/",
+      "author": "fcjr",
+      "points": 50,
+      "comments": 27,
+      "published_at": "2026-11-24T14:54:10+00:00"
+    },
+    {
+      "id": "817470",
+      "title": "How to Make a Lovable City",
+      "url": "https://www.worksinprogress.news/p/how-to-make-a-lovable-city",
+      "author": "crescit_eundo",
+      "points": 43,
+      "comments": 7,
+      "published_at": "2026-11-24T16:19:55+00:00"
+    },
+    {
+      "id": "814414",
+      "title": "Americans Trust Neither Republicans nor Democrats to Protect Free Speech",
+      "url": "https://reason.com/2026/11/20/americans-trust-neither-republicans-nor-democrats-to-protect-free-speech/",
+      "author": "arunc",
+      "points": 42,
+      "comments": 6,
+      "published_at": "2026-11-24T02:21:41+00:00"
+    },
+    {
+      "id": "816378",
+      "title": "Aristotle Formally Verifies Celeste Speedrun Optimality",
+      "url": "https://www.harmonic.fun/news/celeste-classic-speedrun/",
+      "author": "tachim",
+      "points": 41,
+      "comments": 0,
+      "published_at": "2026-11-24T02:05:12+00:00"
+    },
+    {
+      "id": "817692",
+      "title": "Grafana 12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3.2 (multiple CVEs)",
+      "url": "https://grafana.com/grafana/download",
+      "author": "petecooper",
+      "points": 40,
+      "comments": 7,
+      "published_at": "2026-11-24T19:23:44+00:00"
+    },
+    {
+      "id": "814308",
+      "title": "You Can Seize Everything (The U.S. is reviving pirate law)",
+      "url": "https://www.npr.org/2026/11/20/nx-s1-6049085/iran-oil-tanker-prize-law-court",
+      "author": "CharlesW",
+      "points": 39,
+      "comments": 4,
+      "published_at": "2026-11-24T00:19:37+00:00"
+    },
+    {
+      "id": "817313",
+      "title": "A training engine for your local model, using your idle compute",
+      "url": "https://github.com/sous-labs/songe",
+      "author": "bluepeter",
+      "points": 39,
+      "comments": 4,
+      "published_at": "2026-11-24T15:03:40+00:00"
+    },
+    {
+      "id": "817438",
+      "title": "The KL Divergence Is Never Negative, Except in PyTorch",
+      "url": "https://arxiv.org/abs/2611.30835",
+      "author": "Anon84",
+      "points": 36,
+      "comments": 5,
+      "published_at": "2026-11-24T15:50:22+00:00"
+    },
+    {
+      "id": "817875",
+      "title": "Working with AI",
+      "url": "https://www.anthropic.com/research/working-with-ai",
+      "author": "kagaherk",
+      "points": 35,
+      "comments": 29,
+      "published_at": "2026-11-24T21:07:38+00:00"
+    },
+    {
+      "id": "817861",
+      "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+      "url": "https://news.ycombinator.com/item?id=50634426",
+      "author": "harshithl1777",
+      "points": 34,
+      "comments": 15,
+      "published_at": "2026-11-24T20:44:15+00:00"
+    },
+    {
+      "id": "817552",
+      "title": "Show HN: Mason – a lightweight Postgres read-replica, built on columnar storage",
+      "url": "https://masondata.ai/",
+      "author": "tagspace",
+      "points": 33,
+      "comments": 3,
+      "published_at": "2026-11-24T16:11:52+00:00"
+    },
+    {
+      "id": "817843",
+      "title": "From CUDA and Jax to TorchTPU: Lessons from a Cayley Graph Solver",
+      "url": "https://andlukyane.com/blog/cayley-graphs-and-torchtpu",
+      "author": "Artgor",
+      "points": 33,
+      "comments": 0,
+      "published_at": "2026-11-24T19:40:43+00:00"
+    },
+    {
+      "id": "817916",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "author": "acossta",
+      "points": 31,
+      "comments": 2,
+      "published_at": "2026-11-24T21:02:22+00:00"
+    },
+    {
+      "id": "816553",
+      "title": "Hacking radiators",
+      "url": "https://qsantos.fr/2026/11/20/hacking-radiators-for-fun-and-no-profit/",
+      "author": "andai",
+      "points": 29,
+      "comments": 13,
+      "published_at": "2026-11-24T02:56:41+00:00"
+    },
+    {
+      "id": "817749",
+      "title": "Compiling web applications into verified operations for AI agents",
+      "url": "https://protocolis.co/paper/",
+      "author": "vahagnb",
+      "points": 29,
+      "comments": 8,
+      "published_at": "2026-11-24T19:12:02+00:00"
+    },
+    {
+      "id": "817876",
+      "title": "An unclassified CIA system was breached in a cyberattack",
+      "url": "https://apnews.com/article/cia-cyberattack-unclassified-system-bfa6d3b02e3b0e2779dfb613c900bd77",
+      "author": "armcat",
+      "points": 28,
+      "comments": 3,
+      "published_at": "2026-11-24T21:24:27+00:00"
+    },
+    {
+      "id": "815734",
+      "title": "Army invokes emergency powers to detonate lead in Iowa, bypass court order",
+      "url": "https://www.yahoo.com/news/us/articles/iowa-detonation-lead-proceed-under-163603593.html",
+      "author": "gmays",
+      "points": 25,
+      "comments": 1,
+      "published_at": "2026-11-24T03:44:20+00:00"
+    },
+    {
+      "id": "815250",
+      "title": "VP ≠ VNP over Every Field [pdf]",
+      "url": "https://github.com/anthropics/formal-math/blob/vp-vnp/vp-vnp/paper.pdf",
+      "author": "petrosagg",
+      "points": 24,
+      "comments": 9,
+      "published_at": "2026-11-24T07:38:50+00:00"
+    },
+    {
+      "id": "817931",
+      "title": "Heart attack and stroke risk detectable decades in advance",
+      "url": "https://www.ed.ac.uk/news/heart-attack-and-stroke-risk-detectable-decades-in-advance",
+      "author": "gmays",
+      "points": 24,
+      "comments": 4,
+      "published_at": "2026-11-24T21:51:21+00:00"
+    },
+    {
+      "id": "816110",
+      "title": "Google Chrome dev team declares bug report bankruptcy",
+      "url": "https://blog.plover.com/2026/11/18/#bug-reports",
+      "author": "AndrewDucker",
+      "points": 23,
+      "comments": 13,
+      "published_at": "2026-11-24T09:56:08+00:00"
+    },
+    {
+      "id": "817437",
+      "title": "Nvidia board's Huang reversal raises doubts about independence, critics say",
+      "url": "https://www.reuters.com/legal/transactional/nvidia-boards-huang-reversal-raises-doubts-about-independence-critics-say-2026-11-24/",
+      "author": "onemoresoop",
+      "points": 22,
+      "comments": 6,
+      "published_at": "2026-11-24T15:28:23+00:00"
+    },
+    {
+      "id": "816015",
+      "title": "Trump made up to $15M on Nvidia shares after Huang's return",
+      "url": "https://www.ft.com/content/67b0a070-c2a9-4229-885a-383cca657763",
+      "author": "JumpCrisscross",
+      "points": 21,
+      "comments": 3,
+      "published_at": "2026-11-24T02:56:44+00:00"
+    },
+    {
+      "id": "817285",
+      "title": "Anthropic falls below $83 IPO price in Swift reversal after record listing",
+      "url": "https://www.reuters.com/business/anthropic-breaks-below-83-ipo-price-debut-rally-unravels-2026-11-24/",
+      "author": "thm",
+      "points": 21,
+      "comments": 1,
+      "published_at": "2026-11-24T15:15:50+00:00"
+    },
+    {
+      "id": "817573",
+      "title": "Amazon faces FAA probe after delivery drone strikes fiber cable and garage",
+      "url": "https://www.cnbc.com/2026/11/23/amazon-drone-crash-michigan-faa-investigation.html",
+      "author": "ilamont",
+      "points": 21,
+      "comments": 11,
+      "published_at": "2026-11-24T16:16:10+00:00"
+    },
+    {
+      "id": "817748",
+      "title": "Jensen Huang Disclosed More Affairs to Board Before Reinstatement, Report Says",
+      "url": "https://www.forbes.com/sites/siladityaray/2026/11/24/nvidia-ceo-jensen-huang-disclosed-more-affairs-to-board-before-reinstatement-report-says/",
+      "author": "realjensenhuang",
+      "points": 20,
+      "comments": 13,
+      "published_at": "2026-11-24T18:26:29+00:00"
+    },
+    {
+      "id": "817878",
+      "title": "美联储 12 月加息 25 个基点的概率为 97.4%",
+      "url": "https://t.me/Financial_Express/3654076",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:01:42+00:00"
+    },
+    {
+      "id": "817879",
+      "title": "沙特领导的联军对也门荷台达港发出疏散警告。",
+      "url": "https://t.me/Financial_Express/3654077",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:01:42+00:00"
+    },
+    {
+      "id": "817880",
+      "title": "乌匈就能源和基础设施合作达成协议",
+      "url": "https://t.me/Financial_Express/3654078",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:02:02+00:00"
+    },
+    {
+      "id": "817891",
+      "title": "波音将额外为美国空军建造 15 架 KC-46A 加油机",
+      "url": "https://t.me/Financial_Express/3654079",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:04:43+00:00"
+    },
+    {
+      "id": "817892",
+      "title": "波音(BA.N)将额外为美国空军建造 15 架 KC-46A 加油机。",
+      "url": "https://t.me/Financial_Express/3654080",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:05:02+00:00"
+    },
+    {
+      "id": "817893",
+      "title": "波音盘后股价上涨 0.25%。",
+      "url": "https://t.me/Financial_Express/3654081",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:05:03+00:00"
+    },
+    {
+      "id": "817894",
+      "title": "神二十四航天员穆罕默德·齐尚·阿里进入飞船返回舱",
+      "url": "https://t.me/Financial_Express/3654082",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:05:22+00:00"
+    },
+    {
+      "id": "817895",
+      "title": "神二十四航天员汤洪波进入飞船返回舱",
+      "url": "https://t.me/Financial_Express/3654083",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:09:42+00:00"
+    },
+    {
+      "id": "817896",
+      "title": "美国联邦航空管理局表示，芝加哥奥黑尔机场的地面停飞令已解除。",
+      "url": "https://t.me/Financial_Express/3654084",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:10:02+00:00"
+    },
+    {
+      "id": "817897",
+      "title": "美国联邦航空管理局表示，飞往奥黑尔机场的航班平均延误 47 分钟。",
+      "url": "https://t.me/Financial_Express/3654085",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:10:02+00:00"
+    },
+    {
+      "id": "817898",
+      "title": "据航班追踪平台 Flight Radar",
+      "url": "https://t.me/Financial_Express/3654086",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:12:42+00:00"
+    },
+    {
+      "id": "817899",
+      "title": "奇富科技",
+      "url": "https://t.me/Financial_Express/3654087",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:13:22+00:00"
+    },
+    {
+      "id": "817903",
+      "title": "胡塞武装",
+      "url": "https://t.me/Financial_Express/3654088",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:14:02+00:00"
+    },
+    {
+      "id": "817904",
+      "title": "中方强调应妥善使用和治理新兴科技",
+      "url": "https://t.me/Financial_Express/3654089",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:15:22+00:00"
+    },
+    {
+      "id": "817905",
+      "title": "美国国家航空航天局授予约翰斯·霍普金斯应用物理实验室一份价值 3930 万美元的 SR-1 项目合同。",
+      "url": "https://t.me/Financial_Express/3654090",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:17:02+00:00"
+    },
+    {
+      "id": "817906",
+      "title": "巴克莱",
+      "url": "https://t.me/Financial_Express/3654091",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:20:22+00:00"
+    },
+    {
+      "id": "817907",
+      "title": "也门荷台达港遇袭。",
+      "url": "https://t.me/Financial_Express/3654092",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:20:24+00:00"
+    },
+    {
+      "id": "817908",
+      "title": "巴克莱",
+      "url": "https://t.me/Financial_Express/3654093",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:20:42+00:00"
+    },
+    {
+      "id": "817909",
+      "title": "巴克莱",
+      "url": "https://t.me/Financial_Express/3654094",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:22:22+00:00"
+    },
+    {
+      "id": "817910",
+      "title": "韩国首尔地铁工会取消原定罢工。",
+      "url": "https://t.me/Financial_Express/3654095",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:22:42+00:00"
+    },
+    {
+      "id": "817913",
+      "title": "Strategy sells $176M in MSTR shares for STRC buybacks – What’s behind the shift?",
+      "url": "https://longbridge.cn/news/306687649",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:05:06+00:00"
+    },
+    {
+      "id": "817914",
+      "title": "PayPal clarifies incoming CFO Claire Bramley’s signing bonus is $6 million",
+      "url": "https://longbridge.cn/news/306688967",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:16:50+00:00"
+    },
+    {
+      "id": "817915",
+      "title": "技术故障频发引起美国人恐慌 末日避难物资价格飙升",
+      "url": "https://t.me/Financial_Express/3654096",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:26:43+00:00"
+    },
+    {
+      "id": "817917",
+      "title": "8000 亿元 MLF+5000 亿元 7 天期逆回购 央行组合操作呵护跨月流动性",
+      "url": "https://t.me/Financial_Express/3654097",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:30:02+00:00"
+    },
+    {
+      "id": "817918",
+      "title": "周三财经信息提醒（以下均为北京时间）",
+      "url": "https://t.me/Financial_Express/3654098",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:31:22+00:00"
+    },
+    {
+      "id": "817920",
+      "title": "Nvidia Can 'Spark' Bitcoin Rally in 2027, Expert Claims. The Fed May Disagree.",
+      "url": "https://longbridge.cn/news/306690334",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:04:06+00:00"
+    },
+    {
+      "id": "817921",
+      "title": "Broadridge Financial Solutions Inc. Stock Outperforms Competitors On Strong Trading Day",
+      "url": "https://longbridge.cn/news/306687781",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:06:06+00:00"
+    },
+    {
+      "id": "817922",
+      "title": "Tractor Supply Co. Stock Outperforms Competitors On Strong Trading Day",
+      "url": "https://longbridge.cn/news/306687866",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:07:10+00:00"
+    },
+    {
+      "id": "817923",
+      "title": "Tyler Technologies Inc. Stock Underperforms Tuesday When Compared To Competitors Despite Daily Gains",
+      "url": "https://longbridge.cn/news/306688004",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:09:43+00:00"
+    },
+    {
+      "id": "817924",
+      "title": "Clorox Co. Stock Outperforms Competitors On Strong Trading Day",
+      "url": "https://longbridge.cn/news/306688458",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:13:09+00:00"
+    },
+    {
+      "id": "817925",
+      "title": "Hang Seng Index Overnight Futures Close (Nov 25): November HSI Overnight Futures Settled at 22,372 Points, Trading at a 152-Point Premium",
+      "url": "https://longbridge.cn/news/306688973",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:17:02+00:00"
+    },
+    {
+      "id": "817926",
+      "title": "Alibaba Group Holding Ltd. ADR Outperforms Market Despite Losses On The Day",
+      "url": "https://longbridge.cn/news/306689135",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:17:43+00:00"
+    },
+    {
+      "id": "817927",
+      "title": "US Stocks: Nasdaq 100 Index Drops as AI Concerns Resurface Amid New Tariff Risks",
+      "url": "https://longbridge.cn/news/306689649",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:22:20+00:00"
+    },
+    {
+      "id": "817928",
+      "title": "Hong Kong Stocks' ADRs Generally Rise Compared to Local Close",
+      "url": "https://longbridge.cn/news/306689446",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:23:26+00:00"
+    },
+    {
+      "id": "817929",
+      "title": "Overnight US Stocks | Major Indices Mixed; Anthropic Breaks Issue Price; Bitcoin Falls Below $60,000",
+      "url": "https://longbridge.cn/news/306689635",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:25:02+00:00"
+    },
+    {
+      "id": "817930",
+      "title": "Huang's return to Nvidia brings open-weight AI debate to forefront in Washington",
+      "url": "https://longbridge.cn/news/306689784",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:26:33+00:00"
+    },
+    {
+      "id": "817932",
+      "title": "沙特领导的联军",
+      "url": "https://t.me/Financial_Express/3654099",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:33:42+00:00"
+    },
+    {
+      "id": "817933",
+      "title": "首批主动 ETF 迎“私募首秀”，业内看好多元配置逻辑",
+      "url": "https://t.me/Financial_Express/3654100",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:34:22+00:00"
+    },
+    {
+      "id": "817934",
+      "title": "标普道琼斯指数",
+      "url": "https://t.me/Financial_Express/3654101",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-24T22:36:02+00:00"
+    }
+  ]
+}
