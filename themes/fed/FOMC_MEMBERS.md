@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读数据：`GET /api/fomc/committee-brief`（聚合，推荐）、`GET /api/fomc/statements`（批量言论）、`GET /api/fomc/members`；Agent 工具 `query_fomc_members`（支持逗号分隔多人）。
-> 生成时间：2026-11-23 21:00 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
+> 生成时间：2026-11-24 20:40 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
 > 「最新言论/立场」来自 `fomc_member_statements`（每条可追溯 raw_items）；「鹰/鸽」来自 D137 stance 快照（LLM 分类）；「综合」来自 D138 记分卡（0.6×投票 + 0.4×言论，附样本量与状态）。
 
 ---
@@ -22,19 +22,15 @@
 
 | 口径 | 综合 | 投票轴 | 言论轴 | 票委数 |
 |------|------|--------|--------|--------|
-| 近期（365d EMA） | 0.231 | 0.055 | 0.539 | 12 |
-| 长期（730d） | 0.178 | 0.016 | 0.419 | 12 |
+| 近期（365d EMA） | 0.247 | 0.036 | 0.563 | 2 |
+| 长期（730d） | 0.234 | 0.025 | 0.547 | 2 |
 
 ### 言行不一（投票 vs 言论）
 
 | 成员 | 投票轴 | 言论轴 | 差值 | 判定 |
 |------|--------|--------|------|------|
-| 贝丝·哈马克 | +0.24 | +0.75 | -0.50 | 言论比投票更鹰（表态强于行动） |
-| 洛里·洛根 | +0.09 | +0.80 | -0.70 | 言论比投票更鹰（表态强于行动） |
-| 尼尔·卡什卡利 | +0.09 | +0.69 | -0.59 | 言论比投票更鹰（表态强于行动） |
-| 安娜·保尔森 | +0.06 | +0.69 | -0.63 | 言论比投票更鹰（表态强于行动） |
-| 迈克尔·巴尔 | +0.00 | +0.63 | -0.63 | 言论比投票更鹰（表态强于行动） |
-| 约翰·威廉姆斯 | +0.00 | +0.52 | -0.52 | 言论比投票更鹰（表态强于行动） |
+| 凯文·沃什 | +0.07 | +0.53 | -0.46 | 言论比投票更鹰（表态强于行动） |
+| 约翰·威廉姆斯 | +0.00 | +0.59 | -0.59 | 言论比投票更鹰（表态强于行动） |
 
 ## 当前委员会成员
 
@@ -42,14 +38,14 @@
 
 | 中文名 | 姓名 | 职位/机构 | 最新言论/立场（日期+来源） | 鹰/鸽 | 综合（投票/言论/样本） |
 |--------|------|----------|--------------------------|--------|------------------------|
-| 凯文·沃什 | Kevin Warsh | 主席 / Board of Governors（常任票委） | 2026-11-23 telegram:Financial_Express：沃什主张美联储应“少出声” 其他官员置若罔闻 | —（低置信 +0.51） | （+0.26，投 +0.07，言 +0.53，n=6/样本少） |
+| 凯文·沃什 | Kevin Warsh | 主席 / Board of Governors（常任票委） | 2026-11-24 longbridge：The More AI Booms, the Harder It Is for the Federal Reserve: Warsh Faces Dual Test of Figh… | 鹰（+0.54/0.52） | （+0.26，投 +0.07，言 +0.53，n=7/样本少） ⚠️言行不一 |
 | 菲利普·杰斐逊 | Philip N. Jefferson | 副主席 / Board of Governors（常任票委） | 2026-11-19 telegram:Financial_Express：11 月 20 日隔夜要闻一览 | 鹰（+0.50/0.55） ⚠️shift_to_hawk | （+0.12，投 +0.00，言 +0.31，n=17/样本少） |
-| 米歇尔·鲍曼 | Michelle W. Bowman | 负责监管事务的副主席 / Board of Governors（常任票委） | 2026-11-11 longbridge：Fed's Bowman Assessment: Inflation is Widening, Another Rate Hike Possible This Year; US S… | 鹰（+0.62/0.52） ⚠️shift_to_hawk | （+0.09，投 +0.00，言 +0.22，n=15/样本少） |
+| 米歇尔·鲍曼 | Michelle W. Bowman | 负责监管事务的副主席 / Board of Governors（常任票委） | 2026-11-23 telegram:Financial_Express：黄仁勋回归引爆美股空头回补，纳指大涨 6.5%，英伟达暴涨 31%，芯片指数飙涨 14%；黄金反弹近 3%，WTI 原油期货跌超 4%。 | 鹰（+0.62/0.52） ⚠️shift_to_hawk | （+0.09，投 +0.00，言 +0.22，n=15/样本少） |
 | 克里斯托弗·沃勒 | Christopher J. Waller | 理事 / Board of Governors（常任票委） | 2026-11-23 telegram:Financial_Express：沃什主张美联储应“少出声” 其他官员置若罔闻 | 鹰（+0.68/1.00） ⚠️flip_dove_to_hawk | （+0.11，投 -0.03，言 +0.31，n=20） |
 | 杰罗姆·鲍威尔 | Jerome H. Powell | 理事 / Board of Governors（常任票委） | 2026-11-18 telegram:Financial_Express：英国通胀攀升至一年来最高水平 | — | （+0.00，投 +0.00，言 —，n=8/样本少） |
 | 莉萨·库克 | Lisa D. Cook | 理事 / Board of Governors（常任票委） | 2026-11-22 telegram:Financial_Express：美国股市或成美联储加息变数 | 鹰（+0.75/0.74） ⚠️shift_to_hawk | （+0.28，投 +0.13，言 +0.49，n=15） |
 | 迈克尔·巴尔 | Michael S. Barr | 理事 / Board of Governors（常任票委） | 2026-11-19 longbridge：Fed's Barr worried regulatory changes may increase financial sector risks | 鹰（+0.80/0.58） | （+0.25，投 +0.00，言 +0.63，n=15/样本少） ⚠️言行不一 |
-| 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-23 telegram:Financial_Express：沃什主张美联储应“少出声” 其他官员置若罔闻 | 鹰（+0.52/0.54） | （+0.21，投 +0.00，言 +0.52，n=11/样本少） ⚠️言行不一 |
+| 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-24 telegram:Financial_Express：美联储加息预期与美股下跌拖累金价 黄金单日跌超 2% | 鹰（+0.57/1.00） | （+0.24，投 +0.00，言 +0.59，n=13） ⚠️言行不一 |
 | 安娜·保尔森 | Anna Paulson | 费城联储主席（2026 票委；下次 2029） | 2026-11-21 longbridge：Philadelphia Fed President Paulson: Does Not Rule Out Consecutive Rate Hikes, Emphasizes "… | 鹰（+0.68/1.00） | （+0.31，投 +0.06，言 +0.69，n=12） ⚠️言行不一 |
 | 贝丝·哈马克 | Beth M. Hammack | 克利夫兰联储主席（2026 票委；下次 2028） | 2026-11-19 telegram:Financial_Express：① 港股盘后 阿里巴巴、拼多多、网易发布业绩报告； | 鹰（+0.76/1.00） | （+0.44，投 +0.24，言 +0.75，n=16） ⚠️言行不一 |
 | 尼尔·卡什卡利 | Neel Kashkari | 明尼阿波利斯联储主席（2026 票委；下次 2029） | 2026-11-18 telegram:Financial_Express：美联储卡什卡利 | 鹰（+0.71/0.28） | （+0.33，投 +0.09，言 +0.69，n=10/样本少） ⚠️言行不一 |
@@ -63,7 +59,7 @@
 | 中文名 | 姓名 | 职位/机构 | 最新言论/立场（日期+来源） | 鹰/鸽 | 综合（投票/言论/样本） |
 |--------|------|----------|--------------------------|--------|------------------------|
 | 苏珊·柯林斯 | Susan M. Collins | 波士顿联储主席（非 2026 票委；2028 轮值票委） | 2026-11-14 longbridge：Fed's Collins: Steady, Gradual Interest Rate Hikes Are Appropriate | 鹰（+0.76/0.67） | （+0.13，投 -0.30，言 +0.77，n=4/样本少） |
-| 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-23 telegram:Financial_Express：沃什主张美联储应“少出声” 其他官员置若罔闻 | 鹰（+0.52/0.54） | （+0.21，投 +0.00，言 +0.52，n=11/样本少） ⚠️言行不一 |
+| 约翰·威廉姆斯 | John C. Williams | FOMC 副主席 / 纽约联储主席（常任票委） | 2026-11-24 telegram:Financial_Express：美联储加息预期与美股下跌拖累金价 黄金单日跌超 2% | 鹰（+0.57/1.00） | （+0.24，投 +0.00，言 +0.59，n=13） ⚠️言行不一 |
 | 安娜·保尔森 | Anna Paulson | 费城联储主席（2026 票委；下次 2029） | 2026-11-21 longbridge：Philadelphia Fed President Paulson: Does Not Rule Out Consecutive Rate Hikes, Emphasizes "… | 鹰（+0.68/1.00） | （+0.31，投 +0.06，言 +0.69，n=12） ⚠️言行不一 |
 | 贝丝·哈马克 | Beth M. Hammack | 克利夫兰联储主席（2026 票委；下次 2028） | 2026-11-19 telegram:Financial_Express：① 港股盘后 阿里巴巴、拼多多、网易发布业绩报告； | 鹰（+0.76/1.00） | （+0.44，投 +0.24，言 +0.75，n=16） ⚠️言行不一 |
 | 托马斯·巴尔金 | Thomas I. Barkin | 里士满联储主席（非 2026 票委；2027 轮值票委） | 2026-11-19 telegram:Financial_Express：① 港股盘后 阿里巴巴、拼多多、网易发布业绩报告； | 鹰（+0.61/0.51） | （+0.54，投 —，言 +0.54，n=3/样本少） |
