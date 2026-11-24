@@ -1,0 +1,36 @@
+- 英伟达恢复黄仁勋CEO(CNBC报道): query_raw_items(source='hackernews', published_after=2026-11-22)[id:812720] = Nvidia Reinstates Jensen Huang as CEO，▲1951/💬3044
+- 英伟达官方声明细节: fetch_url(nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director) = 董事会一致投票复职；收到美国政府高层意见认定无国安风险；独立调查委员会继续；新设国家安全与出口管制委员会及首席合规官；Colette Kress 继续任CFO
+- 国会反弹"品格失败": query_raw_items(source='hackernews')[id:813178] = Congress shreds Nvidia's 'outrageous' return of Huang: 'Failure of character'
+- Foreign Policy称国安丑闻: query_raw_items(source='hackernews')[id:813654] = Huang's Return Is the Biggest National Security Scandal in U.S. History
+- NYT称特朗普主导复职: query_raw_items(source='hackernews')[id:813296] = Trump Is Said to Have Directed Effort to Reinstate Nvidia Chief
+- WSJ披露Polymarket内幕获利: query_raw_items(source='hackernews')[id:813358] = Two suspicious clusters on Polymarket Made Over $340k on Huang Comeback
+- 黄仁勋复职HN高赞评论: fetch_url(news.ycombinator.com/item?id=50611576) = 作者chunky1994指出声明关键是"收到美国政府高层意见"
+- Ladybird alpha发布: query_raw_items(source='hackernews')[id:812723] = Ladybird Is Now in Alpha，▲1314/💬315
+- Ladybird技术细节: fetch_url(ladybird.org/posts/alpha/) = 自研引擎非fork；macOS/Linux下载；滚动更新；支持WebDriver与Firefox DevTools协议；邀请安全研究
+- Ladybird实测评论: fetch_url(news.ycombinator.com/item?id=50614249) = 作者alentred测NoVNC正常；bot检测需伪装Chrome；5标签页含YouTube用2.2GB
+- GLM-5.4发布: query_raw_items(source='hackernews')[id:811437] = GLM-5.4: Toward Generalized Coding with Our First Loop Transformer，▲864/💬307
+- GLM-5.4讨论: fetch_url(news.ycombinator.com/item?id=50609685) = Loop Transformer与2019 Universal Transformer同源；Thinking Machines上周发布open-weights looped model
+- Kagi Mail公测: query_raw_items(source='hackernews')[id:812932] = Kagi Mail is here (Public Beta)，▲326/💬255
+- Kagi Mail评论: fetch_url(news.ycombinator.com/item?id=50615481) = 用户力挺Fastmail，不愿让云LLM访问邮件
+- Stalwart替代Exchange: query_raw_items(source='hackernews')[id:813490] = Stalwart is now a drop-in replacement for Microsoft Exchange，▲101/💬61
+- Apple下架fsnotes: query_raw_items(source='hackernews')[id:813072] = Apple removed my open-source app from EU App Stores after 9 years，▲190/💬33
+- VP≠VNP证明: query_raw_items(source='hackernews')[id:813442] = VP ≠ VNP over Every Field (anthropics/formal-math)，▲92/💬59
+- VP≠VNP仓库说明: fetch_url(github.com/anthropics/formal-math/tree/main/vp-vnp) = 结果由内部Claude模型发现；论文与Lean4形式化均由AI编写无人类核验；不解决P vs NP；第二个内核nanoda复核
+- VP≠VNP讨论: fetch_url(news.ycombinator.com/item?id=50620102) = 评论称是向P vs NP投石问路的中间产物；P≠NP证明存在relativization/algebrization障碍
+- NariQ 3-bit量化: query_raw_items(source='hackernews')[id:813071] = NariQ: BF16-level Qwen3.8-27B in a 10 GB file，3-bit及以下量化接近BF16质量
+- TREX computer use: query_raw_items(source='hackernews')[id:813144] = How should an LLM see a computer? (greptile.com)，▲27/💬18
+- TREX正文数据: fetch_url(greptile.com/blog/trex-computer-use) = 7模型OSWorld测试；GPT-6.1 Sol 83.8%、GPT-5.5 67.7%；a11y tree+ID点击提升一致性
+- ARM参考站关站: query_raw_items(source='hackernews')[id:813084] = "Per ARM's Request, This Site Will Be Discontinued on 4 December 2026"，▲244/💬36
+- ARM参考站正文: fetch_url(arm.jonpalmisc.com) = Arm律师通知关站，2026-12-04停止，作者尝试保留链接
+
+- GLM-5.4 HN评论页实时口径: fetch_url(news.ycombinator.com/item?id=50609685) = 抓取时1033 points/338 comments（与冻结快照▲864/💬307口径不同）；评论指Loop Transformer与2019 Universal Transformer同源、Thinking Machines上周发布开放权重looped model(inkling-2-mini)
+- TREX OSWorld历史基线: fetch_url(greptile.com/blog/trex-computer-use) = 2024 OSWorld人类72%/最佳模型12%；ScreenSpot-Pro最佳模型18.9%；测试172任务、50步上限、低推理档
+
+
+- NVDA复职后股价单日涨幅: query_longbridge_by_route(news/company, symbol=NVDA.US) = 31.48%（2026-11-23），市值单日增加约9520亿美元创历史纪录
+- 纳斯达克/Mag7市值变化: query_longbridge_by_route(news/company, symbol=NVDA.US) = 纳斯达克市值单日增超2万亿美元，科技七巨头合计增1.6万亿美元
+- 华尔街评级上调: query_longbridge_by_route(news/company, symbol=NVDA.US) = Bernstein升级Outperform；花旗Buy/目标价240美元；Cramer目标价199美元(12x P/E)
+- 策略师风险警示与听证: query_longbridge_by_route(news/company, symbol=NVDA.US) = 策略师称NVIDIA未突然增值30%、情绪化市场比波动本身更危险；黄仁勋本周出席国会听证会
+- NVDA FY2026财务: query_longbridge_by_route(fundamental/financials/income, symbol=NVDA.US) = 营收2159.38亿美元、营业利润1303.87亿美元、净利润1200.67亿美元、基本EPS 4.9（FY2026，报告日2026-01-25）
+- NVDA FY2025财务对比: query_longbridge_by_route(fundamental/financials/income, symbol=NVDA.US) = 营收1304.97亿美元、净利润728.8亿美元（FY2025，报告日2025-01-26）
+- Amazon收购Decart强化自研芯片: query_longbridge_by_route(news/company, symbol=NVDA.US) = Amazon约75亿美元收购AI初创Decart核心资产与团队，获取Decart Optimization Stack强化自研Trainium芯片挑战NVIDIA（2026-11-23）

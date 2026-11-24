@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-11-24T00:34:19.812361+00:00",
+  "window": {
+    "after": "2026-11-23T00:00:00+00:00",
+    "before": "2026-11-24T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "812720",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "author": "jaz",
+      "points": 1951,
+      "comments": 3044,
+      "published_at": "2026-11-23T14:00:18+00:00"
+    },
+    {
+      "id": "812194",
+      "title": "Jensen Huang Reinstated as Nvidia CEO",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "author": "alanwong",
+      "points": 1697,
+      "comments": 4,
+      "published_at": "2026-11-23T14:01:23+00:00"
+    },
+    {
+      "id": "812723",
+      "title": "Ladybird Is Now in Alpha",
+      "url": "https://ladybird.org/posts/alpha/",
+      "author": "janvdberg",
+      "points": 1314,
+      "comments": 315,
+      "published_at": "2026-11-23T16:13:12+00:00"
+    },
+    {
+      "id": "809320",
+      "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+      "url": "https://spelunkr.tv",
+      "author": "SockThief",
+      "points": 898,
+      "comments": 156,
+      "published_at": "2026-11-23T01:13:51+00:00"
+    },
+    {
+      "id": "811437",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://z.ai/blog/glm-5.4",
+      "author": "foohis",
+      "points": 864,
+      "comments": 307,
+      "published_at": "2026-11-23T10:06:43+00:00"
+    },
+    {
+      "id": "809799",
+      "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "author": "mmastrac",
+      "points": 553,
+      "comments": 229,
+      "published_at": "2026-11-23T03:49:24+00:00"
+    },
+    {
+      "id": "812932",
+      "title": "Kagi Mail is here (Public Beta)",
+      "url": "https://blog.kagi.com/kagi-mail-public-beta",
+      "author": "rdmuser",
+      "points": 326,
+      "comments": 255,
+      "published_at": "2026-11-23T17:17:01+00:00"
+    },
+    {
+      "id": "812721",
+      "title": "GTA 6 Xbox executable released early by cyberleek",
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1y3jzqe/cyberleek_posted_the_gta_6_xbox_build_executable/",
+      "author": "monskov",
+      "points": 253,
+      "comments": 275,
+      "published_at": "2026-11-23T14:49:44+00:00"
+    },
+    {
+      "id": "810388",
+      "title": "Yes, 17M lines of Lean is a lot",
+      "url": "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/",
+      "author": "seizethecheese",
+      "points": 248,
+      "comments": 317,
+      "published_at": "2026-11-23T05:00:49+00:00"
+    },
+    {
+      "id": "813084",
+      "title": "\"Per ARM's Request, This Site Will Be Discontinued on 4 December 2026\"",
+      "url": "https://arm.jonpalmisc.com/",
+      "author": "tech234a",
+      "points": 244,
+      "comments": 36,
+      "published_at": "2026-11-23T19:17:55+00:00"
+    },
+    {
+      "id": "811957",
+      "title": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
+      "url": "https://github.com/os6/nospeaker",
+      "author": "yakkomajuri",
+      "points": 222,
+      "comments": 126,
+      "published_at": "2026-11-23T11:31:54+00:00"
+    },
+    {
+      "id": "811833",
+      "title": "The next circle of security hell",
+      "url": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
+      "author": "qtqtqt",
+      "points": 201,
+      "comments": 106,
+      "published_at": "2026-11-23T11:34:16+00:00"
+    },
+    {
+      "id": "810032",
+      "title": "DeFlock Amerca Facebook Group Suspended as a Dangerous Organization",
+      "url": "https://www.facebook.com/shugvermonte/posts/the-deflock-america-group-with-over-840k-members-has-been-suspended-by-meta-what/10165140280736049/",
+      "author": "gscott",
+      "points": 196,
+      "comments": 71,
+      "published_at": "2026-11-23T04:31:32+00:00"
+    },
+    {
+      "id": "813072",
+      "title": "Apple removed my open-source app from EU App Stores after 9 years",
+      "url": "https://github.com/glushchenko/fsnotes/discussions/2056",
+      "author": "fluder",
+      "points": 190,
+      "comments": 33,
+      "published_at": "2026-11-23T18:48:10+00:00"
+    },
+    {
+      "id": "812109",
+      "title": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
+      "url": "https://github.com/mikuta0407/win4wine",
+      "author": "hard_times",
+      "points": 186,
+      "comments": 94,
+      "published_at": "2026-11-23T12:28:11+00:00"
+    },
+    {
+      "id": "809953",
+      "title": "Treemap of the Riemann Hypothesis Lean Proof",
+      "url": "https://pengowray.github.io/riemann-zeta-proof-visualizer/",
+      "author": "pengowray",
+      "points": 175,
+      "comments": 71,
+      "published_at": "2026-11-23T01:50:23+00:00"
+    },
+    {
+      "id": "812644",
+      "title": "You can't afford to keep your SSH keys on disk",
+      "url": "https://jola.dev/posts/you-cant-afford-ssh-keys-disk",
+      "author": "shintoist",
+      "points": 129,
+      "comments": 87,
+      "published_at": "2026-11-23T09:55:38+00:00"
+    },
+    {
+      "id": "809954",
+      "title": "The New Docker: Built to Run on Trust",
+      "url": "https://www.docker.com/blog/meet-the-new-docker-built-to-run-on-trust/",
+      "author": "peer2pay",
+      "points": 115,
+      "comments": 192,
+      "published_at": "2026-11-23T03:34:29+00:00"
+    },
+    {
+      "id": "810979",
+      "title": "GTA 6 building personal behavioral profile for every player",
+      "url": "https://huijzer.xyz/posts/174/gta-6-building-personal-behavioral-profile-for-eve",
+      "author": "huijzer",
+      "points": 108,
+      "comments": 81,
+      "published_at": "2026-11-23T08:51:50+00:00"
+    },
+    {
+      "id": "813490",
+      "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+      "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+      "author": "shaunpud",
+      "points": 101,
+      "comments": 61,
+      "published_at": "2026-11-23T22:32:29+00:00"
+    },
+    {
+      "id": "810171",
+      "title": "A Partial Evaluator for C",
+      "url": "https://phoenix.labri.fr/software/tempo/",
+      "author": "measurablefunc",
+      "points": 98,
+      "comments": 27,
+      "published_at": "2026-11-23T04:51:48+00:00"
+    },
+    {
+      "id": "813442",
+      "title": "VP ≠ VNP over Every Field",
+      "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+      "author": "mikeryan52",
+      "points": 92,
+      "comments": 59,
+      "published_at": "2026-11-23T22:09:10+00:00"
+    },
+    {
+      "id": "811531",
+      "title": "Enjoy this guy getting bricked over the detail of towers in GTA6",
+      "url": "https://bsky.app/profile/floppyadult.com/post/3n2tgw7rofc2v",
+      "author": "doener",
+      "points": 81,
+      "comments": 31,
+      "published_at": "2026-11-23T09:15:09+00:00"
+    },
+    {
+      "id": "812817",
+      "title": "Building a wireless network adapter for the Super Nintendo",
+      "url": "https://boland.dev/snet/",
+      "author": "dannyboland",
+      "points": 76,
+      "comments": 17,
+      "published_at": "2026-11-23T14:16:37+00:00"
+    },
+    {
+      "id": "811897",
+      "title": "Amodei reportedly suggested games could pacify masses after AI took their jobs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+      "author": "teekert",
+      "points": 69,
+      "comments": 79,
+      "published_at": "2026-11-23T12:41:14+00:00"
+    },
+    {
+      "id": "813004",
+      "title": "Dario is hyping the dangers so OSS models are illegal and *he* stays in control",
+      "url": "https://twitter.com/ylecun/status/2124550037912920090",
+      "author": "MrBuddyCasino",
+      "points": 68,
+      "comments": 20,
+      "published_at": "2026-11-23T17:07:26+00:00"
+    },
+    {
+      "id": "812722",
+      "title": "One Man's Quest to End Daylight Savings",
+      "url": "https://www.newyorker.com/magazine/2026/11/30/one-mans-quest-to-end-daylight-savings",
+      "author": "Brajeshwar",
+      "points": 62,
+      "comments": 116,
+      "published_at": "2026-11-23T15:28:41+00:00"
+    },
+    {
+      "id": "811143",
+      "title": "GLM 5.4",
+      "url": "https://twitter.com/Zai_org/status/2124719658074825004",
+      "author": "linzhangrun",
+      "points": 58,
+      "comments": 11,
+      "published_at": "2026-11-23T07:48:45+00:00"
+    },
+    {
+      "id": "813531",
+      "title": "Levent Alpöge comments on his Riemann Hypothesis proof",
+      "url": "https://twitter.com/__alpoge__/status/2124987173439209561",
+      "author": "Dylan1312",
+      "points": 58,
+      "comments": 51,
+      "published_at": "2026-11-23T22:22:56+00:00"
+    },
+    {
+      "id": "809191",
+      "title": "'It's greed': Zohran Mamdani blasts Amazon over new $5 fee hike in NYC",
+      "url": "https://finance.yahoo.com/economy/policy/articles/greed-zohran-mamdani-blasts-amazon-121000124.html",
+      "author": "madihaa",
+      "points": 56,
+      "comments": 60,
+      "published_at": "2026-11-23T00:23:37+00:00"
+    },
+    {
+      "id": "813071",
+      "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+      "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+      "author": "toebee",
+      "points": 50,
+      "comments": 9,
+      "published_at": "2026-11-23T13:42:38+00:00"
+    },
+    {
+      "id": "813384",
+      "title": "Bored.com: Fun, interesting and cool websites to explore when bored",
+      "url": "https://www.bored.com/",
+      "author": "susam",
+      "points": 49,
+      "comments": 14,
+      "published_at": "2026-11-23T21:01:16+00:00"
+    },
+    {
+      "id": "813178",
+      "title": "Congress shreds Nvidia's 'outrageous' return of Huang: 'Failure of character'",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump.html",
+      "author": "MilnerRoute",
+      "points": 47,
+      "comments": 27,
+      "published_at": "2026-11-23T20:13:18+00:00"
+    },
+    {
+      "id": "813654",
+      "title": "Huang's Return Is the Biggest National Security Scandal in U.S. History",
+      "url": "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/",
+      "author": "ortusdux",
+      "points": 44,
+      "comments": 13,
+      "published_at": "2026-11-23T23:11:38+00:00"
+    },
+    {
+      "id": "813441",
+      "title": "GPUI is getting its own repository",
+      "url": "https://github.com/zed-industries/gpui",
+      "author": "EvilGoose",
+      "points": 42,
+      "comments": 5,
+      "published_at": "2026-11-23T20:52:54+00:00"
+    },
+    {
+      "id": "813082",
+      "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
+      "url": "https://www.bbc.com/news/articles/cq1j6585l5g6o",
+      "author": "onemoresoop",
+      "points": 39,
+      "comments": 17,
+      "published_at": "2026-11-23T18:48:38+00:00"
+    },
+    {
+      "id": "812793",
+      "title": "\"possibly the nastiest piece of abuse of the C switch statement rules I know of\"",
+      "url": "https://hachyderm.io/@simontatham/117653935395211357",
+      "author": "pavel_lishin",
+      "points": 36,
+      "comments": 10,
+      "published_at": "2026-11-23T13:44:33+00:00"
+    },
+    {
+      "id": "810389",
+      "title": "GLM-5.4 is now available to all GLM Coding Plan users",
+      "url": "https://twitter.com/ZixuanLi_/status/2124719275864670681",
+      "author": "markasoftware",
+      "points": 32,
+      "comments": 13,
+      "published_at": "2026-11-23T05:21:54+00:00"
+    },
+    {
+      "id": "813359",
+      "title": "The horse made the state",
+      "url": "https://aeon.co/essays/the-origins-of-the-state-are-not-agrarian-but-pastoralist",
+      "author": "ersinesen",
+      "points": 30,
+      "comments": 25,
+      "published_at": "2026-11-23T20:59:12+00:00"
+    },
+    {
+      "id": "812795",
+      "title": "Buckle Up the AI Bubble Is Popping",
+      "url": "https://mathbabe.org/2026/11/23/buckle-up-the-ai-bubble-is-popping/",
+      "author": "only_in_america",
+      "points": 28,
+      "comments": 52,
+      "published_at": "2026-11-23T16:01:20+00:00"
+    },
+    {
+      "id": "813144",
+      "title": "How should an LLM see a computer?",
+      "url": "https://www.greptile.com/blog/trex-computer-use",
+      "author": "dakshgupta",
+      "points": 27,
+      "comments": 18,
+      "published_at": "2026-11-23T17:19:25+00:00"
+    },
+    {
+      "id": "813489",
+      "title": "VP != VNP over Every Field [pdf]",
+      "url": "https://github.com/anthropics/formal-math/blob/11b6c7e3c927df2658f513b6b68ea7f8929c62c5/vp-vnp/paper.pdf",
+      "author": "behrlich",
+      "points": 25,
+      "comments": 2,
+      "published_at": "2026-11-23T22:23:04+00:00"
+    },
+    {
+      "id": "813357",
+      "title": "Earth's ozone hole has grown to a size not seen in a decade",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261110042546.htm",
+      "author": "geox",
+      "points": 24,
+      "comments": 3,
+      "published_at": "2026-11-23T19:06:34+00:00"
+    },
+    {
+      "id": "813358",
+      "title": "Two \"suspicious clusters\" on Polymarket Made Over $340k on Huang Comeback",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/two-groups-of-polymarket-accounts-made-over-340-000-on-huang-comeback-Lan2T0TwbJPNsyhmQHGq",
+      "author": "qlte",
+      "points": 22,
+      "comments": 4,
+      "published_at": "2026-11-23T19:25:21+00:00"
+    },
+    {
+      "id": "813296",
+      "title": "Trump Is Said to Have Directed Effort to Reinstate Nvidia Chief",
+      "url": "https://www.nytimes.com/2026/11/23/us/politics/trump-nvidia-huang.html",
+      "author": "johnny313",
+      "points": 21,
+      "comments": 5,
+      "published_at": "2026-11-23T18:03:59+00:00"
+    },
+    {
+      "id": "813585",
+      "title": "Jensen Huang's Apology May Be the Only Correct Use of AI",
+      "url": "https://www.theatlantic.com/newsletters/2026/11/jensen-huang-ai-apology-nvidia/689366/",
+      "author": "Bluestein",
+      "points": 21,
+      "comments": 1,
+      "published_at": "2026-11-23T20:33:07+00:00"
+    },
+    {
+      "id": "812792",
+      "title": "Show HN: News Blocklist – a DNS blocklist of 14k news and current-affairs sites",
+      "url": "https://github.com/ruairidhflint/news-blocklist",
+      "author": "mrroryflint",
+      "points": 20,
+      "comments": 11,
+      "published_at": "2026-11-23T13:02:52+00:00"
+    },
+    {
+      "id": "813530",
+      "title": "Chicago FAA Ground stop due to staffing",
+      "url": "https://www.nbcchicago.com/news/local/ground-stop-issued-at-ohare-airport-due-to-staffing-at-start-of-busy-holiday-week/4020413/",
+      "author": "cebert",
+      "points": 20,
+      "comments": 2,
+      "published_at": "2026-11-23T17:59:37+00:00"
+    },
+    {
+      "id": "813584",
+      "title": "Earth just saw the most anomalously hot day ever on record",
+      "url": "https://www.scientificamerican.com/article/earth-just-saw-the-most-anomalously-hot-day-ever-on-record/",
+      "author": "Teever",
+      "points": 20,
+      "comments": 4,
+      "published_at": "2026-11-23T18:25:50+00:00"
+    },
+    {
+      "id": "813542",
+      "title": "中信建投 2027 年港股展望：弱美元受益者",
+      "url": "https://t.me/Financial_Express/3651040",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:39:22+00:00"
+    },
+    {
+      "id": "813543",
+      "title": "三方面因素共同支撑 全球造船业景气度上行",
+      "url": "https://t.me/Financial_Express/3651041",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:39:42+00:00"
+    },
+    {
+      "id": "813544",
+      "title": "也门民用车辆遭炮击致 6 死数十伤",
+      "url": "https://t.me/Financial_Express/3651042",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:40:02+00:00"
+    },
+    {
+      "id": "813545",
+      "title": "欢迎进入链接网页右侧下载本周财经数据与事件精美周历壁纸",
+      "url": "https://t.me/Financial_Express/3651043",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:40:42+00:00"
+    },
+    {
+      "id": "813546",
+      "title": "沙特民防部门发布奈季兰省潜在危险警报。",
+      "url": "https://t.me/Financial_Express/3651044",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:41:02+00:00"
+    },
+    {
+      "id": "813547",
+      "title": "人形机器人步入商业化关键期 多重利好推动产业预期升温",
+      "url": "https://t.me/Financial_Express/3651045",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:41:22+00:00"
+    },
+    {
+      "id": "813548",
+      "title": "涂鸦智能第三季度总收入同比增长约 19.5%",
+      "url": "https://t.me/Financial_Express/3651046",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:41:22+00:00"
+    },
+    {
+      "id": "813549",
+      "title": "光大证券：IEA 预计原油供需有望实现再平衡 地缘冲突凸显能源安全战略价值",
+      "url": "https://t.me/Financial_Express/3651047",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:42:02+00:00"
+    },
+    {
+      "id": "813550",
+      "title": "国泰海通：增量稳市举措接续推出 三重筑底看好券商",
+      "url": "https://t.me/Financial_Express/3651048",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:42:22+00:00"
+    },
+    {
+      "id": "813551",
+      "title": "当地时间 11 月 23 日，美国参议院银行、住房和城市事务委员会官网公布的安排显示，英伟达总裁兼首席执行官黄仁勋将于 12 月 3 日 10 时出席该委员会听证会并作证。此次听证会主题为“保护美国人工智能优势：监督美国出口管制”，将在参议",
+      "url": "https://t.me/Financial_Express/3651049",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:42:39+00:00"
+    },
+    {
+      "id": "813552",
+      "title": "银行理财净值回调引关注 多家理财公司发声解释调整原因",
+      "url": "https://t.me/Financial_Express/3651050",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:43:22+00:00"
+    },
+    {
+      "id": "813553",
+      "title": "英伟达领涨美股后 日经指数或走高",
+      "url": "https://t.me/Financial_Express/3651051",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:44:22+00:00"
+    },
+    {
+      "id": "813554",
+      "title": "利比亚多方谴责乌克兰在利沿海发动袭击",
+      "url": "https://t.me/Financial_Express/3651052",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:44:42+00:00"
+    },
+    {
+      "id": "813555",
+      "title": "创业板做市业务将开启 数十家券商已拿到相关资格",
+      "url": "https://t.me/Financial_Express/3651053",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:45:42+00:00"
+    },
+    {
+      "id": "813556",
+      "title": "新西兰央行：新西兰可能不会遭受具有重大经济影响的干旱",
+      "url": "https://t.me/Financial_Express/3651054",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:46:02+00:00"
+    },
+    {
+      "id": "813557",
+      "title": "基准 10 年期日本国债期货早盘上涨 0.18 点。",
+      "url": "https://t.me/Financial_Express/3651055",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:46:22+00:00"
+    },
+    {
+      "id": "813558",
+      "title": "三星电子 2027 至 2029 年存储产能据悉大部分已被锁定，部分客户寻求将长约延至 2031 年",
+      "url": "https://t.me/Financial_Express/3651056",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:47:02+00:00"
+    },
+    {
+      "id": "813559",
+      "title": "华泰证券：国产算力网扩容加速建设端价值重估",
+      "url": "https://t.me/Financial_Express/3651057",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:47:22+00:00"
+    },
+    {
+      "id": "813564",
+      "title": "Jensen Huang Returns, But Three Core Issues in the AI Trade Remain Unresolved: Circular Financing, ROI, and the December 3 Congressional Hearing",
+      "url": "https://longbridge.cn/news/306550799",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:39:04+00:00"
+    },
+    {
+      "id": "813565",
+      "title": "CSC: Still Bullish on Lithium Battery Growth in 2027",
+      "url": "https://longbridge.cn/news/306550860",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:40:04+00:00"
+    },
+    {
+      "id": "813566",
+      "title": "CSC's 2027 Hong Kong Stock Market Outlook: Beneficiaries of a Weak US Dollar",
+      "url": "https://longbridge.cn/news/306550846",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:40:04+00:00"
+    },
+    {
+      "id": "813567",
+      "title": "CSC: Resonance in Domestic Computing Power Supply and Demand; AI Security Needs Continue to Upgrade",
+      "url": "https://longbridge.cn/news/306550854",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:40:04+00:00"
+    },
+    {
+      "id": "813568",
+      "title": "Trump Personally Admits: I Facilitated \"Jensen Huang's Return\"",
+      "url": "https://longbridge.cn/news/306550887",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:40:53+00:00"
+    },
+    {
+      "id": "813569",
+      "title": "US Medicare Program Reaches Price Reduction Agreements for 13 Drugs, Cutting Related Spending by 45%",
+      "url": "https://longbridge.cn/news/306551015",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:41:18+00:00"
+    },
+    {
+      "id": "813570",
+      "title": "Arm Announces CEO Rene Haas Contract Renewal Until 2033; to Serve as SoftBank Vice Chairman",
+      "url": "https://longbridge.cn/news/306550916",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:41:53+00:00"
+    },
+    {
+      "id": "813571",
+      "title": "神舟二十四号载人飞船发射在即，在轨的神舟二十三号乘组抓紧做好迎接新乘组的准备，任务各系统准备工作也顺利推进。目前，陆海天基测控网对空间站在轨状态实施全时监测，掌握组合体轨道控制精准度，确保交会对接等关键动作顺利实施。发射场、飞船和火箭系统正",
+      "url": "https://t.me/Financial_Express/3651058",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:47:32+00:00"
+    },
+    {
+      "id": "813572",
+      "title": "沙特民防部门表示，奈季兰省的险情已经解除。",
+      "url": "https://t.me/Financial_Express/3651059",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:48:02+00:00"
+    },
+    {
+      "id": "813573",
+      "title": "日本日经 225 指数期货早盘上涨 2%。",
+      "url": "https://t.me/Financial_Express/3651060",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:48:22+00:00"
+    },
+    {
+      "id": "813574",
+      "title": "纽约期金失守 3650 美元/盎司，日内跌 0.87%。",
+      "url": "https://t.me/Financial_Express/3651061",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:48:42+00:00"
+    },
+    {
+      "id": "813575",
+      "title": "据《华盛顿邮报》报道，美国联邦调查局副局长雷亚（Christopher Raia）计划于 12 月退休。",
+      "url": "https://t.me/Financial_Express/3651062",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:48:42+00:00"
+    },
+    {
+      "id": "813576",
+      "title": "据华盛顿邮报",
+      "url": "https://t.me/Financial_Express/3651064",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:51:02+00:00"
+    },
+    {
+      "id": "813577",
+      "title": "FBI 副局长计划退休，成为该局最新离职高层人员",
+      "url": "https://t.me/Financial_Express/3651065",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:51:42+00:00"
+    },
+    {
+      "id": "813578",
+      "title": "据报道，知情人士透露，三星电子 2027 年至 2029 年的存储产能已近售罄，部分客户正推动将长约延至 2031 年。主要存储厂商目前仅能满足客户约 60%至 70%的需求。（界面）",
+      "url": "https://t.me/Financial_Express/3651066",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:52:10+00:00"
+    },
+    {
+      "id": "813579",
+      "title": "乐高计划斥资近 10 亿欧元在葡萄牙建厂",
+      "url": "https://t.me/Financial_Express/3651067",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:53:22+00:00"
+    },
+    {
+      "id": "813580",
+      "title": "“国家宝藏”黄仁勋证明：有些 CEO 无可替代",
+      "url": "https://t.me/Financial_Express/3651068",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:55:22+00:00"
+    },
+    {
+      "id": "813581",
+      "title": "国泰海通：增量稳市举措接续推出，三重筑底看好券商",
+      "url": "https://t.me/Financial_Express/3651069",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:57:42+00:00"
+    },
+    {
+      "id": "813582",
+      "title": "R 星为《GTA6》推送首个更新，涉及游戏崩溃、自动存档修复",
+      "url": "https://t.me/Financial_Express/3651070",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:57:42+00:00"
+    },
+    {
+      "id": "813583",
+      "title": "美国国债期货下跌 美股大涨提振风险情绪",
+      "url": "https://t.me/Financial_Express/3651071",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:58:02+00:00"
+    },
+    {
+      "id": "813586",
+      "title": "国际货币基金组织",
+      "url": "https://t.me/Financial_Express/3651072",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:58:22+00:00"
+    },
+    {
+      "id": "813587",
+      "title": "11 月 22 日，小鹏汇天研发的全尺寸全倾转电动飞行汽车 A868 倾转过渡试飞成功，意味着我国在该技术领域正式跨入全球第一梯队。与单纯的起降演示不同，“倾转过渡成功”是指飞行汽车能够从垂直起降状态完整转换为高速平飞状态。这款飞行汽车于 ",
+      "url": "https://t.me/Financial_Express/3651073",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:58:38+00:00"
+    },
+    {
+      "id": "813588",
+      "title": "美国国债期货价格下跌，此前美股大涨提振风险情绪。",
+      "url": "https://t.me/Financial_Express/3651074",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:59:44+00:00"
+    },
+    {
+      "id": "813589",
+      "title": "不靠电磁波，信息也能穿墙传递。澳大利亚昆士兰大学研究团队利用一部电梯和一台高灵敏度重力仪，首次通过实验验证了利用引力场编码、发送和接收信息的可行性。这种通信方式能够穿透普通物质屏障，为探索特殊环境中的通信技术提供了新思路。相关研究发表于最新",
+      "url": "https://t.me/Financial_Express/3651075",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:59:57+00:00"
+    },
+    {
+      "id": "813608",
+      "title": "Citadel Securities Warns Market May Repeat 2018 Mistakes; Hard Times Are Not Over Yet",
+      "url": "https://longbridge.cn/news/306551009",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:41:18+00:00"
+    },
+    {
+      "id": "813609",
+      "title": "Nikkei Index May Rise as NVIDIA Leads U.S. Stock Rally",
+      "url": "https://longbridge.cn/news/306551455",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:48:31+00:00"
+    },
+    {
+      "id": "813610",
+      "title": "Behind Jensen Huang's Return to NVIDIA: Which Is More Important, the Founder's Halo or Corporate Governance?",
+      "url": "https://longbridge.cn/news/306551467",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:51:48+00:00"
+    },
+    {
+      "id": "813611",
+      "title": "Shanghai/Shenzhen Stock Connect: Zhongji Innolight Tops Shenzhen-Hong Kong Stock Connect's Most Actively Traded Stocks",
+      "url": "https://longbridge.cn/news/306551927",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:52:00+00:00"
+    },
+    {
+      "id": "813612",
+      "title": "Jensen Huang Returns to NVIDIA Headquarters, Thanks Employees for Second Chance, Promises to Do Better",
+      "url": "https://longbridge.cn/news/306552247",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:55:00+00:00"
+    },
+    {
+      "id": "813613",
+      "title": "Researchers Leverage Meta's Open-Weight AI Models to Drive Medical Transformation",
+      "url": "https://longbridge.cn/news/306551669",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:55:57+00:00"
+    },
+    {
+      "id": "813614",
+      "title": "\"National Treasure\" Jensen Huang Proves: Some CEOs Are Irreplaceable",
+      "url": "https://longbridge.cn/news/306551902",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:58:22+00:00"
+    },
+    {
+      "id": "813655",
+      "title": "Drone attack on Colombia police base injures civilians, including infant",
+      "url": "https://www.aljazeera.com/news/2026/11/23/drone-attack-on-colombia-police-base-injures-civilians-including-infant?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:49:37+00:00"
+    },
+    {
+      "id": "813656",
+      "title": "Mamdani blasts AI-reliant stock market after Jensen Huang’s return",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/mamdani-blasts-ai-reliant-stock-market-after-jensen-huangs-return?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-23T23:54:27+00:00"
+    }
+  ]
+}
