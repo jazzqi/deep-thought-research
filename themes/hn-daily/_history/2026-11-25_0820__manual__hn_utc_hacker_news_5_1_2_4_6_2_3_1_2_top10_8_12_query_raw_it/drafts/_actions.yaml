@@ -1,0 +1,12 @@
+actions:
+- priority: P2
+  summary: 统一 query_raw_items 热度口径：以 metadata.hn_points 为唯一阈值与排序依据，修复行首 ▲N/💬N 与 full_text
+    Points 相差 5-50 倍导致的选帖错位
+  target_flow: hn_daily_update
+  target_flow_params: {}
+  type: proposal
+- priority: P2
+  summary: 跟踪 Anthropic 破发与 Nvidia 治理危机簇在后续 2-3 日是否延续，判定 AI 叙事为阶段性见顶还是单日噪音
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-11-28'
