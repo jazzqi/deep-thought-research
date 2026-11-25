@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-24 21:00 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
+> 生成时间：2026-11-25 20:45 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
@@ -34,7 +34,7 @@
 
 - **The More AI Booms, the Harder It Is for the Federal Reserve: Warsh Faces Dual Test of Fighting Inflation and Preserving Growth**（2026-11-24 13:04）
   来源: longbridge | 正文长度: 641 字 | 立场: 鹰 +0.57
-  片段: …The More AI Booms, the Harder It Is for the Federal Reserve: Warsh Faces Dual Test of Fighting Inflation and Preserving Growth AI investment is driving US econo
+  片段: …AI investment is boosting U.S. economic growth while adding inflationary pressure, putting Federal Reserve Chair Warsh between tightening policy and preserving 
 
 - **美联储推演 AI 对经济潜在影响 主席沃什称涵盖多重情景**（2026-11-16 17:35）
   来源: federalreserve.gov / longbridge / telegram:Financial_Express（同日 7 条已合并） | 正文长度: 274 字
@@ -53,6 +53,10 @@
   片段: …美联储主席沃什：我们正在收紧金融条件。这表明我们的政策正在发挥作用，对此并不感到不安。
 
 ## 莉萨·库克（Lisa D. Cook）
+
+- **白宫国家经济委员会主任哈塞特谈美联储理事库克**（2026-11-25 15:16）
+  来源: telegram:Financial_Express | 正文长度: 34 字
+  片段: …白宫国家经济委员会主任哈塞特谈美联储理事库克：我们正在收集所有证据。
 
 - **Hawkish Winds Blow at the Fed! Governor Cook: Further Interest Rate Hikes Needed Immediately; Cost of Lagging Action Is Greater**（2026-11-21 00:08）
   来源: longbridge | 正文长度: 620 字 | 立场: 鹰 +0.90
@@ -85,6 +89,10 @@
   片段: …美联储理事巴尔：我担心我们正在风险偏好升温的环境下放松监管。
 
 ## 米歇尔·鲍曼（Michelle W. Bowman）
+
+- **美联储理事鲍曼在银行监管会议上讲话，未对经济或货币政策前景置评。**（2026-11-25 12:25）
+  来源: telegram:Financial_Express | 正文长度: 32 字
+  片段: …美联储理事鲍曼在银行监管会议上讲话，未对经济或货币政策前景置评。
 
 - **Fed's Bowman Assessment: Inflation is Widening, Another Rate Hike Possible This Year; US Stocks May See Sharp Correction Due to AI!**（2026-11-11 00:05）
   来源: longbridge | 正文长度: 598 字 | 立场: 鹰 +0.85
@@ -137,8 +145,8 @@
 ## 约翰·威廉姆斯（John C. Williams）
 
 - **Williams Signals Inflation Fight Continues; Market Has Fully Priced in December 25bp Rate Hike**（2026-11-24 13:25）
-  来源: longbridge | 正文长度: 549 字 | 立场: 鹰 +0.69
-  片段: …Williams Signals Inflation Fight Continues; Market Has Fully Priced in December 25bp Rate Hike New York Fed President Williams stated that the battle against in
+  来源: longbridge（同日 2 条已合并） | 正文长度: 549 字 | 立场: 鹰 +0.67
+  片段: …New York Fed President Williams said the inflation fight continues, requiring gradual policy tightening to curb imported inflation even as the economy expands. 
 
 - **美联储威廉姆斯表示，高通胀正被证明具有持续性。**（2026-11-23 21:01）
   来源: longbridge / telegram:Financial_Express（同日 8 条已合并） | 正文长度: 23 字 | 立场: 鹰 +0.47
