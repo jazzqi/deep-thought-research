@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-11-26T00:41:27.192733+00:00",
+  "window": {
+    "after": "2026-11-25T00:00:00+00:00",
+    "before": "2026-11-26T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "818395",
+      "title": "Matrix Multiplication is O(n^2.25) [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "author": "E-Reverance",
+      "points": 1013,
+      "comments": 561,
+      "published_at": "2026-11-25T01:19:26+00:00"
+    },
+    {
+      "id": "818728",
+      "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+      "url": "https://buttons.joshwcomeau.com/",
+      "author": "gaurang_tandon",
+      "points": 751,
+      "comments": 119,
+      "published_at": "2026-11-25T03:23:07+00:00"
+    },
+    {
+      "id": "821301",
+      "title": "Rumors swirling that labs might have cracked Factoring in P",
+      "url": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
+      "author": "lilytweed",
+      "points": 446,
+      "comments": 321,
+      "published_at": "2026-11-25T15:08:44+00:00"
+    },
+    {
+      "id": "821302",
+      "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
+      "url": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
+      "author": "gumby",
+      "points": 417,
+      "comments": 99,
+      "published_at": "2026-11-25T15:14:32+00:00"
+    },
+    {
+      "id": "820921",
+      "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
+      "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "author": "rgwohlbold",
+      "points": 404,
+      "comments": 314,
+      "published_at": "2026-11-25T13:33:07+00:00"
+    },
+    {
+      "id": "818633",
+      "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+      "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+      "author": "gmays",
+      "points": 395,
+      "comments": 169,
+      "published_at": "2026-11-25T02:34:21+00:00"
+    },
+    {
+      "id": "818756",
+      "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+      "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+      "author": "vinhnx",
+      "points": 395,
+      "comments": 132,
+      "published_at": "2026-11-25T03:04:37+00:00"
+    },
+    {
+      "id": "818420",
+      "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+      "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+      "author": "smusamashah",
+      "points": 386,
+      "comments": 77,
+      "published_at": "2026-11-25T00:54:49+00:00"
+    },
+    {
+      "id": "819001",
+      "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+      "url": "https://gpu-demo-gallery.pages.dev/",
+      "author": "arkits",
+      "points": 294,
+      "comments": 66,
+      "published_at": "2026-11-25T04:31:48+00:00"
+    },
+    {
+      "id": "820522",
+      "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "url": "https://github.com/xoxorwr/pw-loudness-eq",
+      "author": "ThrowNotAway",
+      "points": 275,
+      "comments": 162,
+      "published_at": "2026-11-25T11:34:25+00:00"
+    },
+    {
+      "id": "818727",
+      "title": "I've been drinking wine in my kitchen",
+      "url": "https://scottaaronson.blog/?p=10362",
+      "author": "nill0",
+      "points": 249,
+      "comments": 238,
+      "published_at": "2026-11-25T03:02:10+00:00"
+    },
+    {
+      "id": "819154",
+      "title": "Taking over US Treasury subdomains for $3 each",
+      "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
+      "author": "negura",
+      "points": 215,
+      "comments": 46,
+      "published_at": "2026-11-25T04:27:55+00:00"
+    },
+    {
+      "id": "818906",
+      "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+      "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+      "author": "hoodied",
+      "points": 209,
+      "comments": 162,
+      "published_at": "2026-11-25T04:03:33+00:00"
+    },
+    {
+      "id": "818802",
+      "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+      "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+      "author": "Curiositry",
+      "points": 208,
+      "comments": 78,
+      "published_at": "2026-11-25T03:47:42+00:00"
+    },
+    {
+      "id": "820709",
+      "title": "Smart People Who Give a Shit Use Tools",
+      "url": "https://www.iankduncan.com/engineering/2026-11-19-smart-people-who-give-a-shit-use-tools",
+      "author": "matthewsinclair",
+      "points": 201,
+      "comments": 163,
+      "published_at": "2026-11-25T07:46:43+00:00"
+    },
+    {
+      "id": "821388",
+      "title": "Investigating degraded experiences across GitHub products",
+      "url": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
+      "author": "pinjasaur",
+      "points": 176,
+      "comments": 96,
+      "published_at": "2026-11-25T15:59:23+00:00"
+    },
+    {
+      "id": "821687",
+      "title": "Holy Shit Holy Shit Holy Shit Holy Shit [Algorithmic Complexity Lower Bounds]",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "author": "Kotlopou",
+      "points": 173,
+      "comments": 101,
+      "published_at": "2026-11-25T19:11:27+00:00"
+    },
+    {
+      "id": "821094",
+      "title": "U.S. jury convicts Huawei of fraud, Iran sanctions violations",
+      "url": "https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/",
+      "author": "nephihaha",
+      "points": 151,
+      "comments": 182,
+      "published_at": "2026-11-25T14:12:29+00:00"
+    },
+    {
+      "id": "818904",
+      "title": "Macrohistory in Six Facts",
+      "url": "https://basilhalperin.com/essays/macrohistory.html",
+      "author": "tptacek",
+      "points": 149,
+      "comments": 79,
+      "published_at": "2026-11-25T03:04:46+00:00"
+    },
+    {
+      "id": "819003",
+      "title": "Treasury CIO is too busy vibecoding instead of doing his job #147",
+      "url": "https://github.com/samcorcos/legatum/issues/147",
+      "author": "aanet",
+      "points": 144,
+      "comments": 36,
+      "published_at": "2026-11-25T04:56:36+00:00"
+    },
+    {
+      "id": "821485",
+      "title": "1Password Security Incident",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "author": "lxhrstn",
+      "points": 133,
+      "comments": 58,
+      "published_at": "2026-11-25T17:18:26+00:00"
+    },
+    {
+      "id": "821918",
+      "title": "Much shorter version of GRH Lean verification from Anthropic",
+      "url": "https://github.com/lsernau/grh-lean",
+      "author": "nb-t",
+      "points": 131,
+      "comments": 47,
+      "published_at": "2026-11-25T21:48:10+00:00"
+    },
+    {
+      "id": "822033",
+      "title": "Jev is (probably) Qwen3.5-35B-A3B",
+      "url": "https://modaic.dev/blog/latency-doesnt-lie",
+      "author": "csoham",
+      "points": 126,
+      "comments": 17,
+      "published_at": "2026-11-25T22:57:04+00:00"
+    },
+    {
+      "id": "818905",
+      "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
+      "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+      "author": "octember",
+      "points": 125,
+      "comments": 18,
+      "published_at": "2026-11-25T03:28:06+00:00"
+    },
+    {
+      "id": "818930",
+      "title": "Top open problems in mathematics ranked by LLM-assessed importance",
+      "url": "https://www.proofatlas.ai/open-problems/",
+      "author": "ijidak",
+      "points": 97,
+      "comments": 48,
+      "published_at": "2026-11-25T03:01:36+00:00"
+    },
+    {
+      "id": "821350",
+      "title": "In C++, = default and {} are not the same constructor",
+      "url": "https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/",
+      "author": "surprisetalk",
+      "points": 97,
+      "comments": 156,
+      "published_at": "2026-11-25T15:20:15+00:00"
+    },
+    {
+      "id": "818903",
+      "title": "Lua for Data Representation",
+      "url": "https://citrons.xyz/journal/2025-07-23",
+      "author": "vinhnx",
+      "points": 94,
+      "comments": 50,
+      "published_at": "2026-11-25T03:04:12+00:00"
+    },
+    {
+      "id": "821242",
+      "title": "The year the web industry gave up",
+      "url": "https://dbushell.com/2026/11/25/web-industry/",
+      "author": "Brajeshwar",
+      "points": 87,
+      "comments": 70,
+      "published_at": "2026-11-25T14:43:41+00:00"
+    },
+    {
+      "id": "819271",
+      "title": "A faster algorithm for extracting hexadecimal digits of π",
+      "url": "https://www.stylewarning.com/posts/faster-digit-extraction/",
+      "author": "vinhnx",
+      "points": 72,
+      "comments": 4,
+      "published_at": "2026-11-25T03:28:42+00:00"
+    },
+    {
+      "id": "821941",
+      "title": "The New York Times tells photographers not to use the latest Photoshop",
+      "url": "https://www.dpreview.com/news/new-york-times-adobe-photoshop-2027-restriction-ai/",
+      "author": "rmason",
+      "points": 72,
+      "comments": 33,
+      "published_at": "2026-11-25T21:18:02+00:00"
+    },
+    {
+      "id": "821915",
+      "title": "Slow Ubuntu security response times",
+      "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+      "author": "gslin",
+      "points": 60,
+      "comments": 22,
+      "published_at": "2026-11-25T20:38:00+00:00"
+    },
+    {
+      "id": "818489",
+      "title": "Here in the World: Letters of Albert Camus, 1944–1959",
+      "url": "https://literaryreview.co.uk/here-in-the-world",
+      "author": "lermontov",
+      "points": 58,
+      "comments": 18,
+      "published_at": "2026-11-25T00:36:43+00:00"
+    },
+    {
+      "id": "821443",
+      "title": "I checked Clojure's core with Lean and found unreported bugs",
+      "url": "https://s.conao3.com/blog/2026/e4f733",
+      "author": "encyclopedism",
+      "points": 56,
+      "comments": 20,
+      "published_at": "2026-11-25T14:56:52+00:00"
+    },
+    {
+      "id": "821917",
+      "title": "Prof. Sam Lawler: FUCK FUCK FUCK FUCK FUCK FUCK FUCK",
+      "url": "https://mastodon.social/@sundogplanets/117678381079935502",
+      "author": "marvinborner",
+      "points": 54,
+      "comments": 21,
+      "published_at": "2026-11-25T21:44:35+00:00"
+    },
+    {
+      "id": "821940",
+      "title": "72-Hour Fasting Can Reset Your Immune System, USC Study Shows",
+      "url": "https://scienceinhand.com/72-hour-fasting-can-reset-your-entire-immune-system-usc-study-shows/",
+      "author": "handfuloflight",
+      "points": 53,
+      "comments": 14,
+      "published_at": "2026-11-25T20:35:39+00:00"
+    },
+    {
+      "id": "821914",
+      "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+      "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+      "author": "dm",
+      "points": 48,
+      "comments": 13,
+      "published_at": "2026-11-25T20:35:50+00:00"
+    },
+    {
+      "id": "821573",
+      "title": "Why aren't we working 2-days a week?",
+      "url": "https://anihil.com/why-arent-we-working-2-days-a-week",
+      "author": "anihil",
+      "points": 47,
+      "comments": 56,
+      "published_at": "2026-11-25T17:37:17+00:00"
+    },
+    {
+      "id": "821686",
+      "title": "SpaceX wins FCC approval to deploy 1M orbital data center satellites",
+      "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+      "author": "johnyzee",
+      "points": 43,
+      "comments": 64,
+      "published_at": "2026-11-25T18:59:43+00:00"
+    },
+    {
+      "id": "820521",
+      "title": "The Riemann Hypothesis Proof as a Mediaeval Fantasy RPG Map",
+      "url": "https://marioschlosser.org/riemann/",
+      "author": "Guestmodinfo",
+      "points": 40,
+      "comments": 11,
+      "published_at": "2026-11-25T10:32:04+00:00"
+    },
+    {
+      "id": "821671",
+      "title": "Britain's ghost stations",
+      "url": "https://spectator.com/article/britains-ghost-stations-are-fascinating/",
+      "author": "translocator",
+      "points": 40,
+      "comments": 8,
+      "published_at": "2026-11-25T17:43:46+00:00"
+    },
+    {
+      "id": "820086",
+      "title": "Why Automated Proof-Solving Is the Same Old Dead End",
+      "url": "https://arxiv.org/abs/2611.31286",
+      "author": "pseudohadamard",
+      "points": 37,
+      "comments": 60,
+      "published_at": "2026-11-25T08:23:34+00:00"
+    },
+    {
+      "id": "819000",
+      "title": "Show HN: Sliding-panes React UI library (inspired by WebOS Enyo)",
+      "url": "https://vcarl.com/sashay/",
+      "author": "vcarl",
+      "points": 35,
+      "comments": 8,
+      "published_at": "2026-11-25T03:10:18+00:00"
+    },
+    {
+      "id": "821942",
+      "title": "Defang Security Incident",
+      "url": "https://defang.io/blog/post/security-incident-november-2026/",
+      "author": "gregsadetsky",
+      "points": 35,
+      "comments": 12,
+      "published_at": "2026-11-25T21:47:16+00:00"
+    },
+    {
+      "id": "821420",
+      "title": "Anthropic migrated Messages API to Rust with no Rust developers",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "author": "swyx",
+      "points": 31,
+      "comments": 6,
+      "published_at": "2026-11-25T16:28:28+00:00"
+    },
+    {
+      "id": "821670",
+      "title": "Deriving Black-Scholes",
+      "url": "https://david.alvarezrosa.com/posts/deriving-black-scholes/",
+      "author": "meysamazad",
+      "points": 29,
+      "comments": 15,
+      "published_at": "2026-11-25T17:18:15+00:00"
+    },
+    {
+      "id": "821720",
+      "title": "The polynomial Hirsch conjecture is false [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+      "author": "acossta",
+      "points": 29,
+      "comments": 1,
+      "published_at": "2026-11-25T17:34:34+00:00"
+    },
+    {
+      "id": "819060",
+      "title": "Bo3mac: Static ARM64 Recompiler and Direct Metal Port of Black Ops III",
+      "url": "https://github.com/mawlicious/bo3mac",
+      "author": "mawlicious",
+      "points": 28,
+      "comments": 5,
+      "published_at": "2026-11-25T03:00:12+00:00"
+    },
+    {
+      "id": "821734",
+      "title": "New York bans AI toys, including those using internet to talk to children",
+      "url": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
+      "author": "nephihaha",
+      "points": 28,
+      "comments": 2,
+      "published_at": "2026-11-25T17:27:05+00:00"
+    },
+    {
+      "id": "819002",
+      "title": "Show HN: U.S. Interstate Weather",
+      "url": "https://www.interstateweather.com/",
+      "author": "projproj",
+      "points": 26,
+      "comments": 7,
+      "published_at": "2026-11-25T04:35:32+00:00"
+    },
+    {
+      "id": "820520",
+      "title": "Show HN: Carry – Save every AI conversations as Markdown, in a folder you Own",
+      "url": "https://carry.md/",
+      "author": "iankit17",
+      "points": 26,
+      "comments": 18,
+      "published_at": "2026-11-25T03:19:02+00:00"
+    },
+    {
+      "id": "820844",
+      "title": "T3code Backslash",
+      "url": "https://twitter.com/realchendahuang/status/2125153472450527440",
+      "author": "krehwell",
+      "points": 25,
+      "comments": 1,
+      "published_at": "2026-11-25T06:19:22+00:00"
+    },
+    {
+      "id": "821482",
+      "title": "Zapier offers free MCP tool calls until Jan. 5",
+      "url": "https://zapier.com/mcp",
+      "author": "ckor",
+      "points": 25,
+      "comments": 1,
+      "published_at": "2026-11-25T16:07:19+00:00"
+    },
+    {
+      "id": "821801",
+      "title": "Spending 35B Opus 5.5 Tokens to Write a Symphony",
+      "url": "https://danprice.ai/blog/opus-symphony",
+      "author": "halfprice06",
+      "points": 24,
+      "comments": 23,
+      "published_at": "2026-11-25T19:57:08+00:00"
+    },
+    {
+      "id": "822129",
+      "title": "Duran Duran guitarist Andy Taylor dies aged 65",
+      "url": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po",
+      "author": "iamben",
+      "points": 24,
+      "comments": 8,
+      "published_at": "2026-11-25T22:57:01+00:00"
+    },
+    {
+      "id": "820777",
+      "title": "Swift Death of Statelessness",
+      "url": "https://bexx.io/post/swift-death-of-statelessness/",
+      "author": "bexxmodd",
+      "points": 23,
+      "comments": 10,
+      "published_at": "2026-11-25T06:23:09+00:00"
+    },
+    {
+      "id": "821349",
+      "title": "Pop Goes the Bubble",
+      "url": "https://paulkrugman.substack.com/p/pop-goes-the-bubble",
+      "author": "rammy1234",
+      "points": 23,
+      "comments": 0,
+      "published_at": "2026-11-25T05:40:37+00:00"
+    },
+    {
+      "id": "821754",
+      "title": "Show HN: Turned a $5 AliExpress clock into a desk Clawd pet(+usage)",
+      "url": "https://github.com/click6067-ship-it/token-tv",
+      "author": "click6067",
+      "points": 23,
+      "comments": 0,
+      "published_at": "2026-11-25T13:51:44+00:00"
+    },
+    {
+      "id": "821985",
+      "title": "Why are climate activists so against nuclear?",
+      "url": "https://dalewen.substack.com/p/why-are-climate-activists-so-against",
+      "author": "mpweiher",
+      "points": 23,
+      "comments": 39,
+      "published_at": "2026-11-25T20:54:55+00:00"
+    },
+    {
+      "id": "821093",
+      "title": "GTA 6 player gets 30-day PSN ban for sharing in-game nudist photo with a friend",
+      "url": "https://www.eurogamer.net/gta-6-psn-ban-nude-photos-nudist-resort",
+      "author": "croes",
+      "points": 22,
+      "comments": 4,
+      "published_at": "2026-11-25T05:31:55+00:00"
+    },
+    {
+      "id": "821387",
+      "title": "Ghost strikes: the new drone superpowers raining death from above",
+      "url": "https://www.theguardian.com/global-development/ng-interactive/2026/nov/25/ghost-strikes-the-rise-of-drone-superpowers-fuelling-remote-killing-of-thousands-of-civilians-with-impunity",
+      "author": "xyzal",
+      "points": 22,
+      "comments": 4,
+      "published_at": "2026-11-25T08:00:07+00:00"
+    },
+    {
+      "id": "821705",
+      "title": "US authorizes SpaceX to deploy 1M satellites for data centers in space",
+      "url": "https://www.reuters.com/business/media-telecom/us-authorizes-spacex-deploy-1-million-satellites-data-centers-space-2026-11-25/",
+      "author": "jonbaer",
+      "points": 22,
+      "comments": 14,
+      "published_at": "2026-11-25T17:22:07+00:00"
+    },
+    {
+      "id": "821777",
+      "title": "Ukraine shoots down Russian jet-powered drone with combat laser for first time",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/25/8064653/",
+      "author": "uxhacker",
+      "points": 22,
+      "comments": 0,
+      "published_at": "2026-11-25T17:57:46+00:00"
+    },
+    {
+      "id": "822073",
+      "title": "Bare Metal Qwen",
+      "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "author": "miohtama",
+      "points": 22,
+      "comments": 1,
+      "published_at": "2026-11-25T22:15:34+00:00"
+    },
+    {
+      "id": "821669",
+      "title": "Wall Street Expects Anthropic's Committed $900B Debt to Be Junk",
+      "url": "https://www.wsj.com/finance/investing/anthropic-committed-to-spend-900-billion-wall-street-expects-its-debt-to-be-junk-5514d55d",
+      "author": "mgh2",
+      "points": 20,
+      "comments": 4,
+      "published_at": "2026-11-25T12:08:31+00:00"
+    },
+    {
+      "id": "821832",
+      "title": "'Pervert Glasses' Named Macquarie Dictionary's 2026 Word of the Year",
+      "url": "https://www.cyberdaily.au/culture/14484-pervert-glasses-named-macquarie-dictionary-s-2026-word-of-the-year?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJicmFuZCI6IkN5YmVyIERhaWx5IiwiZW1haWwiOiJsZW9uZy55dWhraGVlQGNoYW5naWFpcnBvcnQuY29tIiwiZmlyc3RuYW1lIjoiWXVoIEtoZWUiLCJsYXN0bmFtZSI6Ikxlb25nIn0.FGlC2dQklganQ75JiMWz3WANhftmdrhjiud76tXyKNI",
+      "author": "randycupertino",
+      "points": 20,
+      "comments": 1,
+      "published_at": "2026-11-25T16:26:39+00:00"
+    },
+    {
+      "id": "822027",
+      "title": "消息人士称美政府正重新考虑打击伊朗领导层",
+      "url": "https://t.me/Financial_Express/3656902",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:37:42+00:00"
+    },
+    {
+      "id": "822028",
+      "title": "迎峰度冬进入关键期 能源保供“工具箱”升级",
+      "url": "https://t.me/Financial_Express/3656903",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:37:42+00:00"
+    },
+    {
+      "id": "822029",
+      "title": "市场震荡投资者持仓承压 券商投顾陪伴价值凸显",
+      "url": "https://t.me/Financial_Express/3656904",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:38:02+00:00"
+    },
+    {
+      "id": "822030",
+      "title": "中信建投：AI 相关需求放量升级 测试设备产业链价值重估",
+      "url": "https://t.me/Financial_Express/3656905",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:39:42+00:00"
+    },
+    {
+      "id": "822031",
+      "title": "新股提示：猎奇智能今日申购",
+      "url": "https://t.me/Financial_Express/3656906",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:40:22+00:00"
+    },
+    {
+      "id": "822032",
+      "title": "研究：心脏病患者每日睡眠超 9 小时或显著增加死亡风险",
+      "url": "https://t.me/Financial_Express/3656907",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:41:42+00:00"
+    },
+    {
+      "id": "822036",
+      "title": "美股休市提醒",
+      "url": "https://t.me/Financial_Express/3656908",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:45:42+00:00"
+    },
+    {
+      "id": "822037",
+      "title": "德国下调第三季度经济增速",
+      "url": "https://t.me/Financial_Express/3656909",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:46:02+00:00"
+    },
+    {
+      "id": "822038",
+      "title": "日经 225 指数期货早盘上涨 0.9%。",
+      "url": "https://t.me/Financial_Express/3656910",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:46:22+00:00"
+    },
+    {
+      "id": "822039",
+      "title": "基准 10 年期日本国债期货早盘上涨 0.08 点。",
+      "url": "https://t.me/Financial_Express/3656911",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:46:42+00:00"
+    },
+    {
+      "id": "822040",
+      "title": "花旗：恐慌指数 14 次飙升至 40 后 美股 13 次在 3 个月后录得上涨",
+      "url": "https://t.me/Financial_Express/3656912",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:47:22+00:00"
+    },
+    {
+      "id": "822049",
+      "title": "CSC Financial: Surge and Upgrade in AI-Related Demand Drive Revaluation of Testing Equipment Industry Chain Value",
+      "url": "https://longbridge.cn/news/306836122",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:42:04+00:00"
+    },
+    {
+      "id": "822050",
+      "title": "SpaceX Space Data Center Approved! Up to 1 Million Satellites Can Be Launched to Move Computing Power into Space",
+      "url": "https://longbridge.cn/news/306836258",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:44:52+00:00"
+    },
+    {
+      "id": "822051",
+      "title": "SpaceX Reportedly Cuts Blackwell GPU Rental Rates by Up to 35% and Sublets Returned H200 Chips from Anthropic at Discounted Prices",
+      "url": "https://longbridge.cn/news/306836236",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:44:52+00:00"
+    },
+    {
+      "id": "822052",
+      "title": "华泰证券：AI 产业内部更重交付与回报质量",
+      "url": "https://t.me/Financial_Express/3656913",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:50:22+00:00"
+    },
+    {
+      "id": "822053",
+      "title": "《出口中国能力发展报告》国际研讨会在瑞士日内瓦成功举办",
+      "url": "https://t.me/Financial_Express/3656914",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:51:02+00:00"
+    },
+    {
+      "id": "822054",
+      "title": "温州宏丰：向特定对象发行股票申请获深交所审核通过",
+      "url": "https://t.me/Financial_Express/3656915",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:52:22+00:00"
+    },
+    {
+      "id": "822055",
+      "title": "地区州长称，俄罗斯击退了针对涅温诺梅斯克工业区的无人机袭击。",
+      "url": "https://t.me/Financial_Express/3656916",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:52:22+00:00"
+    },
+    {
+      "id": "822056",
+      "title": "俄罗斯地方州长表示，俄方挫败了针对涅温诺梅斯克工业区的无人机袭击。",
+      "url": "https://t.me/Financial_Express/3656917",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:52:42+00:00"
+    },
+    {
+      "id": "822057",
+      "title": "受美股尾盘反弹提振，亚洲股市有望走高",
+      "url": "https://t.me/Financial_Express/3656918",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:52:43+00:00"
+    },
+    {
+      "id": "822058",
+      "title": "印度成为资金避风港 印度股市 11 月大涨超 14%",
+      "url": "https://t.me/Financial_Express/3656919",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:54:02+00:00"
+    },
+    {
+      "id": "822059",
+      "title": "冰雪经济升温 4 股获机构看好",
+      "url": "https://t.me/Financial_Express/3656920",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:54:03+00:00"
+    },
+    {
+      "id": "822060",
+      "title": "高盛 2027 年展望：中国经济将保持稳健增长 出口韧性有望延续",
+      "url": "https://t.me/Financial_Express/3656921",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:56:02+00:00"
+    },
+    {
+      "id": "822061",
+      "title": "我国压缩空气储能技术获新突破",
+      "url": "https://t.me/Financial_Express/3656922",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:57:42+00:00"
+    },
+    {
+      "id": "822062",
+      "title": "10 年期日本国债收益率下跌 1 个基点至 2.635%。",
+      "url": "https://t.me/Financial_Express/3656923",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:57:43+00:00"
+    },
+    {
+      "id": "822063",
+      "title": "Africa C.D.C. Chief Faces Turmoil Over Management Amid Ebola Crisis",
+      "url": "https://www.nytimes.com/2026/11/25/world/africa/acdc-kaseya-staff-ebola.html",
+      "author": "Isabella Kwai",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:59:49+00:00"
+    },
+    {
+      "id": "822064",
+      "title": "中国加入世贸组织 25 周年高级别对话会在日内瓦举行",
+      "url": "https://t.me/Financial_Express/3656924",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:58:42+00:00"
+    },
+    {
+      "id": "822074",
+      "title": "Meta Platforms COO Javier Olivan reports disposal of $879,600 in common shares",
+      "url": "https://longbridge.cn/news/306836391",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:47:00+00:00"
+    },
+    {
+      "id": "822075",
+      "title": "Su Minfeng Reveals HK Stock Holdings: SA SA Doubles, Buy More Alibaba as It Falls; Sheep Year Economy May Face \"Fu Yin\" Stagnation",
+      "url": "https://longbridge.cn/news/306836503",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:48:53+00:00"
+    },
+    {
+      "id": "822076",
+      "title": "\"Guojin Headlines\": US inflation heats up and new tariffs weigh on markets; Dow Jones plunges over 1,100 points before closing 164 points higher, Nasdaq falls 0.6%",
+      "url": "https://longbridge.cn/news/306836853",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:52:00+00:00"
+    },
+    {
+      "id": "822077",
+      "title": "[Shanghai/Shenzhen Connect] CATL Tops List of Most Actively Traded Stocks via Shenzhen Connect",
+      "url": "https://longbridge.cn/news/306836844",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:52:00+00:00"
+    },
+    {
+      "id": "822078",
+      "title": "HTSC: Greater Emphasis on Delivery and Quality of Returns Within the AI Industry",
+      "url": "https://longbridge.cn/news/306836568",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:52:01+00:00"
+    },
+    {
+      "id": "822079",
+      "title": "K1 agrees to sell Caju to iFood Benefícios",
+      "url": "https://longbridge.cn/news/306836655",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:54:29+00:00"
+    },
+    {
+      "id": "822080",
+      "title": "US Federal Communications Commission Approves Musk's Plan to Deploy Space Data Centers",
+      "url": "https://longbridge.cn/news/306836882",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:58:10+00:00"
+    },
+    {
+      "id": "822135",
+      "title": "China Securities: Tech Valuation Restructuring; Maintain Low-Valuation Pro-Cyclical Positions and Tilt Portfolios Toward Dividend Core Holdings",
+      "url": "https://longbridge.cn/news/306836811",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-25T23:57:02+00:00"
+    }
+  ]
+}
