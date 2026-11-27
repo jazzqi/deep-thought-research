@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-26 21:00 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
+> 生成时间：2026-11-27 20:45 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
@@ -133,10 +133,6 @@
 - **Fed's Collins: Rate Hikes Needed Soon**（2026-11-13 16:15）
   来源: longbridge / telegram:Financial_Express（同日 4 条已合并） | 正文长度: 438 字 | 立场: 鹰 +0.71
   片段: …Fed's Collins: Rate Hikes Needed Soon Boston Fed President Collins: Further rate hikes will be needed soon as price pressures spread. It will be appropriate to 
-
-- **美联储柯林斯：年内或需再加息 关注通胀是否扩散**（2026-10-13 20:30）
-  来源: telegram:Financial_Express | 正文长度: 401 字 | 立场: 鹰 +0.72
-  片段: …美联储柯林斯：年内或需再加息 关注通胀是否扩散 金十数据 10 月 14 日讯，波士顿联储主席柯林斯表示，今年年底前利率可能需要进一步上调，以抑制通胀。对于是否需要进一步加息以及加息时机的判断，她表示将取决于未来公布的经济数据。柯林斯预计美国经济将继续增长，劳动力市场将维持接近充分就业的状态。她表示：“在这一情景下，随
 
 ## 苏什米塔·舒克拉（Sushmita Shukla）
 
