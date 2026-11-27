@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读数据：`GET /api/fomc/committee-brief`（聚合，推荐）、`GET /api/fomc/statements`（批量言论）、`GET /api/fomc/members`；Agent 工具 `query_fomc_members`（支持逗号分隔多人）。
-> 生成时间：2026-11-26 21:00 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
+> 生成时间：2026-11-27 20:40 UTC；名单来源：federalreserve.gov/monetarypolicy/fomc.htm + federalreservehistory.org/people/current-fed-leaders。
 > 「最新言论/立场」来自 `fomc_member_statements`（每条可追溯 raw_items）；「鹰/鸽」来自 D137 stance 快照（LLM 分类）；「综合」来自 D138 记分卡（0.6×投票 + 0.4×言论，附样本量与状态）。
 
 ---
@@ -43,7 +43,7 @@
 
 | 中文名 | 姓名 | 职位/机构 | 最新言论/立场（日期+来源） | 鹰/鸽 | 综合（投票/言论/样本） |
 |--------|------|----------|--------------------------|--------|------------------------|
-| 凯文·沃什 | Kevin Warsh | 主席 / Board of Governors（常任票委） | 2026-11-26 telegram:Financial_Express：“美联储传声筒”：两周后，沃什或将反对 2018 年的自己 | 鹰（+0.54/0.50） | （+0.26，投 +0.07，言 +0.53，n=7/样本少） ⚠️言行不一 |
+| 凯文·沃什 | Kevin Warsh | 主席 / Board of Governors（常任票委） | 2026-11-27 telegram:Financial_Express：BlueBay：预计美联储 12 月加息 25 个基点，明年一季度再加息一次 | 鹰（+0.54/0.50） | （+0.26，投 +0.07，言 +0.53，n=7/样本少） ⚠️言行不一 |
 | 菲利普·杰斐逊 | Philip N. Jefferson | 副主席 / Board of Governors（常任票委） | 2026-11-19 telegram:Financial_Express：11 月 20 日隔夜要闻一览 | 鹰（+0.50/0.51） ⚠️shift_to_hawk | （+0.12，投 +0.00，言 +0.31，n=17/样本少） |
 | 米歇尔·鲍曼 | Michelle W. Bowman | 负责监管事务的副主席 / Board of Governors（常任票委） | 2026-11-25 telegram:Financial_Express：美联储理事鲍曼在银行业监管会议上的讲话中未就经济或货币政策前景发表意见。 | 鹰（+0.62/0.49） ⚠️shift_to_hawk | （+0.09，投 +0.00，言 +0.22，n=15/样本少） |
 | 克里斯托弗·沃勒 | Christopher J. Waller | 理事 / Board of Governors（常任票委） | 2026-11-23 telegram:Financial_Express：沃什主张美联储应“少出声” 其他官员置若罔闻 | 鹰（+0.68/1.00） ⚠️flip_dove_to_hawk | （+0.11，投 -0.03，言 +0.31，n=20） |
