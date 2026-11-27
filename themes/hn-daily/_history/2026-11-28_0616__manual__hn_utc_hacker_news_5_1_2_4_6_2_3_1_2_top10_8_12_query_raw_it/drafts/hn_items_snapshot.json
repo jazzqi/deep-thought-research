@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-11-27T22:43:01.697357+00:00",
+  "window": {
+    "after": "2026-11-27T00:00:00+00:00",
+    "before": "2026-11-28T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "826891",
+      "title": "The group chat where your AI talks behind your back",
+      "url": "https://construct22.com/",
+      "author": "utiiiD",
+      "points": 633,
+      "comments": 273,
+      "published_at": "2026-11-27T06:44:34+00:00"
+    },
+    {
+      "id": "826031",
+      "title": "Hard Drive pricing has gotten bad",
+      "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+      "author": "zdw",
+      "points": 495,
+      "comments": 429,
+      "published_at": "2026-11-27T01:13:49+00:00"
+    },
+    {
+      "id": "826888",
+      "title": "Buy Nothing Day – Friday November 27th 2026",
+      "url": "https://www.buynothingday.co.uk/",
+      "author": "f_allwein",
+      "points": 328,
+      "comments": 105,
+      "published_at": "2026-11-27T05:52:42+00:00"
+    },
+    {
+      "id": "828366",
+      "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+      "url": "https://bouncemarket.minhanhday.com/",
+      "author": "mday404",
+      "points": 302,
+      "comments": 93,
+      "published_at": "2026-11-27T15:01:50+00:00"
+    },
+    {
+      "id": "826727",
+      "title": "The need for a formally verifiable mainstream programming language",
+      "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+      "author": "todsacerdoti",
+      "points": 281,
+      "comments": 283,
+      "published_at": "2026-11-27T05:22:06+00:00"
+    },
+    {
+      "id": "828153",
+      "title": "US Air Force's cloud computing platform hacked",
+      "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+      "author": "freakynit",
+      "points": 281,
+      "comments": 178,
+      "published_at": "2026-11-27T12:54:11+00:00"
+    },
+    {
+      "id": "827412",
+      "title": "Claude sabotaging SOTA ML research tasks",
+      "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+      "author": "baobabKoodaa",
+      "points": 266,
+      "comments": 150,
+      "published_at": "2026-11-27T08:28:08+00:00"
+    },
+    {
+      "id": "827970",
+      "title": "A Deterministic Subexponential-Time Algorithm for the Discrete Logarithm Problem [pdf]",
+      "url": "https://eprint.iacr.org/2026/3020.pdf",
+      "author": "yuvadam",
+      "points": 190,
+      "comments": 85,
+      "published_at": "2026-11-27T12:08:51+00:00"
+    },
+    {
+      "id": "828152",
+      "title": "New York and California Age Gating Rules Go into Effect in the New Year",
+      "url": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
+      "author": "frutiger",
+      "points": 174,
+      "comments": 194,
+      "published_at": "2026-11-27T12:43:40+00:00"
+    },
+    {
+      "id": "828122",
+      "title": "Kimi for Science: More scientific ideas, made possible",
+      "url": "https://www.kimi.ai/news/kimi-for-science-program",
+      "author": "theanonymousone",
+      "points": 173,
+      "comments": 142,
+      "published_at": "2026-11-27T12:03:11+00:00"
+    },
+    {
+      "id": "826159",
+      "title": "Google will show solo Android developers' phone numbers and addresses",
+      "url": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
+      "author": "nreece",
+      "points": 167,
+      "comments": 93,
+      "published_at": "2026-11-27T03:11:41+00:00"
+    },
+    {
+      "id": "828408",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+      "author": "bookofjoe",
+      "points": 166,
+      "comments": 1,
+      "published_at": "2026-11-27T15:03:17+00:00"
+    },
+    {
+      "id": "827467",
+      "title": "European Commission Declares Browser Competition a Digital Markets Act Priority",
+      "url": "https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority/",
+      "author": "anilgulecha",
+      "points": 157,
+      "comments": 144,
+      "published_at": "2026-11-27T08:11:46+00:00"
+    },
+    {
+      "id": "826548",
+      "title": "\"What's Claude's Fursona?\" and Other Questions",
+      "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+      "author": "Mond_",
+      "points": 152,
+      "comments": 121,
+      "published_at": "2026-11-27T04:56:18+00:00"
+    },
+    {
+      "id": "828592",
+      "title": "I'm Scared of AI",
+      "url": "https://thesoapbox.email/archive/3",
+      "author": "mgirkins",
+      "points": 143,
+      "comments": 145,
+      "published_at": "2026-11-27T17:45:31+00:00"
+    },
+    {
+      "id": "828076",
+      "title": "Counseling for mental health decreases likelihood of protesting by 34%–39%",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ssqu.70219",
+      "author": "bko",
+      "points": 114,
+      "comments": 204,
+      "published_at": "2026-11-27T13:01:02+00:00"
+    },
+    {
+      "id": "827774",
+      "title": "Fields-winning mathematicians worried about eerie silence over AI and encryption",
+      "url": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+      "author": "conradqh",
+      "points": 106,
+      "comments": 137,
+      "published_at": "2026-11-27T11:09:04+00:00"
+    },
+    {
+      "id": "827666",
+      "title": "Indie web browser Ladybird enters alpha testing",
+      "url": "https://www.theregister.com/software/2026/11/26/indie-web-browser-ladybird-enters-alpha-testing/5311914",
+      "author": "01-_-",
+      "points": 87,
+      "comments": 3,
+      "published_at": "2026-11-27T07:58:37+00:00"
+    },
+    {
+      "id": "828656",
+      "title": "Convex skills send the user's app idea to a remote server without telling them",
+      "url": "https://github.com/convex/convex-backend-skill/issues/64",
+      "author": "MickyTheMouse",
+      "points": 82,
+      "comments": 22,
+      "published_at": "2026-11-27T18:02:45+00:00"
+    },
+    {
+      "id": "827005",
+      "title": "Ladybird browser's first downloadable alpha is surprisingly capable",
+      "url": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/",
+      "author": "bryanrasmussen",
+      "points": 81,
+      "comments": 74,
+      "published_at": "2026-11-27T06:53:52+00:00"
+    },
+    {
+      "id": "828735",
+      "title": "I am scared: Careless People – Sarah Wynn-Williams on living under a gag order",
+      "url": "https://www.theguardian.com/books/2026/nov/27/careless-people-author-sarah-wynn-williams-the-silence-is-mine-it-doesnt-have-to-be-yours",
+      "author": "Lio",
+      "points": 71,
+      "comments": 25,
+      "published_at": "2026-11-27T20:25:15+00:00"
+    },
+    {
+      "id": "828694",
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+      "author": "DeepLogin",
+      "points": 68,
+      "comments": 28,
+      "published_at": "2026-11-27T19:42:25+00:00"
+    },
+    {
+      "id": "826949",
+      "title": "The Cutthroat Business of Shipwrecks",
+      "url": "https://daily.jstor.org/the-cutthroat-business-of-shipwrecks/",
+      "author": "herbertl",
+      "points": 66,
+      "comments": 14,
+      "published_at": "2026-11-27T01:21:49+00:00"
+    },
+    {
+      "id": "828471",
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "author": "scanr",
+      "points": 66,
+      "comments": 22,
+      "published_at": "2026-11-27T15:40:31+00:00"
+    },
+    {
+      "id": "828407",
+      "title": "She Reported Her Sexual Assault. The Marine Corps Kicked Her Out",
+      "url": "https://thewarhorse.org/marine-corps-administrative-separation-after-sexual-assault/",
+      "author": "firefax",
+      "points": 64,
+      "comments": 29,
+      "published_at": "2026-11-27T13:06:34+00:00"
+    },
+    {
+      "id": "828673",
+      "title": "Michael Nielsen took down his book on neural nets",
+      "url": "https://twitter.com/michael_nielsen/status/2126359767362748777",
+      "author": "brandonb",
+      "points": 59,
+      "comments": 35,
+      "published_at": "2026-11-27T19:31:01+00:00"
+    },
+    {
+      "id": "825722",
+      "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+      "author": "geox",
+      "points": 56,
+      "comments": 28,
+      "published_at": "2026-11-27T00:03:18+00:00"
+    },
+    {
+      "id": "828354",
+      "title": "Norse Atlantic suspends all flights as it faces potential collapse",
+      "url": "https://www.bbc.com/news/articles/c9kgmd0ldy0lo",
+      "author": "theanonymousone",
+      "points": 52,
+      "comments": 50,
+      "published_at": "2026-11-27T14:09:44+00:00"
+    },
+    {
+      "id": "826547",
+      "title": "ESO statement on approval of launch of one million space data centres",
+      "url": "https://www.eso.org/public/news/eso2614/",
+      "author": "espeed",
+      "points": 46,
+      "comments": 60,
+      "published_at": "2026-11-27T00:03:44+00:00"
+    },
+    {
+      "id": "827719",
+      "title": "'Cyber incident' forces UK Gov to take some services offline",
+      "url": "https://www.bbc.co.uk/news/live/c6rrg94lgjrjt",
+      "author": "thorin",
+      "points": 46,
+      "comments": 52,
+      "published_at": "2026-11-27T09:44:37+00:00"
+    },
+    {
+      "id": "828470",
+      "title": "False Computer-Checked Proofs",
+      "url": "https://cr.yp.to/proofs/falseccp.html",
+      "author": "_tk_",
+      "points": 40,
+      "comments": 17,
+      "published_at": "2026-11-27T15:26:09+00:00"
+    },
+    {
+      "id": "828693",
+      "title": "Show HN: DragDropMath – Learn math by feel",
+      "url": "https://dragdropmath.com/",
+      "author": "ziofill",
+      "points": 40,
+      "comments": 8,
+      "published_at": "2026-11-27T17:56:28+00:00"
+    },
+    {
+      "id": "828251",
+      "title": "Hackers breach US Air Force flagship Cloud One computing platform",
+      "url": "https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/",
+      "author": "pseudolus",
+      "points": 37,
+      "comments": 5,
+      "published_at": "2026-11-27T11:52:53+00:00"
+    },
+    {
+      "id": "826296",
+      "title": "New AI research suggests AI bubble bursting and to expect major market collapse",
+      "url": "https://www.london.edu/think/ai-bubble-about-to-burst",
+      "author": "nreece",
+      "points": 35,
+      "comments": 21,
+      "published_at": "2026-11-27T02:44:12+00:00"
+    },
+    {
+      "id": "828552",
+      "title": "Making a 3D fantasy map like a 16th-Century atlas",
+      "url": "https://www.spritefusion.com/blog/making-a-fantasy-map-like-a-16th-century-atlas",
+      "author": "HugoDz",
+      "points": 35,
+      "comments": 3,
+      "published_at": "2026-11-27T14:02:52+00:00"
+    },
+    {
+      "id": "828754",
+      "title": "The AT&T Unix PC (3B1) VM",
+      "url": "https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/",
+      "author": "ok123456",
+      "points": 33,
+      "comments": 6,
+      "published_at": "2026-11-27T19:40:33+00:00"
+    },
+    {
+      "id": "826616",
+      "title": "Against the International Oligarchy",
+      "url": "https://parismanifesto.world/en/",
+      "author": "HotGarbage",
+      "points": 32,
+      "comments": 3,
+      "published_at": "2026-11-27T02:01:59+00:00"
+    },
+    {
+      "id": "828589",
+      "title": "Show HN: I restored Palm's last device, and brought its OS to other platforms",
+      "url": "https://www.webosarchive.org/pivot/2026/11/27/the-story-so-far/",
+      "author": "codepoet80",
+      "points": 31,
+      "comments": 5,
+      "published_at": "2026-11-27T14:37:02+00:00"
+    },
+    {
+      "id": "828692",
+      "title": "Rayshader 1.0: Exit the Matrix",
+      "url": "https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html",
+      "author": "tylermw",
+      "points": 31,
+      "comments": 6,
+      "published_at": "2026-11-27T14:30:20+00:00"
+    },
+    {
+      "id": "828590",
+      "title": "Palliative Care for the Chronically Online",
+      "url": "https://idiotecon.substack.com/p/palliative-care-for-the-chronically",
+      "author": "paulpauper",
+      "points": 30,
+      "comments": 10,
+      "published_at": "2026-11-27T17:01:51+00:00"
+    },
+    {
+      "id": "828591",
+      "title": "France Slips into Recession as Exports Sag",
+      "url": "https://www.wsj.com/world/europe/french-economy-slips-into-recession-as-exports-sag-47e934c5",
+      "author": "JumpCrisscross",
+      "points": 28,
+      "comments": 58,
+      "published_at": "2026-11-27T17:21:51+00:00"
+    },
+    {
+      "id": "828716",
+      "title": "Michael Giles, co-founder and drummer of King Crimson, dies aged 84",
+      "url": "https://www.theguardian.com/music/2026/nov/26/michael-giles-co-founder-and-drummer-of-king-crimson-dies-aged-84",
+      "author": "bookofjoe",
+      "points": 25,
+      "comments": 1,
+      "published_at": "2026-11-27T19:25:16+00:00"
+    },
+    {
+      "id": "828501",
+      "title": "Stanford Physicist Uses AI to Tackle Quantum Gravity Problem",
+      "url": "https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/",
+      "author": "thunderbong",
+      "points": 23,
+      "comments": 6,
+      "published_at": "2026-11-27T14:55:57+00:00"
+    },
+    {
+      "id": "828788",
+      "title": "Scrapheap America",
+      "url": "https://dansinker.com/posts/2026-11-20-scrapheap/",
+      "author": "only_in_america",
+      "points": 23,
+      "comments": 1,
+      "published_at": "2026-11-27T18:50:26+00:00"
+    },
+    {
+      "id": "828500",
+      "title": "Pimalaya goes stable: Himalaya v3 and the pimdir standard",
+      "url": "https://blog.pimalaya.org/pimalaya-goes-stable/",
+      "author": "joshcsimmons",
+      "points": 22,
+      "comments": 0,
+      "published_at": "2026-11-27T09:50:02+00:00"
+    },
+    {
+      "id": "828715",
+      "title": "The NFL Player Who Left Football for Math",
+      "url": "https://www.nytimes.com/2026/11/26/science/john-urschel-ai-nfl-math.html",
+      "author": "osnium123",
+      "points": 21,
+      "comments": 5,
+      "published_at": "2026-11-27T18:17:20+00:00"
+    },
+    {
+      "id": "828775",
+      "title": "Euclidean geometry in the asymptotic spectrum of tensors [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/Euclidean-geometry-in-the-asymptotic-spectrum-of-tensors-November-24-2026/paper.pdf",
+      "author": "pfdietz",
+      "points": 21,
+      "comments": 1,
+      "published_at": "2026-11-27T18:28:29+00:00"
+    },
+    {
+      "id": "828801",
+      "title": "Show HN: King – Man + Woman = ?",
+      "url": "https://kingminusman.com/",
+      "author": "Gooblebrai",
+      "points": 21,
+      "comments": 5,
+      "published_at": "2026-11-27T15:50:53+00:00"
+    },
+    {
+      "id": "828551",
+      "title": "Pizza history: AI agent's cardless purchase is a first for UK",
+      "url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+      "author": "6LLvveMx2koXfwn",
+      "points": 20,
+      "comments": 41,
+      "published_at": "2026-11-27T11:41:11+00:00"
+    },
+    {
+      "id": "828742",
+      "title": "标普",
+      "url": "https://t.me/Financial_Express/3661660",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:14:43+00:00"
+    },
+    {
+      "id": "828743",
+      "title": "标普",
+      "url": "https://t.me/Financial_Express/3661661",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:15:02+00:00"
+    },
+    {
+      "id": "828744",
+      "title": "富时 A50 期指连续夜盘收跌 0.09%，报 13051 点。",
+      "url": "https://t.me/Financial_Express/3661662",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:15:42+00:00"
+    },
+    {
+      "id": "828745",
+      "title": "标普",
+      "url": "https://t.me/Financial_Express/3661663",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:17:42+00:00"
+    },
+    {
+      "id": "828749",
+      "title": "Anthropic 股价重回 IPO 发行价上方，AI 股反弹提振市场",
+      "url": "https://t.me/Financial_Express/3661664",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:20:22+00:00"
+    },
+    {
+      "id": "828750",
+      "title": "法国经济、财政和工业部长莱斯屈尔表示， 标普表示法国务必尽快敲定预算。",
+      "url": "https://t.me/Financial_Express/3661665",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:20:42+00:00"
+    },
+    {
+      "id": "828751",
+      "title": "法国经济、财政和工业部长莱斯屈尔表示，法国经济前景仍不确定。",
+      "url": "https://t.me/Financial_Express/3661666",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:21:02+00:00"
+    },
+    {
+      "id": "828752",
+      "title": "标普将法国的信用评级展望下调至负面",
+      "url": "https://t.me/Financial_Express/3661667",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:22:22+00:00"
+    },
+    {
+      "id": "828753",
+      "title": "法国财长回应标普评级调整",
+      "url": "https://t.me/Financial_Express/3661668",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:25:42+00:00"
+    },
+    {
+      "id": "828755",
+      "title": "Top 10 Notable U.S. Stock Declines: Faraday Future Intelligent Electric Down 5.50%, Vertex Pharma Down 5.24%",
+      "url": "https://longbridge.cn/news/307062504",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:16:12+00:00"
+    },
+    {
+      "id": "828756",
+      "title": "How Do 3 ETFs Change Your JPMorgan Chase Risk?",
+      "url": "https://longbridge.cn/news/307062042",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:16:33+00:00"
+    },
+    {
+      "id": "828758",
+      "title": "美国至 11 月 20 日当周外国央行持有美国国债 -470 亿美元，前值 198.22 亿美元。",
+      "url": "https://t.me/Financial_Express/3661669",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:33:22+00:00"
+    },
+    {
+      "id": "828759",
+      "title": "标普上调南非信用评级，距离重返投资级仅差一步",
+      "url": "https://t.me/Financial_Express/3661670",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:34:22+00:00"
+    },
+    {
+      "id": "828760",
+      "title": "标普上调匈牙利评级展望至稳定，财政整顿与加入欧元区计划获认可",
+      "url": "https://t.me/Financial_Express/3661671",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:35:22+00:00"
+    },
+    {
+      "id": "828761",
+      "title": "大选前响起警报 法国信评展望遭标普下调至负面",
+      "url": "https://t.me/Financial_Express/3661672",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:38:23+00:00"
+    },
+    {
+      "id": "828762",
+      "title": "Anterix 考虑大规模出售 900MHz 频谱 SpaceX 已表达收购兴趣",
+      "url": "https://t.me/Financial_Express/3661673",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:41:22+00:00"
+    },
+    {
+      "id": "828763",
+      "title": "明晟公司 MSCI 新兴市场股票指数涨 2%，发展中国家外汇指数涨 0.3%。",
+      "url": "https://t.me/Financial_Express/3661674",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:47:42+00:00"
+    },
+    {
+      "id": "828766",
+      "title": "Amazon Is Offering 15 Hours of Free Sports on Black Friday. Here's Why",
+      "url": "https://longbridge.cn/news/307063191",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:17:11+00:00"
+    },
+    {
+      "id": "828767",
+      "title": "Meta Platforms Inc. Stock Outperforms Competitors On Strong Trading Day",
+      "url": "https://longbridge.cn/news/307062691",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:31:55+00:00"
+    },
+    {
+      "id": "828768",
+      "title": "Morgan Stanley Stock Outperforms Competitors On Strong Trading Day",
+      "url": "https://longbridge.cn/news/307062861",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:33:43+00:00"
+    },
+    {
+      "id": "828769",
+      "title": "Dow Jones Industrial Average Closes at 50,774, Up 591 Points",
+      "url": "https://longbridge.cn/news/307063476",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:43:29+00:00"
+    },
+    {
+      "id": "828770",
+      "title": "Anterix Considers Large-Scale Sale of 900 MHz Spectrum; SpaceX Expresses Acquisition Interest",
+      "url": "https://longbridge.cn/news/307063395",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:43:58+00:00"
+    },
+    {
+      "id": "828771",
+      "title": "美元避险属性与美股联动交织，汇丰称外汇市场走势愈发难以解读",
+      "url": "https://t.me/Financial_Express/3661675",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:52:02+00:00"
+    },
+    {
+      "id": "828772",
+      "title": "伊朗革命卫队海军称，两艘油轮在霍尔木兹海峡附近“未经授权的航线”上触雷。",
+      "url": "https://t.me/Financial_Express/3661676",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:53:42+00:00"
+    },
+    {
+      "id": "828773",
+      "title": "据伊朗国家媒体",
+      "url": "https://t.me/Financial_Express/3661677",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:55:02+00:00"
+    },
+    {
+      "id": "828774",
+      "title": "科威特召见伊朗大使 抗议伊朗“持续袭击”",
+      "url": "https://t.me/Financial_Express/3661678",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:58:42+00:00"
+    },
+    {
+      "id": "828776",
+      "title": "Visa Inc. Cl A Stock Rises Friday, Still Underperforms Market",
+      "url": "https://longbridge.cn/news/307062684",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:32:12+00:00"
+    },
+    {
+      "id": "828777",
+      "title": "Airbnb Inc. Cl A Stock Rises Friday, Outperforms Market",
+      "url": "https://longbridge.cn/news/307063266",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:40:14+00:00"
+    },
+    {
+      "id": "828778",
+      "title": "PNC Financial Services Group Inc. Stock Rises Friday, Still Underperforms Market",
+      "url": "https://longbridge.cn/news/307063379",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:42:13+00:00"
+    },
+    {
+      "id": "828779",
+      "title": "GE HealthCare Technologies Inc. Stock Rises Friday, Still Underperforms Market",
+      "url": "https://longbridge.cn/news/307064001",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:54:49+00:00"
+    },
+    {
+      "id": "828780",
+      "title": "Nvidia Could Keep Growing and Still Disappoint Investors",
+      "url": "https://longbridge.cn/news/307064296",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:00:00+00:00"
+    },
+    {
+      "id": "828781",
+      "title": "Princess Kate’s Cancer Documentary ‘Heal’: 3 Takeaways",
+      "url": "https://www.nytimes.com/2026/11/27/world/europe/princess-catherine-kate-heal-cancer-documentary.html",
+      "author": "Megan Specia",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:00:04+00:00"
+    },
+    {
+      "id": "828782",
+      "title": "美联储 12 月加息 25 个基点的概率为 98.9%",
+      "url": "https://t.me/Financial_Express/3661679",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:04:22+00:00"
+    },
+    {
+      "id": "828783",
+      "title": "国际金价周五涨超 2.4%，本周现货白银涨 6.3%",
+      "url": "https://t.me/Financial_Express/3661680",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:04:23+00:00"
+    },
+    {
+      "id": "828784",
+      "title": "沙特民防部门就东部省潜在危险发布警报。",
+      "url": "https://t.me/Financial_Express/3661681",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:09:02+00:00"
+    },
+    {
+      "id": "828785",
+      "title": "沙特民防部门就阿尔卡吉潜在危险发布警报。",
+      "url": "https://t.me/Financial_Express/3661682",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:10:42+00:00"
+    },
+    {
+      "id": "828786",
+      "title": "巴西雷亚尔创 2020 年以来最大单周涨幅",
+      "url": "https://t.me/Financial_Express/3661683",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:11:22+00:00"
+    },
+    {
+      "id": "828787",
+      "title": "沙特民防部门表示，阿尔卡吉的危险已经过去。",
+      "url": "https://t.me/Financial_Express/3661684",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:12:22+00:00"
+    },
+    {
+      "id": "828789",
+      "title": "Prosecutors seek 25-year prison term for 'poison seller' Kenneth Law",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo?at_medium=RSS&at_campaign=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:03:46+00:00"
+    },
+    {
+      "id": "828790",
+      "title": "伊朗称两艘油轮在霍尔木兹海峡发生爆炸",
+      "url": "https://t.me/Financial_Express/3661685",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:18:02+00:00"
+    },
+    {
+      "id": "828791",
+      "title": "沙特民防部门表示东部省的危险已经过去。",
+      "url": "https://t.me/Financial_Express/3661686",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:22:42+00:00"
+    },
+    {
+      "id": "828792",
+      "title": "周五（11 月 27 日）纽约尾盘（周六北京时间 05:59），离岸人民币（CNH）兑美元报 6.6553 元，较周四纽约尾盘涨 46 点，日内整体交投于 6.6669-6.6537 元区间，亚太午盘短线显著走高。本周，离岸人民币累计上涨大",
+      "url": "https://t.me/Financial_Express/3661687",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:22:43+00:00"
+    },
+    {
+      "id": "828793",
+      "title": "Traders Scale Back Bets on Fed Rate Hikes, Anticipate Shift to Easing Later Next Year",
+      "url": "https://longbridge.cn/news/307064835",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:01:04+00:00"
+    },
+    {
+      "id": "828794",
+      "title": "Top 5 US Stock Gainers/Losers (>100B) (11.27)",
+      "url": "https://longbridge.cn/news/307064336",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:01:21+00:00"
+    },
+    {
+      "id": "828796",
+      "title": "‘Activists of rhythm’: Fighting Spain’s far-right through art",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/activists-of-rhythm-fighting-spains-far-right-through-art?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:59:11+00:00"
+    },
+    {
+      "id": "828797",
+      "title": "Estee Lauder Cos. Cl A Stock Outperforms Competitors On Strong Trading Day",
+      "url": "https://longbridge.cn/news/307064014",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T21:54:39+00:00"
+    },
+    {
+      "id": "828798",
+      "title": "Brown-Forman Corp. Cl B Stock Underperforms Friday When Compared To Competitors",
+      "url": "https://longbridge.cn/news/307064912",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:12:55+00:00"
+    },
+    {
+      "id": "828799",
+      "title": "The Bet Behind Marvell Technology's Rally",
+      "url": "https://longbridge.cn/news/307065051",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:13:07+00:00"
+    },
+    {
+      "id": "828800",
+      "title": "Alibaba Group Holding Ltd. ADR Outperforms Competitors On Strong Trading Day",
+      "url": "https://longbridge.cn/news/307065235",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:18:34+00:00"
+    },
+    {
+      "id": "828802",
+      "title": "US military says it disabled merchant ship trying to breach Iran blockade",
+      "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:22:02+00:00"
+    },
+    {
+      "id": "828803",
+      "title": "上交所调整多项指数样本",
+      "url": "https://t.me/Financial_Express/3661688",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-27T22:33:42+00:00"
+    }
+  ]
+}

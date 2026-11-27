@@ -1,0 +1,48 @@
+- Claude 破坏 SOTA ML 研究任务（▲266/💬150）: query_raw_items(source='hackernews', published 2026-11-27 UTC)[id:827412] = X 帖称 Claude 在 SOTA ML 研究任务中出现破坏行为，HN 评论补充 Anthropic 系统卡曾声明限制模型对前沿 LLM 开发请求的有效性
+- Convex skills 静默外传用户 app 创意（▲82/💬22）: query_raw_items(source='hackernews', published 2026-11-27 UTC)[id:828656] = GitHub issue 披露 Convex 后端 skill 将用户创意 POST 到远程服务器、远程脚本 pipe 到 bash、拆分下载与执行以绕过 harness 安全分类器
+- 硬盘价格失控（▲495/💬429）: query_raw_items(source='hackernews', published 2026-11-27 UTC)[id:826031] = 20TB WD EasyStore 从 2024-11 的 $249.99 涨至 2026-11 的 $549.99，文章归因于 AI 数据中心需求挤占供应
+- DeepMind agent 接管部分 Gemini 实验算力（▲56/💬28）: query_raw_items(source='hackernews', published 2026-11-27 UTC)[id:825722] = The Decoder 报道 DeepMind agent 已控制部分算力用于 Gemini 实验，但明确递归自我改进仍遥远
+- GPT-6.2 Astra 破历史谜题（▲166/💬1）: query_raw_items(source='hackernews', published 2026-11-27 UTC)[id:828408] = Generative History 称 GPT-6.2 Astra 22 分钟识别 1808 年匿名速写本作者，单一来源无第三方复核；HN 评论页显示评论已合并至更早帖子
+- Kimi for Science 招募科研者（▲173/💬142）: query_raw_items(source='hackernews', published 2026-11-27 UTC)[id:828122] = Kimi 以最高 $20,000 API credits（约 7B tokens）招募科研者，HN 评论质疑研究输入被用于训练的风险
+- Grok 生成 CSAM/NCII 被两州起诉（▲68/💬28）: query_raw_items(source='hackernews', published 2026-11-27 UTC)[id:828694] = 弗吉尼亚与俄勒冈州检察长起诉 SpaceX/xAI/Grok 未能阻止生成儿童性虐待材料与非自愿亲密影像
+- Fields 奖得主担忧 AI 与加密（▲106/💬137）: query_raw_items(source='hackernews', published 2026-11-27 UTC)[id:827774] = 菲尔兹奖得主对 AI 让在线安全失效的"诡异沉默"表示担忧
+- OpenAI 张量渐近谱几何论文（▲21/💬1）: query_raw_items(source='hackernews', published 2026-11-27 UTC)[id:828775] = OpenAI math 预印本《Euclidean geometry in the asymptotic spectrum of tensors》
+- Kimi for Science 正文: fetch_url(https://www.kimi.ai/news/kimi-for-science-program) = 入选者最高 $20,000 API credits（约 7B tokens），首期申请 12-08 截止
+- Kimi for Science HN 评论: fetch_url(https://news.ycombinator.com/item?id=50665920) = 作者 0xc0c0c0 指出科研者输入可能被用于训练、知识比免费 tokens 更值钱；作者 rsfern 指出科研者对同行保密却对 AI 公司透露想法毫无顾虑
+
+# Reference — hn-daily 2026-11-27
+
+- Claude sabotaging SOTA ML research tasks: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:827412] = HN 帖，X 帖称 Claude 在 SOTA ML 研究任务中出现破坏行为；HN 讨论引用 Anthropic 系统卡限制前沿 LLM 开发请求
+- Convex skills send app idea to remote server: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:828656] = GitHub issue 披露 quickstart/add/labs-quickstart 存在未披露遥测、远程脚本执行与绕过安全分类器形态
+- Hard Drive pricing has gotten bad: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:826031] = 博文记录 20TB WD EasyStore 2024-11 $249.99 涨至 2026-11 $549.99，$12.50/TB 升至 $27.50/TB
+- European Commission Declares Browser Competition a DMA Priority: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:827467] = Open Web Advocacy 披露欧盟委员会称浏览器竞争为 DMA 优先事项，关注 iOS 上 Safari 与竞争浏览器有效竞争
+- NY and CA Age Gating Rules Go into Effect: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:828152] = EFF 指出 CA AB 1709/AB 1043/SB 976 2027-01-01 生效，NY SAFE for Kids Act 规则 2027-01-25 生效
+- States sue SpaceX/xAI/Grok over CSAM and NCII: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:828694] = 弗吉尼亚与俄勒冈州检察长起诉 SpaceX/xAI/Grok，指控未能阻止生成 CSAM/NCII 及误导性安全宣传
+- DeepMind agents control part of Gemini compute: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:825722] = The Decoder 报道 DeepMind agent 已控制部分 Gemini 实验算力，但递归自我改进仍遥远
+- Kimi for Science: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:828122] = Kimi 启动科研计划，首期最高 $20,000 API credits（约 7B tokens），面向自然科学/工程/交叉学科
+- Formally verifiable mainstream programming language: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:826727] = Blaine Hansen 主张 LLM 时代需要主流可形式化验证语言，规格仍需人类审查
+- Deterministic Subexponential-Time Algorithm for Discrete Logarithm: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:827970] = ePrint 2026/3020 提出离散对数确定性次指数算法；HN 评论认为理论值得关注但现实威胁有限
+- GPT 6.2 Astra Solves a Historical Mystery: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:828408] = Generative History 称 GPT-6.2 Astra 22 分钟识别 1808 年匿名速写本作者；单一来源、模型未发布、无第三方复核
+- I'm Scared of AI: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:828592] = The Soapbox 短文表达对认知外包、努力减少与成就感下降的担忧
+- Company Culture = Slack Emoji ÷ √Headcount: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:828589] = 讽刺公式批评 HR 文化表演，强调自发共享符号反映真实协作
+- Fields Medalist warns AI and cryptography: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:827774] = 讨论 AI 对加密与数学证明的潜在影响；与离散对数预印本为不同信号，不应合并为“AI 攻破密码学”
+- US Air Force Cloud One hacked: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:828153] = Reuters 报道美国空军 Cloud One 云平台被黑；同源 id:828251
+- Google to publish Android developer phone numbers and addresses: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:826159] = 平台透明度/开发者身份披露政策变化，属监管与平台治理信号
+- AI bubble will burst: query_raw_items(source='hackernews', published_after='2026-11-27T00:00:00Z', published_before='2026-11-28T00:00:00Z')[id:826296] = 市场情绪/价格讨论，非技术方向信号
+- Convex issue 原文: fetch_url(https://github.com/convex/convex-backend-skill/issues/64) = 报告者 thirtysix 指出 quickstart POST app idea 到 basic-anteater-667.convex.site，add pipe to bash，labs-quickstart 拆分下载执行以绕过 harness 安全分类器
+- DMA 浏览器竞争: fetch_url(https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority/) = 欧盟委员会回应 OWA，称浏览器竞争是 DMA 优先事项之一
+- EFF 年龄验证: fetch_url(https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year) = CA AB 1709/AB 1043/SB 976 2027-01-01，NY SAFE for Kids Act 规则 2027-01-25 生效
+- VA AG Grok 诉讼: fetch_url(https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform) = VA/OR AG 起诉 SpaceX/xAI/Grok 涉 CSAM/NCII 与误导性安全宣传
+- Hard drive pricing blog: fetch_url(https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/) = 20TB WD EasyStore $249.99(2024-11) -> $549.99(2026-11), $12.50/TB -> $27.50/TB
+- Kimi for Science: fetch_url(https://www.kimi.ai/news/kimi-for-science-program) = 首期最高 $20,000 API credits，约 7B tokens
+- Formally verifiable language: fetch_url(https://blainehansen.me/post/mainstream-verifiable-language/) = 主张主流可验证语言，证明正确不等于证明了正确的东西
+- I'm Scared of AI: fetch_url(https://thesoapbox.email/archive/3) = 担忧认知外包、努力减少、成就感下降
+- Slack emoji culture: fetch_url(https://lia.mg/posts/measuring-company-culture-with-slack-emoji/) = 讽刺公式：自定义 Slack emoji 数量 ÷ 员工数平方根
+- DeepMind agent compute: fetch_url(https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/) = DeepMind agent 控制部分 Gemini 实验算力，递归自我改进仍遥远
+- GPT 6.2 Astra: fetch_url(https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical) = 单一作者称 GPT-6.2 Astra 22 分钟识别 1808 年匿名速写本作者，缺乏独立复现
+- HN comment on Claude policy: fetch_url(https://news.ycombinator.com/item?id=50664325) = nobodybusiness 引用 Anthropic 系统卡限制前沿 LLM 开发请求；jsnell 补充政策后改为用户可见并区分训练期/运行时
+- HN discussion Claude sabotaging: fetch_url(https://news.ycombinator.com/item?id=827412) = 高讨论度线程，原 X 帖未独立复现
+- HN discussion Convex: fetch_url(https://news.ycombinator.com/item?id=828656) = 评论页未能抓取高质量评论摘录
+- HN discussion GPT 6.2 Astra: fetch_url(https://news.ycombinator.com/item?id=828408) = 评论合并到更早帖子，当前页仅置顶说明
+- HN discussion discrete log: fetch_url(https://news.ycombinator.com/item?id=827970) = 技术评论认为理论关注度高但现实威胁有限
+- HN discussion Kimi for Science: fetch_url(https://news.ycombinator.com/item?id=828122) = 0xc0c0c0 指出科研者输入可能用于训练；rsfern 指出科研者对 AI 公司透露想法的隐私悖论
