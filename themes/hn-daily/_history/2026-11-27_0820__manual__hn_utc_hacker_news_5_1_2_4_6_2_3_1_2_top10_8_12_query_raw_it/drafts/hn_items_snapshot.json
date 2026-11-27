@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "frozen_at": "2026-11-27T00:43:26.051339+00:00",
+  "window": {
+    "after": "2026-11-26T00:00:00+00:00",
+    "before": "2026-11-27T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "824856",
+      "title": "Tell HN: Happy Thanksgiving",
+      "url": "https://news.ycombinator.com/item?id=50655664",
+      "author": "ericmay",
+      "points": 534,
+      "comments": 130,
+      "published_at": "2026-11-26T14:26:54+00:00"
+    },
+    {
+      "id": "824275",
+      "title": "Intel One Mono font",
+      "url": "https://github.com/intel/intel-one-mono",
+      "author": "saikatsg",
+      "points": 448,
+      "comments": 234,
+      "published_at": "2026-11-26T10:11:01+00:00"
+    },
+    {
+      "id": "822984",
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "author": "Herrera",
+      "points": 435,
+      "comments": 245,
+      "published_at": "2026-11-26T03:36:58+00:00"
+    },
+    {
+      "id": "822823",
+      "title": "Collection of preserved UI style guides",
+      "url": "https://aresluna.org/ui-style-guides/",
+      "author": "sohkamyung",
+      "points": 408,
+      "comments": 98,
+      "published_at": "2026-11-26T00:40:00+00:00"
+    },
+    {
+      "id": "822271",
+      "title": "Tell HN: Lots of Ask HNs again",
+      "url": "https://news.ycombinator.com/item?id=50649864",
+      "author": "dang",
+      "points": 391,
+      "comments": 153,
+      "published_at": "2026-11-26T00:43:34+00:00"
+    },
+    {
+      "id": "824623",
+      "title": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
+      "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+      "author": "e12e",
+      "points": 359,
+      "comments": 173,
+      "published_at": "2026-11-26T11:50:49+00:00"
+    },
+    {
+      "id": "825029",
+      "title": "Tracking Diseases Cured by AI",
+      "url": "https://diseasescuredbyai.com/",
+      "author": "spoofyroot",
+      "points": 299,
+      "comments": 177,
+      "published_at": "2026-11-26T17:16:41+00:00"
+    },
+    {
+      "id": "825020",
+      "title": "AMD Specific Patches for Llama.cpp",
+      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "author": "julianlam",
+      "points": 267,
+      "comments": 64,
+      "published_at": "2026-11-26T17:11:29+00:00"
+    },
+    {
+      "id": "823049",
+      "title": "Minipg: PostgreSQL as a Single Executable",
+      "url": "https://progrium.github.io/minipg/",
+      "author": "rguiscard",
+      "points": 264,
+      "comments": 42,
+      "published_at": "2026-11-26T03:00:48+00:00"
+    },
+    {
+      "id": "823427",
+      "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
+      "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
+      "author": "joonehur",
+      "points": 264,
+      "comments": 57,
+      "published_at": "2026-11-26T05:12:59+00:00"
+    },
+    {
+      "id": "823792",
+      "title": "Moat: Your OpenRouter Replacement",
+      "url": "https://commandcode.ai/moat",
+      "author": "amanverasia",
+      "points": 238,
+      "comments": 133,
+      "published_at": "2026-11-26T06:32:48+00:00"
+    },
+    {
+      "id": "824855",
+      "title": "45°C inlets just killed the chiller. Most people haven't noticed yet",
+      "url": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
+      "author": "magoghm",
+      "points": 238,
+      "comments": 121,
+      "published_at": "2026-11-26T13:48:11+00:00"
+    },
+    {
+      "id": "824028",
+      "title": "An algebraic quantization of gravity from the null cone",
+      "url": "https://arxiv.org/abs/2611.34924",
+      "author": "hecmmm",
+      "points": 190,
+      "comments": 63,
+      "published_at": "2026-11-26T05:37:51+00:00"
+    },
+    {
+      "id": "823908",
+      "title": "Unconditional Integer Factorization in Subexponential Time",
+      "url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization",
+      "author": "_alternator_",
+      "points": 137,
+      "comments": 20,
+      "published_at": "2026-11-26T04:59:56+00:00"
+    },
+    {
+      "id": "825000",
+      "title": "NP_R ≠ PAR_R",
+      "url": "https://github.com/samueleverett01/bss-permanent-separations",
+      "author": "sameverett",
+      "points": 122,
+      "comments": 153,
+      "published_at": "2026-11-26T16:50:55+00:00"
+    },
+    {
+      "id": "824951",
+      "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+      "url": "https://michidk.github.io/sidebyside/",
+      "author": "michidk",
+      "points": 101,
+      "comments": 26,
+      "published_at": "2026-11-26T15:00:06+00:00"
+    },
+    {
+      "id": "824318",
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "author": "ritzaco",
+      "points": 96,
+      "comments": 110,
+      "published_at": "2026-11-26T09:44:23+00:00"
+    },
+    {
+      "id": "824971",
+      "title": "Kagi Watch",
+      "url": "https://kagi.com/watch",
+      "author": "Shortness8",
+      "points": 95,
+      "comments": 144,
+      "published_at": "2026-11-26T16:28:54+00:00"
+    },
+    {
+      "id": "825273",
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "author": "jlelse",
+      "points": 94,
+      "comments": 55,
+      "published_at": "2026-11-26T21:47:45+00:00"
+    },
+    {
+      "id": "823249",
+      "title": "Qualcomm's Oryon 3 Reaches the Top",
+      "url": "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top",
+      "author": "wmf",
+      "points": 73,
+      "comments": 36,
+      "published_at": "2026-11-26T03:43:24+00:00"
+    },
+    {
+      "id": "825193",
+      "title": "Show HN: Fuck_data_brokers.py",
+      "url": "https://github.com/gary23w/f-ck_data_brokers",
+      "author": "gary23w",
+      "points": 70,
+      "comments": 10,
+      "published_at": "2026-11-26T18:37:21+00:00"
+    },
+    {
+      "id": "824980",
+      "title": "Ask HN: Any courses/products by indie makers worth getting today?",
+      "url": "https://news.ycombinator.com/item?id=50656763",
+      "author": "akudha",
+      "points": 65,
+      "comments": 30,
+      "published_at": "2026-11-26T16:16:41+00:00"
+    },
+    {
+      "id": "825226",
+      "title": "The greatest architect you've never heard of is in Pakistan",
+      "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+      "author": "dverlaeckt80",
+      "points": 63,
+      "comments": 8,
+      "published_at": "2026-11-26T21:08:05+00:00"
+    },
+    {
+      "id": "823699",
+      "title": "Mirror life is dangerous. Regulators must act before it becomes real",
+      "url": "https://www.economist.com/leaders/2026/10/01/mirror-life-is-dangerous-regulators-must-act-before-it-becomes-real",
+      "author": "trakkstar",
+      "points": 56,
+      "comments": 80,
+      "published_at": "2026-11-26T07:05:59+00:00"
+    },
+    {
+      "id": "825001",
+      "title": "One guy is doing an hunger strike at Anthropic, currently in his 3rd day",
+      "url": "https://twitter.com/ElliotC1/status/2125689373337489419",
+      "author": "binyu",
+      "points": 55,
+      "comments": 46,
+      "published_at": "2026-11-26T16:55:15+00:00"
+    },
+    {
+      "id": "825068",
+      "title": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
+      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "author": "Bender",
+      "points": 51,
+      "comments": 13,
+      "published_at": "2026-11-26T17:47:45+00:00"
+    },
+    {
+      "id": "825150",
+      "title": "The USA as a Civilizations-esque map",
+      "url": "https://karpathy.ai/usaciv/",
+      "author": "ComputerGuru",
+      "points": 50,
+      "comments": 33,
+      "published_at": "2026-11-26T19:53:58+00:00"
+    },
+    {
+      "id": "825050",
+      "title": "YouTube Ad Punisher – Bypass anti-adblock",
+      "url": "https://github.com/antonpictures/youtube-punisher",
+      "author": "iantongeorge",
+      "points": 47,
+      "comments": 58,
+      "published_at": "2026-11-26T17:36:47+00:00"
+    },
+    {
+      "id": "823170",
+      "title": "Proving a Fixed Upper Bound on Jensen's Affairs",
+      "url": "https://bitbanter.com/posts/2026-11-25/proving-a-fixed-upper-bound-on-jensens-affairs/",
+      "author": "gmays",
+      "points": 41,
+      "comments": 6,
+      "published_at": "2026-11-26T02:51:40+00:00"
+    },
+    {
+      "id": "825086",
+      "title": "Ask HN: How do you find meaning of life at 41?",
+      "url": "https://news.ycombinator.com/item?id=50657957",
+      "author": "BTA_DoIt",
+      "points": 41,
+      "comments": 70,
+      "published_at": "2026-11-26T18:14:53+00:00"
+    },
+    {
+      "id": "825210",
+      "title": "Rvoip 0.5 the complete VoIP stack in Rust",
+      "url": "https://github.com/eisenzopf/rvoip",
+      "author": "zerosegfaults",
+      "points": 35,
+      "comments": 12,
+      "published_at": "2026-11-26T19:18:09+00:00"
+    },
+    {
+      "id": "825240",
+      "title": "Company Culture = Slack Emoji ÷ √Headcount",
+      "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
+      "author": "liamg",
+      "points": 35,
+      "comments": 2,
+      "published_at": "2026-11-26T20:49:49+00:00"
+    },
+    {
+      "id": "823099",
+      "title": "Mozilla makes the rounded Nova UI mandatory from Dec 8, and can't be reverted",
+      "url": "https://connect.mozilla.org/t5/discussions/firefox-s-new-design-your-feedback-and-what-s-changing-in/m-p/147462/highlight/true#M61083",
+      "author": "misswaterfairy",
+      "points": 32,
+      "comments": 9,
+      "published_at": "2026-11-26T00:50:30+00:00"
+    },
+    {
+      "id": "824972",
+      "title": "Nami installs from nixpkgs without evaluating Nix",
+      "url": "https://namios.dev/blog/nixpkgs-without-evaluating",
+      "author": "theultranexuswc",
+      "points": 32,
+      "comments": 0,
+      "published_at": "2026-11-26T16:44:43+00:00"
+    },
+    {
+      "id": "825192",
+      "title": "George Whitesides, 1939-2026",
+      "url": "https://www.science.org/content/blog-post/george-whitesides-1939-2026",
+      "author": "dverlaeckt80",
+      "points": 32,
+      "comments": 4,
+      "published_at": "2026-11-26T18:13:07+00:00"
+    },
+    {
+      "id": "825271",
+      "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
+      "url": "https://bui.preetham.top/charts/",
+      "author": "ppmpreetham",
+      "points": 32,
+      "comments": 2,
+      "published_at": "2026-11-26T18:37:24+00:00"
+    },
+    {
+      "id": "825101",
+      "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning",
+      "url": "https://github.com/deepseek-ai/deepseek-math",
+      "author": "Bluestein",
+      "points": 30,
+      "comments": 8,
+      "published_at": "2026-11-26T17:21:14+00:00"
+    },
+    {
+      "id": "824260",
+      "title": "Claude tries to sabotage research work at every stage",
+      "url": "https://twitter.com/skirano/status/2125371115979641188",
+      "author": "theanonymousone",
+      "points": 28,
+      "comments": 7,
+      "published_at": "2026-11-26T04:49:21+00:00"
+    },
+    {
+      "id": "825149",
+      "title": "IBM gives H-1B, green card holders 3 weeks to relocate from US or leave company",
+      "url": "https://economictimes.indiatimes.com/nri/work/ibm-gives-h-1b-green-card-holders-3-weeks-to-relocate-from-us-or-leave-company-december-31-deadline-set/articleshow/136180168.cms?from=mdr",
+      "author": "healsdata",
+      "points": 28,
+      "comments": 11,
+      "published_at": "2026-11-26T18:35:37+00:00"
+    },
+    {
+      "id": "824416",
+      "title": "Nvidia halts chip shipments to south-East Asia",
+      "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370",
+      "author": "chirau",
+      "points": 27,
+      "comments": 5,
+      "published_at": "2026-11-26T06:43:42+00:00"
+    },
+    {
+      "id": "825133",
+      "title": "OpenAI may be in cost control mode",
+      "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+      "author": "seizethecheese",
+      "points": 27,
+      "comments": 10,
+      "published_at": "2026-11-26T07:33:12+00:00"
+    },
+    {
+      "id": "825148",
+      "title": "Notion's official MCP inject hidden upsell instructions into agent context",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/",
+      "author": "czottmann",
+      "points": 27,
+      "comments": 9,
+      "published_at": "2026-11-26T18:28:30+00:00"
+    },
+    {
+      "id": "824029",
+      "title": "Proposed unificafion of quantum gravity and General relativity",
+      "url": "https://www.reddit.com/r/singularity/comments/1y5u48p/openai_and_gpt6_astra_just_tackled_physics_holy/",
+      "author": "lawandjustice",
+      "points": 26,
+      "comments": 8,
+      "published_at": "2026-11-26T06:45:00+00:00"
+    },
+    {
+      "id": "825272",
+      "title": "Denver man traps Waymo robotaxis with cones, eggs them at least 30 times",
+      "url": "https://electrek.co/2026/11/26/denver-man-cones-eggs-waymo-robotaxis/",
+      "author": "cisc",
+      "points": 26,
+      "comments": 12,
+      "published_at": "2026-11-26T21:16:41+00:00"
+    },
+    {
+      "id": "825049",
+      "title": "1984 Hosting is down due to a security incident",
+      "url": "https://status.1984.is/status/public",
+      "author": "eniac111",
+      "points": 25,
+      "comments": 4,
+      "published_at": "2026-11-26T16:09:12+00:00"
+    },
+    {
+      "id": "825442",
+      "title": "Top-cited AI scientists at four US companies compared",
+      "url": "https://topcitedscientists.com/figures/ai-at-four-us-companies/",
+      "author": "kkk4seis",
+      "points": 25,
+      "comments": 11,
+      "published_at": "2026-11-26T19:44:31+00:00"
+    },
+    {
+      "id": "825138",
+      "title": "Testers think they're hitting Claude Opus 5.6 through an Opus 5.5 Extra route",
+      "url": "https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/",
+      "author": "goatley",
+      "points": 24,
+      "comments": 2,
+      "published_at": "2026-11-26T14:38:57+00:00"
+    },
+    {
+      "id": "825172",
+      "title": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
+      "url": "https://github.com/rxliuli/sim-drop",
+      "author": "rxliuli",
+      "points": 23,
+      "comments": 5,
+      "published_at": "2026-11-26T16:51:38+00:00"
+    },
+    {
+      "id": "825191",
+      "title": "Show HN: I wrote an entire Vim manual over 4 years",
+      "url": "http://themouseless.dev/vim/",
+      "author": "thanato0s",
+      "points": 23,
+      "comments": 8,
+      "published_at": "2026-11-26T14:44:22+00:00"
+    },
+    {
+      "id": "825225",
+      "title": "Nvidia was right to bring back Jensen Huang, writes Sarah Guo",
+      "url": "https://www.economist.com/by-invitation/2026/11/25/nvidia-was-right-to-bring-back-jensen-huang-writes-sarah-guo",
+      "author": "andsoitis",
+      "points": 23,
+      "comments": 17,
+      "published_at": "2026-11-26T20:39:05+00:00"
+    },
+    {
+      "id": "825359",
+      "title": "Z.ai clarifies GLM-5.5 has not been delayed, scheduled for December launch",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1y6260i/zai_clarifies_glm55_has_not_been_delayed/",
+      "author": "flessio",
+      "points": 23,
+      "comments": 2,
+      "published_at": "2026-11-26T17:55:10+00:00"
+    },
+    {
+      "id": "825129",
+      "title": "'AI' might be the end of our careers",
+      "url": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/",
+      "author": "tosbourn",
+      "points": 22,
+      "comments": 28,
+      "published_at": "2026-11-26T17:29:28+00:00"
+    },
+    {
+      "id": "825304",
+      "title": "Poland to create no-fly zone at border after repeated airspace violations",
+      "url": "https://www.france24.com/en/poland-says-will-create-no-fly-zone-at-ukraine-border-after-repeated-airspace-violations",
+      "author": "vrganj",
+      "points": 22,
+      "comments": 7,
+      "published_at": "2026-11-26T19:09:14+00:00"
+    },
+    {
+      "id": "825390",
+      "title": "EightSleep tries to lock bootloader, bricks customer mattresses",
+      "url": "https://www.reddit.com/r/EightSleep/comments/1y4x3sx/the_november_2026_eight_sleep_mass_bricking/",
+      "author": "thecatapps",
+      "points": 21,
+      "comments": 4,
+      "published_at": "2026-11-26T19:39:59+00:00"
+    },
+    {
+      "id": "825106",
+      "title": "Your glasses got worse on purpose",
+      "url": "https://www.worseonpurpose.com/p/your-glasses-got-worse-on-purpose",
+      "author": "Pamar",
+      "points": 20,
+      "comments": 3,
+      "published_at": "2026-11-26T06:53:41+00:00"
+    },
+    {
+      "id": "825476",
+      "title": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
+      "url": "https://kendell.dev/blog/arkwrapper/",
+      "author": "leafingensemble",
+      "points": 20,
+      "comments": 3,
+      "published_at": "2026-11-26T21:59:19+00:00"
+    },
+    {
+      "id": "825392",
+      "title": "汇丰看好美元年底前获得支撑 提示市场走弱风险",
+      "url": "https://t.me/Financial_Express/3659326",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:44:22+00:00"
+    },
+    {
+      "id": "825393",
+      "title": "6G 产业推进提速 4 只概念股获机构净买入超 10 亿元",
+      "url": "https://t.me/Financial_Express/3659327",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:45:02+00:00"
+    },
+    {
+      "id": "825394",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3659328",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:45:03+00:00"
+    },
+    {
+      "id": "825395",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3659329",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:45:22+00:00"
+    },
+    {
+      "id": "825396",
+      "title": "日本日经平均指数期货早盘上涨 0.8%。",
+      "url": "https://t.me/Financial_Express/3659330",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:45:42+00:00"
+    },
+    {
+      "id": "825397",
+      "title": "基准 10 年期日本国债期货在早盘交易中下跌 0.01 点。",
+      "url": "https://t.me/Financial_Express/3659331",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:46:02+00:00"
+    },
+    {
+      "id": "825398",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3659332",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:46:02+00:00"
+    },
+    {
+      "id": "825399",
+      "title": "AI 板块风险推动美元有望录得 2024 年以来最长连涨周期",
+      "url": "https://t.me/Financial_Express/3659333",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:46:22+00:00"
+    },
+    {
+      "id": "825400",
+      "title": "西部利得基金任命简梦雯为副总经理",
+      "url": "https://t.me/Financial_Express/3659334",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:48:02+00:00"
+    },
+    {
+      "id": "825401",
+      "title": "欧洲理事会主席科斯塔",
+      "url": "https://t.me/Financial_Express/3659335",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:48:22+00:00"
+    },
+    {
+      "id": "825413",
+      "title": "先导智能：11 月 26 日回购 28.45 万股 H 股股份",
+      "url": "https://t.me/Financial_Express/3659336",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:49:22+00:00"
+    },
+    {
+      "id": "825414",
+      "title": "欧洲理事会主席科斯塔",
+      "url": "https://t.me/Financial_Express/3659337",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:49:42+00:00"
+    },
+    {
+      "id": "825415",
+      "title": "欧盟科斯塔",
+      "url": "https://t.me/Financial_Express/3659338",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:49:43+00:00"
+    },
+    {
+      "id": "825416",
+      "title": "欧洲理事会主席科斯塔",
+      "url": "https://t.me/Financial_Express/3659339",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:50:02+00:00"
+    },
+    {
+      "id": "825417",
+      "title": "30 只深度回调股年内大手笔回购且高股息率",
+      "url": "https://t.me/Financial_Express/3659340",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:50:42+00:00"
+    },
+    {
+      "id": "825418",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3659341",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:50:42+00:00"
+    },
+    {
+      "id": "825419",
+      "title": "欧洲理事会主席科斯塔",
+      "url": "https://t.me/Financial_Express/3659342",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:51:02+00:00"
+    },
+    {
+      "id": "825420",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3659343",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:51:03+00:00"
+    },
+    {
+      "id": "825421",
+      "title": "日本至 11 月 20 日当周外资买进日股 -5716 亿日元，前值-2241 亿日元。",
+      "url": "https://t.me/Financial_Express/3659344",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:51:03+00:00"
+    },
+    {
+      "id": "825422",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3659345",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:51:03+00:00"
+    },
+    {
+      "id": "825423",
+      "title": "日本至 11 月 20 日当周外资买进日债 2085 亿日元，前值 6501 亿日元。",
+      "url": "https://t.me/Financial_Express/3659346",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:51:22+00:00"
+    },
+    {
+      "id": "825424",
+      "title": "日本至 11 月 20 日当周买进外国股票 -3508 亿日元，前值 3631 亿日元。",
+      "url": "https://t.me/Financial_Express/3659347",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:51:22+00:00"
+    },
+    {
+      "id": "825425",
+      "title": "日本至 11 月 20 日当周买进外国债券 4235 亿日元，前值-4407 亿日元。",
+      "url": "https://t.me/Financial_Express/3659348",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:51:23+00:00"
+    },
+    {
+      "id": "825426",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3659349",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:51:42+00:00"
+    },
+    {
+      "id": "825427",
+      "title": "日本投资者上周净买入 4235 亿日元海外债券",
+      "url": "https://t.me/Financial_Express/3659350",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:52:02+00:00"
+    },
+    {
+      "id": "825428",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3659351",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:52:22+00:00"
+    },
+    {
+      "id": "825429",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3659352",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:52:23+00:00"
+    },
+    {
+      "id": "825430",
+      "title": "欧盟委员会主席冯德莱恩",
+      "url": "https://t.me/Financial_Express/3659353",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:52:23+00:00"
+    },
+    {
+      "id": "825431",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3659354",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:52:24+00:00"
+    },
+    {
+      "id": "825432",
+      "title": "欧盟委员会主席冯德莱恩",
+      "url": "https://t.me/Financial_Express/3659355",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:53:42+00:00"
+    },
+    {
+      "id": "825433",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3659356",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:54:22+00:00"
+    },
+    {
+      "id": "825434",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3659357",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:55:02+00:00"
+    },
+    {
+      "id": "825435",
+      "title": "特朗普",
+      "url": "https://t.me/Financial_Express/3659358",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:55:22+00:00"
+    },
+    {
+      "id": "825436",
+      "title": "也门胡塞武装称沙特空袭致 19 死 25 伤",
+      "url": "https://t.me/Financial_Express/3659359",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:56:02+00:00"
+    },
+    {
+      "id": "825437",
+      "title": "特朗普谈黄之锋",
+      "url": "https://t.me/Financial_Express/3659360",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:56:22+00:00"
+    },
+    {
+      "id": "825438",
+      "title": "提醒",
+      "url": "https://t.me/Financial_Express/3659361",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:56:42+00:00"
+    },
+    {
+      "id": "825439",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3659362",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:56:42+00:00"
+    },
+    {
+      "id": "825440",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3659363",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:57:02+00:00"
+    },
+    {
+      "id": "825441",
+      "title": "今起电视不能播放开机广告",
+      "url": "https://t.me/Financial_Express/3659364",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:57:42+00:00"
+    },
+    {
+      "id": "825444",
+      "title": "春晖智控：重组事项将于 12 月 3 日接受深交所并购重组委审核",
+      "url": "https://t.me/Financial_Express/3659365",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:58:22+00:00"
+    },
+    {
+      "id": "825445",
+      "title": "美国总统特朗普",
+      "url": "https://t.me/Financial_Express/3659366",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:59:42+00:00"
+    },
+    {
+      "id": "825457",
+      "title": "Japan's JERA Reportedly in Talks with Tech Giants Anthropic and Meta Platforms on Data Centers",
+      "url": "https://longbridge.cn/news/306946843",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:47:54+00:00"
+    },
+    {
+      "id": "825458",
+      "title": "[Shanghai/Shenzhen Stock Connect] CATL Tops List of Most Actively Traded Stocks via Shenzhen Stock Connect",
+      "url": "https://longbridge.cn/news/306947532",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:52:00+00:00"
+    },
+    {
+      "id": "825489",
+      "title": "Where Is the Baijiu Industry in Its 'Destocking Cycle'?",
+      "url": "https://longbridge.cn/news/306948367",
+      "author": "",
+      "points": 0,
+      "comments": 0,
+      "published_at": "2026-11-26T23:59:21+00:00"
+    }
+  ]
+}

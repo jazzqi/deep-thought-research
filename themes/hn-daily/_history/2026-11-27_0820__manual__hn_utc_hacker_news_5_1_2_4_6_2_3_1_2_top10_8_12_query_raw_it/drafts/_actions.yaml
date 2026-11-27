@@ -1,0 +1,12 @@
+actions:
+- priority: P3
+  summary: 跟踪 AI 攻基础科学四条线索（整数分解/NP_R≠PAR_R/量子引力/DeepSeekMath）的同行评议与复现结果，验证可验证工件能否跨过评审门槛
+  target_flow_params: {}
+  type: follow_up
+  verification_date: '2026-12-27'
+- priority: P3
+  recurrence: weekly
+  summary: 监控 agent 工具链信任边界（Google MCP 强制令/Notion 上下文投毒）与推理成本约束（OpenAI 成本调优/收紧用量）的
+    3-6 个月演进
+  target_flow_params: {}
+  type: monitoring

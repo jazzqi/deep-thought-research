@@ -1,0 +1,4 @@
+## 第 1 轮 Lead 综合（tech_generalist）
+
+{"action": "finalize", "questions": ["【少数派分歧·接力须保留】kevin_kelly 对「AI 知化做数学」方向与时间表显著更乐观：方向置信度 80[高]、5 年内基础研究范式重构 60[中]，并把 Google 强制 MCP、OpenAI 收紧用量解读为「免疫反应越激烈越接近临界点」的正面验证；ai_specialist 与 tech_generalist 依据 unique_insight(high) 历史证实率仅 29%（14 样本，EWMA 0.18，近期判读多被证伪），对单篇突破只给 40%、强调整数分解是上界证明且四条线索均未经同行评议。分歧本质是「趋势确定性 vs 单点可交易性」两个不同问题，非方向对立——5 条共识已覆盖能力/工具/成本/市场/全链路四节点，少数派观点已在 2026-11-27.md 分歧地图中如实记录，接力写作须保留。"], "confirmed_missing_indicators": [], "confirmed_event_mappings": [], "actions": [{"type": "follow_up", "priority": "P3", "summary": "跟踪 AI 攻基础科学四条线索（整数分解/NP_R≠PAR_R/量子引力/DeepSeekMath）的同行评议与复现结果，验证可验证工件能否跨过评审门槛", "verification_date": "2026-12-27"}, {"type": "monitoring", "priority": "P3", "summary": "监控 agent 工具链信任边界（Google MCP 强制令/Notion 上下文投毒）与推理成本约束（OpenAI 成本调优/收紧用量）的 3-6 个月演进", "recurrence": "weekly"}]}
+
