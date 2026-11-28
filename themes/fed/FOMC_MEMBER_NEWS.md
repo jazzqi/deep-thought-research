@@ -2,7 +2,7 @@
 
 > **本文件由数据库生成（D136），请勿手工编辑。**
 > 机器可读：`GET /api/fomc/members/{id}/statements`。
-> 生成时间：2026-11-27 21:00 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
+> 生成时间：2026-11-28 20:45 UTC；数据窗口：最近 45 天；仅收录可归属到本人的讲话/表态标题。同一次讲话的官方/媒体/快讯重复收录已按「成员+日期」合并。
 
 ## 克里斯托弗·沃勒（Christopher J. Waller）
 
@@ -106,9 +106,9 @@
   来源: telegram:Financial_Express（同日 2 条已合并） | 正文长度: 71 字
   片段: …美联储负责监管的副主席米歇尔·鲍曼：将继续敦促将重点放在对金融体系构成威胁的风险上，而不是与流程相关的事项上，并敦促全球监管机构采取类似行动。
 
-- **鲍曼：目前不认为美联储需急于调整利率**（2026-10-14 09:55）
-  来源: federalreserve.gov / telegram:Financial_Express（同日 2 条已合并） | 正文长度: 115 字 | 立场: 鹰 +0.35
-  片段: …鲍曼：目前不认为美联储需急于调整利率 金十数据 10 月 14 日讯，美联储理事鲍曼：通胀仍高于我们的目标，（但）目前并不认为美联储有必要急于进一步调整利率。在上次加息后，我们需要一些时间观察金融状况的发展，然后再采取进一步行动。
+- **Supervisory Modernization After Silicon Valley Bank**（2026-10-14 22:55）
+  来源: federalreserve.gov | 正文长度: 13312 字
+  片段: …An independent review of Silicon Valley Bank’s 2023 failure found Fed supervisors knew of its interest-rate and liquidity vulnerabilities at least nine months b
 
 ## 菲利普·杰斐逊（Philip N. Jefferson）
 
