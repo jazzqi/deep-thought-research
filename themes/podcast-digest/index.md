@@ -4,8 +4,8 @@ slug: podcast-digest
 status: active
 lead_agent: tech_generalist
 created: 2026-08-16
-updated: 2026-11-28T03:19:07+08:00
-revision: 2026-11-28T03:19:07+08:00
+updated: 2026-11-29T03:19:45+08:00
+revision: 2026-11-29T03:19:45+08:00
 sources: []
 ---
 # 播客/访谈学习文档（Podcast Digest）
@@ -21,10 +21,11 @@ sources: []
 
 ## 最新一期
 
-- [WHOOP CEO Will Ahmed：500 亿小时健康数据、400 万会员数据护城河与 FDA 之战 —— Will Ahmed（WHOOP CEO）· All In · 2026-10-29](./all-in/whoop-ceo-will-ahmed-50b-hours-of-health-data-a-4-million-me.md)
+- [What's Still Valuable When Intelligence Is Free —— ILTB Podcast · 2026-10-27](./iltb/whats-still-valuable-when-intelligence-is-free.md)
 
 ## 往期
 
+- [What's Still Valuable When Intelligence Is Free —— ILTB Podcast · 2026-10-27](./iltb/whats-still-valuable-when-intelligence-is-free.md)
 - [WHOOP CEO Will Ahmed：500 亿小时健康数据、400 万会员数据护城河与 FDA 之战 —— Will Ahmed（WHOOP CEO）· All In · 2026-10-29](./all-in/whoop-ceo-will-ahmed-50b-hours-of-health-data-a-4-million-me.md)
 - [Anthropic S-1 震撼、"史上最强生意"？谷歌 5000 亿美元蒸发、中期选举预测 —— All-In Podcast · 2026-10-30](./all-in/anthropic-s-1-shocker-greatest-business-ever-googles-500b-wi.md)
 - [What Happens When the AI Boom Slows Down —— ILTB Podcast · 2026-11-04](./iltb/what-happens-when-the-ai-boom-slows-down.md)
